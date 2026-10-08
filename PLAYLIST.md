@@ -8,6 +8,8 @@ Jay prompts this manually each Sunday ("run my Seattle Shows playlist"). Do not 
    - Create a new playlist named `Seattle Shows: <Mon D>–<Mon D>`.
    - For each headliner: open their artist page, take the first 5 songs under "Popular", add them to the playlist. If the artist isn't on Spotify or the match is ambiguous, skip and note it.
    - The Spotify connector's generate_playlist can't do exact track lists — don't use it.
+   - What worked (Oct 7, 2026 run): in page JS, navigate with history.pushState + popstate (no reloads) to `/search/<name>/artists`, take the artist link whose normalized text matches the name exactly, then read the first 5 `[data-testid="tracklist-row"]` track links on the artist page. Then on the playlist page, for each track, set the "Search for songs or episodes" input (native value setter + input event) to "<title> <artist>" and click `[data-testid="add-to-playlist-button"]` in the result row whose artist link matches. Run loops in the background (javascript_tool calls cap at 45s) and poll `window.__log`. Pasting links and URL search do not work in the web player.
+   - Keep the Claude desktop window in front: when the pane is hidden, timers throttle to ~1/min. ~426 tracks took ~15 minutes visible.
 4. When the playlist is complete, email Jay at [address removed] via the Gmail connector:
    - Subject: `Seattle Shows playlist: <date range>`
    - Body: playlist link, then the day-by-day lineup (date, headliner, venue), then any skipped artists.
