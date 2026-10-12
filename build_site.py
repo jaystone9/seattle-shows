@@ -30,12 +30,14 @@ VENUES = {
     "WaMu Theater": {"short": "WaMu Theater", "hood": "SoDo", "site": "https://www.wamutheater.com/"},
     "Chateau Ste. Michelle": {"short": "Ste. Michelle", "hood": "Woodinville", "site": "https://www.ste-michelle.com/visit-us/summer-concerts"},
     "Dune Peninsula": {"short": "Dune Peninsula", "hood": "Tacoma", "site": "https://www.metroparkstacoma.org/"},
+    "Climate Pledge Arena": {"short": "Climate Pledge Arena", "hood": "Seattle Center", "site": "https://climatepledgearena.com/events/"},
+    "T-Mobile Park": {"short": "T-Mobile Park", "hood": "SoDo", "site": "https://www.mlb.com/mariners/tickets/concerts"},
 }
 
 TICKET_HOSTS = ("tixr.com", "ticketweb.com", "showboxpresents.com", "thecrocodile.com",
                 "wamutheater.com", "tickpick.com", "gametime.co", "dice.fm", "axs.com",
                 "ticketmaster.com", "etix.com", "seetickets", "venuepilot", "eventbrite",
-                "seattlechambermusic.org", "seattlesymphony.org", "opendate")
+                "seattlechambermusic.org", "seattlesymphony.org", "opendate", "climatepledgearena.com")
 
 PRESENTER = re.compile(r"^(Showbox Presents|Hotel Crocodile Presents|Tractor Presents|KEXP Presents|KBCS Presents|Seattle Symphony)\s*:\s*", re.I)
 

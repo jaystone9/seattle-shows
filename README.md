@@ -4,7 +4,7 @@ A calendar feed of concerts at Jay's favorite Seattle-area venues, six months ou
 
 **Subscribe (iPhone):** webcal://jaystone9.github.io/seattle-shows/seattle-shows.ics
 
-Venues: The Sunset Tavern, Tractor Tavern, Hidden Hall, Conor Byrne Pub, Nectar Lounge, The Crocodile, The Showbox (Market + SoDo), Benaroya Hall, WaMu Theater, Chateau Ste. Michelle, Dune Peninsula at Point Defiance.
+Venues: The Sunset Tavern, Tractor Tavern, Hidden Hall, Conor Byrne Pub, Nectar Lounge, The Crocodile, The Showbox (Market + SoDo), Benaroya Hall, WaMu Theater, Chateau Ste. Michelle, Dune Peninsula at Point Defiance, Climate Pledge Arena, T-Mobile Park.
 
 See `REFRESH.md` for how the weekly update works.
 

@@ -21,6 +21,8 @@ ADDR = {
     "WaMu Theater": "WaMu Theater, 800 Occidental Ave S, Seattle, WA 98134",
     "Chateau Ste. Michelle": "Chateau Ste. Michelle, 14111 NE 145th St, Woodinville, WA 98072",
     "Dune Peninsula": "Dune Peninsula at Point Defiance Park, 5400 N Pearl St, Tacoma, WA 98407",
+    "Climate Pledge Arena": "Climate Pledge Arena, 334 1st Ave N, Seattle, WA 98109",
+    "T-Mobile Park": "T-Mobile Park, 1250 1st Ave S, Seattle, WA 98134",
 }
 
 VTZ = """BEGIN:VTIMEZONE

@@ -17,6 +17,8 @@ music event at the venues below from TODAY through TODAY + 6 months.
 | benaroya-hall.json | Benaroya Hall (Taper Auditorium / Nordstrom Recital Hall) | official sites block fetches — use Bachtrack, ConcertFix, Songkick, seattlechambermusic.org; one entry per performance date |
 | wamu-theater.json | WaMu Theater | wamutheater.com event calendar (ignore generic "This event Ended" banner) |
 | chateau-ste-michelle.json | Chateau Ste. Michelle, Woodinville | ste-michelle.com summer concerts (lineup usually announced ~March) |
+| climate-pledge-arena.json | Climate Pledge Arena, Seattle Center | climatepledgearena.com/events (calendar only shows ~2 weeks and its next-page links won't fetch; use Songkick venue calendar + ConcertFix, AXS for ticket links). Skip Kraken/Torrent/Storm games, Dancing with the Stars, family shows |
+| t-mobile-park.json | T-Mobile Park, SoDo | mlb.com/mariners/tickets/concerts + ballpark events calendar; stadium shows are usually announced in winter for the summer |
 | dune-peninsula.json | Dune Peninsula, Point Defiance, Tacoma | Metro Parks Tacoma + Showbox Outdoor Concerts (summer series) |
 
 ## Record format
