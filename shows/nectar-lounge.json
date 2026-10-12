@@ -52,11 +52,11 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
-    "title": "Spooky Perreo | A Bad Bunny Night (with DJ Equis)",
+    "title": "Club Slayyy: Slayyyter + Hyperpop Night",
     "date": "2026-10-17",
     "doors": null,
     "start": "21:30",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/spooky-perreo-a-bad-bunny-night-with-dj-equis-206965",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/club-slayyy-slayyyter-hyperpop-night-206965",
     "status": null
   },
   {
@@ -502,6 +502,16 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
+    "title": "Westside Boogie (with 4ust Collective, DJ Indica Jones)",
+    "date": "2026-12-16",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/westside-boogie-plus-4ust-collective-dj-indica-jones-208949",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
     "title": "Cascadia Winter Solstice Weekend ft. Beats Antique (with David Starfire)",
     "date": "2026-12-17",
     "doors": null,
@@ -616,7 +626,7 @@
     "date": "2027-02-27",
     "doors": "20:00",
     "start": "21:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/yonder-mountain-string-band-2-nights--206737",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/yonder-mountain-string-band-2-nights--207719",
     "status": null
   },
   {
@@ -632,11 +642,11 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
-    "title": "Dame Atlas",
+    "title": "Dame Atlas (with Special Guests)",
     "date": "2027-03-10",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43378620-dame-atlas-at-nectar-lounge",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/dame-atlas-with-special-guests-203533",
     "status": null
   }
 ]

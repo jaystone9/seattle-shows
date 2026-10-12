@@ -131,6 +131,16 @@
  },
  {
   "venue": "The Crocodile",
+  "room": "Hotel Crocodile",
+  "title": "Psyched! Radio SF & Hotel Crocodile Present: Satana Satana (Argentina)",
+  "date": "2026-10-30",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://calendar.thecrocodile.com/shows/psyched-radio-sf-hotel-crocodile-present-satana-satana-argentina-30-oct",
+  "status": null
+ },
+ {
+  "venue": "The Crocodile",
   "room": null,
   "title": "Ax and the Hatchetmen: The Late Checkout Tour 2026",
   "date": "2026-10-31",

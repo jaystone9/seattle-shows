@@ -122,6 +122,16 @@
  {
   "venue": "The Sunset Tavern",
   "room": null,
+  "title": "Frames in Motion",
+  "date": "2026-10-24",
+  "doors": "20:00",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43459013-frames-in-motion-at-sunset-tavern",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
   "title": "Marika Che (with Whitney Ballen, Skyler Ford)",
   "date": "2026-10-25",
   "doors": "19:30",
@@ -372,6 +382,16 @@
  {
   "venue": "The Sunset Tavern",
   "room": null,
+  "title": "DEAD BAR'S 6th Annual Amateur Night (with DEAD BARS, Bad Tats (reunion), Tripe, & more)",
+  "date": "2026-11-25",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/25/dead-bar-s-6th-annual-amateur-night-ft-dead-bars-bad-tats-reunion-tripe-more-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
   "title": "Ghoul Talk (with Steel Cartwheel, Kitty O'Hara)",
   "date": "2026-12-03",
   "doors": "19:30",
@@ -407,6 +427,16 @@
   "doors": "19:30",
   "start": null,
   "url": "https://do206.com/events/2026/12/8/bryan-andrews-w-lou-ridley-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Don Piano (with Ray Wolff (record release), Liv Victorino)",
+  "date": "2026-12-12",
+  "doors": "20:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/12/12/don-piano-ray-wolff-record-release-liv-victorino-tickets",
   "status": null
  },
  {

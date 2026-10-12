@@ -442,6 +442,16 @@
   {
     "venue": "Hidden Hall",
     "room": null,
+    "title": "veggi (with Special Guests)",
+    "date": "2027-01-16",
+    "doors": null,
+    "start": "22:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/veggi-with-special-guests-210594",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
     "title": "Satsang (full band) (with guest)",
     "date": "2027-01-22",
     "doors": null,
@@ -487,6 +497,16 @@
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43416379-caiola-at-hidden-hall",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
+    "title": "Sicard Hollow (with The High Seagrass)",
+    "date": "2027-04-03",
+    "doors": null,
+    "start": "17:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/sicard-hollow-with-the-high-seagrass-210159",
     "status": null
   }
 ]
