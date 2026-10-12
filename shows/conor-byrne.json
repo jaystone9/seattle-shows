@@ -2,96 +2,6 @@
   {
     "venue": "Conor Byrne Pub",
     "room": null,
-    "title": "Widower & Annie Ford Band",
-    "date": "2026-10-07",
-    "doors": null,
-    "start": null,
-    "url": "https://ma.to/event/widower-annie-ford-band-07-oct-2026",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "Simple Minded Symphony (with Family Obligation, Digital Darlings)",
-    "date": "2026-10-07",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do206.com/events/2026/10/7/simple-minded-symphony-family-obligation-digital-darlings-tickets",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "The Crying Shame",
-    "date": "2026-10-08",
-    "doors": null,
-    "start": null,
-    "url": "https://ma.to/event/the-crying-shame-08-oct-2026",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "Will Orchard (with Verboten, Claire Conway)",
-    "date": "2026-10-08",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do206.com/events/2026/10/8/claire-conway-verboten-will-orchard-tickets",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "Lowell Hopper & Westerners",
-    "date": "2026-10-09",
-    "doors": null,
-    "start": null,
-    "url": "https://ma.to/event/lowell-hopper-westerners-09-oct-2026",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "Rat Queen (with Fiig, Devilwood, Jacob T. Skeen)",
-    "date": "2026-10-09",
-    "doors": null,
-    "start": "20:30",
-    "url": "https://do206.com/events/2026/10/9/rat-queen-fiig-slc-devilwood-and-jacob-t-skeen-slc-tickets",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "Map of the Woulds - Matinee",
-    "date": "2026-10-10",
-    "doors": null,
-    "start": "17:00",
-    "url": "https://do206.com/events/2026/10/10/map-of-the-woulds-matinee-presented-by-space-101-1-fm-tickets",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "Luke Hogfoss (with Faint Shape, Rachel Ewen)",
-    "date": "2026-10-10",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://do206.com/events/2026/10/10/luke-hogfoss-faint-shape-nv-rachel-ewen-tickets",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "Conor Byrne Open Mic (free, weekly Sundays)",
-    "date": "2026-10-11",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do206.com/events/weekly/sun/open-mic-night-tickets",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
     "title": "Rent Party Ensemble - Swing Dance and Live Jazz Band (free)",
     "date": "2026-10-12",
     "doors": null,
@@ -107,6 +17,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://do206.com/events/2026/10/13/country-dance-night-with-caleb-walter-tickets",
+    "status": null
+  },
+  {
+    "venue": "Conor Byrne Pub",
+    "room": null,
+    "title": "Tractor Presents: Tray Wellington Band (with Asa Menlove, Hemlock Revival)",
+    "date": "2026-10-14",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://do206.com/events/2026/10/14/tractor-presents-tray-wellington-band-asa-menlove-guests-tickets",
     "status": null
   },
   {
@@ -167,6 +87,16 @@
     "doors": null,
     "start": "15:30",
     "url": "https://do206.com/events/2026/10/18/gigs4u-showcase-matinee-with-kristen-marlo-david-johnson-angie-lynn-tickets",
+    "status": null
+  },
+  {
+    "venue": "Conor Byrne Pub",
+    "room": null,
+    "title": "Champagne Sunday",
+    "date": "2026-10-18",
+    "doors": null,
+    "start": "16:00",
+    "url": "https://www.bandsintown.com/e/1040042997-champagne-sunday-at-conor-byrne-pub",
     "status": null
   },
   {
@@ -297,6 +227,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://do206.com/events/2026/10/29/the-rolling-thunder-bigfoot-curious-velvet-armada-tickets",
+    "status": null
+  },
+  {
+    "venue": "Conor Byrne Pub",
+    "room": null,
+    "title": "Cumbia De Muertos V",
+    "date": "2026-10-30",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do206.com/events/2026/10/30/cumbia-de-muertos-v-tickets",
     "status": null
   },
   {
@@ -542,11 +482,31 @@
   {
     "venue": "Conor Byrne Pub",
     "room": null,
+    "title": "Irish Music Monday with Castlerock",
+    "date": "2026-11-23",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do206.com/events/2026/11/23/irish-music-monday-with-castlerock-tickets",
+    "status": null
+  },
+  {
+    "venue": "Conor Byrne Pub",
+    "room": null,
     "title": "Country Dance Night with Dave Harmonson (free)",
     "date": "2026-11-24",
     "doors": null,
     "start": "20:00",
     "url": "https://do206.com/events/2026/11/24/country-dance-night-with-dave-harmonson-tickets",
+    "status": null
+  },
+  {
+    "venue": "Conor Byrne Pub",
+    "room": null,
+    "title": "Sam n' Aimz (with False Hemlock, DJ Bre)",
+    "date": "2026-11-25",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://do206.com/events/2026/11/25/sam-n-aimz-false-hemlock-dj-bre-tickets",
     "status": null
   },
   {

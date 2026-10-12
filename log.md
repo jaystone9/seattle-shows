@@ -1,3 +1,4 @@
 # Refresh log
 
 - 2026-10-07 — initial build: 578 events (Benaroya 80, Ste. Michelle 0, Conor Byrne 66, Crocodile 55, Dune 1, Hidden Hall 54, Nectar 68, Showbox 112, Sunset 57, Tractor 70, WaMu 15). Gaps: most venues thin after Feb; Conor Byrne only through Dec 22; Ste. Michelle 2027 lineup not announced.
+- 2026-10-12 — weekly refresh: 534 events, 2026-10-12 → 2027-04-10 (Benaroya 78, Ste. Michelle 0, Conor Byrne 62, Crocodile 47, Dune 0, Hidden Hall 49, Nectar 64, Showbox 103, Sunset 52, Tractor 65, WaMu 14). Only Benaroya and Conor Byrne were re-collected fresh; Benaroya added Peer Gynt Apr 8/10 and Conor Byrne added 5 events. The other 9 venues' sites couldn't be fetched (the unattended run's fetch-permission requests timed out), so last week's entries were carried over, minus anything dated before today. Conor Byrne after 11/25 is carried over unconfirmed.
