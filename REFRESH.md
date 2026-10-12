@@ -26,7 +26,7 @@ music event at the venues below from TODAY through TODAY + 6 months.
 "doors" HH:MM|null, "start" HH:MM|null (24h Pacific), "url", "status" null|"sold out"|"cancelled"|"postponed"}`
 
 Keep: concerts, DJ/dance nights, tribute acts, Conor Byrne's free weekly music nights.
-CONCERTS ONLY (Jay, Oct 12): skip sports of any kind (Kraken, Storm, Torrent, Seahawks, Sounders, Mariners games, WWE/UFC, monster trucks), comedy, film screenings, podcasts, talks, trivia, drag and cabaret/reality-TV shows (e.g. Countess Luann), Dancing with the Stars, family/ice shows, conventions, events held at OTHER venues. Symphony film-with-live-orchestra concerts count as concerts.
+CONCERTS ONLY (Jay, Oct 12): skip sports of any kind (Kraken, Storm, Torrent, Seahawks, Sounders, Mariners games, WWE/UFC, monster trucks), comedy, film screenings, podcasts, talks, trivia, drag and cabaret/reality-TV shows (e.g. Countess Luann), Dancing with the Stars, family/ice shows, conventions, events held at OTHER venues. No movie nights: skip film-with-live-orchestra screenings ("Elf in Concert", "Hook in Concert", Chaplin, etc.).
 Never invent events — only what a listing shows. Drop events dated before today.
 Keep titles/venue names identical week to week where the listing is unchanged (UIDs are derived from venue|date|title|time, so stable text = in-place updates on the phone, not duplicates).
 
