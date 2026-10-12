@@ -30,7 +30,7 @@ Keep titles/venue names identical week to week where the listing is unchanged (U
 
 ## Steps
 1. Re-collect each venue (parallel subagents are fine), overwrite `shows/<file>.json`.
-2. `python3 build_ics.py shows seattle-shows.ics`
+2. `python3 build_ics.py shows seattle-shows.ics` and `python3 build_site.py` (rebuilds data/seattle.json for the 2 Week Soundcheck site)
 3. Sanity check: event count within reason of last week (see `log.md`), file parses.
 4. Append a line to `log.md`: date, total events, per-venue counts, notable gaps.
 5. Commit and push to `main`. GitHub Pages republishes automatically.
