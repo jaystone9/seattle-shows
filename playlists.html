@@ -83,7 +83,7 @@ SC.load().then(data=>{
   const seen = new Set();  // newest of each kind (citywide, Frelard, ...) is "This week"
   document.getElementById("plist").innerHTML = list.length ? list.map(p=>{
     const k = p.area||"", now = !seen.has(k) && seen.add(k);
-    const label = p.area ? `<span class="area-tag">${esc(p.area)}</span>` : "";
+    const label = `<span class="area-tag">${esc(p.area || data.edition || "Seattle")}</span>`;
     const who = p.area ? `${p.artists} artists in ${esc(p.area)}, openers included` : `${p.artists} headliners`;
     const shows = p.area ? `./?area=${encodeURIComponent(p.area.toLowerCase())}` : "./";
     return `
