@@ -77,7 +77,7 @@ window.SC = (function () {
       band.setAttribute("aria-labelledby", "nl-h");
       band.innerHTML = `<div class="nl-copy"><h2 id="nl-h">The Sunday email</h2>
         <p>Get this week's playlist sent straight to your inbox every Sunday. Free, one email a week.</p></div>
-        <div class="nl-form" data-signup></div>`;
+        <div class="nl-form"><div data-signup></div><p class="nl-note">Using Gmail? Your first email may land in Promotions. Drag it to Primary so the playlist shows up in your inbox every Sunday.</p></div>`;
       foot.before(band);
     }
     // The signup is filled in after data loads, so honor a #newsletter link once it exists.
