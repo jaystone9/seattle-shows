@@ -13,7 +13,7 @@ Jay prompts this manually each Sunday ("run my Seattle Shows playlist"). Do not 
 4. Add the new playlist to the TOP of `playlists.json` (name, id, url, start, end, songs, artists); older entries stay, so the site's Playlists page keeps the archive.
    Also rewrite `previews.json`: for every show in the window, `{"<show title as in data/seattle.json>": {"artist": id, "track": id of the artist's #1 Popular song, "song": name, "name": search name}}`. You already open each artist page while building the playlist, so take the first track there. This powers the Preview buttons in "The next two weeks".
    Run `python3 build_site.py`, commit and push.
-5. Run `python3 build_issue.py` to draft the newsletter issue (issues/<start>.html to paste into beehiiv once it's set up).
+5. Run `python3 build_issue.py` to draft the newsletter issue (issues/<start>.html to paste into beehiiv; subject and preview text are printed). Keep it short. Optionally pick the "Start with this one" artist and write an original one-line note in issues/<start>-spotlight.json ({"artist": "...", "note": "..."}). Never quote lyrics.
 6. When the playlist is complete, email Jay at [address removed] and Eric Rue at [address removed] (both in To) via the Gmail connector:
    - Subject: `Seattle Shows playlist: <date range>`
    - Body: playlist link, then the day-by-day lineup (date, headliner, venue), then any skipped artists.
