@@ -44,6 +44,19 @@ VENUES = {
     "Add-a-Ball": {"short": "Add-a-Ball", "hood": "Fremont", "site": "http://add-a-ball.com/"},
 }
 
+# Neighborhood -> area, for the area filter and area playlists. Frelard is the
+# small-room heart of the project (Ballard + Fremont).
+AREAS = {
+    "Frelard": ["Ballard", "Fremont"],
+    "Capitol Hill & Belltown": ["Capitol Hill", "Belltown", "Eastlake"],
+    "Downtown & Seattle Center": ["Downtown", "Pike Place", "Seattle Center"],
+    "U District": ["U District"],
+    "SoDo": ["SoDo"],
+    "Out of town": ["Woodinville", "Tacoma"],
+}
+for _v in VENUES.values():
+    _v["area"] = next((a for a, hoods in AREAS.items() if _v["hood"] in hoods), "Seattle")
+
 TICKET_HOSTS = ("tixr.com", "ticketweb.com", "showboxpresents.com", "thecrocodile.com",
                 "wamutheater.com", "tickpick.com", "gametime.co", "dice.fm", "axs.com",
                 "ticketmaster.com", "etix.com", "seetickets", "venuepilot", "eventbrite",
@@ -119,7 +132,12 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
         playlists = json.load(open(pl))
     except FileNotFoundError:
         playlists = []
-    playlist = playlists[0] if playlists else None
+    # Entries with an "area" (e.g. "Frelard") are area playlists; the rest are the citywide one.
+    playlist = next((p for p in playlists if not p.get("area")), None)
+    area_playlists = {}
+    for p in playlists:
+        if p.get("area") and p["area"] not in area_playlists:
+            area_playlists[p["area"]] = p
     data = {
         "brand": "2 Week Soundcheck",
         "edition": "Seattle",
@@ -128,6 +146,8 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
         "newsletter": json.load(open("newsletter.json")) if glob.glob("newsletter.json") else {},
         "playlist": playlist,
         "playlists": playlists,
+        "area_playlists": area_playlists,
+        "areas": list(AREAS),
         "contact": json.load(open("contact.json")) if glob.glob("contact.json") else {},
         "venues": VENUES,
         "events": events,

@@ -203,3 +203,12 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .nl-note{margin:8px 0 0;font-size:13px;line-height:1.45;color:var(--muted)}
 .signup .nl-note{margin:6px 0 0}
 .nl-done{margin:0;font-weight:700;color:var(--ink)}
+
+/* Playlist switch (All Seattle / Frelard) and the area filter note */
+.pl-tabs{display:inline-flex;gap:4px;margin:2px 0 12px;padding:4px;background:var(--surface);border:1px solid var(--line);border-radius:999px}
+.pl-tabs button{font:inherit;font-size:15px;font-weight:700;color:var(--muted);background:none;border:0;border-radius:999px;padding:6px 14px;cursor:pointer}
+.pl-tabs button[aria-pressed="true"]{background:#D6336C;color:#fff}
+.pl-tabs button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.tools select{flex:0 1 200px}
+.area-note{margin:4px 0 0;color:var(--muted);font-size:15px}
+.pl .area-tag{display:inline-block;font-size:13px;font-weight:700;background:#D6336C;color:#fff;border-radius:999px;padding:1px 9px;margin-left:8px;vertical-align:5px}

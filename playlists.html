@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=ffd310a2">
+<link rel="stylesheet" href="site.css?v=76c2a560">
 </head>
 <body>
 <div class="wrap">
@@ -46,7 +46,7 @@
 
   <section class="page-head">
     <h1>Every playlist</h1>
-    <p>Each one is the top songs from every headliner playing our Seattle venues over two weeks (three per artist from Oct 18, 2026; five before that), in show order. The newest is first.</p>
+    <p>Each Seattle playlist is the top songs from every headliner playing our venues over two weeks (three per artist from Oct 18, 2026; five before that), in show order. Frelard playlists cover the small rooms in Ballard and Fremont, openers included. The newest is first.</p>
   </section>
 
   <div class="plist" id="plist"></div>
@@ -80,12 +80,18 @@
 SC.load().then(data=>{
   SC.footer(data);
   const {esc,range} = SC, list = data.playlists || [];
-  document.getElementById("plist").innerHTML = list.length ? list.map((p,i)=>`
-    <article class="pl${i===0?" current":""}">
-      <h2>${esc(range(p.start,p.end))}${i===0?'<span class="now">This week</span>':""}</h2>
-      <p class="meta">${p.songs} songs from ${p.artists} headliners · <a href="${esc(p.url)}" target="_blank" rel="noopener">Open in Spotify</a>${i===0?' · <a href="./">See the shows</a>':""}</p>
-      <iframe title="${esc(range(p.start,p.end))} playlist on Spotify" src="https://open.spotify.com/embed/playlist/${esc(p.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-    </article>`).join("") : `<p class="empty">The first playlist is on its way. Check back Sunday.</p>`;
+  const seen = new Set();  // newest of each kind (citywide, Frelard, ...) is "This week"
+  document.getElementById("plist").innerHTML = list.length ? list.map(p=>{
+    const k = p.area||"", now = !seen.has(k) && seen.add(k);
+    const label = p.area ? `<span class="area-tag">${esc(p.area)}</span>` : "";
+    const who = p.area ? `${p.artists} artists in ${esc(p.area)}, openers included` : `${p.artists} headliners`;
+    const shows = p.area ? `./?area=${encodeURIComponent(p.area.toLowerCase())}` : "./";
+    return `
+    <article class="pl${now?" current":""}">
+      <h2>${esc(range(p.start,p.end))}${label}${now?'<span class="now">This week</span>':""}</h2>
+      <p class="meta">${p.songs} songs from ${who} · <a href="${esc(p.url)}" target="_blank" rel="noopener">Open in Spotify</a>${now?` · <a href="${shows}">See the shows</a>`:""}</p>
+      <iframe title="${esc(range(p.start,p.end))} ${esc(p.area||"")} playlist on Spotify" src="https://open.spotify.com/embed/playlist/${esc(p.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </article>`;}).join("") : `<p class="empty">The first playlist is on its way. Check back Sunday.</p>`;
 }).catch(()=>{document.getElementById("plist").innerHTML=`<p class="empty">Playlists didn't load. Refresh the page to try again.</p>`;});
 </script>
 </body>

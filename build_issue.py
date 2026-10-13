@@ -62,6 +62,18 @@ def main(src="data/seattle.json", outdir="issues"):
             f'</a></td></tr></table>')
         t.append(f"▶ Listen: {pl['url']}\n")
 
+    # Frelard (and any other area) playlist: one short line + its own button.
+    for area, ap in (d.get("area_playlists") or {}).items():
+        if ap.get("start") != start or not ap.get("url"):
+            continue
+        aurl = html.escape(ap["url"])
+        h.append(f"<p>Staying close to home? The <strong>{html.escape(area)}</strong> playlist covers the small rooms in Ballard and Fremont, "
+                 f"openers included: {ap.get('songs')} songs from {ap.get('artists')} artists.</p>")
+        h.append(f'<p><a href="{aurl}" style="display:inline-block;background:{PINK};color:#ffffff;font-weight:700;padding:10px 18px;'
+                 f'border-radius:999px;text-decoration:none">▶ Listen to the {html.escape(area)} playlist</a></p>')
+        t.append(f"{area} (Ballard + Fremont small rooms, openers included): {ap['url']}\n")
+        t.append(f"{area} shows: {SITE}?area={area.lower()}\n")
+
     h.append(f'<p style="margin-top:28px"><a href="{SITE}"><strong>All {n} shows are on the site →</strong></a><br>'
              f'<span style="color:#5A6476">Searchable by venue and artist, with tickets and a preview for every headliner.</span></p>')
     t.append(f"All {n} shows are on the site, searchable by venue and artist: {SITE}")

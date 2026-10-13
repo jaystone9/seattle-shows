@@ -14,8 +14,8 @@ name or any personal email address in this public repo, the site, or the newslet
    "Report:" messages. Fix flagged listings in step 2 and tell Jay what changed.
 2. **Refresh venues.** Follow `REFRESH.md`: re-collect all 21 venue files (today → +6 months),
    run `build_ics.py` and `build_site.py`, append to `log.md`, commit and push.
-3. **Playlist.** Follow `PLAYLIST.md` steps 1–4: build the Spotify playlist for
-   today → today + 13 days, update `playlists.json` and `previews.json`, run
+3. **Playlists.** Follow `PLAYLIST.md` steps 1–4b: build the Seattle Spotify playlist for
+   today → today + 13 days, then the Frelard one (step 4b, headliners + openers), update `playlists.json` and `previews.json`, run
    `build_site.py`, commit and push. The site, calendar feed and Playlists archive update
    from this.
 4. **Newsletter draft.** Run `python3 build_issue.py` for the subject, preview text and
@@ -24,7 +24,8 @@ name or any personal email address in this public repo, the site, or the newslet
    - Subtitle (preview): `<songs> songs from the <artists> headliners playing Seattle over the next two weeks.`
    - Intro line, then a pink (#D6336C, bold) Button block "▶ Listen to the playlist on Spotify"
      linking to the playlist (don't use the generic link embed; it renders as a broken card),
-     then the closing link "All <N> shows are on the site →" with
+     then the Frelard line and a second pink Button "▶ Listen to the Frelard playlist"
+     (build_issue.py drafts both), then the closing link "All <N> shows are on the site →" with
      "Searchable by venue and artist, with tickets and a preview for every headliner."
    - Author: the "2 Week Soundcheck" guest author only; byline hidden. No lyrics.
    - Send a test to hello@ (it lands in the webmail's Promotions tab) and check it.
