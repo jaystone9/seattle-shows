@@ -25,6 +25,13 @@ ADDR = {
     "Barboza": "Barboza (downstairs at Neumos), 925 E Pike St, Seattle, WA 98122",
     "Climate Pledge Arena": "Climate Pledge Arena, 334 1st Ave N, Seattle, WA 98109",
     "T-Mobile Park": "T-Mobile Park, 1250 1st Ave S, Seattle, WA 98134",
+    "The Paramount Theatre": "The Paramount Theatre, 911 Pine St, Seattle, WA 98101",
+    "The Moore Theatre": "The Moore Theatre, 1932 2nd Ave, Seattle, WA 98101",
+    "The Neptune Theatre": "The Neptune Theatre, 1303 NE 45th St, Seattle, WA 98105",
+    "The Vera Project": "The Vera Project, 305 Harrison St, Seattle, WA 98109",
+    "Black Lodge": "Black Lodge, 429 Eastlake Ave E, Seattle, WA 98109",
+    "Belltown Yacht Club": "Belltown Yacht Club (downstairs from Screwdriver), 2320 1st Ave, Seattle, WA 98121",
+    "Add-a-Ball": "Add-a-Ball, 315 N 36th St, Seattle, WA 98103",
 }
 
 VTZ = """BEGIN:VTIMEZONE
@@ -98,7 +105,7 @@ def main(src, out):
     L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Claude//Seattle Shows//EN",
          "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:2 Week Soundcheck · Seattle",
          "X-WR-TIMEZONE:America/Los_Angeles",
-         "X-WR-CALDESC:Concerts at Jay's favorite Seattle venues - refreshed weekly",
+         "X-WR-CALDESC:Concerts at Seattle's best venues from 2weeksoundcheck.com - refreshed weekly",
          "REFRESH-INTERVAL;VALUE=DURATION:P1D", "X-PUBLISHED-TTL:P1D", VTZ]
     for d, ev in events:
         uid = hashlib.sha1(f"{ev['venue']}|{ev['date']}|{ev['title']}|{ev.get('start') or ev.get('doors') or ''}"

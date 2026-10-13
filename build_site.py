@@ -35,6 +35,13 @@ VENUES = {
     "Barboza": {"short": "Barboza", "hood": "Capitol Hill", "site": "https://www.thebarboza.com/"},
     "Climate Pledge Arena": {"short": "Climate Pledge Arena", "hood": "Seattle Center", "site": "https://climatepledgearena.com/events/"},
     "T-Mobile Park": {"short": "T-Mobile Park", "hood": "SoDo", "site": "https://www.mlb.com/mariners/tickets/concerts"},
+    "The Paramount Theatre": {"short": "Paramount", "hood": "Downtown", "site": "https://www.stgpresents.org/venues/paramount-theatre/"},
+    "The Moore Theatre": {"short": "The Moore", "hood": "Belltown", "site": "https://www.stgpresents.org/venues/moore-theatre/"},
+    "The Neptune Theatre": {"short": "The Neptune", "hood": "U District", "site": "https://www.stgpresents.org/venues/neptune-theatre/"},
+    "The Vera Project": {"short": "Vera Project", "hood": "Seattle Center", "site": "https://theveraproject.org/"},
+    "Black Lodge": {"short": "Black Lodge", "hood": "Eastlake", "site": "https://dice.fm/venue/the-black-lodge-qppa"},
+    "Belltown Yacht Club": {"short": "Belltown Yacht Club", "hood": "Belltown", "site": "http://bycseattle.com/"},
+    "Add-a-Ball": {"short": "Add-a-Ball", "hood": "Fremont", "site": "http://add-a-ball.com/"},
 }
 
 TICKET_HOSTS = ("tixr.com", "ticketweb.com", "showboxpresents.com", "thecrocodile.com",

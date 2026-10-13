@@ -21,6 +21,13 @@ music event at the venues below from TODAY through TODAY + 6 months.
 | climate-pledge-arena.json | Climate Pledge Arena, Seattle Center | climatepledgearena.com/events (calendar only shows ~2 weeks and its next-page links won't fetch; use Songkick venue calendar + ConcertFix, AXS for ticket links). Skip Kraken/Torrent/Storm games, Dancing with the Stars, family shows |
 | t-mobile-park.json | T-Mobile Park, SoDo | mlb.com/mariners/tickets/concerts + ballpark events calendar; stadium shows are usually announced in winter for the summer |
 | dune-peninsula.json | Dune Peninsula, Point Defiance, Tacoma | Metro Parks Tacoma + Showbox Outdoor Concerts (summer series) |
+| paramount-theatre.json | The Paramount Theatre, Downtown (STG) | STG's WordPress events feed filtered by venue (calendar pages show one month and won't page; stgpresents.org is blocked from the shell), then each STG event page for times/support/status. Drop the many non-concerts: Broadway, ballet/dance, comedy, podcasts, talks, film-with-orchestra nights, drag, holiday and tribute shows |
+| moore-theatre.json | The Moore Theatre, Belltown (STG) | Same as Paramount |
+| neptune-theatre.json | The Neptune Theatre, U District (STG) | Same as Paramount |
+| vera-project.json | The Vera Project, Seattle Center (all ages) | theveraproject.org won't render; use do206.com/venues/the-vera-project (+ each event page) and Songkick venue 403. IMPORTANT: Vera also runs Black Lodge, and Do206 lists Black Lodge shows under Vera. If a Do206 page says "Black Lodge Presents", file it under Black Lodge |
+| black-lodge.json | Black Lodge, 429 Eastlake Ave E (run by Vera; DIY, all ages) | Discotech (app.discotech.me/seattle/the-black-lodge) for lineups/times + DICE links, Songkick venue 883311, Bandsintown (headliners only; its 7pm times are unreliable, use null). Not JamBase (wrong Black Lodge). Posts only a few weeks ahead |
+| belltown-yacht-club.json | Belltown Yacht Club, 2320 1st Ave (under Screwdriver) | Own site won't render; Do206 venue page + event pages, Songkick, JamBase, Bandsintown; tickets on DICE. Skip dance/DJ, trivia, film, market and theme nights |
+| add-a-ball.json | Add-a-Ball, Fremont (pinball bar; shows Fri/Sat) | JamBase venue page + VenuePilot ticket pages (doors/start/lineups), Songkick. Skip pinball tournaments |
 
 ## Record format
 `{"venue", "room" (or null), "title" ("Headliner (with Support, Support)"), "date" YYYY-MM-DD,

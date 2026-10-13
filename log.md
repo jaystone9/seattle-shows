@@ -7,3 +7,4 @@
 - 2026-10-12 — concerts-only cleanup: removed Countess Luann (Showbox, Nov 5) and Ghoul Talk's Drag Halloween Bash (Sunset, Oct 29). Total 571.
 - 2026-10-12 — removed symphony movie nights at Benaroya (Ring, Elf, Hook, Chaplin's Modern Times, D&D in Concert). Total 560.
 - 2026-10-12 — added Neumos + Barboza (100 shows); removed 101 themed nights/tributes/holiday shows across venues per Jay. Total 559.
+- 2026-10-13 — added 7 venues by request: Paramount 24, Moore 19, Neptune 45 (STG events feed + event pages), Vera Project 22, Black Lodge 21 (11 Do206 'Vera' listings were Black Lodge shows; moved), Belltown Yacht Club 14, Add-a-Ball 14. Dropped STG Broadway/dance/comedy/film-with-orchestra/tribute/holiday shows. Small venues post only a few weeks ahead. Total 711 upcoming (718 in calendar).
