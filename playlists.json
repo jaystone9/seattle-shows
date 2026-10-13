@@ -1,22 +1,5 @@
 [
-  {
-    "name": "Seattle Shows: Oct 12–25",
-    "id": "4CI2hM3UfoHXsuTNBFJDOU",
-    "url": "https://open.spotify.com/playlist/4CI2hM3UfoHXsuTNBFJDOU",
-    "start": "2026-10-12",
-    "end": "2026-10-25",
-    "songs": 420,
-    "artists": 85,
-    "per_artist": 5
-  },
-  {
-    "name": "Seattle Shows: Oct 8–21",
-    "id": "3tuOnvSncTRNn5biZNwvkZ",
-    "url": "https://open.spotify.com/playlist/3tuOnvSncTRNn5biZNwvkZ",
-    "start": "2026-10-08",
-    "end": "2026-10-21",
-    "songs": 426,
-    "artists": 87,
-    "per_artist": 5
-  }
+  {"name": "2 Week Soundcheck · Frelard: Oct 12–25", "id": "2enDmrwhfOHw0CLm42QGqr", "url": "https://open.spotify.com/playlist/2enDmrwhfOHw0CLm42QGqr", "start": "2026-10-12", "end": "2026-10-25", "songs": 326, "artists": 113, "per_artist": 3, "area": "Frelard"},
+  {"name": "Seattle Shows: Oct 12–25", "id": "4CI2hM3UfoHXsuTNBFJDOU", "url": "https://open.spotify.com/playlist/4CI2hM3UfoHXsuTNBFJDOU", "start": "2026-10-12", "end": "2026-10-25", "songs": 420, "artists": 85, "per_artist": 5},
+  {"name": "Seattle Shows: Oct 8–21", "id": "3tuOnvSncTRNn5biZNwvkZ", "url": "https://open.spotify.com/playlist/3tuOnvSncTRNn5biZNwvkZ", "start": "2026-10-08", "end": "2026-10-21", "songs": 426, "artists": 87, "per_artist": 5}
 ]

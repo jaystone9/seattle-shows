@@ -6,7 +6,7 @@ Usage:
   python3 lineup.py --area Frelard       # Frelard: headliners AND openers
   python3 lineup.py --area Frelard --start 2026-10-18 --json
 
-Reads data/seattle.json (run build_site.py first). Skips cancelled/postponed shows.
+Reads shows/*.json. Skips cancelled/postponed shows.
 For an area, openers are included because small rooms are where the discovery is:
 every act gets its top 3 songs (see PLAYLIST.md).
 """
@@ -21,7 +21,12 @@ SKIP = ("tribute", "open mic", "showcase", " jam", "dance party", "dj night", "k
 
 def clean(name):
     """Artist name to search Spotify for: drop tour/album suffixes and early/late show tags."""
-    n = re.sub(r"\s*\((early|late) show\)", "", name, flags=re.I)
+    m = re.match(r"^.*\b(?:early|late) show with (.+)$", name, flags=re.I)  # "Honky Tonk Early Show with X"
+    if m:
+        name = m.group(1)
+    n = re.sub(r"\s*\(((early|late) show|album release|record release|matinee)\)", "", name, flags=re.I)
+    n = re.sub(r"\s+[-–]\s+(early show|late show|matinee)$", "", n, flags=re.I)
+    n = re.sub(r"\s+on tour$", "", n, flags=re.I)
     n = re.sub(r"\s+[-–]\s+.*(release|tour|anniversary|night \d).*$", "", n, flags=re.I)
     n = n.split(": ")[0]
     n = re.sub(r"\s+(ft\.|feat\.|featuring)\s.*$", "", n, flags=re.I)
@@ -33,13 +38,24 @@ def main():
     ap.add_argument("--area", help='e.g. "Frelard"; omit for citywide')
     ap.add_argument("--start", help="YYYY-MM-DD (default: today, Pacific)")
     ap.add_argument("--json", action="store_true", help="print JSON instead of text")
-    ap.add_argument("--data", default="data/seattle.json")
     a = ap.parse_args()
 
-    d = json.load(open(a.data))
+    # Read the venue files directly (not data/seattle.json) so a window that started
+    # before today, e.g. Sunday's playlist on a Tuesday, still includes its first days.
+    import glob
+    from build_site import VENUES, venue_key, split_title
     start = dt.date.fromisoformat(a.start) if a.start else dt.datetime.now(ZoneInfo("America/Los_Angeles")).date()
     end = start + dt.timedelta(days=13)
-    venues = d["venues"]
+    venues = VENUES
+    events = []
+    for f in sorted(glob.glob("shows/*.json")):
+        for ev in json.load(open(f)):
+            title, support = split_title(ev["title"])
+            events.append({"date": ev.get("date", ""), "time": ev.get("start") or ev.get("doors") or "",
+                           "venue": venue_key(ev), "title": title, "support": support,
+                           "status": (ev.get("status") or "").lower()})
+    events.sort(key=lambda e: (e["date"], e["time"]))
+    d = {"events": events, "edition": "Seattle"}
     acts, seen = [], set()
     for e in d["events"]:
         if not (start.isoformat() <= e["date"] <= end.isoformat()):

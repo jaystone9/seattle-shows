@@ -48,15 +48,16 @@ def main(src="data/seattle.json", outdir="issues"):
     fr = areas.get("Frelard")
     if not fr:
         print("WARNING: no Frelard playlist for this window in playlists.json; build it (PLAYLIST.md 4b) and rerun.")
-    per = WORDS.get(pl.get("per_artist") or 3, str(pl.get("per_artist") or 3))
+    pers = {(p.get("per_artist") or 3) for p in [pl] + ([fr] if fr else [])}
+    per = WORDS.get(pers.pop(), "") if len(pers) == 1 else ""  # only state a count when both playlists agree
 
     subject = f"{dates}: {edition} 2 Week Playlist"
     preview_text = f"{pl.get('songs', '')} songs from the {pl.get('artists', n)} headliners playing {edition} over the next two weeks"
     preview_text += f", plus a Frelard playlist for Ballard and Fremont." if fr else "."
 
     h, t = [], []
-    intro = (f"Two playlists for {dates}, the top {per} songs from each artist, in show order. "
-             if fr else f"Every headliner playing {edition} {dates}, the top {per} songs each, in show order. ")
+    intro = (f"Two playlists for {dates}, the top {per + ' ' if per else ''}songs from each artist, in show order. "
+             if fr else f"Every headliner playing {edition} {dates}, the top {per + ' ' if per else ''}songs each, in show order. ")
     h.append(f"<p>{intro}Hit shuffle, and when something grabs you, go see it.</p>")
     t.append(intro.strip() + "\n")
 
