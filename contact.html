@@ -16,7 +16,15 @@
 <body>
 <div class="wrap">
   <header class="mast">
+    <div class="brandrow">
     <a class="brand" href="./"><b>2</b> Week Soundcheck</a>
+    <label class="edition"><span class="visually-hidden">City</span>
+      <select id="city" aria-label="City">
+        <option value="seattle" selected>Seattle</option>
+        <option value="chicago" disabled>Chicago (coming soon)</option>
+      </select>
+    </label>
+    </div>
     <nav class="nav" aria-label="Main">
       <a href="./">Shows</a>
       <a href="playlists.html">Playlists</a>
@@ -142,8 +150,8 @@ SC.load().then(data=>{
       const subject = kind==="report" ? `Report: ${fields.problem}${fields.show?` (${fields.show})`:""}` : `Contact: ${fields.topic} from ${fields.name}`;
       if(cfg.form_endpoint){
         try{
-          const r=await fetch(cfg.form_endpoint,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify({_subject:subject,...fields})});
-          if(!r.ok) throw 0;
+          const r=await fetch(cfg.form_endpoint,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify({_subject:subject,_template:"table",_replyto:fields.email||"",...fields})});
+          if(!r.ok) throw 0; const j=await r.json().catch(()=>({})); if(j.success===false||j.success==="false") throw 0;
           form.reset(); status.textContent = kind==="report" ? "Report sent. Thanks, we'll fix it in the next update." : "Message sent. Thanks for reaching out.";
         }catch(e){ status.className="status err"; status.textContent="Your message didn't send. Check your connection and try again."; }
       } else {
