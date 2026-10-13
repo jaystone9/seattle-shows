@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=bdb2ec42">
+<link rel="stylesheet" href="site.css?v=b327201f">
 </head>
 <body>
 <div class="wrap">
@@ -76,6 +76,8 @@
     <div class="filters">
       <div class="tools">
         <input id="q" type="search" placeholder="Search an artist" aria-label="Search an artist">
+        <select id="when" aria-label="Filter by date"><option value="">Any date</option></select>
+        <input id="when-pick" type="date" aria-label="Pick a date" hidden>
         <select id="area" aria-label="Filter by neighborhood"><option value="">All neighborhoods</option></select>
         <select id="venue" aria-label="Filter by venue"><option value="">All venues</option></select>
         <button class="clear" id="clear" hidden>Clear</button>
@@ -158,7 +160,7 @@
     $("#meter").innerHTML = m; $("#days").innerHTML = dl;
     $("#meter").addEventListener("click",ev=>{
       const b=ev.target.closest(".ch"); if(!b) return;
-      if($("#q").value||$("#venue").value||$("#area").value){ $("#q").value=""; $("#area").value=""; fillVenues(); $("#venue").value=""; render(); }
+      if($("#q").value||$("#venue").value||$("#area").value||$("#when").value){ $("#q").value=""; $("#area").value=""; setWhen(""); fillVenues(); $("#venue").value=""; render(); }
       const t=document.getElementById("d-"+b.dataset.day);
       if(t){t.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"}); t.querySelector("h3").focus({preventScroll:true});}
     });
@@ -195,7 +197,7 @@
     const areaOf = k => (venues[k]||{}).area || "";
     const areas = (data.areas||[]).filter(a=>vs.some(k=>areaOf(k)===a));
     const hoods = a => [...new Set(vs.filter(k=>areaOf(k)===a).map(k=>venues[k].hood))].join(" + ");
-    $("#area").innerHTML += areas.map(a=>`<option value="${esc(a)}">${esc(a)}${a==="Frelard"?" (Ballard + Fremont)":""}</option>`).join("");
+    $("#area").innerHTML += areas.map(a=>`<option value="${esc(a)}">${esc(a)}</option>`).join("");
     function fillVenues(){
       const a=$("#area").value, keep=$("#venue").value;
       const list=vs.filter(k=>!a||areaOf(k)===a);
@@ -209,40 +211,72 @@
     if(params.get("venue") && vs.includes(params.get("venue"))) { $("#venue").value = params.get("venue"); if(!pa) $("#area").value=""; }
     if(params.get("q")) $("#q").value = params.get("q");
     showPlaylist(pa && PL_AREAS.includes(pa) ? pa : "");
-    const match = (e,q,vf,af) => (!af||areaOf(e.venue)===af) && (!vf||e.venue===vf) && (!q||(e.title+" "+e.support.join(" ")).toLowerCase().includes(q));
+    // Date filter: quick picks, each day of the two weeks, or any date via the picker.
+    const lastShow = upcoming.at(-1)?.date || end;
+    const dow = iso => D(iso).getUTCDay();
+    const weekendFrom = iso => { const w=dow(iso); if(w===0) return [iso,iso]; if(w===6) return [iso,addDays(iso,1)]; const f=addDays(iso,5-w); return [f<iso?iso:f, addDays(iso,7-w)]; };
+    const thisWknd = weekendFrom(today), nextWknd = [addDays(thisWknd[1],5), addDays(thisWknd[1],7)];
+    const QUICK = {today:["Today",[today,today]], tomorrow:["Tomorrow",[addDays(today,1),addDays(today,1)]],
+                   weekend:["This weekend",thisWknd], "next-weekend":["Next weekend",nextWknd]};
+    let opts = Object.entries(QUICK).map(([k,[l,r]])=>`<option value="${k}" title="${r[0]===r[1]?fmt(r[0],{month:"short",day:"numeric"}):range(r[0],r[1])}">${l}</option>`).join("");
+    opts += `<optgroup label="Next two weeks">`;
+    for(let iso=today; iso<=end; iso=addDays(iso,1)) opts += `<option value="${iso}">${fmt(iso,{weekday:"short",month:"short",day:"numeric"}).replace(",","")}</option>`;
+    opts += `</optgroup><option value="pick">Pick a date…</option>`;
+    $("#when").innerHTML += opts;
+    $("#when-pick").min = today; $("#when-pick").max = lastShow;
+    function whenRange(){
+      const v=$("#when").value;
+      if(!v) return null;
+      if(QUICK[v]) return QUICK[v][1];
+      if(v==="pick"){ const d=$("#when-pick").value; return d?[d,d]:null; }
+      return [v,v];
+    }
+    function setWhen(v){
+      if(v && /^\d{4}-\d{2}-\d{2}$/.test(v) && ![...$("#when").options].some(o=>o.value===v)){ $("#when").value="pick"; $("#when-pick").value=v; }
+      else $("#when").value = v || "";
+      $("#when-pick").hidden = $("#when").value!=="pick";
+    }
+    if(params.get("date")) setWhen(params.get("date"));
+    const match = (e,q,vf,af,dr) => (!dr||(e.date>=dr[0]&&e.date<=dr[1])) && (!af||areaOf(e.venue)===af) && (!vf||e.venue===vf) && (!q||(e.title+" "+e.support.join(" ")).toLowerCase().includes(q));
 
     let limit = 60;
     const iso_ok = i => addDays(today,i) <= end;
     function render(){
-      const q=$("#q").value.trim().toLowerCase(), vf=$("#venue").value, af=$("#area").value, filtered=!!(q||vf||af);
+      const q=$("#q").value.trim().toLowerCase(), vf=$("#venue").value, af=$("#area").value, dr=whenRange(), filtered=!!(q||vf||af||dr);
       $("#clear").hidden = !filtered;
       // next two weeks
       let html="", count=0;
       for(let i=0;iso_ok(i);i++){
-        const iso=addDays(today,i), list=(byDay[iso]||[]).filter(e=>match(e,q,vf,af));
+        const iso=addDays(today,i), list=(byDay[iso]||[]).filter(e=>match(e,q,vf,af,dr));
         if(filtered && !list.length) continue;
         count += list.length;
         const name = i===0?"Today":i===1?"Tomorrow":fmt(iso,{weekday:"long"});
         html += `<div class="day" id="d-${iso}"><h3 tabindex="-1">${name}<small>${fmt(iso,{month:"long",day:"numeric"})}</small></h3>${list.length?list.map(e=>showRow(e,venues,false)).join(""):`<p class="empty">No concerts at our venues. A good night for the playlist.</p>`}</div>`;
       }
-      $("#lineup").innerHTML = html ? (af&&!vf&&!q?`<p class="area-note">${esc(af)}: ${af==="Frelard"?"the small rooms in Ballard and Fremont":esc(hoods(af))}.</p>`:"") + html : `<p class="empty">Nothing matches through ${fmt(end,{month:"long",day:"numeric"})}. Check Further out below, or clear the filters.</p>`;
+      $("#lineup").innerHTML = html ? (af&&!vf&&!q?`<p class="area-note">${esc(af)}: ${af==="Frelard"?"the small rooms in Ballard and Fremont":esc(hoods(af))}.</p>`:"") + html : (dr && dr[0] > end ? "" : `<p class="empty">${dr?"No shows match on those dates.":`Nothing matches through ${fmt(end,{month:"long",day:"numeric"})}. Check Further out below, or clear the filters.`}</p>`);
       $("#lineup-h").textContent = `Now through ${fmt(end,{month:"long",day:"numeric"})}`;
-      $("#lineup-count").textContent = filtered ? `${count} match${count===1?"":"es"}` : `${soon.length} shows at ${new Set(soon.map(e=>e.venue)).size} venues`;
+      $("#lineup-count").textContent = dr && dr[0] > end ? `${fmt(dr[0],{month:"long",day:"numeric"})} is further out, below` : filtered ? `${count} match${count===1?"":"es"}` : `${soon.length} shows at ${new Set(soon.map(e=>e.venue)).size} venues`;
       // further out
-      const rows = later.filter(e=>match(e,q,vf,af));
+      const rows = later.filter(e=>match(e,q,vf,af,dr));
+      // a date inside the two weeks has nothing further out; hide that section instead of showing "no matches"
+      document.querySelector('[aria-labelledby="all-h"]').hidden = !!(dr && dr[1] <= end);
+      // a date past the two weeks: hide the two-week list (but keep its filters) and show results below
+      $("#lineup").hidden = !!(dr && dr[0] > end);
       let out="", mo="";
       rows.slice(0,limit).forEach(e=>{const mm=fmt(e.date,{month:"long",year:"numeric"}); if(mm!==mo){out+=`<div class="month">${mm}</div>`;mo=mm;} out+=showRow(e,venues,true);});
       $("#all").innerHTML = out || `<p class="empty">${filtered?"No later shows match.":"Nothing further out yet."}</p>`;
       $("#more").hidden = rows.length<=limit;
       $("#all-count").textContent = filtered ? `${rows.length} match${rows.length===1?"":"es"}` : `${later.length} more shows through ${fmt(later.at(-1)?.date||end,{month:"long"})}`;
       // keep the filter in the URL so it can be shared
-      const u = new URL(location.href); q?u.searchParams.set("q",$("#q").value.trim()):u.searchParams.delete("q"); vf?u.searchParams.set("venue",vf):u.searchParams.delete("venue"); af?u.searchParams.set("area",slug(af)):u.searchParams.delete("area");
+      const u = new URL(location.href); q?u.searchParams.set("q",$("#q").value.trim()):u.searchParams.delete("q"); vf?u.searchParams.set("venue",vf):u.searchParams.delete("venue"); af?u.searchParams.set("area",slug(af)):u.searchParams.delete("area"); const wv=$("#when").value==="pick"?$("#when-pick").value:$("#when").value; wv?u.searchParams.set("date",wv):u.searchParams.delete("date");
       history.replaceState(null,"",u);
     }
     $("#q").addEventListener("input",()=>{limit=60;render();});
     $("#venue").addEventListener("change",()=>{limit=60;render();});
     $("#area").addEventListener("change",()=>{limit=60;fillVenues();const a=$("#area").value; if(PL_AREAS.includes(a)) showPlaylist(a); else if(plTab&&!a) showPlaylist(""); render();});
-    $("#clear").addEventListener("click",()=>{$("#q").value="";$("#area").value="";fillVenues();$("#venue").value="";limit=60;render();$("#q").focus();});
+    $("#when").addEventListener("change",()=>{limit=60; $("#when-pick").hidden=$("#when").value!=="pick"; if($("#when").value==="pick"){ $("#when-pick").focus(); try{$("#when-pick").showPicker()}catch(e){} } render();});
+    $("#when-pick").addEventListener("change",()=>{limit=60;render();});
+    $("#clear").addEventListener("click",()=>{$("#q").value="";$("#area").value="";setWhen("");fillVenues();$("#venue").value="";limit=60;render();$("#q").focus();});
     $("#more").addEventListener("click",()=>{limit+=60;render();});
     SC.previews(document.getElementById("lineup"));
     render();

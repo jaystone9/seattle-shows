@@ -222,3 +222,11 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .ch.past .n{color:var(--line)}
 .ch.past:hover .bar{background:var(--line)}
 .days span.past{opacity:.45}
+.tools #when{flex:0 1 190px}
+.tools #when-pick{flex:0 1 170px;font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);border-radius:10px;padding:9px 12px;color-scheme:light dark}
+.tools select,.tools #when-pick{min-width:0}
+.tools input#q{flex:1 1 200px;min-width:0}
+@media (max-width:640px){
+  .tools input#q{flex:1 1 100%}
+  .tools select,.tools #when,.tools #when-pick{flex:1 1 calc(50% - 5px)}
+}
