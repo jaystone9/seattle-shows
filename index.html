@@ -54,7 +54,7 @@
   <section class="listen" aria-labelledby="listen-h">
     <div>
       <h2 id="listen-h">Find your next show</h2>
-      <p class="sub" id="pl-sub">The top five songs from every headliner, in show order.</p>
+      <p class="sub" id="pl-sub">The top songs from every headliner, in show order.</p>
       <div class="player" id="player"></div>
       <p style="margin:12px 0 0"><a href="playlists.html">Past playlists</a></p>
     </div>
@@ -159,7 +159,8 @@
     const pl = data.playlist;
     if(pl && pl.id){
       $("#player").innerHTML = `<iframe title="${esc(pl.name)} on Spotify" src="https://open.spotify.com/embed/playlist/${esc(pl.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
-      $("#pl-sub").textContent = `${pl.songs} songs: the top five from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order.`;
+      const per = ({1:"one",2:"two",3:"three",4:"four",5:"five"})[pl.per_artist || 3] || (pl.per_artist || 3);
+      $("#pl-sub").textContent = `${pl.songs} songs: the top ${per} from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order.`;
     } else $("#player").innerHTML = `<p class="empty" style="padding:24px">This week's playlist is being built. Check back Sunday evening.</p>`;
 
     // newsletter: filled by SC.footer -> newsletter() via [data-signup]

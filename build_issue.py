@@ -30,6 +30,7 @@ def rng(s, e):
 def main(src="data/seattle.json", outdir="issues"):
     d = json.load(open(src))
     pl = d.get("playlist") or {}
+    per = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five"}.get(pl.get("per_artist") or 3, str(pl.get("per_artist") or 3))
     start = pl.get("start") or dt.date.today().isoformat()
     end = pl.get("end") or (dt.date.fromisoformat(start) + dt.timedelta(days=13)).isoformat()
     s, e = dt.date.fromisoformat(start), dt.date.fromisoformat(end)
@@ -43,9 +44,9 @@ def main(src="data/seattle.json", outdir="issues"):
     preview_text = f"{pl.get('songs', '')} songs from the {pl.get('artists', n)} headliners playing {edition} over the next two weeks."
 
     h, t = [], []
-    h.append(f"<p>Every headliner playing {edition} {dates}, five songs each, in show order. "
+    h.append(f"<p>Every headliner playing {edition} {dates}, {per} songs each, in show order. "
              f"Hit shuffle, and when something grabs you, go see it.</p>")
-    t.append(f"Every headliner playing {edition} {dates}, five songs each, in show order.\n")
+    t.append(f"Every headliner playing {edition} {dates}, {per} songs each, in show order.\n")
 
     if pl.get("url"):
         url = html.escape(pl["url"])
