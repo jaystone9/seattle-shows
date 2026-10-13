@@ -96,7 +96,7 @@ def main(src, out):
 
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Claude//Seattle Shows//EN",
-         "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:Seattle Shows",
+         "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:2 Week Soundcheck · Seattle",
          "X-WR-TIMEZONE:America/Los_Angeles",
          "X-WR-CALDESC:Concerts at Jay's favorite Seattle venues - refreshed weekly",
          "REFRESH-INTERVAL;VALUE=DURATION:P1D", "X-PUBLISHED-TTL:P1D", VTZ]
