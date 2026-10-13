@@ -42,7 +42,36 @@ window.SC = (function () {
     });
   }
 
+  // Newsletter signup: the beehiiv embed when connected (newsletter.json embed_url),
+  // a link to the beehiiv page as a fallback (subscribe_url), otherwise "opens soon".
+  function signupHTML(nl) {
+    nl = nl || {};
+    if (nl.embed_url) return `<iframe class="nl-embed" title="Sign up for the Sunday email" src="${esc(nl.embed_url)}" loading="lazy" frameborder="0" scrolling="no"></iframe>`;
+    if (nl.subscribe_url) return `<a class="btn" href="${esc(nl.subscribe_url)}" target="_blank" rel="noopener">Sign up for the Sunday email</a>`;
+    return `<p class="nl-soon">Email signups open soon.</p>`;
+  }
+
+  // A signup band just above the footer on every page, plus any [data-signup] slot.
+  function newsletter(data) {
+    const nl = data.newsletter || {};
+    const foot = document.querySelector("footer");
+    if (foot && !document.getElementById("newsletter")) {
+      const band = document.createElement("section");
+      band.className = "nl-band";
+      band.id = "newsletter";
+      band.setAttribute("aria-labelledby", "nl-h");
+      band.innerHTML = `<div class="nl-copy"><h2 id="nl-h">The Sunday email</h2>
+        <p>This week's playlist and every show for the next two weeks, in your inbox before the week starts. Free, and one email a week.</p></div>
+        <div class="nl-form" data-signup></div>`;
+      foot.before(band);
+      // The band is added after data loads, so honor a #newsletter link once it exists.
+      if (location.hash === "#newsletter") setTimeout(() => band.scrollIntoView(), 0);
+    }
+    document.querySelectorAll("[data-signup]").forEach(s => s.innerHTML = signupHTML(nl));
+  }
+
   function footer(data) {
+    newsletter(data);
     const el = document.getElementById("venues");
     if (el) el.innerHTML = Object.entries(data.venues).map(([k, v]) => `<li><a href="${esc(v.site)}" target="_blank" rel="noopener">${esc(v.short)}</a>, ${esc(v.hood)}</li>`).join("");
     document.querySelectorAll("[data-cal]").forEach(a => a.href = data.calendar);

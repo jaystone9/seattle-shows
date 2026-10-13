@@ -174,3 +174,13 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 @media (max-width:520px){.pv{padding:7px 11px;font-size:14px}.go{flex-direction:column;align-items:stretch}.go a,.go .pv{justify-content:center;text-align:center}}
 .pv .i-stop{display:none}.pv[aria-expanded="true"] .i-stop{display:inline}.pv[aria-expanded="true"] .i-play{display:none}
 [hidden]{display:none!important}
+
+/* newsletter band (every page, above the footer) */
+.nl-band{margin:72px 0 0;display:grid;gap:16px 32px;align-items:center;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--gel);border-radius:12px;padding:24px;scroll-margin-top:16px}
+@media (min-width:760px){.nl-band{grid-template-columns:1.1fr 1fr;padding:28px 32px}}
+.nl-band h2{margin:0 0 6px;font-size:30px;line-height:1.05;font-weight:850;font-variation-settings:var(--narrow)}
+.nl-band p{margin:0;color:var(--muted);font-size:16px;max-width:32em}
+.nl-band + footer{margin-top:40px}
+.nl-embed{display:block;width:100%;max-width:480px;height:60px;border:0;margin:0;background:transparent;border-radius:8px}
+.signup .nl-embed{max-width:none}
+.nl-soon,.nl-band .nl-soon{margin:0;font-weight:600;color:var(--ink)}

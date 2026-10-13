@@ -22,6 +22,7 @@
     <nav class="nav" aria-label="Main">
       <a href="./" aria-current="page">Shows</a>
       <a href="playlists.html">Playlists</a>
+      <a href="#newsletter">Sunday email</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
@@ -43,7 +44,7 @@
     <aside class="signup" id="signup" aria-labelledby="signup-h">
       <h3 id="signup-h">Get it every Sunday</h3>
       <p>The new playlist and the two-week lineup, in your inbox before the week starts.</p>
-      <div id="signup-slot"></div>
+      <div id="signup-slot" data-signup></div>
       <div class="alt">Or put every show in your phone's calendar: <a data-cal href="#">subscribe to the calendar</a>. It updates on its own.</div>
     </aside>
   </section>
@@ -85,7 +86,7 @@
       <div>
         <h4>Stay in the loop</h4>
         <ul>
-          <li><a href="./#signup">Sunday email</a></li>
+          <li><a href="#newsletter">Sunday email</a></li>
           <li><a data-cal href="#">Calendar for iPhone, Google, Outlook</a></li>
           <li><a data-pl href="#">This week's playlist on Spotify</a></li>
           <li><a href="playlists.html">Past playlists</a></li>
@@ -140,11 +141,7 @@
       $("#pl-sub").textContent = `${pl.songs} songs: the top five from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order.`;
     } else $("#player").innerHTML = `<p class="empty" style="padding:24px">This week's playlist is being built. Check back Sunday evening.</p>`;
 
-    // newsletter
-    const nl = data.newsletter || {};
-    if(nl.embed_url) $("#signup-slot").innerHTML = `<iframe title="Sign up for the Sunday email" src="${esc(nl.embed_url)}" loading="lazy"></iframe>`;
-    else if(nl.subscribe_url) $("#signup-slot").innerHTML = `<a class="btn" href="${esc(nl.subscribe_url)}" target="_blank" rel="noopener">Sign up for the Sunday email</a>`;
-    else $("#signup-slot").innerHTML = `<p style="margin:0;font-weight:600;color:var(--ink)">Email signups open soon.</p>`;
+    // newsletter: filled by SC.footer -> newsletter() via [data-signup]
 
     // filters
     const vs = Object.keys(venues).filter(k=>upcoming.some(e=>e.venue===k));
