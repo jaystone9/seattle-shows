@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=fcadac3f">
+<link rel="stylesheet" href="site.css?v=bdb2ec42">
 </head>
 <body>
 <div class="wrap">
@@ -47,6 +47,7 @@
   <section class="page-head">
     <h1>Every playlist</h1>
     <p>Every playlist we've made, newest first.</p>
+    <div class="pl-tabs pl-filter" id="pl-filter" role="group" aria-label="Show playlists for" hidden></div>
   </section>
 
   <div class="plist" id="plist"></div>
@@ -75,23 +76,41 @@
     <p class="fine" id="fine"></p>
   </footer>
 </div>
-<script src="common.js?v=53a8cd73"></script>
+<script src="common.js?v=b95579d3"></script>
 <script>
 SC.load().then(data=>{
   SC.footer(data);
   const {esc,range} = SC, list = data.playlists || [];
-  const seen = new Set();  // newest of each kind (citywide, Frelard, ...) is "This week"
-  document.getElementById("plist").innerHTML = list.length ? list.map(p=>{
-    const k = p.area||"", now = !seen.has(k) && seen.add(k);
-    const label = `<span class="area-tag">${esc(p.area || data.edition || "Seattle")}</span>`;
+  const city = data.edition || "Seattle";
+  const kind = p => p.area || city;
+  const seen = new Set();  // newest of each kind (Seattle, Frelard, ...) is "This week"
+  const cards = list.map(p=>{
+    const now = !seen.has(kind(p)) && seen.add(kind(p));
     const who = p.area ? `${p.artists} artists in ${esc(p.area)}, openers included` : `${p.artists} headliners`;
     const shows = p.area ? `./?area=${encodeURIComponent(p.area.toLowerCase())}` : "./";
     return `
-    <article class="pl${now?" current":""}">
-      <h2>${esc(range(p.start,p.end))}${label}${now?'<span class="now">This week</span>':""}</h2>
+    <article class="pl${now?" current":""}" data-kind="${esc(kind(p))}">
+      <h2>${esc(range(p.start,p.end))}<span class="area-tag">${esc(kind(p))}</span>${now?'<span class="now">This week</span>':""}</h2>
       <p class="meta">${p.songs} songs from ${who} · <a href="${esc(p.url)}" target="_blank" rel="noopener">Open in Spotify</a>${now?` · <a href="${shows}">See the shows</a>`:""}</p>
-      <iframe title="${esc(range(p.start,p.end))} ${esc(p.area||"")} playlist on Spotify" src="https://open.spotify.com/embed/playlist/${esc(p.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-    </article>`;}).join("") : `<p class="empty">The first playlist is on its way. Check back Sunday.</p>`;
+      <iframe title="${esc(range(p.start,p.end))} ${esc(kind(p))} playlist on Spotify" src="https://open.spotify.com/embed/playlist/${esc(p.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </article>`;}).join("");
+  const box = document.getElementById("plist");
+  box.innerHTML = list.length ? cards : `<p class="empty">The first playlist is on its way. Check back Sunday.</p>`;
+
+  // All / Seattle / Frelard switch; ?show=frelard keeps a shareable link
+  const kinds = [city, ...[...new Set(list.map(p=>p.area).filter(Boolean))]];
+  const f = document.getElementById("pl-filter");
+  f.innerHTML = [["","All"], ...kinds.map(k=>[k,k])].map(([k,l])=>`<button type="button" data-kind="${esc(k)}" aria-pressed="false">${esc(l)}</button>`).join("");
+  function pick(k){
+    f.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.kind===k)));
+    box.querySelectorAll("article.pl").forEach(a=>a.hidden = !!k && a.dataset.kind!==k);
+    SC.slide(f);
+    const u = new URL(location.href); k ? u.searchParams.set("show", k.toLowerCase()) : u.searchParams.delete("show"); history.replaceState(null,"",u);
+  }
+  f.addEventListener("click", ev=>{ const b=ev.target.closest("button"); if(b) pick(b.dataset.kind); });
+  if (kinds.length > 1 && list.length) f.hidden = false;
+  const want = (new URLSearchParams(location.search).get("show")||"").toLowerCase();
+  pick(kinds.find(k=>k.toLowerCase()===want) || "");
 }).catch(()=>{document.getElementById("plist").innerHTML=`<p class="empty">Playlists didn't load. Refresh the page to try again.</p>`;});
 </script>
 </body>

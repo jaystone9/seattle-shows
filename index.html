@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=fcadac3f">
+<link rel="stylesheet" href="site.css?v=bdb2ec42">
 </head>
 <body>
 <div class="wrap">
@@ -121,7 +121,7 @@
 </div>
 
 <script>setTimeout(()=>document.getElementById("range")?.classList.remove("pending"),2500)</script>
-<script src="common.js?v=53a8cd73"></script>
+<script src="common.js?v=b95579d3"></script>
 <script>
 (function(){
   const {esc,todayISO,addDays,D,fmt,range,showRow,load,footer} = SC;
@@ -173,6 +173,7 @@
       plTab = area;
       const pl = area ? areaPls[area] : data.playlist;
       document.querySelectorAll("#pl-tabs button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.area===area)));
+      SC.slide($("#pl-tabs"));
       if(pl && pl.id){
         $("#player").innerHTML = `<iframe title="${esc(pl.name)} on Spotify" src="https://open.spotify.com/embed/playlist/${esc(pl.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
         $("#pl-sub").textContent = area
@@ -184,7 +185,7 @@
       }
     }
     $("#pl-tabs").innerHTML = [["","All Seattle"],...PL_AREAS.map(a=>[a,a])].map(([a,l])=>`<button type="button" data-area="${esc(a)}" aria-pressed="false">${esc(l)}</button>`).join("");
-    $("#pl-tabs").hidden = false;
+    $("#pl-tabs").hidden = false; SC.slide($("#pl-tabs"));
     $("#pl-tabs").addEventListener("click",ev=>{const b=ev.target.closest("button"); if(b) showPlaylist(b.dataset.area);});
 
     // newsletter: filled by SC.footer -> newsletter() via [data-signup]

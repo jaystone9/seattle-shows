@@ -112,5 +112,19 @@ window.SC = (function () {
     if (fine) fine.textContent = `Show listings updated ${g.toLocaleDateString("en-US", { month: "long", day: "numeric" })}. Times and lineups come from each venue and can change, so check the ticket page before you go.`;
   }
 
-  return { esc, todayISO, addDays, D, fmt, range, time, load, showRow, footer, previews };
+  // Segmented pill switch with a sliding highlight. Call after the buttons exist and
+  // whenever aria-pressed changes; it moves the .thumb under the pressed button.
+  function slide(group) {
+    if (!group) return;
+    let t = group.querySelector(".thumb");
+    if (!t) { t = document.createElement("span"); t.className = "thumb"; t.setAttribute("aria-hidden", "true"); group.prepend(t); }
+    const b = group.querySelector('button[aria-pressed="true"]');
+    if (!b) { t.style.opacity = 0; return; }
+    t.style.opacity = 1;
+    t.style.width = b.offsetWidth + "px";
+    t.style.transform = `translateX(${b.offsetLeft - 4}px)`;
+    if (!group.dataset.slideInit) { group.dataset.slideInit = 1; addEventListener("resize", () => slide(group)); document.fonts && document.fonts.ready.then(() => slide(group)); }
+  }
+
+  return { esc, todayISO, addDays, D, fmt, range, time, load, showRow, footer, previews, slide };
 })();
