@@ -1,5 +1,7 @@
 # Sunday playlist procedure (run when Jay asks)
 
+Part of the Sunday run: see SUNDAY.md for the full order (inbox check, venue refresh, this playlist, newsletter).
+
 Jay prompts this manually each Sunday ("run my Seattle Shows playlist"). Do not email until the playlist is fully built. This needs the desktop app's built-in browser: a cloud-only session (e.g. one started by the weekly scheduled task) can't do it, and the Spotify connector can't build multi-artist playlists.
 
 1. Window: today through today + 13 days.
