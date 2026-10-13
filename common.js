@@ -76,7 +76,7 @@ window.SC = (function () {
       band.id = "newsletter";
       band.setAttribute("aria-labelledby", "nl-h");
       band.innerHTML = `<div class="nl-copy"><h2 id="nl-h">The Sunday email</h2>
-        <p>This week's playlist and the shows worth catching, in your inbox every Sunday. Free, short, one email a week.</p></div>
+        <p>Get this week's playlist sent straight to your inbox every Sunday. Free, one email a week.</p></div>
         <div class="nl-form" data-signup></div>`;
       foot.before(band);
     }
