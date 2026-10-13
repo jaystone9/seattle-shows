@@ -54,7 +54,19 @@ window.SC = (function () {
     return `<p class="nl-soon">Email signups open soon.</p>`;
   }
 
+  // beehiiv hides its forms for visitors who already subscribed (it sets a
+  // bhv_<publication>_subscribed cookie on this site), so show a note instead of an empty box.
+  function alreadySubscribed(nl) {
+    if (!nl.publication_id) return false;
+    try { return document.cookie.split(";").some(c => c.trim().startsWith("bhv_" + nl.publication_id + "_subscribed=")); }
+    catch (e) { return false; }
+  }
+
   function fillSignup(slot, nl) {
+    if (nl.form_id && alreadySubscribed(nl)) {
+      slot.innerHTML = `<p class="nl-done">✓ You're subscribed. The next playlist lands in your inbox Sunday.</p>`;
+      return;
+    }
     if (nl.form_id) {
       slot.innerHTML = "";
       const sc = document.createElement("script");

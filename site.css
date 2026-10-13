@@ -202,3 +202,4 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 /* small deliverability tip under the signup field */
 .nl-note{margin:8px 0 0;font-size:13px;line-height:1.45;color:var(--muted)}
 .signup .nl-note{margin:6px 0 0}
+.nl-done{margin:0;font-weight:700;color:var(--ink)}
