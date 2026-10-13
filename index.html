@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=76c2a560">
+<link rel="stylesheet" href="site.css?v=5d307c70">
 </head>
 <body>
 <div class="wrap">
@@ -128,26 +128,31 @@
   const $ = s => document.querySelector(s);
 
   load().then(data=>{
-    const venues = data.venues, today = todayISO(), end = addDays(today,13);
+    // The page follows the current playlist's two weeks (e.g. Oct 12–25), so the dates
+    // match the playlist and the newsletter. If that window has ended, fall back to today + 13.
+    const venues = data.venues, today = todayISO();
+    const cur = data.playlist && data.playlist.end >= today ? data.playlist : null;
+    const start = cur ? cur.start : today, end = cur ? cur.end : addDays(today,13);
+    const days = Math.round((D(end)-D(start))/864e5)+1;
     const upcoming = data.events.filter(e=>e.date>=today);
     const soon = upcoming.filter(e=>e.date<=end), later = upcoming.filter(e=>e.date>end);
     footer(data);
 
     // hero
-    $("#r1").textContent = range(today,end);
-    $("#r2").textContent = `${soon.length} shows`;
+    $("#r1").textContent = range(start,end);
+    $("#r2").textContent = `${soon.length} show${soon.length===1?"":"s"}`;
     $("#range").classList.remove("pending");
 
     // meter
     const byDay = {}; soon.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
     const max = Math.max(4,...Object.values(byDay).map(a=>a.length));
     let m="", dl="";
-    for(let i=0;i<14;i++){
-      const iso=addDays(today,i), n=(byDay[iso]||[]).length, wd=D(iso).getUTCDay();
+    for(let i=0;i<days;i++){
+      const iso=addDays(start,i), past=iso<today, n=(byDay[iso]||[]).length, wd=D(iso).getUTCDay();
       const h = n? Math.max(6, Math.round(n/max*84)) : 2;
-      const label = `${fmt(iso,{weekday:"long",month:"long",day:"numeric"})}: ${n} show${n===1?"":"s"}`;
-      m += `<button class="ch${wd===5||wd===6?" weekend":""}" role="listitem" style="--h:${h}%;--i:${i}" aria-label="${label}" data-day="${iso}"><span class="n">${n||""}</span><span class="peak"></span><span class="bar"></span></button>`;
-      dl += `<span>${fmt(iso,{weekday:"narrow"})}<strong>${fmt(iso,{day:"numeric"})}</strong></span>`;
+      const label = `${fmt(iso,{weekday:"long",month:"long",day:"numeric"})}: ${past?"already happened":`${n} show${n===1?"":"s"}`}`;
+      m += `<button class="ch${wd===5||wd===6?" weekend":""}${past?" past":""}"${past?" disabled":""} role="listitem" style="--h:${h}%;--i:${i}" aria-label="${label}" data-day="${iso}"><span class="n">${n||""}</span><span class="peak"></span><span class="bar"></span></button>`;
+      dl += `<span${past?' class="past"':""}>${fmt(iso,{weekday:"narrow"})}<strong>${fmt(iso,{day:"numeric"})}</strong></span>`;
     }
     $("#meter").innerHTML = m; $("#days").innerHTML = dl;
     $("#meter").addEventListener("click",ev=>{
@@ -167,13 +172,11 @@
       plTab = area;
       const pl = area ? areaPls[area] : data.playlist;
       document.querySelectorAll("#pl-tabs button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.area===area)));
-      const word = n => ({1:"one",2:"two",3:"three",4:"four",5:"five"})[n] || n;
       if(pl && pl.id){
-        const per = word(pl.per_artist || 3);
         $("#player").innerHTML = `<iframe title="${esc(pl.name)} on Spotify" src="https://open.spotify.com/embed/playlist/${esc(pl.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
         $("#pl-sub").textContent = area
-          ? `${pl.songs} songs from ${pl.artists} artists playing ${area}'s small rooms ${range(pl.start,pl.end)}: the top ${per} from every headliner and opener, in show order.`
-          : `${pl.songs} songs: the top ${per} from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order.`;
+          ? `${pl.songs} songs from ${pl.artists} artists playing ${area}'s small rooms ${range(pl.start,pl.end)}, openers included, in show order.`
+          : `${pl.songs} songs from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order.`;
       } else {
         $("#player").innerHTML = `<p class="empty" style="padding:24px">${area?`The first ${esc(area)} playlist lands this Sunday: every band on the bill in Ballard and Fremont, openers included.`:"This week's playlist is being built. Check back Sunday evening."}</p>`;
         $("#pl-sub").textContent = area ? "Every act at the small rooms in Ballard and Fremont." : "The top songs from every headliner, in show order.";
@@ -207,19 +210,21 @@
     const match = (e,q,vf,af) => (!af||areaOf(e.venue)===af) && (!vf||e.venue===vf) && (!q||(e.title+" "+e.support.join(" ")).toLowerCase().includes(q));
 
     let limit = 60;
+    const iso_ok = i => addDays(today,i) <= end;
     function render(){
       const q=$("#q").value.trim().toLowerCase(), vf=$("#venue").value, af=$("#area").value, filtered=!!(q||vf||af);
       $("#clear").hidden = !filtered;
       // next two weeks
       let html="", count=0;
-      for(let i=0;i<14;i++){
+      for(let i=0;iso_ok(i);i++){
         const iso=addDays(today,i), list=(byDay[iso]||[]).filter(e=>match(e,q,vf,af));
         if(filtered && !list.length) continue;
         count += list.length;
         const name = i===0?"Today":i===1?"Tomorrow":fmt(iso,{weekday:"long"});
         html += `<div class="day" id="d-${iso}"><h3 tabindex="-1">${name}<small>${fmt(iso,{month:"long",day:"numeric"})}</small></h3>${list.length?list.map(e=>showRow(e,venues,false)).join(""):`<p class="empty">No concerts at our venues. A good night for the playlist.</p>`}</div>`;
       }
-      $("#lineup").innerHTML = html ? (af&&!vf&&!q?`<p class="area-note">${esc(af)}: ${af==="Frelard"?"the small rooms in Ballard and Fremont":esc(hoods(af))}.</p>`:"") + html : `<p class="empty">Nothing matches in the next two weeks. Check Further out below, or clear the filters.</p>`;
+      $("#lineup").innerHTML = html ? (af&&!vf&&!q?`<p class="area-note">${esc(af)}: ${af==="Frelard"?"the small rooms in Ballard and Fremont":esc(hoods(af))}.</p>`:"") + html : `<p class="empty">Nothing matches through ${fmt(end,{month:"long",day:"numeric"})}. Check Further out below, or clear the filters.</p>`;
+      $("#lineup-h").textContent = `Now through ${fmt(end,{month:"long",day:"numeric"})}`;
       $("#lineup-count").textContent = filtered ? `${count} match${count===1?"":"es"}` : `${soon.length} shows at ${new Set(soon.map(e=>e.venue)).size} venues`;
       // further out
       const rows = later.filter(e=>match(e,q,vf,af));
