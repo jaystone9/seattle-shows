@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Build the 2 Week Soundcheck site data for one city edition.
 
-Usage: python3 build_site.py [shows_dir] [playlist.json] [out.json]
-Defaults: shows/  playlist.json  data/seattle.json
+Usage: python3 build_site.py [shows_dir] [playlists.json] [out.json]
+Defaults: shows/  playlists.json  data/seattle.json
+playlists.json is a list, newest first; the first entry is "this week's".
 
 Reads the same shows/*.json the calendar feed uses, keeps today onward
 (Pacific), splits headliner from support, labels each link as a ticket page
@@ -30,6 +31,8 @@ VENUES = {
     "WaMu Theater": {"short": "WaMu Theater", "hood": "SoDo", "site": "https://www.wamutheater.com/"},
     "Chateau Ste. Michelle": {"short": "Ste. Michelle", "hood": "Woodinville", "site": "https://www.ste-michelle.com/visit-us/summer-concerts"},
     "Dune Peninsula": {"short": "Dune Peninsula", "hood": "Tacoma", "site": "https://www.metroparkstacoma.org/"},
+    "Neumos": {"short": "Neumos", "hood": "Capitol Hill", "site": "https://www.neumos.com/"},
+    "Barboza": {"short": "Barboza", "hood": "Capitol Hill", "site": "https://www.thebarboza.com/"},
     "Climate Pledge Arena": {"short": "Climate Pledge Arena", "hood": "Seattle Center", "site": "https://climatepledgearena.com/events/"},
     "T-Mobile Park": {"short": "T-Mobile Park", "hood": "SoDo", "site": "https://www.mlb.com/mariners/tickets/concerts"},
 }
@@ -37,7 +40,7 @@ VENUES = {
 TICKET_HOSTS = ("tixr.com", "ticketweb.com", "showboxpresents.com", "thecrocodile.com",
                 "wamutheater.com", "tickpick.com", "gametime.co", "dice.fm", "axs.com",
                 "ticketmaster.com", "etix.com", "seetickets", "venuepilot", "eventbrite",
-                "seattlechambermusic.org", "seattlesymphony.org", "opendate", "climatepledgearena.com")
+                "seattlechambermusic.org", "seattlesymphony.org", "opendate", "climatepledgearena.com", "neumos.com", "thebarboza.com")
 
 PRESENTER = re.compile(r"^(Showbox Presents|Hotel Crocodile Presents|Tractor Presents|KEXP Presents|KBCS Presents|Seattle Symphony)\s*:\s*", re.I)
 
@@ -46,6 +49,8 @@ def venue_key(ev):
     v, room = ev.get("venue", ""), ev.get("room") or ""
     if v == "The Showbox":
         return room if room in VENUES else "Showbox at the Market"
+    if room == "Barboza":
+        return "Barboza"
     for k in VENUES:
         if k.lower() in v.lower() or v.lower().startswith(k.lower().split(" at ")[0].lower()):
             return k
@@ -63,7 +68,7 @@ def split_title(title):
     return t, support
 
 
-def main(src="shows", pl="playlist.json", out="data/seattle.json"):
+def main(src="shows", pl="playlists.json", out="data/seattle.json"):
     today = dt.datetime.now(TZ).date()
     events, seen = [], set()
     for f in sorted(glob.glob(f"{src}/*.json")):
@@ -94,10 +99,20 @@ def main(src="shows", pl="playlist.json", out="data/seattle.json"):
                 "link": "tickets" if any(h in host for h in TICKET_HOSTS) else "details",
             })
     events.sort(key=lambda e: (e["date"], e["time"] or "99", e["title"].lower()))
+    # previews.json: {show title: {"artist": id, "track": id, "song": name}} for the next two weeks
     try:
-        playlist = json.load(open(pl))
+        pv = json.load(open("previews.json"))
     except FileNotFoundError:
-        playlist = None
+        pv = {}
+    for e in events:
+        p = pv.get(e["title"])
+        if p and p.get("track"):
+            e["preview"] = {"track": p["track"], "song": p.get("song")}
+    try:
+        playlists = json.load(open(pl))
+    except FileNotFoundError:
+        playlists = []
+    playlist = playlists[0] if playlists else None
     data = {
         "brand": "2 Week Soundcheck",
         "edition": "Seattle",
@@ -105,6 +120,8 @@ def main(src="shows", pl="playlist.json", out="data/seattle.json"):
         "calendar": "webcal://jaystone9.github.io/seattle-shows/seattle-shows.ics",
         "newsletter": json.load(open("newsletter.json")) if glob.glob("newsletter.json") else {},
         "playlist": playlist,
+        "playlists": playlists,
+        "contact": json.load(open("contact.json")) if glob.glob("contact.json") else {},
         "venues": VENUES,
         "events": events,
     }

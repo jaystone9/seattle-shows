@@ -17,6 +17,7 @@ music event at the venues below from TODAY through TODAY + 6 months.
 | benaroya-hall.json | Benaroya Hall (Taper Auditorium / Nordstrom Recital Hall) | official sites block fetches — use Bachtrack, ConcertFix, Songkick, seattlechambermusic.org; one entry per performance date |
 | wamu-theater.json | WaMu Theater | wamutheater.com event calendar (ignore generic "This event Ended" banner) |
 | chateau-ste-michelle.json | Chateau Ste. Michelle, Woodinville | ste-michelle.com summer concerts (lineup usually announced ~March) |
+| neumos.json | Neumos (room null) + Barboza (room "Barboza"), Capitol Hill | neumos.com / thebarboza.com won't fetch; AXS venue pages (only first ~20 events show), Songkick ("Neumos", "Barboza", "Barboza at Neumos"), Do206, JamBase, ConcertFix |
 | climate-pledge-arena.json | Climate Pledge Arena, Seattle Center | climatepledgearena.com/events (calendar only shows ~2 weeks and its next-page links won't fetch; use Songkick venue calendar + ConcertFix, AXS for ticket links). Skip Kraken/Torrent/Storm games, Dancing with the Stars, family shows |
 | t-mobile-park.json | T-Mobile Park, SoDo | mlb.com/mariners/tickets/concerts + ballpark events calendar; stadium shows are usually announced in winter for the summer |
 | dune-peninsula.json | Dune Peninsula, Point Defiance, Tacoma | Metro Parks Tacoma + Showbox Outdoor Concerts (summer series) |
@@ -25,7 +26,8 @@ music event at the venues below from TODAY through TODAY + 6 months.
 `{"venue", "room" (or null), "title" ("Headliner (with Support, Support)"), "date" YYYY-MM-DD,
 "doors" HH:MM|null, "start" HH:MM|null (24h Pacific), "url", "status" null|"sold out"|"cancelled"|"postponed"}`
 
-Keep: concerts, DJ/dance nights, tribute acts, Conor Byrne's free weekly music nights.
+GOAL (Jay, Oct 12): help people discover new music and go see real bands/artists. Keep: concerts by named artists, including named DJs/producers on their own tour, and classical concerts.
+DROP themed/kitschy nights: tribute and cover acts ("X Tribute", "Music of X", "Celebrating X", "plays [album/cartoon]", Thankful Dead, Grateful Shred, Super Diamond...), theme/dance parties (Gimme Gimme Disco, Emo Nite, 90s/2000s nights, "X Night", Halloween/holiday parties), recurring jams/open mics/song shares/country & swing dance nights/square dances, showcases and benefits, holiday pops and family shows, movie nights.
 CONCERTS ONLY (Jay, Oct 12): skip sports of any kind (Kraken, Storm, Torrent, Seahawks, Sounders, Mariners games, WWE/UFC, monster trucks), comedy, film screenings, podcasts, talks, trivia, drag and cabaret/reality-TV shows (e.g. Countess Luann), Dancing with the Stars, family/ice shows, conventions, events held at OTHER venues. No movie nights: skip film-with-live-orchestra screenings ("Elf in Concert", "Hook in Concert", Chaplin, etc.).
 Never invent events — only what a listing shows. Drop events dated before today.
 Keep titles/venue names identical week to week where the listing is unchanged (UIDs are derived from venue|date|title|time, so stable text = in-place updates on the phone, not duplicates).

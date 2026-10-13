@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Playlists · 2 Week Soundcheck</title>
+<meta name="description" content="Every 2 Week Soundcheck playlist: the top songs from the headliners playing Seattle each fortnight.">
+<meta name="theme-color" content="#F3F5F9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1A2030" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231C2433'/%3E%3Crect x='6' y='14' width='4' height='12' fill='%23D6336C'/%3E%3Crect x='14' y='8' width='4' height='18' fill='%23D6336C'/%3E%3Crect x='22' y='11' width='4' height='15' fill='%23D6336C'/%3E%3Crect x='14' y='5' width='4' height='2' fill='%23F2A100'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <a class="brand" href="./"><b>2</b> Week Soundcheck</a>
+    <nav class="nav" aria-label="Main">
+      <a href="./">Shows</a>
+      <a href="playlists.html" aria-current="page">Playlists</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="page-head">
+    <h1>Every playlist</h1>
+    <p>Each one is the top five songs from every headliner playing our Seattle venues over two weeks, in show order. The newest is first.</p>
+  </section>
+
+  <div class="plist" id="plist"></div>
+
+  <footer>
+    <div class="foot">
+      <div>
+        <h4>About</h4>
+        <p>2 Week Soundcheck tracks every concert at a short list of rooms worth knowing, refreshed every week, so you can find new music and go see it. Seattle is the first city.</p>
+      </div>
+      <div>
+        <h4>Venues we follow</h4>
+        <ul id="venues"></ul>
+      </div>
+      <div>
+        <h4>Stay in the loop</h4>
+        <ul>
+          <li><a href="./#signup">Sunday email</a></li>
+          <li><a data-cal href="#">Calendar for iPhone, Google, Outlook</a></li>
+          <li><a href="contact.html#report">Report a problem</a></li>
+          <li><a href="contact.html#contact">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine" id="fine"></p>
+  </footer>
+</div>
+<script src="common.js"></script>
+<script>
+SC.load().then(data=>{
+  SC.footer(data);
+  const {esc,range} = SC, list = data.playlists || [];
+  document.getElementById("plist").innerHTML = list.length ? list.map((p,i)=>`
+    <article class="pl${i===0?" current":""}">
+      <h2>${esc(range(p.start,p.end))}${i===0?'<span class="now">This week</span>':""}</h2>
+      <p class="meta">${p.songs} songs from ${p.artists} headliners · <a href="${esc(p.url)}" target="_blank" rel="noopener">Open in Spotify</a>${i===0?' · <a href="./">See the shows</a>':""}</p>
+      <iframe title="${esc(range(p.start,p.end))} playlist on Spotify" src="https://open.spotify.com/embed/playlist/${esc(p.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </article>`).join("") : `<p class="empty">The first playlist is on its way. Check back Sunday.</p>`;
+}).catch(()=>{document.getElementById("plist").innerHTML=`<p class="empty">Playlists didn't load. Refresh the page to try again.</p>`;});
+</script>
+</body>
+</html>

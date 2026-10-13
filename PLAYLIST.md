@@ -10,7 +10,9 @@ Jay prompts this manually each Sunday ("run my Seattle Shows playlist"). Do not 
    - The Spotify connector's generate_playlist can't do exact track lists — don't use it.
    - What worked (Oct 7, 2026 run): in page JS, navigate with history.pushState + popstate (no reloads) to `/search/<name>/artists`, take the artist link whose normalized text matches the name exactly, then read the first 5 `[data-testid="tracklist-row"]` track links on the artist page. Then on the playlist page, for each track, set the "Search for songs or episodes" input (native value setter + input event) to "<title> <artist>" and click `[data-testid="add-to-playlist-button"]` in the result row whose artist link matches. Run loops in the background (javascript_tool calls cap at 45s) and poll `window.__log`. Pasting links and URL search do not work in the web player.
    - Keep the Claude desktop window in front: when the pane is hidden, timers throttle to ~1/min. ~426 tracks took ~15 minutes visible.
-4. Update `playlist.json` (name, id, url, start, end, songs, artists), run `python3 build_site.py`, commit and push, so the site at 2 Week Soundcheck shows the new playlist.
+4. Add the new playlist to the TOP of `playlists.json` (name, id, url, start, end, songs, artists); older entries stay, so the site's Playlists page keeps the archive.
+   Also rewrite `previews.json`: for every show in the window, `{"<show title as in data/seattle.json>": {"artist": id, "track": id of the artist's #1 Popular song, "song": name, "name": search name}}`. You already open each artist page while building the playlist, so take the first track there. This powers the Preview buttons in "The next two weeks".
+   Run `python3 build_site.py`, commit and push.
 5. Run `python3 build_issue.py` to draft the newsletter issue (issues/<start>.html to paste into beehiiv once it's set up).
 6. When the playlist is complete, email Jay at [address removed] and Eric Rue at [address removed] (both in To) via the Gmail connector:
    - Subject: `Seattle Shows playlist: <date range>`

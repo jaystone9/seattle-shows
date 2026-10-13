@@ -1,482 +1,402 @@
 [
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "City of the Sun",
-  "date": "2026-10-15",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/city-of-the-sun-15-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Sawyer Hill - Everybody's Home, Nobody's Happy World Tour",
-  "date": "2026-10-16",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/sawyer-hill-everybody-s-home-nobody-s-happy-world-tour-16-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": "Hotel Crocodile",
-  "title": "Bao Bella: A Moment for Lust - Please Me Single Release (with x.1aoy3)",
-  "date": "2026-10-16",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/bao-bella-a-moment-for-lust-please-me-single-release-16-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Gimme Gimme Disco",
-  "date": "2026-10-17",
-  "doors": "22:00",
-  "start": "22:00",
-  "url": "https://calendar.thecrocodile.com/shows/gimme-gimme-disco-17-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Cheekface (with Waitress)",
-  "date": "2026-10-18",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://calendar.thecrocodile.com/shows/cheekface-w-special-guest-waitress-18-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "The War and Treaty (with Blank Page, Jordan Babbs)",
-  "date": "2026-10-21",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://calendar.thecrocodile.com/shows/the-war-and-treaty-21-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "NOTD",
-  "date": "2026-10-23",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/notd-23-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Beauty Sleep (with DJ Loveli)",
-  "date": "2026-10-24",
-  "doors": "18:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/beauty-sleep-24-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Blade Rave",
-  "date": "2026-10-24",
-  "doors": "22:00",
-  "start": "22:00",
-  "url": "https://calendar.thecrocodile.com/shows/blade-rave-24-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "George Clanton (with ideasforconversations)",
-  "date": "2026-10-25",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/george-clanton-25-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Frankie Cosmos - Celebrating 10 Years of Next Thing (with Coral Grief)",
-  "date": "2026-10-26",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/frankie-cosmos-celebrating-10-years-of-next-thing-26-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Pouya - The Forever Glades Tour",
-  "date": "2026-10-27",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://calendar.thecrocodile.com/shows/pouya-the-forever-glades-tour-27-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "bunii - BUNIIVERSITY Tour",
-  "date": "2026-10-28",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/bunii-buniiversity-tour-28-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": "Hotel Crocodile",
-  "title": "Psyched! Radio SF & Hotel Crocodile Present: Satana Satana (Argentina)",
-  "date": "2026-10-30",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/psyched-radio-sf-hotel-crocodile-present-satana-satana-argentina-30-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Ax and the Hatchetmen: The Late Checkout Tour 2026",
-  "date": "2026-10-31",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/ax-and-the-hatchetmen-the-late-checkout-tour-2026-31-oct",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Daft Disko Halloween: Seattle",
-  "date": "2026-10-31",
-  "doors": "22:00",
-  "start": "22:00",
-  "url": "https://calendar.thecrocodile.com/shows/daft-disko-halloween-seattle-01-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Fox Stevenson / Mystery Skulls",
-  "date": "2026-11-02",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/fox-stevenson-mystery-skulls-02-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Bahamas: Industrial Sport & Sound Tour",
-  "date": "2026-11-03",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/bahamas-industrial-sport-sound-tour-03-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Plini - An Unnameable Desire North American Tour (with Night Verses, Portraits)",
-  "date": "2026-11-04",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://calendar.thecrocodile.com/shows/plini-an-unnameable-desire-north-american-tour-w-night-verses-portraits-04-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "The Tallest Man On Earth (with Andrea von Kampen)",
-  "date": "2026-11-05",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/the-tallest-man-on-earth-05-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "JOSEPH - 10 Year Anniversary of \"I'm Alone, No You're Not\"",
-  "date": "2026-11-06",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/joseph-i-m-alone-no-you-re-not-06-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Hot In Herre: 2000's Dance Party",
-  "date": "2026-11-06",
-  "doors": "22:00",
-  "start": "22:00",
-  "url": "https://calendar.thecrocodile.com/shows/hot-in-herre-2000-s-dance-party-06-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "An Evening With Railroad Earth",
-  "date": "2026-11-07",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/an-evening-with-railroad-earth-07-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "INOHA (with Buddha Trixie, Flight by Nothing)",
-  "date": "2026-11-08",
-  "doors": "18:30",
-  "start": "19:30",
-  "url": "https://calendar.thecrocodile.com/shows/inoha-08-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Tank and The Bangas - The Last Balloon Tour 2026 (with Ariel J.)",
-  "date": "2026-11-10",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/tank-and-the-bangas-the-last-balloon-tour-2026-10-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Armand Hammer",
-  "date": "2026-11-11",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/armand-hammer-11-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Nekrogoblikon (with Aborted, Signs of the Swarm, Party Cannon)",
-  "date": "2026-11-12",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://calendar.thecrocodile.com/shows/nekrogoblikon-12-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Son Volt (with Kelly Willis)",
-  "date": "2026-11-13",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/son-volt-13-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Stephen Day",
-  "date": "2026-11-14",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/stephen-day-14-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "RAVEFURREST x IMPACT! (with passengerprincess, sixwing, Demifiend, Eximonious, Basspet)",
-  "date": "2026-11-15",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/ravefurrest-x-impact-15-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Jamila Woods: 10 Years of HEAVN",
-  "date": "2026-11-20",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/jamila-woods-10-years-of-heavn-20-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "2DEAD BOYZ x The Underachievers: NO1LIVESFOREVER Tour (with Dizzy Wright)",
-  "date": "2026-11-21",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/2dead-boyz-x-the-underachievers-no1livesforever-tour-21-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Gimme Gimme Disco",
-  "date": "2026-11-21",
-  "doors": "22:00",
-  "start": "22:00",
-  "url": "https://calendar.thecrocodile.com/shows/gimme-gimme-disco-21-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Nite Wave present: The Cure, Depeche Mode & New Order Tribute Night (with The Lovecats, New Life, Age of Consent)",
-  "date": "2026-11-27",
-  "doors": "20:00",
-  "start": "20:45",
-  "url": "https://calendar.thecrocodile.com/shows/nite-wave-present-the-cure-depeche-mode-new-order-tribute-night-27-nov",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Buck Meek",
-  "date": "2026-12-02",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/buck-meek-02-dec",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "How The Grouch Stole Christmas Tour 2026 - The Grouch & Eligh ft. AmpLive (with Brother Ali)",
-  "date": "2026-12-06",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/how-the-grouch-stole-christmas-tour-2026-the-grouch-eligh-ft-amplive-with-special-guest-brother-ali-06-dec",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Emo Orchestra (with The Spill Canvas, Greywind)",
-  "date": "2026-12-07",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/emo-orchestra-w-spill-canvas-07-dec",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Miss May I / Born of Osiris (with Convictions, Downswing)",
-  "date": "2026-12-09",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://calendar.thecrocodile.com/shows/born-of-osiris-miss-may-i-09-dec",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Hell's Belles (with Diva Knievel)",
-  "date": "2026-12-19",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/hell-s-belles-19-dec",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Magenta Wave",
-  "date": "2026-12-20",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/magenta-wave-20-dec",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Book of Love",
-  "date": "2027-02-20",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/book-of-love-20-feb",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Sungazer (with Button Masher)",
-  "date": "2027-02-25",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/sungazer-25-feb",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Marian Hill - ACT TWO: The Tour",
-  "date": "2027-02-27",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/marian-hill-act-two-the-tour-27-feb",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "TOPHOUSE",
-  "date": "2027-03-06",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/tophouse-06-mar",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Rayland Baxter: The True Violet Tour (with Esther Rose)",
-  "date": "2027-03-08",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/rayland-baxter-the-true-violet-tour-08-mar",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Kid Francescoli",
-  "date": "2027-03-28",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/kid-francescoli-28-mar",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "The Mary Wallopers",
-  "date": "2027-03-29",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://calendar.thecrocodile.com/shows/the-mary-wallopers-29-mar",
-  "status": null
- },
- {
-  "venue": "The Crocodile",
-  "room": null,
-  "title": "Thao - \"Show Me\" Tour",
-  "date": "2027-04-03",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://calendar.thecrocodile.com/shows/thao-show-me-tour-03-apr",
-  "status": null
- }
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "City of the Sun",
+    "date": "2026-10-15",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/city-of-the-sun-15-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Sawyer Hill - Everybody's Home, Nobody's Happy World Tour",
+    "date": "2026-10-16",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/sawyer-hill-everybody-s-home-nobody-s-happy-world-tour-16-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": "Hotel Crocodile",
+    "title": "Bao Bella: A Moment for Lust - Please Me Single Release (with x.1aoy3)",
+    "date": "2026-10-16",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/bao-bella-a-moment-for-lust-please-me-single-release-16-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Cheekface (with Waitress)",
+    "date": "2026-10-18",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://calendar.thecrocodile.com/shows/cheekface-w-special-guest-waitress-18-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "The War and Treaty (with Blank Page, Jordan Babbs)",
+    "date": "2026-10-21",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://calendar.thecrocodile.com/shows/the-war-and-treaty-21-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "NOTD",
+    "date": "2026-10-23",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/notd-23-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Beauty Sleep (with DJ Loveli)",
+    "date": "2026-10-24",
+    "doors": "18:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/beauty-sleep-24-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "George Clanton (with ideasforconversations)",
+    "date": "2026-10-25",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/george-clanton-25-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Frankie Cosmos - Celebrating 10 Years of Next Thing (with Coral Grief)",
+    "date": "2026-10-26",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/frankie-cosmos-celebrating-10-years-of-next-thing-26-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Pouya - The Forever Glades Tour",
+    "date": "2026-10-27",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://calendar.thecrocodile.com/shows/pouya-the-forever-glades-tour-27-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "bunii - BUNIIVERSITY Tour",
+    "date": "2026-10-28",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/bunii-buniiversity-tour-28-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": "Hotel Crocodile",
+    "title": "Psyched! Radio SF & Hotel Crocodile Present: Satana Satana (Argentina)",
+    "date": "2026-10-30",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/psyched-radio-sf-hotel-crocodile-present-satana-satana-argentina-30-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Ax and the Hatchetmen: The Late Checkout Tour 2026",
+    "date": "2026-10-31",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/ax-and-the-hatchetmen-the-late-checkout-tour-2026-31-oct",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Fox Stevenson / Mystery Skulls",
+    "date": "2026-11-02",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/fox-stevenson-mystery-skulls-02-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Bahamas: Industrial Sport & Sound Tour",
+    "date": "2026-11-03",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/bahamas-industrial-sport-sound-tour-03-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Plini - An Unnameable Desire North American Tour (with Night Verses, Portraits)",
+    "date": "2026-11-04",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://calendar.thecrocodile.com/shows/plini-an-unnameable-desire-north-american-tour-w-night-verses-portraits-04-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "The Tallest Man On Earth (with Andrea von Kampen)",
+    "date": "2026-11-05",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/the-tallest-man-on-earth-05-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "JOSEPH - 10 Year Anniversary of \"I'm Alone, No You're Not\"",
+    "date": "2026-11-06",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/joseph-i-m-alone-no-you-re-not-06-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "An Evening With Railroad Earth",
+    "date": "2026-11-07",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/an-evening-with-railroad-earth-07-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "INOHA (with Buddha Trixie, Flight by Nothing)",
+    "date": "2026-11-08",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://calendar.thecrocodile.com/shows/inoha-08-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Tank and The Bangas - The Last Balloon Tour 2026 (with Ariel J.)",
+    "date": "2026-11-10",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/tank-and-the-bangas-the-last-balloon-tour-2026-10-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Armand Hammer",
+    "date": "2026-11-11",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/armand-hammer-11-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Nekrogoblikon (with Aborted, Signs of the Swarm, Party Cannon)",
+    "date": "2026-11-12",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://calendar.thecrocodile.com/shows/nekrogoblikon-12-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Son Volt (with Kelly Willis)",
+    "date": "2026-11-13",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/son-volt-13-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Stephen Day",
+    "date": "2026-11-14",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/stephen-day-14-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Jamila Woods: 10 Years of HEAVN",
+    "date": "2026-11-20",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/jamila-woods-10-years-of-heavn-20-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "2DEAD BOYZ x The Underachievers: NO1LIVESFOREVER Tour (with Dizzy Wright)",
+    "date": "2026-11-21",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/2dead-boyz-x-the-underachievers-no1livesforever-tour-21-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Buck Meek",
+    "date": "2026-12-02",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/buck-meek-02-dec",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "How The Grouch Stole Christmas Tour 2026 - The Grouch & Eligh ft. AmpLive (with Brother Ali)",
+    "date": "2026-12-06",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/how-the-grouch-stole-christmas-tour-2026-the-grouch-eligh-ft-amplive-with-special-guest-brother-ali-06-dec",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Emo Orchestra (with The Spill Canvas, Greywind)",
+    "date": "2026-12-07",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/emo-orchestra-w-spill-canvas-07-dec",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Miss May I / Born of Osiris (with Convictions, Downswing)",
+    "date": "2026-12-09",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://calendar.thecrocodile.com/shows/born-of-osiris-miss-may-i-09-dec",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Magenta Wave",
+    "date": "2026-12-20",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/magenta-wave-20-dec",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Book of Love",
+    "date": "2027-02-20",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/book-of-love-20-feb",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Sungazer (with Button Masher)",
+    "date": "2027-02-25",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/sungazer-25-feb",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Marian Hill - ACT TWO: The Tour",
+    "date": "2027-02-27",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/marian-hill-act-two-the-tour-27-feb",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "TOPHOUSE",
+    "date": "2027-03-06",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/tophouse-06-mar",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Rayland Baxter: The True Violet Tour (with Esther Rose)",
+    "date": "2027-03-08",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/rayland-baxter-the-true-violet-tour-08-mar",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Kid Francescoli",
+    "date": "2027-03-28",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/kid-francescoli-28-mar",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "The Mary Wallopers",
+    "date": "2027-03-29",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/the-mary-wallopers-29-mar",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Thao - \"Show Me\" Tour",
+    "date": "2027-04-03",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/thao-show-me-tour-03-apr",
+    "status": null
+  }
 ]

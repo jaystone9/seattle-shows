@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>2 Week Soundcheck · Seattle</title>
-<meta name="description" content="Every show at Seattle's best rooms for the next two weeks, a playlist of the headliners, and links to buy tickets.">
+<meta name="description" content="Every concert at Seattle's best rooms for the next two weeks, a playlist of the headliners, and links to buy tickets.">
 <meta property="og:title" content="2 Week Soundcheck · Seattle">
 <meta property="og:description" content="What's playing in Seattle the next two weeks, and a playlist to hear it first.">
 <meta name="theme-color" content="#F3F5F9" media="(prefers-color-scheme: light)">
@@ -13,142 +13,22 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<style>
-:root{
-  --bg:#F3F5F9; --surface:#FFFFFF; --ink:#1C2433; --muted:#5A6476; --line:#D9DEE7;
-  --gel:#D6336C; --gel-soft:#F7D6E2; --amber:#F2A100; --focus:#2F5BEA;
-  --narrow:"wdth" 68; --wide:"wdth" 112;
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --bg:#1A2030; --surface:#222A3C; --ink:#EEF1F6; --muted:#A3ACBD; --line:#343D52;
-    --gel:#F0598C; --gel-soft:#4A2537; --amber:#FFB82E; --focus:#8EA8FF;
-  }
-}
-:root[data-theme="dark"]{
-  --bg:#1A2030; --surface:#222A3C; --ink:#EEF1F6; --muted:#A3ACBD; --line:#343D52;
-  --gel:#F0598C; --gel-soft:#4A2537; --amber:#FFB82E; --focus:#8EA8FF;
-}
-*{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"Archivo",system-ui,sans-serif;font-size:17px;line-height:1.5;font-variation-settings:"wdth" 100}
-a{color:inherit}
-:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:2px}
-.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
-@media (min-width:720px){.wrap{padding:0 32px}}
-
-/* masthead */
-.mast{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:20px 0 0}
-.brand{font-weight:800;font-size:19px;letter-spacing:-.01em;font-variation-settings:var(--wide);text-decoration:none}
-.brand b{color:var(--gel);font-weight:900}
-.edition{color:var(--muted);font-size:15px}
-.edition select{font:inherit;color:var(--ink);background:transparent;border:0;border-bottom:1px solid var(--line);padding:2px 0}
-
-/* hero */
-.hero{padding:40px 0 8px}
-.hero h1{margin:0;font-weight:850;font-variation-settings:var(--narrow);font-size:clamp(56px,13vw,148px);line-height:.86;letter-spacing:-.02em}
-.hero h1 span{display:block}
-.hero p{max-width:34em;margin:20px 0 0;color:var(--muted);font-size:18px}
-
-/* the meter */
-.meter{margin:36px 0 0;display:grid;grid-template-columns:repeat(14,1fr);gap:6px;align-items:end;height:200px;border-bottom:2px solid var(--ink);padding-bottom:0}
-@media (min-width:720px){.meter{height:240px;gap:10px}}
-.ch{all:unset;cursor:pointer;display:flex;flex-direction:column;justify-content:flex-end;height:100%;position:relative}
-.ch .bar{display:block;background:var(--gel);height:var(--h);min-height:4px;transform-origin:bottom;border-radius:2px 2px 0 0}
-.ch .peak{display:block;height:5px;background:var(--amber);margin-bottom:3px;border-radius:2px}
-.ch .n{position:absolute;left:0;right:0;bottom:calc(var(--h) + 12px);text-align:center;font-size:13px;font-weight:700;color:var(--muted);font-variation-settings:var(--narrow)}
-.ch:hover .bar,.ch:focus-visible .bar{background:var(--ink)}
-.ch.weekend .bar{background:color-mix(in srgb,var(--gel) 100%,var(--ink) 18%)}
-.ch:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
-.days{display:grid;grid-template-columns:repeat(14,1fr);gap:6px;margin-top:8px}
-@media (min-width:720px){.days{gap:10px}}
-.days span{text-align:center;font-size:12px;color:var(--muted);font-variation-settings:var(--narrow);line-height:1.2}
-.days strong{display:block;color:var(--ink);font-size:15px}
-@media (prefers-reduced-motion:no-preference){
-  .ch .bar{animation:rise .9s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i) * 45ms)}
-  .ch .peak{animation:drop .9s ease-out both;animation-delay:calc(var(--i) * 45ms + .35s)}
-  @keyframes rise{from{transform:scaleY(0)}}
-  @keyframes drop{from{opacity:0;transform:translateY(-14px)}}
-}
-
-/* listen + subscribe */
-.listen{display:grid;gap:24px;margin:56px 0 0}
-@media (min-width:880px){.listen{grid-template-columns:1.35fr 1fr;align-items:start}}
-.listen h2,.section-head h2{margin:0 0 6px;font-size:30px;line-height:1.05;font-weight:800;font-variation-settings:var(--narrow)}
-.listen .sub{margin:0 0 16px;color:var(--muted)}
-.player{border-radius:12px;overflow:hidden;background:var(--surface);min-height:152px}
-.player iframe{display:block;width:100%;height:352px;border:0}
-.signup{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px}
-.signup h3{margin:0 0 6px;font-size:22px;font-variation-settings:var(--narrow);font-weight:800}
-.signup p{margin:0 0 14px;color:var(--muted);font-size:16px}
-.signup iframe{width:100%;border:0;height:52px}
-.btn{display:inline-block;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:700;padding:11px 18px;border-radius:999px;font-size:16px}
-.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
-.signup .alt{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);font-size:15px;color:var(--muted)}
-.signup .alt a{color:var(--ink);font-weight:600}
-
-/* lineup */
-.section-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:12px;margin:72px 0 8px}
-.section-head p{margin:0;color:var(--muted)}
-.day{scroll-margin-top:16px;padding:22px 0 6px;border-top:2px solid var(--ink)}
-.day h3{margin:0 0 4px;display:flex;align-items:baseline;gap:12px;font-weight:850;font-variation-settings:var(--narrow);font-size:34px;line-height:1}
-.day h3 small{font-size:15px;font-weight:600;color:var(--muted);font-variation-settings:"wdth" 100}
-.show{display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding:14px 0;border-bottom:1px solid var(--line)}
-.show:last-child{border-bottom:0}
-.show .who{font-weight:750;font-size:20px;line-height:1.2;font-variation-settings:"wdth" 92}
-.show .with{color:var(--muted);font-size:15px;margin-top:2px}
-.show .where{grid-column:1;font-size:15px}
-.show .where .t{font-weight:700}
-.show .go{grid-row:1 / span 3;grid-column:2;align-self:center}
-.go a{display:inline-block;text-decoration:none;font-weight:700;font-size:15px;padding:8px 14px;border-radius:999px;border:1.5px solid var(--ink);white-space:nowrap}
-.go a.tickets{background:var(--ink);color:var(--bg)}
-.go a:hover{background:var(--gel);border-color:var(--gel);color:#fff}
-.flag{display:inline-block;font-size:13px;font-weight:700;padding:1px 8px;border-radius:999px;background:var(--gel-soft);color:var(--ink);margin-left:6px;vertical-align:2px}
-.flag.out{text-decoration:line-through}
-.show.cancelled .who{text-decoration:line-through;color:var(--muted)}
-
-/* all shows */
-.tools{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 16px}
-.tools input,.tools select{font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);border-radius:10px;padding:10px 12px}
-.tools input{flex:1 1 240px}
-.tools select{flex:0 1 220px}
-.month{margin:28px 0 6px;font-weight:850;font-variation-settings:var(--narrow);font-size:26px}
-.compact .show{grid-template-columns:76px 1fr auto;padding:10px 0}
-.compact .show .d{grid-row:1 / span 3;font-variation-settings:var(--narrow);font-weight:800;font-size:18px;line-height:1.1}
-.compact .show .d span{display:block;font-weight:500;font-size:14px;color:var(--muted)}
-.compact .show .who{font-size:17px}
-.compact .show .where{grid-column:2}
-.compact .show .go{grid-column:3}
-.more{margin:18px 0 0}
-.empty{color:var(--muted);padding:24px 0}
-
-/* footer */
-footer{margin:96px 0 0;padding:32px 0 48px;border-top:2px solid var(--ink)}
-.foot{display:grid;gap:28px}
-@media (min-width:720px){.foot{grid-template-columns:1.2fr 1fr 1fr}}
-footer h4{margin:0 0 8px;font-size:18px;font-variation-settings:var(--narrow);font-weight:800}
-footer p,footer li{color:var(--muted);font-size:15px;margin:0}
-footer ul{list-style:none;padding:0;margin:0;display:grid;gap:3px}
-footer a{color:var(--ink)}
-.fine{margin-top:28px;color:var(--muted);font-size:13px}
-@media (max-width:520px){
-  .show .who{font-size:18px}
-  .go a{padding:7px 12px;font-size:14px}
-  .compact .show{grid-template-columns:52px 1fr auto;gap:2px 10px}
-  .compact .show .d{font-size:16px}
-}
-</style>
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
 <div class="wrap">
   <header class="mast">
     <a class="brand" href="./"><b>2</b> Week Soundcheck</a>
-    <label class="edition">City <select id="city" aria-label="City edition"><option>Seattle</option></select></label>
+    <nav class="nav" aria-label="Main">
+      <a href="./" aria-current="page">Shows</a>
+      <a href="playlists.html">Playlists</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
   <section class="hero" aria-labelledby="range">
     <h1 id="range"><span id="r1">The next</span><span id="r2">two weeks</span></h1>
-    <p id="lede">Every show at Seattle's best rooms for the next 14 days, a playlist of the headliners so you can hear them first, and a link to buy tickets.</p>
+    <p id="lede">Every concert at Seattle's best rooms for the next 14 days, a playlist of the headliners so you can hear them first, and a link to buy tickets.</p>
     <div class="meter" id="meter" role="list" aria-label="Shows per day"></div>
     <div class="days" id="days" aria-hidden="true"></div>
   </section>
@@ -158,19 +38,27 @@ footer a{color:var(--ink)}
       <h2 id="listen-h">Hear them before you go</h2>
       <p class="sub" id="pl-sub">The top five songs from every headliner, in show order.</p>
       <div class="player" id="player"></div>
+      <p style="margin:12px 0 0"><a href="playlists.html">Past playlists</a></p>
     </div>
     <aside class="signup" id="signup" aria-labelledby="signup-h">
       <h3 id="signup-h">Get it every Sunday</h3>
       <p>The new playlist and the two-week lineup, in your inbox before the week starts.</p>
       <div id="signup-slot"></div>
-      <div class="alt">Or put every show in your phone's calendar: <a id="cal" href="#">subscribe to the calendar</a>. It updates on its own.</div>
+      <div class="alt">Or put every show in your phone's calendar: <a data-cal href="#">subscribe to the calendar</a>. It updates on its own.</div>
     </aside>
   </section>
 
   <section aria-labelledby="lineup-h">
     <div class="section-head">
-      <h2 id="lineup-h">Day by day</h2>
+      <h2 id="lineup-h">The next two weeks</h2>
       <p id="lineup-count"></p>
+    </div>
+    <div class="filters">
+      <div class="tools">
+        <input id="q" type="search" placeholder="Search an artist" aria-label="Search an artist">
+        <select id="venue" aria-label="Filter by venue"><option value="">All venues</option></select>
+        <button class="clear" id="clear" hidden>Clear</button>
+      </div>
     </div>
     <div id="lineup"></div>
   </section>
@@ -180,10 +68,6 @@ footer a{color:var(--ink)}
       <h2 id="all-h">Further out</h2>
       <p id="all-count"></p>
     </div>
-    <div class="tools">
-      <input id="q" type="search" placeholder="Search an artist" aria-label="Search an artist">
-      <select id="venue" aria-label="Filter by venue"><option value="">All venues</option></select>
-    </div>
     <div id="all" class="compact"></div>
     <div class="more"><button class="btn ghost" id="more" hidden>Show more</button></div>
   </section>
@@ -192,7 +76,7 @@ footer a{color:var(--ink)}
     <div class="foot">
       <div>
         <h4>About</h4>
-        <p>2 Week Soundcheck tracks every show at a short list of rooms worth knowing, refreshed every week. Seattle is the first city.</p>
+        <p>2 Week Soundcheck tracks every concert at a short list of rooms worth knowing, refreshed every week, so you can find new music and go see it. Seattle is the first city.</p>
       </div>
       <div>
         <h4>Venues we follow</h4>
@@ -201,9 +85,12 @@ footer a{color:var(--ink)}
       <div>
         <h4>Stay in the loop</h4>
         <ul>
-          <li><a href="#signup">Sunday email</a></li>
-          <li><a id="cal2" href="#">Calendar for iPhone, Google, Outlook</a></li>
-          <li><a id="pl2" href="#">This week's playlist on Spotify</a></li>
+          <li><a href="./#signup">Sunday email</a></li>
+          <li><a data-cal href="#">Calendar for iPhone, Google, Outlook</a></li>
+          <li><a data-pl href="#">This week's playlist on Spotify</a></li>
+          <li><a href="playlists.html">Past playlists</a></li>
+          <li><a href="contact.html#report">Report a problem</a></li>
+          <li><a href="contact.html#contact">Contact us</a></li>
         </ul>
       </div>
     </div>
@@ -211,40 +98,21 @@ footer a{color:var(--ink)}
   </footer>
 </div>
 
+<script src="common.js"></script>
 <script>
 (function(){
+  const {esc,todayISO,addDays,D,fmt,range,showRow,load,footer} = SC;
   const $ = s => document.querySelector(s);
-  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-  const TZ = "America/Los_Angeles";
-  const todayISO = () => new Intl.DateTimeFormat("en-CA",{timeZone:TZ}).format(new Date());
-  const addDays = (iso,n) => { const d = new Date(iso+"T12:00:00Z"); d.setUTCDate(d.getUTCDate()+n); return d.toISOString().slice(0,10); };
-  const D = iso => new Date(iso+"T12:00:00Z");
-  const fmt = (iso,o) => D(iso).toLocaleDateString("en-US",Object.assign({timeZone:"UTC"},o));
-  const time = t => { if(!t) return ""; let [h,m]=t.split(":").map(Number); const ap=h>=12?"pm":"am"; h=h%12||12; return m?`${h}:${String(m).padStart(2,"0")}${ap}`:`${h}${ap}`; };
 
-  function showRow(e, venues, compact){
-    const v = venues[e.venue] || {short:e.venue};
-    const cancelled = e.status==="cancelled";
-    const flag = e.status ? `<span class="flag">${esc(e.status[0].toUpperCase()+e.status.slice(1))}</span>` : "";
-    const t = e.time ? `<span class="t">${time(e.time)}</span> at ` : "";
-    const btn = e.url && !cancelled ? `<a class="${e.link}" href="${esc(e.url)}" target="_blank" rel="noopener">${e.link==="tickets"?"Tickets":"Details"}<span class="visually-hidden"> for ${esc(e.title)}</span></a>` : "";
-    const d = compact ? `<div class="d">${fmt(e.date,{month:"short",day:"numeric"})}<span>${fmt(e.date,{weekday:"short"})}</span></div>` : "";
-    return `<div class="show${cancelled?" cancelled":""}">${d}
-      <div><div class="who">${esc(e.title)}${flag}</div>${e.support.length?`<div class="with">with ${esc(e.support.join(", "))}</div>`:""}</div>
-      <div class="where">${t}${esc(v.short)}<span style="color:var(--muted)">, ${esc(v.hood||"")}</span></div>
-      <div class="go">${btn}</div></div>`;
-  }
-
-  fetch("data/seattle.json",{cache:"no-cache"}).then(r=>r.json()).then(data=>{
+  load().then(data=>{
     const venues = data.venues, today = todayISO(), end = addDays(today,13);
     const upcoming = data.events.filter(e=>e.date>=today);
     const soon = upcoming.filter(e=>e.date<=end), later = upcoming.filter(e=>e.date>end);
+    footer(data);
 
     // hero
-    const sameMonth = fmt(today,{month:"short"})===fmt(end,{month:"short"});
-    $("#r1").textContent = fmt(today,{month:"short",day:"numeric"}) + "–" + (sameMonth?fmt(end,{day:"numeric"}):fmt(end,{month:"short",day:"numeric"}));
+    $("#r1").textContent = range(today,end);
     $("#r2").textContent = `${soon.length} shows`;
-    document.title = `${data.brand} · ${data.edition}`;
 
     // meter
     const byDay = {}; soon.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
@@ -258,60 +126,68 @@ footer a{color:var(--ink)}
       dl += `<span>${fmt(iso,{weekday:"narrow"})}<strong>${fmt(iso,{day:"numeric"})}</strong></span>`;
     }
     $("#meter").innerHTML = m; $("#days").innerHTML = dl;
-    $("#meter").addEventListener("click",ev=>{const b=ev.target.closest(".ch"); if(!b) return; const t=document.getElementById("d-"+b.dataset.day); if(t){t.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"}); t.querySelector("h3").focus({preventScroll:true});}});
+    $("#meter").addEventListener("click",ev=>{
+      const b=ev.target.closest(".ch"); if(!b) return;
+      if($("#q").value||$("#venue").value){ $("#q").value=""; $("#venue").value=""; render(); }
+      const t=document.getElementById("d-"+b.dataset.day);
+      if(t){t.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"}); t.querySelector("h3").focus({preventScroll:true});}
+    });
 
     // playlist
     const pl = data.playlist;
     if(pl && pl.id){
       $("#player").innerHTML = `<iframe title="${esc(pl.name)} on Spotify" src="https://open.spotify.com/embed/playlist/${esc(pl.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
-      $("#pl-sub").textContent = `${pl.songs} songs: the top five from ${pl.artists} headliners playing ${fmt(pl.start,{month:"short",day:"numeric"})}–${fmt(pl.start,{month:"short"})===fmt(pl.end,{month:"short"})?fmt(pl.end,{day:"numeric"}):fmt(pl.end,{month:"short",day:"numeric"})}, in show order.`;
-      $("#pl2").href = pl.url;
-    } else { $("#player").innerHTML = `<p class="empty" style="padding:24px">This week's playlist is being built. Check back Sunday evening.</p>`; $("#pl2").closest("li").remove(); }
+      $("#pl-sub").textContent = `${pl.songs} songs: the top five from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order.`;
+    } else $("#player").innerHTML = `<p class="empty" style="padding:24px">This week's playlist is being built. Check back Sunday evening.</p>`;
 
     // newsletter
     const nl = data.newsletter || {};
     if(nl.embed_url) $("#signup-slot").innerHTML = `<iframe title="Sign up for the Sunday email" src="${esc(nl.embed_url)}" loading="lazy"></iframe>`;
     else if(nl.subscribe_url) $("#signup-slot").innerHTML = `<a class="btn" href="${esc(nl.subscribe_url)}" target="_blank" rel="noopener">Sign up for the Sunday email</a>`;
-    else { $("#signup-slot").innerHTML = `<p style="margin:0;font-weight:600;color:var(--ink)">Email signups open soon.</p>`; }
+    else $("#signup-slot").innerHTML = `<p style="margin:0;font-weight:600;color:var(--ink)">Email signups open soon.</p>`;
 
-    // calendar
-    ["#cal","#cal2"].forEach(s=>$(s).href=data.calendar);
-
-    // day by day
-    let html="";
-    for(let i=0;i<14;i++){
-      const iso=addDays(today,i), list=byDay[iso]||[];
-      const name = i===0?"Today":i===1?"Tomorrow":fmt(iso,{weekday:"long"});
-      html += `<div class="day" id="d-${iso}"><h3 tabindex="-1">${name}<small>${fmt(iso,{month:"long",day:"numeric"})}</small></h3>${list.length?list.map(e=>showRow(e,venues,false)).join(""):`<p class="empty">Nothing on at our venues. A good night to listen to the playlist.</p>`}</div>`;
-    }
-    $("#lineup").innerHTML = html;
-    $("#lineup-count").textContent = `${soon.length} shows at ${new Set(soon.map(e=>e.venue)).size} venues`;
-
-    // further out
+    // filters
     const vs = Object.keys(venues).filter(k=>upcoming.some(e=>e.venue===k));
     $("#venue").innerHTML += vs.map(k=>`<option value="${esc(k)}">${esc(venues[k].short)}</option>`).join("");
-    $("#venues").innerHTML = Object.entries(venues).map(([k,v])=>`<li><a href="${esc(v.site)}" target="_blank" rel="noopener">${esc(v.short)}</a>, ${esc(v.hood)}</li>`).join("");
-    let limit = 60;
-    function renderAll(){
-      const q=$("#q").value.trim().toLowerCase(), vf=$("#venue").value;
-      const pool = (q||vf) ? upcoming : later;
-      const rows = pool.filter(e=>(!vf||e.venue===vf)&&(!q||(e.title+" "+e.support.join(" ")).toLowerCase().includes(q)));
-      const shown = rows.slice(0,limit); let out="", mo="";
-      shown.forEach(e=>{const mm=fmt(e.date,{month:"long",year:"numeric"}); if(mm!==mo){out+=`<div class="month">${mm}</div>`;mo=mm;} out+=showRow(e,venues,true);});
-      $("#all").innerHTML = out || `<p class="empty">No shows match. Try another artist name, or pick All venues.</p>`;
-      $("#more").hidden = rows.length<=limit;
-      $("#all-count").textContent = (q||vf) ? `${rows.length} match${rows.length===1?"":"es"}` : `${later.length} more shows through ${fmt(later.at(-1)?.date||end,{month:"long"})}`;
-    }
-    $("#q").addEventListener("input",()=>{limit=60;renderAll();});
-    $("#venue").addEventListener("change",()=>{limit=60;renderAll();});
-    $("#more").addEventListener("click",()=>{limit+=60;renderAll();});
-    renderAll();
+    const params = new URLSearchParams(location.search);
+    if(params.get("venue") && vs.includes(params.get("venue"))) $("#venue").value = params.get("venue");
+    if(params.get("q")) $("#q").value = params.get("q");
+    const match = (e,q,vf) => (!vf||e.venue===vf) && (!q||(e.title+" "+e.support.join(" ")).toLowerCase().includes(q));
 
-    const g = new Date(data.generated);
-    $("#fine").textContent = `Show listings updated ${g.toLocaleDateString("en-US",{month:"long",day:"numeric"})}. Times and lineups come from each venue and can change, so check the ticket page before you go.`;
+    let limit = 60;
+    function render(){
+      const q=$("#q").value.trim().toLowerCase(), vf=$("#venue").value, filtered=!!(q||vf);
+      $("#clear").hidden = !filtered;
+      // next two weeks
+      let html="", count=0;
+      for(let i=0;i<14;i++){
+        const iso=addDays(today,i), list=(byDay[iso]||[]).filter(e=>match(e,q,vf));
+        if(filtered && !list.length) continue;
+        count += list.length;
+        const name = i===0?"Today":i===1?"Tomorrow":fmt(iso,{weekday:"long"});
+        html += `<div class="day" id="d-${iso}"><h3 tabindex="-1">${name}<small>${fmt(iso,{month:"long",day:"numeric"})}</small></h3>${list.length?list.map(e=>showRow(e,venues,false)).join(""):`<p class="empty">No concerts at our venues. A good night for the playlist.</p>`}</div>`;
+      }
+      $("#lineup").innerHTML = html || `<p class="empty">Nothing matches in the next two weeks. Check Further out below, or clear the filters.</p>`;
+      $("#lineup-count").textContent = filtered ? `${count} match${count===1?"":"es"}` : `${soon.length} shows at ${new Set(soon.map(e=>e.venue)).size} venues`;
+      // further out
+      const rows = later.filter(e=>match(e,q,vf));
+      let out="", mo="";
+      rows.slice(0,limit).forEach(e=>{const mm=fmt(e.date,{month:"long",year:"numeric"}); if(mm!==mo){out+=`<div class="month">${mm}</div>`;mo=mm;} out+=showRow(e,venues,true);});
+      $("#all").innerHTML = out || `<p class="empty">${filtered?"No later shows match.":"Nothing further out yet."}</p>`;
+      $("#more").hidden = rows.length<=limit;
+      $("#all-count").textContent = filtered ? `${rows.length} match${rows.length===1?"":"es"}` : `${later.length} more shows through ${fmt(later.at(-1)?.date||end,{month:"long"})}`;
+      // keep the filter in the URL so it can be shared
+      const u = new URL(location.href); q?u.searchParams.set("q",$("#q").value.trim()):u.searchParams.delete("q"); vf?u.searchParams.set("venue",vf):u.searchParams.delete("venue");
+      history.replaceState(null,"",u);
+    }
+    $("#q").addEventListener("input",()=>{limit=60;render();});
+    $("#venue").addEventListener("change",()=>{limit=60;render();});
+    $("#clear").addEventListener("click",()=>{$("#q").value="";$("#venue").value="";limit=60;render();$("#q").focus();});
+    $("#more").addEventListener("click",()=>{limit+=60;render();});
+    SC.previews(document.getElementById("lineup"));
+    render();
   }).catch(()=>{ $("#lineup").innerHTML = `<p class="empty">The show list didn't load. Refresh the page to try again.</p>`; });
 })();
 </script>
-<style>.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}</style>
 </body>
 </html>

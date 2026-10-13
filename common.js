@@ -1,0 +1,56 @@
+// Shared helpers for 2 Week Soundcheck pages.
+window.SC = (function () {
+  const TZ = "America/Los_Angeles";
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const todayISO = () => new Intl.DateTimeFormat("en-CA", { timeZone: TZ }).format(new Date());
+  const addDays = (iso, n) => { const d = new Date(iso + "T12:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+  const D = iso => new Date(iso + "T12:00:00Z");
+  const fmt = (iso, o) => D(iso).toLocaleDateString("en-US", Object.assign({ timeZone: "UTC" }, o));
+  const range = (a, b) => fmt(a, { month: "short" }) === fmt(b, { month: "short" })
+    ? `${fmt(a, { month: "short", day: "numeric" })}–${fmt(b, { day: "numeric" })}`
+    : `${fmt(a, { month: "short", day: "numeric" })}–${fmt(b, { month: "short", day: "numeric" })}`;
+  const time = t => { if (!t) return ""; let [h, m] = t.split(":").map(Number); const ap = h >= 12 ? "pm" : "am"; h = h % 12 || 12; return m ? `${h}:${String(m).padStart(2, "0")}${ap}` : `${h}${ap}`; };
+  const load = () => fetch("data/seattle.json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+
+  function showRow(e, venues, compact) {
+    const v = venues[e.venue] || { short: e.venue };
+    const cancelled = e.status === "cancelled";
+    const flag = e.status ? `<span class="flag">${esc(e.status[0].toUpperCase() + e.status.slice(1))}</span>` : "";
+    const t = e.time ? `<span class="t">${time(e.time)}</span> at ` : "";
+    const btn = e.url && !cancelled ? `<a class="${e.link}" href="${esc(e.url)}" target="_blank" rel="noopener">${e.link === "tickets" ? "Tickets" : "Details"}<span class="visually-hidden"> for ${esc(e.title)}</span></a>` : "";
+    const pv = !compact && e.preview && !cancelled ? `<button class="pv" type="button" data-track="${esc(e.preview.track)}" aria-expanded="false" aria-label="Preview ${esc(e.title)}: ${esc(e.preview.song || "top song")}"><svg viewBox="0 0 16 16" aria-hidden="true"><path class="i-play" d="M4 2.5v11l9-5.5z"/><rect class="i-stop" x="3.5" y="3.5" width="9" height="9" rx="1.5"/></svg><span>Preview</span></button>` : "";
+    const d = compact ? `<div class="d">${fmt(e.date, { month: "short", day: "numeric" })}<span>${fmt(e.date, { weekday: "short" })}</span></div>` : "";
+    return `<div class="show${cancelled ? " cancelled" : ""}">${d}
+      <div><div class="who">${esc(e.title)}${flag}</div>${e.support.length ? `<div class="with">with ${esc(e.support.join(", "))}</div>` : ""}</div>
+      <div class="where">${t}${esc(v.short)}<span style="color:var(--muted)">, ${esc(v.hood || "")}</span></div>
+      <div class="go">${pv}${btn}</div></div>`;
+  }
+
+  // One inline Spotify player at a time, opened under the show that asked for it.
+  function previews(root) {
+    root.addEventListener("click", ev => {
+      const b = ev.target.closest(".pv"); if (!b) return;
+      const row = b.closest(".show"), open = root.querySelector(".pv-player");
+      const wasThis = open && open.previousElementSibling === row;
+      if (open) { open.remove(); root.querySelectorAll('.pv[aria-expanded="true"]').forEach(x => { x.setAttribute("aria-expanded", "false"); x.querySelector("span").textContent = "Preview"; }); }
+      if (wasThis) return;
+      const box = document.createElement("div");
+      box.className = "pv-player";
+      box.innerHTML = `<iframe title="Spotify preview" src="https://open.spotify.com/embed/track/${esc(b.dataset.track)}?utm_source=generator&theme=0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+      row.after(box);
+      b.setAttribute("aria-expanded", "true"); b.querySelector("span").textContent = "Close";
+    });
+  }
+
+  function footer(data) {
+    const el = document.getElementById("venues");
+    if (el) el.innerHTML = Object.entries(data.venues).map(([k, v]) => `<li><a href="${esc(v.site)}" target="_blank" rel="noopener">${esc(v.short)}</a>, ${esc(v.hood)}</li>`).join("");
+    document.querySelectorAll("[data-cal]").forEach(a => a.href = data.calendar);
+    const pl = data.playlist;
+    document.querySelectorAll("[data-pl]").forEach(a => { if (pl) a.href = pl.url; else a.closest("li")?.remove(); });
+    const g = new Date(data.generated), fine = document.getElementById("fine");
+    if (fine) fine.textContent = `Show listings updated ${g.toLocaleDateString("en-US", { month: "long", day: "numeric" })}. Times and lineups come from each venue and can change, so check the ticket page before you go.`;
+  }
+
+  return { esc, todayISO, addDays, D, fmt, range, time, load, showRow, footer, previews };
+})();

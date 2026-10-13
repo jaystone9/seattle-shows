@@ -6,3 +6,4 @@
 - 2026-10-12 — added Climate Pledge Arena (29 concerts, Oct 12 → Apr 10; after Oct 25 sourced from Songkick/ConcertFix since the arena calendar won't page) and T-Mobile Park (0 in window; no 2027 concerts announced). Total 573 events.
 - 2026-10-12 — concerts-only cleanup: removed Countess Luann (Showbox, Nov 5) and Ghoul Talk's Drag Halloween Bash (Sunset, Oct 29). Total 571.
 - 2026-10-12 — removed symphony movie nights at Benaroya (Ring, Elf, Hook, Chaplin's Modern Times, D&D in Concert). Total 560.
+- 2026-10-12 — added Neumos + Barboza (100 shows); removed 101 themed nights/tributes/holiday shows across venues per Jay. Total 559.

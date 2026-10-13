@@ -21,6 +21,8 @@ ADDR = {
     "WaMu Theater": "WaMu Theater, 800 Occidental Ave S, Seattle, WA 98134",
     "Chateau Ste. Michelle": "Chateau Ste. Michelle, 14111 NE 145th St, Woodinville, WA 98072",
     "Dune Peninsula": "Dune Peninsula at Point Defiance Park, 5400 N Pearl St, Tacoma, WA 98407",
+    "Neumos": "Neumos, 925 E Pike St, Seattle, WA 98122",
+    "Barboza": "Barboza (downstairs at Neumos), 925 E Pike St, Seattle, WA 98122",
     "Climate Pledge Arena": "Climate Pledge Arena, 334 1st Ave N, Seattle, WA 98109",
     "T-Mobile Park": "T-Mobile Park, 1250 1st Ave S, Seattle, WA 98134",
 }
@@ -68,6 +70,8 @@ def address(ev):
     v, room = ev["venue"], ev.get("room")
     if v == "The Showbox" and room in ADDR:
         return ADDR[room]
+    if room == "Barboza":
+        return ADDR["Barboza"]
     for k, a in ADDR.items():
         if k.lower() in v.lower() or v.lower() in k.lower():
             return a
@@ -104,7 +108,7 @@ def main(src, out):
         summary = ev["title"].strip()
         if status:
             summary = f"[{status.upper()}] {summary}"
-        summary += f" @ {ev['venue'] if ev['venue'] != 'The Showbox' else (ev.get('room') or 'The Showbox')}"
+        summary += f" @ {(ev.get('room') or 'The Showbox') if ev['venue'] == 'The Showbox' else ('Barboza' if ev.get('room') == 'Barboza' else ev['venue'])}"
         desc = [f"Venue: {venue}"]
         if ev.get("doors"):
             desc.append(f"Doors: {ev['doors']}")
