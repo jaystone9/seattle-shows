@@ -196,3 +196,6 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 /* beehiiv form: its loader can measure 0 height and collapse the wrapper; pin a fixed height */
 [data-signup] div{height:auto!important;overflow:visible!important}
 [data-signup] iframe{height:68px!important}
+/* hide the placeholder headline until the real dates and count are filled in, then fade in */
+.hero h1{transition:opacity .25s ease}
+.hero h1.pending{opacity:0}
