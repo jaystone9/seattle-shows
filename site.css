@@ -184,3 +184,5 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .nl-embed{display:block;width:100%;max-width:480px;height:60px;border:0;margin:0;background:transparent;border-radius:8px}
 .signup .nl-embed{max-width:none}
 .nl-soon,.nl-band .nl-soon{margin:0;font-weight:600;color:var(--ink)}
+[data-signup] iframe{max-width:100%}
+.signup{scroll-margin-top:16px}

@@ -42,8 +42,11 @@ window.SC = (function () {
     });
   }
 
-  // Newsletter signup: the beehiiv embed when connected (newsletter.json embed_url),
-  // a link to the beehiiv page as a fallback (subscribe_url), otherwise "opens soon".
+  // Newsletter signup. newsletter.json can hold:
+  //   form_id       beehiiv subscribe form id (loads beehiiv's form script)  <- in use
+  //   embed_url     an iframe embed URL (older beehiiv embeds)
+  //   subscribe_url a link to the beehiiv signup page
+  // With none set, the slot says "opens soon".
   function signupHTML(nl) {
     nl = nl || {};
     if (nl.embed_url) return `<iframe class="nl-embed" title="Sign up for the Sunday email" src="${esc(nl.embed_url)}" loading="lazy" frameborder="0" scrolling="no"></iframe>`;
@@ -51,23 +54,36 @@ window.SC = (function () {
     return `<p class="nl-soon">Email signups open soon.</p>`;
   }
 
+  function fillSignup(slot, nl) {
+    if (nl.form_id) {
+      slot.innerHTML = "";
+      const sc = document.createElement("script");
+      sc.async = true;
+      sc.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";
+      sc.setAttribute("data-beehiiv-form", nl.form_id);
+      slot.appendChild(sc);
+    } else slot.innerHTML = signupHTML(nl);
+  }
+
   // A signup band just above the footer on every page, plus any [data-signup] slot.
   function newsletter(data) {
     const nl = data.newsletter || {};
     const foot = document.querySelector("footer");
-    if (foot && !document.getElementById("newsletter")) {
+    // One signup per page: pages that already have a [data-signup] slot (Shows) skip the band.
+    if (foot && !document.querySelector("[data-signup]") && !document.getElementById("newsletter")) {
       const band = document.createElement("section");
       band.className = "nl-band";
       band.id = "newsletter";
       band.setAttribute("aria-labelledby", "nl-h");
       band.innerHTML = `<div class="nl-copy"><h2 id="nl-h">The Sunday email</h2>
-        <p>This week's playlist and every show for the next two weeks, in your inbox before the week starts. Free, and one email a week.</p></div>
+        <p>This week's playlist and the shows worth catching, in your inbox every Sunday. Free, short, one email a week.</p></div>
         <div class="nl-form" data-signup></div>`;
       foot.before(band);
-      // The band is added after data loads, so honor a #newsletter link once it exists.
-      if (location.hash === "#newsletter") setTimeout(() => band.scrollIntoView(), 0);
     }
-    document.querySelectorAll("[data-signup]").forEach(s => s.innerHTML = signupHTML(nl));
+    // The signup is filled in after data loads, so honor a #newsletter link once it exists.
+    const target = document.getElementById("newsletter");
+    if (target && location.hash === "#newsletter") setTimeout(() => target.scrollIntoView(), 0);
+    document.querySelectorAll("[data-signup]").forEach(s => fillSignup(s, nl));
   }
 
   function footer(data) {
