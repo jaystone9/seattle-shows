@@ -130,6 +130,25 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
     with open(out, "w") as fh:
         json.dump(data, fh, ensure_ascii=False, separators=(",", ":"))
     print(f"{len(events)} upcoming events -> {out}")
+    stamp_assets()
+
+
+def stamp_assets(pages=("index.html", "playlists.html", "contact.html"), assets=("site.css", "common.js")):
+    """Add ?v=<content hash> to the shared CSS/JS links so browsers fetch new copies after each change."""
+    import hashlib
+    import re
+    for page in pages:
+        if not glob.glob(page):
+            continue
+        html = open(page).read()
+        new = html
+        for asset in assets:
+            if not glob.glob(asset):
+                continue
+            v = hashlib.md5(open(asset, "rb").read()).hexdigest()[:8]
+            new = re.sub(r'(["\'])' + re.escape(asset) + r'(\?v=[0-9a-f]+)?(["\'])', r"\g<1>" + asset + "?v=" + v + r"\g<3>", new)
+        if new != html:
+            open(page, "w").write(new)
 
 
 if __name__ == "__main__":
