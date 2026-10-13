@@ -169,10 +169,10 @@
       document.querySelectorAll("#pl-tabs button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.area===area)));
       const word = n => ({1:"one",2:"two",3:"three",4:"four",5:"five"})[n] || n;
       if(pl && pl.id){
-        const per = word(pl.per_artist || 3), perOp = word(pl.per_opener || 2);
+        const per = word(pl.per_artist || 3);
         $("#player").innerHTML = `<iframe title="${esc(pl.name)} on Spotify" src="https://open.spotify.com/embed/playlist/${esc(pl.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
         $("#pl-sub").textContent = area
-          ? `${pl.songs} songs from ${pl.artists} artists playing ${area}'s small rooms ${range(pl.start,pl.end)}: ${per} from each headliner, ${perOp} from each opener, in show order.`
+          ? `${pl.songs} songs from ${pl.artists} artists playing ${area}'s small rooms ${range(pl.start,pl.end)}: the top ${per} from every headliner and opener, in show order.`
           : `${pl.songs} songs: the top ${per} from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order.`;
       } else {
         $("#player").innerHTML = `<p class="empty" style="padding:24px">${area?`The first ${esc(area)} playlist lands this Sunday: every band on the bill in Ballard and Fremont, openers included.`:"This week's playlist is being built. Check back Sunday evening."}</p>`;

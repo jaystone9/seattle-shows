@@ -21,12 +21,13 @@ name or any personal email address in this public repo, the site, or the newslet
 4. **Newsletter draft.** Run `python3 build_issue.py` for the subject, preview text and
    show count. In beehiiv, create a blank post:
    - Title (subject): `<Mon D>–<D>: Seattle 2 Week Playlist`
-   - Subtitle (preview): `<songs> songs from the <artists> headliners playing Seattle over the next two weeks.`
-   - Intro line, then a pink (#D6336C, bold) Button block "▶ Listen to the playlist on Spotify"
-     linking to the playlist (don't use the generic link embed; it renders as a broken card),
-     then the Frelard line and a second pink Button "▶ Listen to the Frelard playlist"
-     (build_issue.py drafts both), then the closing link "All <N> shows are on the site →" with
-     "Searchable by venue and artist, with tickets and a preview for every headliner."
+   - Subtitle (preview): use the preview text build_issue.py prints (mentions both playlists).
+   - Paste `issues/<start>.html` content in order: intro line ("Two playlists... the top three
+     songs from each artist"), then "All of Seattle" line + pink (#D6336C, bold) Button block
+     "▶ Listen to the Seattle playlist on Spotify", then "Frelard" line + Button
+     "▶ Listen to the Frelard playlist on Spotify" (don't use the generic link embed; it renders
+     as a broken card), then the closing link "All <N> shows are on the site →".
+     Every issue has BOTH playlists; if build_issue.py warns the Frelard one is missing, build it first.
    - Author: the "2 Week Soundcheck" guest author only; byline hidden. No lyrics.
    - Send a test to hello@ (it lands in the webmail's Promotions tab) and check it.
 5. **Send only with Jay's OK.** Show Jay the test, then send or schedule to subscribers only

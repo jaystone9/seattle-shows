@@ -8,7 +8,7 @@ Usage:
 
 Reads data/seattle.json (run build_site.py first). Skips cancelled/postponed shows.
 For an area, openers are included because small rooms are where the discovery is:
-headliners get 3 songs, openers 2 (see PLAYLIST.md).
+every act gets its top 3 songs (see PLAYLIST.md).
 """
 import argparse
 import datetime as dt
@@ -60,7 +60,7 @@ def main():
             if k in seen:
                 continue
             seen.add(k)
-            acts.append({"name": name, "role": role, "songs": 3 if role == "headliner" else 2,
+            acts.append({"name": name, "role": role, "songs": 3,
                          "date": e["date"], "venue": v.get("short", e["venue"])})
 
     if a.json:
