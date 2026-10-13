@@ -11,7 +11,7 @@ import json
 import os
 import sys
 
-SITE = "https://jaystone9.github.io/seattle-shows/"
+SITE = "https://2weeksoundcheck.com/"
 
 
 def main(src="data/seattle.json", outdir="issues"):

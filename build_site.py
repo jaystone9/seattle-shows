@@ -117,7 +117,7 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
         "brand": "2 Week Soundcheck",
         "edition": "Seattle",
         "generated": dt.datetime.now(TZ).isoformat(timespec="minutes"),
-        "calendar": "webcal://jaystone9.github.io/seattle-shows/seattle-shows.ics",
+        "calendar": "webcal://2weeksoundcheck.com/seattle-shows.ics",
         "newsletter": json.load(open("newsletter.json")) if glob.glob("newsletter.json") else {},
         "playlist": playlist,
         "playlists": playlists,

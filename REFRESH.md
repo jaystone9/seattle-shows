@@ -1,7 +1,7 @@
 # Weekly refresh procedure
 
 Goal: keep `seattle-shows.ics` (subscribed on Jay's iPhone via
-webcal://jaystone9.github.io/seattle-shows/seattle-shows.ics) covering every
+webcal://2weeksoundcheck.com/seattle-shows.ics) covering every
 music event at the venues below from TODAY through TODAY + 6 months.
 
 ## Venues (one JSON file each in `shows/`)
