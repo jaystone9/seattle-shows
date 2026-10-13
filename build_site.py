@@ -42,6 +42,7 @@ VENUES = {
     "Black Lodge": {"short": "Black Lodge", "hood": "Eastlake", "site": "https://dice.fm/venue/the-black-lodge-qppa"},
     "Belltown Yacht Club": {"short": "Belltown Yacht Club", "hood": "Belltown", "site": "http://bycseattle.com/"},
     "Add-a-Ball": {"short": "Add-a-Ball", "hood": "Fremont", "site": "http://add-a-ball.com/"},
+    "Substation": {"short": "Substation", "hood": "Fremont", "site": "https://substationseattle.com/"},
 }
 
 # Neighborhood -> area, for the area filter and area playlists. Frelard is the

@@ -12,7 +12,7 @@ name or any personal email address in this public repo, the site, or the newslet
 ## Steps, in order
 1. **Inbox check.** Open the hello@2weeksoundcheck.com webmail and look for FormSubmit
    "Report:" messages. Fix flagged listings in step 2 and tell Jay what changed.
-2. **Refresh venues.** Follow `REFRESH.md`: re-collect all 21 venue files (today → +6 months),
+2. **Refresh venues.** Follow `REFRESH.md`: re-collect all 22 venue files (today → +6 months),
    run `build_ics.py` and `build_site.py`, append to `log.md`, commit and push.
 3. **Playlists.** Follow `PLAYLIST.md` steps 1–4b: build the Seattle Spotify playlist for
    today → today + 13 days, then the Frelard one (step 4b, headliners + openers), update `playlists.json` and `previews.json`, run

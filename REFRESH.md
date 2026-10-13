@@ -28,6 +28,7 @@ music event at the venues below from TODAY through TODAY + 6 months.
 | black-lodge.json | Black Lodge, 429 Eastlake Ave E (run by Vera; DIY, all ages) | Discotech (app.discotech.me/seattle/the-black-lodge) for lineups/times + DICE links, Songkick venue 883311, Bandsintown (headliners only; its 7pm times are unreliable, use null). Not JamBase (wrong Black Lodge). Posts only a few weeks ahead |
 | belltown-yacht-club.json | Belltown Yacht Club, 2320 1st Ave (under Screwdriver) | Own site won't render; Do206 venue page + event pages, Songkick, JamBase, Bandsintown; tickets on DICE. Skip dance/DJ, trivia, film, market and theme nights |
 | add-a-ball.json | Add-a-Ball, Fremont (pinball bar; shows Fri/Sat) | JamBase venue page + VenuePilot ticket pages (doors/start/lineups), Songkick. Skip pinball tournaments |
+| substation.json | Substation, 645 NW 45th St (Fremont/Ballard line) | substationseattle.com homepage lists every upcoming event, each linked to Eventbrite; open each Eventbrite page for support, "Doors @ / Music @" times and status. Mostly electronic DJs/producers on tour plus indie/punk/metal bands. Skip dance battles, promoter takeovers and showcases with no named lineup, and podcast/comedy acts |
 
 ## Record format
 `{"venue", "room" (or null), "title" ("Headliner (with Support, Support)"), "date" YYYY-MM-DD,
