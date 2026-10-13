@@ -14,6 +14,6 @@ Jay prompts this manually each Sunday ("run my Seattle Shows playlist"). Do not 
    Also rewrite `previews.json`: for every show in the window, `{"<show title as in data/seattle.json>": {"artist": id, "track": id of the artist's #1 Popular song, "song": name, "name": search name}}`. You already open each artist page while building the playlist, so take the first track there. This powers the Preview buttons in "The next two weeks".
    Run `python3 build_site.py`, commit and push.
 5. Run `python3 build_issue.py` to draft the newsletter issue (issues/<start>.html to paste into beehiiv; subject and preview text are printed). Keep it short. Never quote lyrics.
-6. When the playlist is complete, email Jay at [address removed] and Eric Rue at [address removed] (both in To) via the Gmail connector:
+6. When the playlist is complete, email Jay and Eric (both in To; their addresses are in the private "Seattle concerts" project notes and Claude's memory, never in this public repo) via the Gmail connector:
    - Subject: `Seattle Shows playlist: <date range>`
    - Body: playlist link, then the day-by-day lineup (date, headliner, venue), then any skipped artists.
