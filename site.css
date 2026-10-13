@@ -212,7 +212,10 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .tools select{flex:0 1 200px}
 .area-note{margin:4px 0 0;color:var(--muted);font-size:15px}
 .pl .area-tag{display:inline-block;font-size:13px;font-weight:700;background:#D6336C;color:#fff;border-radius:999px;padding:1px 9px;margin-left:8px;vertical-align:5px}
-.ch.past{cursor:default;opacity:.35}
-.ch.past .bar{height:2px;min-height:2px;background:var(--line)}
-.ch.past .peak,.ch.past .n{visibility:hidden}
+/* Days already past in the playlist window: same height, muted */
+.ch.past{cursor:default}
+.ch.past .bar,.ch.past.weekend .bar{background:var(--line);animation:none}
+.ch.past .peak{background:var(--line);animation:none}
+.ch.past .n{color:var(--line)}
+.ch.past:hover .bar{background:var(--line)}
 .days span.past{opacity:.45}

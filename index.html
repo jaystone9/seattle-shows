@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=5d307c70">
+<link rel="stylesheet" href="site.css?v=fcadac3f">
 </head>
 <body>
 <div class="wrap">
@@ -136,21 +136,22 @@
     const days = Math.round((D(end)-D(start))/864e5)+1;
     const upcoming = data.events.filter(e=>e.date>=today);
     const soon = upcoming.filter(e=>e.date<=end), later = upcoming.filter(e=>e.date>end);
+    const windowShows = data.events.filter(e=>e.date>=start && e.date<=end);  // incl. days already past
     footer(data);
 
     // hero
     $("#r1").textContent = range(start,end);
-    $("#r2").textContent = `${soon.length} show${soon.length===1?"":"s"}`;
+    $("#r2").textContent = `${windowShows.length} show${windowShows.length===1?"":"s"}`;
     $("#range").classList.remove("pending");
 
     // meter
-    const byDay = {}; soon.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
+    const byDay = {}; windowShows.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
     const max = Math.max(4,...Object.values(byDay).map(a=>a.length));
     let m="", dl="";
     for(let i=0;i<days;i++){
       const iso=addDays(start,i), past=iso<today, n=(byDay[iso]||[]).length, wd=D(iso).getUTCDay();
       const h = n? Math.max(6, Math.round(n/max*84)) : 2;
-      const label = `${fmt(iso,{weekday:"long",month:"long",day:"numeric"})}: ${past?"already happened":`${n} show${n===1?"":"s"}`}`;
+      const label = `${fmt(iso,{weekday:"long",month:"long",day:"numeric"})}: ${n} show${n===1?"":"s"}${past?" (already happened)":""}`;
       m += `<button class="ch${wd===5||wd===6?" weekend":""}${past?" past":""}"${past?" disabled":""} role="listitem" style="--h:${h}%;--i:${i}" aria-label="${label}" data-day="${iso}"><span class="n">${n||""}</span><span class="peak"></span><span class="bar"></span></button>`;
       dl += `<span${past?' class="past"':""}>${fmt(iso,{weekday:"narrow"})}<strong>${fmt(iso,{day:"numeric"})}</strong></span>`;
     }

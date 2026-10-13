@@ -90,6 +90,15 @@ def split_title(title):
 
 def main(src="shows", pl="playlists.json", out="data/seattle.json"):
     today = dt.datetime.now(TZ).date()
+    # Keep shows from the start of the current playlist window (e.g. last Sunday), so the
+    # home page chart can still show the days that have already passed, muted.
+    keep_from = today
+    try:
+        cur = next((p for p in json.load(open(pl)) if not p.get("area")), None)
+        if cur and cur["start"] <= today.isoformat() <= cur["end"]:
+            keep_from = dt.date.fromisoformat(cur["start"])
+    except Exception:
+        pass
     events, seen = [], set()
     for f in sorted(glob.glob(f"{src}/*.json")):
         for ev in json.load(open(f)):
@@ -97,7 +106,7 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
                 d = dt.date.fromisoformat(ev["date"])
             except Exception:
                 continue
-            if d < today:
+            if d < keep_from:
                 continue
             key = venue_key(ev)
             title, support = split_title(ev["title"])
