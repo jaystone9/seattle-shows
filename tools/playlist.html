@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Playlist builder · 2 Week Soundcheck</title>
+<style>
+  :root { color-scheme: light dark; --ink:#1C2433; --bg:#F3F5F9; --muted:#5A6476; --pink:#D6336C; --line:#C9CFDA; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#E8ECF3; --bg:#1A2030; --muted:#9AA3B5; --line:#38415A; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:24px 16px 48px; }
+  h1 { font-size:1.4rem; margin:0 0 4px; }
+  p { color:var(--muted); margin:4px 0 16px; }
+  button { font:inherit; font-weight:700; border:0; border-radius:999px; padding:10px 18px; background:var(--pink); color:#fff; cursor:pointer; }
+  button[disabled] { opacity:.5; cursor:default; }
+  button.ghost { background:transparent; color:var(--ink); border:1px solid var(--line); }
+  textarea { width:100%; box-sizing:border-box; min-height:160px; font:13px/1.4 ui-monospace, monospace; background:transparent; color:inherit; border:1px solid var(--line); border-radius:8px; padding:10px; }
+  #status { font-weight:700; margin:12px 0; }
+  #log { white-space:pre-wrap; font:13px/1.4 ui-monospace, monospace; color:var(--muted); border-top:1px solid var(--line); padding-top:12px; }
+  .row { display:flex; gap:10px; flex-wrap:wrap; margin:12px 0; }
+  a { color:var(--pink); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Playlist builder</h1>
+  <p>Private tool for the Sunday run. It only works for the Spotify account that owns the
+  "2 Week Soundcheck playlist builder" app. Nothing here is linked from the site.</p>
+
+  <div class="row">
+    <button id="connect">Connect Spotify</button>
+    <button id="disconnect" class="ghost" hidden>Disconnect</button>
+  </div>
+  <div id="status">Not connected.</div>
+
+  <label for="plan"><strong>Plan</strong> (JSON: {"name", "description", "public", "tracks": ["spotify:track:…" or track ids]})</label>
+  <textarea id="plan" spellcheck="false" placeholder='{"name": "2 Week Soundcheck · Seattle: Oct 18–31", "description": "…", "public": true, "tracks": ["spotify:track:…"]}'></textarea>
+  <div class="row"><button id="build" disabled>Build playlist</button></div>
+  <div id="log"></div>
+</main>
+<script>
+// Spotify Web API, Authorization Code + PKCE (no client secret; nothing leaves this browser
+// except calls to Spotify). Token is kept in this browser's localStorage only.
+// Endpoints (Feb 2026 dev-mode rules): POST /me/playlists, POST /playlists/{id}/items (100 per call),
+// GET /search (limit <= 10). Top tracks / popularity are NOT available, so songs are picked
+// from each artist's Popular list in the web player and handed to this page.
+const CLIENT_ID = "263893bd4f2d4e5080cb0c67f18bdb92";
+const REDIRECT = location.origin + location.pathname;
+const SCOPES = "playlist-modify-public playlist-modify-private playlist-read-private";
+const API = "https://api.spotify.com/v1";
+const K = "scb_token";
+const $ = id => document.getElementById(id);
+const log = (...a) => { const s = a.join(" "); $("log").textContent += s + "\n"; (window.__log = window.__log || []).push(s); };
+const store = { get() { try { return JSON.parse(localStorage.getItem(K)); } catch (e) { return null; } },
+                set(v) { try { localStorage.setItem(K, JSON.stringify(v)); } catch (e) {} window.__tok = v; },
+                clear() { try { localStorage.removeItem(K); localStorage.removeItem("scb_verifier"); } catch (e) {} window.__tok = null; } };
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+function b64url(buf) { return btoa(String.fromCharCode(...new Uint8Array(buf))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, ""); }
+
+async function connect() {
+  const v = b64url(crypto.getRandomValues(new Uint8Array(48)));
+  const ch = b64url(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(v)));
+  try { localStorage.setItem("scb_verifier", v); } catch (e) { sessionStorage.setItem("scb_verifier", v); }
+  const q = new URLSearchParams({ client_id: CLIENT_ID, response_type: "code", redirect_uri: REDIRECT,
+    code_challenge_method: "S256", code_challenge: ch, scope: SCOPES });
+  location.href = "https://accounts.spotify.com/authorize?" + q;
+}
+
+async function tokenRequest(body) {
+  const r = await fetch("https://accounts.spotify.com/api/token", { method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: new URLSearchParams(body) });
+  const j = await r.json();
+  if (!r.ok) throw new Error("token: " + (j.error_description || j.error || r.status));
+  const old = store.get() || {};
+  const t = { access: j.access_token, refresh: j.refresh_token || old.refresh, exp: Date.now() + (j.expires_in - 60) * 1000 };
+  store.set(t);
+  return t;
+}
+
+async function finishLogin() {
+  const p = new URLSearchParams(location.search);
+  if (p.get("error")) { log("Spotify said:", p.get("error")); history.replaceState(null, "", REDIRECT); return; }
+  const code = p.get("code"); if (!code) return;
+  let v; try { v = localStorage.getItem("scb_verifier"); } catch (e) {} v = v || sessionStorage.getItem("scb_verifier");
+  history.replaceState(null, "", REDIRECT);
+  await tokenRequest({ grant_type: "authorization_code", code, redirect_uri: REDIRECT, client_id: CLIENT_ID, code_verifier: v });
+}
+
+async function token() {
+  let t = store.get();
+  if (!t) throw new Error("Not connected");
+  if (Date.now() > t.exp) t = await tokenRequest({ grant_type: "refresh_token", refresh_token: t.refresh, client_id: CLIENT_ID });
+  return t.access;
+}
+
+async function api(path, opts = {}) {
+  for (let i = 0; i < 5; i++) {
+    const r = await fetch(path.startsWith("http") ? path : API + path, Object.assign({}, opts, {
+      headers: Object.assign({ Authorization: "Bearer " + await token(), "Content-Type": "application/json" }, opts.headers || {}) }));
+    if (r.status === 429) { const w = +(r.headers.get("Retry-After") || 2); log(`rate limited, waiting ${w}s`); await sleep(w * 1000 + 250); continue; }
+    if (r.status === 204) return {};
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(`${opts.method || "GET"} ${path}: ${r.status} ${(j.error && j.error.message) || ""}`);
+    return j;
+  }
+  throw new Error("Too many retries: " + path);
+}
+
+const norm = s => String(s).toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/&/g, "and").replace(/^the /, "").replace(/[^a-z0-9]+/g, "");
+
+// Find an artist by exact (normalized) name. Returns {status: "ok"|"none"|"ambiguous", id, name, candidates}.
+async function findArtist(name) {
+  const j = await api("/search?" + new URLSearchParams({ q: name, type: "artist", limit: 10 }));
+  const items = (j.artists && j.artists.items) || [];
+  const hits = items.filter(a => norm(a.name) === norm(name));
+  if (!hits.length) return { status: "none", query: name, candidates: items.slice(0, 3).map(a => a.name) };
+  if (hits.length > 1) return { status: "ambiguous", query: name, id: hits[0].id, name: hits[0].name, candidates: hits.map(a => a.id) };
+  return { status: "ok", query: name, id: hits[0].id, name: hits[0].name };
+}
+
+async function findArtists(names) {
+  const out = [];
+  for (const n of names) { try { out.push(await findArtist(n)); } catch (e) { out.push({ status: "error", query: n, error: String(e.message || e) }); } }
+  return out;
+}
+
+async function me() { return api("/me"); }
+
+// Create a playlist and add tracks in batches of 100, in order. Returns {id, url, added}.
+async function buildPlaylist(plan) {
+  const uris = [...new Set((plan.tracks || []).map(t => t.startsWith("spotify:") ? t : "spotify:track:" + t))];
+  if (!plan.name || !uris.length) throw new Error("Plan needs a name and tracks");
+  log(`Creating "${plan.name}" with ${uris.length} songs…`);
+  const pl = await api("/me/playlists", { method: "POST",
+    body: JSON.stringify({ name: plan.name, description: plan.description || "", public: plan.public !== false }) });
+  for (let i = 0; i < uris.length; i += 100) {
+    await api(`/playlists/${pl.id}/items`, { method: "POST", body: JSON.stringify({ uris: uris.slice(i, i + 100) }) });
+    log(`  added ${Math.min(i + 100, uris.length)}/${uris.length}`);
+  }
+  const url = pl.external_urls && pl.external_urls.spotify;
+  log("Done:", url);
+  return { id: pl.id, url, added: uris.length };
+}
+
+window.SCB = { connect, token, api, me, findArtist, findArtists, buildPlaylist };
+
+async function refreshUI() {
+  const t = store.get();
+  $("connect").hidden = !!t; $("disconnect").hidden = !t; $("build").disabled = !t;
+  if (!t) { $("status").textContent = "Not connected."; return; }
+  try { const m = await me(); $("status").textContent = `Connected as ${m.display_name || m.id}.`; }
+  catch (e) { $("status").textContent = "Connection problem: " + e.message; }
+}
+
+$("connect").onclick = connect;
+$("disconnect").onclick = () => { store.clear(); refreshUI(); };
+$("build").onclick = async () => {
+  $("build").disabled = true;
+  try { const r = await buildPlaylist(JSON.parse($("plan").value)); $("status").innerHTML = `Built: <a href="${r.url}" target="_blank" rel="noopener">${r.url}</a>`; }
+  catch (e) { log("Error:", e.message); }
+  $("build").disabled = false;
+};
+(async () => { try { await finishLogin(); } catch (e) { log("Login failed:", e.message); } refreshUI(); })();
+</script>
+</body>
+</html>
