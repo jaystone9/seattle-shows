@@ -144,7 +144,22 @@ async function buildPlaylist(plan) {
   return { id: pl.id, url, added: uris.length };
 }
 
-window.SCB = { connect, token, api, me, findArtist, findArtists, buildPlaylist };
+// Refresh a standing playlist (the genre playlists): replace all its songs, in order, keeping
+// its id, link and followers. PUT replaces the first 100; the rest are appended. Returns {id, added}.
+async function refreshPlaylist(plan) {
+  const uris = [...new Set((plan.tracks || []).map(t => t.startsWith("spotify:") ? t : "spotify:track:" + t))];
+  if (!plan.id || !uris.length) throw new Error("Plan needs an id and tracks");
+  log(`Refreshing ${plan.id} with ${uris.length} songs…`);
+  await api(`/playlists/${plan.id}/items`, { method: "PUT", body: JSON.stringify({ uris: uris.slice(0, 100) }) });
+  for (let i = 100; i < uris.length; i += 100) {
+    await api(`/playlists/${plan.id}/items`, { method: "POST", body: JSON.stringify({ uris: uris.slice(i, i + 100) }) });
+  }
+  if (plan.description) await api(`/playlists/${plan.id}`, { method: "PUT", body: JSON.stringify({ description: plan.description }) });
+  log("Done:", plan.id);
+  return { id: plan.id, added: uris.length };
+}
+
+window.SCB = { connect, token, api, me, findArtist, findArtists, buildPlaylist, refreshPlaylist };
 
 async function refreshUI() {
   const t = store.get();

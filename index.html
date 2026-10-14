@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=b327201f">
+<link rel="stylesheet" href="site.css?v=607f5b03">
 </head>
 <body>
 <div class="wrap">
@@ -55,8 +55,13 @@
     <div>
       <h2 id="listen-h">Find your next show</h2>
       <div class="pl-tabs" id="pl-tabs" role="group" aria-label="Which playlist" hidden></div>
+      <div class="genre-pick" id="genre-pick" hidden>
+        <p class="genre-label" id="genre-label">Or just one genre</p>
+        <div class="genre-chips" id="genre-chips" role="group" aria-labelledby="genre-label"></div>
+      </div>
       <p class="sub" id="pl-sub">The top songs from every headliner, in show order.</p>
       <div class="player" id="player"></div>
+      <p class="pl-note" id="pl-note" hidden>Follow it once on Spotify. It refreshes every Sunday.</p>
       <p style="margin:12px 0 0"><a href="playlists.html">Past playlists</a></p>
     </div>
     <aside class="signup" id="newsletter" aria-labelledby="signup-h">
@@ -170,15 +175,22 @@
     const slug = a => a.toLowerCase().replace(/[^a-z]+/g,"-").replace(/^-|-$/g,"");
     const areaPls = data.area_playlists || {};
     const PL_AREAS = ["Frelard"];  // area playlists we build every Sunday
-    let plTab = "";
-    function showPlaylist(area){
-      plTab = area;
-      const pl = area ? areaPls[area] : data.playlist;
-      document.querySelectorAll("#pl-tabs button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.area===area)));
+    // Standing genre playlists (Pop, Indie & Rock, ...): one chip each, refreshed every Sunday.
+    const genres = data.genre_playlists || [];
+    let plTab = "", plGenre = "";
+    function showPlaylist(area, genre){
+      plTab = area; plGenre = genre || "";
+      const gp = plGenre ? genres.find(g=>g.slug===plGenre) : null;
+      const pl = gp || (area ? areaPls[area] : data.playlist);
+      document.querySelectorAll("#pl-tabs button").forEach(b=>b.setAttribute("aria-pressed", String(!gp && b.dataset.area===area)));
+      document.querySelectorAll("#genre-chips button").forEach(b=>b.setAttribute("aria-pressed", String(!!gp && b.dataset.genre===plGenre)));
       SC.slide($("#pl-tabs"));
+      $("#pl-note").hidden = !gp;
       if(pl && pl.id){
         $("#player").innerHTML = `<iframe title="${esc(pl.name)} on Spotify" src="https://open.spotify.com/embed/playlist/${esc(pl.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
-        $("#pl-sub").textContent = area
+        $("#pl-sub").textContent = gp
+          ? `${pl.songs} songs from ${pl.artists} ${gp.genre} headliners playing ${range(pl.start,pl.end)}, in show order.`
+          : area
           ? `${pl.songs} songs from ${pl.artists} artists playing ${area}'s small rooms ${range(pl.start,pl.end)}, openers included, in show order.`
           : `${pl.songs} songs from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order.`;
       } else {
@@ -188,7 +200,18 @@
     }
     $("#pl-tabs").innerHTML = [["","All Seattle"],...PL_AREAS.map(a=>[a,a])].map(([a,l])=>`<button type="button" data-area="${esc(a)}" aria-pressed="false">${esc(l)}</button>`).join("");
     $("#pl-tabs").hidden = false; SC.slide($("#pl-tabs"));
-    $("#pl-tabs").addEventListener("click",ev=>{const b=ev.target.closest("button"); if(b) showPlaylist(b.dataset.area);});
+    // ?playlist=folk (etc.) opens a genre playlist; kept in the URL so it can be shared.
+    const setPlParam = slug => { const u = new URL(location.href); slug ? u.searchParams.set("playlist", slug) : u.searchParams.delete("playlist"); history.replaceState(null,"",u); };
+    $("#pl-tabs").addEventListener("click",ev=>{const b=ev.target.closest("button"); if(b){ showPlaylist(b.dataset.area); setPlParam(""); }});
+    if(genres.length){
+      $("#genre-chips").innerHTML = genres.map(g=>`<button type="button" data-genre="${esc(g.slug)}" aria-pressed="false">${esc(g.genre)}</button>`).join("");
+      $("#genre-pick").hidden = false;
+      $("#genre-chips").addEventListener("click",ev=>{
+        const b=ev.target.closest("button"); if(!b) return;
+        const g = b.dataset.genre===plGenre ? "" : b.dataset.genre;  // tapping the chosen genre again goes back to All Seattle
+        showPlaylist(g ? "" : plTab, g); setPlParam(g);
+      });
+    }
 
     // newsletter: filled by SC.footer -> newsletter() via [data-signup]
 
@@ -210,7 +233,9 @@
     fillVenues();
     if(params.get("venue") && vs.includes(params.get("venue"))) { $("#venue").value = params.get("venue"); if(!pa) $("#area").value=""; }
     if(params.get("q")) $("#q").value = params.get("q");
-    showPlaylist(pa && PL_AREAS.includes(pa) ? pa : "");
+    const pg = genres.find(g=>g.slug===(params.get("playlist")||"").toLowerCase());
+    if(pg) showPlaylist("", pg.slug);
+    else showPlaylist(pa && PL_AREAS.includes(pa) ? pa : "");
     // Date filter: quick picks, each day of the two weeks, or any date via the picker.
     const lastShow = upcoming.at(-1)?.date || end;
     const dow = iso => D(iso).getUTCDay();
@@ -273,7 +298,7 @@
     }
     $("#q").addEventListener("input",()=>{limit=60;render();});
     $("#venue").addEventListener("change",()=>{limit=60;render();});
-    $("#area").addEventListener("change",()=>{limit=60;fillVenues();const a=$("#area").value; if(PL_AREAS.includes(a)) showPlaylist(a); else if(plTab&&!a) showPlaylist(""); render();});
+    $("#area").addEventListener("change",()=>{limit=60;fillVenues();const a=$("#area").value; if(PL_AREAS.includes(a)) { showPlaylist(a); setPlParam(""); } else if(plTab&&!a) showPlaylist(""); render();});
     $("#when").addEventListener("change",()=>{limit=60; $("#when-pick").hidden=$("#when").value!=="pick"; if($("#when").value==="pick"){ $("#when-pick").focus(); try{$("#when-pick").showPicker()}catch(e){} } render();});
     $("#when-pick").addEventListener("change",()=>{limit=60;render();});
     $("#clear").addEventListener("click",()=>{$("#q").value="";$("#area").value="";setWhen("");fillVenues();$("#venue").value="";limit=60;render();$("#q").focus();});

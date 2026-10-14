@@ -115,6 +115,13 @@ def main(*args):
         h.append(button(fr["url"], "▶ Listen to the Frelard playlist on Spotify"))
         t.append(f"FRELARD: {why} {fr.get('songs')} songs from {fr.get('artists')} artists.\n{fr['url']}\n")
 
+    # Genre playlists: one short line pointing to the site (Jay, Oct 14, 2026: no genre buttons in the email).
+    gps = d.get("genre_playlists") or []
+    if gps:
+        word = {7: "Seven"}.get(len(gps), str(len(gps)))
+        h.append(f'<p style="background:#F7D6E2;border-radius:10px;padding:14px 18px"><b>Just want folk, or just electronic?</b> '
+                 f'{word} genre playlists, refreshed every Sunday. {link(SITE + "#listen-h", "Pick a genre →", bold=True)}</p>')
+        t.append(f"Just want folk, or just electronic? {word} genre playlists, refreshed every Sunday. Pick a genre: {SITE}#listen-h\n")
     h.append(f"<p>Not on Spotify? {link(transfer, 'Copy either playlist to Apple Music, YouTube Music and more, free →')}</p>")
     t.append(f"Not on Spotify? Copy either playlist to Apple Music, YouTube Music and more, free: {transfer}\n")
 
@@ -136,6 +143,7 @@ def main(*args):
     # ---------- the check email (Jay only) ----------
     links = [(f"{edition} playlist", pl.get("url")), ("Frelard playlist", fr and fr.get("url")),
              ("Copy-to-other-apps tool", transfer), ("Site", SITE)]
+    links[2:2] = [(f"{g['genre']} playlist", g.get("url")) for g in gps]
     do_http = "--check-links" in flags
     c = [f"Subject: CHECK before sending: {subject}", "",
          "This is the pre-send check. The beehiiv test of the real issue arrives separately.",
@@ -152,6 +160,9 @@ def main(*args):
           f"  {edition}: {pl.get('songs', '?')} songs, {pl.get('artists', '?')} headliners, {pl.get('per_artist', '?')} per artist"]
     if fr:
         c.append(f"  Frelard: {fr.get('songs', '?')} songs, {fr.get('artists', '?')} artists, {fr.get('per_artist', '?')} per artist")
+    for g in gps:
+        stale = "" if g.get("start") == start else f"  [NOT REFRESHED: still {g.get('start')}]"
+        c.append(f"  {g['genre']}: {g.get('songs', '?')} songs, {g.get('artists', '?')} artists{stale}")
     for name, p in (("Seattle", pl), ("Frelard", fr or {})):
         if p.get("skipped"):
             c.append(f"  {name} skipped (not on Spotify or ambiguous): {', '.join(p['skipped'])}")

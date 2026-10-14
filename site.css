@@ -230,3 +230,19 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
   .tools input#q{flex:1 1 100%}
   .tools select,.tools #when,.tools #when-pick{flex:1 1 calc(50% - 5px)}
 }
+
+/* Genre playlists: a chip row under the All Seattle / Frelard switch */
+.genre-pick{margin:0 0 14px}
+.genre-label{display:flex;align-items:center;gap:10px;margin:0 0 8px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.genre-label::after{content:"";flex:1;height:1px;background:var(--line)}
+.genre-chips{display:flex;flex-wrap:wrap;gap:8px}
+.genre-chips button{font:inherit;font-size:15px;font-weight:700;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);border-radius:999px;padding:9px 15px;cursor:pointer;white-space:nowrap;transition:background .2s,border-color .2s,color .2s}
+.genre-chips button:hover{border-color:var(--gel)}
+.genre-chips button[aria-pressed="true"]{background:#D6336C;border-color:#D6336C;color:#fff}
+.genre-chips button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+@media (max-width:640px){
+  .genre-chips{flex-wrap:nowrap;overflow-x:auto;margin:0 -16px;padding:0 16px 4px;scrollbar-width:none}
+  .genre-chips::-webkit-scrollbar{display:none}
+  .genre-chips button{flex:none}
+}
+.pl-note{margin:10px 0 0;font-size:15px;color:var(--muted)}
