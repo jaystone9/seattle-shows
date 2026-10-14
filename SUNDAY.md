@@ -18,6 +18,10 @@ name or any personal email address in this public repo, the site, or the newslet
    today → today + 13 days, then the Frelard one (step 4b, headliners + openers), update `playlists.json` and `previews.json`, run
    `build_site.py`, commit and push. The site, calendar feed and Playlists archive update
    from this.
+   Then the 7 genre playlists (`PLAYLIST.md` step 4c): look up new headliners on Last.fm,
+   seed the Genre Review page, and once Jay has confirmed their genres there, refresh each
+   genre playlist and update `genres.json` and `genre_playlists.json`. Start the lookups early
+   so Jay can review while the venue refresh runs.
 4. **Build the issue.** Run `python3 build_issue.py --check-links`. It writes
    `issues/<start>.html` (the issue), `.txt`, and `issues/<start>-check.txt` (the check email),
    and prints any warnings. Every issue has BOTH playlists; if it warns the Frelard one is
