@@ -232,7 +232,8 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 }
 
 /* Genre playlists: a chip row under the All Seattle / Frelard switch */
-.genre-pick{margin:0 0 14px}
+.genre-pick{margin:0 0 14px;min-width:0}
+.listen > *{min-width:0}  /* lets the chip row scroll inside its column instead of widening the page */
 .genre-label{display:flex;align-items:center;gap:10px;margin:0 0 8px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .genre-label::after{content:"";flex:1;height:1px;background:var(--line)}
 .genre-chips{display:flex;flex-wrap:wrap;gap:8px}
