@@ -18,21 +18,34 @@ name or any personal email address in this public repo, the site, or the newslet
    today → today + 13 days, then the Frelard one (step 4b, headliners + openers), update `playlists.json` and `previews.json`, run
    `build_site.py`, commit and push. The site, calendar feed and Playlists archive update
    from this.
-4. **Newsletter draft.** Run `python3 build_issue.py` for the subject, preview text and
-   show count. In beehiiv, create a blank post:
+4. **Build the issue.** Run `python3 build_issue.py --check-links`. It writes
+   `issues/<start>.html` (the issue), `.txt`, and `issues/<start>-check.txt` (the check email),
+   and prints any warnings. Every issue has BOTH playlists; if it warns the Frelard one is
+   missing, build it first. In beehiiv, create a blank post:
    - Title (subject): `<Mon D>–<D>: Seattle 2 Week Playlist`
-   - Subtitle (preview): use the preview text build_issue.py prints (mentions both playlists).
-   - Paste `issues/<start>.html` content in order: intro line ("Two playlists... the top three
-     songs from each artist"), then "All of Seattle" line + pink (#D6336C, bold) Button block
-     "▶ Listen to the Seattle playlist on Spotify", then "Frelard" line + Button
-     "▶ Listen to the Frelard playlist on Spotify" (don't use the generic link embed; it renders
-     as a broken card), then the closing link "All <N> shows are on the site →".
-     Every issue has BOTH playlists; if build_issue.py warns the Frelard one is missing, build it first.
-   - Author: the "2 Week Soundcheck" guest author only; byline hidden. No lyrics.
-   - Send a test to hello@ (it lands in the webmail's Promotions tab) and check it.
-5. **Send only with Jay's OK.** Show Jay the test, then send or schedule to subscribers only
-   after he says to. Never send to the list without his explicit go-ahead.
-6. **Email Jay and Eric** the playlist per `PLAYLIST.md` step 6.
+   - Subtitle (preview): the preview text build_issue.py prints.
+   - Content, in order, from `issues/<start>.html`:
+     1. Intro line ("Two playlists for <dates>: the top three songs from each artist, in show order...")
+     2. Heading "All of Seattle", its line, then a pink (#D6336C, bold) Button block
+        "▶ Listen to the Seattle playlist on Spotify"
+     3. Heading "Frelard", the "I live in Ballard..." line, then a Button
+        "▶ Listen to the Frelard playlist on Spotify". Use Button blocks, never the generic
+        link embed (it renders as a broken card).
+     4. The "Not on Spotify? Copy either playlist..." line, linked to `newsletter.json` `transfer_url`
+     5. A divider, then: "All <N> shows are on the site →" (filter by date, neighborhood, venue
+        or artist), the neighborhood ask ("Reply and tell us where"), the forward ask, and the
+        sponsor line ("Sponsor an issue. Just reply to this email").
+   - Author: the "2 Week Soundcheck" guest author only; byline hidden. No lyrics. Never Jay's name.
+5. **Check newsletter (Jay only).** Two things reach Jay before anything goes out:
+   - The beehiiv **Send test** of the real issue, to hello@ (it lands in the webmail's Promotions tab).
+   - The **check email** from `issues/<start>-check.txt`, sent to Jay only (address in the private
+     project notes and Claude's memory, never in this repo) via the Gmail connector. Before sending,
+     open every link in the beehiiv test in the browser (both playlists, the copy tool, the site)
+     and mark each ✓ or ✗ in the LINKS section; add any skipped artists, venues that failed to
+     refresh, and reader reports under FLAGS.
+6. **Send only with Jay's OK.** Send or schedule to subscribers only after Jay says OK, in the
+   chat or by replying to the check email. Never send to the list without his explicit go-ahead.
+   There is no separate playlist email any more; everyone else gets the newsletter as a subscriber.
 
 ## Already automatic
 Playlist archive page, "updated" date on the site, iPhone calendar feed (from step 2),

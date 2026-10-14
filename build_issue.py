@@ -1,27 +1,40 @@
 #!/usr/bin/env python3
-"""Draft this week's 2 Week Soundcheck newsletter issue from data/seattle.json.
+"""Draft this week's 2 Week Soundcheck newsletter issue and its pre-send check email.
 
-Usage: python3 build_issue.py [data/seattle.json] [issues/]
-Writes issues/<start>.html (paste into the beehiiv editor) and issues/<start>.txt,
-and prints the subject and preview text.
+Usage: python3 build_issue.py [data/seattle.json] [issues/] [--check-links]
 
-The issue is deliberately short (Jay, Oct 12, 2026: "I don't want it to be messy"):
-  1. Subject: "<dates>: Seattle 2 Week Playlist"
-  2. One line on what this is (top 3 songs per artist)
-  3. Both playlists, each with a line and a pink button: Seattle (headliners),
-     then Frelard (Ballard + Fremont small rooms, openers included)
-  4. Closing link: all N shows are on the site.
+Writes:
+  issues/<start>.html        the subscriber issue (paste into the beehiiv editor)
+  issues/<start>.txt         the same issue as plain text, with subject and preview
+  issues/<start>-check.txt   the "ready to send?" check email that goes to Jay only
+
+Two newsletters each Sunday (Jay, Oct 14, 2026):
+  1. CHECK (Jay only): the beehiiv test of the real issue, plus the check email from this
+     script: link results, numbers and flags. Nothing goes to subscribers without Jay's OK.
+  2. ISSUE (all subscribers), deliberately short:
+     - Subject "<dates>: Seattle 2 Week Playlist"
+     - One intro line (top 3 songs per artist, in show order)
+     - "All of Seattle" line + pink button
+     - "Frelard" line (why it exists, in Jay's voice, no name) + pink button
+     - One line linking a free tool to copy the playlists to other apps
+     - Closing: all N shows on the site, the neighborhood ask, forward ask, sponsor line
+
+--check-links tries each link over HTTP and records the result in the check email. The
+Claude workspace usually can't reach these sites from the shell, so during the Sunday run
+Claude opens each link in the browser instead and marks the results in the check email.
 """
 import datetime as dt
 import html
 import json
 import os
 import sys
+import urllib.request
 
 SITE = "https://2weeksoundcheck.com/"
 PINK = "#D6336C"
-INK = "#1C2433"
+MUTED = "#5A6476"
 WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five"}
+DEFAULT_TRANSFER = "https://www.tunemymusic.com/transfer"
 
 
 def rng(s, e):
@@ -33,8 +46,30 @@ def button(url, label):
             f'padding:10px 18px;border-radius:999px;text-decoration:none">{label}</a></p>')
 
 
-def main(src="data/seattle.json", outdir="issues"):
+def link(url, text, bold=False):
+    t = f"<strong>{text}</strong>" if bold else text
+    return f'<a href="{html.escape(url)}" style="color:{PINK}">{t}</a>'
+
+
+def check(url):
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (2 Week Soundcheck link check)"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            return "OK" if r.status < 400 else f"FAIL ({r.status})"
+    except Exception as ex:  # network blocked or a real failure; Claude checks in the browser
+        return f"not checked here ({type(ex).__name__}); open it in the browser"
+
+
+def main(*args):
+    flags = {a for a in args if a.startswith("--")}
+    pos = [a for a in args if not a.startswith("--")]
+    src = pos[0] if pos else "data/seattle.json"
+    outdir = pos[1] if len(pos) > 1 else "issues"
+
     d = json.load(open(src))
+    cfg = json.load(open("newsletter.json")) if os.path.exists("newsletter.json") else {}
+    transfer = cfg.get("transfer_url") or DEFAULT_TRANSFER
+
     pl = d.get("playlist") or {}
     start = pl.get("start") or dt.date.today().isoformat()
     end = pl.get("end") or (dt.date.fromisoformat(start) + dt.timedelta(days=13)).isoformat()
@@ -43,45 +78,93 @@ def main(src="data/seattle.json", outdir="issues"):
     shows = [x for x in d["events"] if start <= x["date"] <= end and x.get("status") != "cancelled"]
     n = len(shows)
     edition = d.get("edition", "Seattle")
-    # Area playlists (Frelard) for the same two weeks. Every issue carries both playlists.
     areas = {a: p for a, p in (d.get("area_playlists") or {}).items() if p.get("start") == start and p.get("url")}
     fr = areas.get("Frelard")
+    warnings = []
+    if not pl.get("url"):
+        warnings.append("The Seattle playlist has no link for this window.")
     if not fr:
-        print("WARNING: no Frelard playlist for this window in playlists.json; build it (PLAYLIST.md 4b) and rerun.")
+        warnings.append("No Frelard playlist for this window in playlists.json. Build it (PLAYLIST.md 4b) and rerun.")
     pers = {(p.get("per_artist") or 3) for p in [pl] + ([fr] if fr else [])}
     per = WORDS.get(pers.pop(), "") if len(pers) == 1 else ""  # only state a count when both playlists agree
+    if not per:
+        warnings.append("The two playlists use different songs-per-artist counts, so the intro leaves the count out.")
 
     subject = f"{dates}: {edition} 2 Week Playlist"
-    preview_text = f"{pl.get('songs', '')} songs from the {pl.get('artists', n)} headliners playing {edition} over the next two weeks"
-    preview_text += f", plus a Frelard playlist for Ballard and Fremont." if fr else "."
+    preview_text = (f"Two new playlists for the next two weeks: all of {edition}, plus Frelard." if fr
+                    else f"Songs from every headliner playing {edition} over the next two weeks.")
 
+    # ---------- the subscriber issue ----------
     h, t = [], []
-    intro = (f"Two playlists for {dates}, the top {per + ' ' if per else ''}songs from each artist, in show order. "
-             if fr else f"Every headliner playing {edition} {dates}, the top {per + ' ' if per else ''}songs each, in show order. ")
-    h.append(f"<p>{intro}Hit shuffle, and when something grabs you, go see it.</p>")
-    t.append(intro.strip() + "\n")
+    count = f"top {per} " if per else "top "
+    intro = (f"Two playlists for {dates}: the {count}songs from each artist, in show order."
+             if fr else f"Every headliner playing {edition} {dates}: the {count}songs from each, in show order.")
+    h.append(f"<p>{intro} Hit shuffle, and when something grabs you, go see it.</p>")
+    t.append(intro + " Hit shuffle, and when something grabs you, go see it.\n")
 
     if pl.get("url"):
-        h.append(f"<p><strong>All of {edition}:</strong> {pl.get('songs')} songs from {pl.get('artists')} headliners across the city.</p>")
-        h.append(button(pl["url"], "▶ Listen to the Seattle playlist on Spotify"))
-        t.append(f"All of {edition} ({pl.get('songs')} songs, {pl.get('artists')} headliners): {pl['url']}\n")
+        h.append(f"<h3>All of {edition}</h3>")
+        h.append(f"<p>{pl.get('songs')} songs from {pl.get('artists')} headliners across the city.</p>")
+        h.append(button(pl["url"], f"▶ Listen to the {edition} playlist on Spotify"))
+        t.append(f"ALL OF {edition.upper()}: {pl.get('songs')} songs from {pl.get('artists')} headliners across the city.\n{pl['url']}\n")
     if fr:
-        h.append(f"<p><strong>Frelard:</strong> {fr.get('songs')} songs from {fr.get('artists')} artists at the small rooms in Ballard and Fremont, openers included.</p>")
+        why = ("I live in Ballard and want to go to more shows close to home, so this one covers "
+               "the small rooms in Fremont and Ballard, openers included.")
+        h.append("<h3>Frelard</h3>")
+        h.append(f"<p>{why} {fr.get('songs')} songs from {fr.get('artists')} artists.</p>")
         h.append(button(fr["url"], "▶ Listen to the Frelard playlist on Spotify"))
-        t.append(f"Frelard ({fr.get('songs')} songs, {fr.get('artists')} artists, openers included): {fr['url']}\n")
+        t.append(f"FRELARD: {why} {fr.get('songs')} songs from {fr.get('artists')} artists.\n{fr['url']}\n")
 
-    h.append(f'<p style="margin-top:28px"><a href="{SITE}"><strong>All {n} shows are on the site →</strong></a><br>'
-             f'<span style="color:#5A6476">Searchable by neighborhood, venue and artist, with tickets and a preview for every headliner.</span></p>')
-    t.append(f"All {n} shows are on the site, searchable by neighborhood, venue and artist: {SITE}")
-    if fr:
-        t.append(f"Just Frelard: {SITE}?area=frelard")
+    h.append(f"<p>Not on Spotify? {link(transfer, 'Copy either playlist to Apple Music, YouTube Music and more, free →')}</p>")
+    t.append(f"Not on Spotify? Copy either playlist to Apple Music, YouTube Music and more, free: {transfer}\n")
+
+    h.append("<hr>")
+    h.append(f'<p>{link(SITE, f"All {n} shows are on the site →", bold=True)}<br>'
+             f'<span style="color:{MUTED}">Filter by date, neighborhood, venue or artist.</span></p>')
+    h.append("<p>Want a playlist for your neighborhood next? Reply and tell us where.</p>")
+    h.append(f"<p>Know someone who'd like this? Forward it to them. They can sign up at {link(SITE, '2weeksoundcheck.com')}.</p>")
+    h.append(f'<p style="color:{MUTED}">Run a venue or local business? Sponsor an issue. Just reply to this email.</p>')
+    t.append(f"All {n} shows are on the site. Filter by date, neighborhood, venue or artist: {SITE}\n")
+    t.append("Want a playlist for your neighborhood next? Reply and tell us where.\n")
+    t.append(f"Know someone who'd like this? Forward it to them. They can sign up at {SITE}\n")
+    t.append("Run a venue or local business? Sponsor an issue. Just reply to this email.")
 
     os.makedirs(outdir, exist_ok=True)
     open(f"{outdir}/{start}.html", "w").write("\n".join(h) + "\n")
     open(f"{outdir}/{start}.txt", "w").write(f"Subject: {subject}\nPreview: {preview_text}\n\n" + "\n".join(t) + "\n")
+
+    # ---------- the check email (Jay only) ----------
+    links = [(f"{edition} playlist", pl.get("url")), ("Frelard playlist", fr and fr.get("url")),
+             ("Copy-to-other-apps tool", transfer), ("Site", SITE)]
+    do_http = "--check-links" in flags
+    c = [f"Subject: CHECK before sending: {subject}", "",
+         "This is the pre-send check. The beehiiv test of the real issue arrives separately.",
+         "Nothing goes to subscribers until you say OK.", "",
+         "LINKS"]
+    for label, url in links:
+        if not url:
+            c.append(f"  [MISSING] {label}")
+        else:
+            c.append(f"  [{check(url) if do_http else '  '}] {label}: {url}")
+    c += ["", "NUMBERS",
+          f"  Dates: {dates}",
+          f"  Shows on the site in this window: {n}",
+          f"  {edition}: {pl.get('songs', '?')} songs, {pl.get('artists', '?')} headliners, {pl.get('per_artist', '?')} per artist"]
+    if fr:
+        c.append(f"  Frelard: {fr.get('songs', '?')} songs, {fr.get('artists', '?')} artists, {fr.get('per_artist', '?')} per artist")
+    for name, p in (("Seattle", pl), ("Frelard", fr or {})):
+        if p.get("skipped"):
+            c.append(f"  {name} skipped (not on Spotify or ambiguous): {', '.join(p['skipped'])}")
+    c += ["", "FLAGS"] + ([f"  - {w}" for w in warnings] or ["  None from the build. Add anything found in the run (failed venues, reports)."])
+    c += ["", "SUBJECT AND PREVIEW", f"  {subject}", f"  {preview_text}", "",
+          "Reply OK (or tell Claude in the chat) and it goes to subscribers."]
+    open(f"{outdir}/{start}-check.txt", "w").write("\n".join(c) + "\n")
+
     print(f"Subject: {subject}")
     print(f"Preview text: {preview_text}")
-    print(f"wrote {outdir}/{start}.html and .txt")
+    for w in warnings:
+        print("WARNING:", w)
+    print(f"wrote {outdir}/{start}.html, .txt and -check.txt")
 
 
 if __name__ == "__main__":
