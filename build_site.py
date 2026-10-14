@@ -61,6 +61,39 @@ GENRES = ["Pop", "Indie & Rock", "Folk & Country", "Electronic", "Hip-hop & R&B"
 GENRE_SLUGS = {"Pop": "pop", "Indie & Rock": "indie", "Folk & Country": "folk", "Electronic": "electronic",
                "Hip-hop & R&B": "hip-hop", "Punk & Metal": "punk", "Jazz, World & Classical": "jazz"}
 
+OTHER_GENRE = "Other / Local"  # in the genre window but no confirmed genre (yet)
+
+
+def genre_names(title):
+    """Names to look up in genres.json for a show title: the title, lineup.py's cleaned
+    name, then each act of a co-bill ("A & B", "A x B", "A with B", "Fest: Headliner")."""
+    from lineup import clean
+    base = [title, clean(title)]
+    if ": " in title:
+        base.append(title.split(": ", 1)[1])
+    out = []
+    for n in base:
+        out.append(n)
+        for part in re.split(r"\s+(?:x|\+|with)\s+", n, flags=re.I):
+            out.append(part)
+            out += re.split(r"\s+&\s+", part)
+    return [n.strip() for n in dict.fromkeys(out) if n.strip()]
+
+
+def show_genres(title, confirmed):
+    """Confirmed genres for a show; [] = Other / Local. The full name wins over its parts."""
+    from lineup import clean
+    for n in (title, clean(title)):
+        if n.lower() in confirmed:
+            return confirmed[n.lower()]
+    found = []
+    for n in genre_names(title):
+        for g in confirmed.get(n.lower(), []):
+            if g not in found:
+                found.append(g)
+    return [g for g in GENRES if g in found]
+
+
 for _v in VENUES.values():
     _v["area"] = next((a for a, hoods in AREAS.items() if _v["hood"] in hoods), "Seattle")
 
@@ -144,6 +177,23 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
         p = pv.get(e["title"])
         if p and p.get("track"):
             e["preview"] = {"track": p["track"], "song": p.get("song")}
+    # Genres (genres.json, confirmed each Sunday) for shows in the current playlist window only;
+    # shows further out aren't reviewed yet, so they carry no "genres" key.
+    try:
+        confirmed = {k.lower(): v.get("genres") or [] for k, v in json.load(open("genres.json")).items()}
+    except FileNotFoundError:
+        confirmed = {}
+    try:
+        cur = next((p for p in json.load(open(pl)) if not p.get("area")), None)
+        g_from, g_to = cur["start"], cur["end"]
+        if g_to < today.isoformat():
+            raise ValueError
+    except Exception:
+        g_from, g_to = today.isoformat(), (today + dt.timedelta(days=13)).isoformat()
+    if confirmed:
+        for e in events:
+            if g_from <= e["date"] <= g_to:
+                e["genres"] = show_genres(e["title"], confirmed)
     try:
         playlists = json.load(open(pl))
     except FileNotFoundError:
@@ -172,6 +222,8 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
         "area_playlists": area_playlists,
         "genre_playlists": genre_playlists,
         "areas": list(AREAS),
+        "genres": [{"genre": g, "slug": GENRE_SLUGS[g]} for g in GENRES] + [{"genre": OTHER_GENRE, "slug": "other"}],
+        "genre_window": [g_from, g_to],
         "contact": json.load(open("contact.json")) if glob.glob("contact.json") else {},
         "venues": VENUES,
         "events": events,

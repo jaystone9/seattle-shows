@@ -212,7 +212,7 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 @media (prefers-reduced-motion:reduce){.pl-tabs .thumb,.pl-tabs button{transition:none}}
 .pl-filter{margin:20px 0 0}
 .pl-tabs button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
-.tools select{flex:0 1 200px}
+.tools select{flex:0 1 180px}
 .area-note{margin:4px 0 0;color:var(--muted);font-size:15px}
 .pl .area-tag{display:inline-block;font-size:13px;font-weight:700;background:#D6336C;color:#fff;border-radius:999px;padding:1px 9px;margin-left:8px;vertical-align:5px}
 /* Days already past in the playlist window: same height, muted */
@@ -222,7 +222,8 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .ch.past .n{color:var(--line)}
 .ch.past:hover .bar{background:var(--line)}
 .days span.past{opacity:.45}
-.tools #when{flex:0 1 190px}
+.tools #when{flex:0 1 150px}
+.tools #area{flex:0 1 200px}
 .tools #when-pick{flex:0 1 170px;font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);border-radius:10px;padding:9px 12px;color-scheme:light dark}
 .tools select,.tools #when-pick{min-width:0}
 .tools input#q{flex:1 1 200px;min-width:0}

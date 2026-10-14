@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=62959b62">
+<link rel="stylesheet" href="site.css?v=0abbaf66">
 </head>
 <body>
 <div class="wrap">
@@ -85,6 +85,7 @@
         <input id="when-pick" type="date" aria-label="Pick a date" hidden>
         <select id="area" aria-label="Filter by neighborhood"><option value="">All neighborhoods</option></select>
         <select id="venue" aria-label="Filter by venue"><option value="">All venues</option></select>
+        <select id="genre" aria-label="Filter by genre" hidden><option value="">All genres</option></select>
         <button class="clear" id="clear" hidden>Clear</button>
       </div>
     </div>
@@ -233,6 +234,18 @@
     fillVenues();
     if(params.get("venue") && vs.includes(params.get("venue"))) { $("#venue").value = params.get("venue"); if(!pa) $("#area").value=""; }
     if(params.get("q")) $("#q").value = params.get("q");
+    // Genre filter: genres confirmed each Sunday (genres.json) for the two-week window only.
+    // Shows with no confirmed genre are "Other / Local". Shareable as ?genre=folk.
+    const GEN = data.genres || [], gwin = data.genre_window || [];
+    const gOf = e => !e.genres ? null : e.genres.length ? e.genres : ["Other / Local"];
+    if(GEN.length && soon.some(e=>e.genres)){
+      const n = g => soon.filter(e=>(gOf(e)||[]).includes(g)).length;
+      $("#genre").innerHTML += GEN.filter(g=>n(g.genre)).map(g=>`<option value="${esc(g.slug)}">${esc(g.genre)}</option>`).join("");
+      $("#genre").hidden = false;
+      const pgs = (params.get("genre")||"").toLowerCase();
+      if([...$("#genre").options].some(o=>o.value===pgs)) $("#genre").value = pgs;
+    }
+    const genreName = s => (GEN.find(g=>g.slug===s)||{}).genre || "";
     const pg = genres.find(g=>g.slug===(params.get("playlist")||"").toLowerCase());
     if(pg) showPlaylist("", pg.slug);
     else showPlaylist(pa && PL_AREAS.includes(pa) ? pa : "");
@@ -262,17 +275,17 @@
       $("#when-pick").hidden = $("#when").value!=="pick";
     }
     if(params.get("date")) setWhen(params.get("date"));
-    const match = (e,q,vf,af,dr) => (!dr||(e.date>=dr[0]&&e.date<=dr[1])) && (!af||areaOf(e.venue)===af) && (!vf||e.venue===vf) && (!q||(e.title+" "+e.support.join(" ")).toLowerCase().includes(q));
+    const match = (e,q,vf,af,dr,gf) => (!gf||(gOf(e)||[]).includes(gf)) && (!dr||(e.date>=dr[0]&&e.date<=dr[1])) && (!af||areaOf(e.venue)===af) && (!vf||e.venue===vf) && (!q||(e.title+" "+e.support.join(" ")).toLowerCase().includes(q));
 
     let limit = 60;
     const iso_ok = i => addDays(today,i) <= end;
     function render(){
-      const q=$("#q").value.trim().toLowerCase(), vf=$("#venue").value, af=$("#area").value, dr=whenRange(), filtered=!!(q||vf||af||dr);
+      const q=$("#q").value.trim().toLowerCase(), vf=$("#venue").value, af=$("#area").value, dr=whenRange(), gs=$("#genre").value, gf=genreName(gs), filtered=!!(q||vf||af||dr||gf);
       $("#clear").hidden = !filtered;
       // next two weeks
       let html="", count=0;
       for(let i=0;iso_ok(i);i++){
-        const iso=addDays(today,i), list=(byDay[iso]||[]).filter(e=>match(e,q,vf,af,dr));
+        const iso=addDays(today,i), list=(byDay[iso]||[]).filter(e=>match(e,q,vf,af,dr,gf));
         if(filtered && !list.length) continue;
         count += list.length;
         const name = i===0?"Today":i===1?"Tomorrow":fmt(iso,{weekday:"long"});
@@ -282,26 +295,28 @@
       $("#lineup-h").textContent = `Now through ${fmt(end,{month:"long",day:"numeric"})}`;
       $("#lineup-count").textContent = dr && dr[0] > end ? `${fmt(dr[0],{month:"long",day:"numeric"})} is further out, below` : filtered ? `${count} match${count===1?"":"es"}` : `${soon.length} shows at ${new Set(soon.map(e=>e.venue)).size} venues`;
       // further out
-      const rows = later.filter(e=>match(e,q,vf,af,dr));
+      // further out has no genres yet: with a genre picked, say so instead of listing other shows
+      const rows = gf ? [] : later.filter(e=>match(e,q,vf,af,dr));
       // a date inside the two weeks has nothing further out; hide that section instead of showing "no matches"
       document.querySelector('[aria-labelledby="all-h"]').hidden = !!(dr && dr[1] <= end);
       // a date past the two weeks: hide the two-week list (but keep its filters) and show results below
       $("#lineup").hidden = !!(dr && dr[0] > end);
       let out="", mo="";
       rows.slice(0,limit).forEach(e=>{const mm=fmt(e.date,{month:"long",year:"numeric"}); if(mm!==mo){out+=`<div class="month">${mm}</div>`;mo=mm;} out+=showRow(e,venues,true);});
-      $("#all").innerHTML = out || `<p class="empty">${filtered?"No later shows match.":"Nothing further out yet."}</p>`;
+      $("#all").innerHTML = out || `<p class="empty">${gf?"Genres cover the next two weeks. Shows further out aren't sorted by genre yet.":filtered?"No later shows match.":"Nothing further out yet."}</p>`;
       $("#more").hidden = rows.length<=limit;
-      $("#all-count").textContent = filtered ? `${rows.length} match${rows.length===1?"":"es"}` : `${later.length} more shows through ${fmt(later.at(-1)?.date||end,{month:"long"})}`;
+      $("#all-count").textContent = gf ? "" : filtered ? `${rows.length} match${rows.length===1?"":"es"}` : `${later.length} more shows through ${fmt(later.at(-1)?.date||end,{month:"long"})}`;
       // keep the filter in the URL so it can be shared
-      const u = new URL(location.href); q?u.searchParams.set("q",$("#q").value.trim()):u.searchParams.delete("q"); vf?u.searchParams.set("venue",vf):u.searchParams.delete("venue"); af?u.searchParams.set("area",slug(af)):u.searchParams.delete("area"); const wv=$("#when").value==="pick"?$("#when-pick").value:$("#when").value; wv?u.searchParams.set("date",wv):u.searchParams.delete("date");
+      const u = new URL(location.href); q?u.searchParams.set("q",$("#q").value.trim()):u.searchParams.delete("q"); vf?u.searchParams.set("venue",vf):u.searchParams.delete("venue"); af?u.searchParams.set("area",slug(af)):u.searchParams.delete("area"); gs?u.searchParams.set("genre",gs):u.searchParams.delete("genre"); const wv=$("#when").value==="pick"?$("#when-pick").value:$("#when").value; wv?u.searchParams.set("date",wv):u.searchParams.delete("date");
       history.replaceState(null,"",u);
     }
     $("#q").addEventListener("input",()=>{limit=60;render();});
     $("#venue").addEventListener("change",()=>{limit=60;render();});
+    $("#genre").addEventListener("change",()=>{limit=60;render();});
     $("#area").addEventListener("change",()=>{limit=60;fillVenues();const a=$("#area").value; if(PL_AREAS.includes(a)) { showPlaylist(a); setPlParam(""); } else if(plTab&&!a) showPlaylist(""); render();});
     $("#when").addEventListener("change",()=>{limit=60; $("#when-pick").hidden=$("#when").value!=="pick"; if($("#when").value==="pick"){ $("#when-pick").focus(); try{$("#when-pick").showPicker()}catch(e){} } render();});
     $("#when-pick").addEventListener("change",()=>{limit=60;render();});
-    $("#clear").addEventListener("click",()=>{$("#q").value="";$("#area").value="";setWhen("");fillVenues();$("#venue").value="";limit=60;render();$("#q").focus();});
+    $("#clear").addEventListener("click",()=>{$("#q").value="";$("#area").value="";$("#genre").value="";setWhen("");fillVenues();$("#venue").value="";limit=60;render();$("#q").focus();});
     $("#more").addEventListener("click",()=>{limit+=60;render();});
     SC.previews(document.getElementById("lineup"));
     render();
