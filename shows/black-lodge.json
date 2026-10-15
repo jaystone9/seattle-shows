@@ -162,11 +162,11 @@
  {
   "venue": "Black Lodge",
   "room": null,
-  "title": "carter c (with Planet Shelby)",
+  "title": "carter c (with liz luevand, Planet Shelby)",
   "date": "2026-11-10",
   "doors": null,
   "start": "19:00",
-  "url": "https://www.songkick.com/concerts/43459021-carter-c-at-black-lodge",
+  "url": "https://dice.fm/event/xe8b63-cicis-revenge-tour-kickoff-10th-nov-the-black-lodge-seattle-tickets",
   "status": null
  },
  {
@@ -192,6 +192,16 @@
  {
   "venue": "Black Lodge",
   "room": null,
+  "title": "Endless Joy (with Coping Method)",
+  "date": "2026-11-19",
+  "doors": "19:00",
+  "start": null,
+  "url": "https://dice.fm/event/8ed2bw-aaa-fest-endless-joy-coping-method-friends-19th-nov-the-black-lodge-seattle-tickets",
+  "status": null
+ },
+ {
+  "venue": "Black Lodge",
+  "room": null,
   "title": "Mother Soki",
   "date": "2026-12-07",
   "doors": null,
@@ -207,6 +217,16 @@
   "doors": null,
   "start": "19:00",
   "url": "https://app.discotech.me/events/38263318-9million-and-graham-hunt-at-the-black-lodge",
+  "status": null
+ },
+ {
+  "venue": "Black Lodge",
+  "room": null,
+  "title": "Tracey Nelson",
+  "date": "2026-12-16",
+  "doors": "19:00",
+  "start": null,
+  "url": "https://dice.fm/event/xe8k7k-tracey-nelson-16th-dec-the-black-lodge-seattle-tickets",
   "status": null
  }
 ]
