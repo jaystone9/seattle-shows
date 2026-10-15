@@ -120,7 +120,7 @@ def venue_key(ev):
 def split_title(title):
     t = title.strip()
     support = []
-    m = re.search(r"\s*\(with ([^)]*)\)", t)
+    m = re.search(r"\s*\(with ((?:[^()]|\([^()]*\))*)\)", t)  # allows one nested "(trio)"
     if m:
         support = [s.strip() for s in re.split(r",\s*|\s+&\s+more$", m.group(1)) if s.strip() and s.strip() not in ("& more", "Special Guests")]
         t = (t[:m.start()] + t[m.end():]).strip()
