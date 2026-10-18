@@ -2,46 +2,6 @@
   {
     "venue": "Climate Pledge Arena",
     "room": null,
-    "title": "Rush",
-    "date": "2026-10-12",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://climatepledgearena.com/event/rush-26/",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
-    "title": "Young Miko",
-    "date": "2026-10-13",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://climatepledgearena.com/event/young-miko-26/",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
-    "title": "Doja Cat",
-    "date": "2026-10-15",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://climatepledgearena.com/event/doja-cat-26/",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
-    "title": "Maná",
-    "date": "2026-10-17",
-    "doors": null,
-    "start": "20:30",
-    "url": "https://climatepledgearena.com/event/mana-26/",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
     "title": "Phoebe Bridgers (with Alex G)",
     "date": "2026-10-23",
     "doors": null,
@@ -137,6 +97,26 @@
     "doors": null,
     "start": "20:00",
     "url": "https://songkick.com/concerts/43385477-ms-lauryn-hill-at-climate-pledge-arena",
+    "status": null
+  },
+  {
+    "venue": "Climate Pledge Arena",
+    "room": null,
+    "title": "Garth Brooks",
+    "date": "2026-11-13",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://songkick.com/concerts/43465892-garth-brooks-at-climate-pledge-arena",
+    "status": null
+  },
+  {
+    "venue": "Climate Pledge Arena",
+    "room": null,
+    "title": "Garth Brooks",
+    "date": "2026-11-14",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://songkick.com/concerts/43465872-garth-brooks-at-climate-pledge-arena",
     "status": null
   },
   {

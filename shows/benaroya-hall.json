@@ -1,16 +1,6 @@
 [
   {
     "venue": "Benaroya Hall",
-    "room": "Taper Auditorium",
-    "title": "Seattle Symphony: The 8-Bit Big Band",
-    "date": "2026-10-16",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://concertfix.com/tickets/8065383",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
     "room": null,
     "title": "The Head and the Heart with Seattle Symphony",
     "date": "2026-10-18",
@@ -525,7 +515,7 @@
     "title": "Guster",
     "date": "2027-04-02",
     "doors": null,
-    "start": null,
+    "start": "20:00",
     "url": "https://songkick.com/concerts/43440281-guster-at-benaroya-hall",
     "status": null
   },
@@ -547,6 +537,36 @@
     "doors": null,
     "start": "20:00",
     "url": "https://concertfix.com/tickets/7910543",
+    "status": null
+  },
+  {
+    "venue": "Benaroya Hall",
+    "room": "Taper Auditorium",
+    "title": "Seattle Symphony: Beethoven's Pastoral and Gil Shaham",
+    "date": "2027-04-15",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://bachtrack.com/concert-event/beethovens-pastoral-and-gil-shaham-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-15-april-2027/436546",
+    "status": null
+  },
+  {
+    "venue": "Benaroya Hall",
+    "room": "Taper Auditorium",
+    "title": "Seattle Symphony: Beethoven's Pastoral and Gil Shaham",
+    "date": "2027-04-17",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://bachtrack.com/concert-event/beethovens-pastoral-and-gil-shaham-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-15-april-2027/436546",
+    "status": null
+  },
+  {
+    "venue": "Benaroya Hall",
+    "room": "Taper Auditorium",
+    "title": "Seattle Symphony: Beethoven's Pastoral and Gil Shaham",
+    "date": "2027-04-18",
+    "doors": null,
+    "start": "14:00",
+    "url": "https://bachtrack.com/concert-event/beethovens-pastoral-and-gil-shaham-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-15-april-2027/436546",
     "status": null
   }
 ]
