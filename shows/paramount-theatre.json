@@ -2,46 +2,6 @@
  {
   "venue": "The Paramount Theatre",
   "room": null,
-  "title": "Cameron Whitcomb",
-  "date": "2026-10-14",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/cameron-whitcomb/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Malcolm Todd (with 54 Ultra)",
-  "date": "2026-10-15",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/malcolm-todd/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Malcolm Todd (with 54 Ultra)",
-  "date": "2026-10-16",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/malcolm-todd/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "DJ Shadow (with DJ D Sharp, King NTG)",
-  "date": "2026-10-17",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/dj-shadow-celebrates-30-years-of-endtroducing/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
   "title": "Shaboozey",
   "date": "2026-10-18",
   "doors": "19:00",
@@ -54,8 +14,8 @@
   "room": null,
   "title": "Sara Bareilles (with Celisse)",
   "date": "2026-10-19",
-  "doors": "19:00",
-  "start": "20:00",
+  "doors": "18:45",
+  "start": "19:45",
   "url": "https://www.stgpresents.org/events/sara-bareilles/",
   "status": null
  },
@@ -64,8 +24,8 @@
   "room": null,
   "title": "Sara Bareilles (with Celisse)",
   "date": "2026-10-20",
-  "doors": "19:00",
-  "start": "20:00",
+  "doors": "18:45",
+  "start": "19:45",
   "url": "https://www.stgpresents.org/events/sara-bareilles/",
   "status": null
  },

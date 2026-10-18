@@ -2,26 +2,6 @@
  {
   "venue": "The Neptune Theatre",
   "room": null,
-  "title": "Hazlett",
-  "date": "2026-10-15",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/hazlett/",
-  "status": "postponed"
- },
- {
-  "venue": "The Neptune Theatre",
-  "room": null,
-  "title": "almost monday (with Sun Room)",
-  "date": "2026-10-16",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/almost-monday/",
-  "status": null
- },
- {
-  "venue": "The Neptune Theatre",
-  "room": null,
   "title": "Digable Planets (with Supreme La Rock)",
   "date": "2026-10-20",
   "doors": "19:00",
@@ -322,7 +302,7 @@
  {
   "venue": "The Neptune Theatre",
   "room": null,
-  "title": "Fruition",
+  "title": "Fruition (with Rainbow Girls)",
   "date": "2027-01-29",
   "doors": "19:00",
   "start": "20:00",

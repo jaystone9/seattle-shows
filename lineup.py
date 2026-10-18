@@ -28,7 +28,10 @@ def clean(name):
     n = re.sub(r"\s+[-–]\s+(early show|late show|matinee)$", "", n, flags=re.I)
     n = re.sub(r"\s+on tour$", "", n, flags=re.I)
     n = re.sub(r"\s+[-–]\s+.*(release|tour|anniversary|night \d).*$", "", n, flags=re.I)
-    n = n.split(": ")[0]
+    # "Tractor Presents: X", "STG Presents: An Evening with X" → X; otherwise text before ":" is the act
+    m = re.match(r"^.*\bpresents?:\s*(?:an evening with\s+)?(.+)$", n, flags=re.I)
+    n = m.group(1) if m else n.split(": ")[0]
+    n = re.sub(r"\s*\((argentina|mexico|uk|japan|brazil|chile|colombia|france|germany)\)$", "", n, flags=re.I)
     n = re.sub(r"\s+(ft\.|feat\.|featuring)\s.*$", "", n, flags=re.I)
     return n.strip()
 

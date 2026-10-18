@@ -1,5 +1,85 @@
 [
-  {"name": "2 Week Soundcheck · Frelard: Oct 12–25", "id": "2enDmrwhfOHw0CLm42QGqr", "url": "https://open.spotify.com/playlist/2enDmrwhfOHw0CLm42QGqr", "start": "2026-10-12", "end": "2026-10-25", "songs": 326, "artists": 113, "per_artist": 3, "area": "Frelard"},
-  {"name": "Seattle Shows: Oct 12–25", "id": "4CI2hM3UfoHXsuTNBFJDOU", "url": "https://open.spotify.com/playlist/4CI2hM3UfoHXsuTNBFJDOU", "start": "2026-10-12", "end": "2026-10-25", "songs": 420, "artists": 85, "per_artist": 5},
-  {"name": "Seattle Shows: Oct 8–21", "id": "3tuOnvSncTRNn5biZNwvkZ", "url": "https://open.spotify.com/playlist/3tuOnvSncTRNn5biZNwvkZ", "start": "2026-10-08", "end": "2026-10-21", "songs": 426, "artists": 87, "per_artist": 5}
+  {
+    "name": "2 Week Soundcheck · Frelard: Oct 18–31",
+    "id": "3DKQxcc3fY9UiWTG32As0p",
+    "url": "https://open.spotify.com/playlist/3DKQxcc3fY9UiWTG32As0p",
+    "start": "2026-10-18",
+    "end": "2026-10-31",
+    "songs": 356,
+    "artists": 122,
+    "per_artist": 3,
+    "area": "Frelard",
+    "skipped": [
+      "Austin R",
+      "Bitch Fits",
+      "ESCH",
+      "False Hemlock",
+      "Hamwich b2b def0",
+      "Hünter",
+      "La Mala Noche",
+      "Leo Craft",
+      "Lili Alessa",
+      "Lily G",
+      "Mason Marcus Turner",
+      "Meat Hair",
+      "Morfex b2b SYMTEKZ",
+      "No Slip",
+      "Pyramid Scream",
+      "Secterror",
+      "Swavy",
+      "The High Seagrass",
+      "Tom Hamilton Band",
+      "Truble b2b 4*",
+      "Velvet Armada",
+      "VoW"
+    ]
+  },
+  {
+    "name": "2 Week Soundcheck · Seattle: Oct 18–31",
+    "id": "5sr2j60yVlEe0lUCWMj483",
+    "url": "https://open.spotify.com/playlist/5sr2j60yVlEe0lUCWMj483",
+    "start": "2026-10-18",
+    "end": "2026-10-31",
+    "songs": 413,
+    "artists": 139,
+    "per_artist": 3,
+    "skipped": [
+      "Beauty Sleep",
+      "Liquid Cross",
+      "Mason Marcus Turner",
+      "No Slip",
+      "Tom Hamilton Band"
+    ]
+  },
+  {
+    "name": "2 Week Soundcheck · Frelard: Oct 12–25",
+    "id": "2enDmrwhfOHw0CLm42QGqr",
+    "url": "https://open.spotify.com/playlist/2enDmrwhfOHw0CLm42QGqr",
+    "start": "2026-10-12",
+    "end": "2026-10-25",
+    "songs": 326,
+    "artists": 113,
+    "per_artist": 3,
+    "area": "Frelard"
+  },
+  {
+    "name": "Seattle Shows: Oct 12–25",
+    "id": "4CI2hM3UfoHXsuTNBFJDOU",
+    "url": "https://open.spotify.com/playlist/4CI2hM3UfoHXsuTNBFJDOU",
+    "start": "2026-10-12",
+    "end": "2026-10-25",
+    "songs": 420,
+    "artists": 85,
+    "per_artist": 5
+  },
+  {
+    "name": "Seattle Shows: Oct 8–21",
+    "id": "3tuOnvSncTRNn5biZNwvkZ",
+    "url": "https://open.spotify.com/playlist/3tuOnvSncTRNn5biZNwvkZ",
+    "start": "2026-10-08",
+    "end": "2026-10-21",
+    "songs": 426,
+    "artists": 87,
+    "per_artist": 5
+  }
 ]
