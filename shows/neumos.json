@@ -1,106 +1,6 @@
 [
   {
     "venue": "Neumos",
-    "room": null,
-    "title": "Kelsey Lu",
-    "date": "2026-10-12",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.axs.com/events/1480606",
-    "status": "cancelled"
-  },
-  {
-    "venue": "Neumos",
-    "room": "Barboza",
-    "title": "Edgehill",
-    "date": "2026-10-12",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.axs.com/events/1445941",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
-    "room": null,
-    "title": "Hayden Everett (with Kate Stephenson, Mike Frazier)",
-    "date": "2026-10-13",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.axs.com/events/1567527",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
-    "room": "Barboza",
-    "title": "Pertinence",
-    "date": "2026-10-13",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.axs.com/events/1286457",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
-    "room": null,
-    "title": "Hovvdy",
-    "date": "2026-10-14",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.axs.com/events/1445278",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
-    "room": "Barboza",
-    "title": "Jenna Raine",
-    "date": "2026-10-14",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.axs.com/events/1468570",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
-    "room": "Barboza",
-    "title": "North Beach Gritty",
-    "date": "2026-10-15",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://www.axs.com/events/1605536",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
-    "room": "Barboza",
-    "title": "Bebe Stockwell",
-    "date": "2026-10-16",
-    "doors": "18:30",
-    "start": null,
-    "url": "https://www.axs.com/events/1450881",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
-    "room": null,
-    "title": "gnash",
-    "date": "2026-10-17",
-    "doors": "18:00",
-    "start": null,
-    "url": "https://www.axs.com/events/1342106",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
-    "room": "Barboza",
-    "title": "Imperial Teen",
-    "date": "2026-10-17",
-    "doors": "18:30",
-    "start": null,
-    "url": "https://www.axs.com/events/1524026",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
     "room": "Barboza",
     "title": "Justin Nozuka",
     "date": "2026-10-18",
@@ -181,16 +81,6 @@
   },
   {
     "venue": "Neumos",
-    "room": null,
-    "title": "Akeem Ali",
-    "date": "2026-10-23",
-    "doors": "20:00",
-    "start": null,
-    "url": "https://www.axs.com/events/1391327",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
     "room": "Barboza",
     "title": "Theo Katzman",
     "date": "2026-10-23",
@@ -202,11 +92,11 @@
   {
     "venue": "Neumos",
     "room": null,
-    "title": "Freak Slug",
-    "date": "2026-10-24",
+    "title": "Akeem Ali",
+    "date": "2026-10-23",
     "doors": "20:00",
     "start": null,
-    "url": "https://www.axs.com/events/1511898",
+    "url": "https://www.axs.com/events/1391327",
     "status": null
   },
   {
@@ -222,11 +112,11 @@
   {
     "venue": "Neumos",
     "room": null,
-    "title": "Knox",
-    "date": "2026-10-25",
-    "doors": "19:00",
+    "title": "Freak Slug",
+    "date": "2026-10-24",
+    "doors": "20:00",
     "start": null,
-    "url": "https://www.axs.com/events/1519517",
+    "url": "https://www.axs.com/events/1511898",
     "status": null
   },
   {
@@ -242,11 +132,11 @@
   {
     "venue": "Neumos",
     "room": null,
-    "title": "bleood",
-    "date": "2026-10-26",
+    "title": "Knox",
+    "date": "2026-10-25",
     "doors": "19:00",
     "start": null,
-    "url": "https://www.axs.com/events/1579183",
+    "url": "https://www.axs.com/events/1519517",
     "status": null
   },
   {
@@ -262,11 +152,11 @@
   {
     "venue": "Neumos",
     "room": null,
-    "title": "Protomartyr (with Accessory)",
-    "date": "2026-10-27",
+    "title": "bleood",
+    "date": "2026-10-26",
     "doors": "19:00",
     "start": null,
-    "url": "https://www.axs.com/events/1512333",
+    "url": "https://www.axs.com/events/1579183",
     "status": null
   },
   {
@@ -282,11 +172,11 @@
   {
     "venue": "Neumos",
     "room": null,
-    "title": "Mothica",
-    "date": "2026-10-28",
-    "doors": "19:30",
+    "title": "Protomartyr (with Accessory)",
+    "date": "2026-10-27",
+    "doors": "19:00",
     "start": null,
-    "url": "https://www.axs.com/events/1521586",
+    "url": "https://www.axs.com/events/1512333",
     "status": null
   },
   {
@@ -302,11 +192,11 @@
   {
     "venue": "Neumos",
     "room": null,
-    "title": "The Wldlfe",
-    "date": "2026-10-29",
-    "doors": "19:00",
+    "title": "Mothica",
+    "date": "2026-10-28",
+    "doors": "19:30",
     "start": null,
-    "url": "https://www.axs.com/events/1496255",
+    "url": "https://www.axs.com/events/1521586",
     "status": null
   },
   {
@@ -317,6 +207,16 @@
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43249211-kyle-gordon-at-barboza",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "The Wldlfe",
+    "date": "2026-10-29",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1496255",
     "status": null
   },
   {
@@ -391,16 +291,6 @@
   },
   {
     "venue": "Neumos",
-    "room": null,
-    "title": "Heavens to Betsy",
-    "date": "2026-11-05",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/5/heavens-to-betsy-tickets",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
     "room": "Barboza",
     "title": "Cardinal Bloom",
     "date": "2026-11-05",
@@ -412,11 +302,11 @@
   {
     "venue": "Neumos",
     "room": null,
-    "title": "IMiJ",
-    "date": "2026-11-06",
-    "doors": "17:00",
+    "title": "Heavens to Betsy",
+    "date": "2026-11-05",
+    "doors": "19:00",
     "start": null,
-    "url": "https://do206.com/events/2026/11/6/imij-tickets",
+    "url": "https://do206.com/events/2026/11/5/heavens-to-betsy-tickets",
     "status": null
   },
   {
@@ -432,11 +322,11 @@
   {
     "venue": "Neumos",
     "room": null,
-    "title": "Avery Cochrane",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.songkick.com/concerts/43366163-avery-cochrane-at-neumos",
+    "title": "IMiJ",
+    "date": "2026-11-06",
+    "doors": "17:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/6/imij-tickets",
     "status": null
   },
   {
@@ -452,11 +342,11 @@
   {
     "venue": "Neumos",
     "room": null,
-    "title": "Genesis Owusu",
-    "date": "2026-11-08",
+    "title": "Avery Cochrane",
+    "date": "2026-11-07",
     "doors": null,
     "start": "20:00",
-    "url": "https://www.songkick.com/concerts/43236224-genesis-owusu-at-neumos",
+    "url": "https://www.songkick.com/concerts/43366163-avery-cochrane-at-neumos",
     "status": null
   },
   {
@@ -471,12 +361,32 @@
   },
   {
     "venue": "Neumos",
+    "room": null,
+    "title": "Genesis Owusu",
+    "date": "2026-11-08",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.songkick.com/concerts/43236224-genesis-owusu-at-neumos",
+    "status": "sold out"
+  },
+  {
+    "venue": "Neumos",
     "room": "Barboza",
     "title": "AZ Chike",
     "date": "2026-11-09",
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43386175-az-chike-at-barboza",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "The Hails",
+    "date": "2026-11-10",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43286995-hails-at-barboza",
     "status": null
   },
   {
@@ -492,11 +402,11 @@
   {
     "venue": "Neumos",
     "room": "Barboza",
-    "title": "The Hails",
-    "date": "2026-11-10",
-    "doors": null,
+    "title": "Makenna DeCaro (with Rainbow Jackson, Josh Lambros)",
+    "date": "2026-11-12",
+    "doors": "19:00",
     "start": null,
-    "url": "https://www.songkick.com/concerts/43286995-hails-at-barboza",
+    "url": "https://do206.com/events/2026/11/12/makenna-decaro-tickets",
     "status": null
   },
   {
@@ -507,16 +417,6 @@
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43169749-hit-the-lights-at-barboza-at-neumos",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
-    "room": null,
-    "title": "Sueco (with Jeris Johnson)",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.songkick.com/concerts/43323494-sueco-at-neumos",
     "status": null
   },
   {
@@ -532,21 +432,21 @@
   {
     "venue": "Neumos",
     "room": null,
-    "title": "headache (with amr*)",
-    "date": "2026-11-15",
+    "title": "Sueco (with Jeris Johnson, Port Johnson)",
+    "date": "2026-11-14",
     "doors": null,
     "start": "19:00",
-    "url": "https://www.songkick.com/concerts/43224452-headache-uk-at-neumos",
+    "url": "https://www.songkick.com/concerts/43323494-sueco-at-neumos",
     "status": null
   },
   {
     "venue": "Neumos",
     "room": null,
-    "title": "Olivia O'Brien",
-    "date": "2026-11-16",
+    "title": "headache (with amr*)",
+    "date": "2026-11-15",
     "doors": null,
-    "start": "20:00",
-    "url": "https://www.songkick.com/concerts/43238495-olivia-obrien-at-neumos",
+    "start": "19:00",
+    "url": "https://www.songkick.com/concerts/43224452-headache-uk-at-neumos",
     "status": null
   },
   {
@@ -562,6 +462,16 @@
   {
     "venue": "Neumos",
     "room": null,
+    "title": "Olivia O'Brien",
+    "date": "2026-11-16",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.songkick.com/concerts/43238495-olivia-obrien-at-neumos",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
     "title": "Maddie Zahm",
     "date": "2026-11-17",
     "doors": null,
@@ -571,12 +481,12 @@
   },
   {
     "venue": "Neumos",
-    "room": null,
-    "title": "Clarion (with Novulent)",
-    "date": "2026-11-18",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.songkick.com/concerts/43323496-clarion-at-neumos",
+    "room": "Barboza",
+    "title": "Valé",
+    "date": "2026-11-17",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/17/vale-tickets",
     "status": null
   },
   {
@@ -587,6 +497,16 @@
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43210696-jervis-campbell-at-barboza-at-neumos",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Clarion (with Novulent)",
+    "date": "2026-11-18",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.songkick.com/concerts/43323496-clarion-at-neumos",
     "status": null
   },
   {
@@ -607,6 +527,16 @@
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43410703-julien-baker-at-neumos",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "1 Umbrella",
+    "date": "2026-11-21",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/21/1-umbrella-tickets",
     "status": null
   },
   {
@@ -642,21 +572,21 @@
   {
     "venue": "Neumos",
     "room": "Barboza",
+    "title": "Sap (with Sludge Mother)",
+    "date": "2026-11-25",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/25/sap-tickets",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
     "title": "The Kilans",
     "date": "2026-11-29",
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43368488-kilans-at-barboza",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
-    "room": null,
-    "title": "feeble little horse",
-    "date": "2026-12-03",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.songkick.com/concerts/43218726-feeble-little-horse-at-neumos",
     "status": null
   },
   {
@@ -672,21 +602,21 @@
   {
     "venue": "Neumos",
     "room": null,
-    "title": "Frost Children (with kuru)",
-    "date": "2026-12-04",
+    "title": "feeble little horse",
+    "date": "2026-12-03",
     "doors": null,
-    "start": "20:00",
-    "url": "https://www.axs.com/events/1556931",
+    "start": "19:00",
+    "url": "https://www.songkick.com/concerts/43218726-feeble-little-horse-at-neumos",
     "status": null
   },
   {
     "venue": "Neumos",
     "room": null,
-    "title": "New Constellations (with Vox Rea)",
-    "date": "2026-12-05",
+    "title": "Frost Children (with kuru)",
+    "date": "2026-12-04",
     "doors": null,
     "start": "20:00",
-    "url": "https://www.songkick.com/concerts/43310961-new-constellations-us-at-neumos",
+    "url": "https://www.axs.com/events/1556931",
     "status": null
   },
   {
@@ -697,6 +627,16 @@
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43374207-wishy-at-barboza",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "New Constellations (with Vox Rea)",
+    "date": "2026-12-05",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.songkick.com/concerts/43310961-new-constellations-us-at-neumos",
     "status": null
   },
   {
@@ -731,22 +671,22 @@
   },
   {
     "venue": "Neumos",
-    "room": null,
-    "title": "Ripe",
-    "date": "2026-12-08",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.songkick.com/concerts/43385969-ripe-at-neumos",
-    "status": null
-  },
-  {
-    "venue": "Neumos",
     "room": "Barboza",
     "title": "Jeremiah Chiu",
     "date": "2026-12-08",
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43418181-jeremiah-chiu-at-barboza",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Ripe",
+    "date": "2026-12-08",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.songkick.com/concerts/43385969-ripe-at-neumos",
     "status": null
   },
   {
@@ -772,11 +712,11 @@
   {
     "venue": "Neumos",
     "room": null,
-    "title": "Pedro the Lion",
-    "date": "2026-12-12",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.songkick.com/concerts/43224645-pedro-the-lion-at-neumos",
+    "title": "Casi x Love So Deep (with Visitor Coach)",
+    "date": "2026-12-11",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/12/11/casi-x-love-so-deep-tickets",
     "status": null
   },
   {
@@ -787,6 +727,16 @@
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43325740-ruby-haunt-at-barboza",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Pedro the Lion",
+    "date": "2026-12-12",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.songkick.com/concerts/43224645-pedro-the-lion-at-neumos",
     "status": null
   },
   {
@@ -842,11 +792,61 @@
   {
     "venue": "Neumos",
     "room": "Barboza",
+    "title": "Girl Parallel (with Tanisha, Clover, Deka)",
+    "date": "2027-01-16",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://do206.com/events/2027/1/16/girl-parallel-tickets",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "44phantom",
+    "date": "2027-01-19",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2027/1/19/44phantom-tickets",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Morgan Paris Lanza (with Charles Zaid, Envi Jordan)",
+    "date": "2027-01-21",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2027/1/21/morgan-paris-lanza-tickets",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
     "title": "Pratt & Moody",
     "date": "2027-02-02",
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43450633-pratt-and-moody-at-barboza",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Rare Americans (with Naethan Apollo)",
+    "date": "2027-02-04",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2027/2/4/rare-americans-tickets",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Winona Fighter",
+    "date": "2027-02-06",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2027/2/6/winona-fighter-tickets",
     "status": null
   },
   {
