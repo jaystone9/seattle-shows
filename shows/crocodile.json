@@ -2,36 +2,6 @@
   {
     "venue": "The Crocodile",
     "room": null,
-    "title": "City of the Sun",
-    "date": "2026-10-15",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://calendar.thecrocodile.com/shows/city-of-the-sun-15-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Sawyer Hill - Everybody's Home, Nobody's Happy World Tour",
-    "date": "2026-10-16",
-    "doors": "17:00",
-    "start": "18:00",
-    "url": "https://calendar.thecrocodile.com/shows/sawyer-hill-everybody-s-home-nobody-s-happy-world-tour-16-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": "Hotel Crocodile",
-    "title": "Bao Bella: A Moment for Lust - Please Me Single Release (with x.1aoy3)",
-    "date": "2026-10-16",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://calendar.thecrocodile.com/shows/bao-bella-a-moment-for-lust-please-me-single-release-16-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
     "title": "Cheekface (with Waitress)",
     "date": "2026-10-18",
     "doors": "18:00",
@@ -322,6 +292,26 @@
   {
     "venue": "The Crocodile",
     "room": null,
+    "title": "Dillon Francis",
+    "date": "2026-12-30",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://calendar.thecrocodile.com/shows/dillon-francis-30-dec",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Whitey Morgan and the 78's",
+    "date": "2027-02-04",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/whitye-morgan-and-the-78s-04-feb",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
     "title": "Book of Love",
     "date": "2027-02-20",
     "doors": "17:00",
@@ -367,6 +357,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://calendar.thecrocodile.com/shows/rayland-baxter-the-true-violet-tour-08-mar",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Saxsquatch - The Conspiracy Theory Tour",
+    "date": "2027-03-25",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/saxsquatch-the-conspiracy-theory-tour-25-mar",
     "status": null
   },
   {

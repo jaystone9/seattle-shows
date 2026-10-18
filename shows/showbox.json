@@ -1,106 +1,6 @@
 [
   {
     "venue": "The Showbox",
-    "room": "Showbox at the Market",
-    "title": "Boy Harsher (with True Blue, Kassie Krut)",
-    "date": "2026-10-12",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.showboxpresents.com/events/detail/1477494",
-    "status": null
-  },
-  {
-    "venue": "The Showbox",
-    "room": "Showbox SoDo",
-    "title": "Sex Pistols featuring Frank Carter (with Starcrawler)",
-    "date": "2026-10-12",
-    "doors": null,
-    "start": "20:30",
-    "url": "https://www.showboxpresents.com/events/detail/909826",
-    "status": null
-  },
-  {
-    "venue": "The Showbox",
-    "room": "Showbox SoDo",
-    "title": "Mon Rovîa (with Sydney Rose, Sarah Julia)",
-    "date": "2026-10-13",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.showboxpresents.com/events/detail/1435107",
-    "status": null
-  },
-  {
-    "venue": "The Showbox",
-    "room": "Showbox SoDo",
-    "title": "Ashley Cooke (with Aniston Pate)",
-    "date": "2026-10-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.showboxpresents.com/events/detail/1440714",
-    "status": null
-  },
-  {
-    "venue": "The Showbox",
-    "room": "Showbox at the Market",
-    "title": "She Wants Revenge (with Rosegarden Funeral Party)",
-    "date": "2026-10-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.showboxpresents.com/events/detail/1439336",
-    "status": null
-  },
-  {
-    "venue": "The Showbox",
-    "room": "Showbox SoDo",
-    "title": "PALACE (with Rollo Doherty)",
-    "date": "2026-10-15",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.showboxpresents.com/events/detail/1414741",
-    "status": null
-  },
-  {
-    "venue": "The Showbox",
-    "room": "Showbox SoDo",
-    "title": "Pattie Gonia (with Sequoia, VERA)",
-    "date": "2026-10-16",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.showboxpresents.com/events/detail/1250264",
-    "status": null
-  },
-  {
-    "venue": "The Showbox",
-    "room": "Showbox at the Market",
-    "title": "Know Good (with Blookah, Jeanlouis)",
-    "date": "2026-10-16",
-    "doors": null,
-    "start": "23:00",
-    "url": "https://www.showboxpresents.com/events/detail/1495183",
-    "status": null
-  },
-  {
-    "venue": "The Showbox",
-    "room": "Showbox at the Market",
-    "title": "AHEE (with Mport b2b Xotix)",
-    "date": "2026-10-17",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://www.showboxpresents.com/events/detail/1562026",
-    "status": null
-  },
-  {
-    "venue": "The Showbox",
-    "room": "Showbox SoDo",
-    "title": "Tinlicker (with Helsloot)",
-    "date": "2026-10-17",
-    "doors": null,
-    "start": "21:30",
-    "url": "https://www.showboxpresents.com/events/detail/1414733",
-    "status": null
-  },
-  {
-    "venue": "The Showbox",
     "room": "Showbox SoDo",
     "title": "Mom Jeans (with Harrison Gordon, Sobs)",
     "date": "2026-10-18",
@@ -807,6 +707,16 @@
     "doors": null,
     "start": "18:30",
     "url": "https://www.showboxpresents.com/events/detail/1536062",
+    "status": null
+  },
+  {
+    "venue": "The Showbox",
+    "room": "Showbox SoDo",
+    "title": "ZULAN",
+    "date": "2026-12-19",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.showboxpresents.com/events/detail/1633773",
     "status": null
   },
   {
