@@ -1,232 +1,202 @@
 [
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Michael Beach (with Melanie Radford)",
-  "date": "2026-10-14",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://app.discotech.me/events/38282178-michael-beach-and-melanie-radford-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Big Kids (with Fell Off, Male//Gaze)",
-  "date": "2026-10-15",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://app.discotech.me/events/38287863-big-kids-fell-off-malegaze-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Confluence (with Depiction of Man, No Leaders, Please!, Foxglove)",
-  "date": "2026-10-16",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://app.discotech.me/events/38280372-confluence-depiction-of-man-foxglove-more-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Black Whales (with Radio School, Bloqueador Solar)",
-  "date": "2026-10-17",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://app.discotech.me/events/38275745-black-whales-radio-school-bloqueador-solar-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Catzap! (with The Fabulous Downey Brothers, Triple Lutz, Trash Sound Conglomerate)",
-  "date": "2026-10-17",
-  "doors": null,
-  "start": "16:30",
-  "url": "https://app.discotech.me/events/38290814-catzap-the-fabulous-downey-brothers-more-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Cherub Chains (with Reflex, veinslightscripture, Infight, Actualize, Trajectory)",
-  "date": "2026-10-18",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://app.discotech.me/events/38293832-cherub-chains-actualize-infight-more-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Diles que no me maten (with Reverse Death)",
-  "date": "2026-10-22",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://dice.fm/event/3o68dx-diles-que-no-me-maten-22nd-oct-the-black-lodge-seattle-tickets",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Imaad Wasif (with OC-EN, St. Yuma)",
-  "date": "2026-10-23",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://app.discotech.me/events/38273588-imaad-wasif-oc-en-st-yuma-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Liquid Cross (with Fine, Prim)",
-  "date": "2026-10-25",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://app.discotech.me/events/38279638-liquid-cross-fine-prim-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "smush",
-  "date": "2026-10-29",
-  "doors": null,
-  "start": null,
-  "url": "https://www.bandsintown.com/e/1040177444-smush-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Magma Fest: Echo Ravine (with Trash Panda Go Kart, Very Magical, Hate Knife, Skunk Ape, Pyrocene)",
-  "date": "2026-10-31",
-  "doors": null,
-  "start": "18:00",
-  "url": "https://app.discotech.me/events/38284738-magma-fest-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Dylan Thom",
-  "date": "2026-11-03",
-  "doors": null,
-  "start": null,
-  "url": "https://www.bandsintown.com/e/1040459296-dylan-thom-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Sex Mex",
-  "date": "2026-11-06",
-  "doors": null,
-  "start": null,
-  "url": "https://www.songkick.com/concerts/43340715-sex-mex-at-black-lodge",
-  "status": "cancelled"
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Marci",
-  "date": "2026-11-07",
-  "doors": null,
-  "start": null,
-  "url": "https://www.bandsintown.com/e/1039886921-marci-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "The Booyah! Kids",
-  "date": "2026-11-07",
-  "doors": null,
-  "start": null,
-  "url": "https://www.bandsintown.com/e/1040311654-the-booyah!-kids-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Habak (with Generation Decline, MASSGRIEF, Nerve Rot)",
-  "date": "2026-11-08",
-  "doors": null,
-  "start": null,
-  "url": "https://www.bandsintown.com/e/1040443691-habak-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "carter c (with liz luevand, Planet Shelby)",
-  "date": "2026-11-10",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://dice.fm/event/xe8b63-cicis-revenge-tour-kickoff-10th-nov-the-black-lodge-seattle-tickets",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Super Cassette",
-  "date": "2026-11-11",
-  "doors": null,
-  "start": null,
-  "url": "https://www.bandsintown.com/e/1040220529-super-cassette-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Sutekh Hexen (with Sin Pavilion, Recursive Transform Array, Coping Method, Kole Galbraith)",
-  "date": "2026-11-15",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/11/15/sutekh-hexen-sin-pavilion-more-tickets",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Endless Joy (with Coping Method)",
-  "date": "2026-11-19",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://dice.fm/event/8ed2bw-aaa-fest-endless-joy-coping-method-friends-19th-nov-the-black-lodge-seattle-tickets",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Mother Soki",
-  "date": "2026-12-07",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://www.songkick.com/concerts/43446978-mother-soki-at-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "9Million (with Graham Hunt)",
-  "date": "2026-12-15",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://app.discotech.me/events/38263318-9million-and-graham-hunt-at-the-black-lodge",
-  "status": null
- },
- {
-  "venue": "Black Lodge",
-  "room": null,
-  "title": "Tracey Nelson",
-  "date": "2026-12-16",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://dice.fm/event/xe8k7k-tracey-nelson-16th-dec-the-black-lodge-seattle-tickets",
-  "status": null
- }
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Cherub Chains (with Reflex, veinslightscripture, Infight, Actualize, Trajectory)",
+    "date": "2026-10-18",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://app.discotech.me/events/38293832-cherub-chains-actualize-infight-more-at-the-black-lodge",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Diles que no me maten (with Reverse Death)",
+    "date": "2026-10-22",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://dice.fm/event/3o68dx-diles-que-no-me-maten-22nd-oct-the-black-lodge-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Imaad Wasif (with OC-EN, St. Yuma)",
+    "date": "2026-10-23",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://app.discotech.me/events/38273588-imaad-wasif-oc-en-st-yuma-at-the-black-lodge",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Liquid Cross (with Fine, Diirt)",
+    "date": "2026-10-25",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://app.discotech.me/events/38279638-liquid-cross-fine-prim-at-the-black-lodge",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "smush",
+    "date": "2026-10-29",
+    "doors": null,
+    "start": null,
+    "url": "https://www.bandsintown.com/e/1040177444-smush-at-the-black-lodge",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Magma Fest: Echo Ravine (with Trash Panda Go Kart, Very Magical, Hate Knife, Skunk Ape, Pyrocene)",
+    "date": "2026-10-31",
+    "doors": null,
+    "start": "18:00",
+    "url": "https://app.discotech.me/events/38284738-magma-fest-at-the-black-lodge",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Dylan Thom",
+    "date": "2026-11-03",
+    "doors": null,
+    "start": null,
+    "url": "https://www.bandsintown.com/e/1040459296-dylan-thom-at-the-black-lodge",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Sex Mex",
+    "date": "2026-11-06",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43340715-sex-mex-at-black-lodge",
+    "status": "cancelled"
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Marci",
+    "date": "2026-11-07",
+    "doors": null,
+    "start": null,
+    "url": "https://www.bandsintown.com/e/1039886921-marci-at-the-black-lodge",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "The Booyah! Kids",
+    "date": "2026-11-07",
+    "doors": null,
+    "start": null,
+    "url": "https://www.bandsintown.com/e/1040311654-the-booyah!-kids-at-the-black-lodge",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Habak (with Generation Decline, MASSGRIEF, Nerve Rot)",
+    "date": "2026-11-08",
+    "doors": null,
+    "start": null,
+    "url": "https://www.bandsintown.com/e/1040443691-habak-at-the-black-lodge",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "carter c (with liz luevand, Planet Shelby)",
+    "date": "2026-11-10",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://dice.fm/event/xe8b63-cicis-revenge-tour-kickoff-10th-nov-the-black-lodge-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Super Cassette",
+    "date": "2026-11-11",
+    "doors": null,
+    "start": null,
+    "url": "https://www.bandsintown.com/e/1040220529-super-cassette-at-the-black-lodge",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Sutekh Hexen (with Sin Pavilion, Recursive Transform Array, Coping Method, Kole Galbraith)",
+    "date": "2026-11-15",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/15/sutekh-hexen-sin-pavilion-more-tickets",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Endless Joy (with Coping Method)",
+    "date": "2026-11-19",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://dice.fm/event/8ed2bw-aaa-fest-endless-joy-coping-method-friends-19th-nov-the-black-lodge-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Mother Soki",
+    "date": "2026-12-07",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.songkick.com/concerts/43446978-mother-soki-at-black-lodge",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "End of Dayz (with Cherub Chains, Adipocere, Cujo, Ditch, Coping Method)",
+    "date": "2026-12-11",
+    "doors": null,
+    "start": "18:00",
+    "url": "https://dice.fm/event/bbqnxg-end-of-dayz-cherub-chains-adipocere-more-11th-dec-the-black-lodge-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Robber Robber",
+    "date": "2026-12-13",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://dice.fm/event/3o8e5g-robber-robber-13th-dec-the-black-lodge-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "9Million (with Graham Hunt)",
+    "date": "2026-12-15",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://app.discotech.me/events/38263318-9million-and-graham-hunt-at-the-black-lodge",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Tracey Nelson",
+    "date": "2026-12-16",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://dice.fm/event/xe8k7k-tracey-nelson-16th-dec-the-black-lodge-seattle-tickets",
+    "status": null
+  }
 ]

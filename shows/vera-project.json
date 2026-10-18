@@ -1,262 +1,232 @@
 [
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Amélie Farren (with Lilith Max, Rabbitology)",
-  "date": "2026-10-13",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://do206.com/events/2026/10/13/amelie-farren-lilith-max-rabbitology-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Hana Stretton",
-  "date": "2026-10-14",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/10/14/hana-stretton-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "This Wild Life (with Nate Bergman)",
-  "date": "2026-10-16",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.songkick.com/concerts/43332818-this-wild-life-at-vera-project",
-  "status": "cancelled"
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Tyondai Braxton",
-  "date": "2026-10-20",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/10/20/tyondai-braxton-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Sleevies (with Plash, Anthers, Give Me the Money, Depiction of Man)",
-  "date": "2026-10-23",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://dice.fm/event/g5vww5-sleevies-plash-anthers-more-23rd-oct-the-vera-project-seattle-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Stanley Simmons",
-  "date": "2026-10-25",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/10/25/stanley-simmons-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Weatherday",
-  "date": "2026-10-28",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/10/28/weatherday-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Spy (with Empty Shell Casing, No Guard)",
-  "date": "2026-10-29",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/10/29/spy-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Worst Party Ever x Equipment (with Ogbert the Nerd, Melancholy Club)",
-  "date": "2026-11-04",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/11/4/worst-party-ever-x-equipment-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Shanghai Qiutian (with Dabda)",
-  "date": "2026-11-05",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/11/5/shanghai-qiutian-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Jake Minch",
-  "date": "2026-11-07",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/11/7/jake-minch-getting-big-tour-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Roman Candle (with Postdrome)",
-  "date": "2026-11-08",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://dice.fm/event/nvrb7q-roman-candle-8th-nov-the-vera-project-seattle-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Oso Oso (with Liquid Mike, bugsy)",
-  "date": "2026-11-10",
-  "doors": "18:30",
-  "start": null,
-  "url": "https://do206.com/events/2026/11/10/oso-oso-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Dogs on Shady Lane",
-  "date": "2026-11-11",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/11/11/dogs-on-shady-lane-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Leanna Firestone (with Sydney Sprague)",
-  "date": "2026-11-13",
-  "doors": null,
-  "start": null,
-  "url": "https://www.songkick.com/concerts/43423125-leanna-firestone-at-vera-project",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Kingdom of Giants (with Deadlands, Night Rider)",
-  "date": "2026-11-14",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/11/14/kingdom-of-giants-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Surely Tempo (with Carver Commodore)",
-  "date": "2026-11-17",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/11/17/surely-tempo-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Deerhoof (with Sol, Iron Lung, J.R.C.G.)",
-  "date": "2026-11-20",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://dice.fm/event/q23bgy-aaa-fest-deerhoof-sol-iron-lung-jrcg-20th-nov-the-vera-project-seattle-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "AJJ (with Kimya Dawson, Foot Ox, carter c)",
-  "date": "2026-11-21",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://dice.fm/event/yoqmkp-aaa-fest-ajj-kimya-dawson-foot-ox-carter-c-21st-nov-the-vera-project-seattle-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Babe Haven (with Spaced, Scarlet Demore)",
-  "date": "2026-11-24",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/11/24/babe-haven-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Spanish Love Songs",
-  "date": "2026-11-25",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/11/25/spanish-love-songs-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Apes of the State (with pigeon pit)",
-  "date": "2026-12-04",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/12/4/apes-of-the-state-10-year-anniversary-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Apes of the State (with Sister Wife Sex Strike)",
-  "date": "2026-12-05",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/12/5/apes-of-the-state-10-year-anniversary-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Sunday Cruise (with Dino Gala, Friend)",
-  "date": "2026-12-09",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2026/12/9/sunday-cruise-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Swirlies",
-  "date": "2027-01-13",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2027/1/13/swirlies-tickets",
-  "status": null
- },
- {
-  "venue": "The Vera Project",
-  "room": null,
-  "title": "Madds Buckley (with Sparkbird)",
-  "date": "2027-01-27",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://do206.com/events/2027/1/27/madds-buckley-tickets",
-  "status": null
- }
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Tyondai Braxton",
+    "date": "2026-10-20",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/10/20/tyondai-braxton-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Sleevies (with Plash, Anthers, Give Me the Money, Depiction of Man)",
+    "date": "2026-10-23",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://dice.fm/event/g5vww5-sleevies-plash-anthers-more-23rd-oct-the-vera-project-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Stanley Simmons",
+    "date": "2026-10-25",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/10/25/stanley-simmons-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Weatherday",
+    "date": "2026-10-28",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/10/28/weatherday-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Spy (with Empty Shell Casing, No Guard)",
+    "date": "2026-10-29",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/10/29/spy-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Worst Party Ever x Equipment (with Ogbert the Nerd, Melancholy Club)",
+    "date": "2026-11-04",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/4/worst-party-ever-x-equipment-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Shanghai Qiutian (with Dabda)",
+    "date": "2026-11-05",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/5/shanghai-qiutian-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Jake Minch",
+    "date": "2026-11-07",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/7/jake-minch-getting-big-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Roman Candle (with Postdrome)",
+    "date": "2026-11-08",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://dice.fm/event/nvrb7q-roman-candle-8th-nov-the-vera-project-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Oso Oso (with Liquid Mike, bugsy)",
+    "date": "2026-11-10",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/10/oso-oso-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Dogs on Shady Lane",
+    "date": "2026-11-11",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/11/dogs-on-shady-lane-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Leanna Firestone (with Sydney Sprague)",
+    "date": "2026-11-13",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43423125-leanna-firestone-at-vera-project",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Kingdom of Giants (with Deadlands, Night Rider)",
+    "date": "2026-11-14",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/14/kingdom-of-giants-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Surely Tempo (with Carver Commodore)",
+    "date": "2026-11-17",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/17/surely-tempo-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Deerhoof (with Sol, Iron Lung, J.R.C.G.)",
+    "date": "2026-11-20",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://dice.fm/event/q23bgy-aaa-fest-deerhoof-sol-iron-lung-jrcg-20th-nov-the-vera-project-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "AJJ (with Kimya Dawson, Foot Ox, carter c)",
+    "date": "2026-11-21",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://dice.fm/event/yoqmkp-aaa-fest-ajj-kimya-dawson-foot-ox-carter-c-21st-nov-the-vera-project-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Babe Haven (with Spaced, Scarlet Demore)",
+    "date": "2026-11-24",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/24/babe-haven-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Spanish Love Songs",
+    "date": "2026-11-25",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/11/25/spanish-love-songs-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Apes of the State (with pigeon pit)",
+    "date": "2026-12-04",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/12/4/apes-of-the-state-10-year-anniversary-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Apes of the State (with Sister Wife Sex Strike)",
+    "date": "2026-12-05",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/12/5/apes-of-the-state-10-year-anniversary-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Sunday Cruise (with Dino Gala, Friend)",
+    "date": "2026-12-09",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2026/12/9/sunday-cruise-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Swirlies",
+    "date": "2027-01-13",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2027/1/13/swirlies-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Madds Buckley (with Sparkbird)",
+    "date": "2027-01-27",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://do206.com/events/2027/1/27/madds-buckley-tickets",
+    "status": null
+  }
 ]
