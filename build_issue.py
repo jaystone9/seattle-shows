@@ -115,13 +115,18 @@ def main(*args):
         h.append(button(fr["url"], "▶ Listen to the Frelard playlist on Spotify"))
         t.append(f"FRELARD: {why} {fr.get('songs')} songs from {fr.get('artists')} artists.\n{fr['url']}\n")
 
-    # Genre playlists: one short line pointing to the site (Jay, Oct 14, 2026: no genre buttons in the email).
+    # Genre playlists: each genre name links straight to its standing Spotify playlist (Jay, Oct 18, 2026),
+    # so readers open Spotify without visiting the site. Text links in one line, not buttons.
     gps = d.get("genre_playlists") or []
     if gps:
         word = {7: "Seven"}.get(len(gps), str(len(gps)))
-        h.append(f'<p style="background:#F7D6E2;border-radius:10px;padding:14px 18px"><b>Just want folk, or just electronic?</b> '
-                 f'{word} genre playlists, refreshed every Sunday. {link(SITE + "#listen-h", "Pick a genre →", bold=True)}</p>')
-        t.append(f"Just want folk, or just electronic? {word} genre playlists, refreshed every Sunday. Pick a genre: {SITE}#listen-h\n")
+        h.append("<h3>Just want one genre?</h3>")
+        h.append(f"<p>{word} genre playlists from the same shows, refreshed every Sunday. "
+                 "Follow one on Spotify and it updates itself:</p>")
+        h.append("<p>" + " &nbsp;·&nbsp; ".join(link(g["url"], g["genre"], bold=True) for g in gps) + "</p>")
+        t.append(f"JUST WANT ONE GENRE? {word} genre playlists from the same shows, refreshed every Sunday. "
+                 "Follow one on Spotify and it updates itself:\n"
+                 + "\n".join(f"  {g['genre']}: {g['url']}" for g in gps) + "\n")
     h.append(f"<p>Not on Spotify? {link(transfer, 'Copy either playlist to Apple Music, YouTube Music and more, free →')}</p>")
     t.append(f"Not on Spotify? Copy either playlist to Apple Music, YouTube Music and more, free: {transfer}\n")
 
