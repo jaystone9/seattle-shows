@@ -211,6 +211,14 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
     except FileNotFoundError:
         gp = {}
     genre_playlists = [dict(gp[g], slug=GENRE_SLUGS[g]) for g in GENRES if g in gp]
+    # Dated snapshot of each genre playlist per window (Jay, Oct 18, 2026), for the Playlists archive.
+    # Kept apart from playlists.json so they never count as the citywide or an area playlist.
+    try:
+        genre_archive = json.load(open("genre_archive.json"))
+    except FileNotFoundError:
+        genre_archive = []
+    order = {g: i for i, g in enumerate(GENRES)}
+    genre_archive.sort(key=lambda p: (p["start"], -order.get(p["genre"], 99)), reverse=True)
     data = {
         "brand": "2 Week Soundcheck",
         "edition": "Seattle",
@@ -221,6 +229,7 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
         "playlists": playlists,
         "area_playlists": area_playlists,
         "genre_playlists": genre_playlists,
+        "genre_archive": genre_archive,
         "areas": list(AREAS),
         "genres": [{"genre": g, "slug": GENRE_SLUGS[g]} for g in GENRES] + [{"genre": OTHER_GENRE, "slug": "other"}],
         "genre_window": [g_from, g_to],

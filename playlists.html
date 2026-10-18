@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=0abbaf66">
+<link rel="stylesheet" href="site.css?v=d72c57da">
 </head>
 <body>
 <div class="wrap">
@@ -80,14 +80,21 @@
 <script>
 SC.load().then(data=>{
   SC.footer(data);
-  const {esc,range} = SC, list = data.playlists || [];
+  const {esc,range} = SC;
+  // Citywide + area playlists (playlists.json, newest first), then each window's dated genre
+  // snapshots (genre_archive) right after that window's main playlists.
+  const main = data.playlists || [], gen = data.genre_archive || [];
+  const slug = Object.fromEntries((data.genres||[]).map(g=>[g.genre,g.slug]));
+  const starts = [...new Set([...main, ...gen].map(p=>p.start))].sort().reverse();
+  const list = starts.flatMap(s=>[...main.filter(p=>p.start===s), ...gen.filter(p=>p.start===s)]);
   const city = data.edition || "Seattle";
-  const kind = p => p.area || city;
-  const seen = new Set();  // newest of each kind (Seattle, Frelard, ...) is "This week"
+  const kind = p => p.area || p.genre || city;
+  const seen = new Set();  // newest of each kind (Seattle, Frelard, Folk & Country, ...) is "This week"
   const cards = list.map(p=>{
     const now = !seen.has(kind(p)) && seen.add(kind(p));
     const who = p.area ? `${p.artists} artists in ${esc(p.area)}, openers included` : `${p.artists} headliners`;
-    const shows = p.area ? `./?area=${encodeURIComponent(p.area.toLowerCase())}` : "./";
+    const shows = p.area ? `./?area=${encodeURIComponent(p.area.toLowerCase())}`
+                : p.genre ? `./?genre=${encodeURIComponent(slug[p.genre]||"")}` : "./";
     return `
     <article class="pl${now?" current":""}" data-kind="${esc(kind(p))}">
       <h2>${esc(range(p.start,p.end))}<span class="area-tag">${esc(kind(p))}</span>${now?'<span class="now">This week</span>':""}</h2>
@@ -98,13 +105,16 @@ SC.load().then(data=>{
   box.innerHTML = list.length ? cards : `<p class="empty">The first playlist is on its way. Check back Sunday.</p>`;
 
   // All / Seattle / Frelard switch; ?show=frelard keeps a shareable link
-  const kinds = [city, ...[...new Set(list.map(p=>p.area).filter(Boolean))]];
+  const kinds = [city, ...new Set(main.map(p=>p.area).filter(Boolean)),
+                 ...(data.genres||[]).map(g=>g.genre).filter(g=>gen.some(p=>p.genre===g))];
   const f = document.getElementById("pl-filter");
   f.innerHTML = [["","All"], ...kinds.map(k=>[k,k])].map(([k,l])=>`<button type="button" data-kind="${esc(k)}" aria-pressed="false">${esc(l)}</button>`).join("");
   function pick(k){
     f.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.kind===k)));
     box.querySelectorAll("article.pl").forEach(a=>a.hidden = !!k && a.dataset.kind!==k);
     SC.slide(f);
+    const on = f.querySelector('button[aria-pressed="true"]');  // keep the picked tab visible when the row scrolls (phones)
+    if (on) f.scrollLeft = Math.max(0, on.offsetLeft - (f.clientWidth - on.offsetWidth) / 2);
     const u = new URL(location.href); k ? u.searchParams.set("show", k.toLowerCase()) : u.searchParams.delete("show"); history.replaceState(null,"",u);
   }
   f.addEventListener("click", ev=>{ const b=ev.target.closest("button"); if(b) pick(b.dataset.kind); });
