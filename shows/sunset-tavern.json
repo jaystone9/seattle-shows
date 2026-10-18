@@ -2,56 +2,6 @@
   {
     "venue": "The Sunset Tavern",
     "room": null,
-    "title": "Tasmo (with Square Peg, Soft Pass)",
-    "date": "2026-10-12",
-    "doors": "19:00",
-    "start": "19:30",
-    "url": "https://do206.com/events/2026/10/12/tasmo-square-peg-soft-pass-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Renny Conti (with James Eichman)",
-    "date": "2026-10-13",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://do206.com/events/2026/10/13/renny-conti-w-james-eichman-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Izaak Opatz (with Serafima & The Shakedowns)",
-    "date": "2026-10-14",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/tractor-presents-izaak-opatz-w-tractor-tickets/15002333?pl=tractor&REFID=clientsitewp",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Karmic Unrest (with Absolutist, Twasmonaut)",
-    "date": "2026-10-16",
-    "doors": "20:00",
-    "start": "20:30",
-    "url": "https://do206.com/events/2026/10/16/karmic-unrest-absolutist-twasmonaut-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Old Coast (album release) (with Heels to the Hardwood, A View of Earth from the Moon)",
-    "date": "2026-10-17",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/10/17/old-coast-album-release-w-heels-to-the-hardwood-a-view-of-earth-from-the-moon-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
     "title": "OK Tiger (with Fern Spores, Fox and Bones)",
     "date": "2026-10-18",
     "doors": "19:30",
@@ -122,7 +72,7 @@
   {
     "venue": "The Sunset Tavern",
     "room": null,
-    "title": "Abby Webster & Her Imaginary Band (with Alex Dunn (trio), Trinity Jane)",
+    "title": "Abby Webster & Her Imaginary Band (with Alex Dunn (trio), Leo Craft)",
     "date": "2026-10-27",
     "doors": "19:30",
     "start": "20:00",
@@ -252,16 +202,6 @@
   {
     "venue": "The Sunset Tavern",
     "room": null,
-    "title": "Robert Ellis (with Wheelwright)",
-    "date": "2026-11-14",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/tractor-presents-robert-ellis-w-tractor-tickets/14924913?pl=tractor&REFID=clientsitewp",
-    "status": "cancelled"
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
     "title": "Chris Acker (with guests)",
     "date": "2026-11-15",
     "doors": "19:00",
@@ -312,6 +252,16 @@
   {
     "venue": "The Sunset Tavern",
     "room": null,
+    "title": "Chrome Lakes (with Moon Letters)",
+    "date": "2026-11-20",
+    "doors": "21:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43465470-chrome-lakes-at-sunset-tavern",
+    "status": null
+  },
+  {
+    "venue": "The Sunset Tavern",
+    "room": null,
     "title": "Drag the River (with guests)",
     "date": "2026-11-21",
     "doors": "20:30",
@@ -327,6 +277,16 @@
     "doors": "19:30",
     "start": null,
     "url": "https://do206.com/events/2026/11/22/trestles-guests-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Sunset Tavern",
+    "room": null,
+    "title": "Dead Bars (with Bad Tats)",
+    "date": "2026-11-25",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43449573-dead-bars-at-sunset-tavern",
     "status": null
   },
   {
@@ -354,7 +314,7 @@
     "room": null,
     "title": "Two Runner (with guests)",
     "date": "2026-12-06",
-    "doors": "19:00",
+    "doors": "19:30",
     "start": "20:00",
     "url": "https://www.ticketweb.com/event/tractor-presents-two-runner-w-tractor-tickets/14201114?pl=tractor&REFID=clientsitewp",
     "status": null
@@ -387,16 +347,6 @@
     "doors": "19:30",
     "start": "20:00",
     "url": "https://www.ticketweb.com/event/tractor-presents-genevieve-artadi-ft-tractor-tickets/15014413?pl=tractor&REFID=clientsitewp",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "A Holiday Spectacular: Mitch and his Merry Melody Makers (with Buddy Jolly)",
-    "date": "2026-12-16",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/12/16/a-holiday-spectacular-mitch-and-his-merry-melody-makers-buddy-jolly-tickets",
     "status": null
   },
   {
@@ -452,7 +402,7 @@
   {
     "venue": "The Sunset Tavern",
     "room": null,
-    "title": "@ (with guests)",
+    "title": "@ (with Wendy Eisenberg)",
     "date": "2027-02-19",
     "doors": "20:30",
     "start": "21:00",
@@ -477,6 +427,26 @@
     "doors": "19:30",
     "start": null,
     "url": "https://do206.com/events/2027/3/6/beach-vacation-makeout-city-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Sunset Tavern",
+    "room": null,
+    "title": "Tractor Presents: Thomas Dollbaum (with guests)",
+    "date": "2027-03-30",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://link.dice.fm/Ae193e48830d",
+    "status": null
+  },
+  {
+    "venue": "The Sunset Tavern",
+    "room": null,
+    "title": "World News",
+    "date": "2027-03-31",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43467218-world-news-at-sunset-tavern",
     "status": null
   }
 ]

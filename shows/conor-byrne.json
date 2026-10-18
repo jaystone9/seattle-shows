@@ -2,66 +2,6 @@
   {
     "venue": "Conor Byrne Pub",
     "room": null,
-    "title": "Tractor Presents: Tray Wellington Band (with Asa Menlove, Hemlock Revival)",
-    "date": "2026-10-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do206.com/events/2026/10/14/tractor-presents-tray-wellington-band-asa-menlove-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "Brian Noyes (with Nat Meek, Bryan John Appleby)",
-    "date": "2026-10-15",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do206.com/events/2026/10/15/brian-noyes-luke-sweeney-bryan-john-appleby-tickets",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "Agrovox - Early Show",
-    "date": "2026-10-16",
-    "doors": null,
-    "start": "18:00",
-    "url": "https://do206.com/events/2026/10/16/agrovox-early-show-tickets",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "The Fiasco - Matinee",
-    "date": "2026-10-17",
-    "doors": null,
-    "start": "17:00",
-    "url": "https://do206.com/events/2026/10/17/the-fiasco-matinee-tickets",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "Young-Chhaylee (with Liv Victorino, Jessie Thoreson, Rain Against Your Window)",
-    "date": "2026-10-17",
-    "doors": null,
-    "start": "20:30",
-    "url": "https://do206.com/events/2026/10/17/young-chhaylee-liv-victorino-jessie-thoreson-rain-against-your-window-tickets",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "Champagne Sunday",
-    "date": "2026-10-18",
-    "doors": null,
-    "start": "16:00",
-    "url": "https://www.bandsintown.com/e/1040042997-champagne-sunday-at-conor-byrne-pub",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
     "title": "Luke Callen (with Bad Posture Club, Don Piano)",
     "date": "2026-10-21",
     "doors": null,
@@ -135,18 +75,8 @@
     "title": "Carl Christensen (with Sara Camille)",
     "date": "2026-10-31",
     "doors": null,
-    "start": null,
+    "start": "16:30",
     "url": "https://www.jambase.com/show/carl-christensen-conor-byrne-pub-20261031",
-    "status": null
-  },
-  {
-    "venue": "Conor Byrne Pub",
-    "room": null,
-    "title": "Tim Lizzy (with THE RAMONES, Ben Verellen)",
-    "date": "2026-10-31",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://do206.com/events/2026/10/31/tim-lizzy-the-ramones-ben-verellen-tickets",
     "status": null
   },
   {
@@ -307,6 +237,36 @@
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43449801-hugs-at-conor-byrne-pub",
+    "status": null
+  },
+  {
+    "venue": "Conor Byrne Pub",
+    "room": null,
+    "title": "Garage Punk X-Mas Party: The Sinister Six (with Hutchie, Small Yards)",
+    "date": "2026-12-18",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://do206.com/events/2026/12/18/garage-punk-x-mas-party-the-sinister-six-hutchie-small-yards-tickets",
+    "status": null
+  },
+  {
+    "venue": "Conor Byrne Pub",
+    "room": null,
+    "title": "Black Nite Crash (with Lovv Hums, Swedey)",
+    "date": "2027-01-30",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://do206.com/events/2027/1/30/black-nite-crash-lovv-hums-swedey-tickets",
+    "status": null
+  },
+  {
+    "venue": "Conor Byrne Pub",
+    "room": null,
+    "title": "Tractor Presents: Bess Atwell (with guests)",
+    "date": "2027-03-12",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://app.opendate.io/e/bess-atwell-at-conor-byrne-pub-march-12-2027-778526",
     "status": null
   }
 ]
