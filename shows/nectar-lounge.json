@@ -2,26 +2,6 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
-    "title": "Flor de Toloache (with Monamor)",
-    "date": "2026-10-14",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/flor-de-toloache-with-monamor-192472",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "Kiefer (with Shibo)",
-    "date": "2026-10-16",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/kiefer-with-shibo-191914",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
     "title": "Alborosie & The Shengen Clan (with Dub Lounge International, DJ Kid Hops)",
     "date": "2026-10-18",
     "doors": null,
@@ -252,11 +232,11 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
-    "title": "Persephone Darke (with Rainbow Jackson, No Monaco)",
+    "title": "Persephone Darke (with Rainbow Jackson, No Monaco, Athena)",
     "date": "2026-11-22",
     "doors": null,
     "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/persephone-darke-with-rainbow-jackson-no-monaco-208315",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/persephone-darke-with-rainbow-jackson-no-monaco-athena-208315",
     "status": null
   },
   {
@@ -287,6 +267,16 @@
     "doors": null,
     "start": "19:00",
     "url": "https://www.tixr.com/groups/nectarlounge/events/drop-the-star-album-release-show-with-novachrome-the-vases-hellbot-210265",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
+    "title": "Acapulco Lips (with Tiny Monsters, Linda From Work)",
+    "date": "2026-12-04",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/acapulco-lips-with-tiny-monsters-linda-from-work-210916",
     "status": null
   },
   {
@@ -356,7 +346,7 @@
     "date": "2026-12-17",
     "doors": null,
     "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/cascadia-winter-solstice-weekend-ft-beats-antique-desert-dwellers-high-step-society-atyya-chmura-duffrey-marques-wyatt-sabo-more-202365",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/cascadia-winter-solstice-weekend-ft-beats-antique-with-david-starfire-200645",
     "status": null
   },
   {
@@ -366,7 +356,7 @@
     "date": "2026-12-18",
     "doors": null,
     "start": "20:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/cascadia-winter-solstice-weekend-ft-beats-antique-desert-dwellers-high-step-society-atyya-chmura-duffrey-marques-wyatt-sabo-more-202365",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/cascadia-winter-solstice-weekend-ft-beats-antique-with-bluetech-frequenzie-200646",
     "status": null
   },
   {
@@ -376,7 +366,7 @@
     "date": "2026-12-19",
     "doors": null,
     "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/cascadia-winter-solstice-weekend-ft-beats-antique-desert-dwellers-high-step-society-atyya-chmura-duffrey-marques-wyatt-sabo-more-202365",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/cascadia-winter-solstice-weekend-ft-atyya-chmura-duffrey-rob-noble-202998",
     "status": null
   },
   {
@@ -407,6 +397,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.tixr.com/groups/nectarlounge/events/clinton-fearon-a-birthday-celebration-plus-dj-kid-hops-kexp-and-surprise-special-guests-206469",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
+    "title": "Lotus (with Michael Wilbur (of Moon Hooch))",
+    "date": "2027-01-29",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/lotus-with-michael-wilbur-of-moon-hooch--210310",
     "status": null
   },
   {
@@ -467,6 +467,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.tixr.com/groups/nectarlounge/events/dame-atlas-with-special-guests-203533",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
+    "title": "Kash'd Out (with Cydeways, A-Mac)",
+    "date": "2027-03-24",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/kash-d-out-with-cydeways-a-mac-208902",
     "status": null
   }
 ]

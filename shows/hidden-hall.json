@@ -2,36 +2,6 @@
   {
     "venue": "Hidden Hall",
     "room": null,
-    "title": "The Cosmic Neighborhood (with The Detractors, Shaun Crawford and the Reasons)",
-    "date": "2026-10-14",
-    "doors": null,
-    "start": "18:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/the-cosmic-neighborhood-with-the-detractors-shaun-crawford-and-the-reasons-203880",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
-    "title": "Cottage Corpse (with Harbor Seal, Dining Dead)",
-    "date": "2026-10-15",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/cottage-corpse-with-harbor-seal-dining-dead-203882",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
-    "title": "The Holdup",
-    "date": "2026-10-16",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/the-holdup-194315",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
     "title": "Logan Richardson: blues PEOPLE (with THIEFS)",
     "date": "2026-10-18",
     "doors": null,
@@ -122,11 +92,11 @@
   {
     "venue": "Hidden Hall",
     "room": null,
-    "title": "Deante' Hitchcock (with Special Guests)",
+    "title": "Deante' Hitchcock (with Joe the Poet, Shane Diamanti, Coaster)",
     "date": "2026-11-06",
     "doors": null,
     "start": "19:30",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/deante-hitchcock-with-special-guests-201947",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/deante-hitchcock-with-joe-the-poet-shane-diamanti-coaster-201947",
     "status": null
   },
   {
@@ -326,7 +296,7 @@
     "date": "2026-12-17",
     "doors": null,
     "start": "20:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/cascadia-winter-solstice-weekend-ft-beats-antique-desert-dwellers-high-step-society-atyya-chmura-duffrey-marques-wyatt-sabo-more-202534",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/cascadia-winter-solstice-weekender-ft-high-step-society-willdabeast-203002",
     "status": null
   },
   {
@@ -336,7 +306,7 @@
     "date": "2026-12-18",
     "doors": null,
     "start": "20:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/cascadia-winter-solstice-weekend-ft-beats-antique-desert-dwellers-high-step-society-atyya-chmura-duffrey-marques-wyatt-sabo-more-202534",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/cascadia-winter-solstice-weekender-ft-desert-dwellers-david-starfire-loveli-203004",
     "status": null
   },
   {
@@ -346,7 +316,17 @@
     "date": "2026-12-19",
     "doors": null,
     "start": "18:30",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/cascadia-winter-solstice-weekend-ft-beats-antique-desert-dwellers-high-step-society-atyya-chmura-duffrey-marques-wyatt-sabo-more-202534",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/cascadia-winter-solstice-weekender-ft-marques-wyatt-sabo-jamie-schwabl-b2b-onyx-michael-manahan-203008",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
+    "title": "Azalee Schwartz (with KingDow, Witcher)",
+    "date": "2027-01-07",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/azalee-schwartz-with-kingdow-witcher-210920",
     "status": null
   },
   {
@@ -357,6 +337,16 @@
     "doors": null,
     "start": "22:00",
     "url": "https://www.tixr.com/groups/hiddenhall/events/veggi-with-special-guests-210594",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
+    "title": "Taper's Choice (2 sets)",
+    "date": "2027-01-21",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/taper-s-choice-2-sets--210595",
     "status": null
   },
   {
@@ -392,11 +382,11 @@
   {
     "venue": "Hidden Hall",
     "room": null,
-    "title": "Caiola",
+    "title": "Caiola (of Mo Lowda & the Humble) (with Special Guests)",
     "date": "2027-03-31",
     "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43416379-caiola-at-hidden-hall",
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/caiola-of-mo-lowda-the-humble-with-special-guests-206620",
     "status": null
   },
   {
