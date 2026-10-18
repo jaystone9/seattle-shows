@@ -1,4 +1,11 @@
 {
+ "Abby Webster & Her Imaginary Band": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "0HhLNo5pI32wCYNKqpXuCD"
+ },
  "Acapulco Lips": {
   "genres": [
    "Indie & Rock"
@@ -40,6 +47,13 @@
   "spotify": "42FzVuyJH8YbkhzWSR2n8E",
   "confirmed": "2026-10-14"
  },
+ "Amble": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "5ZC7GPz5h9zkEfjZBUDNzI"
+ },
  "Amy Hall": {
   "genres": [
    "Indie & Rock"
@@ -76,6 +90,14 @@
   "spotify": "2qwXeRk8VBAegbUnf3xdyi",
   "confirmed": "2026-10-14"
  },
+ "Ax and the Hatchetmen": {
+  "genres": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "5WJCUSIw2Td5IEfa3LXCo9"
+ },
  "Baauer": {
   "genres": [
    "Hip-hop & R&B",
@@ -90,6 +112,20 @@
   ],
   "spotify": "4DbnkAA9sEQPxNlFCoboIq",
   "confirmed": "2026-10-14"
+ },
+ "Basement": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "4DUQBYAyOTZotSEdKhaf6c"
+ },
+ "beabadoobee": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "35l9BRT7MXmM8bv2WDQiyB"
  },
  "Beauty Sleep": {
   "genres": [
@@ -112,12 +148,41 @@
   "spotify": "7qP4fe3hgv9szAZSZwCgzu",
   "confirmed": "2026-10-14"
  },
+ "Black Ends": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "5D8NXuzLwBMIZuL8o6U8q3"
+ },
  "Black Whales": {
   "genres": [
    "Indie & Rock"
   ],
   "spotify": "1vxs3LR8qxyi4kdnnNiAd3",
   "confirmed": "2026-10-14"
+ },
+ "bleood": {
+  "genres": [
+   "Hip-hop & R&B",
+   "Electronic"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "41GfvEtCZu3KXaThpF01c1"
+ },
+ "Blitzkid": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "1u8qqOF2w0kgbg1QLXEXSJ"
+ },
+ "Born of Ghosts": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "1nZvzik5ghDv65qvklZyMZ"
  },
  "Boy Harsher": {
   "genres": [
@@ -133,12 +198,41 @@
   "spotify": "40CrPWf23dPcYrwR7VIDPG",
   "confirmed": "2026-10-14"
  },
+ "bunii": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "6mx3Y8XNLPaS2pjJbQFq3W"
+ },
+ "Camaira Metz": {
+  "genres": [
+   "Pop",
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "23gtVrSMuVg4ekjX2LRDV0"
+ },
  "Cameron Whitcomb": {
   "genres": [
    "Folk & Country"
   ],
   "spotify": "6dhXvR5MsnlwYguRuqoapR",
   "confirmed": "2026-10-14"
+ },
+ "Carl Christensen": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "1XdVoqHJ3lSE4kzTKTlD8j"
+ },
+ "Catch Your Breath": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "2fqPOGxG12nEERj8YG7p22"
  },
  "Catzap!": {
   "genres": [
@@ -196,6 +290,14 @@
   "spotify": "2Io6B7GkUzVocvpqAXQk8t",
   "confirmed": "2026-10-14"
  },
+ "Cumbia de Muertos V": {
+  "genres": [
+   "Indie & Rock",
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "3uCmGQUSAkY2BvcrhMLLzE"
+ },
  "Dave Alvin": {
   "genres": [
    "Folk & Country"
@@ -209,6 +311,13 @@
   ],
   "spotify": "3Hb64DQZIhDCgyHKrzBXOL",
   "confirmed": "2026-10-14"
+ },
+ "Deafbloom": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "2UEhB5KiQzTDjQeR3HHr2e"
  },
  "Derya Yildirim & Grup Simsek": {
   "genres": [
@@ -275,6 +384,13 @@
   "spotify": "0lzGqksyREdfUObGjLYLcT",
   "confirmed": "2026-10-14"
  },
+ "Eldridge Gravy & The Court Supreme": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "355e2TZARWAa3ww9qN753Q"
+ },
  "EPIK HIGH": {
   "genres": [
    "Hip-hop & R&B"
@@ -288,6 +404,21 @@
   ],
   "spotify": "1B8ycQsEGw3fUTkzWs5kFD",
   "confirmed": "2026-10-14"
+ },
+ "Everclear": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "694QW15WkebjcrWgQHzRYF"
+ },
+ "Faux Real": {
+  "genres": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "0853SMh8o0PpHpSTDHttsO"
  },
  "Finn Wolfhard": {
   "genres": [
@@ -316,6 +447,27 @@
   ],
   "spotify": "35FepponJp4JM0EbvAfaXQ",
   "confirmed": "2026-10-14"
+ },
+ "Francis of Delirium": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "0qrCon6GmV92JY5vNALLif"
+ },
+ "Frankie Cosmos - Celebrating 10 Years of Next Thing": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "0x4xCoWaOFd3WsKarzaxnW"
+ },
+ "Frankie J": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "3sMYEBy0CZFxedcnm9i9hf"
  },
  "Freak Slug": {
   "genres": [
@@ -353,6 +505,14 @@
   "spotify": "3iri9nBFs9e4wN7PLIetAw",
   "confirmed": "2026-10-14"
  },
+ "Gorillaz": {
+  "genres": [
+   "Indie & Rock",
+   "Electronic"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "3AA28KZvwAUcZuOKwyblJQ"
+ },
  "Hana Stretton": {
   "genres": [
    "Folk & Country"
@@ -367,6 +527,13 @@
   ],
   "spotify": "6sIPNR4ZDctKr2OSiAVtBc",
   "confirmed": "2026-10-14"
+ },
+ "Ho99o9": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "5KuuNGYTUTokLerXMNYCGL"
  },
  "Hovvdy": {
   "genres": [
@@ -411,6 +578,13 @@
   "spotify": "0ISWBim1mBiZ7bw6tXad3G",
   "confirmed": "2026-10-14"
  },
+ "J. Killen": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "6ANtFZ4SSOg0PsTE1OQWs9"
+ },
  "Jackie Evans": {
   "genres": [
    "Folk & Country"
@@ -439,6 +613,27 @@
   "spotify": "244AFgFclA9c1IcjWOAqoV",
   "confirmed": "2026-10-14"
  },
+ "Joy Oladokun": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "7rrTqtOUOwva4sgTx9C9F9"
+ },
+ "Juana Molina": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "76hliHkgP5eIbVqLT7NmQ3"
+ },
+ "Julia Jacklin": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "12fRkVfO2fUsz1QHgDAG3g"
+ },
  "Julia Wolf": {
   "genres": [
    "Indie & Rock"
@@ -460,12 +655,27 @@
   "spotify": "1uquUYtkdKei0zuhBY9P0t",
   "confirmed": "2026-10-14"
  },
+ "Kacey Musgraves": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "70kkdajctXSbqSMJbQO424"
+ },
  "Karmic Unrest": {
   "genres": [
    "Punk & Metal"
   ],
   "spotify": "5gVRe7pLDVWYEyTuAp3xwD",
   "confirmed": "2026-10-14"
+ },
+ "Katherine Van Bebber": {
+  "genres": [
+   "Pop",
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "5lOT3UWBX152qoVvX8Moz3"
  },
  "Ken Ishii": {
   "genres": [
@@ -509,6 +719,13 @@
   "spotify": "2AfU5LYBVCiCtuCCfM7uVX",
   "confirmed": "2026-10-14"
  },
+ "Kyle Gordon": {
+  "genres": [
+   "Pop"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "3LjnXZYlHbblbd8OZTtSip"
+ },
  "LAERZ": {
   "genres": [
    "Electronic"
@@ -545,6 +762,14 @@
   "spotify": "3mXI2gpwWnNO9qbQG3n3EP",
   "confirmed": "2026-10-14"
  },
+ "Lindstrom & The Limit": {
+  "genres": [
+   "Indie & Rock",
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "6sLeSJY9Zm9a47CCnfyDqi"
+ },
  "Liquid Cross": {
   "genres": [],
   "confirmed": "2026-10-14"
@@ -570,6 +795,13 @@
   "spotify": "0xoz0HtvzkAkWfRhjzb84O",
   "confirmed": "2026-10-14"
  },
+ "Magma Fest": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "3BOlvMSlEaJLq5YEGJR5Ce"
+ },
  "Malcolm Todd": {
   "genres": [
    "Hip-hop & R&B"
@@ -577,12 +809,33 @@
   "spotify": "7eKkW1zo5uzW8kUntiiBvz",
   "confirmed": "2026-10-14"
  },
+ "Mall Grab": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "7yF6JnFPDzgml2Ytkyl5D7"
+ },
  "Maná": {
   "genres": [
    "Indie & Rock"
   ],
   "spotify": "7okwEbXzyT2VffBmyQBWLz",
   "confirmed": "2026-10-14"
+ },
+ "Margo Cilker": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "5E9q1sbVJ2MCiI8MMdPvj7"
+ },
+ "Marie Davidson": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "7xJVICbAWizNBKBD3mRWjF"
  },
  "Marika Che": {
   "genres": [
@@ -594,6 +847,14 @@
  "Mason Marcus Turner": {
   "genres": [],
   "confirmed": "2026-10-14"
+ },
+ "Medium Build - The King of Having Fun": {
+  "genres": [
+   "Indie & Rock",
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "3C6wmSgnZuqxVQyBWujBsn"
  },
  "MEERNAA": {
   "genres": [
@@ -635,12 +896,34 @@
   "genres": [],
   "confirmed": "2026-10-14"
  },
+ "Mothica": {
+  "genres": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "1JhiIIXT9DWqEU3BYFZwGA"
+ },
  "Mountain Holler": {
   "genres": [
    "Folk & Country"
   ],
   "spotify": "5rKsVZE68mA5AH6CYUBCFP",
   "confirmed": "2026-10-14"
+ },
+ "Mountain Holler & The Western Dawn": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "4GVajkzgEy8gm1w2IU6kq8"
+ },
+ "N8NOFACE": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "0HlRzJcjY69mM3nW2Xvrzi"
  },
  "Nice As F*#K": {
   "genres": [
@@ -683,6 +966,13 @@
   "spotify": "0EZiNCU3XceZUnOoKyy0Ha",
   "confirmed": "2026-10-14"
  },
+ "Olive Klug": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "3SEtmo8E5DJVuGddKYqeiU"
+ },
  "PALACE": {
   "genres": [
    "Folk & Country",
@@ -705,6 +995,13 @@
   ],
   "spotify": "6yHM0XQEdu9sIlbILMaKBp",
   "confirmed": "2026-10-14"
+ },
+ "Paul Lewis Plays Mozart Sonatas": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "4LYCuV8d6rylb6zjv2k03l"
  },
  "Pertinence": {
   "genres": [
@@ -741,6 +1038,20 @@
   "spotify": "3BRSFkEbxBXsZASWPOMOuP",
   "confirmed": "2026-10-14"
  },
+ "Pouya": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "4nXOZlYoAD67hF9aUEncMY"
+ },
+ "Protomartyr": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "2YFBqMMiIIL4XyiEwqySUQ"
+ },
  "Ray Wolff": {
   "genres": [
    "Folk & Country",
@@ -748,6 +1059,13 @@
   ],
   "spotify": "2gM0Ekx2XEjUz5jgIlv29T",
   "confirmed": "2026-10-14"
+ },
+ "Rebecca Black": {
+  "genres": [
+   "Pop"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "3Vl9fyKMIdLMswk8ai3mm9"
  },
  "Red Shahan": {
   "genres": [
@@ -778,6 +1096,13 @@
   "spotify": "6Wr3hh341P84m3EI8qdn9O",
   "confirmed": "2026-10-14"
  },
+ "Rival Sons": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "356c8AN5YWKvz86B4Sb1yf"
+ },
  "Rush": {
   "genres": [
    "Indie & Rock"
@@ -798,6 +1123,13 @@
   ],
   "spotify": "7LQPLh6XX8uGuU8WKkHYIM",
   "confirmed": "2026-10-14"
+ },
+ "Satana Satana": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "0TljDT4QvsfGkOjE1cSAbk"
  },
  "Sawyer Hill": {
   "genres": [
@@ -860,6 +1192,13 @@
   "spotify": "2zRt0sfxNnqI8gLR7d8gWt",
   "confirmed": "2026-10-14"
  },
+ "Shiverz": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "5POUA3KoQ9Y20hzBuikqim"
+ },
  "Sickick": {
   "genres": [
    "Electronic",
@@ -867,6 +1206,20 @@
   ],
   "spotify": "3NR7hAacOhmcztWvD7vJfS",
   "confirmed": "2026-10-14"
+ },
+ "Skillet": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "49bzE5vRBRIota4qeHtQM8"
+ },
+ "Sleevies": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "4QC9qa0rHHvGoABtzftSyU"
  },
  "Slift": {
   "genres": [
@@ -882,12 +1235,40 @@
   "spotify": "2JFTRDi5v7JtqoouVe1z5D",
   "confirmed": "2026-10-14"
  },
+ "Smoker Dad": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "77vLyFXYwhqfUME8bhBcjp"
+ },
+ "smush": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "0X7rdOQMhW5OjD3cdxdEoU"
+ },
+ "Son Rompe Pera": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "0UKHKimjIGeFoS29LxWf4V"
+ },
  "Sophie Hunter": {
   "genres": [
    "Hip-hop & R&B"
   ],
   "spotify": "3L2gl8O5cKVCbAnSWUFZxf",
   "confirmed": "2026-10-14"
+ },
+ "Spy": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "7vCI1d19vrokQuRkiAhwMC"
  },
  "Stanley Simmons": {
   "genres": [
@@ -924,6 +1305,13 @@
   "spotify": "5d1sgs6DwqUcHqQsvwStt2",
   "confirmed": "2026-10-14"
  },
+ "The Brothers Comatose": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "7oKVYDiVZxglvgEW2zHcAD"
+ },
  "The Chicks": {
   "genres": [
    "Folk & Country"
@@ -938,6 +1326,13 @@
   "spotify": "5MMqL8W504Qo2AgVDPrsDG",
   "confirmed": "2026-10-14"
  },
+ "The Dillinger Escape Plan": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "7IGcjaMGAtsvKBLQX26W4i"
+ },
  "The Fiasco": {
   "genres": [
    "Folk & Country",
@@ -945,6 +1340,14 @@
   ],
   "spotify": "3uj4NARvT3M3IS7ySgiz2l",
   "confirmed": "2026-10-14"
+ },
+ "The Gaslamp Killer": {
+  "genres": [
+   "Hip-hop & R&B",
+   "Electronic"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "5dVua2HdrY1VlbPh6OM9KZ"
  },
  "The Head and the Heart": {
   "genres": [
@@ -961,6 +1364,13 @@
   "spotify": "1gwTohHbTpE3qdPyDvnOEu",
   "confirmed": "2026-10-14"
  },
+ "The Rolling Thunder": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "4CJQfBUMPYgC8EFfwf4vul"
+ },
  "The War and Treaty": {
   "genres": [
    "Hip-hop & R&B"
@@ -968,12 +1378,26 @@
   "spotify": "6HhV0jtMMK5HYnYgG0xgtz",
   "confirmed": "2026-10-14"
  },
+ "The Whags": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "0sSvO4hBwHX96HiNK2W9u4"
+ },
  "The Wildwoods": {
   "genres": [
    "Folk & Country"
   ],
   "spotify": "2wPWBhOid8BNr5lgEf8GKe",
   "confirmed": "2026-10-14"
+ },
+ "The Wldlfe": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "2Vvj76fff5uAw10W1sW54W"
  },
  "Thee Marloes": {
   "genres": [
@@ -1010,6 +1434,14 @@
   ],
   "spotify": "2IzNN3U60kdz41Yw9zj31H",
   "confirmed": "2026-10-14"
+ },
+ "TR/ST": {
+  "genres": [
+   "Electronic",
+   "Pop"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "64NhyHqRKYhV0IZylrElWu"
  },
  "Tray Wellington Band": {
   "genres": [
@@ -1068,6 +1500,13 @@
   "spotify": "3BVkDHWRvLJEyKdvhLbjsq",
   "confirmed": "2026-10-14"
  },
+ "Weatherday": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "6pmR08TKSTs8rll6W99VnK"
+ },
  "Where's Beth": {
   "genres": [
    "Folk & Country"
@@ -1081,6 +1520,13 @@
   ],
   "spotify": "0dvWSKaOz9c8ITXFb0rLxK",
   "confirmed": "2026-10-14"
+ },
+ "Wyatt Olney & The Wreckage": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-10-18",
+  "spotify": "3ExbLuST1For3zEAbbzNWC"
  },
  "Yana": {
   "genres": [

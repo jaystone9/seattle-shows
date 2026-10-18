@@ -1,0 +1,41 @@
+Subject: CHECK before sending: Oct 18–31: Seattle 2 Week Playlist
+
+This is the pre-send check. The beehiiv test of the real issue arrives separately.
+Nothing goes to subscribers until you say OK.
+
+LINKS
+  [  ] Seattle playlist: https://open.spotify.com/playlist/5sr2j60yVlEe0lUCWMj483
+  [  ] Frelard playlist: https://open.spotify.com/playlist/3DKQxcc3fY9UiWTG32As0p
+  [  ] Pop playlist: https://open.spotify.com/playlist/0LEwAFe9B7AFgH3rWZT609
+  [  ] Indie & Rock playlist: https://open.spotify.com/playlist/3HcRSO057WS9UqZ88zgyWJ
+  [  ] Folk & Country playlist: https://open.spotify.com/playlist/3xp63ElmPkWM1ORiA8Hga9
+  [  ] Electronic playlist: https://open.spotify.com/playlist/2UeMpvFCNOIEtaHC6m5asF
+  [  ] Hip-hop & R&B playlist: https://open.spotify.com/playlist/0cTNVqAXYPGgCzJG1UCbit
+  [  ] Punk & Metal playlist: https://open.spotify.com/playlist/24ApPpkPeQQwxjbBZgTmIo
+  [  ] Jazz, World & Classical playlist: https://open.spotify.com/playlist/5HNgVRlRYbrDkwZAKIV7vC
+  [  ] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
+  [  ] Site: https://2weeksoundcheck.com/
+
+NUMBERS
+  Dates: Oct 18–31
+  Shows on the site in this window: 156
+  Seattle: 416 songs, 140 headliners, 3 per artist
+  Frelard: 356 songs, 122 artists, 3 per artist
+  Pop: 42 songs, 14 artists
+  Indie & Rock: 188 songs, 64 artists
+  Folk & Country: 102 songs, 34 artists
+  Electronic: 42 songs, 14 artists
+  Hip-hop & R&B: 48 songs, 16 artists
+  Punk & Metal: 47 songs, 16 artists
+  Jazz, World & Classical: 18 songs, 6 artists
+  Seattle skipped (not on Spotify or ambiguous): Beauty Sleep, Liquid Cross, Mason Marcus Turner, No Slip, Tom Hamilton Band
+  Frelard skipped (not on Spotify or ambiguous): Austin R, Bitch Fits, ESCH, False Hemlock, Hamwich, Hünter, La Mala Noche, Leo Craft, Lili Alessa, Lily G, Mason Marcus Turner, Meat Hair, Morfex b2b SYMTEKZ, No Slip, Pyramid Scream, Secterror, Swavy, The High Seagrass, Tom Hamilton Band, Truble, Velvet Armada, VoW
+
+FLAGS
+  None from the build. Add anything found in the run (failed venues, reports).
+
+SUBJECT AND PREVIEW
+  Oct 18–31: Seattle 2 Week Playlist
+  Two new playlists for the next two weeks: all of Seattle, plus Frelard.
+
+Reply OK (or tell Claude in the chat) and it goes to subscribers.
