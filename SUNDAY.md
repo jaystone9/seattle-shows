@@ -20,7 +20,8 @@ name or any personal email address in this public repo, the site, or the newslet
    from this.
    Then the 7 genre playlists (`PLAYLIST.md` step 4c): look up new headliners on Last.fm,
    seed the Genre Review page, and once Jay has confirmed their genres there, refresh each
-   genre playlist and update `genres.json` and `genre_playlists.json`. Start the lookups early
+   genre playlist and update `genres.json` and `genre_playlists.json`, then save the week's
+   dated copies to `genre_archive.json` (the Playlists page archive). Start the lookups early
    so Jay can review while the venue refresh runs.
 4. **Build the issue.** Run `python3 build_issue.py --check-links`. It writes
    `issues/<start>.html` (the issue), `.txt`, and `issues/<start>-check.txt` (the check email),
@@ -35,13 +36,22 @@ name or any personal email address in this public repo, the site, or the newslet
      3. Heading "Frelard", the "I live in Ballard..." line, then a Button
         "▶ Listen to the Frelard playlist on Spotify". Use Button blocks, never the generic
         link embed (it renders as a broken card).
-     4. The "Not on Spotify? Copy either playlist..." line, linked to `newsletter.json` `transfer_url`
-     5. A divider, then: "All <N> shows are on the site →" (filter by date, neighborhood, venue
+     4. Heading "Just want one genre?", its line, then the 7 genres as Button blocks stacked in
+        ONE column (never side-by-side columns: they squish on phones). Each button: size small,
+        full width, pink #D6336C, white text, padding 10/12, label = genre name, linked to that
+        genre's standing playlist in `genre_playlists.json` (Jay, Oct 18, 2026).
+     5. The "Not on Spotify? Copy either playlist..." line, linked to `newsletter.json` `transfer_url`
+     6. A divider, then: "All <N> shows are on the site →" (filter by date, neighborhood, venue
         or artist), the neighborhood ask ("Reply and tell us where"), the forward ask, and the
         sponsor line ("Sponsor an issue. Just reply to this email").
+   - Post style (Style > Post > Link): links bold, not italic, not underlined, color #D6336C.
    - Author: the "2 Week Soundcheck" guest author only; byline hidden. No lyrics. Never Jay's name.
+     Replacing the editor content can reset the title and authors, so re-check the header after edits.
 5. **Check newsletter (Jay only).** Two things reach Jay before anything goes out:
    - The beehiiv **Send test** of the real issue, to hello@ (it lands in the webmail's Promotions tab).
+     beehiiv tests can only go to hello@, so forward it to Jay from the webmail: open the message,
+     click Forward, pick "Compose email with external images", click into the To field and confirm
+     it has focus before typing (stray keystrokes trigger webmail shortcuts).
    - The **check email** from `issues/<start>-check.txt`, sent to Jay only (address in the private
      project notes and Claude's memory, never in this repo) via the Gmail connector. Before sending,
      open every link in the beehiiv test in the browser (both playlists, the copy tool, the site)
