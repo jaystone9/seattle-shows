@@ -16,7 +16,10 @@ signed up before Chicago) and segment **"Chicago readers"** (the Chicago form on
 Each city gets its own issue, sent ONLY to its segment. Never send to All subscribers.
 Segments refresh once a day, so click **Refresh segment** on both before sending.
 Chicago follows the same steps as Seattle with `--city chicago` (see `chicago/REFRESH.md`).
-Chicago has no neighborhood playlist yet, only the citywide one plus 7 genre playlists.
+Chicago has a citywide playlist, a Wicker Park & Logan Square playlist (headliners + openers, like
+Frelard) and 7 genre playlists named `2 Week Soundcheck · Chicago · <Genre>` (dated copies:
+`... · <Genre>: <Mon D>–<D>`), listed in `chicago/genre_playlists.json` / `chicago/genre_archive.json`.
+`genres.json` is shared by both cities.
 
 ## Steps, in order
 1. **Inbox check.** Open the hello@2weeksoundcheck.com webmail and look for FormSubmit
@@ -32,17 +35,20 @@ Chicago has no neighborhood playlist yet, only the citywide one plus 7 genre pla
    from this.
    Then the Chicago playlist: `python3 lineup.py --city chicago`, named
    `2 Week Soundcheck · Chicago: <Mon D>–<Mon D>`, added to the top of `chicago/playlists.json`;
-   rewrite `chicago/previews.json`; `python3 build_site.py --city chicago`.
+   then the Wicker Park & Logan Square one (headliners + openers, `area` field set, as Frelard);
+rewrite `chicago/previews.json`; `python3 build_site.py --city chicago`.
    Then the 7 genre playlists (`PLAYLIST.md` step 4c): look up new headliners on Last.fm,
    seed the Genre Review page, and once Jay has confirmed their genres there, refresh each
    genre playlist and update `genres.json` and `genre_playlists.json`, then save the week's
    dated copies to `genre_archive.json` (the Playlists page archive). Start the lookups early
-   so Jay can review while the venue refresh runs.
+   so Jay can review while the venue refresh runs. Do Seattle and Chicago genres as separate
+   Genre Review weeks (`meta/current` = `seattle-<start>` then `chicago-<start>`); only
+   research artists Jay leaves undecided, from the artist's own site or Spotify bio.
 4. **Build the issue.** Run `python3 build_issue.py --check-links` (Seattle) and
    `python3 build_issue.py --city chicago --check-links` (Chicago; writes `chicago/issues/`).
    Build each as its own beehiiv post: subject `<dates>: Seattle 2 Week Playlist` /
-   `<dates>: Chicago 2 Week Playlist`. The Chicago issue has one citywide playlist (no Frelard
-   section). Seattle steps below; Chicago is the same minus Frelard. It writes
+   `<dates>: Chicago 2 Week Playlist`. The Chicago issue's neighborhood section is Wicker Park & Logan Square
+   instead of Frelard. Seattle steps below; Chicago is the same. It writes
    `issues/<start>.html` (the issue), `.txt`, and `issues/<start>-check.txt` (the check email),
    and prints any warnings. Every issue has BOTH playlists; if it warns the Frelard one is
    missing, build it first. In beehiiv, create a blank post:
