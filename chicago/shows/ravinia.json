@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "venue": "Ravinia",
+    "room": null,
+    "title": "Noah Aronson & The Or Collective",
+    "date": "2026-12-02",
+    "doors": "18:00",
+    "start": "19:30",
+    "url": "https://www.ravinia.org/events/detail/chanukah-noah-aronson-26-12-02",
+    "status": null
+  },
+  {
+    "venue": "Ravinia",
+    "room": null,
+    "title": "Cantus",
+    "date": "2026-12-03",
+    "doors": "18:00",
+    "start": "19:30",
+    "url": "https://www.ravinia.org/events/detail/christmas-cantus-26-12-03",
+    "status": null
+  },
+  {
+    "venue": "Ravinia",
+    "room": null,
+    "title": "The Adrian Dunn Singers",
+    "date": "2026-12-04",
+    "doors": "18:00",
+    "start": "19:30",
+    "url": "https://www.ravinia.org/events/detail/wonderful-adrian-dunn-singers-26-12-04",
+    "status": null
+  },
+  {
+    "venue": "Ravinia",
+    "room": null,
+    "title": "Dallas Brass",
+    "date": "2026-12-05",
+    "doors": "18:00",
+    "start": "19:30",
+    "url": "https://www.ravinia.org/events/detail/christmas-dallas-brass-26-12-05",
+    "status": null
+  }
+]

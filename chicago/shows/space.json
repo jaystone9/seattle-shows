@@ -302,6 +302,16 @@
   {
     "venue": "SPACE",
     "room": null,
+    "title": "Kat Edmonson",
+    "date": "2026-11-30",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/kat-edmonson-have-your-merry-space-tickets/14300644",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
     "title": "Willy Porter & The Humans in a Room Quartet",
     "date": "2026-12-02",
     "doors": null,
@@ -342,11 +352,31 @@
   {
     "venue": "SPACE",
     "room": null,
+    "title": "Elaine Dame: Cool Yule",
+    "date": "2026-12-08",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.ticketweb.com/event/elaine-dame-cool-yule-space-tickets/14369864",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
     "title": "SistaStrings",
     "date": "2026-12-09",
     "doors": null,
     "start": "19:30",
     "url": "https://www.ticketweb.com/event/sistastrings-space-tickets/14339124",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Jon McLaughlin",
+    "date": "2026-12-10",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/jon-mclaughlin-home-for-the-space-tickets/14999633",
     "status": null
   },
   {

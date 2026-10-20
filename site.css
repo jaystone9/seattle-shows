@@ -249,7 +249,7 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .tools input#q{flex:1 1 200px;min-width:0}
 @media (max-width:640px){
   .tools input#q{flex:1 1 100%}
-  .tools select,.tools #when,.tools #when-pick{flex:1 1 calc(50% - 5px)}
+  .tools select,.tools #when,.tools #area,.tools #when-pick{flex:1 1 calc(50% - 5px)}
 }
 
 /* Genre playlists: a chip row under the All Seattle / Frelard switch */
