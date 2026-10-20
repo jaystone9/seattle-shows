@@ -105,7 +105,7 @@
     <div class="foot">
       <div>
         <h4>About</h4>
-        <p>2 Week Soundcheck tracks every concert at a short list of rooms worth knowing, refreshed every week, so you can find new music and go see it. Seattle is the first city.</p>
+        <p>2 Week Soundcheck tracks every concert at a short list of rooms worth knowing, refreshed every week, so you can find new music and go see it.</p>
       </div>
       <div>
         <h4>Venues we follow</h4>
@@ -129,7 +129,7 @@
 </div>
 
 <script>setTimeout(()=>document.getElementById("range")?.classList.remove("pending"),2500)</script>
-<script src="common.js?v=b95579d3"></script>
+<script src="common.js?v=7eb6ff06"></script>
 <script>
 (function(){
   const {esc,todayISO,addDays,D,fmt,range,showRow,load,footer} = SC;
@@ -199,8 +199,8 @@
         $("#pl-sub").textContent = area ? "Every act at the small rooms in Ballard and Fremont." : "The top songs from every headliner, in show order.";
       }
     }
-    $("#pl-tabs").innerHTML = [["","All Seattle"],...PL_AREAS.map(a=>[a,a])].map(([a,l])=>`<button type="button" data-area="${esc(a)}" aria-pressed="false">${esc(l)}</button>`).join("");
-    $("#pl-tabs").hidden = false; SC.slide($("#pl-tabs"));
+    $("#pl-tabs").innerHTML = [["",`All ${data.edition||"Seattle"}`],...PL_AREAS.map(a=>[a,a])].map(([a,l])=>`<button type="button" data-area="${esc(a)}" aria-pressed="false">${esc(l)}</button>`).join("");
+    $("#pl-tabs").hidden = !PL_AREAS.length; SC.slide($("#pl-tabs"));  // one playlist only: no switch
     // ?playlist=folk (etc.) opens a genre playlist; kept in the URL so it can be shared.
     const setPlParam = slug => { const u = new URL(location.href); slug ? u.searchParams.set("playlist", slug) : u.searchParams.delete("playlist"); history.replaceState(null,"",u); };
     $("#pl-tabs").addEventListener("click",ev=>{const b=ev.target.closest("button"); if(b){ showPlaylist(b.dataset.area); setPlParam(""); }});

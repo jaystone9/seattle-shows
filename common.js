@@ -1,6 +1,9 @@
 // Shared helpers for 2 Week Soundcheck pages.
 window.SC = (function () {
-  const TZ = "America/Los_Angeles";
+  // City editions: Seattle is the root pages; other cities (/chicago/) set these on <body>.
+  const B = document.body ? document.body.dataset : {};
+  const TZ = B.tz || "America/Los_Angeles";
+  const DATA = B.data || "data/seattle.json";
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const todayISO = () => new Intl.DateTimeFormat("en-CA", { timeZone: TZ }).format(new Date());
   const addDays = (iso, n) => { const d = new Date(iso + "T12:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
@@ -10,7 +13,7 @@ window.SC = (function () {
     ? `${fmt(a, { month: "short", day: "numeric" })}–${fmt(b, { day: "numeric" })}`
     : `${fmt(a, { month: "short", day: "numeric" })}–${fmt(b, { month: "short", day: "numeric" })}`;
   const time = t => { if (!t) return ""; let [h, m] = t.split(":").map(Number); const ap = h >= 12 ? "pm" : "am"; h = h % 12 || 12; return m ? `${h}:${String(m).padStart(2, "0")}${ap}` : `${h}${ap}`; };
-  const load = () => fetch("data/seattle.json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+  const load = () => fetch(DATA, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
 
   function showRow(e, venues, compact) {
     const v = venues[e.venue] || { short: e.venue };
@@ -125,6 +128,18 @@ window.SC = (function () {
     t.style.transform = `translateX(${b.offsetLeft - 4}px)`;
     if (!group.dataset.slideInit) { group.dataset.slideInit = 1; addEventListener("resize", () => slide(group)); document.fonts && document.fonts.ready.then(() => slide(group)); }
   }
+
+  // City picker in the header: go to that city's version of the same page.
+  function cityPicker() {
+    const sel = document.getElementById("city");
+    if (!sel) return;
+    const page = /playlists\.html$/.test(location.pathname) ? "playlists.html" : "";
+    sel.addEventListener("change", () => {
+      const c = sel.value;
+      location.href = (c === "seattle" ? "/" : `/${c}/`) + page;
+    });
+  }
+  cityPicker();
 
   return { esc, todayISO, addDays, D, fmt, range, time, load, showRow, footer, previews, slide };
 })();

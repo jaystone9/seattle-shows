@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build seattle-shows.ics from shows/*.json.
 
-Usage: python3 build_ics.py <shows_dir> <out.ics>
+Usage: python3 build_ics.py <shows_dir> <out.ics> [--city chicago]
 Each JSON file: array of {venue, room, title, date YYYY-MM-DD, doors HH:MM|null,
 start HH:MM|null, url, status}. Times are America/Los_Angeles local.
 UIDs are stable (venue+date+title) so weekly rebuilds update in place.
@@ -86,6 +86,36 @@ def address(ev):
     return v
 
 
+CAL = {"name": "Seattle", "tz": "America/Los_Angeles", "vtz": VTZ, "uid": "seattle-shows"}
+
+VTZ_CHICAGO = """BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE"""
+
+
+def use_city(slug):
+    """Switch to another edition (cities.py): its addresses, time zone and calendar name."""
+    from cities import CITIES
+    c = CITIES[slug]
+    ADDR.clear()
+    ADDR.update(c["addr"])
+    CAL.update(name=c["name"], tz=c["tz"], vtz={"America/Chicago": VTZ_CHICAGO}[c["tz"]], uid=f"{slug}-shows")
+
+
 def main(src, out):
     events, seen = [], set()
     for f in sorted(glob.glob(f"{src}/*.json")):
@@ -103,14 +133,15 @@ def main(src, out):
     events.sort(key=lambda x: (x[0], x[1].get("start") or x[1].get("doors") or ""))
 
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Claude//Seattle Shows//EN",
-         "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:2 Week Soundcheck · Seattle",
-         "X-WR-TIMEZONE:America/Los_Angeles",
-         "X-WR-CALDESC:Concerts at Seattle's best venues from 2weeksoundcheck.com - refreshed weekly",
-         "REFRESH-INTERVAL;VALUE=DURATION:P1D", "X-PUBLISHED-TTL:P1D", VTZ]
+    city, tz = CAL["name"], CAL["tz"]
+    L = ["BEGIN:VCALENDAR", "VERSION:2.0", f"PRODID:-//Claude//{city} Shows//EN",
+         "CALSCALE:GREGORIAN", "METHOD:PUBLISH", f"X-WR-CALNAME:2 Week Soundcheck · {city}",
+         f"X-WR-TIMEZONE:{tz}",
+         f"X-WR-CALDESC:Concerts at {city}'s best venues from 2weeksoundcheck.com - refreshed weekly",
+         "REFRESH-INTERVAL;VALUE=DURATION:P1D", "X-PUBLISHED-TTL:P1D", CAL["vtz"]]
     for d, ev in events:
         uid = hashlib.sha1(f"{ev['venue']}|{ev['date']}|{ev['title']}|{ev.get('start') or ev.get('doors') or ''}"
-                           .lower().encode()).hexdigest()[:20] + "@seattle-shows"
+                           .lower().encode()).hexdigest()[:20] + "@" + CAL["uid"]
         venue = ev["venue"] + (f" – {ev['room']}" if ev.get("room") else "")
         status = (ev.get("status") or "").strip()
         summary = ev["title"].strip()
@@ -132,8 +163,8 @@ def main(src, out):
             hh, mm = (int(x) for x in t.split(":")[:2])
             s = dt.datetime(d.year, d.month, d.day, hh, mm)
             e = s + dt.timedelta(hours=3)
-            L += [f"DTSTART;TZID=America/Los_Angeles:{s:%Y%m%dT%H%M%S}",
-                  f"DTEND;TZID=America/Los_Angeles:{e:%Y%m%dT%H%M%S}"]
+            L += [f"DTSTART;TZID={tz}:{s:%Y%m%dT%H%M%S}",
+                  f"DTEND;TZID={tz}:{e:%Y%m%dT%H%M%S}"]
         else:
             L += [f"DTSTART;VALUE=DATE:{d:%Y%m%d}",
                   f"DTEND;VALUE=DATE:{d + dt.timedelta(days=1):%Y%m%d}"]
@@ -151,4 +182,9 @@ def main(src, out):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    args = sys.argv[1:]
+    if "--city" in args:
+        i = args.index("--city")
+        use_city(args[i + 1])
+        del args[i:i + 2]
+    main(args[0], args[1])

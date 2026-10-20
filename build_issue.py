@@ -2,6 +2,10 @@
 """Draft this week's 2 Week Soundcheck newsletter issue and its pre-send check email.
 
 Usage: python3 build_issue.py [data/seattle.json] [issues/] [--check-links]
+       python3 build_issue.py --city chicago [--check-links]   (writes chicago/issues/)
+
+Both cities share one beehiiv publication; each issue goes ONLY to its city's segment
+("Seattle readers" / "Chicago readers"). The check email says which one.
 
 Writes:
   issues/<start>.html        the subscriber issue (paste into the beehiiv editor)
@@ -61,13 +65,26 @@ def check(url):
 
 
 def main(*args):
+    global SITE
+    args = list(args)
+    city = None
+    if "--city" in args:
+        i = args.index("--city")
+        from cities import CITIES
+        slug = args[i + 1]
+        city = dict(CITIES[slug], slug=slug)
+        del args[i:i + 2]
     flags = {a for a in args if a.startswith("--")}
     pos = [a for a in args if not a.startswith("--")]
-    src = pos[0] if pos else "data/seattle.json"
-    outdir = pos[1] if len(pos) > 1 else "issues"
+    src = pos[0] if pos else (city["data"] if city else "data/seattle.json")
+    outdir = pos[1] if len(pos) > 1 else (f"{city['dir']}/issues" if city else "issues")
+    nl_file = f"{city['dir']}/newsletter.json" if city else "newsletter.json"
+    if city:
+        SITE = f"https://2weeksoundcheck.com/{city['slug']}/"
+    want_areas = city["area_playlists"] if city else ["Frelard"]
 
     d = json.load(open(src))
-    cfg = json.load(open("newsletter.json")) if os.path.exists("newsletter.json") else {}
+    cfg = json.load(open(nl_file)) if os.path.exists(nl_file) else {}
     transfer = cfg.get("transfer_url") or DEFAULT_TRANSFER
 
     pl = d.get("playlist") or {}
@@ -82,8 +99,8 @@ def main(*args):
     fr = areas.get("Frelard")
     warnings = []
     if not pl.get("url"):
-        warnings.append("The Seattle playlist has no link for this window.")
-    if not fr:
+        warnings.append(f"The {d.get('edition', 'Seattle')} playlist has no link for this window.")
+    if not fr and "Frelard" in want_areas:
         warnings.append("No Frelard playlist for this window in playlists.json. Build it (PLAYLIST.md 4b) and rerun.")
     pers = {(p.get("per_artist") or 3) for p in [pl] + ([fr] if fr else [])}
     per = WORDS.get(pers.pop(), "") if len(pers) == 1 else ""  # only state a count when both playlists agree
@@ -127,8 +144,9 @@ def main(*args):
         t.append(f"JUST WANT ONE GENRE? {word} genre playlists from the same shows, refreshed every Sunday. "
                  "Follow one on Spotify and it updates itself:\n"
                  + "\n".join(f"  {g['genre']}: {g['url']}" for g in gps) + "\n")
-    h.append(f"<p>Not on Spotify? {link(transfer, 'Copy either playlist to Apple Music, YouTube Music and more, free →')}</p>")
-    t.append(f"Not on Spotify? Copy either playlist to Apple Music, YouTube Music and more, free: {transfer}\n")
+    which = "either playlist" if fr else "the playlist"
+    h.append(f"<p>Not on Spotify? {link(transfer, f'Copy {which} to Apple Music, YouTube Music and more, free →')}</p>")
+    t.append(f"Not on Spotify? Copy {which} to Apple Music, YouTube Music and more, free: {transfer}\n")
 
     h.append("<hr>")
     h.append(f'<p>{link(SITE, f"All {n} shows are on the site →", bold=True)}<br>'
@@ -153,6 +171,8 @@ def main(*args):
     c = [f"Subject: CHECK before sending: {subject}", "",
          "This is the pre-send check. The beehiiv test of the real issue arrives separately.",
          "Nothing goes to subscribers until you say OK.", "",
+         "SEND TO",
+         f"  beehiiv segment \"{edition} readers\" only (refresh the segment first). Never All subscribers.", "",
          "LINKS"]
     for label, url in links:
         if not url:
@@ -168,7 +188,7 @@ def main(*args):
     for g in gps:
         stale = "" if g.get("start") == start else f"  [NOT REFRESHED: still {g.get('start')}]"
         c.append(f"  {g['genre']}: {g.get('songs', '?')} songs, {g.get('artists', '?')} artists{stale}")
-    for name, p in (("Seattle", pl), ("Frelard", fr or {})):
+    for name, p in ((edition, pl), ("Frelard", fr or {})):
         if p.get("skipped"):
             c.append(f"  {name} skipped (not on Spotify or ambiguous): {', '.join(p['skipped'])}")
     c += ["", "FLAGS"] + ([f"  - {w}" for w in warnings] or ["  None from the build. Add anything found in the run (failed venues, reports)."])

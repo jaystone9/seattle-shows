@@ -5,6 +5,7 @@ Usage:
   python3 lineup.py                      # citywide: headliners, today -> +13 days
   python3 lineup.py --area Frelard       # Frelard: headliners AND openers
   python3 lineup.py --area Frelard --start 2026-10-18 --json
+  python3 lineup.py --city chicago       # another edition (cities.py): reads chicago/shows/
 
 Reads shows/*.json. Skips cancelled/postponed shows.
 For an area, openers are included because small rooms are where the discovery is:
@@ -41,24 +42,30 @@ def main():
     ap.add_argument("--area", help='e.g. "Frelard"; omit for citywide')
     ap.add_argument("--start", help="YYYY-MM-DD (default: today, Pacific)")
     ap.add_argument("--json", action="store_true", help="print JSON instead of text")
+    ap.add_argument("--city", help="another edition from cities.py, e.g. chicago")
     a = ap.parse_args()
 
     # Read the venue files directly (not data/seattle.json) so a window that started
     # before today, e.g. Sunday's playlist on a Tuesday, still includes its first days.
     import glob
-    from build_site import VENUES, venue_key, split_title
-    start = dt.date.fromisoformat(a.start) if a.start else dt.datetime.now(ZoneInfo("America/Los_Angeles")).date()
+    import build_site
+    tz, shows_dir, edition = "America/Los_Angeles", "shows", "Seattle"
+    if a.city:
+        build_site.use_city(a.city)
+        tz, shows_dir, edition = build_site.CITY["tz"], build_site.path("shows"), build_site.CITY["name"]
+    venue_key, split_title = build_site.venue_key, build_site.split_title
+    start = dt.date.fromisoformat(a.start) if a.start else dt.datetime.now(ZoneInfo(tz)).date()
     end = start + dt.timedelta(days=13)
-    venues = VENUES
+    venues = build_site.VENUES
     events = []
-    for f in sorted(glob.glob("shows/*.json")):
+    for f in sorted(glob.glob(f"{shows_dir}/*.json")):
         for ev in json.load(open(f)):
             title, support = split_title(ev["title"])
             events.append({"date": ev.get("date", ""), "time": ev.get("start") or ev.get("doors") or "",
                            "venue": venue_key(ev), "title": title, "support": support,
                            "status": (ev.get("status") or "").lower()})
     events.sort(key=lambda e: (e["date"], e["time"]))
-    d = {"events": events, "edition": "Seattle"}
+    d = {"events": events, "edition": edition}
     acts, seen = [], set()
     for e in d["events"]:
         if not (start.isoformat() <= e["date"] <= end.isoformat()):

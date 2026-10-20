@@ -2,6 +2,7 @@
 """Build the 2 Week Soundcheck site data for one city edition.
 
 Usage: python3 build_site.py [shows_dir] [playlists.json] [out.json]
+       python3 build_site.py --city chicago     (another edition; see cities.py)
 Defaults: shows/  playlists.json  data/seattle.json
 playlists.json is a list, newest first; the first entry is "this week's".
 
@@ -12,6 +13,7 @@ or an info page, and adds the current playlist + newsletter settings.
 import datetime as dt
 import glob
 import json
+import os
 import re
 import sys
 from zoneinfo import ZoneInfo
@@ -128,7 +130,29 @@ def split_title(title):
     return t, support
 
 
+CITY = None   # None = Seattle (root files); else a cities.CITIES entry
+
+
+def path(name):
+    """A per-city file (playlists.json, previews.json, ...): at the repo root for Seattle,
+    in the city's folder otherwise. genres.json and contact.json are shared."""
+    return f"{CITY['dir']}/{name}" if CITY else name
+
+
+def use_city(slug):
+    global CITY, VENUES, AREAS, TZ
+    from cities import CITIES
+    CITY = CITIES[slug]
+    VENUES = {k: dict(v) for k, v in CITY["venues"].items()}
+    AREAS = CITY["areas"]
+    TZ = ZoneInfo(CITY["tz"])
+    for v in VENUES.values():
+        v["area"] = next((a for a, hoods in AREAS.items() if v["hood"] in hoods), CITY["name"])
+
+
 def main(src="shows", pl="playlists.json", out="data/seattle.json"):
+    if CITY:
+        src, pl, out = path("shows"), path("playlists.json"), CITY["data"]
     today = dt.datetime.now(TZ).date()
     # Keep shows from the start of the current playlist window (e.g. last Sunday), so the
     # home page chart can still show the days that have already passed, muted.
@@ -170,7 +194,7 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
     events.sort(key=lambda e: (e["date"], e["time"] or "99", e["title"].lower()))
     # previews.json: {show title: {"artist": id, "track": id, "song": name}} for the next two weeks
     try:
-        pv = json.load(open("previews.json"))
+        pv = json.load(open(path("previews.json")))
     except FileNotFoundError:
         pv = {}
     for e in events:
@@ -181,6 +205,13 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
     # shows further out aren't reviewed yet, so they carry no "genres" key.
     try:
         confirmed = {k.lower(): v.get("genres") or [] for k, v in json.load(open("genres.json")).items()}
+    except FileNotFoundError:
+        confirmed = {}
+    # A new edition gets genres only once its own genre playlists exist (i.e. its artists have
+    # been through the Sunday genre review); before that most shows would wrongly read "Other / Local".
+    try:
+        if CITY and not json.load(open(path("genre_playlists.json"))):
+            confirmed = {}
     except FileNotFoundError:
         confirmed = {}
     try:
@@ -207,24 +238,24 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
     # Standing genre playlists (one per genre, same Spotify playlist refreshed each Sunday).
     # They live in their own file so they never become "this week's" playlist or enter the archive.
     try:
-        gp = {p["genre"]: p for p in json.load(open("genre_playlists.json")) if p.get("id")}
+        gp = {p["genre"]: p for p in json.load(open(path("genre_playlists.json"))) if p.get("id")}
     except FileNotFoundError:
         gp = {}
     genre_playlists = [dict(gp[g], slug=GENRE_SLUGS[g]) for g in GENRES if g in gp]
     # Dated snapshot of each genre playlist per window (Jay, Oct 18, 2026), for the Playlists archive.
     # Kept apart from playlists.json so they never count as the citywide or an area playlist.
     try:
-        genre_archive = json.load(open("genre_archive.json"))
+        genre_archive = json.load(open(path("genre_archive.json")))
     except FileNotFoundError:
         genre_archive = []
     order = {g: i for i, g in enumerate(GENRES)}
     genre_archive.sort(key=lambda p: (p["start"], -order.get(p["genre"], 99)), reverse=True)
     data = {
         "brand": "2 Week Soundcheck",
-        "edition": "Seattle",
+        "edition": CITY["name"] if CITY else "Seattle",
         "generated": dt.datetime.now(TZ).isoformat(timespec="minutes"),
-        "calendar": "webcal://2weeksoundcheck.com/seattle-shows.ics",
-        "newsletter": json.load(open("newsletter.json")) if glob.glob("newsletter.json") else {},
+        "calendar": f"webcal://2weeksoundcheck.com/{CITY['calendar_file'] if CITY else 'seattle-shows.ics'}",
+        "newsletter": json.load(open(path("newsletter.json"))) if glob.glob(path("newsletter.json")) else {},
         "playlist": playlist,
         "playlists": playlists,
         "area_playlists": area_playlists,
@@ -242,13 +273,67 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
     with open(out, "w") as fh:
         json.dump(data, fh, ensure_ascii=False, separators=(",", ":"))
     print(f"{len(events)} upcoming events -> {out}")
+    city_pages()
     stamp_assets()
+
+
+def city_picker():
+    """The <select id="city"> options for every page: Seattle, then each other edition,
+    linked once it's live and "coming soon" (disabled) until then."""
+    from cities import CITIES
+    opts = [("seattle", "Seattle", False)] + [(k, c["name"] if c["live"] else f"{c['name']} (coming soon)", not c["live"]) for k, c in CITIES.items()]
+    return opts
+
+
+def city_pages():
+    """Write /<city>/index.html and /<city>/playlists.html from the Seattle pages, and keep the
+    city picker on every page in sync with cities.py. Seattle's pages stay the templates, so a
+    design change there reaches every edition on the next build."""
+    from cities import CITIES
+    opts = city_picker()
+
+    def picker(html, current):
+        body = "".join(f'\n        <option value="{k}"{" selected" if k == current else ""}{" disabled" if off else ""}>{label}</option>'
+                       for k, label, off in opts)
+        return re.sub(r'(<select id="city" aria-label="City">).*?(\s*</select>)', lambda m: m.group(1) + body + m.group(2), html, flags=re.S)
+
+    for page in ("index.html", "playlists.html", "contact.html"):
+        if glob.glob(page):
+            html = open(page).read()
+            new = picker(html, "seattle")
+            if new != html:
+                open(page, "w").write(new)
+
+    for slug, c in CITIES.items():
+        name = c["name"]
+        for page in ("index.html", "playlists.html"):
+            html = open(page).read()
+            subs = [
+                ("<body>", f'<body data-city="{slug}" data-tz="{c["tz"]}" data-data="../{c["data"]}">'),
+                ('href="site.css', 'href="../site.css'),
+                ('src="common.js', 'src="../common.js'),
+                ('href="contact.html', 'href="../contact.html'),
+                ('content="https://2weeksoundcheck.com/"', f'content="https://2weeksoundcheck.com/{slug}/"'),
+                ('content="https://2weeksoundcheck.com/playlists.html"', f'content="https://2weeksoundcheck.com/{slug}/playlists.html"'),
+                ("og-image.jpg", f"og-image-{slug}.jpg"),
+                ("Seattle", name),
+                ('const PL_AREAS = ["Frelard"];', f"const PL_AREAS = {json.dumps(c['area_playlists'])};"),
+            ]
+            for a, b in subs:
+                html = html.replace(a, b)
+            html = picker(html, slug)   # after the name swap, so the Seattle option keeps its label
+            os.makedirs(slug, exist_ok=True)
+            out = f"{slug}/{page}"
+            if not glob.glob(out) or open(out).read() != html:
+                open(out, "w").write(html)
 
 
 def stamp_assets(pages=("index.html", "playlists.html", "contact.html"), assets=("site.css", "common.js")):
     """Add ?v=<content hash> to the shared CSS/JS links so browsers fetch new copies after each change."""
     import hashlib
     import re
+    from cities import CITIES
+    pages = list(pages) + [f"{k}/{p}" for k in CITIES for p in ("index.html", "playlists.html")]
     for page in pages:
         if not glob.glob(page):
             continue
@@ -258,10 +343,15 @@ def stamp_assets(pages=("index.html", "playlists.html", "contact.html"), assets=
             if not glob.glob(asset):
                 continue
             v = hashlib.md5(open(asset, "rb").read()).hexdigest()[:8]
-            new = re.sub(r'(["\'])' + re.escape(asset) + r'(\?v=[0-9a-f]+)?(["\'])', r"\g<1>" + asset + "?v=" + v + r"\g<3>", new)
+            new = re.sub(r'(["\'])((?:\.\./)?)' + re.escape(asset) + r'(\?v=[0-9a-f]+)?(["\'])', r"\g<1>\g<2>" + asset + "?v=" + v + r"\g<4>", new)
         if new != html:
             open(page, "w").write(new)
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:])
+    args = sys.argv[1:]
+    if "--city" in args:
+        i = args.index("--city")
+        use_city(args[i + 1])
+        del args[i:i + 2]
+    main(*args)
