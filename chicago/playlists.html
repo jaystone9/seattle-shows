@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=e57820ca">
+<link rel="stylesheet" href="../site.css?v=8c1d9c6a">
 </head>
 <body data-city="chicago" data-tz="America/Chicago" data-data="../data/chicago.json">
 <div class="wrap">
@@ -47,7 +47,10 @@
   <section class="page-head">
     <h1>Every playlist</h1>
     <p>Every playlist we've made, newest first.</p>
-    <div class="pl-tabs pl-filter" id="pl-filter" role="group" aria-label="Show playlists for" hidden></div>
+    <div class="pl-row">
+      <div class="pl-tabs pl-filter" id="pl-filter" role="group" aria-label="Show playlists for" hidden></div>
+      <p class="pl-transfer">Not on Spotify? <a id="pl-transfer" href="https://www.tunemymusic.com/transfer" target="_blank" rel="noopener">Copy any playlist to Apple Music, YouTube Music and more, free</a></p>
+    </div>
     <div class="g-chips" id="pl-genres" role="group" aria-label="Genre" hidden></div>
   </section>
 
@@ -81,6 +84,7 @@
 <script>
 SC.load().then(data=>{
   SC.footer(data);
+  const tx = (data.newsletter || {}).transfer_url; if (tx) document.getElementById("pl-transfer").href = tx;
   const {esc,range} = SC;
   // One section per two-week window, newest first: the citywide and neighborhood playlists
   // (playlists.json) as players, then that window's dated genre playlists (genre_archive) as tiles.
