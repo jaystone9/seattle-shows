@@ -123,7 +123,7 @@ CITIES = {
         "venues": CHICAGO_VENUES,
         "areas": CHICAGO_AREAS,
         "addr": CHICAGO_ADDR,
-        "area_playlists": [],                # no Frelard-style neighborhood playlist yet
+        "area_playlists": ["Wicker Park & Logan Square"],   # Jay, Oct 19, 2026: headliners + openers
         "live": True,
     },
 }

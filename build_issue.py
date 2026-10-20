@@ -96,19 +96,20 @@ def main(*args):
     n = len(shows)
     edition = d.get("edition", "Seattle")
     areas = {a: p for a, p in (d.get("area_playlists") or {}).items() if p.get("start") == start and p.get("url")}
-    fr = areas.get("Frelard")
+    AREA = want_areas[0] if want_areas else None   # the city's neighborhood playlist, e.g. Frelard
+    fr = areas.get(AREA) if AREA else None
     warnings = []
     if not pl.get("url"):
         warnings.append(f"The {d.get('edition', 'Seattle')} playlist has no link for this window.")
-    if not fr and "Frelard" in want_areas:
-        warnings.append("No Frelard playlist for this window in playlists.json. Build it (PLAYLIST.md 4b) and rerun.")
+    if not fr and AREA:
+        warnings.append(f"No {AREA} playlist for this window in playlists.json. Build it (PLAYLIST.md 4b) and rerun.")
     pers = {(p.get("per_artist") or 3) for p in [pl] + ([fr] if fr else [])}
     per = WORDS.get(pers.pop(), "") if len(pers) == 1 else ""  # only state a count when both playlists agree
     if not per:
         warnings.append("The two playlists use different songs-per-artist counts, so the intro leaves the count out.")
 
     subject = f"{dates}: {edition} 2 Week Playlist"
-    preview_text = (f"Two new playlists for the next two weeks: all of {edition}, plus Frelard." if fr
+    preview_text = (f"Two new playlists for the next two weeks: all of {edition}, plus {AREA}." if fr
                     else f"Songs from every headliner playing {edition} over the next two weeks.")
 
     # ---------- the subscriber issue ----------
@@ -125,12 +126,15 @@ def main(*args):
         h.append(button(pl["url"], f"▶ Listen to the {edition} playlist on Spotify"))
         t.append(f"ALL OF {edition.upper()}: {pl.get('songs')} songs from {pl.get('artists')} headliners across the city.\n{pl['url']}\n")
     if fr:
-        why = ("I live in Ballard and want to go to more shows close to home, so this one covers "
-               "the small rooms in Fremont and Ballard, openers included.")
-        h.append("<h3>Frelard</h3>")
+        why = {"Frelard": "I live in Ballard and want to go to more shows close to home, so this one covers "
+                          "the small rooms in Fremont and Ballard, openers included.",
+               "Wicker Park & Logan Square": "The small rooms in Wicker Park, Logan Square and Avondale, "
+                                             "openers included, so you can find a new favorite before they play the big rooms."
+               }.get(AREA, f"The small rooms in {AREA}, openers included.")
+        h.append(f"<h3>{html.escape(AREA)}</h3>")
         h.append(f"<p>{why} {fr.get('songs')} songs from {fr.get('artists')} artists.</p>")
-        h.append(button(fr["url"], "▶ Listen to the Frelard playlist on Spotify"))
-        t.append(f"FRELARD: {why} {fr.get('songs')} songs from {fr.get('artists')} artists.\n{fr['url']}\n")
+        h.append(button(fr["url"], f"▶ Listen to the {AREA} playlist on Spotify"))
+        t.append(f"{AREA.upper()}: {why} {fr.get('songs')} songs from {fr.get('artists')} artists.\n{fr['url']}\n")
 
     # Genre playlists: each genre name links straight to its standing Spotify playlist (Jay, Oct 18, 2026),
     # so readers open Spotify without visiting the site. Text links in one line, not buttons.
@@ -164,7 +168,7 @@ def main(*args):
     open(f"{outdir}/{start}.txt", "w").write(f"Subject: {subject}\nPreview: {preview_text}\n\n" + "\n".join(t) + "\n")
 
     # ---------- the check email (Jay only) ----------
-    links = [(f"{edition} playlist", pl.get("url")), ("Frelard playlist", fr and fr.get("url")),
+    links = [(f"{edition} playlist", pl.get("url")), (f"{AREA} playlist", fr and fr.get("url")),
              ("Copy-to-other-apps tool", transfer), ("Site", SITE)]
     links[2:2] = [(f"{g['genre']} playlist", g.get("url")) for g in gps]
     do_http = "--check-links" in flags
@@ -184,11 +188,11 @@ def main(*args):
           f"  Shows on the site in this window: {n}",
           f"  {edition}: {pl.get('songs', '?')} songs, {pl.get('artists', '?')} headliners, {pl.get('per_artist', '?')} per artist"]
     if fr:
-        c.append(f"  Frelard: {fr.get('songs', '?')} songs, {fr.get('artists', '?')} artists, {fr.get('per_artist', '?')} per artist")
+        c.append(f"  {AREA}: {fr.get('songs', '?')} songs, {fr.get('artists', '?')} artists, {fr.get('per_artist', '?')} per artist")
     for g in gps:
         stale = "" if g.get("start") == start else f"  [NOT REFRESHED: still {g.get('start')}]"
         c.append(f"  {g['genre']}: {g.get('songs', '?')} songs, {g.get('artists', '?')} artists{stale}")
-    for name, p in ((edition, pl), ("Frelard", fr or {})):
+    for name, p in ((edition, pl), (AREA or "", fr or {})):
         if p.get("skipped"):
             c.append(f"  {name} skipped (not on Spotify or ambiguous): {', '.join(p['skipped'])}")
     c += ["", "FLAGS"] + ([f"  - {w}" for w in warnings] or ["  None from the build. Add anything found in the run (failed venues, reports)."])
