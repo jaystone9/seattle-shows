@@ -124,6 +124,6 @@ CITIES = {
         "areas": CHICAGO_AREAS,
         "addr": CHICAGO_ADDR,
         "area_playlists": [],                # no Frelard-style neighborhood playlist yet
-        "live": False,
+        "live": True,
     },
 }
