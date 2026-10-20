@@ -24,7 +24,7 @@ Window: TODAY through TODAY + 6 months. One JSON file per venue in `chicago/show
 | constellation.json | Constellation, Roscoe Village | constellation-chicago.com (See Tickets). Drop film nights |
 | old-town-school.json | Old Town School of Folk Music, Lincoln Square | oldtownschool.org/concerts. Drop kids' concerts, sing-alongs, teen open mics, dance parties |
 | wrigley-field.json | Wrigley Field, Wrigleyville | mlb.com/cubs/tickets/concerts. Summer only; usually announced in winter |
-| green-mill.json | Green Mill, Uptown | greenmilljazz.com/calendar (cover at the door, link the calendar). Drop the Sunday poetry slam and benefits |
+| green-mill.json | Green Mill, Uptown | greenmilljazz.com/calendar (cover at the door, link the calendar). FEATURED BOOKINGS ONLY (Jay, Oct 19, 2026): drop the weekly residency bands (Chicago Cellar Boys, Soul Message, Righteous Rooster Organ Trio, Joel Paterson & Friends, Chris Foreman, Alfonso Ponticelli, Alan Gresik's Swing Orchestra, Andy Brown's weekly set), the Sunday poetry slam and benefits |
 | riviera.json | Riviera Theatre, Uptown | jamusa.com/riviera-theatre (AXS). Drop comedy and drag |
 | aragon.json | Aragon Ballroom, Uptown | aragon.com / livenation.com. EDM-heavy: keep named touring artists |
 | thalia-hall.json | Thalia Hall, Pilsen | thaliahallchicago.com/shows loads by script; browser, Songkick. Drop comedy, movie nights, DJ parties |
@@ -47,6 +47,8 @@ Window: TODAY through TODAY + 6 months. One JSON file per venue in `chicago/show
 | ravinia.json | Ravinia, Highland Park | ravinia.org. Summer season plus occasional winter dates. Drop film-with-orchestra |
 | allstate-arena.json | Allstate Arena, Rosemont | rosemont.com/allstate. Drop hockey, circus, family/Disney shows |
 | credit-union-1-amphitheatre.json | Credit Union 1 Amphitheatre, Tinley Park | livenation.com venue page. Summer only |
+
+**Weekly residencies** (the same act every week, e.g. Green Mill's house bands, Martyrs' Sunday Hoyle Brothers sets, Beat Kitchen's Monday Extraordinary Popular Delusions) are dropped everywhere (Jay, Oct 19, 2026). Multi-night runs by a featured artist (Jazz Showcase stands, CSO programs) and monthly series stay.
 
 Do312 (do312.com) and Songkick venue pages are the best fallbacks when a venue site
 won't load in the workspace. Use the venue's own ticket link as `url` whenever it exists.

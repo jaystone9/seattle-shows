@@ -1,482 +1,422 @@
 [
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Extraordinary Popular Delusions",
-  "date": "2026-10-19",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/Extraordinary-Popular-Delusions/705493",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Josh Spinner (with Matt Augustine, Genevieve MacPhee)",
-  "date": "2026-10-21",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://wl.seetickets.us/event/josh-spinner/702966",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Ovven (with Samuel Aaron, Glass-Beagle)",
-  "date": "2026-10-22",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/ovven/700181",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Big Sandy & His Fly-Rite Boys (with The Rockin' Eldorados)",
-  "date": "2026-10-23",
-  "doors": "19:30",
-  "start": "20:30",
-  "url": "https://wl.seetickets.us/event/big-sandy-and-his-fly-rite-boys/701950",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Missing Link & Fatal Realm (with Pure Hatred, Phyxation)",
-  "date": "2026-10-24",
-  "doors": "13:00",
-  "start": "14:00",
-  "url": "https://wl.seetickets.us/event/missing-link-and-fatal-realm/705775",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Ak'chamel (with Derek Monypeny)",
-  "date": "2026-10-24",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/akchamel/694515",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Syd Taylor",
-  "date": "2026-10-25",
-  "doors": "18:30",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/syd-taylor/686295",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Extraordinary Popular Delusions",
-  "date": "2026-10-26",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/Extraordinary-Popular-Delusions/705494",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Splice Series (with Keith Helt, Jason Soliday, Graham Stephenson, Carol Genetti, Peter Maunu)",
-  "date": "2026-10-28",
-  "doors": "20:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/splice-series/708470",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Night of the Living Groove Vol. 2 (with Snooze, Cold World)",
-  "date": "2026-10-29",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/night-of-the-living-groove-vol-2/704077",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Radiator Hospital (with Dusk, Able Baker)",
-  "date": "2026-11-01",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/radiator-hospital/697266",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "June Henry (with chrysalis, Hannah Sandoz)",
-  "date": "2026-11-02",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/june-henry/701483",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Extraordinary Popular Delusions",
-  "date": "2026-11-02",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/Extraordinary-Popular-Delusions/708286",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Isabel Dumaa",
-  "date": "2026-11-04",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/isabel-dumaa/705908",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Louden Swain (with roseli)",
-  "date": "2026-11-05",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/louden-swain/695687",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Violet Crime (with JJ Smith, The King of Mars, Mikaela Brielle)",
-  "date": "2026-11-06",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://wl.seetickets.us/event/violet-crime/706667",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Frank Maza featuring Javier Limon",
-  "date": "2026-11-07",
-  "doors": "16:00",
-  "start": "17:00",
-  "url": "https://wl.seetickets.us/event/frank-maza-featuring-javier-limon-back-then/698083",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Austin Giorgio (with Caroline Romano)",
-  "date": "2026-11-08",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/austin-giorgio/695294",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Qendresa",
-  "date": "2026-11-09",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/qendresa/702627",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Extraordinary Popular Delusions",
-  "date": "2026-11-09",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/Extraordinary-Popular-Delusions/708287",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Qendresa",
-  "date": "2026-11-10",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/qendresa/701407",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Surely Tempo (with Dogs With Hats, Almost There But Not Really)",
-  "date": "2026-11-12",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/surely-tempo/699102",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Patrick Wolf (with Friend of a Friend)",
-  "date": "2026-11-13",
-  "doors": "19:30",
-  "start": "20:30",
-  "url": "https://wl.seetickets.us/event/patrick-wolf/699235",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Babehoven (with Shoulderbird)",
-  "date": "2026-11-14",
-  "doors": "19:30",
-  "start": "20:30",
-  "url": "https://wl.seetickets.us/event/babehoven/700921",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Allison Mahal (with Leah Jean, Whitney Fenimore)",
-  "date": "2026-11-15",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/allison-mahal/701314",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Sap (with Sludge Mother, aWannabe)",
-  "date": "2026-11-16",
-  "doors": "18:00",
-  "start": "18:30",
-  "url": "https://wl.seetickets.us/event/saps-erasure-tour/702943",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Extraordinary Popular Delusions",
-  "date": "2026-11-16",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/Extraordinary-Popular-Delusions/708288",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Surfing for Daisy (with Belle and Chain)",
-  "date": "2026-11-17",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/surfing-for-daisy-dont-quit-your-day-job-tour/699285",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Keenan Te",
-  "date": "2026-11-18",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://wl.seetickets.us/event/keenan-te/697515",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Denise Julia",
-  "date": "2026-11-19",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/denise-julia/703203",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Liim",
-  "date": "2026-11-22",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/liim/705778",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Extraordinary Popular Delusions",
-  "date": "2026-11-23",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/Extraordinary-Popular-Delusions/708289",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Jady",
-  "date": "2026-11-24",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/jady/695934",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "The Blind Staggers (with Ditch Witch)",
-  "date": "2026-11-25",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/the-blind-staggers/708614",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "The Palmer Squares",
-  "date": "2026-11-28",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/the-palmer-squares/701929",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Levi Bloom",
-  "date": "2026-12-02",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/levi-bloom/703335",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "LAPêCHE & Endearments (with flowersatherfeet)",
-  "date": "2026-12-06",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/lapeche-and-endearments/706704",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Chris Simpson (of Mineral)",
-  "date": "2026-12-08",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/chris-simpson-of-mineral/706216",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Chris Farren",
-  "date": "2026-12-10",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/chris-farren/706112",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Grandma's Cottage (with Mythstone, Elyvilon)",
-  "date": "2026-12-11",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/mythmas-an-evening-of-yuletide-fantasy-synth/705205",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Bird and Byron",
-  "date": "2026-12-12",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/bird-and-byron/695955",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "The Dog & Everyone (with Champions)",
-  "date": "2026-12-19",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/the-dog-and-everyone-a-very-2003-holiday-show/704716",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "MISSIO (with No Love For The Middle Child, Kent Osborne)",
-  "date": "2027-01-13",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/missio/701943",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Isabel van Gelder",
-  "date": "2027-01-26",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/isabel-van-gelder/699486",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Hot Freaks",
-  "date": "2027-01-28",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/hot-freaks/706431",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Coey Redd",
-  "date": "2027-03-03",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/coey-redd/707808",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Sister Wife Sex Strike (with Rent Strike, Davey Dynamite)",
-  "date": "2027-03-14",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/sister-wife-sex-strike/705713",
-  "status": null
- },
- {
-  "venue": "Beat Kitchen",
-  "room": null,
-  "title": "Baby Bugs (with Elliot Lee)",
-  "date": "2027-03-16",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/baby-bugs/685984",
-  "status": null
- }
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Josh Spinner (with Matt Augustine, Genevieve MacPhee)",
+    "date": "2026-10-21",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://wl.seetickets.us/event/josh-spinner/702966",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Ovven (with Samuel Aaron, Glass-Beagle)",
+    "date": "2026-10-22",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/ovven/700181",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Big Sandy & His Fly-Rite Boys (with The Rockin' Eldorados)",
+    "date": "2026-10-23",
+    "doors": "19:30",
+    "start": "20:30",
+    "url": "https://wl.seetickets.us/event/big-sandy-and-his-fly-rite-boys/701950",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Missing Link & Fatal Realm (with Pure Hatred, Phyxation)",
+    "date": "2026-10-24",
+    "doors": "13:00",
+    "start": "14:00",
+    "url": "https://wl.seetickets.us/event/missing-link-and-fatal-realm/705775",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Ak'chamel (with Derek Monypeny)",
+    "date": "2026-10-24",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/akchamel/694515",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Syd Taylor",
+    "date": "2026-10-25",
+    "doors": "18:30",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/syd-taylor/686295",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Splice Series (with Keith Helt, Jason Soliday, Graham Stephenson, Carol Genetti, Peter Maunu)",
+    "date": "2026-10-28",
+    "doors": "20:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/splice-series/708470",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Night of the Living Groove Vol. 2 (with Snooze, Cold World)",
+    "date": "2026-10-29",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/night-of-the-living-groove-vol-2/704077",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Radiator Hospital (with Dusk, Able Baker)",
+    "date": "2026-11-01",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/radiator-hospital/697266",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "June Henry (with chrysalis, Hannah Sandoz)",
+    "date": "2026-11-02",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/june-henry/701483",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Isabel Dumaa",
+    "date": "2026-11-04",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/isabel-dumaa/705908",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Louden Swain (with roseli)",
+    "date": "2026-11-05",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/louden-swain/695687",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Violet Crime (with JJ Smith, The King of Mars, Mikaela Brielle)",
+    "date": "2026-11-06",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://wl.seetickets.us/event/violet-crime/706667",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Frank Maza featuring Javier Limon",
+    "date": "2026-11-07",
+    "doors": "16:00",
+    "start": "17:00",
+    "url": "https://wl.seetickets.us/event/frank-maza-featuring-javier-limon-back-then/698083",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Austin Giorgio (with Caroline Romano)",
+    "date": "2026-11-08",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/austin-giorgio/695294",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Qendresa",
+    "date": "2026-11-09",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/qendresa/702627",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Qendresa",
+    "date": "2026-11-10",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/qendresa/701407",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Surely Tempo (with Dogs With Hats, Almost There But Not Really)",
+    "date": "2026-11-12",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/surely-tempo/699102",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Patrick Wolf (with Friend of a Friend)",
+    "date": "2026-11-13",
+    "doors": "19:30",
+    "start": "20:30",
+    "url": "https://wl.seetickets.us/event/patrick-wolf/699235",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Babehoven (with Shoulderbird)",
+    "date": "2026-11-14",
+    "doors": "19:30",
+    "start": "20:30",
+    "url": "https://wl.seetickets.us/event/babehoven/700921",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Allison Mahal (with Leah Jean, Whitney Fenimore)",
+    "date": "2026-11-15",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/allison-mahal/701314",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Sap (with Sludge Mother, aWannabe)",
+    "date": "2026-11-16",
+    "doors": "18:00",
+    "start": "18:30",
+    "url": "https://wl.seetickets.us/event/saps-erasure-tour/702943",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Surfing for Daisy (with Belle and Chain)",
+    "date": "2026-11-17",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/surfing-for-daisy-dont-quit-your-day-job-tour/699285",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Keenan Te",
+    "date": "2026-11-18",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://wl.seetickets.us/event/keenan-te/697515",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Denise Julia",
+    "date": "2026-11-19",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/denise-julia/703203",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Liim",
+    "date": "2026-11-22",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/liim/705778",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Jady",
+    "date": "2026-11-24",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/jady/695934",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "The Blind Staggers (with Ditch Witch)",
+    "date": "2026-11-25",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/the-blind-staggers/708614",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "The Palmer Squares",
+    "date": "2026-11-28",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/the-palmer-squares/701929",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Levi Bloom",
+    "date": "2026-12-02",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/levi-bloom/703335",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "LAPêCHE & Endearments (with flowersatherfeet)",
+    "date": "2026-12-06",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/lapeche-and-endearments/706704",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Chris Simpson (of Mineral)",
+    "date": "2026-12-08",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/chris-simpson-of-mineral/706216",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Chris Farren",
+    "date": "2026-12-10",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/chris-farren/706112",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Grandma's Cottage (with Mythstone, Elyvilon)",
+    "date": "2026-12-11",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/mythmas-an-evening-of-yuletide-fantasy-synth/705205",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Bird and Byron",
+    "date": "2026-12-12",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/bird-and-byron/695955",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "The Dog & Everyone (with Champions)",
+    "date": "2026-12-19",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/the-dog-and-everyone-a-very-2003-holiday-show/704716",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "MISSIO (with No Love For The Middle Child, Kent Osborne)",
+    "date": "2027-01-13",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/missio/701943",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Isabel van Gelder",
+    "date": "2027-01-26",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/isabel-van-gelder/699486",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Hot Freaks",
+    "date": "2027-01-28",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/hot-freaks/706431",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Coey Redd",
+    "date": "2027-03-03",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/coey-redd/707808",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Sister Wife Sex Strike (with Rent Strike, Davey Dynamite)",
+    "date": "2027-03-14",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/sister-wife-sex-strike/705713",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Baby Bugs (with Elliot Lee)",
+    "date": "2027-03-16",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/baby-bugs/685984",
+    "status": null
+  }
 ]
