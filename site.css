@@ -274,3 +274,4 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .pl-row .pl-filter{margin-bottom:12px}
 .page-head .pl-transfer{margin:0 0 12px;color:var(--muted);font-size:15px;max-width:none}
 .page-head .pl-transfer a{color:var(--ink)}
+@media (max-width:719px){.pl-row .pl-filter{flex-wrap:wrap;max-width:100%;border-radius:22px}}

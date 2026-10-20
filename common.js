@@ -125,6 +125,7 @@ window.SC = (function () {
     if (!b) { t.style.opacity = 0; return; }
     t.style.opacity = 1;
     t.style.width = b.offsetWidth + "px";
+    t.style.top = b.offsetTop + "px"; t.style.height = b.offsetHeight + "px"; t.style.bottom = "auto";   // rows can wrap on phones
     t.style.transform = `translateX(${b.offsetLeft - 4}px)`;
     if (!group.dataset.slideInit) { group.dataset.slideInit = 1; addEventListener("resize", () => slide(group)); document.fonts && document.fonts.ready.then(() => slide(group)); }
   }
