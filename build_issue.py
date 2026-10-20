@@ -34,7 +34,7 @@ import os
 import sys
 import urllib.request
 
-SITE = "https://2weeksoundcheck.com/"
+SITE = "https://2weeksoundcheck.com/seattle/"
 PINK = "#D6336C"
 MUTED = "#5A6476"
 WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five"}

@@ -3,19 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>2 Week Soundcheck · Seattle</title>
-<meta name="description" content="The next two weeks of live music at Seattle's best venues, all in one place, plus a playlist of every headliner and ticket links.">
+<script>
+// Old links to the Seattle page with filters (flyers with ?area=frelard, shared searches)
+// now live at /seattle/. Forward them before anything renders.
+(function () {
+  var p = new URLSearchParams(location.search);
+  if (["area", "venue", "genre", "date", "q", "playlist"].some(function (k) { return p.has(k); }))
+    location.replace("/seattle/" + location.search + location.hash);
+})();
+</script>
+<title>2 Week Soundcheck · The next two weeks of live music</title>
+<meta name="description" content="The next two weeks of live music in Seattle and Chicago, all in one place, plus a playlist to hear it first. New every Sunday.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="2 Week Soundcheck">
 <meta property="og:url" content="https://2weeksoundcheck.com/">
-<meta property="og:title" content="2 Week Soundcheck · Seattle">
-<meta property="og:description" content="The next two weeks of live music at Seattle's best venues, all in one place, plus a playlist of every headliner and ticket links.">
-<meta property="og:image" content="https://2weeksoundcheck.com/og-image.jpg">
+<meta property="og:title" content="2 Week Soundcheck">
+<meta property="og:description" content="The next two weeks of live music in Seattle and Chicago, all in one place, plus a playlist to hear it first. New every Sunday.">
+<meta property="og:image" content="https://2weeksoundcheck.com/og-image-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="A vintage photo of a bandleader singing into a microphone with a bass player behind him, captioned 2 Week Soundcheck, Seattle.">
+<meta property="og:image:alt" content="A vintage photo of a bandleader singing into a microphone with a bass player behind him, captioned 2 Week Soundcheck.">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://2weeksoundcheck.com/og-image.jpg">
+<meta name="twitter:image" content="https://2weeksoundcheck.com/og-image-home.jpg">
 <meta name="theme-color" content="#F3F5F9" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1A2030" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231C2433'/%3E%3Crect x='6' y='14' width='4' height='12' fill='%23D6336C'/%3E%3Crect x='14' y='8' width='4' height='18' fill='%23D6336C'/%3E%3Crect x='22' y='11' width='4' height='15' fill='%23D6336C'/%3E%3Crect x='14' y='5' width='4' height='2' fill='%23F2A100'/%3E%3C/svg%3E">
@@ -23,304 +32,132 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="site.css?v=e57820ca">
+<style>
+.home-hero{padding:64px 0 0}
+.home-hero .lead{margin:0 0 12px;font-weight:700;font-size:28px;line-height:1.15;font-variation-settings:"wdth" 80;color:var(--muted)}
+.cities{border-top:2px solid var(--ink)}
+.city-row{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px 24px;padding:14px 0 18px;border-bottom:2px solid var(--ink);text-decoration:none;color:var(--ink)}
+.city-name{font-weight:850;font-variation-settings:var(--narrow);font-size:clamp(64px,13vw,148px);line-height:.9;letter-spacing:-.02em}
+.city-name .arrow{color:var(--gel);display:inline-block;transition:transform .2s}
+.city-row:hover .city-name .arrow,.city-row:focus-visible .city-name .arrow{transform:translateX(8px)}
+.city-meta{display:flex;flex-direction:column;gap:2px;color:var(--muted);font-size:16px}
+.city-meta b{color:var(--ink);font-size:18px}
+@media (min-width:720px){.city-meta{align-items:flex-end;text-align:right}}
+@media (max-width:719px){.city-name{line-height:1}}
+.home-more{margin:20px 0 0;color:var(--muted);font-size:16px}
+.home-signup{margin:56px 0 0;display:grid;gap:16px 32px;align-items:center;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--gel);border-radius:12px;padding:24px;scroll-margin-top:16px}
+@media (min-width:760px){.home-signup{grid-template-columns:1.1fr 1fr;padding:28px 32px}}
+.home-signup h2{margin:0;font-size:30px;line-height:1.05;font-weight:850;font-variation-settings:var(--narrow);display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.home-signup h2 .pl-tabs{margin:0}
+.home-signup h2 .pl-tabs button{font-size:16px;padding:7px 16px}
+.home-signup .sub{margin:8px 0 0;color:var(--muted);font-size:16px}
+.home-signup footer,.home-foot{margin-top:48px}
+.home-foot{padding:24px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:8px 20px}
+.home-foot a{color:var(--muted)}
+</style>
 </head>
 <body>
 <div class="wrap">
   <header class="mast">
     <div class="brandrow">
-    <a class="brand" href="./"><b>2</b> Week Soundcheck</a>
-    <label class="edition"><span class="visually-hidden">City</span>
-      <select id="city" aria-label="City">
-        <option value="seattle" selected>Seattle</option>
-        <option value="chicago">Chicago</option>
-      </select>
-    </label>
+      <a class="brand" href="/"><b>2</b> Week Soundcheck</a>
     </div>
     <nav class="nav" aria-label="Main">
-      <a href="./" aria-current="page">Shows</a>
-      <a href="playlists.html">Playlists</a>
       <a href="#newsletter">Sunday email</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <section class="hero" aria-labelledby="range">
-    <h1 id="range" class="pending"><span id="r1">The next</span><span id="r2">two weeks</span></h1>
-    <p id="lede">The next two weeks of live music at Seattle's best venues, all in one place. We hope you fall in love with some new artists and go see them live.</p>
-    <div class="meter" id="meter" role="list" aria-label="Shows per day"></div>
-    <div class="days" id="days" aria-hidden="true"></div>
-  </section>
+  <main>
+    <section class="home-hero" aria-labelledby="pick">
+      <h1 id="pick" class="lead">The next two weeks of live music in</h1>
+      <nav class="cities" aria-label="Choose a city">
+      <a class="city-row" href="/seattle/" data-city="seattle"><span class="city-name">Seattle<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta"><b>Oct 18–31</b><span>140 artists on the playlist</span></span></a>
+      <a class="city-row" href="/chicago/" data-city="chicago"><span class="city-name">Chicago<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta"><b>Oct 18–31</b><span>166 artists on the playlist</span></span></a>
+      </nav>
+      <p class="home-more">Plus a playlist to hear it first, new every Sunday. More cities coming: <a href="contact.html#contact">tell us where →</a></p>
+    </section>
 
-  <section class="listen" aria-labelledby="listen-h">
-    <div>
-      <h2 id="listen-h">Find your next show</h2>
-      <div class="pl-tabs" id="pl-tabs" role="group" aria-label="Which playlist" hidden></div>
-      <div class="genre-pick" id="genre-pick" hidden>
-        <p class="genre-label" id="genre-label">Or just one genre</p>
-        <div class="genre-chips" id="genre-chips" role="group" aria-labelledby="genre-label"></div>
-      </div>
-      <p class="sub" id="pl-sub">The top songs from every headliner, in show order.</p>
-      <div class="player" id="player"></div>
-      <p class="pl-note" id="pl-note" hidden>Follow it once on Spotify. It refreshes every Sunday.</p>
-      <p style="margin:12px 0 0"><a href="playlists.html">Past playlists</a></p>
-    </div>
-    <aside class="signup" id="newsletter" aria-labelledby="signup-h">
-      <h3 id="signup-h">Get it every Sunday</h3>
-      <p>Get this week's playlist sent straight to your inbox every Sunday. Free, one email a week.</p>
-      <div id="signup-slot" data-signup></div>
-      <p class="nl-note">Using Gmail? Your first email may land in Promotions. Drag it to Primary so the playlist shows up in your inbox every Sunday.</p>
-      <div class="alt">Or put every show in your calendar: <a data-cal href="#">Apple Calendar</a> or <a data-gcal href="#">Google Calendar</a>. It updates on its own.</div>
-    </aside>
-  </section>
-
-  <section aria-labelledby="lineup-h">
-    <div class="section-head">
-      <h2 id="lineup-h">The next two weeks</h2>
-      <p id="lineup-count"></p>
-    </div>
-    <div class="filters">
-      <div class="tools">
-        <input id="q" type="search" placeholder="Search an artist" aria-label="Search an artist">
-        <select id="when" aria-label="Filter by date"><option value="">Any date</option></select>
-        <input id="when-pick" type="date" aria-label="Pick a date" hidden>
-        <select id="area" aria-label="Filter by neighborhood"><option value="">All neighborhoods</option></select>
-        <select id="venue" aria-label="Filter by venue"><option value="">All venues</option></select>
-        <select id="genre" aria-label="Filter by genre" hidden><option value="">All genres</option></select>
-        <button class="clear" id="clear" hidden>Clear</button>
-      </div>
-    </div>
-    <div id="lineup"></div>
-  </section>
-
-  <section aria-labelledby="all-h">
-    <div class="section-head">
-      <h2 id="all-h">Further out</h2>
-      <p id="all-count"></p>
-    </div>
-    <div id="all" class="compact"></div>
-    <div class="more"><button class="btn ghost" id="more" hidden>Show more</button></div>
-  </section>
-
-  <footer>
-    <div class="foot">
+    <section class="home-signup" id="newsletter" aria-labelledby="nl-h">
       <div>
-        <h4>About</h4>
-        <p>2 Week Soundcheck tracks every concert at a short list of rooms worth knowing, refreshed every week, so you can find new music and go see it.</p>
+        <h2 id="nl-h"><span>Get it every Sunday for</span>
+          <span class="pl-tabs" id="nl-city" role="group" aria-label="Newsletter city"></span>
+        </h2>
+        <p class="sub" id="nl-sub"></p>
       </div>
-      <div>
-        <h4>Venues we follow</h4>
-        <ul id="venues"></ul>
+      <div class="nl-form">
+        <div id="nl-slots"></div>
+        <p class="nl-note">Using Gmail? Your first email may land in Promotions. Drag it to Primary so the playlist shows up in your inbox every Sunday.</p>
       </div>
-      <div>
-        <h4>Stay in the loop</h4>
-        <ul>
-          <li><a href="#newsletter">Sunday email</a></li>
-          <li><a data-cal href="#">Add to Apple or Outlook Calendar</a></li>
-          <li><a data-gcal href="#">Add to Google Calendar</a></li>
-          <li><a data-pl href="#">This week's playlist on Spotify</a></li>
-          <li><a href="playlists.html">Past playlists</a></li>
-          <li><a href="contact.html#report">Report a problem</a></li>
-          <li><a href="contact.html#contact">Contact us</a></li>
-        </ul>
-      </div>
-    </div>
-    <p class="fine" id="fine"></p>
+    </section>
+  </main>
+
+  <footer class="home-foot">
+    <span>2 Week Soundcheck</span>
+    <a href="contact.html#report">Report a problem</a>
+    <a href="contact.html#contact">Contact us</a>
   </footer>
 </div>
 
-<script>setTimeout(()=>document.getElementById("range")?.classList.remove("pending"),2500)</script>
-<script src="common.js?v=7eb6ff06"></script>
+<script src="common.js?v=210e3021"></script>
 <script>
-(function(){
-  const {esc,todayISO,addDays,D,fmt,range,showRow,load,footer} = SC;
-  const $ = s => document.querySelector(s);
+(function () {
+  // Each city's beehiiv form (from its newsletter.json), filled in by build_site.py.
+  // The form a reader signs up through decides their city segment in beehiiv.
+  const FORMS = {"seattle": {"name": "Seattle", "form_id": "1ad07685-795d-445f-b8cf-49ca5bfdadd5", "publication_id": "26448a31-644a-49f3-b3d3-c1d96a7c5469"}, "chicago": {"name": "Chicago", "form_id": "6f1e11ac-c4f2-4bf8-8769-bdf4b88650d1", "publication_id": "26448a31-644a-49f3-b3d3-c1d96a7c5469"}};
+  const slugs = Object.keys(FORMS);
+  const tabs = document.getElementById("nl-city");
+  const slots = document.getElementById("nl-slots");
+  const sub = document.getElementById("nl-sub");
+  const KEY = "sc-city";
+  let saved = null;
+  try { saved = localStorage.getItem(KEY); } catch (e) {}
+  let cur = FORMS[saved] ? saved : slugs[0];
 
-  load().then(data=>{
-    // The page follows the current playlist's two weeks (e.g. Oct 12–25), so the dates
-    // match the playlist and the newsletter. If that window has ended, fall back to today + 13.
-    const venues = data.venues, today = todayISO();
-    const cur = data.playlist && data.playlist.end >= today ? data.playlist : null;
-    const start = cur ? cur.start : today, end = cur ? cur.end : addDays(today,13);
-    const days = Math.round((D(end)-D(start))/864e5)+1;
-    const upcoming = data.events.filter(e=>e.date>=today);
-    const soon = upcoming.filter(e=>e.date<=end), later = upcoming.filter(e=>e.date>end);
-    const windowShows = data.events.filter(e=>e.date>=start && e.date<=end);  // incl. days already past
-    footer(data);
+  // Remember the city a visitor picks, so the switch starts there next time.
+  document.querySelectorAll(".city-row").forEach(a => a.addEventListener("click", () => {
+    try { localStorage.setItem(KEY, a.dataset.city); } catch (e) {}
+  }));
 
-    // hero
-    $("#r1").textContent = range(start,end);
-    $("#r2").textContent = `${windowShows.length} show${windowShows.length===1?"":"s"}`;
-    $("#range").classList.remove("pending");
+  // beehiiv hides its form for visitors who already subscribed (one publication for all cities).
+  const pub = (FORMS[cur] || {}).publication_id;
+  const subscribed = pub && document.cookie.split(";").some(c => c.trim().startsWith("bhv_" + pub + "_subscribed="));
+  if (subscribed) {
+    tabs.parentElement.querySelector("span").textContent = "Get it every Sunday";
+    tabs.remove();
+    slots.innerHTML = `<p class="nl-done">✓ You're subscribed. The next playlist lands in your inbox Sunday.</p>`;
+    return;
+  }
 
-    // meter
-    const byDay = {}; windowShows.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
-    const max = Math.max(4,...Object.values(byDay).map(a=>a.length));
-    let m="", dl="";
-    for(let i=0;i<days;i++){
-      const iso=addDays(start,i), past=iso<today, n=(byDay[iso]||[]).length, wd=D(iso).getUTCDay();
-      const h = n? Math.max(6, Math.round(n/max*84)) : 2;
-      const label = `${fmt(iso,{weekday:"long",month:"long",day:"numeric"})}: ${n} show${n===1?"":"s"}${past?" (already happened)":""}`;
-      m += `<button class="ch${wd===5||wd===6?" weekend":""}${past?" past":""}"${past?" disabled":""} role="listitem" style="--h:${h}%;--i:${i}" aria-label="${label}" data-day="${iso}"><span class="n">${n||""}</span><span class="peak"></span><span class="bar"></span></button>`;
-      dl += `<span${past?' class="past"':""}>${fmt(iso,{weekday:"narrow"})}<strong>${fmt(iso,{day:"numeric"})}</strong></span>`;
-    }
-    $("#meter").innerHTML = m; $("#days").innerHTML = dl;
-    $("#meter").addEventListener("click",ev=>{
-      const b=ev.target.closest(".ch"); if(!b) return;
-      if($("#q").value||$("#venue").value||$("#area").value||$("#when").value){ $("#q").value=""; $("#area").value=""; setWhen(""); fillVenues(); $("#venue").value=""; render(); }
-      const t=document.getElementById("d-"+b.dataset.day);
-      if(t){t.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"}); t.querySelector("h3").focus({preventScroll:true});}
-    });
+  tabs.innerHTML = slugs.map(s => `<button type="button" data-city="${s}" aria-pressed="false">${SC.esc(FORMS[s].name)}</button>`).join("");
 
-    // playlist
-    // Citywide playlist plus area playlists (Frelard first). Each tab swaps the player.
-    const slug = a => a.toLowerCase().replace(/[^a-z]+/g,"-").replace(/^-|-$/g,"");
-    const areaPls = data.area_playlists || {};
-    const PL_AREAS = ["Frelard"];  // area playlists we build every Sunday
-    // Standing genre playlists (Pop, Indie & Rock, ...): one chip each, refreshed every Sunday.
-    const genres = data.genre_playlists || [];
-    let plTab = "", plGenre = "";
-    function showPlaylist(area, genre){
-      plTab = area; plGenre = genre || "";
-      const gp = plGenre ? genres.find(g=>g.slug===plGenre) : null;
-      const pl = gp || (area ? areaPls[area] : data.playlist);
-      document.querySelectorAll("#pl-tabs button").forEach(b=>b.setAttribute("aria-pressed", String(!gp && b.dataset.area===area)));
-      document.querySelectorAll("#genre-chips button").forEach(b=>b.setAttribute("aria-pressed", String(!!gp && b.dataset.genre===plGenre)));
-      SC.slide($("#pl-tabs"));
-      $("#pl-note").hidden = !gp;
-      if(pl && pl.id){
-        $("#player").innerHTML = `<iframe title="${esc(pl.name)} on Spotify" src="https://open.spotify.com/embed/playlist/${esc(pl.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
-        $("#pl-sub").textContent = gp
-          ? `${pl.songs} songs from ${pl.artists} ${gp.genre} headliners playing ${range(pl.start,pl.end)}, in show order.`
-          : area
-          ? `${pl.songs} songs from ${pl.artists} artists playing ${area}'s small rooms ${range(pl.start,pl.end)}, openers included, in show order.`
-          : `${pl.songs} songs from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order.`;
-      } else {
-        $("#player").innerHTML = `<p class="empty" style="padding:24px">${area?`The first ${esc(area)} playlist lands this Sunday: every band on the bill in Ballard and Fremont, openers included.`:"This week's playlist is being built. Check back Sunday evening."}</p>`;
-        $("#pl-sub").textContent = area ? "Every act at the small rooms in Ballard and Fremont." : "The top songs from every headliner, in show order.";
-      }
+  // One slot per city, created the first time that city is picked, so its form loads once.
+  function show(s) {
+    cur = s;
+    tabs.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.city === s)));
+    SC.slide(tabs);
+    sub.textContent = `The ${FORMS[s].name} 2 Week Playlist in your inbox. Free, one email a week.`;
+    let slot = slots.querySelector(`[data-slot="${s}"]`);
+    if (!slot) {
+      slot = document.createElement("div");
+      slot.dataset.slot = s;
+      if (FORMS[s].form_id) {
+        const sc = document.createElement("script");
+        sc.async = true;
+        sc.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";
+        sc.setAttribute("data-beehiiv-form", FORMS[s].form_id);
+        slot.appendChild(sc);
+      } else slot.innerHTML = `<p class="nl-done">Email signups open soon.</p>`;
+      slots.appendChild(slot);
     }
-    $("#pl-tabs").innerHTML = [["",`All ${data.edition||"Seattle"}`],...PL_AREAS.map(a=>[a,a])].map(([a,l])=>`<button type="button" data-area="${esc(a)}" aria-pressed="false">${esc(l)}</button>`).join("");
-    $("#pl-tabs").hidden = !PL_AREAS.length; SC.slide($("#pl-tabs"));  // one playlist only: no switch
-    // ?playlist=folk (etc.) opens a genre playlist; kept in the URL so it can be shared.
-    const setPlParam = slug => { const u = new URL(location.href); slug ? u.searchParams.set("playlist", slug) : u.searchParams.delete("playlist"); history.replaceState(null,"",u); };
-    $("#pl-tabs").addEventListener("click",ev=>{const b=ev.target.closest("button"); if(b){ showPlaylist(b.dataset.area); setPlParam(""); }});
-    if(genres.length){
-      $("#genre-chips").innerHTML = genres.map(g=>`<button type="button" data-genre="${esc(g.slug)}" aria-pressed="false">${esc(g.genre)}</button>`).join("");
-      $("#genre-pick").hidden = false;
-      $("#genre-chips").addEventListener("click",ev=>{
-        const b=ev.target.closest("button"); if(!b) return;
-        const g = b.dataset.genre===plGenre ? "" : b.dataset.genre;  // tapping the chosen genre again goes back to All Seattle
-        showPlaylist(g ? "" : plTab, g); setPlParam(g);
-      });
-    }
-
-    // newsletter: filled by SC.footer -> newsletter() via [data-signup]
-
-    // filters
-    const vs = Object.keys(venues).filter(k=>upcoming.some(e=>e.venue===k));
-    const areaOf = k => (venues[k]||{}).area || "";
-    const areas = (data.areas||[]).filter(a=>vs.some(k=>areaOf(k)===a));
-    const hoods = a => [...new Set(vs.filter(k=>areaOf(k)===a).map(k=>venues[k].hood))].join(" + ");
-    $("#area").innerHTML += areas.map(a=>`<option value="${esc(a)}">${esc(a)}</option>`).join("");
-    function fillVenues(){
-      const a=$("#area").value, keep=$("#venue").value;
-      const list=vs.filter(k=>!a||areaOf(k)===a);
-      $("#venue").innerHTML = `<option value="">${a?"All "+esc(a)+" venues":"All venues"}</option>` + list.map(k=>`<option value="${esc(k)}">${esc(venues[k].short)}</option>`).join("");
-      if(list.includes(keep)) $("#venue").value = keep;
-    }
-    const params = new URLSearchParams(location.search);
-    const pa = areas.find(a=>slug(a)===(params.get("area")||"").toLowerCase());
-    if(pa) $("#area").value = pa;
-    fillVenues();
-    if(params.get("venue") && vs.includes(params.get("venue"))) { $("#venue").value = params.get("venue"); if(!pa) $("#area").value=""; }
-    if(params.get("q")) $("#q").value = params.get("q");
-    // Genre filter: genres confirmed each Sunday (genres.json) for the two-week window only.
-    // Shows with no confirmed genre are "Other / Local". Shareable as ?genre=folk.
-    const GEN = data.genres || [], gwin = data.genre_window || [];
-    const gOf = e => !e.genres ? null : e.genres.length ? e.genres : ["Other / Local"];
-    if(GEN.length && soon.some(e=>e.genres)){
-      const n = g => soon.filter(e=>(gOf(e)||[]).includes(g)).length;
-      $("#genre").innerHTML += GEN.filter(g=>n(g.genre)).map(g=>`<option value="${esc(g.slug)}">${esc(g.genre)}</option>`).join("");
-      $("#genre").hidden = false;
-      const pgs = (params.get("genre")||"").toLowerCase();
-      if([...$("#genre").options].some(o=>o.value===pgs)) $("#genre").value = pgs;
-    }
-    const genreName = s => (GEN.find(g=>g.slug===s)||{}).genre || "";
-    const pg = genres.find(g=>g.slug===(params.get("playlist")||"").toLowerCase());
-    if(pg) showPlaylist("", pg.slug);
-    else showPlaylist(pa && PL_AREAS.includes(pa) ? pa : "");
-    // Date filter: quick picks, each day of the two weeks, or any date via the picker.
-    const lastShow = upcoming.at(-1)?.date || end;
-    const dow = iso => D(iso).getUTCDay();
-    const weekendFrom = iso => { const w=dow(iso); if(w===0) return [iso,iso]; if(w===6) return [iso,addDays(iso,1)]; const f=addDays(iso,5-w); return [f<iso?iso:f, addDays(iso,7-w)]; };
-    const thisWknd = weekendFrom(today), nextWknd = [addDays(thisWknd[1],5), addDays(thisWknd[1],7)];
-    const QUICK = {today:["Today",[today,today]], tomorrow:["Tomorrow",[addDays(today,1),addDays(today,1)]],
-                   weekend:["This weekend",thisWknd], "next-weekend":["Next weekend",nextWknd]};
-    let opts = Object.entries(QUICK).map(([k,[l,r]])=>`<option value="${k}" title="${r[0]===r[1]?fmt(r[0],{month:"short",day:"numeric"}):range(r[0],r[1])}">${l}</option>`).join("");
-    opts += `<optgroup label="Next two weeks">`;
-    for(let iso=today; iso<=end; iso=addDays(iso,1)) opts += `<option value="${iso}">${fmt(iso,{weekday:"short",month:"short",day:"numeric"}).replace(",","")}</option>`;
-    opts += `</optgroup><option value="pick">Pick a date…</option>`;
-    $("#when").innerHTML += opts;
-    $("#when-pick").min = today; $("#when-pick").max = lastShow;
-    function whenRange(){
-      const v=$("#when").value;
-      if(!v) return null;
-      if(QUICK[v]) return QUICK[v][1];
-      if(v==="pick"){ const d=$("#when-pick").value; return d?[d,d]:null; }
-      return [v,v];
-    }
-    function setWhen(v){
-      if(v && /^\d{4}-\d{2}-\d{2}$/.test(v) && ![...$("#when").options].some(o=>o.value===v)){ $("#when").value="pick"; $("#when-pick").value=v; }
-      else $("#when").value = v || "";
-      $("#when-pick").hidden = $("#when").value!=="pick";
-    }
-    if(params.get("date")) setWhen(params.get("date"));
-    const match = (e,q,vf,af,dr,gf) => (!gf||(gOf(e)||[]).includes(gf)) && (!dr||(e.date>=dr[0]&&e.date<=dr[1])) && (!af||areaOf(e.venue)===af) && (!vf||e.venue===vf) && (!q||(e.title+" "+e.support.join(" ")).toLowerCase().includes(q));
-
-    let limit = 60;
-    const iso_ok = i => addDays(today,i) <= end;
-    function render(){
-      const q=$("#q").value.trim().toLowerCase(), vf=$("#venue").value, af=$("#area").value, dr=whenRange(), gs=$("#genre").value, gf=genreName(gs), filtered=!!(q||vf||af||dr||gf);
-      $("#clear").hidden = !filtered;
-      // next two weeks
-      let html="", count=0;
-      for(let i=0;iso_ok(i);i++){
-        const iso=addDays(today,i), list=(byDay[iso]||[]).filter(e=>match(e,q,vf,af,dr,gf));
-        if(filtered && !list.length) continue;
-        count += list.length;
-        const name = i===0?"Today":i===1?"Tomorrow":fmt(iso,{weekday:"long"});
-        html += `<div class="day" id="d-${iso}"><h3 tabindex="-1">${name}<small>${fmt(iso,{month:"long",day:"numeric"})}</small></h3>${list.length?list.map(e=>showRow(e,venues,false)).join(""):`<p class="empty">No concerts at our venues. A good night for the playlist.</p>`}</div>`;
-      }
-      $("#lineup").innerHTML = html ? (af&&!vf&&!q?`<p class="area-note">${esc(af)}: ${af==="Frelard"?"the small rooms in Ballard and Fremont":esc(hoods(af))}.</p>`:"") + html : (dr && dr[0] > end ? "" : `<p class="empty">${dr?"No shows match on those dates.":`Nothing matches through ${fmt(end,{month:"long",day:"numeric"})}. Check Further out below, or clear the filters.`}</p>`);
-      $("#lineup-h").textContent = `Now through ${fmt(end,{month:"long",day:"numeric"})}`;
-      $("#lineup-count").textContent = dr && dr[0] > end ? `${fmt(dr[0],{month:"long",day:"numeric"})} is further out, below` : filtered ? `${count} match${count===1?"":"es"}` : `${soon.length} shows at ${new Set(soon.map(e=>e.venue)).size} venues`;
-      // further out
-      // further out has no genres yet: with a genre picked, say so instead of listing other shows
-      const rows = gf ? [] : later.filter(e=>match(e,q,vf,af,dr));
-      // a date inside the two weeks has nothing further out; hide that section instead of showing "no matches"
-      document.querySelector('[aria-labelledby="all-h"]').hidden = !!(dr && dr[1] <= end);
-      // a date past the two weeks: hide the two-week list (but keep its filters) and show results below
-      $("#lineup").hidden = !!(dr && dr[0] > end);
-      let out="", mo="";
-      rows.slice(0,limit).forEach(e=>{const mm=fmt(e.date,{month:"long",year:"numeric"}); if(mm!==mo){out+=`<div class="month">${mm}</div>`;mo=mm;} out+=showRow(e,venues,true);});
-      $("#all").innerHTML = out || `<p class="empty">${gf?"Genres cover the next two weeks. Shows further out aren't sorted by genre yet.":filtered?"No later shows match.":"Nothing further out yet."}</p>`;
-      $("#more").hidden = rows.length<=limit;
-      $("#all-count").textContent = gf ? "" : filtered ? `${rows.length} match${rows.length===1?"":"es"}` : `${later.length} more shows through ${fmt(later.at(-1)?.date||end,{month:"long"})}`;
-      // keep the filter in the URL so it can be shared
-      const u = new URL(location.href); q?u.searchParams.set("q",$("#q").value.trim()):u.searchParams.delete("q"); vf?u.searchParams.set("venue",vf):u.searchParams.delete("venue"); af?u.searchParams.set("area",slug(af)):u.searchParams.delete("area"); gs?u.searchParams.set("genre",gs):u.searchParams.delete("genre"); const wv=$("#when").value==="pick"?$("#when-pick").value:$("#when").value; wv?u.searchParams.set("date",wv):u.searchParams.delete("date");
-      history.replaceState(null,"",u);
-    }
-    $("#q").addEventListener("input",()=>{limit=60;render();});
-    $("#venue").addEventListener("change",()=>{limit=60;render();});
-    $("#genre").addEventListener("change",()=>{limit=60;render();});
-    $("#area").addEventListener("change",()=>{limit=60;fillVenues();const a=$("#area").value; if(PL_AREAS.includes(a)) { showPlaylist(a); setPlParam(""); } else if(plTab&&!a) showPlaylist(""); render();});
-    $("#when").addEventListener("change",()=>{limit=60; $("#when-pick").hidden=$("#when").value!=="pick"; if($("#when").value==="pick"){ $("#when-pick").focus(); try{$("#when-pick").showPicker()}catch(e){} } render();});
-    $("#when-pick").addEventListener("change",()=>{limit=60;render();});
-    $("#clear").addEventListener("click",()=>{$("#q").value="";$("#area").value="";$("#genre").value="";setWhen("");fillVenues();$("#venue").value="";limit=60;render();$("#q").focus();});
-    $("#more").addEventListener("click",()=>{limit+=60;render();});
-    SC.previews(document.getElementById("lineup"));
-    render();
-  }).catch(()=>{ $("#lineup").innerHTML = `<p class="empty">The show list didn't load. Refresh the page to try again.</p>`; });
+    slots.querySelectorAll("[data-slot]").forEach(x => x.hidden = x !== slot);
+  }
+  tabs.addEventListener("click", ev => {
+    const b = ev.target.closest("button"); if (!b) return;
+    try { localStorage.setItem(KEY, b.dataset.city); } catch (e) {}
+    show(b.dataset.city);
+  });
+  show(cur);
 })();
 </script>
 </body>

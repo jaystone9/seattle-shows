@@ -1,14 +1,14 @@
 """City editions other than Seattle.
 
-Seattle keeps its original layout (shows/, playlists.json, data/seattle.json, the root
-pages), so the Sunday routine is unchanged. Every other city lives in its own folder
+Seattle keeps its data at the repo root (shows/, playlists.json, data/seattle.json); its
+pages are generated at /seattle/ like every other city's, and the homepage lists every live city. Every other city lives in its own folder
 (<slug>/shows/*.json, <slug>/playlists.json, ...) and is built with --city <slug>:
 
     python3 build_ics.py chicago/shows chicago-shows.ics --city chicago
     python3 build_site.py --city chicago
 
 `live` controls the city picker: False shows "Chicago (coming soon)" and keeps the
-/chicago/ pages out of the menu; True links them from every page.
+/chicago/ pages out of the menu and off the homepage; True links them from every page.
 """
 
 CHICAGO_VENUES = {

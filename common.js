@@ -1,6 +1,6 @@
 // Shared helpers for 2 Week Soundcheck pages.
 window.SC = (function () {
-  // City editions: Seattle is the root pages; other cities (/chicago/) set these on <body>.
+  // City editions (/seattle/, /chicago/) set these on <body>; the defaults fit pages at the site root.
   const B = document.body ? document.body.dataset : {};
   const TZ = B.tz || "America/Los_Angeles";
   const DATA = B.data || "data/seattle.json";
@@ -136,7 +136,7 @@ window.SC = (function () {
     const page = /playlists\.html$/.test(location.pathname) ? "playlists.html" : "";
     sel.addEventListener("change", () => {
       const c = sel.value;
-      location.href = (c === "seattle" ? "/" : `/${c}/`) + page;
+      location.href = `/${c}/` + page;
     });
   }
   cityPicker();

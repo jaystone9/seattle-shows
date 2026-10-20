@@ -8,7 +8,9 @@ playlists.json is a list, newest first; the first entry is "this week's".
 
 Reads the same shows/*.json the calendar feed uses, keeps today onward
 (Pacific), splits headliner from support, labels each link as a ticket page
-or an info page, and adds the current playlist + newsletter settings.
+or an info page, and adds the current playlist + newsletter settings. Every build also
+regenerates each city's pages (/seattle/, /chicago/) from templates/ and the homepage
+(index.html, the city chooser) from templates/home.html.
 """
 import datetime as dt
 import glob
@@ -285,11 +287,20 @@ def city_picker():
     return opts
 
 
-def city_pages():
-    """Write /<city>/index.html and /<city>/playlists.html from the Seattle pages, and keep the
-    city picker on every page in sync with cities.py. Seattle's pages stay the templates, so a
-    design change there reaches every edition on the next build."""
+SEATTLE = {"name": "Seattle", "tz": "America/Los_Angeles", "data": "data/seattle.json", "area_playlists": ["Frelard"], "live": True}
+
+
+def editions():
+    """Every city edition, Seattle first: (slug, settings)."""
     from cities import CITIES
+    return [("seattle", SEATTLE)] + list(CITIES.items())
+
+
+def city_pages():
+    """Write /<city>/index.html and /<city>/playlists.html for every city (Seattle included)
+    from templates/shows.html and templates/playlists.html, keep the city picker on
+    contact.html in sync with cities.py, and rebuild the homepage (index.html, the city
+    chooser) from templates/home.html. Edit the templates, never the generated pages."""
     opts = city_picker()
 
     def picker(html, current):
@@ -297,28 +308,31 @@ def city_pages():
                        for k, label, off in opts)
         return re.sub(r'(<select id="city" aria-label="City">).*?(\s*</select>)', lambda m: m.group(1) + body + m.group(2), html, flags=re.S)
 
-    for page in ("index.html", "playlists.html", "contact.html"):
-        if glob.glob(page):
-            html = open(page).read()
-            new = picker(html, "seattle")
-            if new != html:
-                open(page, "w").write(new)
+    if glob.glob("contact.html"):
+        html = open("contact.html").read()
+        new = picker(html, "seattle")
+        if new != html:
+            open("contact.html", "w").write(new)
 
-    for slug, c in CITIES.items():
+    for slug, c in editions():
         name = c["name"]
-        for page in ("index.html", "playlists.html"):
-            html = open(page).read()
+        for page, tpl in (("index.html", "templates/shows.html"), ("playlists.html", "templates/playlists.html")):
+            html = open(tpl).read()
             subs = [
                 ("<body>", f'<body data-city="{slug}" data-tz="{c["tz"]}" data-data="../{c["data"]}">'),
+                ('class="brand" href="./"', 'class="brand" href="/"'),
                 ('href="site.css', 'href="../site.css'),
                 ('src="common.js', 'src="../common.js'),
                 ('href="contact.html', 'href="../contact.html'),
                 ('content="https://2weeksoundcheck.com/"', f'content="https://2weeksoundcheck.com/{slug}/"'),
                 ('content="https://2weeksoundcheck.com/playlists.html"', f'content="https://2weeksoundcheck.com/{slug}/playlists.html"'),
-                ("og-image.jpg", f"og-image-{slug}.jpg"),
-                ("Seattle", name),
-                ('const PL_AREAS = ["Frelard"];', f"const PL_AREAS = {json.dumps(c['area_playlists'])};"),
             ]
+            if slug != "seattle":
+                subs += [
+                    ("og-image.jpg", f"og-image-{slug}.jpg"),
+                    ("Seattle", name),
+                    ('const PL_AREAS = ["Frelard"];', f"const PL_AREAS = {json.dumps(c['area_playlists'])};"),
+                ]
             for a, b in subs:
                 html = html.replace(a, b)
             html = picker(html, slug)   # after the name swap, so the Seattle option keeps its label
@@ -326,14 +340,41 @@ def city_pages():
             out = f"{slug}/{page}"
             if not glob.glob(out) or open(out).read() != html:
                 open(out, "w").write(html)
+    home_page()
 
 
-def stamp_assets(pages=("index.html", "playlists.html", "contact.html"), assets=("site.css", "common.js")):
+def home_page():
+    """index.html, the city chooser: one big row per live city with its current playlist
+    window and artist count (read from that city's data file), plus the Sunday signup with
+    a city switch that loads that city's beehiiv form."""
+    import html as H
+    rows, forms = [], {}
+    for slug, c in editions():
+        if not c.get("live") or not glob.glob(c["data"]):
+            continue
+        d = json.load(open(c["data"]))
+        pl = d.get("playlist") or {}
+        line = ""
+        if pl.get("start") and pl.get("end"):
+            a = dt.date.fromisoformat(pl["start"])
+            b = dt.date.fromisoformat(pl["end"])
+            dates = f"{a:%b} {a.day}–{b.day}" if a.month == b.month else f"{a:%b} {a.day}–{b:%b} {b.day}"
+            line = f'<b>{dates}</b><span>{pl.get("artists", 0)} artists on the playlist</span>'
+        rows.append(f'      <a class="city-row" href="/{slug}/" data-city="{slug}"><span class="city-name">{H.escape(c["name"])}<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta">{line}</span></a>')
+        nl = d.get("newsletter") or {}
+        forms[slug] = {"name": c["name"], "form_id": nl.get("form_id"), "publication_id": nl.get("publication_id")}
+    tpl = open("templates/home.html").read()
+    out = (tpl.replace("<!--CITY_ROWS-->", "\n".join(rows).strip())
+              .replace("/*CITY_FORMS*/{}", json.dumps(forms, ensure_ascii=False)))
+    if not glob.glob("index.html") or open("index.html").read() != out:
+        open("index.html", "w").write(out)
+
+
+def stamp_assets(assets=("site.css", "common.js")):
     """Add ?v=<content hash> to the shared CSS/JS links so browsers fetch new copies after each change."""
     import hashlib
     import re
-    from cities import CITIES
-    pages = list(pages) + [f"{k}/{p}" for k in CITIES for p in ("index.html", "playlists.html")]
+    pages = ["index.html", "contact.html"] + [f"{k}/{p}" for k, _ in editions() for p in ("index.html", "playlists.html")]
     for page in pages:
         if not glob.glob(page):
             continue
