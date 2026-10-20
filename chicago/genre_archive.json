@@ -1,1 +1,79 @@
-[]
+[
+ {
+  "genre": "Pop",
+  "name": "2 Week Soundcheck · Chicago · Pop: Oct 18–31",
+  "id": "6RTbS6Faf1IxFnLeYSvTx5",
+  "url": "https://open.spotify.com/playlist/6RTbS6Faf1IxFnLeYSvTx5",
+  "start": "2026-10-18",
+  "end": "2026-10-31",
+  "songs": 74,
+  "artists": 25,
+  "per_artist": 3
+ },
+ {
+  "genre": "Indie & Rock",
+  "name": "2 Week Soundcheck · Chicago · Indie & Rock: Oct 18–31",
+  "id": "2qZZHzdlJrS7L6L7ThFB7p",
+  "url": "https://open.spotify.com/playlist/2qZZHzdlJrS7L6L7ThFB7p",
+  "start": "2026-10-18",
+  "end": "2026-10-31",
+  "songs": 177,
+  "artists": 59,
+  "per_artist": 3
+ },
+ {
+  "genre": "Folk & Country",
+  "name": "2 Week Soundcheck · Chicago · Folk & Country: Oct 18–31",
+  "id": "3fifHEnifIBOla1efi0WLn",
+  "url": "https://open.spotify.com/playlist/3fifHEnifIBOla1efi0WLn",
+  "start": "2026-10-18",
+  "end": "2026-10-31",
+  "songs": 85,
+  "artists": 29,
+  "per_artist": 3
+ },
+ {
+  "genre": "Electronic",
+  "name": "2 Week Soundcheck · Chicago · Electronic: Oct 18–31",
+  "id": "39Hw8C2VjkK1Ov182GrRyB",
+  "url": "https://open.spotify.com/playlist/39Hw8C2VjkK1Ov182GrRyB",
+  "start": "2026-10-18",
+  "end": "2026-10-31",
+  "songs": 39,
+  "artists": 13,
+  "per_artist": 3
+ },
+ {
+  "genre": "Hip-hop & R&B",
+  "name": "2 Week Soundcheck · Chicago · Hip-hop & R&B: Oct 18–31",
+  "id": "1w43OgSGhpfq1tbxLIMqt3",
+  "url": "https://open.spotify.com/playlist/1w43OgSGhpfq1tbxLIMqt3",
+  "start": "2026-10-18",
+  "end": "2026-10-31",
+  "songs": 66,
+  "artists": 22,
+  "per_artist": 3
+ },
+ {
+  "genre": "Punk & Metal",
+  "name": "2 Week Soundcheck · Chicago · Punk & Metal: Oct 18–31",
+  "id": "7kDTwTiGcmBNwpTFDDgU3L",
+  "url": "https://open.spotify.com/playlist/7kDTwTiGcmBNwpTFDDgU3L",
+  "start": "2026-10-18",
+  "end": "2026-10-31",
+  "songs": 87,
+  "artists": 29,
+  "per_artist": 3
+ },
+ {
+  "genre": "Jazz, World & Classical",
+  "name": "2 Week Soundcheck · Chicago · Jazz, World & Classical: Oct 18–31",
+  "id": "1LTIO6izp6nLL42c3IpWGR",
+  "url": "https://open.spotify.com/playlist/1LTIO6izp6nLL42c3IpWGR",
+  "start": "2026-10-18",
+  "end": "2026-10-31",
+  "songs": 39,
+  "artists": 13,
+  "per_artist": 3
+ }
+]
