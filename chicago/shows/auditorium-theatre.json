@@ -1,0 +1,52 @@
+[
+ {
+  "venue": "Auditorium Theatre",
+  "room": null,
+  "title": "Maher Zain",
+  "date": "2026-10-22",
+  "doors": null,
+  "start": "19:30",
+  "url": "https://www.auditoriumtheatre.org/events/detail/evening-with-maher-zain",
+  "status": "postponed"
+ },
+ {
+  "venue": "Auditorium Theatre",
+  "room": null,
+  "title": "Alicia Villarreal",
+  "date": "2026-10-29",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.auditoriumtheatre.org/events/detail/alicia-villarreal",
+  "status": "postponed"
+ },
+ {
+  "venue": "Auditorium Theatre",
+  "room": null,
+  "title": "Kenia Os",
+  "date": "2027-02-12",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.auditoriumtheatre.org/events/detail/kenia-os",
+  "status": null
+ },
+ {
+  "venue": "Auditorium Theatre",
+  "room": null,
+  "title": "The Wailin' Jennys",
+  "date": "2027-04-09",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.auditoriumtheatre.org/events/detail/the-wailin-jennys",
+  "status": null
+ },
+ {
+  "venue": "Auditorium Theatre",
+  "room": null,
+  "title": "Jessica Vosk",
+  "date": "2027-04-17",
+  "doors": null,
+  "start": "19:30",
+  "url": "https://www.auditoriumtheatre.org/events/detail/jessica-vosk",
+  "status": null
+ }
+]
