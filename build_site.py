@@ -344,27 +344,35 @@ def city_pages():
 
 
 def home_page():
-    """index.html, the city chooser: one big row per live city with its current playlist
-    window and artist count (read from that city's data file), plus the Sunday signup with
+    """index.html, the city chooser: one big row per live city with this window's playlist,
+    venue and artist counts (read from that city's data file; the dates appear once, under
+    the rows), plus the Sunday signup with
     a city switch that loads that city's beehiiv form."""
     import html as H
-    rows, forms = [], {}
+    rows, forms, window = [], {}, ""
     for slug, c in editions():
         if not c.get("live") or not glob.glob(c["data"]):
             continue
         d = json.load(open(c["data"]))
         pl = d.get("playlist") or {}
-        line = ""
+        stats = ""
         if pl.get("start") and pl.get("end"):
-            a = dt.date.fromisoformat(pl["start"])
-            b = dt.date.fromisoformat(pl["end"])
-            dates = f"{a:%b} {a.day}–{b.day}" if a.month == b.month else f"{a:%b} {a.day}–{b:%b} {b.day}"
-            line = f'<b>{dates}</b><span>{pl.get("artists", 0)} artists on the playlist</span>'
-        rows.append(f'      <a class="city-row" href="/{slug}/" data-city="{slug}"><span class="city-name">{H.escape(c["name"])}<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta">{line}</span></a>')
+            s0, s1 = pl["start"], pl["end"]
+            a, b = dt.date.fromisoformat(s0), dt.date.fromisoformat(s1)
+            window = window or (f"{a:%b} {a.day}–{b.day}" if a.month == b.month else f"{a:%b} {a.day}–{b:%b} {b.day}")
+            same = lambda p: p.get("start") == s0 and p.get("end") == s1
+            areas = d.get("area_playlists") or {}
+            areas = areas.values() if isinstance(areas, dict) else areas
+            n_pl = 1 + sum(same(p) for p in areas) + sum(same(p) for p in d.get("genre_playlists") or [])
+            n_venues = len({e["venue"] for e in d.get("events", []) if s0 <= e["date"] <= s1})
+            parts = [(n_pl, "playlist"), (n_venues, "venue"), (pl.get("artists", 0), "artist")]
+            stats = " · ".join(f"{n} {w}{'' if n == 1 else 's'}" for n, w in parts)
+        rows.append(f'      <a class="city-row" href="/{slug}/" data-city="{slug}"><span class="city-name">{H.escape(c["name"])}<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta">{stats}</span></a>')
         nl = d.get("newsletter") or {}
         forms[slug] = {"name": c["name"], "form_id": nl.get("form_id"), "publication_id": nl.get("publication_id")}
     tpl = open("templates/home.html").read()
     out = (tpl.replace("<!--CITY_ROWS-->", "\n".join(rows).strip())
+              .replace("<!--WINDOW-->", window or "the next two weeks")
               .replace("/*CITY_FORMS*/{}", json.dumps(forms, ensure_ascii=False)))
     if not glob.glob("index.html") or open("index.html").read() != out:
         open("index.html", "w").write(out)
