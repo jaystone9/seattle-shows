@@ -26,7 +26,7 @@ Frelard) and 7 genre playlists named `2 Week Soundcheck · Chicago · <Genre>` (
    "Report:" messages. Fix flagged listings in step 2 and tell Jay what changed.
 2. **Refresh venues.** Follow `REFRESH.md`: re-collect all 22 venue files (today → +6 months),
    run `build_ics.py` and `build_site.py`, append to `log.md`, commit and push.
-   Then Chicago: follow `chicago/REFRESH.md` (40 venue files in `chicago/shows/`; parallel
+   Then Chicago: follow `chicago/REFRESH.md` (43 venue files in `chicago/shows/`; parallel
    subagents work well), run `python3 build_ics.py chicago/shows chicago-shows.ics --city chicago`
    and `python3 build_site.py --city chicago`, append to `chicago/log.md`, commit and push.
 3. **Playlists.** Follow `PLAYLIST.md` steps 1–4b: build the Seattle Spotify playlist for

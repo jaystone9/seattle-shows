@@ -23,6 +23,8 @@ Window: TODAY through TODAY + 6 months. One JSON file per venue in `chicago/show
 | martyrs.json | Martyrs', North Center | martyrslive.com calendar is often stale; use Songkick, Do312. Drop tribute bills |
 | constellation.json | Constellation, Roscoe Village | constellation-chicago.com (See Tickets). Drop film nights |
 | old-town-school.json | Old Town School of Folk Music, Lincoln Square | oldtownschool.org/concerts. Drop kids' concerts, sing-alongs, teen open mics, dance parties |
+| kingston-mines.json | Kingston Mines, Lincoln Park | kingstonmines.com home page has a month-by-month Google Calendar widget (use the browser and click through the months; WebFetch fails). One entry per night: Main Stage act as headliner `(with <North Stage act>)`; skip acoustic pre-sets, "Band TBA" slots and closed nights. Drop Sunday nights (Mike Wheeler's weekly Sunday residency). Thu doors 18:00/start 19:30, Fri-Sat 19:00/21:00. Link the TicketWeb venue page. Added Oct 20, 2026 (tip from Jay's friend in Chicago) |
+| bookclub.json | Bookclub, Lakeview | bookclubchi.com/events (browser); each event page lists the lineup and show time. Drop open mics, the "Headliners" comedy series, film festivals, DJ/costume/juke parties and fundraisers; keep artist showcases under the first-billed act. Added Oct 20, 2026 |
 | wrigley-field.json | Wrigley Field, Wrigleyville | mlb.com/cubs/tickets/concerts. Summer only; usually announced in winter |
 | green-mill.json | Green Mill, Uptown | greenmilljazz.com/calendar (cover at the door, link the calendar). FEATURED BOOKINGS ONLY (Jay, Oct 19, 2026): drop the weekly residency bands (Chicago Cellar Boys, Soul Message, Righteous Rooster Organ Trio, Joel Paterson & Friends, Chris Foreman, Alfonso Ponticelli, Alan Gresik's Swing Orchestra, Andy Brown's weekly set), the Sunday poetry slam and benefits |
 | riviera.json | Riviera Theatre, Uptown | jamusa.com/riviera-theatre (AXS). Drop comedy and drag |
@@ -38,6 +40,7 @@ Window: TODAY through TODAY + 6 months. One JSON file per venue in `chicago/show
 | symphony-center.json | Symphony Center, The Loop | cso.org. Keep CSO/visiting concerts; drop film-with-orchestra and holiday family shows. One entry per performance date |
 | house-of-blues.json | House of Blues Chicago, River North | houseofblues.com/chicago (Ticketmaster). Drop Gospel Brunch and cartoon-theme concerts |
 | reggies.json | Reggies, South Loop | reggieslive.com (Ticketweb). MANY tributes, "classic albums" nights, comedy, bingo, karaoke, tailgates: drop all |
+| buddy-guys-legends.json | Buddy Guy's Legends, South Loop | buddyguy.com/events (browser; Etix links, about 5 weeks out). Drop the weekly Wednesday "Host the Jam" nights. Buddy Guy's own January residency is announced in December on buddyguy.com/january-info (check the weekdays match the coming January; the page can show last year's dates). Added Oct 20, 2026 |
 | jazz-showcase.json | Jazz Showcase, South Loop | jazzshowcase.com/calendar |
 | soldier-field.json | Soldier Field, South Loop | soldierfield.com/events. Drop Bears/Fire games. Summer stadium shows only |
 | huntington-bank-pavilion.json | Huntington Bank Pavilion, Northerly Island | huntingtonbankpavilion.com. Seasonal (about May to September) |
