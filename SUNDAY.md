@@ -1,4 +1,4 @@
-# Sunday run (2 Week Soundcheck · Seattle)
+# Sunday run (2 Week Soundcheck · Seattle + Chicago)
 
 Jay starts this in the "Seattle concerts" project on Sundays when he's at his computer
 ("run my Sunday Soundcheck" or "run my Seattle Shows playlist"). It replaces the old
@@ -9,21 +9,40 @@ in its built-in browser, and Jay's Chrome (the one signed in to beehiiv and the 
 Identity: commit as `Jayst0ne <jaystone9@users.noreply.github.com>`. Never put Jay's real
 name or any personal email address in this public repo, the site, or the newsletter.
 
+## Two cities, one newsletter (Jay, Oct 19, 2026)
+Seattle and Chicago share ONE beehiiv publication, "2 Week Soundcheck". Readers are split by
+which signup form they used: segment **"Seattle readers"** (the Seattle form, plus everyone who
+signed up before Chicago) and segment **"Chicago readers"** (the Chicago form on /chicago/).
+Each city gets its own issue, sent ONLY to its segment. Never send to All subscribers.
+Segments refresh once a day, so click **Refresh segment** on both before sending.
+Chicago follows the same steps as Seattle with `--city chicago` (see `chicago/REFRESH.md`).
+Chicago has no neighborhood playlist yet, only the citywide one plus 7 genre playlists.
+
 ## Steps, in order
 1. **Inbox check.** Open the hello@2weeksoundcheck.com webmail and look for FormSubmit
    "Report:" messages. Fix flagged listings in step 2 and tell Jay what changed.
 2. **Refresh venues.** Follow `REFRESH.md`: re-collect all 22 venue files (today → +6 months),
    run `build_ics.py` and `build_site.py`, append to `log.md`, commit and push.
+   Then Chicago: follow `chicago/REFRESH.md` (40 venue files in `chicago/shows/`; parallel
+   subagents work well), run `python3 build_ics.py chicago/shows chicago-shows.ics --city chicago`
+   and `python3 build_site.py --city chicago`, append to `chicago/log.md`, commit and push.
 3. **Playlists.** Follow `PLAYLIST.md` steps 1–4b: build the Seattle Spotify playlist for
    today → today + 13 days, then the Frelard one (step 4b, headliners + openers), update `playlists.json` and `previews.json`, run
    `build_site.py`, commit and push. The site, calendar feed and Playlists archive update
    from this.
+   Then the Chicago playlist: `python3 lineup.py --city chicago`, named
+   `2 Week Soundcheck · Chicago: <Mon D>–<Mon D>`, added to the top of `chicago/playlists.json`;
+   rewrite `chicago/previews.json`; `python3 build_site.py --city chicago`.
    Then the 7 genre playlists (`PLAYLIST.md` step 4c): look up new headliners on Last.fm,
    seed the Genre Review page, and once Jay has confirmed their genres there, refresh each
    genre playlist and update `genres.json` and `genre_playlists.json`, then save the week's
    dated copies to `genre_archive.json` (the Playlists page archive). Start the lookups early
    so Jay can review while the venue refresh runs.
-4. **Build the issue.** Run `python3 build_issue.py --check-links`. It writes
+4. **Build the issue.** Run `python3 build_issue.py --check-links` (Seattle) and
+   `python3 build_issue.py --city chicago --check-links` (Chicago; writes `chicago/issues/`).
+   Build each as its own beehiiv post: subject `<dates>: Seattle 2 Week Playlist` /
+   `<dates>: Chicago 2 Week Playlist`. The Chicago issue has one citywide playlist (no Frelard
+   section). Seattle steps below; Chicago is the same minus Frelard. It writes
    `issues/<start>.html` (the issue), `.txt`, and `issues/<start>-check.txt` (the check email),
    and prints any warnings. Every issue has BOTH playlists; if it warns the Frelard one is
    missing, build it first. In beehiiv, create a blank post:
@@ -57,8 +76,10 @@ name or any personal email address in this public repo, the site, or the newslet
      open every link in the beehiiv test in the browser (both playlists, the copy tool, the site)
      and mark each ✓ or ✗ in the LINKS section; add any skipped artists, venues that failed to
      refresh, and reader reports under FLAGS.
-6. **Send only with Jay's OK.** Send or schedule to subscribers only after Jay says OK, in the
-   chat or by replying to the check email. Never send to the list without his explicit go-ahead.
+6. **Send only with Jay's OK.** Send or schedule only after Jay says OK, in the chat or by
+   replying to the check email. Never send without his explicit go-ahead. In beehiiv's send
+   settings choose the segment, never All subscribers: the Seattle issue to "Seattle readers",
+   the Chicago issue to "Chicago readers" (refresh both segments first). One check email per city.
    There is no separate playlist email any more; everyone else gets the newsletter as a subscriber.
 
 ## Already automatic
