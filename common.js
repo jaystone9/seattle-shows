@@ -133,7 +133,7 @@ window.SC = (function () {
   function cityPicker() {
     const sel = document.getElementById("city");
     if (!sel) return;
-    const page = /playlists\.html$/.test(location.pathname) ? "playlists.html" : "";
+    const page = (location.pathname.match(/(playlists|contact)\.html$/) || [""])[0];
     sel.addEventListener("change", () => {
       const c = sel.value;
       location.href = `/${c}/` + page;

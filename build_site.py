@@ -287,6 +287,9 @@ def city_picker():
     return opts
 
 
+PAGES = (("index.html", "templates/shows.html"), ("playlists.html", "templates/playlists.html"),
+         ("contact.html", "templates/contact.html"))
+
 SEATTLE = {"name": "Seattle", "tz": "America/Los_Angeles", "data": "data/seattle.json", "area_playlists": ["Frelard"], "live": True}
 
 
@@ -297,10 +300,10 @@ def editions():
 
 
 def city_pages():
-    """Write /<city>/index.html and /<city>/playlists.html for every city (Seattle included)
-    from templates/shows.html and templates/playlists.html, keep the city picker on
-    contact.html in sync with cities.py, and rebuild the homepage (index.html, the city
-    chooser) from templates/home.html. Edit the templates, never the generated pages."""
+    """Write /<city>/index.html, playlists.html and contact.html for every city (Seattle
+    included) from templates/, rebuild the homepage (index.html, the city chooser) from
+    templates/home.html and the neutral root contact.html from templates/contact.html.
+    Edit the templates, never the generated pages."""
     opts = city_picker()
 
     def picker(html, current):
@@ -308,24 +311,18 @@ def city_pages():
                        for k, label, off in opts)
         return re.sub(r'(<select id="city" aria-label="City">).*?(\s*</select>)', lambda m: m.group(1) + body + m.group(2), html, flags=re.S)
 
-    if glob.glob("contact.html"):
-        html = open("contact.html").read()
-        new = picker(html, "seattle")
-        if new != html:
-            open("contact.html", "w").write(new)
-
     for slug, c in editions():
         name = c["name"]
-        for page, tpl in (("index.html", "templates/shows.html"), ("playlists.html", "templates/playlists.html")):
+        for page, tpl in PAGES:
             html = open(tpl).read()
             subs = [
                 ("<body>", f'<body data-city="{slug}" data-tz="{c["tz"]}" data-data="../{c["data"]}">'),
                 ('class="brand" href="./"', 'class="brand" href="/"'),
                 ('href="site.css', 'href="../site.css'),
                 ('src="common.js', 'src="../common.js'),
-                ('href="contact.html', 'href="../contact.html'),
                 ('content="https://2weeksoundcheck.com/"', f'content="https://2weeksoundcheck.com/{slug}/"'),
                 ('content="https://2weeksoundcheck.com/playlists.html"', f'content="https://2weeksoundcheck.com/{slug}/playlists.html"'),
+                ('content="https://2weeksoundcheck.com/contact.html"', f'content="https://2weeksoundcheck.com/{slug}/contact.html"'),
             ]
             if slug != "seattle":
                 subs += [
@@ -341,6 +338,31 @@ def city_pages():
             if not glob.glob(out) or open(out).read() != html:
                 open(out, "w").write(html)
     home_page()
+    contact_root()
+
+
+def contact_root():
+    """contact.html at the site root (the homepage's Contact link): the same forms, with no
+    city picker in the header and a "Which city?" field on the report form that loads that
+    city's shows. City pages link to their own /<city>/contact.html instead."""
+    html = open("templates/contact.html").read()
+    eds = [(k, c) for k, c in editions() if c.get("live")]
+    opts = "".join(f'<option value="{k}">{c["name"]}</option>' for k, c in eds)
+    cities = "".join(f'<li><a href="/{k}/">{c["name"]}</a></li>' for k, c in eds)
+    html = re.sub(r'\s*<label class="edition">.*?</label>', "", html, flags=re.S)
+    html = re.sub(r'<nav class="nav" aria-label="Main">.*?</nav>',
+                  '<nav class="nav" aria-label="Main">\n      <a href="/#newsletter">Sunday email</a>\n      <a href="contact.html" aria-current="page">Contact</a>\n    </nav>', html, flags=re.S)
+    html = re.sub(r'<footer>.*?</footer>',
+                  '<footer>\n    <div class="foot">\n      <div>\n        <h4>About</h4>\n        <p>2 Week Soundcheck tracks every concert at a short list of rooms worth knowing, refreshed every week, so you can find new music and go see it.</p>\n      </div>\n'
+                  f'      <div>\n        <h4>Cities</h4>\n        <ul>{cities}</ul>\n      </div>\n    </div>\n  </footer>', html, flags=re.S)
+    for a, b in [('<div class="field" id="r-city-field" hidden>', '<div class="field" id="r-city-field">'),
+                 ("<!--CITY_OPTIONS-->", opts),
+                 ('class="brand" href="./"', 'class="brand" href="/"'),
+                 ("og-image.jpg", "og-image-home.jpg"),
+                 ("captioned 2 Week Soundcheck, Seattle.", "captioned 2 Week Soundcheck.")]:
+        html = html.replace(a, b)
+    if not glob.glob("contact.html") or open("contact.html").read() != html:
+        open("contact.html", "w").write(html)
 
 
 def home_page():
@@ -382,7 +404,7 @@ def stamp_assets(assets=("site.css", "common.js")):
     """Add ?v=<content hash> to the shared CSS/JS links so browsers fetch new copies after each change."""
     import hashlib
     import re
-    pages = ["index.html", "contact.html"] + [f"{k}/{p}" for k, _ in editions() for p in ("index.html", "playlists.html")]
+    pages = ["index.html", "contact.html"] + [f"{k}/{p}" for k, _ in editions() for p, _ in PAGES]
     for page in pages:
         if not glob.glob(page):
             continue

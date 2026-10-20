@@ -10,12 +10,12 @@
 <meta property="og:url" content="https://2weeksoundcheck.com/contact.html">
 <meta property="og:title" content="Contact · 2 Week Soundcheck">
 <meta property="og:description" content="Report a problem with a listing or get in touch with 2 Week Soundcheck.">
-<meta property="og:image" content="https://2weeksoundcheck.com/og-image.jpg">
+<meta property="og:image" content="https://2weeksoundcheck.com/og-image-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="A vintage photo of a bandleader singing into a microphone with a bass player behind him, captioned 2 Week Soundcheck, Seattle.">
+<meta property="og:image:alt" content="A vintage photo of a bandleader singing into a microphone with a bass player behind him, captioned 2 Week Soundcheck.">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://2weeksoundcheck.com/og-image.jpg">
+<meta name="twitter:image" content="https://2weeksoundcheck.com/og-image-home.jpg">
 <meta name="theme-color" content="#F3F5F9" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1A2030" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231C2433'/%3E%3Crect x='6' y='14' width='4' height='12' fill='%23D6336C'/%3E%3Crect x='14' y='8' width='4' height='18' fill='%23D6336C'/%3E%3Crect x='22' y='11' width='4' height='15' fill='%23D6336C'/%3E%3Crect x='14' y='5' width='4' height='2' fill='%23F2A100'/%3E%3C/svg%3E">
@@ -28,18 +28,10 @@
 <div class="wrap">
   <header class="mast">
     <div class="brandrow">
-    <a class="brand" href="./"><b>2</b> Week Soundcheck</a>
-    <label class="edition"><span class="visually-hidden">City</span>
-      <select id="city" aria-label="City">
-        <option value="seattle" selected>Seattle</option>
-        <option value="chicago">Chicago</option>
-      </select>
-    </label>
+    <a class="brand" href="/"><b>2</b> Week Soundcheck</a>
     </div>
     <nav class="nav" aria-label="Main">
-      <a href="./">Shows</a>
-      <a href="playlists.html">Playlists</a>
-      <a href="#newsletter">Sunday email</a>
+      <a href="/#newsletter">Sunday email</a>
       <a href="contact.html" aria-current="page">Contact</a>
     </nav>
   </header>
@@ -66,6 +58,10 @@
           <option>Playlist has the wrong artist</option>
           <option>Something else</option>
         </select>
+      </div>
+      <div class="field" id="r-city-field">
+        <label for="r-city">Which city?</label>
+        <select id="r-city" name="city"><option value="seattle">Seattle</option><option value="chicago">Chicago</option></select>
       </div>
       <div class="field">
         <label for="r-show">Which show? <span class="hint">Start typing an artist</span></label>
@@ -121,29 +117,31 @@
         <p>2 Week Soundcheck tracks every concert at a short list of rooms worth knowing, refreshed every week, so you can find new music and go see it.</p>
       </div>
       <div>
-        <h4>Venues we follow</h4>
-        <ul id="venues"></ul>
-      </div>
-      <div>
-        <h4>Stay in the loop</h4>
-        <ul>
-          <li><a href="#newsletter">Sunday email</a></li>
-          <li><a data-cal href="#">Add to Apple or Outlook Calendar</a></li>
-          <li><a data-gcal href="#">Add to Google Calendar</a></li>
-          <li><a data-pl href="#">This week's playlist on Spotify</a></li>
-          <li><a href="playlists.html">Past playlists</a></li>
-        </ul>
+        <h4>Cities</h4>
+        <ul><li><a href="/seattle/">Seattle</a></li><li><a href="/chicago/">Chicago</a></li></ul>
       </div>
     </div>
-    <p class="fine" id="fine"></p>
   </footer>
 </div>
-<script src="common.js?v=210e3021"></script>
+<script src="common.js?v=5d52ce40"></script>
 <script>
-SC.load().then(data=>{
-  SC.footer(data);
+// City pages load their own data (SC.load, from <body data-data>). The neutral contact page
+// at the site root shows a "Which city?" field and loads that city's shows for the picker.
+const cityField = document.getElementById("r-city-field"), citySel = document.getElementById("r-city");
+const neutral = !cityField.hidden;
+const loadCity = s => fetch(`data/${s}.json`, {cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); });
+function fillShows(data){
   const {esc,fmt,todayISO} = SC, venues=data.venues, today=todayISO();
   document.getElementById("shows").innerHTML = data.events.filter(e=>e.date>=today).map(e=>`<option value="${esc(`${e.title}, ${fmt(e.date,{month:"short",day:"numeric"})} at ${(venues[e.venue]||{short:e.venue}).short}`)}">`).join("");
+}
+if(neutral){
+  let saved=null; try{ saved=localStorage.getItem("sc-city"); }catch(e){}
+  if(saved && [...citySel.options].some(o=>o.value===saved)) citySel.value=saved;
+  citySel.addEventListener("change",()=>{ document.getElementById("r-show").value=""; loadCity(citySel.value).then(fillShows).catch(()=>{}); });
+}
+(neutral ? loadCity(citySel.value) : SC.load()).then(data=>{
+  if(!neutral) SC.footer(data);
+  fillShows(data);
   const p = new URLSearchParams(location.search);
   if(p.get("show")) document.getElementById("r-show").value = p.get("show");
 

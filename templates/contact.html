@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact · 2 Week Soundcheck</title>
+<meta name="description" content="Report a problem with a listing or get in touch with 2 Week Soundcheck.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="2 Week Soundcheck">
+<meta property="og:url" content="https://2weeksoundcheck.com/contact.html">
+<meta property="og:title" content="Contact · 2 Week Soundcheck">
+<meta property="og:description" content="Report a problem with a listing or get in touch with 2 Week Soundcheck.">
+<meta property="og:image" content="https://2weeksoundcheck.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A vintage photo of a bandleader singing into a microphone with a bass player behind him, captioned 2 Week Soundcheck, Seattle.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://2weeksoundcheck.com/og-image.jpg">
+<meta name="theme-color" content="#F3F5F9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1A2030" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231C2433'/%3E%3Crect x='6' y='14' width='4' height='12' fill='%23D6336C'/%3E%3Crect x='14' y='8' width='4' height='18' fill='%23D6336C'/%3E%3Crect x='22' y='11' width='4' height='15' fill='%23D6336C'/%3E%3Crect x='14' y='5' width='4' height='2' fill='%23F2A100'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css?v=e57820ca">
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <div class="brandrow">
+    <a class="brand" href="./"><b>2</b> Week Soundcheck</a>
+    <label class="edition"><span class="visually-hidden">City</span>
+      <select id="city" aria-label="City">
+        <option value="seattle" selected>Seattle</option>
+        <option value="chicago">Chicago</option>
+      </select>
+    </label>
+    </div>
+    <nav class="nav" aria-label="Main">
+      <a href="./">Shows</a>
+      <a href="playlists.html">Playlists</a>
+      <a href="#newsletter">Sunday email</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <section class="page-head">
+    <h1>Get in touch</h1>
+    <p>Spotted a wrong date, a dead ticket link or a show we missed? Tell us and we'll fix it in the next update. For anything else, like a venue we should follow, a partnership or another city, use the contact form.</p>
+  </section>
+
+  <div class="forms">
+    <form class="card" id="report" data-kind="report" novalidate>
+      <h2>Report a problem</h2>
+      <p>Listings are checked every week, but venues change things.</p>
+      <div class="field">
+        <label for="r-type">What's wrong?</label>
+        <select id="r-type" name="problem" required>
+          <option value="">Choose one</option>
+          <option>Wrong date or time</option>
+          <option>Show is cancelled or postponed</option>
+          <option>Ticket link doesn't work</option>
+          <option>Wrong artist or lineup</option>
+          <option>Not a concert</option>
+          <option>A show is missing</option>
+          <option>Playlist has the wrong artist</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div class="field" id="r-city-field" hidden>
+        <label for="r-city">Which city?</label>
+        <select id="r-city" name="city"><!--CITY_OPTIONS--></select>
+      </div>
+      <div class="field">
+        <label for="r-show">Which show? <span class="hint">Start typing an artist</span></label>
+        <input id="r-show" name="show" list="shows" autocomplete="off">
+        <datalist id="shows"></datalist>
+      </div>
+      <div class="field">
+        <label for="r-details">Details</label>
+        <textarea id="r-details" name="details" required placeholder="What should it say instead? A link helps."></textarea>
+      </div>
+      <div class="field">
+        <label for="r-email">Your email <span class="hint">Optional, if you'd like a reply</span></label>
+        <input id="r-email" name="email" type="email" autocomplete="email">
+      </div>
+      <button class="btn" type="submit">Send report</button>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+
+    <form class="card" id="contact" data-kind="contact" novalidate>
+      <h2>Contact us</h2>
+      <p>Questions, ideas, venue tips, partnerships.</p>
+      <div class="field">
+        <label for="c-name">Name</label>
+        <input id="c-name" name="name" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="c-email">Email</label>
+        <input id="c-email" name="email" type="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="c-topic">Topic</label>
+        <select id="c-topic" name="topic">
+          <option>General</option>
+          <option>Suggest a venue</option>
+          <option>Bring it to my city</option>
+          <option>Advertising or partnership</option>
+          <option>Artist or venue</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="c-message">Message</label>
+        <textarea id="c-message" name="message" required></textarea>
+      </div>
+      <button class="btn" type="submit">Send message</button>
+      <p class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+
+  <footer>
+    <div class="foot">
+      <div>
+        <h4>About</h4>
+        <p>2 Week Soundcheck tracks every concert at a short list of rooms worth knowing, refreshed every week, so you can find new music and go see it.</p>
+      </div>
+      <div>
+        <h4>Venues we follow</h4>
+        <ul id="venues"></ul>
+      </div>
+      <div>
+        <h4>Stay in the loop</h4>
+        <ul>
+          <li><a href="#newsletter">Sunday email</a></li>
+          <li><a data-cal href="#">Add to Apple or Outlook Calendar</a></li>
+          <li><a data-gcal href="#">Add to Google Calendar</a></li>
+          <li><a data-pl href="#">This week's playlist on Spotify</a></li>
+          <li><a href="playlists.html">Past playlists</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine" id="fine"></p>
+  </footer>
+</div>
+<script src="common.js?v=210e3021"></script>
+<script>
+// City pages load their own data (SC.load, from <body data-data>). The neutral contact page
+// at the site root shows a "Which city?" field and loads that city's shows for the picker.
+const cityField = document.getElementById("r-city-field"), citySel = document.getElementById("r-city");
+const neutral = !cityField.hidden;
+const loadCity = s => fetch(`data/${s}.json`, {cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); });
+function fillShows(data){
+  const {esc,fmt,todayISO} = SC, venues=data.venues, today=todayISO();
+  document.getElementById("shows").innerHTML = data.events.filter(e=>e.date>=today).map(e=>`<option value="${esc(`${e.title}, ${fmt(e.date,{month:"short",day:"numeric"})} at ${(venues[e.venue]||{short:e.venue}).short}`)}">`).join("");
+}
+if(neutral){
+  let saved=null; try{ saved=localStorage.getItem("sc-city"); }catch(e){}
+  if(saved && [...citySel.options].some(o=>o.value===saved)) citySel.value=saved;
+  citySel.addEventListener("change",()=>{ document.getElementById("r-show").value=""; loadCity(citySel.value).then(fillShows).catch(()=>{}); });
+}
+(neutral ? loadCity(citySel.value) : SC.load()).then(data=>{
+  if(!neutral) SC.footer(data);
+  fillShows(data);
+  const p = new URLSearchParams(location.search);
+  if(p.get("show")) document.getElementById("r-show").value = p.get("show");
+
+  const cfg = data.contact || {};
+  document.querySelectorAll("form[data-kind]").forEach(form=>{
+    const kind=form.dataset.kind, status=form.querySelector(".status"), to = kind==="report" ? (cfg.report_to||cfg.contact_to) : cfg.contact_to;
+    const live = cfg.form_endpoint || to;
+    if(!live){ status.textContent = "This form opens soon. Until then, reach us through the Sunday email."; form.querySelector("button").disabled = true; }
+    form.addEventListener("submit", async ev=>{
+      ev.preventDefault(); status.className="status";
+      const missing=[...form.querySelectorAll("[required]")].find(f=>!f.value.trim());
+      if(missing){ status.className="status err"; status.textContent=`Fill in ${form.querySelector(`label[for="${missing.id}"]`).childNodes[0].textContent.trim().replace(/\?$/,"").toLowerCase()} to send this.`; missing.focus(); return; }
+      const email=form.querySelector('input[type="email"]');
+      if(email && email.value && !email.checkValidity()){ status.className="status err"; status.textContent="That email address doesn't look complete. Check it and send again."; email.focus(); return; }
+      const fields=Object.fromEntries(new FormData(form)); fields.kind=kind; fields.page=location.href;
+      const subject = kind==="report" ? `Report: ${fields.problem}${fields.show?` (${fields.show})`:""}` : `Contact: ${fields.topic} from ${fields.name}`;
+      if(cfg.form_endpoint){
+        try{
+          const r=await fetch(cfg.form_endpoint,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify({_subject:subject,_template:"table",_replyto:fields.email||"",...fields})});
+          if(!r.ok) throw 0; const j=await r.json().catch(()=>({})); if(j.success===false||j.success==="false") throw 0;
+          form.reset(); status.textContent = kind==="report" ? "Report sent. Thanks, we'll fix it in the next update." : "Message sent. Thanks for reaching out.";
+        }catch(e){ status.className="status err"; status.textContent="Your message didn't send. Check your connection and try again."; }
+      } else {
+        const body=Object.entries(fields).filter(([k])=>!["kind"].includes(k)).map(([k,v])=>`${k}: ${v}`).join("\n");
+        location.href=`mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        status.textContent="Your email app should open with the message filled in. Press send there.";
+      }
+    });
+  });
+}).catch(()=>{});
+</script>
+</body>
+</html>
