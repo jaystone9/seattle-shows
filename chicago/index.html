@@ -176,6 +176,8 @@
     const slug = a => a.toLowerCase().replace(/[^a-z]+/g,"-").replace(/^-|-$/g,"");
     const areaPls = data.area_playlists || {};
     const PL_AREAS = ["Wicker Park & Logan Square", "West Loop & Pilsen", "North Suburbs"];  // area playlists we build every Sunday
+    const where = a => ({"Frelard":"the small rooms in Ballard and Fremont","West Loop & Pilsen":"West Loop & Pilsen",
+                         "North Suburbs":"the North Shore and northwest suburbs"})[a] || `${a}'s small rooms`;
     // Standing genre playlists (Pop, Indie & Rock, ...): one chip each, refreshed every Sunday.
     const genres = data.genre_playlists || [];
     let plTab = "", plGenre = "";
@@ -192,11 +194,11 @@
         $("#pl-sub").textContent = gp
           ? `${pl.songs} songs from ${pl.artists} ${gp.genre} headliners playing ${range(pl.start,pl.end)}, in show order.`
           : area
-          ? `${pl.songs} songs from ${pl.artists} artists playing ${area==="West Loop & Pilsen"?"West Loop & Pilsen":`${area}'s small rooms`} ${range(pl.start,pl.end)}, openers included, in show order.`
+          ? `${pl.songs} songs from ${pl.artists} artists playing ${where(area)} ${range(pl.start,pl.end)}, openers included, in show order.`
           : `${pl.songs} songs from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order.`;
       } else {
-        $("#player").innerHTML = `<p class="empty" style="padding:24px">${area?`The first ${esc(area)} playlist lands this Sunday: every band on the bill in Ballard and Fremont, openers included.`:"This week's playlist is being built. Check back Sunday evening."}</p>`;
-        $("#pl-sub").textContent = area ? "Every act at the small rooms in Ballard and Fremont." : "The top songs from every headliner, in show order.";
+        $("#player").innerHTML = `<p class="empty" style="padding:24px">${area?`The first ${esc(area)} playlist lands this Sunday: every band on the bill at ${where(area)}, openers included.`:"This week's playlist is being built. Check back Sunday evening."}</p>`;
+        $("#pl-sub").textContent = area ? `Every act playing ${where(area)}.` : "The top songs from every headliner, in show order.";
       }
     }
     $("#pl-tabs").innerHTML = [["",`All ${data.edition||"Chicago"}`],...PL_AREAS.map(a=>[a,a])].map(([a,l])=>`<button type="button" data-area="${esc(a)}" aria-pressed="false">${esc(l)}</button>`).join("");
