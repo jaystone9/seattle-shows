@@ -56,9 +56,10 @@
  },
  "Albert Cummings": {
   "genres": [
-   "Indie & Rock"
+   "Indie & Rock",
+   "Funk & Blues"
   ],
-  "confirmed": "2026-10-19",
+  "confirmed": "2026-10-20",
   "spotify": "1YYXyn4etM5oe9RnJe3Mvg"
  },
  "Alborosie": {
@@ -280,6 +281,11 @@
   "confirmed": "2026-10-18",
   "spotify": "1u8qqOF2w0kgbg1QLXEXSJ"
  },
+ "Blues People": {
+  "genres": [],
+  "confirmed": "2026-10-20",
+  "spotify": "6EXApkWMOfr6VS6DVPOIBp"
+ },
  "Bob Lark": {
   "genres": [
    "Jazz, World & Classical"
@@ -315,6 +321,13 @@
   "confirmed": "2026-10-19",
   "spotify": "79bG7tuDQZaqpmsOizA6uc"
  },
+ "Bugoff!": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "1Sa2ZLSKpPUDOOv5Lm8KB1"
+ },
  "bunii": {
   "genres": [
    "Indie & Rock"
@@ -343,6 +356,12 @@
   ],
   "confirmed": "2026-10-18",
   "spotify": "1XdVoqHJ3lSE4kzTKTlD8j"
+ },
+ "Carlise Guy & the NuBlu Band": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-10-20"
  },
  "Catch Your Breath": {
   "genres": [
@@ -386,6 +405,14 @@
   ],
   "spotify": "32kCEAvtuFzIZA15zrhQDW",
   "confirmed": "2026-10-14"
+ },
+ "Cheerleader Roadkill": {
+  "genres": [
+   "Punk & Metal",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "16nIjFM97UOhihhYgQPJM1"
  },
  "Cherub Chains": {
   "genres": [
@@ -443,6 +470,13 @@
   ],
   "spotify": "7ok3rMJFfZGocqaQyMHdMM",
   "confirmed": "2026-10-14"
+ },
+ "Corey Dennison": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "76udl9rOEb244XK73Xrm54"
  },
  "Cortisa Star": {
   "genres": [
@@ -773,6 +807,12 @@
   "confirmed": "2026-10-19",
   "spotify": "6u0sR7YTLPNf5CdyBg3ZE1"
  },
+ "Funky Mojo Daddy": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-10-20"
+ },
  "Geese": {
   "genres": [
    "Indie & Rock"
@@ -828,9 +868,10 @@
  },
  "GreenTTea & The Tempos": {
   "genres": [
-   "Hip-hop & R&B"
+   "Hip-hop & R&B",
+   "Funk & Blues"
   ],
-  "confirmed": "2026-10-19",
+  "confirmed": "2026-10-20",
   "spotify": "0N9eE0WAepj15N44E0ITKr"
  },
  "Greg Freeman": {
@@ -1111,6 +1152,14 @@
   "confirmed": "2026-10-18",
   "spotify": "5lOT3UWBX152qoVvX8Moz3"
  },
+ "Kelsey Montanez": {
+  "genres": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "6Ak3pj3iTGc3FQPgOgLyGs"
+ },
  "Ken Ishii": {
   "genres": [
    "Electronic"
@@ -1166,6 +1215,13 @@
   ],
   "confirmed": "2026-10-18",
   "spotify": "3LjnXZYlHbblbd8OZTtSip"
+ },
+ "L'il Ed & the Blues Imperials": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "3Rb0PWL2XJTCKrhZ2FSd5E"
  },
  "LAERZ": {
   "genres": [
@@ -1237,6 +1293,13 @@
   "confirmed": "2026-10-19",
   "spotify": "5ozUXaDjc4mfVyDIWCJH4E"
  },
+ "Liz Mandeville": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "2E9otVxlvozf79LrFKsWyc"
+ },
  "Logan Richardson": {
   "genres": [
    "Jazz, World & Classical"
@@ -1257,6 +1320,13 @@
   ],
   "spotify": "0xoz0HtvzkAkWfRhjzb84O",
   "confirmed": "2026-10-14"
+ },
+ "Luscia Jane": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "21CsJBQcd0rNevHDe5kT3u"
  },
  "Madame Starlet": {
   "genres": [
@@ -1370,6 +1440,13 @@
   "genres": [],
   "confirmed": "2026-10-14"
  },
+ "Maxwell Lane": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "403KYikHTN24pJ4F0VWaSH"
+ },
  "Medium Build - The King of Having Fun": {
   "genres": [
    "Indie & Rock",
@@ -1398,6 +1475,13 @@
   ],
   "confirmed": "2026-10-19",
   "spotify": "3zX0EMvB00JzxnRi5EIICP"
+ },
+ "Mike Wheeler": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "0mbdB40WJauyCbe3U4evu0"
  },
  "Missing Link": {
   "genres": [
@@ -1502,6 +1586,19 @@
   ],
   "confirmed": "2026-10-19",
   "spotify": "73uyDLNGkeOTDdgkRPA0MJ"
+ },
+ "Nicholas Alexander": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-10-20"
+ },
+ "Nigel Mack": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "4Nb8u4WEdRHyuuTR9Hj2nN"
  },
  "Night Moves": {
   "genres": [
@@ -1761,6 +1858,13 @@
   "confirmed": "2026-10-19",
   "spotify": "6oeSQ4qmDQ7n89Rdt6tLLn"
  },
+ "Ray Fuller": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "4yAf1AMXZkuFV3LFkE8V8f"
+ },
  "Ray Wolff": {
   "genres": [
    "Folk & Country",
@@ -1798,12 +1902,27 @@
   "spotify": "4Sl3fpSDeo9cMb3ouKm0rV",
   "confirmed": "2026-10-14"
  },
+ "Rhea the Second": {
+  "genres": [
+   "Pop",
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "7r1eZJsTOC1C4rflEuZtMk"
+ },
  "Richard Shindell": {
   "genres": [
    "Folk & Country"
   ],
   "confirmed": "2026-10-19",
   "spotify": "0ONG1ffKzhVIm4arvvLPHl"
+ },
+ "Rico McFarland": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-10-20",
+  "spotify": "4ArQNmLTG1J9sV4Im7OkQv"
  },
  "Righteous Rooster Organ Trio": {
   "genres": [
@@ -2129,9 +2248,10 @@
  },
  "Tank and The Bangas": {
   "genres": [
-   "Hip-hop & R&B"
+   "Hip-hop & R&B",
+   "Funk & Blues"
   ],
-  "confirmed": "2026-10-19",
+  "confirmed": "2026-10-20",
   "spotify": "5cAtakaadWHJLxmGKrKcX7"
  },
  "Tasmo": {
@@ -2150,9 +2270,10 @@
  },
  "Tedeschi Trucks Band": {
   "genres": [
-   "Indie & Rock"
+   "Indie & Rock",
+   "Funk & Blues"
   ],
-  "confirmed": "2026-10-19",
+  "confirmed": "2026-10-20",
   "spotify": "2gFsmDBM0hkoZPmrO5EdyO"
  },
  "TEN": {
@@ -2455,6 +2576,11 @@
   "spotify": "5aqFCmHlaXKczjY9MT2QUh",
   "confirmed": "2026-10-14"
  },
+ "trenton michael": {
+  "genres": [],
+  "confirmed": "2026-10-20",
+  "spotify": "2J42S3cRKTqzz0upSLjsru"
+ },
  "Truly": {
   "genres": [
    "Indie & Rock"
@@ -2505,6 +2631,11 @@
   "spotify": "3PbVZAe3y6cQKBDdG2YASB",
   "confirmed": "2026-10-14"
  },
+ "VLVT RED": {
+  "genres": [],
+  "confirmed": "2026-10-20",
+  "spotify": "2onXLiq1dryeAeYfuwdSxe"
+ },
  "W.A.S.P.": {
   "genres": [
    "Punk & Metal"
@@ -2525,6 +2656,11 @@
   ],
   "confirmed": "2026-10-19",
   "spotify": "6f4XkbvYlXMH0QgVRzW0sM"
+ },
+ "Walt From.The.Future": {
+  "genres": [],
+  "confirmed": "2026-10-20",
+  "spotify": "0BLyCPUD5lXkMOZM9uHcWP"
  },
  "Weatherday": {
   "genres": [
@@ -2570,9 +2706,10 @@
  },
  "William Elliott Whitmore": {
   "genres": [
-   "Folk & Country"
+   "Folk & Country",
+   "Funk & Blues"
   ],
-  "confirmed": "2026-10-19",
+  "confirmed": "2026-10-20",
   "spotify": "55N838yCXjxLVkBkIM5pnf"
  },
  "Winyah": {

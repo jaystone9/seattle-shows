@@ -6,8 +6,8 @@
   "url": "https://open.spotify.com/playlist/6RTbS6Faf1IxFnLeYSvTx5",
   "start": "2026-10-18",
   "end": "2026-10-31",
-  "songs": 74,
-  "artists": 25,
+  "songs": 80,
+  "artists": 27,
   "per_artist": 3
  },
  {
@@ -17,8 +17,8 @@
   "url": "https://open.spotify.com/playlist/2qZZHzdlJrS7L6L7ThFB7p",
   "start": "2026-10-18",
   "end": "2026-10-31",
-  "songs": 177,
-  "artists": 59,
+  "songs": 186,
+  "artists": 62,
   "per_artist": 3
  },
  {
@@ -50,8 +50,8 @@
   "url": "https://open.spotify.com/playlist/1w43OgSGhpfq1tbxLIMqt3",
   "start": "2026-10-18",
   "end": "2026-10-31",
-  "songs": 66,
-  "artists": 22,
+  "songs": 69,
+  "artists": 23,
   "per_artist": 3
  },
  {
@@ -61,8 +61,19 @@
   "url": "https://open.spotify.com/playlist/7kDTwTiGcmBNwpTFDDgU3L",
   "start": "2026-10-18",
   "end": "2026-10-31",
-  "songs": 87,
-  "artists": 29,
+  "songs": 93,
+  "artists": 31,
+  "per_artist": 3
+ },
+ {
+  "genre": "Funk & Blues",
+  "name": "2 Week Soundcheck · Chicago · Funk & Blues: Oct 18–31",
+  "id": "1FML5PhR2DZtF4FygeMyEt",
+  "url": "https://open.spotify.com/playlist/1FML5PhR2DZtF4FygeMyEt",
+  "start": "2026-10-18",
+  "end": "2026-10-31",
+  "songs": 39,
+  "artists": 13,
   "per_artist": 3
  },
  {

@@ -18,18 +18,19 @@ import re
 import sys
 
 GENRES = ["Pop", "Indie & Rock", "Folk & Country", "Electronic", "Hip-hop & R&B",
-          "Punk & Metal", "Jazz, World & Classical"]
+          "Punk & Metal", "Funk & Blues", "Jazz, World & Classical"]
 
 # A second genre is only allowed when it sits next to the first, so a folk
 # listener never gets a hip-hop or electronic track from a crossover act.
 NEIGHBORS = {
     "Pop": {"Indie & Rock", "Electronic", "Hip-hop & R&B"},
-    "Indie & Rock": {"Pop", "Folk & Country", "Punk & Metal", "Electronic"},
-    "Folk & Country": {"Indie & Rock", "Jazz, World & Classical"},
+    "Indie & Rock": {"Pop", "Folk & Country", "Punk & Metal", "Electronic", "Funk & Blues"},
+    "Folk & Country": {"Indie & Rock", "Jazz, World & Classical", "Funk & Blues"},
     "Electronic": {"Pop", "Indie & Rock", "Hip-hop & R&B"},
-    "Hip-hop & R&B": {"Pop", "Electronic", "Jazz, World & Classical"},
+    "Hip-hop & R&B": {"Pop", "Electronic", "Jazz, World & Classical", "Funk & Blues"},
     "Punk & Metal": {"Indie & Rock"},
-    "Jazz, World & Classical": {"Folk & Country", "Hip-hop & R&B"},
+    "Funk & Blues": {"Indie & Rock", "Folk & Country", "Hip-hop & R&B", "Jazz, World & Classical"},
+    "Jazz, World & Classical": {"Folk & Country", "Hip-hop & R&B", "Funk & Blues"},
 }
 
 EXACT = {
@@ -54,6 +55,9 @@ EXACT = {
                     "post-hardcore emo pop punk thrash metal doom metal sludge sludge metal stoner metal grindcore ska "
                     "ska punk crust deathcore progressive metal progressive metalcore nu metal screamo melodic hardcore "
                     "metallic hardcore hair metal riot grrrl powerviolence",
+    "Funk & Blues": "blues chicago blues electric blues delta blues soul blues modern blues classic blues "
+                    "texas blues blues guitar harmonica blues funk p-funk funk rock jazz funk funk soul "
+                    "new orleans funk boogaloo",
     "Jazz, World & Classical": "jazz classical world latin reggae afrobeat afrobeats bossa nova soundtrack orchestral "
                                "cumbia flamenco celtic opera contemporary classical fusion jazz fusion reggaeton salsa dub "
                                "bebop smooth jazz big band swing gospel choral baroque chamber music latin jazz mpb "
@@ -76,6 +80,8 @@ def _phrases(s):
 
 
 KNOWN = {
+    "chicago blues", "electric blues", "delta blues", "soul blues", "modern blues", "classic blues", "texas blues",
+    "blues guitar", "harmonica blues", "funk rock", "jazz funk", "funk soul", "new orleans funk",
     "dance-pop", "pop rock", "teen pop", "power pop", "art pop", "bedroom pop", "alternative pop", "country pop",
     "indie rock", "indie pop", "alternative rock", "dream pop", "psychedelic rock", "garage rock", "classic rock",
     "hard rock", "post-rock", "art rock", "math rock", "noise rock", "surf rock", "jangle pop", "progressive rock",
@@ -102,6 +108,7 @@ PATTERNS = [
     (r"folk|country|bluegrass|americana", "Folk & Country"),
     (r"house|techno|dubstep|trance|drum.?n.?bass|edm|electro", "Electronic"),
     (r"hip.?hop|\brap\b|r&b|rnb", "Hip-hop & R&B"),
+    (r"blues|funk", "Funk & Blues"),
     (r"jazz|classical|reggae|latin|afro|orchestr", "Jazz, World & Classical"),
     (r"indie|rock|shoegaze|psych|grunge", "Indie & Rock"),
 ]

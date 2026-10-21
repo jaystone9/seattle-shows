@@ -192,7 +192,7 @@
         $("#pl-sub").textContent = gp
           ? `${pl.songs} songs from ${pl.artists} ${gp.genre} headliners playing ${range(pl.start,pl.end)}, in show order.`
           : area
-          ? `${pl.songs} songs from ${pl.artists} artists playing ${area}'s small rooms ${range(pl.start,pl.end)}, openers included, in show order.`
+          ? `${pl.songs} songs from ${pl.artists} artists playing ${area==="West Loop & Pilsen"?"West Loop & Pilsen":`${area}'s small rooms`} ${range(pl.start,pl.end)}, openers included, in show order.`
           : `${pl.songs} songs from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order.`;
       } else {
         $("#player").innerHTML = `<p class="empty" style="padding:24px">${area?`The first ${esc(area)} playlist lands this Sunday: every band on the bill in Ballard and Fremont, openers included.`:"This week's playlist is being built. Check back Sunday evening."}</p>`;

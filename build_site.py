@@ -60,10 +60,13 @@ AREAS = {
     "Out of town": ["Woodinville", "Tacoma"],
 }
 # Genre playlists, in the order the chips appear. Slugs make shareable links: ?playlist=folk
+# A city only shows the genres it has playlists for (Funk & Blues is Chicago-only for now,
+# Jay, Oct 20, 2026); a show whose genres are all outside its city's set reads "Other / Local".
 GENRES = ["Pop", "Indie & Rock", "Folk & Country", "Electronic", "Hip-hop & R&B",
-          "Punk & Metal", "Jazz, World & Classical"]
+          "Punk & Metal", "Funk & Blues", "Jazz, World & Classical"]
 GENRE_SLUGS = {"Pop": "pop", "Indie & Rock": "indie", "Folk & Country": "folk", "Electronic": "electronic",
-               "Hip-hop & R&B": "hip-hop", "Punk & Metal": "punk", "Jazz, World & Classical": "jazz"}
+               "Hip-hop & R&B": "hip-hop", "Punk & Metal": "punk", "Funk & Blues": "blues",
+               "Jazz, World & Classical": "jazz"}
 
 OTHER_GENRE = "Other / Local"  # in the genre window but no confirmed genre (yet)
 
@@ -223,10 +226,17 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
             raise ValueError
     except Exception:
         g_from, g_to = today.isoformat(), (today + dt.timedelta(days=13)).isoformat()
+    # Standing genre playlists (one per genre, same Spotify playlist refreshed each Sunday).
+    # They live in their own file so they never become "this week's" playlist or enter the archive.
+    try:
+        gp = {p["genre"]: p for p in json.load(open(path("genre_playlists.json"))) if p.get("id")}
+    except FileNotFoundError:
+        gp = {}
+    city_genres = [g for g in GENRES if g in gp] or GENRES
     if confirmed:
         for e in events:
             if g_from <= e["date"] <= g_to:
-                e["genres"] = show_genres(e["title"], confirmed)
+                e["genres"] = [g for g in show_genres(e["title"], confirmed) if g in city_genres]
     try:
         playlists = json.load(open(pl))
     except FileNotFoundError:
@@ -237,12 +247,6 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
     for p in playlists:
         if p.get("area") and p["area"] not in area_playlists:
             area_playlists[p["area"]] = p
-    # Standing genre playlists (one per genre, same Spotify playlist refreshed each Sunday).
-    # They live in their own file so they never become "this week's" playlist or enter the archive.
-    try:
-        gp = {p["genre"]: p for p in json.load(open(path("genre_playlists.json"))) if p.get("id")}
-    except FileNotFoundError:
-        gp = {}
     genre_playlists = [dict(gp[g], slug=GENRE_SLUGS[g]) for g in GENRES if g in gp]
     # Dated snapshot of each genre playlist per window (Jay, Oct 18, 2026), for the Playlists archive.
     # Kept apart from playlists.json so they never count as the citywide or an area playlist.
@@ -264,7 +268,7 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
         "genre_playlists": genre_playlists,
         "genre_archive": genre_archive,
         "areas": list(AREAS),
-        "genres": [{"genre": g, "slug": GENRE_SLUGS[g]} for g in GENRES] + [{"genre": OTHER_GENRE, "slug": "other"}],
+        "genres": [{"genre": g, "slug": GENRE_SLUGS[g]} for g in city_genres] + [{"genre": OTHER_GENRE, "slug": "other"}],
         "genre_window": [g_from, g_to],
         "contact": json.load(open("contact.json")) if glob.glob("contact.json") else {},
         "venues": VENUES,

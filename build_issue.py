@@ -96,26 +96,30 @@ def main(*args):
     n = len(shows)
     edition = d.get("edition", "Seattle")
     areas = {a: p for a, p in (d.get("area_playlists") or {}).items() if p.get("start") == start and p.get("url")}
-    AREA = want_areas[0] if want_areas else None   # the city's neighborhood playlist, e.g. Frelard
-    fr = areas.get(AREA) if AREA else None
+    # The city's neighborhood playlists, in cities.py order (Frelard; Wicker Park & Logan Square, West Loop & Pilsen).
+    hoods = [(a, areas[a]) for a in want_areas if a in areas]
+    fr = hoods[0][1] if hoods else None
     warnings = []
     if not pl.get("url"):
         warnings.append(f"The {d.get('edition', 'Seattle')} playlist has no link for this window.")
-    if not fr and AREA:
-        warnings.append(f"No {AREA} playlist for this window in playlists.json. Build it (PLAYLIST.md 4b) and rerun.")
-    pers = {(p.get("per_artist") or 3) for p in [pl] + ([fr] if fr else [])}
+    for a in want_areas:
+        if a not in areas:
+            warnings.append(f"No {a} playlist for this window in playlists.json. Build it (PLAYLIST.md 4b) and rerun.")
+    pers = {(p.get("per_artist") or 3) for p in [pl] + [p for _, p in hoods]}
     per = WORDS.get(pers.pop(), "") if len(pers) == 1 else ""  # only state a count when both playlists agree
     if not per:
         warnings.append("The two playlists use different songs-per-artist counts, so the intro leaves the count out.")
 
     subject = f"{dates}: {edition} 2 Week Playlist"
-    preview_text = (f"Two new playlists for the next two weeks: all of {edition}, plus {AREA}." if fr
+    NUM = {2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"}
+    hood_names = " and ".join(a for a, _ in hoods)
+    preview_text = (f"{NUM[len(hoods) + 1]} new playlists for the next two weeks: all of {edition}, plus {hood_names}." if hoods
                     else f"Songs from every headliner playing {edition} over the next two weeks.")
 
     # ---------- the subscriber issue ----------
     h, t = [], []
     count = f"top {per} " if per else "top "
-    intro = (f"Two playlists for {dates}: the {count}songs from each artist, in show order."
+    intro = (f"{NUM[len(hoods) + 1]} playlists for {dates}: the {count}songs from each artist, in show order."
              if fr else f"Every headliner playing {edition} {dates}: the {count}songs from each, in show order.")
     h.append(f"<p>{intro} Hit shuffle, and when something grabs you, go see it.</p>")
     t.append(intro + " Hit shuffle, and when something grabs you, go see it.\n")
@@ -125,11 +129,13 @@ def main(*args):
         h.append(f"<p>{pl.get('songs')} songs from {pl.get('artists')} headliners across the city.</p>")
         h.append(button(pl["url"], f"▶ Listen to the {edition} playlist on Spotify"))
         t.append(f"ALL OF {edition.upper()}: {pl.get('songs')} songs from {pl.get('artists')} headliners across the city.\n{pl['url']}\n")
-    if fr:
+    for AREA, fr in hoods:
         why = {"Frelard": "I live in Ballard and want to go to more shows close to home, so this one covers "
                           "the small rooms in Fremont and Ballard, openers included.",
                "Wicker Park & Logan Square": "The small rooms in Wicker Park, Logan Square and Avondale, "
-                                             "openers included, so you can find a new favorite before they play the big rooms."
+                                             "openers included, so you can find a new favorite before they play the big rooms.",
+               "West Loop & Pilsen": "Thalia Hall, the Salt Shed, the Hideout, Bottom Lounge, Cobra Lounge and the "
+                                     "United Center, openers included."
                }.get(AREA, f"The small rooms in {AREA}, openers included.")
         h.append(f"<h3>{html.escape(AREA)}</h3>")
         h.append(f"<p>{why} {fr.get('songs')} songs from {fr.get('artists')} artists.</p>")
@@ -140,7 +146,7 @@ def main(*args):
     # so readers open Spotify without visiting the site. Text links in one line, not buttons.
     gps = d.get("genre_playlists") or []
     if gps:
-        word = {7: "Seven"}.get(len(gps), str(len(gps)))
+        word = NUM.get(len(gps), str(len(gps)))
         h.append("<h3>Just want one genre?</h3>")
         h.append(f"<p>{word} genre playlists from the same shows, refreshed every Sunday. "
                  "Follow one on Spotify and it updates itself:</p>")
@@ -148,7 +154,7 @@ def main(*args):
         t.append(f"JUST WANT ONE GENRE? {word} genre playlists from the same shows, refreshed every Sunday. "
                  "Follow one on Spotify and it updates itself:\n"
                  + "\n".join(f"  {g['genre']}: {g['url']}" for g in gps) + "\n")
-    which = "either playlist" if fr else "the playlist"
+    which = {0: "the playlist", 1: "either playlist"}.get(len(hoods), "any of the playlists")
     h.append(f"<p>Not on Spotify? {link(transfer, f'Copy {which} to Apple Music, YouTube Music and more, free →')}</p>")
     t.append(f"Not on Spotify? Copy {which} to Apple Music, YouTube Music and more, free: {transfer}\n")
 
@@ -168,9 +174,9 @@ def main(*args):
     open(f"{outdir}/{start}.txt", "w").write(f"Subject: {subject}\nPreview: {preview_text}\n\n" + "\n".join(t) + "\n")
 
     # ---------- the check email (Jay only) ----------
-    links = [(f"{edition} playlist", pl.get("url")), (f"{AREA} playlist", fr and fr.get("url")),
-             ("Copy-to-other-apps tool", transfer), ("Site", SITE)]
-    links[2:2] = [(f"{g['genre']} playlist", g.get("url")) for g in gps]
+    links = [(f"{edition} playlist", pl.get("url"))] + [(f"{a} playlist", (areas.get(a) or {}).get("url")) for a in want_areas] \
+        + [("Copy-to-other-apps tool", transfer), ("Site", SITE)]
+    links[1 + len(want_areas):1 + len(want_areas)] = [(f"{g['genre']} playlist", g.get("url")) for g in gps]
     do_http = "--check-links" in flags
     c = [f"Subject: CHECK before sending: {subject}", "",
          "This is the pre-send check. The beehiiv test of the real issue arrives separately.",
@@ -187,12 +193,12 @@ def main(*args):
           f"  Dates: {dates}",
           f"  Shows on the site in this window: {n}",
           f"  {edition}: {pl.get('songs', '?')} songs, {pl.get('artists', '?')} headliners, {pl.get('per_artist', '?')} per artist"]
-    if fr:
+    for AREA, fr in hoods:
         c.append(f"  {AREA}: {fr.get('songs', '?')} songs, {fr.get('artists', '?')} artists, {fr.get('per_artist', '?')} per artist")
     for g in gps:
         stale = "" if g.get("start") == start else f"  [NOT REFRESHED: still {g.get('start')}]"
         c.append(f"  {g['genre']}: {g.get('songs', '?')} songs, {g.get('artists', '?')} artists{stale}")
-    for name, p in ((edition, pl), (AREA or "", fr or {})):
+    for name, p in [(edition, pl)] + hoods:
         if p.get("skipped"):
             c.append(f"  {name} skipped (not on Spotify or ambiguous): {', '.join(p['skipped'])}")
     c += ["", "FLAGS"] + ([f"  - {w}" for w in warnings] or ["  None from the build. Add anything found in the run (failed venues, reports)."])

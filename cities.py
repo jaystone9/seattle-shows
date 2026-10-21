@@ -129,7 +129,7 @@ CITIES = {
         "venues": CHICAGO_VENUES,
         "areas": CHICAGO_AREAS,
         "addr": CHICAGO_ADDR,
-        "area_playlists": ["Wicker Park & Logan Square"],   # Jay, Oct 19, 2026: headliners + openers
+        "area_playlists": ["Wicker Park & Logan Square", "West Loop & Pilsen"],   # Jay, Oct 19 / Oct 20, 2026: headliners + openers
         "live": True,
     },
 }
