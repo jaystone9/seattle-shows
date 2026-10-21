@@ -175,7 +175,7 @@
     // Citywide playlist plus area playlists (Frelard first). Each tab swaps the player.
     const slug = a => a.toLowerCase().replace(/[^a-z]+/g,"-").replace(/^-|-$/g,"");
     const areaPls = data.area_playlists || {};
-    const PL_AREAS = ["Wicker Park & Logan Square", "West Loop & Pilsen"];  // area playlists we build every Sunday
+    const PL_AREAS = ["Wicker Park & Logan Square", "West Loop & Pilsen", "North suburbs"];  // area playlists we build every Sunday
     // Standing genre playlists (Pop, Indie & Rock, ...): one chip each, refreshed every Sunday.
     const genres = data.genre_playlists || [];
     let plTab = "", plGenre = "";

@@ -55,11 +55,23 @@ CHICAGO_VENUES = {
     "Soldier Field": {"short": "Soldier Field", "hood": "South Loop", "site": "https://www.soldierfield.com/events"},
     "Huntington Bank Pavilion": {"short": "Huntington Bank Pavilion", "hood": "Northerly Island", "site": "https://www.huntingtonbankpavilion.com/"},
     "Jay Pritzker Pavilion": {"short": "Pritzker Pavilion", "hood": "The Loop", "site": "https://www.chicago.gov/city/en/depts/dca/supp_info/millennium_park.html"},
-    # Out of town
+    # North suburbs (North Shore + northwest suburbs; Jay, Oct 20, 2026, on a tip from his dad)
     "SPACE": {"short": "SPACE", "hood": "Evanston", "site": "https://www.evanstonspace.com/"},
-    "FitzGerald's": {"short": "FitzGerald's", "hood": "Berwyn", "site": "https://www.fitzgeraldsnightclub.com/"},
+    "Studio5": {"short": "Studio5", "hood": "Evanston", "site": "https://www.studio5.dance/"},
+    "North Shore Center for the Performing Arts": {"short": "North Shore Center", "hood": "Skokie", "site": "https://northshorecenter.org/"},
+    "Skokie Theatre": {"short": "Skokie Theatre", "hood": "Skokie", "site": "https://skokietheatre.org/"},
     "Ravinia": {"short": "Ravinia", "hood": "Highland Park", "site": "https://www.ravinia.org/"},
+    "Gorton Center": {"short": "Gorton Center", "hood": "Lake Forest", "site": "https://www.gortoncenter.org/"},
+    "Genesee Theatre": {"short": "Genesee", "hood": "Waukegan", "site": "https://www.geneseetheatre.com/"},
+    "Hey Nonny": {"short": "Hey Nonny", "hood": "Arlington Heights", "site": "https://heynonny.com/"},
+    "Metropolis Performing Arts Centre": {"short": "Metropolis", "hood": "Arlington Heights", "site": "https://www.metropolisarts.com/"},
+    "Des Plaines Theatre": {"short": "Des Plaines Theatre", "hood": "Des Plaines", "site": "https://www.desplainestheatre.com/"},
+    "Rosemont Theatre": {"short": "Rosemont Theatre", "hood": "Rosemont", "site": "https://www.rosemont.com/theatre/"},
     "Allstate Arena": {"short": "Allstate Arena", "hood": "Rosemont", "site": "https://www.rosemont.com/allstate/"},
+    "Durty Nellie's": {"short": "Durty Nellie's", "hood": "Palatine", "site": "https://www.durtynellies.com/"},
+    "Prairie Center for the Arts": {"short": "Prairie Center", "hood": "Schaumburg", "site": "https://www.prairiecenter.org/"},
+    # Out of town
+    "FitzGerald's": {"short": "FitzGerald's", "hood": "Berwyn", "site": "https://www.fitzgeraldsnightclub.com/"},
     "Credit Union 1 Amphitheatre": {"short": "Credit Union 1 Amphitheatre", "hood": "Tinley Park", "site": "https://www.livenation.com/venue/KovZpZAE6eeA/credit-union-1-amphitheatre-events"},
 }
 
@@ -69,7 +81,9 @@ CHICAGO_AREAS = {
     "Uptown": ["Uptown"],
     "West Loop & Pilsen": ["West Loop", "Pilsen", "Goose Island", "Near West Side"],
     "Downtown & South Loop": ["The Loop", "River North", "South Loop", "Northerly Island"],
-    "Out of town": ["Evanston", "Berwyn", "Highland Park", "Rosemont", "Tinley Park"],
+    "North suburbs": ["Evanston", "Skokie", "Highland Park", "Lake Forest", "Waukegan", "Arlington Heights",
+                      "Des Plaines", "Rosemont", "Palatine", "Schaumburg"],
+    "Out of town": ["Berwyn", "Tinley Park"],
 }
 
 # Street addresses for the calendar feed's LOCATION field.
@@ -113,9 +127,20 @@ CHICAGO_ADDR = {
     "Huntington Bank Pavilion": "Huntington Bank Pavilion at Northerly Island, 1300 S Linn White Dr, Chicago, IL 60605",
     "Jay Pritzker Pavilion": "Jay Pritzker Pavilion, Millennium Park, 201 E Randolph St, Chicago, IL 60602",
     "SPACE": "SPACE, 1245 Chicago Ave, Evanston, IL 60202",
-    "FitzGerald's": "FitzGerald's, 6615 W Roosevelt Rd, Berwyn, IL 60402",
+    "Studio5": "Studio5 Performing Arts Center, 1934 Dempster St, Evanston, IL 60202",
+    "North Shore Center for the Performing Arts": "North Shore Center for the Performing Arts, 9501 Skokie Blvd, Skokie, IL 60077",
+    "Skokie Theatre": "Skokie Theatre, 7924 Lincoln Ave, Skokie, IL 60077",
     "Ravinia": "Ravinia, 418 Sheridan Rd, Highland Park, IL 60035",
+    "Gorton Center": "Gorton Center, 400 E Illinois Rd, Lake Forest, IL 60045",
+    "Genesee Theatre": "Genesee Theatre, 203 N Genesee St, Waukegan, IL 60085",
+    "Hey Nonny": "Hey Nonny, 10 S Vail Ave, Arlington Heights, IL 60005",
+    "Metropolis Performing Arts Centre": "Metropolis Performing Arts Centre, 111 W Campbell St, Arlington Heights, IL 60005",
+    "Des Plaines Theatre": "Des Plaines Theatre, 1476 Miner St, Des Plaines, IL 60016",
+    "Rosemont Theatre": "Rosemont Theatre, 5400 N River Rd, Rosemont, IL 60018",
     "Allstate Arena": "Allstate Arena, 6920 Mannheim Rd, Rosemont, IL 60018",
+    "Durty Nellie's": "Durty Nellie's, 180 N Smith St, Palatine, IL 60067",
+    "Prairie Center for the Arts": "Prairie Center for the Arts, 201 Schaumburg Ct, Schaumburg, IL 60193",
+    "FitzGerald's": "FitzGerald's, 6615 W Roosevelt Rd, Berwyn, IL 60402",
     "Credit Union 1 Amphitheatre": "Credit Union 1 Amphitheatre, 19100 S Ridgeland Ave, Tinley Park, IL 60477",
 }
 
@@ -129,7 +154,7 @@ CITIES = {
         "venues": CHICAGO_VENUES,
         "areas": CHICAGO_AREAS,
         "addr": CHICAGO_ADDR,
-        "area_playlists": ["Wicker Park & Logan Square", "West Loop & Pilsen"],   # Jay, Oct 19 / Oct 20, 2026: headliners + openers
+        "area_playlists": ["Wicker Park & Logan Square", "West Loop & Pilsen", "North suburbs"],   # Jay, Oct 19 / Oct 20, 2026: headliners + openers
         "live": True,
     },
 }

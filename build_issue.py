@@ -135,7 +135,9 @@ def main(*args):
                "Wicker Park & Logan Square": "The small rooms in Wicker Park, Logan Square and Avondale, "
                                              "openers included, so you can find a new favorite before they play the big rooms.",
                "West Loop & Pilsen": "Thalia Hall, the Salt Shed, the Hideout, Bottom Lounge, Cobra Lounge and the "
-                                     "United Center, openers included."
+                                     "United Center, openers included.",
+               "North suburbs": "For the North Shore and the northwest suburbs: SPACE, Hey Nonny, Ravinia, "
+                                "Genesee, Rosemont and the rest, openers included, so you don't have to drive downtown."
                }.get(AREA, f"The small rooms in {AREA}, openers included.")
         h.append(f"<h3>{html.escape(AREA)}</h3>")
         h.append(f"<p>{why} {fr.get('songs')} songs from {fr.get('artists')} artists.</p>")
