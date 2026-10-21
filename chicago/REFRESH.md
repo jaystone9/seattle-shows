@@ -30,6 +30,7 @@ Window: TODAY through TODAY + 6 months. One JSON file per venue in `chicago/show
 | riviera.json | Riviera Theatre, Uptown | jamusa.com/riviera-theatre (AXS). Drop comedy and drag |
 | aragon.json | Aragon Ballroom, Uptown | aragon.com / livenation.com. EDM-heavy: keep named touring artists |
 | thalia-hall.json | Thalia Hall, Pilsen | thaliahallchicago.com/shows loads by script; browser, Songkick. Drop comedy, movie nights, DJ parties |
+| radius.json | Radius, Pilsen | radius-chicago.com/events/all (WebFetch works; AXS ticket links; lists doors only, runs ~5 months out). Mostly electronic. Keep named DJs/producers; drop branded parties (Boots Halloween, Elrow, Boiler Room, F*CK FANTASM, M.E.A.T./Market Days). Added Oct 21, 2026 (Jay) |
 | bottom-lounge.json | Bottom Lounge, West Loop | bottomlounge.com (Ticketweb) |
 | cobra-lounge.json | Cobra Lounge, Near West Side | cobralounge.com/events often empty; Songkick, Do312, Bandsintown |
 | hideout.json | Hideout, Goose Island | hideoutchicago.com (Opendate). Drop talks, political/community events, comedy |

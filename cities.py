@@ -39,6 +39,7 @@ CHICAGO_VENUES = {
     "Aragon Ballroom": {"short": "Aragon", "hood": "Uptown", "site": "https://www.aragon.com/"},
     # West Loop, Pilsen & Near West
     "Thalia Hall": {"short": "Thalia Hall", "hood": "Pilsen", "site": "https://www.thaliahallchicago.com/"},
+    "Radius": {"short": "Radius", "hood": "Pilsen", "site": "https://www.radius-chicago.com/events/all"},
     "Bottom Lounge": {"short": "Bottom Lounge", "hood": "West Loop", "site": "https://bottomlounge.com/"},
     "Cobra Lounge": {"short": "Cobra Lounge", "hood": "Near West Side", "site": "https://www.cobralounge.com/"},
     "Hideout": {"short": "Hideout", "hood": "Goose Island", "site": "https://www.hideoutchicago.com/"},
@@ -110,6 +111,7 @@ CHICAGO_ADDR = {
     "Riviera Theatre": "Riviera Theatre, 4746 N Racine Ave, Chicago, IL 60640",
     "Aragon Ballroom": "Byline Bank Aragon Ballroom, 1106 W Lawrence Ave, Chicago, IL 60640",
     "Thalia Hall": "Thalia Hall, 1807 S Allport St, Chicago, IL 60608",
+    "Radius": "Radius, 640 W Cermak Rd, Chicago, IL 60616",
     "Bottom Lounge": "Bottom Lounge, 1375 W Lake St, Chicago, IL 60607",
     "Cobra Lounge": "Cobra Lounge, 235 N Ashland Ave, Chicago, IL 60607",
     "Hideout": "Hideout, 1354 W Wabansia Ave, Chicago, IL 60642",
