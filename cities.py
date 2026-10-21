@@ -68,7 +68,6 @@ CHICAGO_VENUES = {
     "Des Plaines Theatre": {"short": "Des Plaines Theatre", "hood": "Des Plaines", "site": "https://www.desplainestheatre.com/"},
     "Rosemont Theatre": {"short": "Rosemont Theatre", "hood": "Rosemont", "site": "https://www.rosemont.com/theatre/"},
     "Allstate Arena": {"short": "Allstate Arena", "hood": "Rosemont", "site": "https://www.rosemont.com/allstate/"},
-    "Durty Nellie's": {"short": "Durty Nellie's", "hood": "Palatine", "site": "https://www.durtynellies.com/"},
     "Prairie Center for the Arts": {"short": "Prairie Center", "hood": "Schaumburg", "site": "https://www.prairiecenter.org/"},
     # Out of town
     "FitzGerald's": {"short": "FitzGerald's", "hood": "Berwyn", "site": "https://www.fitzgeraldsnightclub.com/"},
@@ -82,7 +81,7 @@ CHICAGO_AREAS = {
     "West Loop & Pilsen": ["West Loop", "Pilsen", "Goose Island", "Near West Side"],
     "Downtown & South Loop": ["The Loop", "River North", "South Loop", "Northerly Island"],
     "North Suburbs": ["Evanston", "Skokie", "Highland Park", "Lake Forest", "Waukegan", "Arlington Heights",
-                      "Des Plaines", "Rosemont", "Palatine", "Schaumburg"],
+                      "Des Plaines", "Rosemont", "Schaumburg"],
     "Out of town": ["Berwyn", "Tinley Park"],
 }
 
@@ -138,7 +137,6 @@ CHICAGO_ADDR = {
     "Des Plaines Theatre": "Des Plaines Theatre, 1476 Miner St, Des Plaines, IL 60016",
     "Rosemont Theatre": "Rosemont Theatre, 5400 N River Rd, Rosemont, IL 60018",
     "Allstate Arena": "Allstate Arena, 6920 Mannheim Rd, Rosemont, IL 60018",
-    "Durty Nellie's": "Durty Nellie's, 180 N Smith St, Palatine, IL 60067",
     "Prairie Center for the Arts": "Prairie Center for the Arts, 201 Schaumburg Ct, Schaumburg, IL 60193",
     "FitzGerald's": "FitzGerald's, 6615 W Roosevelt Rd, Berwyn, IL 60402",
     "Credit Union 1 Amphitheatre": "Credit Union 1 Amphitheatre, 19100 S Ridgeland Ave, Tinley Park, IL 60477",
