@@ -230,6 +230,12 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .pl-tabs button[aria-pressed="true"]{color:#fff}
 .pl-tabs .thumb{position:absolute;top:4px;bottom:4px;left:4px;width:0;border-radius:999px;background:#D6336C;opacity:0;transition:transform .3s cubic-bezier(.3,.7,.2,1),width .3s cubic-bezier(.3,.7,.2,1)}
 @media (prefers-reduced-motion:reduce){.pl-tabs .thumb,.pl-tabs button{transition:none}}
+/* Phones: the neighborhood switch swipes sideways like the genre chips instead of squashing long labels (Chicago has four options) */
+@media (max-width:640px){
+  #pl-tabs{display:flex;width:max-content;max-width:100%;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  #pl-tabs::-webkit-scrollbar{display:none}
+  #pl-tabs button{flex:none;white-space:nowrap}
+}
 .pl-filter{margin:20px 0 0;max-width:100%}
 .pl-filter button{white-space:nowrap}
 .pl-tabs button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
