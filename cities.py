@@ -55,7 +55,7 @@ CHICAGO_VENUES = {
     "Soldier Field": {"short": "Soldier Field", "hood": "South Loop", "site": "https://www.soldierfield.com/events"},
     "Huntington Bank Pavilion": {"short": "Huntington Bank Pavilion", "hood": "Northerly Island", "site": "https://www.huntingtonbankpavilion.com/"},
     "Jay Pritzker Pavilion": {"short": "Pritzker Pavilion", "hood": "The Loop", "site": "https://www.chicago.gov/city/en/depts/dca/supp_info/millennium_park.html"},
-    # North suburbs (North Shore + northwest suburbs; Jay, Oct 20, 2026, on a tip from his dad)
+    # North Suburbs (North Shore + northwest suburbs; Jay, Oct 20, 2026, on a tip from his dad)
     "SPACE": {"short": "SPACE", "hood": "Evanston", "site": "https://www.evanstonspace.com/"},
     "Studio5": {"short": "Studio5", "hood": "Evanston", "site": "https://www.studio5.dance/"},
     "North Shore Center for the Performing Arts": {"short": "North Shore Center", "hood": "Skokie", "site": "https://northshorecenter.org/"},
@@ -81,7 +81,7 @@ CHICAGO_AREAS = {
     "Uptown": ["Uptown"],
     "West Loop & Pilsen": ["West Loop", "Pilsen", "Goose Island", "Near West Side"],
     "Downtown & South Loop": ["The Loop", "River North", "South Loop", "Northerly Island"],
-    "North suburbs": ["Evanston", "Skokie", "Highland Park", "Lake Forest", "Waukegan", "Arlington Heights",
+    "North Suburbs": ["Evanston", "Skokie", "Highland Park", "Lake Forest", "Waukegan", "Arlington Heights",
                       "Des Plaines", "Rosemont", "Palatine", "Schaumburg"],
     "Out of town": ["Berwyn", "Tinley Park"],
 }
@@ -154,7 +154,7 @@ CITIES = {
         "venues": CHICAGO_VENUES,
         "areas": CHICAGO_AREAS,
         "addr": CHICAGO_ADDR,
-        "area_playlists": ["Wicker Park & Logan Square", "West Loop & Pilsen", "North suburbs"],   # Jay, Oct 19 / Oct 20, 2026: headliners + openers
+        "area_playlists": ["Wicker Park & Logan Square", "West Loop & Pilsen", "North Suburbs"],   # Jay, Oct 19 / Oct 20, 2026: headliners + openers
         "live": True,
     },
 }
