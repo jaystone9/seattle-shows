@@ -1,5 +1,25 @@
 [
  {
+  "name": "2 Week Soundcheck · North Suburbs: Oct 18–31",
+  "id": "0tH376qUSSwAy7G5QplibW",
+  "url": "https://open.spotify.com/playlist/0tH376qUSSwAy7G5QplibW",
+  "start": "2026-10-18",
+  "end": "2026-10-31",
+  "songs": 100,
+  "artists": 34,
+  "per_artist": 3,
+  "area": "North Suburbs",
+  "skipped": [
+   "Kalyan Pathak",
+   "Nvrmnd",
+   "St Sylas",
+   "Peez Alchemy",
+   "Rare Element",
+   "Adolescentes Orquesta",
+   "Lunar Ticks"
+  ]
+ },
+ {
   "name": "2 Week Soundcheck · West Loop & Pilsen: Oct 18–31",
   "id": "3n1wrUppYjuipPrMbSy8cx",
   "url": "https://open.spotify.com/playlist/3n1wrUppYjuipPrMbSy8cx",
