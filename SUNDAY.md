@@ -16,8 +16,8 @@ signed up before Chicago) and segment **"Chicago readers"** (the Chicago form on
 Each city gets its own issue, sent ONLY to its segment. Never send to All subscribers.
 Segments refresh once a day, so click **Refresh segment** on both before sending.
 Chicago follows the same steps as Seattle with `--city chicago` (see `chicago/REFRESH.md`).
-Chicago has a citywide playlist, a Wicker Park & Logan Square playlist (headliners + openers, like
-Frelard) and 7 genre playlists named `2 Week Soundcheck · Chicago · <Genre>` (dated copies:
+Chicago has a citywide playlist, two neighborhood playlists (Wicker Park & Logan Square and West Loop &
+Pilsen, headliners + openers, like Frelard) and 8 genre playlists (the usual 7 plus Funk & Blues) named `2 Week Soundcheck · Chicago · <Genre>` (dated copies:
 `... · <Genre>: <Mon D>–<D>`), listed in `chicago/genre_playlists.json` / `chicago/genre_archive.json`.
 `genres.json` is shared by both cities.
 
@@ -35,14 +35,16 @@ Frelard) and 7 genre playlists named `2 Week Soundcheck · Chicago · <Genre>` (
    from this.
    Then the Chicago playlist: `python3 lineup.py --city chicago`, named
    `2 Week Soundcheck · Chicago: <Mon D>–<Mon D>`, added to the top of `chicago/playlists.json`;
-   then the Wicker Park & Logan Square one (headliners + openers, `area` field set, as Frelard);
+   then the Wicker Park & Logan Square and West Loop & Pilsen ones (`lineup.py --city chicago --area "<name>"`;
+   headliners + openers, `area` field set, as Frelard);
 rewrite `chicago/previews.json`; `python3 build_site.py --city chicago`.
    Then the 7 genre playlists (`PLAYLIST.md` step 4c): look up new headliners on Last.fm,
    seed the Genre Review page, and once Jay has confirmed their genres there, refresh each
    genre playlist and update `genres.json` and `genre_playlists.json`, then save the week's
    dated copies to `genre_archive.json` (the Playlists page archive). Start the lookups early
    so Jay can review while the venue refresh runs. Do Seattle and Chicago genres as separate
-   Genre Review weeks (`meta/current` = `seattle-<start>` then `chicago-<start>`); only
+   Genre Review weeks (`meta/current` = `seattle-<start>` then `chicago-<start>`; set `meta/current.genres` to the city's genre
+   list so Seattle shows 7 chips and Chicago 8 with Funk & Blues); only
    research artists Jay leaves undecided, from the artist's own site or Spotify bio.
 4. **Build the issue.** Run `python3 build_issue.py --check-links` (Seattle) and
    `python3 build_issue.py --city chicago --check-links` (Chicago; writes `chicago/issues/`).
