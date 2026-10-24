@@ -70,6 +70,7 @@ CHICAGO_VENUES = {
     "Rosemont Theatre": {"short": "Rosemont Theatre", "hood": "Rosemont", "site": "https://www.rosemont.com/theatre/"},
     "Allstate Arena": {"short": "Allstate Arena", "hood": "Rosemont", "site": "https://www.rosemont.com/allstate/"},
     "Prairie Center for the Arts": {"short": "Prairie Center", "hood": "Schaumburg", "site": "https://www.prairiecenter.org/"},
+    "28 Mile Distilling": {"short": "28 Mile", "hood": "Highwood", "site": "https://www.28miledistilling.com/live-music"},
     # Out of town
     "FitzGerald's": {"short": "FitzGerald's", "hood": "Berwyn", "site": "https://www.fitzgeraldsnightclub.com/"},
     "Credit Union 1 Amphitheatre": {"short": "Credit Union 1 Amphitheatre", "hood": "Tinley Park", "site": "https://www.livenation.com/venue/KovZpZAE6eeA/credit-union-1-amphitheatre-events"},
@@ -82,7 +83,7 @@ CHICAGO_AREAS = {
     "West Loop & Pilsen": ["West Loop", "Pilsen", "Goose Island", "Near West Side"],
     "Downtown & South Loop": ["The Loop", "River North", "South Loop", "Northerly Island"],
     "North Suburbs": ["Evanston", "Skokie", "Highland Park", "Lake Forest", "Waukegan", "Arlington Heights",
-                      "Des Plaines", "Rosemont", "Schaumburg"],
+                      "Des Plaines", "Rosemont", "Schaumburg", "Highwood"],
     "Out of town": ["Berwyn", "Tinley Park"],
 }
 
@@ -140,6 +141,7 @@ CHICAGO_ADDR = {
     "Rosemont Theatre": "Rosemont Theatre, 5400 N River Rd, Rosemont, IL 60018",
     "Allstate Arena": "Allstate Arena, 6920 Mannheim Rd, Rosemont, IL 60018",
     "Prairie Center for the Arts": "Prairie Center for the Arts, 201 Schaumburg Ct, Schaumburg, IL 60193",
+    "28 Mile Distilling": "28 Mile Distilling Co., 454 Sheridan Rd, Highwood, IL 60040",
     "FitzGerald's": "FitzGerald's, 6615 W Roosevelt Rd, Berwyn, IL 60402",
     "Credit Union 1 Amphitheatre": "Credit Union 1 Amphitheatre, 19100 S Ridgeland Ave, Tinley Park, IL 60477",
 }
