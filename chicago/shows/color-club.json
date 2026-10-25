@@ -1,82 +1,82 @@
 [
- {
-  "venue": "Color Club",
-  "room": null,
-  "title": "Moontype (solo) (with Raul Cotaquispe, Audrey)",
-  "date": "2026-10-21",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://link.dice.fm/W18bf77ab8a5?pid=717f1d8a",
-  "status": null
- },
- {
-  "venue": "Color Club",
-  "room": null,
-  "title": "Savanna Ruth",
-  "date": "2026-10-23",
-  "doors": null,
-  "start": "19:30",
-  "url": "https://link.dice.fm/j5d67c304875?pid=717f1d8a",
-  "status": null
- },
- {
-  "venue": "Color Club",
-  "room": null,
-  "title": "Mark Solotroff (with Mortido, Exhumed Corpse, Black Triangle Badge)",
-  "date": "2026-11-05",
-  "doors": null,
-  "start": "19:30",
-  "url": "https://link.dice.fm/F1c1cbf93a68?pid=717f1d8a",
-  "status": null
- },
- {
-  "venue": "Color Club",
-  "room": null,
-  "title": "Mel Bryant & the Mercy Makers (with Molly Compton)",
-  "date": "2026-11-11",
-  "doors": null,
-  "start": "19:30",
-  "url": "https://link.dice.fm/Pf7f26e5a189?pid=717f1d8a",
-  "status": null
- },
- {
-  "venue": "Color Club",
-  "room": null,
-  "title": "Mother Soki",
-  "date": "2026-11-11",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-11-2026-mother-soki/",
-  "status": null
- },
- {
-  "venue": "Color Club",
-  "room": null,
-  "title": "Shallow Alcove",
-  "date": "2026-11-18",
-  "doors": null,
-  "start": "19:30",
-  "url": "https://link.dice.fm/m3cbff7f85a9?pid=717f1d8a",
-  "status": null
- },
- {
-  "venue": "Color Club",
-  "room": null,
-  "title": "Hazel Krumm (with Brian Krumm & His Barfly Friends, Lynn Canfield & Henry Frayne)",
-  "date": "2026-11-27",
-  "doors": null,
-  "start": "19:30",
-  "url": "https://link.dice.fm/B3a7d3990dd8?pid=717f1d8a",
-  "status": null
- },
- {
-  "venue": "Color Club",
-  "room": null,
-  "title": "Stay Mad (with Red PK, Moontype)",
-  "date": "2026-12-06",
-  "doors": null,
-  "start": "19:30",
-  "url": "https://link.dice.fm/Xe6e56ea4028?pid=717f1d8a",
-  "status": null
- }
+  {
+    "venue": "Color Club",
+    "room": null,
+    "title": "Mucca Pazza (with DadJoke, Noah Ginex)",
+    "date": "2026-10-31",
+    "doors": "13:00",
+    "start": "14:00",
+    "url": "https://dice.fm/event/6aac1ad4a5403b0001315fb7",
+    "status": null
+  },
+  {
+    "venue": "Color Club",
+    "room": null,
+    "title": "Mark Solotroff (with Mortido, Exhumed Corpse, Black Triangle Badge)",
+    "date": "2026-11-05",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://link.dice.fm/F1c1cbf93a68?pid=717f1d8a",
+    "status": null
+  },
+  {
+    "venue": "Color Club",
+    "room": null,
+    "title": "Mel Bryant & the Mercy Makers (with Molly Compton)",
+    "date": "2026-11-11",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://link.dice.fm/Pf7f26e5a189?pid=717f1d8a",
+    "status": null
+  },
+  {
+    "venue": "Color Club",
+    "room": null,
+    "title": "Mother Soki (with Alana Markel)",
+    "date": "2026-11-11",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://link.dice.fm/P16146b93bcd",
+    "status": null
+  },
+  {
+    "venue": "Color Club",
+    "room": null,
+    "title": "Kiernan (with Beauty Saloon, Ester, Damsel)",
+    "date": "2026-11-12",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://dice.fm/event/6add214d73038d0001a5eeb2",
+    "status": null
+  },
+  {
+    "venue": "Color Club",
+    "room": null,
+    "title": "Shallow Alcove",
+    "date": "2026-11-18",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://link.dice.fm/m3cbff7f85a9?pid=717f1d8a",
+    "status": null
+  },
+  {
+    "venue": "Color Club",
+    "room": null,
+    "title": "Hazel Krumm (with Brian Krumm & His Barfly Friends, Lynn Canfield & Henry Frayne)",
+    "date": "2026-11-27",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://link.dice.fm/B3a7d3990dd8?pid=717f1d8a",
+    "status": null
+  },
+  {
+    "venue": "Color Club",
+    "room": null,
+    "title": "Stay Mad (with Red PK, Moontype)",
+    "date": "2026-12-13",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://link.dice.fm/Xe6e56ea4028?pid=717f1d8a",
+    "status": null
+  }
 ]

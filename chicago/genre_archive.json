@@ -1,6 +1,94 @@
 [
  {
   "genre": "Pop",
+  "name": "2 Week Soundcheck · Chicago · Pop: Oct 25–Nov 7",
+  "id": "0piIqeIkrUsIA1RsDrgq9D",
+  "url": "https://open.spotify.com/playlist/0piIqeIkrUsIA1RsDrgq9D",
+  "start": "2026-10-25",
+  "end": "2026-11-07",
+  "songs": 62,
+  "artists": 21,
+  "per_artist": 3
+ },
+ {
+  "genre": "Indie & Rock",
+  "name": "2 Week Soundcheck · Chicago · Indie & Rock: Oct 25–Nov 7",
+  "id": "4sSViJR66JMSPx6qm7Vmuj",
+  "url": "https://open.spotify.com/playlist/4sSViJR66JMSPx6qm7Vmuj",
+  "start": "2026-10-25",
+  "end": "2026-11-07",
+  "songs": 210,
+  "artists": 70,
+  "per_artist": 3
+ },
+ {
+  "genre": "Folk & Country",
+  "name": "2 Week Soundcheck · Chicago · Folk & Country: Oct 25–Nov 7",
+  "id": "0TVA1SKmmpNjLmXG6NpRec",
+  "url": "https://open.spotify.com/playlist/0TVA1SKmmpNjLmXG6NpRec",
+  "start": "2026-10-25",
+  "end": "2026-11-07",
+  "songs": 100,
+  "artists": 34,
+  "per_artist": 3
+ },
+ {
+  "genre": "Electronic",
+  "name": "2 Week Soundcheck · Chicago · Electronic: Oct 25–Nov 7",
+  "id": "2WOAAa9dDr4S6tX3qAbqin",
+  "url": "https://open.spotify.com/playlist/2WOAAa9dDr4S6tX3qAbqin",
+  "start": "2026-10-25",
+  "end": "2026-11-07",
+  "songs": 69,
+  "artists": 23,
+  "per_artist": 3
+ },
+ {
+  "genre": "Hip-hop & R&B",
+  "name": "2 Week Soundcheck · Chicago · Hip-hop & R&B: Oct 25–Nov 7",
+  "id": "55yQsr8bX0yPvLsEiRrQhc",
+  "url": "https://open.spotify.com/playlist/55yQsr8bX0yPvLsEiRrQhc",
+  "start": "2026-10-25",
+  "end": "2026-11-07",
+  "songs": 66,
+  "artists": 22,
+  "per_artist": 3
+ },
+ {
+  "genre": "Punk & Metal",
+  "name": "2 Week Soundcheck · Chicago · Punk & Metal: Oct 25–Nov 7",
+  "id": "6nqAPdNOsYpTqr7zXN7Zs1",
+  "url": "https://open.spotify.com/playlist/6nqAPdNOsYpTqr7zXN7Zs1",
+  "start": "2026-10-25",
+  "end": "2026-11-07",
+  "songs": 135,
+  "artists": 45,
+  "per_artist": 3
+ },
+ {
+  "genre": "Funk & Blues",
+  "name": "2 Week Soundcheck · Chicago · Funk & Blues: Oct 25–Nov 7",
+  "id": "492wauxOX9LCIf06c8DX0W",
+  "url": "https://open.spotify.com/playlist/492wauxOX9LCIf06c8DX0W",
+  "start": "2026-10-25",
+  "end": "2026-11-07",
+  "songs": 46,
+  "artists": 16,
+  "per_artist": 3
+ },
+ {
+  "genre": "Jazz, World & Classical",
+  "name": "2 Week Soundcheck · Chicago · Jazz, World & Classical: Oct 25–Nov 7",
+  "id": "7hMsynxHrCvqpkBv13UA7v",
+  "url": "https://open.spotify.com/playlist/7hMsynxHrCvqpkBv13UA7v",
+  "start": "2026-10-25",
+  "end": "2026-11-07",
+  "songs": 58,
+  "artists": 20,
+  "per_artist": 3
+ },
+ {
+  "genre": "Pop",
   "name": "2 Week Soundcheck · Chicago · Pop: Oct 18–31",
   "id": "6RTbS6Faf1IxFnLeYSvTx5",
   "url": "https://open.spotify.com/playlist/6RTbS6Faf1IxFnLeYSvTx5",

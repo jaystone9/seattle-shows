@@ -2,36 +2,6 @@
   {
     "venue": "Empty Bottle",
     "room": null,
-    "title": "Baby (with Leo Paterniti, +*be3e*+)",
-    "date": "2026-10-19",
-    "doors": "20:00",
-    "start": "21:00",
-    "url": "https://www.ticketweb.com/event/free-monday-w-baby-empty-bottle-tickets/14296024",
-    "status": null
-  },
-  {
-    "venue": "Empty Bottle",
-    "room": null,
-    "title": "Maggie Koerner (with Susie McCollum)",
-    "date": "2026-10-20",
-    "doors": "20:00",
-    "start": "21:00",
-    "url": "https://www.ticketweb.com/event/maggie-koerner-empty-bottle-tickets/15041173",
-    "status": null
-  },
-  {
-    "venue": "Empty Bottle",
-    "room": null,
-    "title": "The Tubs (with Mopar Stars)",
-    "date": "2026-10-21",
-    "doors": "20:00",
-    "start": "21:00",
-    "url": "https://www.ticketweb.com/event/the-tubs-empty-bottle-tickets/14208314",
-    "status": null
-  },
-  {
-    "venue": "Empty Bottle",
-    "room": null,
     "title": "Wide Orbit (with DISIAC, Big Smudge)",
     "date": "2026-10-27",
     "doors": "20:00",
@@ -46,7 +16,7 @@
     "date": "2026-10-28",
     "doors": "20:00",
     "start": "21:00",
-    "url": "https://www.ticketweb.com/event/delicate-steve-empty-bottle-tickets/14987483",
+    "url": "https://www.ticketweb.com/event/delicate-steve-yellow-ostrich-empty-bottle-tickets/14987483",
     "status": null
   },
   {
@@ -54,9 +24,9 @@
     "room": null,
     "title": "Spread Joy (with Body Shop, Goo, Crassostrea LLC, Elyse Johnson)",
     "date": "2026-10-29",
-    "doors": null,
+    "doors": "20:00",
     "start": "21:00",
-    "url": null,
+    "url": "https://www.ticketweb.com/event/spread-joy-album-release-empty-bottle-tickets/14343974",
     "status": null
   },
   {
@@ -66,8 +36,8 @@
     "date": "2026-10-30",
     "doors": "21:00",
     "start": "22:00",
-    "url": "https://www.ticketweb.com/event/sweeping-promises-empty-bottle-tickets/14910863",
-    "status": null
+    "url": "https://www.ticketweb.com/event/sold-out-sweeping-promises-empty-bottle-tickets/14910863",
+    "status": "sold out"
   },
   {
     "venue": "Empty Bottle",
@@ -102,21 +72,31 @@
   {
     "venue": "Empty Bottle",
     "room": null,
-    "title": "Tear Dungeon",
-    "date": "2026-11-03",
+    "title": "Chocolate Labs (with Tri-County Liquidators, Joe Glass, Rent Party)",
+    "date": "2026-11-02",
     "doors": "20:00",
     "start": "21:00",
-    "url": "https://www.ticketweb.com/event/tear-dungeon-empty-bottle-tickets/14329434",
+    "url": "https://www.ticketweb.com/event/free-monday-w-chocolate-labs-empty-bottle-tickets/14384144",
     "status": null
   },
   {
     "venue": "Empty Bottle",
     "room": null,
-    "title": "Jessica Lea Mayfield (with Rachel Bobbitt)",
+    "title": "Tear Dungeon (with Bussy Kween Power Trip, Bliss Cemetery)",
+    "date": "2026-11-03",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://www.ticketweb.com/event/tear-dungeon-bussy-kween-empty-bottle-tickets/14329434",
+    "status": null
+  },
+  {
+    "venue": "Empty Bottle",
+    "room": null,
+    "title": "Rikki G. Godd (with Sarah Lutkenhaus, Mr. Yipeman, DJ Pluto)",
     "date": "2026-11-04",
     "doors": "20:00",
     "start": "21:00",
-    "url": "https://www.ticketweb.com/event/jessica-lea-mayfield-empty-bottle-tickets/14251704",
+    "url": "https://www.ticketweb.com/event/rikki-g-godd-album-release-empty-bottle-tickets/14384864",
     "status": null
   },
   {
@@ -146,8 +126,8 @@
     "date": "2026-11-08",
     "doors": "20:00",
     "start": "21:00",
-    "url": "https://www.ticketweb.com/event/agriculture-uniform-pure-empty-bottle-tickets/14219214",
-    "status": null
+    "url": "https://www.ticketweb.com/event/sold-out-agriculture-uniform-empty-bottle-tickets/14219214",
+    "status": "sold out"
   },
   {
     "venue": "Empty Bottle",
@@ -162,11 +142,11 @@
   {
     "venue": "Empty Bottle",
     "room": null,
-    "title": "Genesis Owusu",
+    "title": "Genesis Owusu (with After Louise)",
     "date": "2026-11-10",
     "doors": "20:00",
     "start": "21:00",
-    "url": "https://www.ticketweb.com/event/genesis-owusu-empty-bottle-tickets/14938923",
+    "url": "https://www.ticketweb.com/event/sold-out-genesis-owusu-empty-bottle-tickets/14938923",
     "status": "sold out"
   },
   {
@@ -176,8 +156,8 @@
     "date": "2026-11-11",
     "doors": "20:00",
     "start": "21:00",
-    "url": "https://www.ticketweb.com/event/mary-in-the-junkyard-empty-bottle-tickets/14921303",
-    "status": null
+    "url": "https://www.ticketweb.com/event/sold-out-mary-in-the-empty-bottle-tickets/14921303",
+    "status": "sold out"
   },
   {
     "venue": "Empty Bottle",
@@ -192,21 +172,11 @@
   {
     "venue": "Empty Bottle",
     "room": null,
-    "title": "Wingtips (with Blood Handsome, Slugscape, DJ Lidia Vomito)",
-    "date": "2026-11-13",
-    "doors": "20:00",
-    "start": "21:00",
-    "url": "https://www.ticketweb.com/event/noche-eterna-and-feeltrip-present-empty-bottle-tickets/14288394",
-    "status": null
-  },
-  {
-    "venue": "Empty Bottle",
-    "room": null,
-    "title": "Heavens To Betsy",
+    "title": "Heavens To Betsy (with Bonfire Madigan)",
     "date": "2026-11-14",
     "doors": "20:00",
     "start": "21:00",
-    "url": "https://www.ticketweb.com/event/heavens-to-betsy-empty-bottle-tickets/14218454",
+    "url": "https://www.ticketweb.com/event/sold-out-heavens-to-betsy-empty-bottle-tickets/14218454",
     "status": "sold out"
   },
   {
@@ -216,7 +186,7 @@
     "date": "2026-11-15",
     "doors": "20:00",
     "start": "21:00",
-    "url": "https://www.ticketweb.com/event/heavens-to-betsy-empty-bottle-tickets/14229334",
+    "url": "https://www.ticketweb.com/event/heavens-to-betsy-no-empty-bottle-tickets/14229334",
     "status": null
   },
   {
@@ -232,11 +202,11 @@
   {
     "venue": "Empty Bottle",
     "room": null,
-    "title": "Porcelain (with Zastava)",
+    "title": "Porcelain (with Zastava, Attic Reels)",
     "date": "2026-11-17",
     "doors": "20:00",
     "start": "21:00",
-    "url": "https://www.ticketweb.com/event/porcelain-zastava-empty-bottle-tickets/14343194",
+    "url": "https://www.ticketweb.com/event/porcelain-zastava-attic-empty-bottle-tickets/14343194",
     "status": null
   },
   {
@@ -246,7 +216,7 @@
     "date": "2026-11-18",
     "doors": "20:00",
     "start": "21:00",
-    "url": "https://www.ticketweb.com/event/makaya-mccraven-empty-bottle-tickets/14312104",
+    "url": "https://www.ticketweb.com/event/sold-out-makaya-mccraven-empty-bottle-tickets/14312104",
     "status": "sold out"
   },
   {
@@ -256,7 +226,7 @@
     "date": "2026-11-19",
     "doors": "20:00",
     "start": "21:00",
-    "url": "https://www.ticketweb.com/event/packaging-empty-bottle-tickets/14977183",
+    "url": "https://www.ticketweb.com/event/packaging-discus-leo-empty-bottle-tickets/14977183",
     "status": null
   },
   {
@@ -316,7 +286,7 @@
     "date": "2026-11-28",
     "doors": "21:00",
     "start": "22:00",
-    "url": "https://www.ticketweb.com/event/petey-usa-empty-bottle-tickets/14329564",
+    "url": "https://www.ticketweb.com/event/sold-out-petey-usa-empty-bottle-tickets/14329564",
     "status": "sold out"
   },
   {
@@ -382,6 +352,26 @@
   {
     "venue": "Empty Bottle",
     "room": null,
+    "title": "FACS (with PARKiNG, TEMPS.)",
+    "date": "2026-12-12",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://www.ticketweb.com/event/facs-parking-temps-empty-bottle-tickets/14326914",
+    "status": null
+  },
+  {
+    "venue": "Empty Bottle",
+    "room": null,
+    "title": "The Spits (with Uranium Club)",
+    "date": "2026-12-31",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://www.ticketweb.com/event/the-spits-uranium-club-empty-bottle-tickets/14392594",
+    "status": null
+  },
+  {
+    "venue": "Empty Bottle",
+    "room": null,
     "title": "Pure Intention (with Heet Deth, Babe Report, Bog Power)",
     "date": "2027-01-08",
     "doors": "21:00",
@@ -434,9 +424,49 @@
     "room": null,
     "title": "Way Dynamic (with Star Moles)",
     "date": "2027-03-05",
-    "doors": "20:00",
-    "start": "21:00",
+    "doors": "21:00",
+    "start": "22:00",
     "url": "https://www.ticketweb.com/event/sold-out-way-dynamic-empty-bottle-tickets/14936823",
     "status": "sold out"
+  },
+  {
+    "venue": "Empty Bottle",
+    "room": null,
+    "title": "Jake Xerxes Fussell",
+    "date": "2027-03-13",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://www.ticketweb.com/event/jake-xerxes-fussell-empty-bottle-tickets/14319304",
+    "status": null
+  },
+  {
+    "venue": "Empty Bottle",
+    "room": null,
+    "title": "Alex Cameron",
+    "date": "2027-03-19",
+    "doors": "21:00",
+    "start": "22:00",
+    "url": "https://www.ticketweb.com/event/alex-cameron-empty-bottle-tickets/14393444",
+    "status": null
+  },
+  {
+    "venue": "Empty Bottle",
+    "room": null,
+    "title": "The Lemonheads",
+    "date": "2027-03-20",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://www.ticketweb.com/event/the-lemonheads-empty-bottle-tickets/14320204",
+    "status": null
+  },
+  {
+    "venue": "Empty Bottle",
+    "room": null,
+    "title": "Fenne Lily (with villagerrr)",
+    "date": "2027-04-08",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://www.ticketweb.com/event/fenne-lily-villagerrr-empty-bottle-tickets/14384294",
+    "status": null
   }
 ]

@@ -1,582 +1,542 @@
 [
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Rav (with Teller Bank$, Fatboi Sharif)",
-  "date": "2026-10-20",
-  "doors": "18:30",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/rav/697267?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "AZ Chike",
-  "date": "2026-10-20",
-  "doors": "18:30",
-  "start": "19:30",
-  "url": "https://wl.seetickets.us/event/az-chike/703427?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Knumears (with Catalyst, Soap Box Derby, A Doll For Abigail)",
-  "date": "2026-10-21",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/burndown-tour-2026/701523?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Intuition & Equalibrum (with Defcee, SPEAK!)",
-  "date": "2026-10-21",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://wl.seetickets.us/event/intuition-and-equalibrum/699540?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Clever",
-  "date": "2026-10-22",
-  "doors": "19:30",
-  "start": "20:30",
-  "url": "https://wl.seetickets.us/event/clever/697853?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "MaryAnne Muglia (with Molly Coleman, Ari Lindo)",
-  "date": "2026-10-23",
-  "doors": "18:00",
-  "start": "18:30",
-  "url": "https://wl.seetickets.us/event/maryanne-muglia/695686?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Paledusk (with Headwreck, Slow Degrade, Dead/Awake)",
-  "date": "2026-10-23",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/paledusk/700905?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Paige Fish (with Sweet Tangerine)",
-  "date": "2026-10-24",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/paige-fish-the-midnight-crisis-tour/701017?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "The Band Memo (with Thompson Springs)",
-  "date": "2026-10-24",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/the-band-memo/703046?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Nero's Day at Disneyland (with Cocojoey, Death Instinct, DJ Mukqs, Blind Equation)",
-  "date": "2026-10-25",
-  "doors": "17:30",
-  "start": "18:30",
-  "url": "https://wl.seetickets.us/event/neros-day-at-disneyland/703805?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Zauntee (with Skema Boy)",
-  "date": "2026-10-27",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/zauntee-god-remembers-tour/698749?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Wolf & Bear (with Coletta, Origami Button)",
-  "date": "2026-10-28",
-  "doors": "18:30",
-  "start": "19:30",
-  "url": "https://wl.seetickets.us/event/wolf-and-bear/697532?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Maximum Wage (with Stander, Retrogression)",
-  "date": "2026-10-28",
-  "doors": "20:00",
-  "start": "20:30",
-  "url": "https://wl.seetickets.us/event/maximum-wage/706127?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Cortisa Star",
-  "date": "2026-10-29",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/cortisa-star-for-all-the-dolls-tour/696971?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Sevalynn & heaving. (with The Sheltered, NVRMORE, SINK)",
-  "date": "2026-11-01",
-  "doors": "18:00",
-  "start": "18:30",
-  "url": "https://wl.seetickets.us/event/sevalynn-heaving/707483?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Flycatcher (with Commonweather, Raccoon Junior)",
-  "date": "2026-11-01",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/flycatcher/705257?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Party Cannon (with Orbital Gate, Beheading the Icon, Gutnoose)",
-  "date": "2026-11-02",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/party-cannon/703675?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "jackzebra",
-  "date": "2026-11-02",
-  "doors": "18:30",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/jackzebra/704721?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "INAYAH",
-  "date": "2026-11-03",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/inayah/697872?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "My Upside Down (with Whelmed, Girlrot)",
-  "date": "2026-11-04",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/my-upside-down/704668?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Lime Garden (with Lace For Leisure)",
-  "date": "2026-11-04",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/lime-garden/684448?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Blitzkid",
-  "date": "2026-11-05",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/blitzkid-modern-hel-tour-2026/698760?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Vile Mind (with AUGMENT., Bad Terms, Don't Front, Backbreaker, Practically ILL)",
-  "date": "2026-11-06",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/vile-mind/705660?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Danny L Harle (DJ Set) (with Contact Sports)",
-  "date": "2026-11-06",
-  "doors": "21:00",
-  "start": "22:00",
-  "url": "https://wl.seetickets.us/event/danny-l-harle-dj-set/703689?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Darryl Rahn",
-  "date": "2026-11-07",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/darryl-rahn/706075?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "West 22nd",
-  "date": "2026-11-07",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/west-22nd-places-to-be/687307?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Banda AL9 (with French Inhaler, The Tracies)",
-  "date": "2026-11-08",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://wl.seetickets.us/event/banda-al9/702661?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Khantrast",
-  "date": "2026-11-08",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/khantrast/703331?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Madds Buckley",
-  "date": "2026-11-10",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/madds-buckley/699357?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Not My Weekend (with Aim High, Rare Candy)",
-  "date": "2026-11-10",
-  "doors": "18:30",
-  "start": "19:30",
-  "url": "https://wl.seetickets.us/event/not-my-weekend/704787?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Dead Butterflies",
-  "date": "2026-11-11",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/dead-butterflies/707055?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "eldon",
-  "date": "2026-11-11",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://wl.seetickets.us/event/eldon/703800?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "James Ivy (with James Teardrop)",
-  "date": "2026-11-12",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/james-ivy/703796?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Francis of Delirium (with kitship)",
-  "date": "2026-11-14",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/francis-of-delirium/688717?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Girl Tones (with Modern Cult, Four Degrees Colder)",
-  "date": "2026-11-14",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/girl-tones/702185?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Internet Girl",
-  "date": "2026-11-15",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/internet-girl/701289?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Hank Garrett",
-  "date": "2026-11-16",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://wl.seetickets.us/event/hank-garrett/708108?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Token (with Clark D)",
-  "date": "2026-11-17",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/token-im-leaving-soon-tour/699485?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Dogs on Shady Lane (with Grace Bloom, Half Gringa)",
-  "date": "2026-11-18",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/dogs-on-shady-lane/702953?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Cortex",
-  "date": "2026-11-18",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/cortex/704474?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Small Brown Bike (with Criteria, Just a Fire)",
-  "date": "2026-11-19",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/small-brown-bike/701935?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "The Kilans (with Jade Street)",
-  "date": "2026-11-20",
-  "doors": "17:30",
-  "start": "18:30",
-  "url": "https://wl.seetickets.us/event/the-kilans-could-you-keep-it-dark-tour/700613?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Godchain (with Cherry Decay, Highdiver)",
-  "date": "2026-11-20",
-  "doors": "18:00",
-  "start": "18:30",
-  "url": "https://wl.seetickets.us/event/godchain/704904?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Garden Home (with Solemn Grey, Rotundos, Maldita Sea!, Local Boy Meets God)",
-  "date": "2026-11-21",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/garden-home/707210?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Kingdom Of Giants (with Deadlands, Holy Wars, Night Rider)",
-  "date": "2026-11-22",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/kingdom-of-giants/700926?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Geordie Kieffer",
-  "date": "2026-11-23",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/geordie-kieffer/704070?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Takuya Nakamura",
-  "date": "2026-11-28",
-  "doors": "20:00",
-  "start": "21:00",
-  "url": "https://wl.seetickets.us/event/takuya-nakamura/704564?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Queen Of Jeans",
-  "date": "2026-12-02",
-  "doors": "18:30",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/queen-of-jeans-record-release-show/705600?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Hidanny!!",
-  "date": "2026-12-06",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/hidanny-wheres-danny-tour-2026/706995?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "King Tuff & Sheer Mag",
-  "date": "2026-12-08",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/king-tuff-and-sheer-mag/704380?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "GODHANDUSA",
-  "date": "2026-12-10",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/godhandusa-call-to-worship/700620?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "LETDOWN. (with Luchiano, Sikarus, Poe the Passenger)",
-  "date": "2026-12-13",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://wl.seetickets.us/event/letdown-the-happy-tour/701028?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "SosMula",
-  "date": "2026-12-14",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/sosmula/706993?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Midnight Blue (with Daughterhouse, CAMERON, Godchain)",
-  "date": "2026-12-20",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/midnight-blue/708113?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Seb Lowe (with Kate Couriel)",
-  "date": "2027-01-22",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/seb-lowe-us-2027/705759?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Ellie Banke",
-  "date": "2027-01-30",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/ellie-banke/696869?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Valencia Grace",
-  "date": "2027-03-10",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/valencia-grace/698469?afflky=BKBGManagementCo",
-  "status": null
- },
- {
-  "venue": "Subterranean",
-  "room": null,
-  "title": "Christian Kuria",
-  "date": "2027-03-18",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://wl.seetickets.us/event/christian-kuria-east-tour/707000?afflky=BKBGManagementCo",
-  "status": null
- }
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Nero's Day at Disneyland (with Cocojoey, Death Instinct, DJ Mukqs, Blind Equation)",
+    "date": "2026-10-25",
+    "doors": "17:30",
+    "start": "18:30",
+    "url": "https://wl.seetickets.us/event/neros-day-at-disneyland/703805?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Zauntee (with Skema Boy)",
+    "date": "2026-10-27",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/zauntee-god-remembers-tour/698749?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Wolf & Bear (with Coletta, Origami Button)",
+    "date": "2026-10-28",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://wl.seetickets.us/event/wolf-and-bear/697532?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Maximum Wage (with Stander, Retrogression)",
+    "date": "2026-10-28",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://wl.seetickets.us/event/maximum-wage/706127?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Cortisa Star",
+    "date": "2026-10-29",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/cortisa-star-for-all-the-dolls-tour/696971?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Sevalynn & heaving. (with The Sheltered, NVRMORE, SINK)",
+    "date": "2026-11-01",
+    "doors": "18:00",
+    "start": "18:30",
+    "url": "https://wl.seetickets.us/event/sevalynn-heaving/707483?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Flycatcher (with Commonweather, Raccoon Junior)",
+    "date": "2026-11-01",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/flycatcher/705257?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Party Cannon (with Orbital Gate, Beheading the Icon, Gutnoose)",
+    "date": "2026-11-02",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/party-cannon/703675?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "jackzebra (with DJ Taye)",
+    "date": "2026-11-02",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/jackzebra/704721?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "INAYAH",
+    "date": "2026-11-03",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/inayah/697872?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "My Upside Down (with Whelmed, Girlrot)",
+    "date": "2026-11-04",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/my-upside-down/704668?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Lime Garden (with Lace For Leisure)",
+    "date": "2026-11-04",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/lime-garden/684448?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Blitzkid (with The Iron Spiders, Won't Stay Dead)",
+    "date": "2026-11-05",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/blitzkid-modern-hel-tour-2026/698760?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Vile Mind (with AUGMENT., Bad Terms, Don't Front, Backbreaker, Practically ILL)",
+    "date": "2026-11-06",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/vile-mind/705660?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Danny L Harle (DJ Set) (with Contact Sports)",
+    "date": "2026-11-06",
+    "doors": "21:00",
+    "start": "22:00",
+    "url": "https://wl.seetickets.us/event/danny-l-harle-dj-set/703689?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Darryl Rahn",
+    "date": "2026-11-07",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/darryl-rahn/706075?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "West 22nd",
+    "date": "2026-11-07",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/west-22nd-places-to-be/687307?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Banda AL9 (with French Inhaler, The Tracies)",
+    "date": "2026-11-08",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://wl.seetickets.us/event/banda-al9/702661?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Khantrast",
+    "date": "2026-11-08",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/khantrast/703331?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Madds Buckley",
+    "date": "2026-11-10",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/madds-buckley/699357?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Not My Weekend (with Aim High, Rare Candy)",
+    "date": "2026-11-10",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://wl.seetickets.us/event/not-my-weekend/704787?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Dead Butterflies",
+    "date": "2026-11-11",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/dead-butterflies/707055?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "eldon",
+    "date": "2026-11-11",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://wl.seetickets.us/event/eldon/703800?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "James Ivy (with James Teardrop)",
+    "date": "2026-11-12",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/james-ivy/703796?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Francis of Delirium (with kitship)",
+    "date": "2026-11-14",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/francis-of-delirium/688717?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Girl Tones (with Modern Cult, Four Degrees Colder)",
+    "date": "2026-11-14",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/girl-tones/702185?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Internet Girl",
+    "date": "2026-11-15",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/internet-girl/701289?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Hank Garrett",
+    "date": "2026-11-16",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://wl.seetickets.us/event/hank-garrett/708108?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Token (with Clark D)",
+    "date": "2026-11-17",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/token-im-leaving-soon-tour/699485?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Dogs on Shady Lane (with Grace Bloom, Half Gringa)",
+    "date": "2026-11-18",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/dogs-on-shady-lane/702953?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Cortex",
+    "date": "2026-11-18",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/cortex/704474?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Small Brown Bike (with Criteria, Just a Fire)",
+    "date": "2026-11-19",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/small-brown-bike/701935?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "The Kilans (with Jade Street)",
+    "date": "2026-11-20",
+    "doors": "17:30",
+    "start": "18:30",
+    "url": "https://wl.seetickets.us/event/the-kilans-could-you-keep-it-dark-tour/700613?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Godchain (with Cherry Decay, Highdiver)",
+    "date": "2026-11-20",
+    "doors": "18:00",
+    "start": "18:30",
+    "url": "https://wl.seetickets.us/event/godchain/704904?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Garden Home (with Solemn Grey, Rotundos, Maldita Sea!, Local Boy Meets God)",
+    "date": "2026-11-21",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/garden-home/707210?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Kingdom Of Giants (with Deadlands, Holy Wars, Night Rider)",
+    "date": "2026-11-22",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/kingdom-of-giants/700926?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Geordie Kieffer",
+    "date": "2026-11-23",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/geordie-kieffer/704070?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Takuya Nakamura",
+    "date": "2026-11-28",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://wl.seetickets.us/event/takuya-nakamura/704564?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Queen Of Jeans",
+    "date": "2026-12-02",
+    "doors": "18:30",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/queen-of-jeans-record-release-show/705600?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Inoculous (with Parachute Day, Yetta, Flail)",
+    "date": "2026-12-03",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/inoculous/708631?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Hidanny!!",
+    "date": "2026-12-06",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/hidanny-wheres-danny-tour-2026/706995?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "King Tuff & Sheer Mag (with Mod Lang)",
+    "date": "2026-12-08",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/king-tuff-and-sheer-mag/704380?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Emma Who?",
+    "date": "2026-12-09",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/emma-who/706056?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "GODHANDUSA",
+    "date": "2026-12-10",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/godhandusa-call-to-worship/700620?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "LETDOWN. (with Luchiano, Sikarus, Poe the Passenger)",
+    "date": "2026-12-13",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/letdown-the-happy-tour/701028?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "SosMula",
+    "date": "2026-12-14",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/sosmula/706993?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Midnight Blue (with Daughterhouse, CAMERON, Godchain)",
+    "date": "2026-12-20",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/midnight-blue/708113?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Seb Lowe (with Kate Couriel)",
+    "date": "2027-01-22",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/seb-lowe-us-2027/705759?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "The Second Summer (with The Sunshine Rebels, The Tragedies)",
+    "date": "2027-01-23",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/the-second-summer/708906?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Proleter",
+    "date": "2027-01-27",
+    "doors": "21:00",
+    "start": "21:00",
+    "url": "https://wl.seetickets.us/event/proleter/706700?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Ellie Banke",
+    "date": "2027-01-30",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/ellie-banke/696869?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Valencia Grace",
+    "date": "2027-03-10",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/valencia-grace/698469?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Christian Kuria",
+    "date": "2027-03-18",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/christian-kuria-east-tour/707000?afflky=BKBGManagementCo",
+    "status": null
+  },
+  {
+    "venue": "Subterranean",
+    "room": null,
+    "title": "Vlad Holiday",
+    "date": "2027-04-07",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/vlad-holiday/707481?afflky=BKBGManagementCo",
+    "status": null
+  }
 ]
