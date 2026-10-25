@@ -17,7 +17,7 @@ Two newsletters each Sunday (Jay, Oct 14, 2026):
      script: link results, numbers and flags. Nothing goes to subscribers without Jay's OK.
   2. ISSUE (all subscribers), deliberately short:
      - Subject "<dates>: Seattle 2 Week Playlist"
-     - One intro line (top 3 songs per artist, in show order)
+     - One intro line (top 3 songs per artist; show + ticket link on the site)
      - "All of Seattle" line + pink button
      - "Frelard" line (why it exists, in Jay's voice, no name) + pink button
      - One line linking a free tool to copy the playlists to other apps
@@ -119,10 +119,10 @@ def main(*args):
     # ---------- the subscriber issue ----------
     h, t = [], []
     count = f"top {per} " if per else "top "
-    intro = (f"{NUM[len(hoods) + 1]} playlists for {dates}: the {count}songs from each artist, in show order."
-             if fr else f"Every headliner playing {edition} {dates}: the {count}songs from each, in show order.")
-    h.append(f"<p>{intro} When something grabs you, every show and its ticket link is on the site.</p>")
-    t.append(intro + " When something grabs you, every show and its ticket link is on the site.\n")
+    intro = (f"{NUM[len(hoods) + 1]} playlists for {dates}: the {count}songs from every artist playing."
+             if fr else f"Every headliner playing {edition} {dates}: the {count}songs from every artist playing.")
+    h.append(f"<p>{intro} When something grabs you, the show and its ticket link are on the site.</p>")
+    t.append(intro + " When something grabs you, the show and its ticket link are on the site.\n")
 
     if pl.get("url"):
         h.append(f"<h3>All of {edition}</h3>")

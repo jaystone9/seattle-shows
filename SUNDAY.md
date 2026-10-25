@@ -57,7 +57,7 @@ rewrite `chicago/previews.json`; `python3 build_site.py --city chicago`.
    - Title (subject): `<Mon D>–<D>: Seattle 2 Week Playlist`
    - Subtitle (preview): the preview text build_issue.py prints.
    - Content, in order, from `issues/<start>.html`:
-     1. Intro line ("Two playlists for <dates>: the top three songs from each artist, in show order...")
+     1. Intro line ("Two playlists for <dates>: the top three songs from every artist playing. When something grabs you, the show and its ticket link are on the site.")
      2. Heading "All of Seattle", its line, then a pink (#D6336C, bold) Button block
         "▶ Listen to the Seattle playlist on Spotify"
      3. Heading "Frelard", the "I live in Ballard..." line, then a Button
