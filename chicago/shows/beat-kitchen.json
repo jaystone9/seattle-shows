@@ -2,59 +2,9 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Josh Spinner (with Matt Augustine, Genevieve MacPhee)",
-    "date": "2026-10-21",
-    "doors": "19:00",
-    "start": "19:30",
-    "url": "https://wl.seetickets.us/event/josh-spinner/702966",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Ovven (with Samuel Aaron, Glass-Beagle)",
-    "date": "2026-10-22",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://wl.seetickets.us/event/ovven/700181",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Big Sandy & His Fly-Rite Boys (with The Rockin' Eldorados)",
-    "date": "2026-10-23",
-    "doors": "19:30",
-    "start": "20:30",
-    "url": "https://wl.seetickets.us/event/big-sandy-and-his-fly-rite-boys/701950",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Missing Link & Fatal Realm (with Pure Hatred, Phyxation)",
-    "date": "2026-10-24",
-    "doors": "13:00",
-    "start": "14:00",
-    "url": "https://wl.seetickets.us/event/missing-link-and-fatal-realm/705775",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Ak'chamel (with Derek Monypeny)",
-    "date": "2026-10-24",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://wl.seetickets.us/event/akchamel/694515",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
     "title": "Syd Taylor",
     "date": "2026-10-25",
-    "doors": "18:30",
+    "doors": "18:00",
     "start": "19:00",
     "url": "https://wl.seetickets.us/event/syd-taylor/686295",
     "status": null
@@ -72,7 +22,7 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Night of the Living Groove Vol. 2 (with Snooze, Cold World)",
+    "title": "The New Nostalgia: Night of the Living Groove Vol. 2 (with Snooze, Cold World)",
     "date": "2026-10-29",
     "doors": "19:00",
     "start": "20:00",
@@ -102,7 +52,7 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Isabel Dumaa",
+    "title": "Isabel Dumaa (with Emily How)",
     "date": "2026-11-04",
     "doors": "18:00",
     "start": "19:00",
@@ -167,6 +117,16 @@
     "doors": "18:00",
     "start": "19:00",
     "url": "https://wl.seetickets.us/event/qendresa/701407",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Moody Joody",
+    "date": "2026-11-11",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43426983-moody-joody-at-beat-kitchen",
     "status": null
   },
   {
@@ -247,6 +207,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://wl.seetickets.us/event/denise-julia/703203",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Earlybirds Club",
+    "date": "2026-11-21",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43421903-earlybirds-club-at-beat-kitchen",
     "status": null
   },
   {

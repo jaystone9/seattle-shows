@@ -2,46 +2,6 @@
   {
     "venue": "The Crocodile",
     "room": null,
-    "title": "Cheekface (with Waitress)",
-    "date": "2026-10-18",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://calendar.thecrocodile.com/shows/cheekface-w-special-guest-waitress-18-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "The War and Treaty (with Blank Page, Jordan Babbs)",
-    "date": "2026-10-21",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://calendar.thecrocodile.com/shows/the-war-and-treaty-21-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "NOTD",
-    "date": "2026-10-23",
-    "doors": "17:00",
-    "start": "18:00",
-    "url": "https://calendar.thecrocodile.com/shows/notd-23-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Beauty Sleep (with DJ Loveli)",
-    "date": "2026-10-24",
-    "doors": "18:00",
-    "start": "18:00",
-    "url": "https://calendar.thecrocodile.com/shows/beauty-sleep-24-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
     "title": "George Clanton (with ideasforconversations)",
     "date": "2026-10-25",
     "doors": "19:00",
@@ -154,8 +114,8 @@
     "room": null,
     "title": "An Evening With Railroad Earth",
     "date": "2026-11-07",
-    "doors": "17:00",
-    "start": "18:00",
+    "doors": "19:00",
+    "start": "20:00",
     "url": "https://calendar.thecrocodile.com/shows/an-evening-with-railroad-earth-07-nov",
     "status": null
   },
@@ -242,6 +202,16 @@
   {
     "venue": "The Crocodile",
     "room": null,
+    "title": "Jalen Ngonda: Doctrine of Love Tour (with Brooke Combe)",
+    "date": "2026-11-28",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/jalen-ngonda-doctrine-of-love-tour-w-brooke-combe-28-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
     "title": "Buck Meek",
     "date": "2026-12-02",
     "doors": "19:00",
@@ -307,6 +277,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://calendar.thecrocodile.com/shows/whitye-morgan-and-the-78s-04-feb",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "The Sheepdogs - Out All Night Tour",
+    "date": "2027-02-05",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/the-sheepdogs-out-all-night-tour-05-feb",
     "status": null
   },
   {
@@ -397,6 +377,26 @@
     "doors": "17:00",
     "start": "18:00",
     "url": "https://calendar.thecrocodile.com/shows/thao-show-me-tour-03-apr",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Clap Your Hands Say Yeah",
+    "date": "2027-04-17",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/clap-your-hands-say-yeah-17-apr",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Deca Joins",
+    "date": "2027-04-23",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/deca-joins-23-apr",
     "status": null
   }
 ]

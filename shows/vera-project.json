@@ -2,26 +2,6 @@
   {
     "venue": "The Vera Project",
     "room": null,
-    "title": "Tyondai Braxton",
-    "date": "2026-10-20",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/10/20/tyondai-braxton-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Vera Project",
-    "room": null,
-    "title": "Sleevies (with Plash, Anthers, Give Me the Money, Depiction of Man)",
-    "date": "2026-10-23",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://dice.fm/event/g5vww5-sleevies-plash-anthers-more-23rd-oct-the-vera-project-seattle-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Vera Project",
-    "room": null,
     "title": "Stanley Simmons",
     "date": "2026-10-25",
     "doors": "19:00",
@@ -202,6 +182,16 @@
   {
     "venue": "The Vera Project",
     "room": null,
+    "title": "Slow Joy",
+    "date": "2026-12-08",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://songkick.com/concerts/43477477-slow-joy-at-vera-project",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
     "title": "Sunday Cruise (with Dino Gala, Friend)",
     "date": "2026-12-09",
     "doors": "19:00",
@@ -227,6 +217,16 @@
     "doors": "19:00",
     "start": null,
     "url": "https://do206.com/events/2027/1/27/madds-buckley-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Vera Project",
+    "room": null,
+    "title": "Riley",
+    "date": "2027-02-08",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://songkick.com/concerts/43474501-riley-at-vera-project",
     "status": null
   }
 ]

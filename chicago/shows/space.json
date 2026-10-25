@@ -2,56 +2,6 @@
   {
     "venue": "SPACE",
     "room": null,
-    "title": "Albert Cummings",
-    "date": "2026-10-19",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/albert-cummings-space-tickets/14277114",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Richard Shindell",
-    "date": "2026-10-20",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/an-evening-with-richard-shindell-space-tickets/15034533",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "The Lowest Pair",
-    "date": "2026-10-21",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/the-lowest-pair-space-tickets/14239784",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Maggie Rose",
-    "date": "2026-10-22",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/maggie-rose-half-moon-tour-space-tickets/15034843",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Vincent Neil Emerson (with Dax Lindholm)",
-    "date": "2026-10-23",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/vincent-neil-emerson-space-tickets/14279674",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
     "title": "Jackopierce (with JB Vannatta)",
     "date": "2026-10-25",
     "doors": null,
@@ -77,6 +27,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.ticketweb.com/event/the-arcadian-wild-space-tickets/14192934",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Orbert Davis",
+    "date": "2026-11-01",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43383309-orbert-davis-at-space",
     "status": null
   },
   {
@@ -172,7 +132,7 @@
   {
     "venue": "SPACE",
     "room": null,
-    "title": "Tyrone Wells",
+    "title": "Tyrone Wells (with Tony Lucca)",
     "date": "2026-11-13",
     "doors": null,
     "start": "20:00",
@@ -187,6 +147,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.ticketweb.com/event/amythyst-kiah-space-tickets/14921043",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Jason Narducy",
+    "date": "2026-11-15",
+    "doors": "19:30",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43383307-jason-narducy-at-space",
     "status": null
   },
   {
@@ -342,6 +312,26 @@
   {
     "venue": "SPACE",
     "room": null,
+    "title": "Nora O'Connor & Kelly Hogan",
+    "date": "2026-12-05",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43432409-nora-oconnor-at-space",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Nora O'Connor & Kelly Hogan",
+    "date": "2026-12-06",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43428828-nora-oconnor-at-space",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
     "title": "Young Dro",
     "date": "2026-12-07",
     "doors": null,
@@ -377,6 +367,26 @@
     "doors": null,
     "start": "19:30",
     "url": "https://www.ticketweb.com/event/jon-mclaughlin-home-for-the-space-tickets/14999633",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Funkadesi",
+    "date": "2026-12-11",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43475992-funkadesi-at-space",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Johnny Iguana (with Gerry Hundt, Billy Flynn)",
+    "date": "2026-12-14",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43452146-johnny-iguana-at-space",
     "status": null
   },
   {
@@ -507,6 +517,46 @@
     "doors": null,
     "start": "19:30",
     "url": "https://www.ticketweb.com/event/dan-and-peggy-reeder-space-tickets/14239914",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Cory Branan",
+    "date": "2027-03-19",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43475912-cory-branan-at-space",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "D.K. Harrell",
+    "date": "2027-03-21",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43475909-dk-harrell-at-space",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "We Three",
+    "date": "2027-04-22",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43463309-we-three-at-space",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "The Last Revel",
+    "date": "2027-04-23",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43475907-last-revel-at-space",
     "status": null
   }
 ]

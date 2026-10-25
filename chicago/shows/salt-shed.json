@@ -2,56 +2,6 @@
   {
     "venue": "The Salt Shed",
     "room": null,
-    "title": "The Black Keys",
-    "date": "2026-10-20",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://do312.com/events/2026/10/20/the-black-keys-peaches-n-kream-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
-    "title": "The Black Keys",
-    "date": "2026-10-21",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://do312.com/events/2026/10/21/the-black-keys-peaches-n-kream-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
-    "title": "Sylvan Esso (with Sen Morimoto)",
-    "date": "2026-10-22",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketmaster.com/sylvan-esso-chicago-illinois-10-22-2026/event/0400649CF45E4588",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
-    "title": "Sammy Rae & The Friends (with Melt)",
-    "date": "2026-10-23",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do312.com/events/2026/10/23/sammy-rae-the-friends-with-special-guest-melt-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
-    "title": "Fruit Bats (with Matthew Logan Vasquez)",
-    "date": "2026-10-24",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketmaster.com/fruit-bats-chicago-illinois-10-24-2026/event/04006474B2AB731F",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
     "title": "Sleeping With Sirens",
     "date": "2026-10-25",
     "doors": null,
@@ -167,6 +117,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://do312.com/events/2026/11/20/fetty-wap-nostalgia-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
+    "title": "Death Cab for Cutie (with Sean Solomon)",
+    "date": "2026-11-21",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43314438-death-cab-for-cutie-at-shed-the-salt-shed",
     "status": null
   },
   {
@@ -312,6 +272,16 @@
   {
     "venue": "The Salt Shed",
     "room": null,
+    "title": "CHVRCHES",
+    "date": "2027-02-25",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/festivals/3810698-chvrches-live/id/43477644-chvrches---live-2027",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
     "title": "Cory Wong feat. dodie (with PREP)",
     "date": "2027-03-05",
     "doors": null,
@@ -327,6 +297,26 @@
     "doors": null,
     "start": "20:00",
     "url": "https://do312.com/events/2027/3/9/remi-wolf-the-mud-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
+    "title": "Remi Wolf",
+    "date": "2027-03-10",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43469173-remi-wolf-at-shed-the-salt-shed",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
+    "title": "Lucky Daye",
+    "date": "2027-03-27",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43474954-lucky-daye-at-shed-the-salt-shed",
     "status": null
   },
   {
@@ -357,6 +347,26 @@
     "doors": null,
     "start": "19:30",
     "url": "https://do312.com/events/2027/4/17/warren-zeiders-no-brakes-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
+    "title": "Lola Young (with Sofia and the Antoinettes)",
+    "date": "2027-04-20",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43450041-lola-young-at-shed-the-salt-shed",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
+    "title": "Lola Young (with Sofia and the Antoinettes)",
+    "date": "2027-04-21",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43454964-lola-young-at-shed-the-salt-shed",
     "status": null
   }
 ]

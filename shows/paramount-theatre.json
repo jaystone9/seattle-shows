@@ -1,202 +1,182 @@
 [
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Shaboozey",
-  "date": "2026-10-18",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/shaboozey/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Sara Bareilles (with Celisse)",
-  "date": "2026-10-19",
-  "doors": "18:45",
-  "start": "19:45",
-  "url": "https://www.stgpresents.org/events/sara-bareilles/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Sara Bareilles (with Celisse)",
-  "date": "2026-10-20",
-  "doors": "18:45",
-  "start": "19:45",
-  "url": "https://www.stgpresents.org/events/sara-bareilles/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Geese (with Bill Orcutt)",
-  "date": "2026-10-22",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/geese/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Geese (with Bill Orcutt)",
-  "date": "2026-10-23",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/geese/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Dermot Kennedy (with Jonah Kagan, Aaron Rowe)",
-  "date": "2026-10-26",
-  "doors": "18:30",
-  "start": "19:30",
-  "url": "https://www.stgpresents.org/events/dermot-kennedy/",
-  "status": "postponed"
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Isaiah Rashad",
-  "date": "2026-11-10",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/isaiah-rashad/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Not For Radio",
-  "date": "2026-11-11",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/not-for-radio-2026/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Not For Radio",
-  "date": "2026-11-12",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/not-for-radio-2026/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Underoath (with August Burns Red, Atreyu, As Cities Burn)",
-  "date": "2026-11-16",
-  "doors": "17:30",
-  "start": "18:30",
-  "url": "https://www.stgpresents.org/events/underoath/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Trivium (with In Flames, Orbit Culture, Frozen Soul)",
-  "date": "2026-12-09",
-  "doors": "17:30",
-  "start": "18:35",
-  "url": "https://www.stgpresents.org/events/trivium-crown-in-the-grave-world-tour/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Angine de Poitrine (with zouz)",
-  "date": "2026-12-13",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/angine-de-poitrine/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Lord Huron",
-  "date": "2027-01-07",
-  "doors": "18:30",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/lord-huron/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Lord Huron",
-  "date": "2027-01-08",
-  "doors": "18:30",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/lord-huron/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Yuridia",
-  "date": "2027-02-04",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/yuridia/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "The Piano Guys",
-  "date": "2027-02-06",
-  "doors": "16:00",
-  "start": "17:00",
-  "url": "https://www.stgpresents.org/events/the-piano-guys/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
-  "date": "2027-02-15",
-  "doors": "18:30",
-  "start": "19:30",
-  "url": "https://www.stgpresents.org/events/jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Polyphia",
-  "date": "2027-02-17",
-  "doors": "18:30",
-  "start": "19:30",
-  "url": "https://www.stgpresents.org/events/polyphia/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Sylvan Esso",
-  "date": "2027-02-19",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/sylvan-esso/",
-  "status": null
- },
- {
-  "venue": "The Paramount Theatre",
-  "room": null,
-  "title": "Nothing But Thieves",
-  "date": "2027-03-31",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.stgpresents.org/events/nothing-but-thieves/",
-  "status": null
- }
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Dermot Kennedy (with Jonah Kagan, Aaron Rowe)",
+    "date": "2026-10-26",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://www.stgpresents.org/events/dermot-kennedy/",
+    "status": "postponed"
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Isaiah Rashad",
+    "date": "2026-11-10",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/isaiah-rashad/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Not For Radio",
+    "date": "2026-11-11",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/not-for-radio-2026/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Not For Radio",
+    "date": "2026-11-12",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/not-for-radio-2026/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Underoath (with August Burns Red, Atreyu, As Cities Burn)",
+    "date": "2026-11-16",
+    "doors": "17:30",
+    "start": "18:30",
+    "url": "https://www.stgpresents.org/events/underoath/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Trivium (with In Flames, Orbit Culture, Frozen Soul)",
+    "date": "2026-12-09",
+    "doors": "17:30",
+    "start": "18:35",
+    "url": "https://www.stgpresents.org/events/trivium-crown-in-the-grave-world-tour/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Angine de Poitrine (with zouz)",
+    "date": "2026-12-13",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/angine-de-poitrine/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Lord Huron",
+    "date": "2027-01-07",
+    "doors": "18:30",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/lord-huron/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Lord Huron",
+    "date": "2027-01-08",
+    "doors": "18:30",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/lord-huron/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Yuridia",
+    "date": "2027-02-04",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/yuridia/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "The Piano Guys",
+    "date": "2027-02-06",
+    "doors": "16:00",
+    "start": "17:00",
+    "url": "https://www.stgpresents.org/events/the-piano-guys/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "The Piano Guys",
+    "date": "2027-02-06",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/the-piano-guys/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+    "date": "2027-02-15",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://www.stgpresents.org/events/jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Polyphia",
+    "date": "2027-02-17",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://www.stgpresents.org/events/polyphia/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Sylvan Esso",
+    "date": "2027-02-19",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/sylvan-esso/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Ashe (with Claire Rosinkranz)",
+    "date": "2027-02-28",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/ashe/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Chvrches",
+    "date": "2027-03-06",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/chvrches/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Nothing But Thieves",
+    "date": "2027-03-31",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/nothing-but-thieves/",
+    "status": null
+  }
 ]

@@ -2,16 +2,6 @@
   {
     "venue": "North Shore Center for the Performing Arts",
     "room": "George Van Dusen Theatre",
-    "title": "La Diosa: Eva Ayllón (with Daniela Darcourt)",
-    "date": "2026-10-23",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketmaster.com/event/070064C4D7CF7BB1",
-    "status": null
-  },
-  {
-    "venue": "North Shore Center for the Performing Arts",
-    "room": null,
     "title": "Vitamin String Quartet",
     "date": "2026-10-26",
     "doors": null,
@@ -21,7 +11,7 @@
   },
   {
     "venue": "North Shore Center for the Performing Arts",
-    "room": null,
+    "room": "George Van Dusen Theatre",
     "title": "AJ McLean presents Alexander James: The Better Man Tour",
     "date": "2026-11-11",
     "doors": null,
@@ -131,7 +121,7 @@
   },
   {
     "venue": "North Shore Center for the Performing Arts",
-    "room": null,
+    "room": "George Van Dusen Theatre",
     "title": "Jim Brickman",
     "date": "2027-02-05",
     "doors": null,
@@ -141,12 +131,32 @@
   },
   {
     "venue": "North Shore Center for the Performing Arts",
-    "room": null,
+    "room": "George Van Dusen Theatre",
     "title": "Marty Stuart & His Fabulous Superlatives",
     "date": "2027-02-13",
     "doors": null,
     "start": "19:30",
     "url": "https://www.ticketmaster.com/event/07006546E99A889A",
+    "status": null
+  },
+  {
+    "venue": "North Shore Center for the Performing Arts",
+    "room": "George Van Dusen Theatre",
+    "title": "Sam Bush",
+    "date": "2027-03-06",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketmaster.com/event/07006550C49292B1",
+    "status": null
+  },
+  {
+    "venue": "North Shore Center for the Performing Arts",
+    "room": "George Van Dusen Theatre",
+    "title": "Spyro Gyra",
+    "date": "2027-03-18",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketmaster.com/event/07006550CBDF9AB6",
     "status": null
   },
   {
@@ -161,7 +171,7 @@
   },
   {
     "venue": "North Shore Center for the Performing Arts",
-    "room": null,
+    "room": "George Van Dusen Theatre",
     "title": "Stephen Bishop",
     "date": "2027-04-03",
     "doors": null,

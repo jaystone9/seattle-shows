@@ -2,36 +2,6 @@
   {
     "venue": "Constellation",
     "room": null,
-    "title": "AACM & Ensemble Dal Niente",
-    "date": "2026-10-22",
-    "doors": "20:00",
-    "start": "20:30",
-    "url": "https://wl.seetickets.us/event/aacm-ensemble-dal-niente/704381?afflky=ConstellationChicago",
-    "status": null
-  },
-  {
-    "venue": "Constellation",
-    "room": null,
-    "title": "Wadada Leo Smith (with Stein/Smith/Shead Trio)",
-    "date": "2026-10-23",
-    "doors": "20:00",
-    "start": "20:30",
-    "url": "https://wl.seetickets.us/event/wadada-leo-smith-w-steinsmithshead-trio/690931?afflky=ConstellationChicago",
-    "status": null
-  },
-  {
-    "venue": "Constellation",
-    "room": null,
-    "title": "The Metropolitan Jazz Octet with Dee Alexander",
-    "date": "2026-10-24",
-    "doors": "20:00",
-    "start": "20:30",
-    "url": "https://wl.seetickets.us/event/the-metropolitan-jazz-octet-with-dee-alexander/701681?afflky=ConstellationChicago",
-    "status": null
-  },
-  {
-    "venue": "Constellation",
-    "room": null,
     "title": "Frequency Series Presents: Morton Feldman's For John Cage",
     "date": "2026-10-25",
     "doors": "20:00",
@@ -277,6 +247,16 @@
     "doors": "20:00",
     "start": "20:30",
     "url": "https://wl.seetickets.us/event/this-is-the-kit/705286?afflky=ConstellationChicago",
+    "status": null
+  },
+  {
+    "venue": "Constellation",
+    "room": null,
+    "title": "Stephan Crump's Passerine",
+    "date": "2027-04-22",
+    "doors": "19:30",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43406916-stephan-crump-at-constellation-chicago",
     "status": null
   }
 ]

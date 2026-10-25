@@ -2,16 +2,6 @@
   {
     "venue": "Climate Pledge Arena",
     "room": null,
-    "title": "Phoebe Bridgers (with Alex G)",
-    "date": "2026-10-23",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://climatepledgearena.com/event/phoebe-bridgers-26/",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
     "title": "K-ERA Fest 2026: TAEMIN",
     "date": "2026-10-25",
     "doors": null,
@@ -103,6 +93,16 @@
     "venue": "Climate Pledge Arena",
     "room": null,
     "title": "Garth Brooks",
+    "date": "2026-11-12",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://songkick.com/concerts/43481586-garth-brooks-at-climate-pledge-arena",
+    "status": null
+  },
+  {
+    "venue": "Climate Pledge Arena",
+    "room": null,
+    "title": "Garth Brooks",
     "date": "2026-11-13",
     "doors": null,
     "start": "20:00",
@@ -117,6 +117,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://songkick.com/concerts/43465872-garth-brooks-at-climate-pledge-arena",
+    "status": null
+  },
+  {
+    "venue": "Climate Pledge Arena",
+    "room": null,
+    "title": "Garth Brooks",
+    "date": "2026-11-15",
+    "doors": null,
+    "start": "14:00",
+    "url": "https://songkick.com/concerts/43477855-garth-brooks-at-climate-pledge-arena",
     "status": null
   },
   {

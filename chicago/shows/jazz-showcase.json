@@ -2,56 +2,6 @@
  {
   "venue": "Jazz Showcase",
   "room": null,
-  "title": "Petra's Recession Seven",
-  "date": "2026-10-20",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://www.jazzshowcase.com/nowplaying/petra-recession-seven-epy66-xl6gs-mcz77-p9h2b-gp2s6-gxrc7-m43n2-slpze-5bkhx-r7y7z-29t9c-xf6t6-ccd7j-7r7md-3g4e9-jggrg-kd59z-7yfxj-3ywkb-hzbgn-lgd6z-ad8km-m3z7g-hgler",
-  "status": null
- },
- {
-  "venue": "Jazz Showcase",
-  "room": null,
-  "title": "Christian Dillingham Quartet",
-  "date": "2026-10-21",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://www.jazzshowcase.com/nowplaying/christian-dillingham-121922-pzx3s-kzrx6-n447h-njjxy-pakdd-d6ycr-dtndx-jszxn-mms5f-af5fb-9l5tp-bsx9r-w4dy5",
-  "status": null
- },
- {
-  "venue": "Jazz Showcase",
-  "room": null,
-  "title": "Lenard Simpson Quartet",
-  "date": "2026-10-22",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://www.jazzshowcase.com/nowplaying/lenard-simpson-ks3ba-xnwts",
-  "status": null
- },
- {
-  "venue": "Jazz Showcase",
-  "room": null,
-  "title": "Lenard Simpson Quartet",
-  "date": "2026-10-23",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://www.jazzshowcase.com/nowplaying/lenard-simpson-ks3ba-xnwts",
-  "status": null
- },
- {
-  "venue": "Jazz Showcase",
-  "room": null,
-  "title": "Lenard Simpson Quartet",
-  "date": "2026-10-24",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://www.jazzshowcase.com/nowplaying/lenard-simpson-ks3ba-xnwts",
-  "status": null
- },
- {
-  "venue": "Jazz Showcase",
-  "room": null,
   "title": "Lenard Simpson Quartet",
   "date": "2026-10-25",
   "doors": null,
@@ -182,7 +132,7 @@
  {
   "venue": "Jazz Showcase",
   "room": null,
-  "title": "Alexander Urzagaste Quartet",
+  "title": "Alejandro Urzagaste Quartet",
   "date": "2026-11-10",
   "doors": null,
   "start": "20:00",
@@ -337,6 +287,46 @@
   "doors": null,
   "start": "20:00",
   "url": "https://www.jazzshowcase.com/nowplaying/sabertooth-t8kcr-ce59t-x2geb-p8es4-nzh6e-3j5nt",
+  "status": null
+ },
+ {
+  "venue": "Jazz Showcase",
+  "room": null,
+  "title": "Justin Robinson Quintet",
+  "date": "2026-11-26",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.jazzshowcase.com/nowplaying/justin-robinson-roy-hargrove-xakgw-jfk6w-sfek6",
+  "status": null
+ },
+ {
+  "venue": "Jazz Showcase",
+  "room": null,
+  "title": "Justin Robinson Quintet",
+  "date": "2026-11-27",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.jazzshowcase.com/nowplaying/justin-robinson-roy-hargrove-xakgw-jfk6w-sfek6",
+  "status": null
+ },
+ {
+  "venue": "Jazz Showcase",
+  "room": null,
+  "title": "Justin Robinson Quintet",
+  "date": "2026-11-28",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.jazzshowcase.com/nowplaying/justin-robinson-roy-hargrove-xakgw-jfk6w-sfek6",
+  "status": null
+ },
+ {
+  "venue": "Jazz Showcase",
+  "room": null,
+  "title": "Justin Robinson Quintet",
+  "date": "2026-11-29",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.jazzshowcase.com/nowplaying/justin-robinson-roy-hargrove-xakgw-jfk6w-sfek6",
   "status": null
  },
  {

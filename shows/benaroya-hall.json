@@ -1,36 +1,6 @@
 [
   {
     "venue": "Benaroya Hall",
-    "room": null,
-    "title": "The Head and the Heart with Seattle Symphony",
-    "date": "2026-10-18",
-    "doors": null,
-    "start": null,
-    "url": "https://songkick.com/concerts/43449488-head-and-the-heart-at-benaroya-hall",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
-    "room": "Taper Auditorium",
-    "title": "Seattle Symphony: Morlot Conducts The Sounds of Spring",
-    "date": "2026-10-22",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://bachtrack.com/concert-event/morlot-conducts-the-sounds-of-spring-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-22-october-2026/436344",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
-    "room": "Taper Auditorium",
-    "title": "Seattle Symphony: Morlot Conducts The Sounds of Spring",
-    "date": "2026-10-24",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://bachtrack.com/concert-event/morlot-conducts-the-sounds-of-spring-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-22-october-2026/436344",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
     "room": "Nordstrom Recital Hall",
     "title": "Seattle Chamber Music Society: Isidore String Quartet",
     "date": "2026-10-25",
@@ -67,16 +37,6 @@
     "doors": null,
     "start": "19:30",
     "url": "https://bachtrack.com/concert-event/paul-lewis-plays-mozart-sonatas-benaroya-hall-s-mark-taper-auditorium-27-october-2026/436351",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
-    "room": "Taper Auditorium",
-    "title": "Seattle Symphony (program not listed)",
-    "date": "2026-10-31",
-    "doors": null,
-    "start": "11:00",
-    "url": "https://www.jambase.com/show/seattle-symphony-taper-auditorium-benaroya-hall-20261031",
     "status": null
   },
   {

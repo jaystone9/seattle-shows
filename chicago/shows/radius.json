@@ -1,352 +1,312 @@
 [
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Bassvictim (with Thoom, Nation, Lightremoval)",
-  "date": "2026-10-22",
-  "doors": "18:30",
-  "start": null,
-  "url": "https://www.axs.com/events/1566048/bassvictim-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Bassvictim (with Thoom, Nation, Lightremoval)",
-  "date": "2026-10-23",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1617801/bassvictim-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Lil Yachty (Red Bull Setlist)",
-  "date": "2026-10-24",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1521771/red-bull-setlist-featuring-lil-yachty-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "San Pacho (with ToBeHonest, Dedro, dB Stereo)",
-  "date": "2026-10-24",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1587783/san-pacho-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "ATLiens (with Borgore b2b Benda, Pyke b2b 7L, Usaybflow)",
-  "date": "2026-10-30",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1534963/atliens-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "TEN",
-  "date": "2026-11-01",
-  "doors": "18:30",
-  "start": null,
-  "url": "https://www.axs.com/events/1580817/teny-us-showcase-tour-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Kaskade",
-  "date": "2026-11-06",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1605551/kaskade-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Rossi. (with Dean Turnley)",
-  "date": "2026-11-06",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1622833/rossi-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Carl Cox (with Toman, Kidoo)",
-  "date": "2026-11-07",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1580321/carl-cox-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Frost Children (with Olswel)",
-  "date": "2026-11-12",
-  "doors": "18:30",
-  "start": null,
-  "url": "https://www.axs.com/events/1587915/frost-children-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Westend (with DANSYN, Eddie Adams)",
-  "date": "2026-11-13",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1570599/westend-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Brutalismus 3000 (with Cannelle, 10cust, TDY b2b Shaun LaCosta-Sinclair)",
-  "date": "2026-11-14",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1592097/brutalismus-3000-harmony-us-tour-2026-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Benwal (with Diffrent, Kyle Starkey, Paige Tomlinson, STÜM)",
-  "date": "2026-11-14",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1611747/benwal-diffrent-kyle-starkey-paige-tomlinson-stum-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Prospa (with Locky, Isabella, KDAY)",
-  "date": "2026-11-20",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1521592/prospa-present-prophecy-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Adiel (with AEREA, Clara Cuvé, Valentina Cappellari)",
-  "date": "2026-11-20",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1562047/adiel-aerea-live-clara-cuve-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Madeon (with Anamanaguchi)",
-  "date": "2026-11-21",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1438115/madeon-presents-victory-live-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Bonobo (with Anish Kumar)",
-  "date": "2026-11-25",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1480948/bonobo-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Ben Klock (with Rødhad, Chlär, Neux)",
-  "date": "2026-11-27",
-  "doors": "21:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1662632/ben-klock-photon-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Josh Baker",
-  "date": "2026-11-27",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1582018/josh-baker-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "MIJA (with MRD, CRUSH3D b2b EERA, Mary K)",
-  "date": "2026-11-28",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1638934/mija-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Kim Petras",
-  "date": "2026-12-01",
-  "doors": "18:30",
-  "start": null,
-  "url": "https://www.axs.com/events/1631709/kim-petras-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Sullivan King (with Avello, CHYL)",
-  "date": "2026-12-04",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1611525/sullivan-king-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Eric Prydz (with Cristoph, Alex Kislov, Tash Solara)",
-  "date": "2026-12-05",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1567524/eric-prydz-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "D.O.D",
-  "date": "2026-12-31",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1666251/dod-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Ninajirachi",
-  "date": "2027-01-10",
-  "doors": "18:30",
-  "start": null,
-  "url": "https://www.axs.com/events/1621558/ninajirachis-i-love-my-computer-and-it-loves-me-tour-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Ninajirachi",
-  "date": "2027-01-11",
-  "doors": "18:30",
-  "start": null,
-  "url": "https://www.axs.com/events/1626549/ninajirachi-i-love-my-computer-and-it-loves-me-tour-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "ŁASZEWO",
-  "date": "2027-01-16",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1653828/aszewo-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "MPH",
-  "date": "2027-01-29",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1629409/mph-y-chicago-forever-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "AYYBO",
-  "date": "2027-01-30",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1644161/ayybo-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Swimming Paul",
-  "date": "2027-02-05",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1644952/swimming-paul-north-america-tour-2027-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Riordan",
-  "date": "2027-02-13",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1655564/riordan-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "KREAM",
-  "date": "2027-02-19",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1666242/kream-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Kayzo x HHUNTER",
-  "date": "2027-03-05",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1669427/kayzo-x-hhunter-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "Kayzo x HHUNTER",
-  "date": "2027-03-06",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1669434/kayzo-x-hhunter-tickets?skin=radius",
-  "status": null
- },
- {
-  "venue": "Radius",
-  "room": null,
-  "title": "LAYZ",
-  "date": "2027-03-20",
-  "doors": "22:00",
-  "start": null,
-  "url": "https://www.axs.com/events/1670881/layz-tickets?skin=radius",
-  "status": null
- }
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "ATLiens (with Borgore b2b Benda, Pyke b2b 7L, Usaybflow)",
+    "date": "2026-10-30",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1534963/atliens-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "TEN",
+    "date": "2026-11-01",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.axs.com/events/1580817/teny-us-showcase-tour-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Kaskade",
+    "date": "2026-11-06",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1605551/kaskade-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Rossi. (with Dean Turnley)",
+    "date": "2026-11-06",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1622833/rossi-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Carl Cox (with Toman, Kidoo)",
+    "date": "2026-11-07",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1580321/carl-cox-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Frost Children (with Olswel)",
+    "date": "2026-11-12",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.axs.com/events/1587915/frost-children-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Westend (with DANSYN, Eddie Adams)",
+    "date": "2026-11-13",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1570599/westend-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Benwal (with Diffrent, Kyle Starkey, Paige Tomlinson, STÜM)",
+    "date": "2026-11-14",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1611747/benwal-diffrent-kyle-starkey-paige-tomlinson-stum-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Brutalismus 3000 (with Cannelle, 10cust, TDY b2b Shaun LaCosta-Sinclair)",
+    "date": "2026-11-14",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1592097/brutalismus-3000-harmony-us-tour-2026-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Adiel (with AEREA, Clara Cuvé, Valentina Cappellari)",
+    "date": "2026-11-20",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1562047/adiel-aerea-live-clara-cuve-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Prospa (with Locky, Isabella, KDAY)",
+    "date": "2026-11-20",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1521592/prospa-present-prophecy-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Madeon (with Anamanaguchi)",
+    "date": "2026-11-21",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1438115/madeon-presents-victory-live-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Bonobo (with Anish Kumar)",
+    "date": "2026-11-25",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1480948/bonobo-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Ben Klock (with Rødhad, Chlär, Neux)",
+    "date": "2026-11-27",
+    "doors": "21:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1662632/ben-klock-photon-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Josh Baker",
+    "date": "2026-11-27",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1582018/josh-baker-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "MIJA (with MRD, CRUSH3D b2b EERA, Mary K)",
+    "date": "2026-11-28",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1638934/mija-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Kim Petras",
+    "date": "2026-12-01",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.axs.com/events/1631709/kim-petras-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Sullivan King (with Avello, CHYL)",
+    "date": "2026-12-04",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1611525/sullivan-king-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Eric Prydz (with Cristoph, Alex Kislov, Tash Solara)",
+    "date": "2026-12-05",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1567524/eric-prydz-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "D.O.D",
+    "date": "2026-12-31",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1666251/dod-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Ninajirachi",
+    "date": "2027-01-10",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.axs.com/events/1621558/ninajirachis-i-love-my-computer-and-it-loves-me-tour-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Ninajirachi",
+    "date": "2027-01-11",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.axs.com/events/1626549/ninajirachi-i-love-my-computer-and-it-loves-me-tour-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "ŁASZEWO",
+    "date": "2027-01-16",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1653828/aszewo-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "MPH",
+    "date": "2027-01-29",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1629409/mph-y-chicago-forever-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "AYYBO",
+    "date": "2027-01-30",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1644161/ayybo-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Swimming Paul",
+    "date": "2027-02-05",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1644952/swimming-paul-north-america-tour-2027-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Riordan",
+    "date": "2027-02-13",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1655564/riordan-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "KREAM",
+    "date": "2027-02-19",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1666242/kream-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Kayzo x HHUNTER",
+    "date": "2027-03-05",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1669427/kayzo-x-hhunter-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Kayzo x HHUNTER",
+    "date": "2027-03-06",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1669434/kayzo-x-hhunter-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "LAYZ",
+    "date": "2027-03-20",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1670881/layz-tickets?skin=radius",
+    "status": null
+  }
 ]

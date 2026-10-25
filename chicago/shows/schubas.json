@@ -2,66 +2,6 @@
  {
   "venue": "Schubas",
   "room": null,
-  "title": "Benny G",
-  "date": "2026-10-20",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://lh-st.com/shows/10-20-2026-benny-g/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": "Upstairs",
-  "title": "Foto Flo",
-  "date": "2026-10-21",
-  "doors": "18:30",
-  "start": "18:30",
-  "url": "https://lh-st.com/shows/10-21-2026-foto-flo/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Ian Sweet (with Meg Elsier)",
-  "date": "2026-10-21",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/10-21-2026-ian-sweet/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "DICE (with The Back Alley)",
-  "date": "2026-10-22",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/10-22-2026-dice/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Chanpan (with SHEBAD)",
-  "date": "2026-10-23",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/10-23-2026-chanpan/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Ilykimchi (with DJ Thank You)",
-  "date": "2026-10-24",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/10-24-2026-ilykimchi/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
   "title": "Taylor Bickett (with Lisa Curtis, Lainey Jean)",
   "date": "2026-10-25",
   "doors": "19:30",
@@ -97,6 +37,16 @@
   "doors": "19:30",
   "start": "20:00",
   "url": "https://lh-st.com/shows/10-30-2026-maris/",
+  "status": null
+ },
+ {
+  "venue": "Schubas",
+  "room": null,
+  "title": "Teen Jesus and the Jean Teasers",
+  "date": "2026-10-31",
+  "doors": "20:00",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43413558-teen-jesus-and-the-jean-teasers-at-schubas-tavern",
   "status": null
  },
  {

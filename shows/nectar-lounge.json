@@ -2,56 +2,6 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
-    "title": "Alborosie & The Shengen Clan (with Dub Lounge International, DJ Kid Hops)",
-    "date": "2026-10-18",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/alborosie-the-shengen-clan-with-dub-lounge-international-dj-kid-hops-kexp--179151",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "Nice As F*#K ft. Jenny Lewis, Erika Forster, Tennessee Thomas (Early Show)",
-    "date": "2026-10-20",
-    "doors": null,
-    "start": "17:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/nice-as-f-k-ft-jenny-lewis-erika-forster-tennesse-thomas-early-show--203752",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "Nice As F*#K ft. Jenny Lewis, Erika Forster, Tennessee Thomas (Late Show)",
-    "date": "2026-10-20",
-    "doors": null,
-    "start": "20:15",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/nice-as-f-k-ft-jenny-lewis-erika-forster-tennesse-thomas-late-show--203753",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "Kota the Friend (with New Track City, Shane Diamanti)",
-    "date": "2026-10-21",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/kota-the-friend-with-new-track-city-and-shane-diamanti-197577",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "Mountain Holler & The Western Dawn (with The Low Lonesome Sound, Love Victory Rose, Sean Croizier)",
-    "date": "2026-10-22",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/mountain-holler-the-western-dawn-with-the-low-lonesome-sound-love-victory-rose-sean-croizier-204635",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
     "title": "Sophie Hunter (with Reysha Rami)",
     "date": "2026-10-25",
     "doors": null,
@@ -272,11 +222,11 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
-    "title": "Acapulco Lips (with Tiny Monsters, Linda From Work)",
+    "title": "Acapulco Lips (with Tiny Monsters, Linda From Work, Zailee Haze)",
     "date": "2026-12-04",
     "doors": null,
     "start": "19:30",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/acapulco-lips-with-tiny-monsters-linda-from-work-210916",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/acapulco-lips-with-tiny-monsters-linda-from-work-zailee-haze-210916",
     "status": null
   },
   {
@@ -297,6 +247,16 @@
     "doors": null,
     "start": "19:00",
     "url": "https://www.tixr.com/groups/nectarlounge/events/i-90-fiasco-with-denny-way-cupcake-209418",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
+    "title": "That 1 Guy",
+    "date": "2026-12-11",
+    "doors": null,
+    "start": "17:30",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/that-1-guy-209171",
     "status": null
   },
   {
@@ -346,7 +306,7 @@
     "date": "2026-12-17",
     "doors": null,
     "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/cascadia-winter-solstice-weekend-ft-beats-antique-with-david-starfire-200645",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/cascadia-winter-solstice-weekend-ft-beats-antique-desert-dwellers-high-step-society-atyya-chmura-duffrey-marques-wyatt-sabo-more-202365",
     "status": null
   },
   {
@@ -356,7 +316,7 @@
     "date": "2026-12-18",
     "doors": null,
     "start": "20:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/cascadia-winter-solstice-weekend-ft-beats-antique-with-bluetech-frequenzie-200646",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/cascadia-winter-solstice-weekend-ft-beats-antique-desert-dwellers-high-step-society-atyya-chmura-duffrey-marques-wyatt-sabo-more-202365",
     "status": null
   },
   {
@@ -366,7 +326,7 @@
     "date": "2026-12-19",
     "doors": null,
     "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/cascadia-winter-solstice-weekend-ft-atyya-chmura-duffrey-rob-noble-202998",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/cascadia-winter-solstice-weekend-ft-beats-antique-desert-dwellers-high-step-society-atyya-chmura-duffrey-marques-wyatt-sabo-more-202365",
     "status": null
   },
   {

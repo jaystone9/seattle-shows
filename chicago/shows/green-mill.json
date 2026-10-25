@@ -1,182 +1,172 @@
 [
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Natalie Scharf & Friends",
-    "date": "2026-10-19",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Andy Brown Quartet",
-    "date": "2026-10-23",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Andy Brown Quartet",
-    "date": "2026-10-24",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Chicago Jazz Composers Collective (with Michael Hudson Casanova's One Time Out, Interlace Sextet)",
-    "date": "2026-10-25",
-    "doors": null,
-    "start": "16:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Natalie Scharf & Friends",
-    "date": "2026-10-26",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "The Model Citizens",
-    "date": "2026-10-30",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Nick Mazzarella Quintet",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Jenny Scheinman's All Species Parade",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Neal Alger Quartet",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Neal Alger Quartet",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Chris Greene Quartet",
-    "date": "2026-11-20",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Chris Greene Quartet",
-    "date": "2026-11-21",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Chicago Jazz Composers Collective 25th Anniversary (with Kathy Kelly Quartet, Marques Carroll Ensemble)",
-    "date": "2026-11-22",
-    "doors": null,
-    "start": "16:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Jerry Weldon/Dave Schumacher Organ Quartet",
-    "date": "2026-11-27",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Jerry Weldon/Dave Schumacher Organ Quartet",
-    "date": "2026-11-28",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Matt Wilson's Christmas Tree-O",
-    "date": "2026-12-18",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Matt Wilson's Christmas Tree-O",
-    "date": "2026-12-19",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Chicago Jazz Composers Collective",
-    "date": "2026-12-27",
-    "doors": null,
-    "start": "16:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  }
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Chicago Jazz Composers Collective (with Michael Hudson Casanova's One Time Out, Interlace Sextet)",
+  "date": "2026-10-25",
+  "doors": null,
+  "start": "16:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Natalie Scharf & Friends",
+  "date": "2026-10-26",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "The Model Citizens",
+  "date": "2026-10-30",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Nick Mazzarella Quintet",
+  "date": "2026-11-06",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Jenny Scheinman's All Species Parade",
+  "date": "2026-11-07",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Neal Alger Quartet",
+  "date": "2026-11-13",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Neal Alger Quartet",
+  "date": "2026-11-14",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Chris Greene Quartet",
+  "date": "2026-11-20",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Chris Greene Quartet",
+  "date": "2026-11-21",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Chicago Jazz Composers Collective 25th Anniversary (with Kathy Kelly Quartet, Marques Carroll Ensemble)",
+  "date": "2026-11-22",
+  "doors": null,
+  "start": "16:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Jerry Weldon/Dave Schumacher Organ Quartet",
+  "date": "2026-11-27",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Jerry Weldon/Dave Schumacher Organ Quartet",
+  "date": "2026-11-28",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "The Chicago Soul Jazz Collective (with LaShera Ellis)",
+  "date": "2026-12-04",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "The Chicago Soul Jazz Collective (with Dee Alexander)",
+  "date": "2026-12-05",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Matt Wilson's Christmas Tree-O",
+  "date": "2026-12-18",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Matt Wilson's Christmas Tree-O",
+  "date": "2026-12-19",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ },
+ {
+  "venue": "Green Mill",
+  "room": null,
+  "title": "Chicago Jazz Composers Collective",
+  "date": "2026-12-27",
+  "doors": null,
+  "start": "16:00",
+  "url": "https://greenmilljazz.com/calendar/",
+  "status": null
+ }
 ]

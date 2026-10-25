@@ -2,16 +2,6 @@
  {
   "venue": "Riviera Theatre",
   "room": null,
-  "title": "Thee Phantom and Illharmonic Orchestra",
-  "date": "2026-10-24",
-  "doors": "18:00",
-  "start": "19:30",
-  "url": "https://www.axs.com/events/1541709/thee-phantom-and-illharmonic-orchestra-tickets?skin=riviera",
-  "status": null
- },
- {
-  "venue": "Riviera Theatre",
-  "room": null,
   "title": "Sienna Spiro (with Summer Joy)",
   "date": "2026-10-27",
   "doors": "18:00",
@@ -42,7 +32,7 @@
  {
   "venue": "Riviera Theatre",
   "room": null,
-  "title": "Bad Gyal",
+  "title": "Bad Gyal (with judith)",
   "date": "2026-11-01",
   "doors": "18:00",
   "start": "19:30",
@@ -57,16 +47,6 @@
   "doors": "18:00",
   "start": "19:30",
   "url": "https://www.axs.com/events/1481023/pouya-tickets?skin=riviera",
-  "status": null
- },
- {
-  "venue": "Riviera Theatre",
-  "room": null,
-  "title": "Sleep (with Zombi)",
-  "date": "2026-11-06",
-  "doors": "18:00",
-  "start": "19:30",
-  "url": "https://www.axs.com/events/1494312/sleep-north-america-2026-tickets?skin=riviera",
   "status": null
  },
  {
@@ -122,7 +102,7 @@
  {
   "venue": "Riviera Theatre",
   "room": null,
-  "title": "Jorja Smith",
+  "title": "Jorja Smith (with Wesley Joseph)",
   "date": "2026-11-23",
   "doors": "18:30",
   "start": "20:00",
@@ -192,6 +172,16 @@
  {
   "venue": "Riviera Theatre",
   "room": null,
+  "title": "Ashe (with Claire Rosinkranz)",
+  "date": "2027-03-07",
+  "doors": "18:00",
+  "start": "19:30",
+  "url": "https://www.axs.com/events/1671935/ashe-the-girl-of-your-dreams-tour-tickets?skin=riviera",
+  "status": null
+ },
+ {
+  "venue": "Riviera Theatre",
+  "room": null,
   "title": "Blue October",
   "date": "2027-03-11",
   "doors": "18:30",
@@ -207,6 +197,16 @@
   "doors": "18:00",
   "start": "19:30",
   "url": "https://www.axs.com/events/1551451/the-mary-wallopers-tickets?skin=riviera",
+  "status": null
+ },
+ {
+  "venue": "Riviera Theatre",
+  "room": null,
+  "title": "Lambrini Girls (with Sprints)",
+  "date": "2027-04-02",
+  "doors": "18:00",
+  "start": "19:30",
+  "url": "https://www.axs.com/events/1637083/lambrini-girls-no-refunds-tour-with-support-from-sprints-tickets?skin=riviera",
   "status": null
  }
 ]

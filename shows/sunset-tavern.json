@@ -1,452 +1,492 @@
 [
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "OK Tiger (with Fern Spores, Fox and Bones)",
-    "date": "2026-10-18",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/10/18/ok-tiger-fern-spores-fox-and-bones-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "No Slip (with Lunar Pilots, The Sound and the Fury)",
-    "date": "2026-10-19",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/10/19/no-slip-lunar-pilots-the-sound-and-the-fury-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Ray Wolff (with Boy Heroine, babename, & more)",
-    "date": "2026-10-20",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/10/20/ray-wolff-boy-heroine-babename-more-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "The Wildwoods (with False Hemlock)",
-    "date": "2026-10-22",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/tractor-presents-the-wildwoods-w-tractor-tickets/14238704?pl=tractor&REFID=clientsitewp",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Tōth (with Sean Nicholas Savage)",
-    "date": "2026-10-23",
-    "doors": "20:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/10/23/toth-w-sean-nicholas-savage-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Frames in Motion",
-    "date": "2026-10-24",
-    "doors": "20:00",
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43459013-frames-in-motion-at-sunset-tavern",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Marika Che (with Whitney Ballen, Skyler Ford)",
-    "date": "2026-10-25",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/10/25/marika-che-whitney-ballen-skyler-ford-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Abby Webster & Her Imaginary Band (with Alex Dunn (trio), Leo Craft)",
-    "date": "2026-10-27",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/tractor-presents-abby-webster-w-tractor-tickets/14309294?pl=tractor&REFID=clientsitewp",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Blitzkid (with guests)",
-    "date": "2026-10-28",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/10/28/blitzkid-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Great Lake Swimmers (with guests)",
-    "date": "2026-11-01",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/1/great-lake-swimmers-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Georgia Parker (with Tasha T)",
-    "date": "2026-11-02",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/2/georgia-parker-tasha-t-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Sven (with Jackie Tulsa, bubblegum cr1sis, & more)",
-    "date": "2026-11-03",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/3/sven-jackie-tulsa-bubblegum-cr1sis-more-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Tagua Tagua (with Orlas)",
-    "date": "2026-11-04",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/4/tagua-tagua-orlas-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Claire Conway (album release) (with Dog Mom, Arran Fagan)",
-    "date": "2026-11-05",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/5/claire-conway-album-release-dog-mom-arran-fagan-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Blackheart Honeymoon (with Billy and the Dreamboats, Will Roesner)",
-    "date": "2026-11-06",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/6/blackheart-honeymoon-billy-and-the-dreamboats-will-roesner-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Denny Way (EP release) (with Seismic Shift, Brake Down)",
-    "date": "2026-11-08",
-    "doors": "18:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/8/denny-way-ep-release-seismic-shift-brake-down-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Jon Spencer (with Genre Is Death)",
-    "date": "2026-11-09",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/jon-spencer-sunset-tavern-tickets/14915253",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Tiny Vipers (with Evelyn Frances, Estate Plan)",
-    "date": "2026-11-10",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/10/tiny-vipers-evelyn-frances-estate-plan-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Alex Cameron (with Josh da Costa)",
-    "date": "2026-11-11",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://dice.fm/event/k6d7y9-the-crocodile-presents-alex-cameron-josh-da-costa-11th-nov-the-sunset-tavern-seattle-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Goldi Locke (EP release) (with Zoser, Asia)",
-    "date": "2026-11-12",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/12/goldi-locke-ep-release-zoser-asia-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Chris Acker (with guests)",
-    "date": "2026-11-15",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/15/chris-acker-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Katzenväter (with David's Van, FarReaches)",
-    "date": "2026-11-16",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/16/katzenvater-david-s-van-farreaches-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Babehoven (with Pileup)",
-    "date": "2026-11-17",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/tractor-presents-babehoven-w-pileup-tractor-tickets/15000533?pl=tractor&REFID=clientsitewp",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "The Gallaghers (LP release) (with guests)",
-    "date": "2026-11-18",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/18/the-gallaghers-lp-release-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Todd Day Wait (with guests)",
-    "date": "2026-11-19",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/19/todd-day-wait-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Chrome Lakes (with Moon Letters)",
-    "date": "2026-11-20",
-    "doors": "21:00",
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43465470-chrome-lakes-at-sunset-tavern",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Drag the River (with guests)",
-    "date": "2026-11-21",
-    "doors": "20:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/21/drag-the-river-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Trestles (with guests)",
-    "date": "2026-11-22",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/22/trestles-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Dead Bars (with Bad Tats)",
-    "date": "2026-11-25",
-    "doors": "20:00",
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43449573-dead-bars-at-sunset-tavern",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Ghoul Talk (with Steel Cartwheel, Kitty O'Hara)",
-    "date": "2026-12-03",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/12/3/ghoul-talk-steel-cartwheel-kitty-o-hara-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Harbour (with guests)",
-    "date": "2026-12-05",
-    "doors": "20:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/12/5/harbour-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Two Runner (with guests)",
-    "date": "2026-12-06",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/tractor-presents-two-runner-w-tractor-tickets/14201114?pl=tractor&REFID=clientsitewp",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Bryan Andrews (with Lou Ridley)",
-    "date": "2026-12-08",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/12/8/bryan-andrews-w-lou-ridley-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Don Piano (with Ray Wolff (record release), Liv Victorino)",
-    "date": "2026-12-12",
-    "doors": "20:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/12/12/don-piano-ray-wolff-record-release-liv-victorino-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Genevieve Artadi ft. Louis Cole & Chiquita Magic",
-    "date": "2026-12-13",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/tractor-presents-genevieve-artadi-ft-tractor-tickets/15014413?pl=tractor&REFID=clientsitewp",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "BASIC (with Kinski)",
-    "date": "2026-12-17",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2026/12/17/basic-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Immersion (with guests)",
-    "date": "2027-01-17",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2027/1/17/immersion-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Bodysnatchers (with Krane, Susie Philipsen)",
-    "date": "2027-01-20",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2027/1/20/bodysnatchers-krane-susie-philipsen-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Angela Autumn (with guests)",
-    "date": "2027-01-21",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2027/1/21/angela-autumn-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Youth Fountain (with Relate, guests)",
-    "date": "2027-01-22",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2027/1/22/youth-fountain-w-relate-guests-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "@ (with Wendy Eisenberg)",
-    "date": "2027-02-19",
-    "doors": "20:30",
-    "start": "21:00",
-    "url": "https://www.ticketweb.com/event/tractor-presents-w-guests-tractor-tickets/14284324?pl=tractor&REFID=clientsitewp",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Kendall Lujan (album release) (with Serafima)",
-    "date": "2027-02-25",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2027/2/25/kendall-lujan-album-release-serafima-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Beach Vacation (with Makeout City)",
-    "date": "2027-03-06",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://do206.com/events/2027/3/6/beach-vacation-makeout-city-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "Tractor Presents: Thomas Dollbaum (with guests)",
-    "date": "2027-03-30",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://link.dice.fm/Ae193e48830d",
-    "status": null
-  },
-  {
-    "venue": "The Sunset Tavern",
-    "room": null,
-    "title": "World News",
-    "date": "2027-03-31",
-    "doors": "20:00",
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43467218-world-news-at-sunset-tavern",
-    "status": null
-  }
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Marika Che (with Whitney Ballen, Skyler Ford)",
+  "date": "2026-10-25",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/10/25/marika-che-whitney-ballen-skyler-ford-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Burgundy Suns (with Mallard, Diana Gale)",
+  "date": "2026-10-26",
+  "doors": null,
+  "start": "18:30",
+  "url": "https://do206.com/events/2026/10/26/burgundy-suns-mallard-diana-gale-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Abby Webster & Her Imaginary Band (with Alex Dunn (trio), Leo Craft)",
+  "date": "2026-10-27",
+  "doors": "19:30",
+  "start": "20:00",
+  "url": "https://www.ticketweb.com/event/tractor-presents-abby-webster-w-tractor-tickets/14309294?pl=tractor&REFID=clientsitewp",
+  "status": "cancelled"
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Blitzkid (with guests)",
+  "date": "2026-10-28",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/10/28/blitzkid-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Great Lake Swimmers (with guests)",
+  "date": "2026-11-01",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/1/great-lake-swimmers-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Georgia Parker (with Tasha T)",
+  "date": "2026-11-02",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/2/georgia-parker-tasha-t-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Sven (with Jackie Tulsa, bubblegum cr1sis, & more)",
+  "date": "2026-11-03",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/3/sven-jackie-tulsa-bubblegum-cr1sis-more-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Tagua Tagua (with Orlas)",
+  "date": "2026-11-04",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/4/tagua-tagua-orlas-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Claire Conway (album release) (with Dog Mom, Arran Fagan)",
+  "date": "2026-11-05",
+  "doors": "19:00",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/5/claire-conway-album-release-dog-mom-arran-fagan-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Blackheart Honeymoon (with Billy and the Dreamboats, Will Roesner)",
+  "date": "2026-11-06",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/6/blackheart-honeymoon-billy-and-the-dreamboats-will-roesner-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Denny Way (EP release) (with Seismic Shift, Brake Down)",
+  "date": "2026-11-08",
+  "doors": "18:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/8/denny-way-ep-release-seismic-shift-brake-down-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Jon Spencer (with Genre Is Death)",
+  "date": "2026-11-09",
+  "doors": "19:30",
+  "start": "20:00",
+  "url": "https://www.ticketweb.com/event/jon-spencer-sunset-tavern-tickets/14915253",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Tiny Vipers (with Evelyn Frances, Estate Plan)",
+  "date": "2026-11-10",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/10/tiny-vipers-evelyn-frances-estate-plan-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Alex Cameron (with Josh da Costa)",
+  "date": "2026-11-11",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://dice.fm/event/k6d7y9-the-crocodile-presents-alex-cameron-josh-da-costa-11th-nov-the-sunset-tavern-seattle-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Goldi Locke (EP release) (with Zoser, Asia)",
+  "date": "2026-11-12",
+  "doors": "19:00",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/12/goldi-locke-ep-release-zoser-asia-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Los Chismosos: Dark Chisme Punk Set (with Anthers)",
+  "date": "2026-11-13",
+  "doors": null,
+  "start": "21:00",
+  "url": "https://link.dice.fm/P94d5b823067",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Robert Ellis",
+  "date": "2026-11-14",
+  "doors": null,
+  "start": "19:30",
+  "url": "https://do206.com/events/2026/11/14/robert-ellis-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Chris Acker (with guests)",
+  "date": "2026-11-15",
+  "doors": "19:00",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/15/chris-acker-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Katzenväter (with David's Van, FarReaches)",
+  "date": "2026-11-16",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/16/katzenvater-david-s-van-farreaches-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Babehoven (with Pileup)",
+  "date": "2026-11-17",
+  "doors": "19:30",
+  "start": "20:00",
+  "url": "https://www.ticketweb.com/event/tractor-presents-babehoven-w-pileup-tractor-tickets/15000533?pl=tractor&REFID=clientsitewp",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "The Gallaghers (LP release) (with guests)",
+  "date": "2026-11-18",
+  "doors": "19:00",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/18/the-gallaghers-lp-release-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Todd Day Wait (with guests)",
+  "date": "2026-11-19",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/19/todd-day-wait-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Chrome Lakes (with Moon Letters)",
+  "date": "2026-11-20",
+  "doors": "21:00",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43465470-chrome-lakes-at-sunset-tavern",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Drag the River (with guests)",
+  "date": "2026-11-21",
+  "doors": "20:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/21/drag-the-river-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Trestles (with guests)",
+  "date": "2026-11-22",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/22/trestles-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Dead Bars (with Bad Tats)",
+  "date": "2026-11-25",
+  "doors": "20:00",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43449573-dead-bars-at-sunset-tavern",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Lost Footage (with Clean Fight, Glide)",
+  "date": "2026-11-29",
+  "doors": null,
+  "start": "19:30",
+  "url": "https://do206.com/events/2026/11/29/lost-footage-clean-fight-glide-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "WillyPete (with Mad King, Post Revolver)",
+  "date": "2026-11-30",
+  "doors": null,
+  "start": "19:30",
+  "url": "https://do206.com/events/2026/11/30/willypete-mad-king-post-revolver-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Map of the Woulds (with Faunix, Lark Vs. Owl)",
+  "date": "2026-12-02",
+  "doors": null,
+  "start": "19:30",
+  "url": "https://link.dice.fm/w175595713c9",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Ghoul Talk (with Steel Cartwheel, Kitty O'Hara)",
+  "date": "2026-12-03",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/12/3/ghoul-talk-steel-cartwheel-kitty-o-hara-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Harbour (with guests)",
+  "date": "2026-12-05",
+  "doors": "20:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/12/5/harbour-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Two Runner (with guests)",
+  "date": "2026-12-06",
+  "doors": "19:30",
+  "start": "20:00",
+  "url": "https://www.ticketweb.com/event/tractor-presents-two-runner-w-tractor-tickets/14201114?pl=tractor&REFID=clientsitewp",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Bryan Andrews (with Lou Ridley)",
+  "date": "2026-12-08",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/12/8/bryan-andrews-w-lou-ridley-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Uncle Daddy & the King Tide (with Hiram B. Freedom and his Honky Tonk Holy Ghost Revival)",
+  "date": "2026-12-11",
+  "doors": null,
+  "start": "19:30",
+  "url": "https://do206.com/events/2026/12/11/uncle-daddy-the-king-tide-hiram-b-freedom-and-his-honky-tonk-holy-ghost-revival-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Don Piano (with Ray Wolff (record release), Liv Victorino)",
+  "date": "2026-12-12",
+  "doors": "20:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/12/12/don-piano-ray-wolff-record-release-liv-victorino-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Genevieve Artadi ft. Louis Cole & Chiquita Magic",
+  "date": "2026-12-13",
+  "doors": "19:30",
+  "start": "20:00",
+  "url": "https://www.ticketweb.com/event/tractor-presents-genevieve-artadi-ft-tractor-tickets/15014413?pl=tractor&REFID=clientsitewp",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "BASIC (with Kinski)",
+  "date": "2026-12-17",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/12/17/basic-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "The Smallest Bear With The Biggest Paws (with Merchant Mariner, One Machine Heart)",
+  "date": "2026-12-27",
+  "doors": null,
+  "start": "18:30",
+  "url": "https://do206.com/events/2026/12/27/the-smallest-bear-with-the-biggest-paws-merchant-mariner-one-machine-heart-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Immersion (with guests)",
+  "date": "2027-01-17",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2027/1/17/immersion-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Bodysnatchers (with Krane, Susie Philipsen)",
+  "date": "2027-01-20",
+  "doors": "19:00",
+  "start": null,
+  "url": "https://do206.com/events/2027/1/20/bodysnatchers-krane-susie-philipsen-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Angela Autumn (with guests)",
+  "date": "2027-01-21",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2027/1/21/angela-autumn-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Youth Fountain (with Relate, guests)",
+  "date": "2027-01-22",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2027/1/22/youth-fountain-w-relate-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "@ (with Wendy Eisenberg)",
+  "date": "2027-02-19",
+  "doors": "20:30",
+  "start": "21:00",
+  "url": "https://www.ticketweb.com/event/tractor-presents-w-guests-tractor-tickets/14284324?pl=tractor&REFID=clientsitewp",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Alt Bloom (with DOUBLECAMP)",
+  "date": "2027-02-21",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://link.dice.fm/Ie91f6541fb5",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Kendall Lujan (album release) (with Serafima)",
+  "date": "2027-02-25",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2027/2/25/kendall-lujan-album-release-serafima-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Beach Vacation (with Makeout City)",
+  "date": "2027-03-06",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2027/3/6/beach-vacation-makeout-city-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Fenne Lily",
+  "date": "2027-03-29",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://link.dice.fm/Nd91c726806f",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Tractor Presents: Thomas Dollbaum (with guests)",
+  "date": "2027-03-30",
+  "doors": "19:30",
+  "start": "20:00",
+  "url": "https://link.dice.fm/Ae193e48830d",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "World News",
+  "date": "2027-03-31",
+  "doors": "20:00",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43467218-world-news-at-sunset-tavern",
+  "status": null
+ }
 ]

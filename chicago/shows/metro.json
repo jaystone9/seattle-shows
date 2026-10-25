@@ -2,16 +2,6 @@
  {
   "venue": "Metro",
   "room": null,
-  "title": "Whitney (with Greg Mendez)",
-  "date": "2026-10-22",
-  "doors": "18:30",
-  "start": "19:30",
-  "url": "https://www.etix.com/ticket/p/86519330/?partner_id=100",
-  "status": null
- },
- {
-  "venue": "Metro",
-  "room": null,
   "title": "Plini (with Night Verses, Portraits)",
   "date": "2026-10-25",
   "doors": "18:00",
@@ -27,6 +17,16 @@
   "doors": "19:00",
   "start": "20:00",
   "url": "https://www.etix.com/ticket/p/46132657/?partner_id=100",
+  "status": null
+ },
+ {
+  "venue": "Metro",
+  "room": null,
+  "title": "Sleep (with Zombi)",
+  "date": "2026-11-06",
+  "doors": "18:30",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43282595-sleep-at-metro",
   "status": null
  },
  {
@@ -58,6 +58,16 @@
   "start": "19:30",
   "url": "https://www.etix.com/ticket/p/53873208/?partner_id=100",
   "status": "sold out"
+ },
+ {
+  "venue": "Metro",
+  "room": null,
+  "title": "Alyssa Grace",
+  "date": "2026-11-10",
+  "doors": null,
+  "start": "19:00",
+  "url": "https://www.bandsintown.com/e/1040204815-alyssa-grace-at-metro-chicago",
+  "status": null
  },
  {
   "venue": "Metro",
@@ -252,11 +262,31 @@
  {
   "venue": "Metro",
   "room": null,
+  "title": "Haywire (with Dark Thoughts, GVLLOW)",
+  "date": "2027-03-25",
+  "doors": "19:00",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43481752-haywire-at-metro",
+  "status": null
+ },
+ {
+  "venue": "Metro",
+  "room": null,
   "title": "VNV Nation (with DJ Scary Lady Sarah)",
   "date": "2027-04-01",
   "doors": "19:00",
   "start": "20:00",
   "url": "https://www.etix.com/ticket/p/88366944/?partner_id=100",
+  "status": null
+ },
+ {
+  "venue": "Metro",
+  "room": null,
+  "title": "John Splithoff",
+  "date": "2027-04-24",
+  "doors": "20:00",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43462975-john-splithoff-at-metro",
   "status": null
  }
 ]

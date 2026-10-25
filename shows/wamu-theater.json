@@ -1,142 +1,152 @@
 [
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "Rise Against",
-    "date": "2026-10-20",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://www.wamutheater.com/events/rise-against-2026",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "MONSTA X - 2026 World Tour [THE X : NEXUS]",
-    "date": "2026-10-24",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.wamutheater.com/events/monsta-x-2026",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "Jessie Reyez - A Little Vengeance Tour",
-    "date": "2026-11-03",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.wamutheater.com/events/jessie-reyez-2026",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "Sammy Virji (with Effy, TWOFACED)",
-    "date": "2026-11-07",
-    "doors": "19:00",
-    "start": "19:00",
-    "url": "https://www.wamutheater.com/events/sammy-virji-2026",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "Tyla - A*POP World Tour",
-    "date": "2026-11-17",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.wamutheater.com/events/tyla-2026",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "Steve Lacy - Oh yeah? Tour",
-    "date": "2026-11-28",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.wamutheater.com/events/steve-lacy-2026",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "Tape B (with TRUTH, Smoakland b2b HAIRITAGE, Claybrook)",
-    "date": "2026-12-04",
-    "doors": "19:00",
-    "start": "19:00",
-    "url": "https://www.wamutheater.com/events/tape-b-2026-night-1",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "Tape B (with Mersiv, Space Wizard, Dr. Ushuu)",
-    "date": "2026-12-05",
-    "doors": "19:00",
-    "start": "19:00",
-    "url": "https://www.wamutheater.com/events/tape-b-2026-night-2",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "TRIUMPH - Rock & Roll Reloaded Tour (with April Wine)",
-    "date": "2026-12-06",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.wamutheater.com/events/triumph-2026",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "Christmas with CeCe Winans (with Angie Winans, Debbie Winans)",
-    "date": "2026-12-10",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://www.wamutheater.com/events/cece-winans-christmas-2026",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "More The Merrier ft. Two Friends (with NGHTMRE, SIPPY, Keeb, ATALI B2B HOTSHOTT)",
-    "date": "2026-12-12",
-    "doors": "19:00",
-    "start": "19:00",
-    "url": "https://www.wamutheater.com/events/more-the-merrier-2026",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "Victoria Monét - Frequency Of Love Tour",
-    "date": "2026-12-14",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.wamutheater.com/events/victoria-monet-2026",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "LEVEL UP (with Modal Nodes, St. Mary, LIU KANG)",
-    "date": "2027-01-29",
-    "doors": "19:00",
-    "start": "19:00",
-    "url": "https://www.wamutheater.com/events/level-up-2026",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
-    "title": "ALLEYCVT (with MACHAKI)",
-    "date": "2027-03-06",
-    "doors": "19:00",
-    "start": "19:00",
-    "url": "https://www.wamutheater.com/events/alleycvt-2027",
-    "status": null
-  }
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "Jessie Reyez - A Little Vengeance Tour",
+  "date": "2026-11-03",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://www.wamutheater.com/events/jessie-reyez-2026",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "Sammy Virji (with Effy, TWOFACED)",
+  "date": "2026-11-07",
+  "doors": "19:00",
+  "start": "19:00",
+  "url": "https://www.wamutheater.com/events/sammy-virji-2026",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "Tyla - A*POP World Tour",
+  "date": "2026-11-17",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://www.wamutheater.com/events/tyla-2026",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "Steve Lacy - Oh yeah? Tour",
+  "date": "2026-11-28",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://www.wamutheater.com/events/steve-lacy-2026",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "Tape B (with TRUTH, Smoakland b2b HAIRITAGE, Claybrook)",
+  "date": "2026-12-04",
+  "doors": "19:00",
+  "start": "19:00",
+  "url": "https://www.wamutheater.com/events/tape-b-2026-night-1",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "Tape B (with Mersiv, Space Wizard, Dr. Ushuu)",
+  "date": "2026-12-05",
+  "doors": "19:00",
+  "start": "19:00",
+  "url": "https://www.wamutheater.com/events/tape-b-2026-night-2",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "TRIUMPH - Rock & Roll Reloaded Tour (with April Wine)",
+  "date": "2026-12-06",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://www.wamutheater.com/events/triumph-2026",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "Christmas with CeCe Winans (with Angie Winans, Debbie Winans)",
+  "date": "2026-12-10",
+  "doors": "18:00",
+  "start": "19:00",
+  "url": "https://www.wamutheater.com/events/cece-winans-christmas-2026",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "More The Merrier ft. Two Friends (with NGHTMRE, SIPPY, Keeb, ATALI B2B HOTSHOTT)",
+  "date": "2026-12-12",
+  "doors": "19:00",
+  "start": "19:00",
+  "url": "https://www.wamutheater.com/events/more-the-merrier-2026",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "Victoria Monét - Frequency Of Love Tour",
+  "date": "2026-12-14",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://www.wamutheater.com/events/victoria-monet-2026",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "Slander",
+  "date": "2026-12-31",
+  "doors": "21:00",
+  "start": null,
+  "url": "https://www.wamutheater.com/events/slander-2026",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "Fisher",
+  "date": "2027-01-01",
+  "doors": "21:00",
+  "start": null,
+  "url": "https://www.wamutheater.com/events/fisher-2027",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "LEVEL UP (with Modal Nodes, St. Mary, LIU KANG)",
+  "date": "2027-01-29",
+  "doors": "19:00",
+  "start": "19:00",
+  "url": "https://www.wamutheater.com/events/level-up-2026",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "ALLEYCVT (with MACHAKI)",
+  "date": "2027-03-06",
+  "doors": "19:00",
+  "start": "19:00",
+  "url": "https://www.wamutheater.com/events/alleycvt-2027",
+  "status": null
+ },
+ {
+  "venue": "WaMu Theater",
+  "room": null,
+  "title": "2hollis",
+  "date": "2027-03-08",
+  "doors": "19:00",
+  "start": null,
+  "url": "https://www.wamutheater.com/events/2hollis-2027",
+  "status": null
+ }
 ]

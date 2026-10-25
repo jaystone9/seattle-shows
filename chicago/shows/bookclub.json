@@ -2,56 +2,6 @@
  {
   "venue": "Bookclub",
   "room": null,
-  "title": "Kelsey Montanez (with Desperate Electric, Auto Flamingo)",
-  "date": "2026-10-21",
-  "doors": null,
-  "start": "20:30",
-  "url": "https://bookclubchi.com/event/kelsey-montanez-desperate-electric-auto-flamingo/bookclub/",
-  "status": null
- },
- {
-  "venue": "Bookclub",
-  "room": null,
-  "title": "Walt From.The.Future (with VVS Gem, Naithemosthigh, Khari Ennui, KINKKORE)",
-  "date": "2026-10-22",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://bookclubchi.com/event/alternative-black-noise/bookclub/",
-  "status": null
- },
- {
-  "venue": "Bookclub",
-  "room": null,
-  "title": "trenton michael (outside on the fire escape)",
-  "date": "2026-10-23",
-  "doors": null,
-  "start": "17:30",
-  "url": "https://bookclubchi.com/event/trenton-michael-outside-on-the-fire-escape/bookclub/",
-  "status": null
- },
- {
-  "venue": "Bookclub",
-  "room": null,
-  "title": "Rhea the Second: Boogie Fever",
-  "date": "2026-10-23",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://bookclubchi.com/event/boogie-fever-starring-rhea-the-second-friends/bookclub/",
-  "status": null
- },
- {
-  "venue": "Bookclub",
-  "room": null,
-  "title": "VLVT RED (with Amber Precious, Tune Hendrixx, Eli Love, BigP So Bougie, JoJo, Ray F, KingPinRue)",
-  "date": "2026-10-24",
-  "doors": null,
-  "start": "13:30",
-  "url": "https://bookclubchi.com/event/ats-massacre/bookclub/",
-  "status": null
- },
- {
-  "venue": "Bookclub",
-  "room": null,
   "title": "Luscia Jane (with MUSHMUSH, Xyta)",
   "date": "2026-10-25",
   "doors": null,
@@ -77,6 +27,26 @@
   "doors": null,
   "start": "20:30",
   "url": "https://bookclubchi.com/event/maxwell-lane-mistrophia-h%c3%a5lo-and-safe-haven/bookclub/",
+  "status": null
+ },
+ {
+  "venue": "Bookclub",
+  "room": null,
+  "title": "Internally Suffering (with He Will Be Forgiven, Tell Me About God, Slain By Mercy, Cruel Universe)",
+  "date": "2026-10-28",
+  "doors": "19:00",
+  "start": "19:30",
+  "url": "https://bookclubchi.com/event/hxc-vs-screamo-halloween/bookclub/",
+  "status": null
+ },
+ {
+  "venue": "Bookclub",
+  "room": null,
+  "title": "Rachel Kirby (outside on the fire escape)",
+  "date": "2026-10-30",
+  "doors": "17:00",
+  "start": "17:30",
+  "url": "https://bookclubchi.com/event/rachel-kirby-outside-on-the-fire-escape/bookclub/",
   "status": null
  },
  {

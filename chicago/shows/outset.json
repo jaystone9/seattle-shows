@@ -2,36 +2,6 @@
  {
   "venue": "Outset",
   "room": null,
-  "title": "Grabbitz",
-  "date": "2026-10-23",
-  "doors": null,
-  "start": "22:00",
-  "url": "https://hive.co/l/261023grabbitz",
-  "status": null
- },
- {
-  "venue": "Outset",
-  "room": null,
-  "title": "Nice As Fuck (Early Show)",
-  "date": "2026-10-24",
-  "doors": null,
-  "start": "18:00",
-  "url": "https://www.ticketmaster.com/event/04006529B8DBB210",
-  "status": null
- },
- {
-  "venue": "Outset",
-  "room": null,
-  "title": "Nice As Fuck (Late Show)",
-  "date": "2026-10-24",
-  "doors": null,
-  "start": "21:00",
-  "url": "https://www.ticketmaster.com/event/04006529BABEB55E",
-  "status": null
- },
- {
-  "venue": "Outset",
-  "room": null,
   "title": "Weston Estate",
   "date": "2026-10-30",
   "doors": null,
@@ -87,6 +57,16 @@
   "doors": null,
   "start": "18:30",
   "url": "https://www.ticketmaster.com/event/0400650EE9382DA8",
+  "status": null
+ },
+ {
+  "venue": "Outset",
+  "room": null,
+  "title": "Frost Children",
+  "date": "2026-11-11",
+  "doors": null,
+  "start": "22:00",
+  "url": "https://www.axs.com/events/1675612",
   "status": null
  },
  {

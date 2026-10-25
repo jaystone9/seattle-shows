@@ -3,26 +3,6 @@
   "venue": "Old Town School of Folk Music",
   "room": "Maurer Hall",
   "title": "Judy Collins (with Oakland Rain)",
-  "date": "2026-10-23",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://www.oldtownschool.org/concerts/2026/10-23-2026-judy-collins",
-  "status": null
- },
- {
-  "venue": "Old Town School of Folk Music",
-  "room": "Maurer Hall",
-  "title": "Judy Collins (with Oakland Rain)",
-  "date": "2026-10-24",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://www.oldtownschool.org/concerts/2026/10-23-2026-judy-collins",
-  "status": null
- },
- {
-  "venue": "Old Town School of Folk Music",
-  "room": "Maurer Hall",
-  "title": "Judy Collins (with Oakland Rain)",
   "date": "2026-10-25",
   "doors": null,
   "start": "19:00",
@@ -113,6 +93,16 @@
   "venue": "Old Town School of Folk Music",
   "room": "Maurer Hall",
   "title": "Lucinda Williams",
+  "date": "2026-11-09",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.oldtownschool.org/concerts/2026/11-07-2026-lucinda-williams",
+  "status": null
+ },
+ {
+  "venue": "Old Town School of Folk Music",
+  "room": "Maurer Hall",
+  "title": "Lucinda Williams",
   "date": "2026-11-10",
   "doors": null,
   "start": "20:00",
@@ -171,22 +161,22 @@
  },
  {
   "venue": "Old Town School of Folk Music",
-  "room": "Maurer Hall",
-  "title": "WHY?",
-  "date": "2026-11-21",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://www.oldtownschool.org/concerts/2026/11-21-2026-why",
-  "status": null
- },
- {
-  "venue": "Old Town School of Folk Music",
   "room": "Szold Hall",
   "title": "Jake Blount Band",
   "date": "2026-11-21",
   "doors": null,
   "start": "20:00",
   "url": "https://www.oldtownschool.org/concerts/2026/11-21-2026-jake-blount",
+  "status": null
+ },
+ {
+  "venue": "Old Town School of Folk Music",
+  "room": "Maurer Hall",
+  "title": "WHY?",
+  "date": "2026-11-21",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.oldtownschool.org/concerts/2026/11-21-2026-why",
   "status": null
  },
  {
@@ -377,6 +367,26 @@
   "doors": null,
   "start": "20:00",
   "url": "https://www.oldtownschool.org/concerts/2027/04-01-2027-kelly-willis-and-radney-foster",
+  "status": null
+ },
+ {
+  "venue": "Old Town School of Folk Music",
+  "room": "Maurer Hall",
+  "title": "Bruce Cockburn",
+  "date": "2027-04-23",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.oldtownschool.org/concerts/2027/04-23-2027-bruce-cockburn",
+  "status": null
+ },
+ {
+  "venue": "Old Town School of Folk Music",
+  "room": "Maurer Hall",
+  "title": "Bruce Cockburn",
+  "date": "2027-04-24",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.oldtownschool.org/concerts/2027/04-23-2027-bruce-cockburn",
   "status": null
  }
 ]

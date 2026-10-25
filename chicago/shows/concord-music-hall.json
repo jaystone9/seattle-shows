@@ -132,11 +132,51 @@
  {
   "venue": "Concord Music Hall",
   "room": null,
+  "title": "AIROD",
+  "date": "2026-12-31",
+  "doors": "21:00",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/42930459-airod-at-concord-music-hall",
+  "status": null
+ },
+ {
+  "venue": "Concord Music Hall",
+  "room": null,
+  "title": "TYNAN (with HerShe)",
+  "date": "2027-01-22",
+  "doors": "22:00",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43476299-tynan-at-concord-music-hall",
+  "status": null
+ },
+ {
+  "venue": "Concord Music Hall",
+  "room": null,
+  "title": "Effin",
+  "date": "2027-02-05",
+  "doors": null,
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43476310-effin-at-concord-music-hall",
+  "status": null
+ },
+ {
+  "venue": "Concord Music Hall",
+  "room": null,
   "title": "Twin Temple",
   "date": "2027-02-27",
   "doors": "19:00",
   "start": null,
   "url": "https://concordmusichall.com/calendar/twin-temple/",
+  "status": null
+ },
+ {
+  "venue": "Concord Music Hall",
+  "room": null,
+  "title": "Thrown",
+  "date": "2027-03-21",
+  "doors": null,
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43476372-thrown-at-concord-music-hall",
   "status": null
  }
 ]
