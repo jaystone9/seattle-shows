@@ -7,17 +7,18 @@ SEND TO
   beehiiv segment "Seattle readers" only (refresh the segment first). Never All subscribers.
 
 LINKS
-  [  ] Seattle playlist: https://open.spotify.com/playlist/7L3Inw7yrcl5QPwxIuTFVW
-  [  ] Frelard playlist: https://open.spotify.com/playlist/1ZImEqt0QgWbCFLmSoiFrK
-  [  ] Pop playlist: https://open.spotify.com/playlist/0LEwAFe9B7AFgH3rWZT609
-  [  ] Indie & Rock playlist: https://open.spotify.com/playlist/3HcRSO057WS9UqZ88zgyWJ
-  [  ] Folk & Country playlist: https://open.spotify.com/playlist/3xp63ElmPkWM1ORiA8Hga9
-  [  ] Electronic playlist: https://open.spotify.com/playlist/2UeMpvFCNOIEtaHC6m5asF
-  [  ] Hip-hop & R&B playlist: https://open.spotify.com/playlist/0cTNVqAXYPGgCzJG1UCbit
-  [  ] Punk & Metal playlist: https://open.spotify.com/playlist/24ApPpkPeQQwxjbBZgTmIo
-  [  ] Jazz, World & Classical playlist: https://open.spotify.com/playlist/5HNgVRlRYbrDkwZAKIV7vC
-  [  ] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
-  [  ] Site: https://2weeksoundcheck.com/seattle/
+  [not checked here (URLError); open it in the browser] Seattle playlist: https://open.spotify.com/playlist/7L3Inw7yrcl5QPwxIuTFVW
+  [not checked here (URLError); open it in the browser] Frelard playlist: https://open.spotify.com/playlist/1ZImEqt0QgWbCFLmSoiFrK
+  [not checked here (URLError); open it in the browser] Pop playlist: https://open.spotify.com/playlist/0LEwAFe9B7AFgH3rWZT609
+  [not checked here (URLError); open it in the browser] Indie & Rock playlist: https://open.spotify.com/playlist/3HcRSO057WS9UqZ88zgyWJ
+  [not checked here (URLError); open it in the browser] Folk & Country playlist: https://open.spotify.com/playlist/3xp63ElmPkWM1ORiA8Hga9
+  [not checked here (URLError); open it in the browser] Electronic playlist: https://open.spotify.com/playlist/2UeMpvFCNOIEtaHC6m5asF
+  [not checked here (URLError); open it in the browser] Hip-hop & R&B playlist: https://open.spotify.com/playlist/0cTNVqAXYPGgCzJG1UCbit
+  [not checked here (URLError); open it in the browser] Punk & Metal playlist: https://open.spotify.com/playlist/24ApPpkPeQQwxjbBZgTmIo
+  [not checked here (URLError); open it in the browser] Funk & Blues playlist: https://open.spotify.com/playlist/35GDqKEz34wFNoVK52R1Zv
+  [not checked here (URLError); open it in the browser] Jazz, World & Classical playlist: https://open.spotify.com/playlist/5HNgVRlRYbrDkwZAKIV7vC
+  [not checked here (URLError); open it in the browser] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
+  [not checked here (URLError); open it in the browser] Site: https://2weeksoundcheck.com/seattle/
 
 NUMBERS
   Dates: Oct 25–Nov 7
@@ -30,6 +31,7 @@ NUMBERS
   Electronic: 60 songs, 20 artists
   Hip-hop & R&B: 63 songs, 21 artists
   Punk & Metal: 59 songs, 20 artists
+  Funk & Blues: 24 songs, 8 artists
   Jazz, World & Classical: 21 songs, 7 artists
   Seattle skipped (not on Spotify or ambiguous): Liquid Cross, Henry Mansfield Halloween Party, Laborotorios Moreno, Sven, Big Star Quintet, Leila Josefowicz Returns (added later), Skeleton Crewe, ARIA LIVE, Lucy, Big Danger Wow!
   Frelard skipped (not on Spotify or ambiguous): Pyramid Scream, Mallard, Old Man Of The Woods, Zara, DB Stewart, Hamwich b2b def0, Truble b2b 4*, Morfex b2b SYMTEKZ, Lobo Lara, Vagabond, Red Water, Velvet Armada, Austin R, Soraya, rizoma, Swavy, Dining Dead, Hünter, Gadfly, Kung Fu Vampire, Jay Fiddy, Hollow Eve, bubblegum cr1sis, Orlas, Worm Food, Sam Weber, Robin Burrowes, Dog Mom, Adron, Slim Chance, Joe the Poet, Coaster, Johnny Monsoon b2b Oxymoron, Madlon b2b Bella Rose, Just J b2b Dr Casa, Cancel the Couch b2b J-Note, Buffalo Jones, Skates!, Coool Babies, Nathaniel Riley, Matthew "Rev" Rieger, McKenna Esteb, Serafima & The Shakedowns, HOTSHOTT, Khaotixx

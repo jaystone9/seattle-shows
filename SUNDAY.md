@@ -3,8 +3,11 @@
 Jay starts this in the "Seattle concerts" project on Sundays when he's at his computer
 ("run my Sunday Soundcheck" or "run my Seattle Shows playlist"). It replaces the old
 Monday scheduled task, which is paused because unattended runs can't reach the venue sites.
-Needs: the Claude desktop app open and in front (about 45–60 minutes), Spotify signed in
-in its built-in browser, and Jay's Chrome (the one signed in to beehiiv and the hello@ webmail) connected.
+Needs: the Claude desktop app open and in front (about 45–60 minutes). The app's built-in
+browser pane is signed in to Spotify, app.beehiiv.com and the hello@ webmail (since Oct 25, 2026),
+so do beehiiv and webmail work there; the Chrome extension (Jay's "jaschech" Chrome) is a fallback
+only, it disconnects often. The workspace's WebFetch only reaches URLs that a WebSearch surfaced,
+so venue pages are read in the browser pane, not fetched.
 
 Identity: commit as `Jayst0ne <jaystone9@users.noreply.github.com>`. Never put Jay's real
 name or any personal email address in this public repo, the site, or the newsletter.
@@ -14,10 +17,15 @@ Seattle and Chicago share ONE beehiiv publication, "2 Week Soundcheck". Readers 
 which signup form they used: segment **"Seattle readers"** (the Seattle form, plus everyone who
 signed up before Chicago) and segment **"Chicago readers"** (the Chicago form on /chicago/).
 Each city gets its own issue, sent ONLY to its segment. Never send to All subscribers.
-Segments refresh once a day, so click **Refresh segment** on both before sending.
+Segments refresh once a day, so recalculate both before sending: Audience > Segments, the row's
+"..." menu > **Recalculate**.
+**beehiiv limit (found Oct 25, 2026): the plan allows 1 post per 12 hours.** A lift was requested
+from support@beehiiv.com (sent from hello@). Until it's lifted, send Chicago Sunday morning and
+Seattle Sunday evening (12+ hours apart), or the second publish fails at the last click.
 Chicago follows the same steps as Seattle with `--city chicago` (see `chicago/REFRESH.md`).
 Chicago has a citywide playlist, two neighborhood playlists (Wicker Park & Logan Square and West Loop &
-Pilsen, headliners + openers, like Frelard) and 8 genre playlists (the usual 7 plus Funk & Blues) named `2 Week Soundcheck · Chicago · <Genre>` (dated copies:
+Pilsen, headliners + openers, like Frelard), a North Suburbs playlist (Jay's dad asked for it; the
+issue says so) and 8 genre playlists named `2 Week Soundcheck · Chicago · <Genre>` (dated copies:
 `... · <Genre>: <Mon D>–<D>`), listed in `chicago/genre_playlists.json` / `chicago/genre_archive.json`.
 `genres.json` is shared by both cities.
 
@@ -38,13 +46,13 @@ Pilsen, headliners + openers, like Frelard) and 8 genre playlists (the usual 7 p
    then the Wicker Park & Logan Square and West Loop & Pilsen ones (`lineup.py --city chicago --area "<name>"`;
    headliners + openers, `area` field set, as Frelard);
 rewrite `chicago/previews.json`; `python3 build_site.py --city chicago`.
-   Then the 7 genre playlists (`PLAYLIST.md` step 4c): look up new headliners on Last.fm,
+   Then the 8 genre playlists per city (`PLAYLIST.md` step 4c; Seattle got Funk & Blues on Oct 25, 2026): look up new headliners on Last.fm,
    seed the Genre Review page, and once Jay has confirmed their genres there, refresh each
    genre playlist and update `genres.json` and `genre_playlists.json`, then save the week's
    dated copies to `genre_archive.json` (the Playlists page archive). Start the lookups early
    so Jay can review while the venue refresh runs. Do Seattle and Chicago genres as separate
    Genre Review weeks (`meta/current` = `seattle-<start>` then `chicago-<start>`; set `meta/current.genres` to the city's genre
-   list so Seattle shows 7 chips and Chicago 8 with Funk & Blues); only
+   list, 8 chips for both cities); only
    research artists Jay leaves undecided, from the artist's own site or Spotify bio.
 4. **Build the issue.** Run `python3 build_issue.py --check-links` (Seattle) and
    `python3 build_issue.py --city chicago --check-links` (Chicago; writes `chicago/issues/`).
@@ -63,14 +71,16 @@ rewrite `chicago/previews.json`; `python3 build_site.py --city chicago`.
      3. Heading "Frelard", the "I live in Ballard..." line, then a Button
         "▶ Listen to the Frelard playlist on Spotify". Use Button blocks, never the generic
         link embed (it renders as a broken card).
-     4. Heading "Just want one genre?", its line, then the 7 genres as Button blocks stacked in
+     4. Heading "Just want one genre?", its line, then the 8 genres as Button blocks stacked in
         ONE column (never side-by-side columns: they squish on phones). Each button: size small,
         full width, pink #D6336C, white text, padding 10/12, label = genre name, linked to that
-        genre's standing playlist in `genre_playlists.json` (Jay, Oct 18, 2026).
+        genre's standing playlist in `genre_playlists.json` (Jay, Oct 18, 2026). Every label must
+        carry the bold mark: when cloning a button in the TipTap editor, create the text with
+        `schema.marks.bold` (Chicago's Funk & Blues went out unbolded on Oct 25, 2026).
      5. The "Not on Spotify? Copy either playlist..." line, linked to `newsletter.json` `transfer_url`
      6. A divider, then: "All <N> shows are on the site →" (filter by date, neighborhood, venue
-        or artist), the neighborhood ask ("Reply and tell us where"), the forward ask, and the
-        sponsor line ("Sponsor an issue. Just reply to this email").
+        or artist), the neighborhood ask ("Reply and tell us where"), the share ask ("Please share
+        this with friends: forward it to them..."), and the sponsor line ("Sponsor an issue. Just reply to this email").
    - Post style (Style > Post > Link): links bold, not italic, not underlined, color #D6336C.
    - Author: the "2 Week Soundcheck" guest author only; byline hidden. No lyrics. Never Jay's name.
      Replacing the editor content can reset the title and authors, so re-check the header after edits.
@@ -89,6 +99,13 @@ rewrite `chicago/previews.json`; `python3 build_site.py --city chicago`.
    settings choose the segment, never All subscribers: the Seattle issue to "Seattle readers",
    the Chicago issue to "Chicago readers" (refresh both segments first). One check email per city.
    There is no separate playlist email any more; everyone else gets the newsletter as a subscriber.
+
+## Plan from Oct 25, 2026: spread the work over the week (Jay)
+Sunday is send-only. Wed–Thu: inbox check, venue refresh (scripted feeds + a two-week diff; full
+sweep monthly), site rebuild, genre decisions. Fri: all playlists + dated archive copies, both
+issues built, beehiiv drafts set up (segments, tests, check emails). Sat: Jay's OK. Sunday
+~9 AM: Chicago send; Sunday evening (12+ hours later): Seattle send. The playlist window still
+starts on the Sunday.
 
 ## Already automatic
 Playlist archive page, "updated" date on the site, iPhone calendar feed (from step 2),

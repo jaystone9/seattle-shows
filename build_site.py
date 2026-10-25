@@ -60,8 +60,8 @@ AREAS = {
     "Out of town": ["Woodinville", "Tacoma"],
 }
 # Genre playlists, in the order the chips appear. Slugs make shareable links: ?playlist=folk
-# A city only shows the genres it has playlists for (Funk & Blues is Chicago-only for now,
-# Jay, Oct 20, 2026); a show whose genres are all outside its city's set reads "Other / Local".
+# A city only shows the genres it has playlists for (Seattle added Funk & Blues on Oct 25, 2026;
+# before that it was Chicago-only); a show whose genres are all outside its city's set reads "Other / Local".
 GENRES = ["Pop", "Indie & Rock", "Folk & Country", "Electronic", "Hip-hop & R&B",
           "Punk & Metal", "Funk & Blues", "Jazz, World & Classical"]
 GENRE_SLUGS = {"Pop": "pop", "Indie & Rock": "indie", "Folk & Country": "folk", "Electronic": "electronic",

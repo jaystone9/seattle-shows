@@ -136,7 +136,8 @@ def main(*args):
                                              "openers included, so you can find a new favorite before they play the big rooms.",
                "West Loop & Pilsen": "Thalia Hall, the Salt Shed, the Hideout, Bottom Lounge, Cobra Lounge and the "
                                      "United Center, openers included.",
-               "North Suburbs": "For the North Shore and the northwest suburbs: SPACE, Hey Nonny, Ravinia, "
+               "North Suburbs": "I grew up on the North Shore, and my dad asked for this one, so it's for him, "
+                                "his friends, and anyone else out in the northern suburbs: SPACE, Hey Nonny, Ravinia, "
                                 "Genesee, Rosemont and the rest, openers included, so you don't have to drive downtown."
                }.get(AREA, f"The small rooms in {AREA}, openers included.")
         h.append(f"<h3>{html.escape(AREA)}</h3>")
@@ -164,11 +165,11 @@ def main(*args):
     h.append(f'<p>{link(SITE, f"All {n} shows are on the site →", bold=True)}<br>'
              f'<span style="color:{MUTED}">Filter by date, neighborhood, venue or artist.</span></p>')
     h.append("<p>Want a playlist for your neighborhood next? Reply and tell us where.</p>")
-    h.append(f"<p>Know someone who'd like this? Forward it to them. They can sign up at {link(SITE, '2weeksoundcheck.com')}.</p>")
+    h.append(f"<p>Please share this with friends: forward it to them. They can sign up at {link(SITE, '2weeksoundcheck.com')}.</p>")
     h.append(f'<p style="color:{MUTED}">Run a venue or local business? Sponsor an issue. Just reply to this email.</p>')
     t.append(f"All {n} shows are on the site. Filter by date, neighborhood, venue or artist: {SITE}\n")
     t.append("Want a playlist for your neighborhood next? Reply and tell us where.\n")
-    t.append(f"Know someone who'd like this? Forward it to them. They can sign up at {SITE}\n")
+    t.append(f"Please share this with friends: forward it to them. They can sign up at {SITE}\n")
     t.append("Run a venue or local business? Sponsor an issue. Just reply to this email.")
 
     os.makedirs(outdir, exist_ok=True)
