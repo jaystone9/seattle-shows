@@ -7,17 +7,17 @@ SEND TO
   beehiiv segment "Seattle readers" only (refresh the segment first). Never All subscribers.
 
 LINKS
-  [✓] Seattle playlist: https://open.spotify.com/playlist/7L3Inw7yrcl5QPwxIuTFVW
-  [✓] Frelard playlist: https://open.spotify.com/playlist/1ZImEqt0QgWbCFLmSoiFrK
-  [✓] Pop playlist: https://open.spotify.com/playlist/0LEwAFe9B7AFgH3rWZT609
-  [✓] Indie & Rock playlist: https://open.spotify.com/playlist/3HcRSO057WS9UqZ88zgyWJ
-  [✓] Folk & Country playlist: https://open.spotify.com/playlist/3xp63ElmPkWM1ORiA8Hga9
-  [✓] Electronic playlist: https://open.spotify.com/playlist/2UeMpvFCNOIEtaHC6m5asF
-  [✓] Hip-hop & R&B playlist: https://open.spotify.com/playlist/0cTNVqAXYPGgCzJG1UCbit
-  [✓] Punk & Metal playlist: https://open.spotify.com/playlist/24ApPpkPeQQwxjbBZgTmIo
-  [✓] Jazz, World & Classical playlist: https://open.spotify.com/playlist/5HNgVRlRYbrDkwZAKIV7vC
-  [✓] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
-  [✓] Site: https://2weeksoundcheck.com/seattle/
+  [  ] Seattle playlist: https://open.spotify.com/playlist/7L3Inw7yrcl5QPwxIuTFVW
+  [  ] Frelard playlist: https://open.spotify.com/playlist/1ZImEqt0QgWbCFLmSoiFrK
+  [  ] Pop playlist: https://open.spotify.com/playlist/0LEwAFe9B7AFgH3rWZT609
+  [  ] Indie & Rock playlist: https://open.spotify.com/playlist/3HcRSO057WS9UqZ88zgyWJ
+  [  ] Folk & Country playlist: https://open.spotify.com/playlist/3xp63ElmPkWM1ORiA8Hga9
+  [  ] Electronic playlist: https://open.spotify.com/playlist/2UeMpvFCNOIEtaHC6m5asF
+  [  ] Hip-hop & R&B playlist: https://open.spotify.com/playlist/0cTNVqAXYPGgCzJG1UCbit
+  [  ] Punk & Metal playlist: https://open.spotify.com/playlist/24ApPpkPeQQwxjbBZgTmIo
+  [  ] Jazz, World & Classical playlist: https://open.spotify.com/playlist/5HNgVRlRYbrDkwZAKIV7vC
+  [  ] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
+  [  ] Site: https://2weeksoundcheck.com/seattle/
 
 NUMBERS
   Dates: Oct 25–Nov 7
@@ -35,11 +35,7 @@ NUMBERS
   Frelard skipped (not on Spotify or ambiguous): Pyramid Scream, Mallard, Old Man Of The Woods, Zara, DB Stewart, Hamwich b2b def0, Truble b2b 4*, Morfex b2b SYMTEKZ, Lobo Lara, Vagabond, Red Water, Velvet Armada, Austin R, Soraya, rizoma, Swavy, Dining Dead, Hünter, Gadfly, Kung Fu Vampire, Jay Fiddy, Hollow Eve, bubblegum cr1sis, Orlas, Worm Food, Sam Weber, Robin Burrowes, Dog Mom, Adron, Slim Chance, Joe the Poet, Coaster, Johnny Monsoon b2b Oxymoron, Madlon b2b Bella Rose, Just J b2b Dr Casa, Cancel the Couch b2b J-Note, Buffalo Jones, Skates!, Coool Babies, Nathaniel Riley, Matthew "Rev" Rieger, McKenna Esteb, Serafima & The Shakedowns, HOTSHOTT, Khaotixx
 
 FLAGS
-  Venue refresh: Neumos, Barboza, WaMu, Showbox (both rooms), Sunset, Conor Byrne, Hidden Hall, Nectar, Crocodile and the STG rooms were re-read from their own sites; Tractor, Vera/Black Lodge, Add-a-Ball and Belltown Yacht Club were refreshed from Songkick/JamBase only (Do206-only shows carried over).
-  Changes worth knowing: Genesis Owusu Nov 8 moved Hidden Hall -> Neumos; Abby Webster Oct 27 (Sunset) cancelled per Songkick/JamBase; Dermot Kennedy Oct 26 postponed; Kyle Gordon / Whitmer Thomas (Barboza) dropped as comedy.
-  Genres: 31 unclear Seattle artists were researched from Bandcamp/venue pages (Sven, IMiJ, Queen Mother and Big Star Quintet left out as unverifiable or tribute acts).
-  John Scofield and Leila Josefowicz sit at the END of the Seattle playlist (added after the first build), not in show order.
-  No reader reports at hello@ this week.
+  None from the build. Add anything found in the run (failed venues, reports).
 
 SUBJECT AND PREVIEW
   Oct 25–Nov 7: Seattle 2 Week Playlist

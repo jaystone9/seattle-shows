@@ -121,8 +121,8 @@ def main(*args):
     count = f"top {per} " if per else "top "
     intro = (f"{NUM[len(hoods) + 1]} playlists for {dates}: the {count}songs from each artist, in show order."
              if fr else f"Every headliner playing {edition} {dates}: the {count}songs from each, in show order.")
-    h.append(f"<p>{intro} Hit shuffle, and when something grabs you, go see it.</p>")
-    t.append(intro + " Hit shuffle, and when something grabs you, go see it.\n")
+    h.append(f"<p>{intro} When something grabs you, every show and its ticket link is on the site.</p>")
+    t.append(intro + " When something grabs you, every show and its ticket link is on the site.\n")
 
     if pl.get("url"):
         h.append(f"<h3>All of {edition}</h3>")

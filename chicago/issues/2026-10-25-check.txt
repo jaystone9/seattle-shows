@@ -7,20 +7,20 @@ SEND TO
   beehiiv segment "Chicago readers" only (refresh the segment first). Never All subscribers.
 
 LINKS
-  [✓] Chicago playlist: https://open.spotify.com/playlist/6fWzIBWajVyknFQLTbRznY
-  [✓] Wicker Park & Logan Square playlist: https://open.spotify.com/playlist/5yJ6DtyJtyR7IRvNo4xqwZ
-  [✓] West Loop & Pilsen playlist: https://open.spotify.com/playlist/0mgKtp7Dnbsx5k2gRABvRB
-  [✓] North Suburbs playlist: https://open.spotify.com/playlist/49yVT59y91dqEpNmq3krgg
-  [✓] Pop playlist: https://open.spotify.com/playlist/5fhgaqGLzgLom3UWbO7Omv
-  [✓] Indie & Rock playlist: https://open.spotify.com/playlist/0S4sJW9bRNW17CflCxxwxz
-  [✓] Folk & Country playlist: https://open.spotify.com/playlist/35nQUQI0XJyLOLPRqYbMCl
-  [✓] Electronic playlist: https://open.spotify.com/playlist/6EoQk3Zh7ktbTBgYMtorU0
-  [✓] Hip-hop & R&B playlist: https://open.spotify.com/playlist/4JgkU2lu5ytPAP2apnZxgb
-  [✓] Punk & Metal playlist: https://open.spotify.com/playlist/6h4uvj2Wq83EuKD4zq3FLl
-  [✓] Funk & Blues playlist: https://open.spotify.com/playlist/5J8mAWi9QTtmxvAkXE4iy5
-  [✓] Jazz, World & Classical playlist: https://open.spotify.com/playlist/00ZyMFHVxZF0rDItopHJvp
-  [✓] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
-  [✓] Site: https://2weeksoundcheck.com/chicago/
+  [  ] Chicago playlist: https://open.spotify.com/playlist/6fWzIBWajVyknFQLTbRznY
+  [  ] Wicker Park & Logan Square playlist: https://open.spotify.com/playlist/5yJ6DtyJtyR7IRvNo4xqwZ
+  [  ] West Loop & Pilsen playlist: https://open.spotify.com/playlist/0mgKtp7Dnbsx5k2gRABvRB
+  [  ] North Suburbs playlist: https://open.spotify.com/playlist/49yVT59y91dqEpNmq3krgg
+  [  ] Pop playlist: https://open.spotify.com/playlist/5fhgaqGLzgLom3UWbO7Omv
+  [  ] Indie & Rock playlist: https://open.spotify.com/playlist/0S4sJW9bRNW17CflCxxwxz
+  [  ] Folk & Country playlist: https://open.spotify.com/playlist/35nQUQI0XJyLOLPRqYbMCl
+  [  ] Electronic playlist: https://open.spotify.com/playlist/6EoQk3Zh7ktbTBgYMtorU0
+  [  ] Hip-hop & R&B playlist: https://open.spotify.com/playlist/4JgkU2lu5ytPAP2apnZxgb
+  [  ] Punk & Metal playlist: https://open.spotify.com/playlist/6h4uvj2Wq83EuKD4zq3FLl
+  [  ] Funk & Blues playlist: https://open.spotify.com/playlist/5J8mAWi9QTtmxvAkXE4iy5
+  [  ] Jazz, World & Classical playlist: https://open.spotify.com/playlist/00ZyMFHVxZF0rDItopHJvp
+  [  ] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
+  [  ] Site: https://2weeksoundcheck.com/chicago/
 
 NUMBERS
   Dates: Oct 25–Nov 7
@@ -43,11 +43,7 @@ NUMBERS
   North Suburbs skipped (not on Spotify or ambiguous): Nvrmnd, St Sylas, Peez Alchemy, Adolescentes Orquesta, Ryan Burns
 
 FLAGS
-  Venue refresh: this session's fetcher could only reach pages surfaced by web search, so several venues were carried over from last week with Songkick/Do312 deltas only (lh-st.com venues Schubas/Lincoln Hall, Beat Kitchen after Nov 22, Martyrs', Constellation, Radius, Kingston Mines after Nov 6, Empty Bottle/Subterranean/Sleeping Village/Avondale/Color Club). The big rooms and most venue sites were re-read in the browser.
-  Genres: 234 new artists decided from Last.fm tags plus artist bios; the 'skipped' lists above are acts not on Spotify, ambiguous same-name matches, or event titles (festivals, series, orchestras playing unnamed programs). Arcángel corrected to Hip-hop (Last.fm matched a flamenco guitarist).
-  Playlist order: 13 late-added acts (Mike Stern, Lee Rocker, the Jazz Showcase quartets, GloRilla/Yung Miami/Fabolous as openers) sit at the END of their playlists rather than in show order.
-  Subtitle in beehiiv reads: 'Four new playlists for the next two weeks: all of Chicago, plus Wicker Park & Logan Square, West Loop & Pilsen and the North Suburbs.'
-  No reader reports at hello@ this week. First Chicago issue: beehiiv test forwarded to you from hello@ (check both light and dark mode on your phone).
+  None from the build. Add anything found in the run (failed venues, reports).
 
 SUBJECT AND PREVIEW
   Oct 25–Nov 7: Chicago 2 Week Playlist
