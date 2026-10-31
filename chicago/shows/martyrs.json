@@ -2,30 +2,10 @@
   {
     "venue": "Martyrs'",
     "room": null,
-    "title": "Lexi Jayde (with Ally Salort)",
-    "date": "2026-10-28",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://www.axs.com/events/1629370/lexi-jayde-tickets?skin=jam",
-    "status": null
-  },
-  {
-    "venue": "Martyrs'",
-    "room": null,
-    "title": "Pebbles Inc (with National Photo Committee, Hannah Frey, Conor Lynch)",
-    "date": "2026-10-29",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://do312.com/events/2026/10/29/the-clearwater-swimmers-pebbles-inc-tickets",
-    "status": null
-  },
-  {
-    "venue": "Martyrs'",
-    "room": null,
     "title": "Street Pony (with Modern Joey, Stan P Band)",
     "date": "2026-10-30",
-    "doors": null,
-    "start": "19:00",
+    "doors": "19:00",
+    "start": "20:00",
     "url": "https://do312.com/events/2026/10/30/street-pony-modern-joey-stan-p-band-tickets",
     "status": null
   },
@@ -34,8 +14,8 @@
     "room": null,
     "title": "Kate Nash",
     "date": "2026-11-11",
-    "doors": null,
-    "start": "19:00",
+    "doors": "19:00",
+    "start": "20:00",
     "url": "https://do312.com/events/2026/11/11/an-evening-with-kate-nash-general-admission-standing-room-only-ticket-tickets",
     "status": null
   },
@@ -54,8 +34,8 @@
     "room": null,
     "title": "Mistrophia (with Monroe, Helicopter Leaves, Paige and the Kizers)",
     "date": "2026-11-19",
-    "doors": null,
-    "start": "19:00",
+    "doors": "19:00",
+    "start": "20:00",
     "url": "https://do312.com/events/2026/11/19/mistrophia-monroe-helicopter-leaves-paige-and-the-kizers-tickets",
     "status": null
   },
@@ -84,9 +64,19 @@
     "room": null,
     "title": "The Local Honeys",
     "date": "2026-12-18",
-    "doors": null,
-    "start": "19:00",
+    "doors": "19:00",
+    "start": "20:00",
     "url": "https://do312.com/events/2026/12/18/the-local-honeys-tickets",
+    "status": null
+  },
+  {
+    "venue": "Martyrs'",
+    "room": null,
+    "title": "14th Annual Mobetta Holiday Jam (Maurice Brown)",
+    "date": "2026-12-19",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://do312.com/events/2026/12/19/14th-annual-mobetta-holiday-jam-tickets",
     "status": null
   },
   {
@@ -97,6 +87,26 @@
     "doors": null,
     "start": "18:30",
     "url": "https://do312.com/events/2026/12/20/no-bother-tickets",
+    "status": null
+  },
+  {
+    "venue": "Martyrs'",
+    "room": null,
+    "title": "Bonzo Squad (with Cole DeGenova, DJ GAC)",
+    "date": "2027-02-04",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://martyrslive.com/upcoming",
+    "status": null
+  },
+  {
+    "venue": "Martyrs'",
+    "room": null,
+    "title": "Brian O'Hern & the Model Citizens Big Band",
+    "date": "2027-04-19",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://martyrslive.com/upcoming",
     "status": null
   }
 ]

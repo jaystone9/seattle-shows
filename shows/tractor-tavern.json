@@ -2,46 +2,6 @@
  {
   "venue": "Tractor Tavern",
   "room": null,
-  "title": "KBCS Presents: Laura Veirs (with Karl Blau)",
-  "date": "2026-10-25",
-  "doors": "18:30",
-  "start": "19:30",
-  "url": "https://www.ticketweb.com/event/kbcs-presents-laura-veirs-w-tractor-tickets/14906563?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Olive Klug (with Frail Talk)",
-  "date": "2026-10-27",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/olive-klug-w-frail-talk-tractor-tickets/14993633?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "STG Presents: An Evening with Juana Molina",
-  "date": "2026-10-28",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/stg-presents-an-evening-with-tractor-tickets/14257364?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "KBCS Presents: Margo Cilker (with Kevin Carducci)",
-  "date": "2026-10-29",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/kbcs-presents-margo-cilker-w-tractor-tickets/14998323?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
   "title": "Cumbia de Muertos V (with Tropa Magica, Terror/Cactus, Qiensave, rizoma)",
   "date": "2026-10-30",
   "doors": "19:00",
@@ -302,6 +262,16 @@
  {
   "venue": "Tractor Tavern",
   "room": null,
+  "title": "El Vez & The Centuries Merry MEX-mas 2026 (with King of Hawaii)",
+  "date": "2026-12-02",
+  "doors": "19:00",
+  "start": "19:30",
+  "url": "https://app.opendate.io/e/el-vez-the-centuries-merry-mex-mas-2026-w-king-of-hawaii-partially-seated-december-02-2026-785537",
+  "status": null
+ },
+ {
+  "venue": "Tractor Tavern",
+  "room": null,
   "title": "Jenner Fox Band",
   "date": "2026-12-03",
   "doors": null,
@@ -432,6 +402,16 @@
  {
   "venue": "Tractor Tavern",
   "room": null,
+  "title": "Susie Philipsen x Barton Carroll x Warren Jackson Hearne",
+  "date": "2027-01-06",
+  "doors": "19:00",
+  "start": "19:30",
+  "url": "https://app.opendate.io/e/susie-philipsen-x-barton-carroll-x-warren-jackson-hearne-partially-seated-january-06-2027-794019",
+  "status": null
+ },
+ {
+  "venue": "Tractor Tavern",
+  "room": null,
   "title": "Mark Mackay",
   "date": "2027-01-21",
   "doors": "19:00",
@@ -492,7 +472,7 @@
  {
   "venue": "Tractor Tavern",
   "room": null,
-  "title": "Jess Williamson - Night One (with guests)",
+  "title": "Jess Williamson - Night One (with Andrew Sa)",
   "date": "2027-02-12",
   "doors": "19:30",
   "start": "20:00",
@@ -517,6 +497,16 @@
   "doors": "20:00",
   "start": "20:30",
   "url": "https://www.ticketweb.com/event/eddie-9v-w-guests-tractor-tickets/14352484?pl=tractor&REFID=clientsitewp",
+  "status": null
+ },
+ {
+  "venue": "Tractor Tavern",
+  "room": null,
+  "title": "Cytrus (with Swavy)",
+  "date": "2027-02-27",
+  "doors": "20:00",
+  "start": "20:30",
+  "url": "https://app.opendate.io/e/cytrus-w-swavy-february-27-2027-779398",
   "status": null
  },
  {

@@ -2,19 +2,9 @@
   {
     "venue": "Auditorium Theatre",
     "room": null,
-    "title": "Alicia Villarreal",
-    "date": "2026-10-29",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.auditoriumtheatre.org/events/detail/alicia-villarreal",
-    "status": "postponed"
-  },
-  {
-    "venue": "Auditorium Theatre",
-    "room": null,
     "title": "Kenia Os",
     "date": "2027-02-12",
-    "doors": null,
+    "doors": "19:00",
     "start": "20:00",
     "url": "https://www.auditoriumtheatre.org/events/detail/kenia-os",
     "status": null
@@ -24,7 +14,7 @@
     "room": null,
     "title": "The Wailin' Jennys",
     "date": "2027-04-09",
-    "doors": null,
+    "doors": "19:00",
     "start": "20:00",
     "url": "https://www.auditoriumtheatre.org/events/detail/the-wailin-jennys",
     "status": null
@@ -34,7 +24,7 @@
     "room": null,
     "title": "Jessica Vosk",
     "date": "2027-04-17",
-    "doors": null,
+    "doors": "18:30",
     "start": "19:30",
     "url": "https://www.auditoriumtheatre.org/events/detail/jessica-vosk",
     "status": null

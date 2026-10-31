@@ -2,36 +2,6 @@
   {
     "venue": "The Moore Theatre",
     "room": null,
-    "title": "W.A.S.P. (with KK's Priest)",
-    "date": "2026-10-25",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://www.stgpresents.org/events/w-a-s-p/",
-    "status": null
-  },
-  {
-    "venue": "The Moore Theatre",
-    "room": null,
-    "title": "Skillet (with Escape the Fate, Autumn Kings)",
-    "date": "2026-10-27",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://www.stgpresents.org/events/skillet/",
-    "status": null
-  },
-  {
-    "venue": "The Moore Theatre",
-    "room": null,
-    "title": "Julia Jacklin",
-    "date": "2026-10-28",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/julia-jacklin/",
-    "status": null
-  },
-  {
-    "venue": "The Moore Theatre",
-    "room": null,
     "title": "Joy Oladokun",
     "date": "2026-10-30",
     "doors": "19:00",
@@ -137,6 +107,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/blue-october/",
+    "status": null
+  },
+  {
+    "venue": "The Moore Theatre",
+    "room": null,
+    "title": "Frank Turner & The Sleeping Souls (with Skinny Lister, Beans On Toast)",
+    "date": "2027-03-12",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://www.stgpresents.org/events/frank-turner-the-sleeping-souls/",
     "status": null
   },
   {

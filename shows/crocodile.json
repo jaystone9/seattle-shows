@@ -1,46 +1,6 @@
 [
   {
     "venue": "The Crocodile",
-    "room": null,
-    "title": "George Clanton (with ideasforconversations)",
-    "date": "2026-10-25",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://calendar.thecrocodile.com/shows/george-clanton-25-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Frankie Cosmos - Celebrating 10 Years of Next Thing (with Coral Grief)",
-    "date": "2026-10-26",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://calendar.thecrocodile.com/shows/frankie-cosmos-celebrating-10-years-of-next-thing-26-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Pouya - The Forever Glades Tour",
-    "date": "2026-10-27",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://calendar.thecrocodile.com/shows/pouya-the-forever-glades-tour-27-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "bunii - BUNIIVERSITY Tour",
-    "date": "2026-10-28",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://calendar.thecrocodile.com/shows/bunii-buniiversity-tour-28-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
     "room": "Hotel Crocodile",
     "title": "Psyched! Radio SF & Hotel Crocodile Present: Satana Satana (Argentina)",
     "date": "2026-10-30",
@@ -242,6 +202,16 @@
   {
     "venue": "The Crocodile",
     "room": null,
+    "title": "Bryan Andrews (with Lou Ridley)",
+    "date": "2026-12-08",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/bryan-andrews-08-dec",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
     "title": "Miss May I / Born of Osiris (with Convictions, Downswing)",
     "date": "2026-12-09",
     "doors": "18:00",
@@ -342,11 +312,41 @@
   {
     "venue": "The Crocodile",
     "room": null,
+    "title": "Penelope Road",
+    "date": "2027-03-09",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/penelope-road-09-mar",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Haken - In A Fever Dream Tour (with Thank You Scientist, Einar Solberg)",
+    "date": "2027-03-13",
+    "doors": "17:00",
+    "start": "17:30",
+    "url": "https://calendar.thecrocodile.com/shows/haken-in-a-fever-dream-tour-13-mar",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
     "title": "Saxsquatch - The Conspiracy Theory Tour",
     "date": "2027-03-25",
     "doors": "19:00",
     "start": "20:00",
     "url": "https://calendar.thecrocodile.com/shows/saxsquatch-the-conspiracy-theory-tour-25-mar",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "ACTORS (with Hallows, The Discussion)",
+    "date": "2027-03-27",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/actors-27-mar",
     "status": null
   },
   {

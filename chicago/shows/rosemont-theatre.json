@@ -62,6 +62,16 @@
   {
     "venue": "Rosemont Theatre",
     "room": null,
+    "title": "Pancho Barraza",
+    "date": "2027-02-06",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketmaster.com/event/04006555B83D8703",
+    "status": null
+  },
+  {
+    "venue": "Rosemont Theatre",
+    "room": null,
     "title": "Los Tucanes de Tijuana",
     "date": "2027-02-20",
     "doors": null,

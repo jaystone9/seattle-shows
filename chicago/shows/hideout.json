@@ -2,41 +2,11 @@
   {
     "venue": "Hideout",
     "room": null,
-    "title": "Autobahn & Godstar Megamax",
-    "date": "2026-10-25",
+    "title": "Metalliques (with Xonni)",
+    "date": "2026-10-31",
     "doors": "19:30",
     "start": "20:00",
-    "url": "https://www.hideoutchicago.com/shows/autobahn-godstar-megamax-25-oct",
-    "status": null
-  },
-  {
-    "venue": "Hideout",
-    "room": null,
-    "title": "Colin Miller (with Styrofoam Winos)",
-    "date": "2026-10-27",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.hideoutchicago.com/shows/colin-miller-27-oct",
-    "status": null
-  },
-  {
-    "venue": "Hideout",
-    "room": null,
-    "title": "ALGA (with Adelaide, Sleep Tight Tiger)",
-    "date": "2026-10-28",
-    "doors": "21:30",
-    "start": "22:00",
-    "url": "https://www.hideoutchicago.com/shows/alga-adelaide-sleep-tight-tiger-28-oct",
-    "status": null
-  },
-  {
-    "venue": "Hideout",
-    "room": null,
-    "title": "Tommy Lefroy",
-    "date": "2026-10-29",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.hideoutchicago.com/shows/tommy-lefroy-29-oct",
+    "url": "https://www.hideoutchicago.com/shows/metalliques-xonni-31-oct",
     "status": null
   },
   {
@@ -122,7 +92,7 @@
   {
     "venue": "Hideout",
     "room": null,
-    "title": "The Animeros",
+    "title": "The Animeros (with Fachoso)",
     "date": "2026-11-11",
     "doors": "19:30",
     "start": "20:00",
@@ -232,6 +202,26 @@
   {
     "venue": "Hideout",
     "room": null,
+    "title": "Andrew Sa's Lonesome Holiday",
+    "date": "2026-12-10",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.hideoutchicago.com/shows/andrew-sa-s-lonesome-holiday-10-dec",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
+    "title": "Andrew Sa's Lonesome Holiday",
+    "date": "2026-12-11",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.hideoutchicago.com/shows/andrew-sa-s-lonesome-holiday-11-dec-2cf00",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
     "title": "La Securite (with Spread Joy)",
     "date": "2026-12-12",
     "doors": "19:30",
@@ -247,6 +237,26 @@
     "doors": "19:30",
     "start": "20:00",
     "url": "https://www.hideoutchicago.com/shows/bcmc-lp-release-show-13-dec",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
+    "title": "Andrew Sa's Lonesome Holiday",
+    "date": "2026-12-17",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.hideoutchicago.com/shows/andrew-sa-s-lonesome-holiday-17-dec",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
+    "title": "Andrew Sa's Lonesome Holiday",
+    "date": "2026-12-18",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.hideoutchicago.com/shows/andrew-sa-s-lonesome-holiday-18-dec-d0c75",
     "status": null
   },
   {
@@ -287,6 +297,16 @@
     "doors": "19:00",
     "start": "19:00",
     "url": "https://www.hideoutchicago.com/shows/the-faux-paws-07-feb",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
+    "title": "Javier Reyes (of Post Animal)",
+    "date": "2027-03-05",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.hideoutchicago.com/shows/javier-reyes-of-post-animal-05-mar",
     "status": null
   }
 ]

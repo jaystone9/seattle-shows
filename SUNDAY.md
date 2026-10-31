@@ -5,7 +5,7 @@ Jay starts this in the "Seattle concerts" project on Sundays when he's at his co
 Monday scheduled task, which is paused because unattended runs can't reach the venue sites.
 Needs: the Claude desktop app open and in front (about 45–60 minutes). The app's built-in
 browser pane is signed in to Spotify, app.beehiiv.com and the hello@ webmail (since Oct 25, 2026),
-so do beehiiv and webmail work there; the Chrome extension (Jay's "jaschech" Chrome) is a fallback
+so do beehiiv and webmail work there; the Chrome extension (Jay's personal Chrome profile) is a fallback
 only, it disconnects often. The workspace's WebFetch only reaches URLs that a WebSearch surfaced,
 so venue pages are read in the browser pane, not fetched.
 

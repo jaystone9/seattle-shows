@@ -2,31 +2,11 @@
   {
     "venue": "Cobra Lounge",
     "room": null,
-    "title": "Nefariac (with Feeder Rat, Bob Piggins)",
-    "date": "2026-10-25",
-    "doors": null,
-    "start": "18:00",
-    "url": "https://do312.com/events/2026/10/25/nefariac-feeder-rat-bob-piggins-tickets",
-    "status": null
-  },
-  {
-    "venue": "Cobra Lounge",
-    "room": null,
     "title": "Snuffed (with Daybreaker, Mano A Mano, Don't Front, New Found Power, Lavender)",
     "date": "2026-10-30",
     "doors": null,
     "start": "18:30",
     "url": "https://do312.com/events/2026/10/30/beaver-s-halloween-26-snuffed-daybreaker-mano-a-mano-don-t-front-new-found-power-lavender-tickets",
-    "status": null
-  },
-  {
-    "venue": "Cobra Lounge",
-    "room": null,
-    "title": "Sincere Engineer (with Won't Stay Dead)",
-    "date": "2026-10-31",
-    "doors": null,
-    "start": null,
-    "url": "https://songkick.com/concerts/43423087-sincere-engineer-at-cobra-lounge",
     "status": null
   },
   {
@@ -52,6 +32,16 @@
   {
     "venue": "Cobra Lounge",
     "room": null,
+    "title": "Careful Gaze",
+    "date": "2026-11-03",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do312.com/events/2026/11/3/careful-gaze-tickets",
+    "status": null
+  },
+  {
+    "venue": "Cobra Lounge",
+    "room": null,
     "title": "Thoughts on Bowling (with Computer, Softly, HummusVacuum)",
     "date": "2026-11-05",
     "doors": null,
@@ -67,16 +57,6 @@
     "doors": null,
     "start": "19:00",
     "url": "https://do312.com/events/2026/11/6/ninth-key-tickets",
-    "status": "sold out"
-  },
-  {
-    "venue": "Cobra Lounge",
-    "room": null,
-    "title": "Bumsy and the Moochers (with Something To Do, Run and Punch)",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": null,
-    "url": "https://songkick.com/concerts/43463164-bumsy-and-the-moochers-at-cobra-lounge",
     "status": null
   },
   {
@@ -87,6 +67,16 @@
     "doors": null,
     "start": "19:00",
     "url": "https://link.dice.fm/p49fdbc250d9",
+    "status": null
+  },
+  {
+    "venue": "Cobra Lounge",
+    "room": null,
+    "title": "Bumsy and the Moochers (with Something To Do, Run and Punch)",
+    "date": "2026-11-07",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://do312.com/events/2026/11/7/bumsy-the-moochers-something-to-do-run-and-punch-tickets",
     "status": null
   },
   {
@@ -112,10 +102,10 @@
   {
     "venue": "Cobra Lounge",
     "room": null,
-    "title": "Sanity Slip (with Ballista, Spare No Mercy, Choice)",
+    "title": "Sanity Slip (with Ballista, Spare No Mercy, Invasive, Choice)",
     "date": "2026-11-10",
     "doors": null,
-    "start": "19:00",
+    "start": "18:00",
     "url": "https://do312.com/events/2026/11/10/sanity-slip-ballista-spare-no-mercy-choice-tickets",
     "status": null
   },
@@ -135,14 +125,14 @@
     "title": "Worst Party Ever & Equipment (with Rosevile Sucks, Ogbert The Nerd)",
     "date": "2026-11-12",
     "doors": null,
-    "start": "17:30",
+    "start": "18:00",
     "url": "https://do312.com/events/2026/11/12/worst-party-ever-equipment-rosevile-sucks-ogbert-the-nerd-tickets",
     "status": null
   },
   {
     "venue": "Cobra Lounge",
     "room": null,
-    "title": "Sunday Cruise (with Appleseed, Arcadia Grey, Friend)",
+    "title": "Sunday Cruise (with Arcadia Grey, Friend)",
     "date": "2026-11-13",
     "doors": null,
     "start": "18:00",
@@ -302,6 +292,16 @@
   {
     "venue": "Cobra Lounge",
     "room": null,
+    "title": "Laura Jane Grace (with Direct Hit!)",
+    "date": "2026-12-10",
+    "doors": null,
+    "start": "18:00",
+    "url": "https://do312.com/events/2026/12/10/laura-jane-grace-direct-hit-tickets",
+    "status": null
+  },
+  {
+    "venue": "Cobra Lounge",
+    "room": null,
     "title": "Rectal Hygienics (with Drunks With Guns, Cadaver Dog, Problem Masturbator)",
     "date": "2026-12-12",
     "doors": null,
@@ -312,7 +312,7 @@
   {
     "venue": "Cobra Lounge",
     "room": null,
-    "title": "Through N Through (with Hostages, Court Order, Baldilocks, Mictlan)",
+    "title": "Through N Through (with Hostages, Court Order, Baldilocks, On Dirt)",
     "date": "2026-12-13",
     "doors": null,
     "start": "18:00",

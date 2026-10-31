@@ -2,26 +2,6 @@
  {
   "venue": "Lincoln Hall",
   "room": null,
-  "title": "Wishy (with Dead Sullivan, Sacred Heart Academy)",
-  "date": "2026-10-27",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/10-27-2026-wishy/",
-  "status": null
- },
- {
-  "venue": "Lincoln Hall",
-  "room": null,
-  "title": "Yana (with Emma Andersen)",
-  "date": "2026-10-28",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/10-28-2026-yana/",
-  "status": null
- },
- {
-  "venue": "Lincoln Hall",
-  "room": null,
   "title": "Yada Yada (with Pat and the Pissers, Smut, COOL HEAT)",
   "date": "2026-10-30",
   "doors": "19:00",
@@ -102,21 +82,11 @@
  {
   "venue": "Lincoln Hall",
   "room": null,
-  "title": "Q Marsden (with DO YOU SEE ME?, RAHM)",
+  "title": "Q Marsden (with RAHM)",
   "date": "2026-11-11",
   "doors": "19:00",
   "start": "20:00",
   "url": "https://lh-st.com/shows/11-11-2026-q/",
-  "status": null
- },
- {
-  "venue": "Lincoln Hall",
-  "room": null,
-  "title": "Nori Reed",
-  "date": "2026-11-12",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-12-2026-nori-reed/",
   "status": null
  },
  {
@@ -292,6 +262,16 @@
  {
   "venue": "Lincoln Hall",
   "room": null,
+  "title": "Midwest Blender Company (with The Vacants, The Courts)",
+  "date": "2026-12-17",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://lh-st.com/shows/12-17-2026-midwest-blender-company/",
+  "status": null
+ },
+ {
+  "venue": "Lincoln Hall",
+  "room": null,
   "title": "Neptune's Core (with Sleeper's Bell, Niko Kapetan)",
   "date": "2026-12-29",
   "doors": "19:00",
@@ -302,7 +282,7 @@
  {
   "venue": "Lincoln Hall",
   "room": null,
-  "title": "Stuck (with Cel Ray)",
+  "title": "Stuck (with Cel Ray, Body Shop)",
   "date": "2027-01-07",
   "doors": "19:00",
   "start": "20:00",
@@ -432,6 +412,16 @@
  {
   "venue": "Lincoln Hall",
   "room": null,
+  "title": "Crowe Boys (with Gareth)",
+  "date": "2027-03-05",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://lh-st.com/shows/03-05-2027-crowe-boys-gareth/",
+  "status": null
+ },
+ {
+  "venue": "Lincoln Hall",
+  "room": null,
   "title": "THAO",
   "date": "2027-03-07",
   "doors": "19:00",
@@ -477,6 +467,56 @@
   "doors": "19:00",
   "start": "20:00",
   "url": "https://lh-st.com/shows/03-26-2027-arthur-hill/",
+  "status": null
+ },
+ {
+  "venue": "Lincoln Hall",
+  "room": null,
+  "title": "Vincent Lima",
+  "date": "2027-04-03",
+  "doors": "18:30",
+  "start": "19:30",
+  "url": "https://lh-st.com/shows/04-03-2027-vincent-lima/",
+  "status": null
+ },
+ {
+  "venue": "Lincoln Hall",
+  "room": null,
+  "title": "Worldpeace DMT",
+  "date": "2027-04-07",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://lh-st.com/shows/04-07-2027-worldpeace-dmt/",
+  "status": null
+ },
+ {
+  "venue": "Lincoln Hall",
+  "room": null,
+  "title": "Susannah Joffe",
+  "date": "2027-04-08",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://lh-st.com/shows/04-08-2027-susannah-joffe/",
+  "status": null
+ },
+ {
+  "venue": "Lincoln Hall",
+  "room": null,
+  "title": "Gus Dapperton",
+  "date": "2027-04-17",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://lh-st.com/shows/04-17-2027-gus-dapperton/",
+  "status": null
+ },
+ {
+  "venue": "Lincoln Hall",
+  "room": null,
+  "title": "YEИDRY",
+  "date": "2027-04-27",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://lh-st.com/shows/04-27-2027-yendry/",
   "status": null
  }
 ]

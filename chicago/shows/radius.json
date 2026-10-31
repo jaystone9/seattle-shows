@@ -32,7 +32,7 @@
   {
     "venue": "Radius",
     "room": null,
-    "title": "Rossi. (with Dean Turnley)",
+    "title": "Rossi. (with Dean Turnley, Moorhaus)",
     "date": "2026-11-06",
     "doors": "22:00",
     "start": null,
@@ -42,7 +42,7 @@
   {
     "venue": "Radius",
     "room": null,
-    "title": "Carl Cox (with Toman, Kidoo)",
+    "title": "Carl Cox (with Toman, Kidoo, Andino)",
     "date": "2026-11-07",
     "doors": "22:00",
     "start": null,
@@ -134,7 +134,7 @@
     "room": null,
     "title": "Ben Klock (with Rødhad, Chlär, Neux)",
     "date": "2026-11-27",
-    "doors": "21:00",
+    "doors": "21:30",
     "start": null,
     "url": "https://www.axs.com/events/1662632/ben-klock-photon-tickets?skin=radius",
     "status": null
@@ -222,6 +222,16 @@
   {
     "venue": "Radius",
     "room": null,
+    "title": "Nicole Moudaber",
+    "date": "2027-01-15",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.axs.com/events/1677258/nicole-moudaber-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
     "title": "ŁASZEWO",
     "date": "2027-01-16",
     "doors": "22:00",
@@ -262,7 +272,7 @@
   {
     "venue": "Radius",
     "room": null,
-    "title": "Riordan",
+    "title": "Riordan (with IDEMI)",
     "date": "2027-02-13",
     "doors": "22:00",
     "start": null,

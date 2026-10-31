@@ -92,11 +92,31 @@
   {
     "venue": "Avondale Music Hall",
     "room": null,
+    "title": "Too Many Strikers",
+    "date": "2026-12-04",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.eventim.us/event/too-many-strikers/708876?afflky=SPKRBX",
+    "status": null
+  },
+  {
+    "venue": "Avondale Music Hall",
+    "room": null,
     "title": "Bodysnatcher",
     "date": "2026-12-05",
     "doors": "18:00",
     "start": "19:00",
     "url": "https://wl.eventim.us/event/bodysnatcher/701128?afflky=AvondaleMusicHall",
+    "status": null
+  },
+  {
+    "venue": "Avondale Music Hall",
+    "room": null,
+    "title": "LAZER DIM 700",
+    "date": "2026-12-09",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.eventim.us/event/lazer-dim-700/709668?afflky=AvondaleMusicHall",
     "status": null
   },
   {
@@ -135,6 +155,16 @@
     "title": "Forever Deaf Fest",
     "date": "2027-04-09",
     "doors": "19:00",
+    "start": null,
+    "url": "https://wl.eventim.us/event/forever-deaf-fest/696938?afflky=AvondaleMusicHall",
+    "status": null
+  },
+  {
+    "venue": "Avondale Music Hall",
+    "room": null,
+    "title": "Forever Deaf Fest",
+    "date": "2027-04-10",
+    "doors": null,
     "start": null,
     "url": "https://wl.eventim.us/event/forever-deaf-fest/696938?afflky=AvondaleMusicHall",
     "status": null

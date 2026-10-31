@@ -2,39 +2,9 @@
   {
     "venue": "The Chicago Theatre",
     "room": null,
-    "title": "Tedeschi Trucks Band (with Cris Jacobs)",
-    "date": "2026-10-26",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.msg.com/events-tickets/tedeschi-trucks-band-the-chicago-theatre-october-2026/07006436AB9568B7",
-    "status": null
-  },
-  {
-    "venue": "The Chicago Theatre",
-    "room": null,
-    "title": "Tedeschi Trucks Band (with Cris Jacobs)",
-    "date": "2026-10-27",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.msg.com/events-tickets/tedeschi-trucks-band-the-chicago-theatre-october-2026/07006436AB9A68BD",
-    "status": null
-  },
-  {
-    "venue": "The Chicago Theatre",
-    "room": null,
-    "title": "Xscape (with Plies, Ann Marie, Case, Pleasure P)",
-    "date": "2026-10-29",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.msg.com/events-tickets/xscape-the-chicago-theatre-september-2026/070064E8F94D4922",
-    "status": null
-  },
-  {
-    "venue": "The Chicago Theatre",
-    "room": null,
     "title": "Little Big Town",
     "date": "2026-11-19",
-    "doors": null,
+    "doors": "18:30",
     "start": "19:30",
     "url": "https://www.msg.com/events-tickets/little-big-town-the-chicago-theatre-november-2026/070064C47C531CFA",
     "status": null
@@ -44,7 +14,7 @@
     "room": null,
     "title": "Wilco",
     "date": "2026-12-04",
-    "doors": null,
+    "doors": "19:00",
     "start": "20:00",
     "url": "https://www.msg.com/events-tickets/wilco-the-chicago-theatre-december-2026/0700652A9CF947F5",
     "status": null
@@ -54,7 +24,7 @@
     "room": null,
     "title": "Wilco",
     "date": "2026-12-05",
-    "doors": null,
+    "doors": "19:00",
     "start": "20:00",
     "url": "https://www.msg.com/events-tickets/wilco-the-chicago-theatre-december-2026/0700652A9CFF4803",
     "status": null
@@ -64,7 +34,7 @@
     "room": null,
     "title": "Lord Huron",
     "date": "2026-12-08",
-    "doors": null,
+    "doors": "18:30",
     "start": "20:00",
     "url": "https://www.msg.com/events-tickets/lord-huron-the-chicago-theatre-december-2026/070064FDA19F3131",
     "status": null
@@ -74,7 +44,7 @@
     "room": null,
     "title": "Lord Huron",
     "date": "2026-12-09",
-    "doors": null,
+    "doors": "18:30",
     "start": "20:00",
     "url": "https://www.msg.com/events-tickets/lord-huron-the-chicago-theatre-december-2026/070064FDA199312B",
     "status": null
@@ -84,7 +54,7 @@
     "room": null,
     "title": "Brett Eldredge",
     "date": "2026-12-10",
-    "doors": null,
+    "doors": "19:00",
     "start": "20:00",
     "url": "https://www.msg.com/events-tickets/brett-eldredge-the-chicago-theatre-december-2026/070064F4A3A92701",
     "status": null
@@ -94,7 +64,7 @@
     "room": null,
     "title": "Brett Eldredge",
     "date": "2026-12-11",
-    "doors": null,
+    "doors": "19:00",
     "start": "20:00",
     "url": "https://www.msg.com/events-tickets/brett-eldredge-the-chicago-theatre-december-2026/070064F4A3AF2712",
     "status": null
@@ -104,19 +74,9 @@
     "room": null,
     "title": "Straight No Chaser",
     "date": "2026-12-12",
-    "doors": null,
+    "doors": "14:00",
     "start": "15:00",
     "url": "https://www.msg.com/events-tickets/straight-no-chaser-the-chicago-theatre-december-2026/070064ADE628BAB4",
-    "status": null
-  },
-  {
-    "venue": "The Chicago Theatre",
-    "room": null,
-    "title": "Roger Waters Presents LEGACY - A Pink Floyd Show",
-    "date": "2027-03-06",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.msg.com/events-tickets/roger-waters-presents-legacy-a-pink-floyd-show-the-chicago-theatre-march-2027/07006539B9336A89",
     "status": null
   }
 ]

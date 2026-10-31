@@ -36,7 +36,7 @@
   "date": "2026-11-06",
   "doors": null,
   "start": null,
-  "url": "https://www.songkick.com/concerts/43406804-los-gemelos-de-sinaloa-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/los-gemelos-de-sinaloa-the-gemeliza-chicago-illinois-11-06-2026/event/04006522192B42C3",
   "status": null
  },
  {
@@ -46,7 +46,7 @@
   "date": "2026-11-07",
   "doors": null,
   "start": null,
-  "url": "https://www.songkick.com/concerts/43106941-rawayana-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-chicago-illinois-11-07-2026/event/0400646BC9C67504",
   "status": null
  },
  {
@@ -56,7 +56,7 @@
   "date": "2026-11-16",
   "doors": null,
   "start": null,
-  "url": "https://www.songkick.com/concerts/43381773-jessie-reyez-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/jessie-reyez-a-little-vengeance-tour-chicago-illinois-11-16-2026/event/04006515B0D11331",
   "status": null
  },
  {
@@ -66,7 +66,7 @@
   "date": "2026-11-18",
   "doors": null,
   "start": null,
-  "url": "https://www.songkick.com/concerts/43409560-victoria-monet-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-chicago-illinois-11-18-2026/event/0400652605FA6451",
   "status": null
  },
  {
@@ -116,7 +116,7 @@
   "date": "2026-11-25",
   "doors": null,
   "start": null,
-  "url": "https://www.songkick.com/concerts/43381380-el-tri-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/el-tri-adicto-al-rocanrol-chicago-illinois-11-25-2026/event/040065140C27C34D",
   "status": null
  },
  {
@@ -146,7 +146,7 @@
   "date": "2026-12-03",
   "doors": "20:00",
   "start": "21:00",
-  "url": "https://www.songkick.com/concerts/43456866-zeds-dead-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/zeds-dead-chicago-illinois-12-03-2026/event/04006548C772E3E0",
   "status": null
  },
  {
@@ -156,7 +156,7 @@
   "date": "2026-12-04",
   "doors": null,
   "start": null,
-  "url": "https://www.songkick.com/concerts/43452673-zeds-dead-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/zeds-dead-chicago-illinois-12-04-2026/event/04006519EDFF715B",
   "status": null
  },
  {
@@ -166,7 +166,7 @@
   "date": "2026-12-05",
   "doors": "20:00",
   "start": "21:00",
-  "url": "https://www.songkick.com/concerts/43452571-zeds-dead-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/zeds-dead-chicago-illinois-12-05-2026/event/04006519F0557B37",
   "status": null
  },
  {
@@ -176,7 +176,7 @@
   "date": "2026-12-08",
   "doors": null,
   "start": null,
-  "url": "https://www.songkick.com/concerts/43460897-slightly-stoopid-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/q101-twisted-with-slightly-stoopid-dirty-chicago-illinois-12-08-2026/event/04006549B33D8478",
   "status": null
  },
  {
@@ -212,11 +212,31 @@
  {
   "venue": "Aragon Ballroom",
   "room": null,
+  "title": "Meek Mill",
+  "date": "2026-12-18",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.ticketmaster.com/meek-mill-dream-chasers-nights-chicago-illinois-12-18-2026/event/0400654F0E9BE139",
+  "status": null
+ },
+ {
+  "venue": "Aragon Ballroom",
+  "room": null,
+  "title": "2hollis (with Lucy Bedroque, Conceal)",
+  "date": "2027-02-09",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.ticketmaster.com/2hollis-the-pirouette-tour-chicago-illinois-02-09-2027/event/04006550CA63C73F",
+  "status": null
+ },
+ {
+  "venue": "Aragon Ballroom",
+  "room": null,
   "title": "FLO",
   "date": "2027-02-19",
   "doors": null,
   "start": null,
-  "url": "https://www.songkick.com/concerts/43420843-flo-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/flo-therapy-at-the-club-tour-chicago-illinois-02-19-2027/event/0400653CD0C1B5F2",
   "status": null
  },
  {
@@ -226,7 +246,7 @@
   "date": "2027-02-20",
   "doors": "20:00",
   "start": null,
-  "url": "https://www.songkick.com/concerts/43381477-stella-lefty-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-chicago-illinois-02-20-2027/event/04006512441397DA",
   "status": null
  },
  {
@@ -236,7 +256,7 @@
   "date": "2027-02-25",
   "doors": null,
   "start": null,
-  "url": "https://www.songkick.com/concerts/43278761-polyphia-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-chicago-illinois-02-25-2027/event/040064C9B39BAFA1",
   "status": null
  },
  {
@@ -246,7 +266,7 @@
   "date": "2027-02-26",
   "doors": null,
   "start": null,
-  "url": "https://www.songkick.com/concerts/43414735-alan-walker-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/alan-walker-chicago-illinois-02-26-2027/event/0400652330E20F3E",
   "status": null
  },
  {
@@ -256,7 +276,7 @@
   "date": "2027-03-05",
   "doors": null,
   "start": null,
-  "url": "https://www.songkick.com/concerts/43461346-alleycvt-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/alleycvt-beginning-of-forever-tour-chicago-illinois-03-05-2027/event/04006545C531B22D",
   "status": null
  },
  {
@@ -266,7 +286,7 @@
   "date": "2027-04-03",
   "doors": null,
   "start": null,
-  "url": "https://www.songkick.com/concerts/43394139-saint-levant-at-byline-bank-aragon-ballroom",
+  "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-chicago-illinois-04-03-2027/event/04006519BDD9C98A",
   "status": null
  }
 ]

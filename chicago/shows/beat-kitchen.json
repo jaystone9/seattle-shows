@@ -2,36 +2,6 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Syd Taylor",
-    "date": "2026-10-25",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://wl.seetickets.us/event/syd-taylor/686295",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Splice Series (with Keith Helt, Jason Soliday, Graham Stephenson, Carol Genetti, Peter Maunu)",
-    "date": "2026-10-28",
-    "doors": "20:00",
-    "start": "20:00",
-    "url": "https://wl.seetickets.us/event/splice-series/708470",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "The New Nostalgia: Night of the Living Groove Vol. 2 (with Snooze, Cold World)",
-    "date": "2026-10-29",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://wl.seetickets.us/event/night-of-the-living-groove-vol-2/704077",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
     "title": "Radiator Hospital (with Dusk, Able Baker)",
     "date": "2026-11-01",
     "doors": "19:00",
@@ -122,16 +92,6 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Moody Joody",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43426983-moody-joody-at-beat-kitchen",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
     "title": "Surely Tempo (with Dogs With Hats, Almost There But Not Really)",
     "date": "2026-11-12",
     "doors": "19:00",
@@ -212,16 +172,6 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Earlybirds Club",
-    "date": "2026-11-21",
-    "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43421903-earlybirds-club-at-beat-kitchen",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
     "title": "Liim",
     "date": "2026-11-22",
     "doors": "18:00",
@@ -242,7 +192,7 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "The Blind Staggers (with Ditch Witch)",
+    "title": "The Blind Staggers (with Ditch Witch, Jeff Schaller and the Long Way Home)",
     "date": "2026-11-25",
     "doors": "19:00",
     "start": "20:00",
@@ -252,7 +202,7 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "The Palmer Squares",
+    "title": "The Palmer Squares (with Kastaway, Bob Rok)",
     "date": "2026-11-28",
     "doors": "19:00",
     "start": "20:00",
@@ -262,11 +212,21 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Levi Bloom",
+    "title": "Levi Bloom (with Aidan Palmer)",
     "date": "2026-12-02",
     "doors": "19:00",
     "start": "20:00",
     "url": "https://wl.seetickets.us/event/levi-bloom/703335",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Flip Phone (with Jack Moony and the Sun Drops, Kacie Brown and the Vision, Justin Cavazos & Los Mundanos)",
+    "date": "2026-12-03",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/flip-phone-mixtape-ep-release-show/709284",
     "status": null
   },
   {
@@ -322,11 +282,21 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "The Dog & Everyone (with Champions)",
+    "title": "The Dog & Everything (with Champions)",
     "date": "2026-12-19",
     "doors": "18:00",
     "start": "19:00",
-    "url": "https://wl.seetickets.us/event/the-dog-and-everyone-a-very-2003-holiday-show/704716",
+    "url": "https://wl.seetickets.us/event/the-dog-and-everything-a-very-2003-holiday-show/704716",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Pat McCurdy",
+    "date": "2026-12-21",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/pat-mccurdy/709736",
     "status": null
   },
   {
@@ -362,11 +332,31 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
+    "title": "Good Boy Daisy (with Lake Drive)",
+    "date": "2027-02-12",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/good-boy-daisy/708903",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
     "title": "Coey Redd",
     "date": "2027-03-03",
     "doors": "19:00",
     "start": "20:00",
     "url": "https://wl.seetickets.us/event/coey-redd/707808",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Katherine Li",
+    "date": "2027-03-07",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/katherine-li/709241",
     "status": null
   },
   {

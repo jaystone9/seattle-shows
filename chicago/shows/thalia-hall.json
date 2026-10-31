@@ -2,36 +2,6 @@
   {
     "venue": "Thalia Hall",
     "room": null,
-    "title": "This Is Lorelei (with @)",
-    "date": "2026-10-27",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/this-is-lorelei-with-thalia-hall-tickets/14871043",
-    "status": "sold out"
-  },
-  {
-    "venue": "Thalia Hall",
-    "room": null,
-    "title": "Phillip Phillips (with Katie Lynne Sharbaugh)",
-    "date": "2026-10-28",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do312.com/events/2026/10/28/phillip-phillips-let-s-go-far-tour-with-katie-lynne-sharbaugh-tickets",
-    "status": null
-  },
-  {
-    "venue": "Thalia Hall",
-    "room": null,
-    "title": "The Tallest Man On Earth (with Gwenifer Raymond)",
-    "date": "2026-10-29",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do312.com/events/2026/10/29/the-tallest-man-on-earth-tickets",
-    "status": null
-  },
-  {
-    "venue": "Thalia Hall",
-    "room": null,
     "title": "Sanctum Dark Music Festival (with A Split Second, Zanias, Buzz Kull, Crash Course in Science, Aux Animaux, Kontravoid, Sacred Skin, Automelodi, MVTANT, Sleek Teeth, The Treasury, Pink Stiletto, Children's Crusade, Grave Love)",
     "date": "2026-10-30",
     "doors": null,
@@ -65,8 +35,8 @@
     "title": "Blasting Company",
     "date": "2026-11-02",
     "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43307365-blasting-company-at-thalia-hall",
+    "start": "20:00",
+    "url": "https://do312.com/events/2026/11/2/the-blasting-company-plays-over-the-garden-wall-tickets",
     "status": null
   },
   {
@@ -172,7 +142,7 @@
   {
     "venue": "Thalia Hall",
     "room": null,
-    "title": "Squirrel Flower (with Sour Widows)",
+    "title": "Squirrel Flower (with Sour Widows, Free Range)",
     "date": "2026-11-20",
     "doors": null,
     "start": "20:00",
@@ -187,12 +157,12 @@
     "doors": null,
     "start": "20:00",
     "url": "https://do312.com/events/2026/11/21/they-are-gutting-a-body-of-water-in-the-round-tickets",
-    "status": null
+    "status": "cancelled"
   },
   {
     "venue": "Thalia Hall",
     "room": null,
-    "title": "Venna",
+    "title": "Venna (with Khal!l)",
     "date": "2026-11-25",
     "doors": null,
     "start": "20:00",
@@ -232,6 +202,16 @@
   {
     "venue": "Thalia Hall",
     "room": null,
+    "title": "Enzo Siragusa",
+    "date": "2026-12-05",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://do312.com/events/2026/12/5/house-calls-in-the-round-with-enzo-siragusa-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
     "title": "Jamila Woods",
     "date": "2026-12-06",
     "doors": null,
@@ -257,6 +237,16 @@
     "doors": null,
     "start": "19:30",
     "url": "https://do312.com/events/2026/12/8/wilco-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "Jalen Ngonda (with Brooke Combe)",
+    "date": "2026-12-09",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://do312.com/events/2026/12/9/jalen-ngonda-doctrine-of-love-tour-with-brooke-combe-tickets",
     "status": null
   },
   {
@@ -315,8 +305,8 @@
     "title": "Saba",
     "date": "2026-12-19",
     "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43477504-saba-at-thalia-hall",
+    "start": "20:00",
+    "url": "https://do312.com/events/2026/12/19/pivot-gang-x-saba-john-walt-day-10-years-of-bucket-list-celebration-tickets",
     "status": null
   },
   {
@@ -365,8 +355,8 @@
     "title": "The War And Treaty",
     "date": "2027-01-27",
     "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43287772-war-and-treaty-at-thalia-hall",
+    "start": "19:30",
+    "url": "https://do312.com/events/2027/1/27/the-war-and-treaty-tickets",
     "status": null
   },
   {
@@ -422,6 +412,16 @@
   {
     "venue": "Thalia Hall",
     "room": null,
+    "title": "Dogpark",
+    "date": "2027-02-19",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43485053-dogpark-at-thalia-hall",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
     "title": "Ikkimel",
     "date": "2027-02-20",
     "doors": null,
@@ -452,11 +452,21 @@
   {
     "venue": "Thalia Hall",
     "room": null,
-    "title": "Mei Semones (with aron!)",
-    "date": "2027-03-02",
+    "title": "Conor Moore",
+    "date": "2027-03-11",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do312.com/events/2027/3/11/conor-moore-me-myself-and-ireland-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "Caroline Rose",
+    "date": "2027-03-16",
     "doors": null,
     "start": "20:00",
-    "url": "https://do312.com/events/2027/3/2/mei-semones-aron-tickets",
+    "url": "https://do312.com/events/2027/3/16/caroline-rose-uncle-carols-world-of-fun-tour-tickets",
     "status": null
   },
   {
@@ -472,11 +482,31 @@
   {
     "venue": "Thalia Hall",
     "room": null,
-    "title": "Gustavo Santaolalla",
-    "date": "2027-04-05",
+    "title": "Ruby Waters",
+    "date": "2027-03-29",
     "doors": null,
     "start": "19:30",
-    "url": "https://do312.com/events/2027/4/5/gustavo-santaolalla-ronroco-north-america-tour-2027-tickets",
+    "url": "https://do312.com/events/2027/3/29/ruby-waters-suppre-ions-north-america-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "Destroy Boys (with illuminati hotties, The Rat Utopia Experiment)",
+    "date": "2027-04-06",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do312.com/events/2027/4/6/destroy-boys-with-illuminati-hotties-and-the-rat-utopia-experiment-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "Cornelius",
+    "date": "2027-04-07",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/4/7/cornelius-tickets",
     "status": null
   },
   {
@@ -492,11 +522,41 @@
   {
     "venue": "Thalia Hall",
     "room": null,
+    "title": "DIIV (with Grumpy)",
+    "date": "2027-04-09",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/4/9/diiv-zirp-the-world-with-grumpy-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
     "title": "Foy Vance (with Bonnie Bishop, Ryan McMullan)",
     "date": "2027-04-17",
     "doors": null,
     "start": "19:00",
     "url": "https://do312.com/events/2027/4/17/foy-vance-the-wake-world-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "French 79",
+    "date": "2027-04-27",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do312.com/events/2027/4/27/french-79-close-to-the-giants-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "The Sheepdogs",
+    "date": "2027-04-30",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/4/30/the-sheepdogs-out-all-night-tour-tickets",
     "status": null
   }
 ]

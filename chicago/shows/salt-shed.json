@@ -2,36 +2,6 @@
   {
     "venue": "The Salt Shed",
     "room": null,
-    "title": "Sleeping With Sirens",
-    "date": "2026-10-25",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://do312.com/events/2026/10/25/sleeping-with-sirens-an-ending-in-itself-tour-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
-    "title": "Dylan Gossett",
-    "date": "2026-10-27",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do312.com/events/2026/10/27/dylan-gossett-live-in-concert-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
-    "title": "The Dresden Dolls",
-    "date": "2026-10-29",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do312.com/events/2026/10/29/the-dresden-dolls-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
     "title": "Geese",
     "date": "2026-10-31",
     "doors": null,
@@ -86,7 +56,7 @@
     "date": "2026-11-13",
     "doors": null,
     "start": "20:00",
-    "url": "https://do312.com/events/2026/11/13/palace-usa-canada-tour-2026-tickets",
+    "url": "https://do312.com/events/2026/11/13/palace-with-willie-j-healey-usa-canada-tour-2026-tickets",
     "status": null
   },
   {
@@ -125,8 +95,8 @@
     "title": "Death Cab for Cutie (with Sean Solomon)",
     "date": "2026-11-21",
     "doors": null,
-    "start": null,
-    "url": "https://songkick.com/concerts/43314438-death-cab-for-cutie-at-shed-the-salt-shed",
+    "start": "20:00",
+    "url": "https://do312.com/events/2026/11/21/beyond-hunger-tickets",
     "status": null
   },
   {
@@ -142,7 +112,7 @@
   {
     "venue": "The Salt Shed",
     "room": null,
-    "title": "Turnover",
+    "title": "Turnover (with NOTHING, Trauma Ray)",
     "date": "2026-11-25",
     "doors": null,
     "start": "19:30",
@@ -275,8 +245,8 @@
     "title": "CHVRCHES",
     "date": "2027-02-25",
     "doors": null,
-    "start": null,
-    "url": "https://songkick.com/festivals/3810698-chvrches-live/id/43477644-chvrches---live-2027",
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/2/25/chvrches-live-2027-tickets",
     "status": null
   },
   {
@@ -305,8 +275,8 @@
     "title": "Remi Wolf",
     "date": "2027-03-10",
     "doors": null,
-    "start": null,
-    "url": "https://songkick.com/concerts/43469173-remi-wolf-at-shed-the-salt-shed",
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/3/10/remi-wolf-the-mud-tour-tickets",
     "status": null
   },
   {
@@ -315,8 +285,8 @@
     "title": "Lucky Daye",
     "date": "2027-03-27",
     "doors": null,
-    "start": null,
-    "url": "https://songkick.com/concerts/43474954-lucky-daye-at-shed-the-salt-shed",
+    "start": "19:00",
+    "url": "https://do312.com/events/2027/3/27/lucky-daye-the-aloud-tour-tickets",
     "status": null
   },
   {
@@ -355,8 +325,8 @@
     "title": "Lola Young (with Sofia and the Antoinettes)",
     "date": "2027-04-20",
     "doors": null,
-    "start": null,
-    "url": "https://songkick.com/concerts/43450041-lola-young-at-shed-the-salt-shed",
+    "start": "19:30",
+    "url": "https://do312.com/events/2027/4/20/lola-young-everything-begins-tickets",
     "status": null
   },
   {
@@ -365,8 +335,18 @@
     "title": "Lola Young (with Sofia and the Antoinettes)",
     "date": "2027-04-21",
     "doors": null,
-    "start": null,
-    "url": "https://songkick.com/concerts/43454964-lola-young-at-shed-the-salt-shed",
+    "start": "19:30",
+    "url": "https://do312.com/events/2027/4/21/lola-young-everything-begins-tickets",
     "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
+    "title": "Fontaines D.C. (with Westside Cowboy)",
+    "date": "2027-04-28",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do312.com/events/2027/4/28/fontaines-d-c-tickets",
+    "status": "sold out"
   }
 ]

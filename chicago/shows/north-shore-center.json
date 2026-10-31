@@ -2,16 +2,6 @@
   {
     "venue": "North Shore Center for the Performing Arts",
     "room": "George Van Dusen Theatre",
-    "title": "Vitamin String Quartet",
-    "date": "2026-10-26",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.northshorecenter.org/events/2026/vitamin-string-quartet",
-    "status": null
-  },
-  {
-    "venue": "North Shore Center for the Performing Arts",
-    "room": "George Van Dusen Theatre",
     "title": "AJ McLean presents Alexander James: The Better Man Tour",
     "date": "2026-11-11",
     "doors": null,
@@ -131,6 +121,16 @@
   },
   {
     "venue": "North Shore Center for the Performing Arts",
+    "room": "North Theatre",
+    "title": "Gadan",
+    "date": "2027-02-11",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketmaster.com/gadan-skokie-illinois-02-11-2027/event/0700655AD2C169B7",
+    "status": null
+  },
+  {
+    "venue": "North Shore Center for the Performing Arts",
     "room": "George Van Dusen Theatre",
     "title": "Marty Stuart & His Fabulous Superlatives",
     "date": "2027-02-13",
@@ -172,7 +172,7 @@
   {
     "venue": "North Shore Center for the Performing Arts",
     "room": "George Van Dusen Theatre",
-    "title": "Stephen Bishop",
+    "title": "Stephen Bishop (with David Wilcox)",
     "date": "2027-04-03",
     "doors": null,
     "start": "19:30",

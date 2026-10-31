@@ -1,66 +1,6 @@
 [
  {
   "venue": "The Showbox",
-  "room": "Showbox SoDo",
-  "title": "ARTMS",
-  "date": "2026-10-25",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://www.showboxpresents.com/events/detail/1518382",
-  "status": null
- },
- {
-  "venue": "The Showbox",
-  "room": "Showbox at the Market",
-  "title": "Amble (with Vincent Lima)",
-  "date": "2026-10-26",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://www.showboxpresents.com/events/detail/1426445",
-  "status": null
- },
- {
-  "venue": "The Showbox",
-  "room": "Showbox SoDo",
-  "title": "Basement (with High Vis, Big Boy, Lowertown)",
-  "date": "2026-10-27",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://www.showboxpresents.com/events/detail/1435443",
-  "status": null
- },
- {
-  "venue": "The Showbox",
-  "room": "Showbox SoDo",
-  "title": "Catch Your Breath (with Tx2, Arankai, Colorblind)",
-  "date": "2026-10-28",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://www.showboxpresents.com/events/detail/1462631",
-  "status": null
- },
- {
-  "venue": "The Showbox",
-  "room": "Showbox at the Market",
-  "title": "Medium Build - The King of Having Fun on Tour (with Merle Law)",
-  "date": "2026-10-28",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://www.showboxpresents.com/events/detail/1493715",
-  "status": null
- },
- {
-  "venue": "The Showbox",
-  "room": "Showbox at the Market",
-  "title": "Everclear (with American Hi-Fi)",
-  "date": "2026-10-29",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://www.showboxpresents.com/events/detail/1520014",
-  "status": null
- },
- {
-  "venue": "The Showbox",
   "room": "Showbox at the Market",
   "title": "Rebecca Black (with BAYLI)",
   "date": "2026-10-30",
@@ -102,7 +42,7 @@
  {
   "venue": "The Showbox",
   "room": "Showbox at the Market",
-  "title": "Pinhead Gunpowder",
+  "title": "Pinhead Gunpowder (with Constant Insult, Dead Bars)",
   "date": "2026-11-03",
   "doors": null,
   "start": "20:00",
@@ -272,7 +212,7 @@
  {
   "venue": "The Showbox",
   "room": "Showbox SoDo",
-  "title": "Bonobo - Distance In Static Live",
+  "title": "Bonobo - Distance In Static Live (with 1-800 GIRLS)",
   "date": "2026-11-17",
   "doors": null,
   "start": "20:00",
@@ -422,7 +362,7 @@
  {
   "venue": "The Showbox",
   "room": "Showbox SoDo",
-  "title": "Neurosis (with Great Falls)",
+  "title": "Neurosis (with Blackwater Holylight, Great Falls)",
   "date": "2026-11-29",
   "doors": null,
   "start": "20:00",
@@ -442,17 +382,17 @@
  {
   "venue": "The Showbox",
   "room": "Showbox SoDo",
-  "title": "Night Lovell",
+  "title": "Night Lovell (with 1nonly)",
   "date": "2026-11-30",
   "doors": null,
   "start": "20:00",
   "url": "https://www.showboxpresents.com/events/detail/1632098",
-  "status": null
+  "status": "cancelled"
  },
  {
   "venue": "The Showbox",
   "room": "Showbox SoDo",
-  "title": "Yung Gravy (with Terror Reid)",
+  "title": "Yung Gravy (with Terror Reid, holottacheese)",
   "date": "2026-12-01",
   "doors": null,
   "start": "20:00",
@@ -551,16 +491,6 @@
  },
  {
   "venue": "The Showbox",
-  "room": "Showbox at the Market",
-  "title": "Earlybirds Club",
-  "date": "2026-12-11",
-  "doors": null,
-  "start": "18:00",
-  "url": "https://www.showboxpresents.com/events/detail/1645261",
-  "status": null
- },
- {
-  "venue": "The Showbox",
   "room": "Showbox SoDo",
   "title": "Hedex",
   "date": "2026-12-11",
@@ -632,7 +562,7 @@
  {
   "venue": "The Showbox",
   "room": "Showbox at the Market",
-  "title": "High On Fire",
+  "title": "High On Fire (with ZEKE)",
   "date": "2027-01-01",
   "doors": null,
   "start": "20:00",
@@ -802,6 +732,16 @@
  {
   "venue": "The Showbox",
   "room": "Showbox SoDo",
+  "title": "brakence",
+  "date": "2027-04-17",
+  "doors": null,
+  "start": "20:00",
+  "url": "https://www.showboxpresents.com/events/detail/1674996",
+  "status": null
+ },
+ {
+  "venue": "The Showbox",
+  "room": "Showbox SoDo",
   "title": "FKJ: Tyber Tour",
   "date": "2027-04-23",
   "doors": null,
@@ -817,6 +757,16 @@
   "doors": null,
   "start": "20:00",
   "url": "https://www.showboxpresents.com/events/detail/1556878",
+  "status": null
+ },
+ {
+  "venue": "The Showbox",
+  "room": "Showbox SoDo",
+  "title": "The Interrupters (with Rat Boy, The Bandulus)",
+  "date": "2027-04-26",
+  "doors": null,
+  "start": "19:00",
+  "url": "https://www.showboxpresents.com/events/detail/1616984",
   "status": null
  }
 ]

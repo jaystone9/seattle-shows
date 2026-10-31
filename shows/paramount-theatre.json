@@ -2,16 +2,6 @@
   {
     "venue": "The Paramount Theatre",
     "room": null,
-    "title": "Dermot Kennedy (with Jonah Kagan, Aaron Rowe)",
-    "date": "2026-10-26",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://www.stgpresents.org/events/dermot-kennedy/",
-    "status": "postponed"
-  },
-  {
-    "venue": "The Paramount Theatre",
-    "room": null,
     "title": "Isaiah Rashad",
     "date": "2026-11-10",
     "doors": "19:00",
@@ -52,6 +42,16 @@
   {
     "venue": "The Paramount Theatre",
     "room": null,
+    "title": "Tyla",
+    "date": "2026-11-17",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/tyla/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
     "title": "Trivium (with In Flames, Orbit Culture, Frozen Soul)",
     "date": "2026-12-09",
     "doors": "17:30",
@@ -72,6 +72,26 @@
   {
     "venue": "The Paramount Theatre",
     "room": null,
+    "title": "Brandi Carlile",
+    "date": "2027-01-05",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/brandi-carlile/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Brandi Carlile",
+    "date": "2027-01-06",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/brandi-carlile/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
     "title": "Lord Huron",
     "date": "2027-01-07",
     "doors": "18:30",
@@ -87,6 +107,26 @@
     "doors": "18:30",
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/lord-huron/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Brandi Carlile",
+    "date": "2027-01-09",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/brandi-carlile/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Brandi Carlile",
+    "date": "2027-01-10",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/brandi-carlile/",
     "status": null
   },
   {
@@ -177,6 +217,36 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/nothing-but-thieves/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Jesse & Joy",
+    "date": "2027-04-13",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/jesse-joy/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Meshuggah (with Blood Incantation, Testament)",
+    "date": "2027-04-17",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://www.stgpresents.org/events/meshuggah/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Ha*Ash",
+    "date": "2027-04-28",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/haash/",
     "status": null
   }
 ]

@@ -2,36 +2,6 @@
   {
     "venue": "The Vera Project",
     "room": null,
-    "title": "Stanley Simmons",
-    "date": "2026-10-25",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/10/25/stanley-simmons-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Vera Project",
-    "room": null,
-    "title": "Weatherday",
-    "date": "2026-10-28",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/10/28/weatherday-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Vera Project",
-    "room": null,
-    "title": "Spy (with Empty Shell Casing, No Guard)",
-    "date": "2026-10-29",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/10/29/spy-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Vera Project",
-    "room": null,
     "title": "Worst Party Ever x Equipment (with Ogbert the Nerd, Melancholy Club)",
     "date": "2026-11-04",
     "doors": "19:00",
@@ -94,9 +64,9 @@
     "room": null,
     "title": "Leanna Firestone (with Sydney Sprague)",
     "date": "2026-11-13",
-    "doors": null,
+    "doors": "19:00",
     "start": null,
-    "url": "https://www.songkick.com/concerts/43423125-leanna-firestone-at-vera-project",
+    "url": "https://do206.com/events/2026/11/13/leanna-firestone-tickets",
     "status": null
   },
   {
@@ -186,7 +156,7 @@
     "date": "2026-12-08",
     "doors": "18:30",
     "start": null,
-    "url": "https://songkick.com/concerts/43477477-slow-joy-at-vera-project",
+    "url": "https://do206.com/events/2026/12/8/slow-joy-tickets",
     "status": null
   },
   {
@@ -222,11 +192,11 @@
   {
     "venue": "The Vera Project",
     "room": null,
-    "title": "Riley",
+    "title": "Riley! (with Super Sometimes, Leisure Hour, Shoreline)",
     "date": "2027-02-08",
     "doors": "18:00",
     "start": null,
-    "url": "https://songkick.com/concerts/43474501-riley-at-vera-project",
+    "url": "https://do206.com/events/2027/2/8/riley-tickets",
     "status": null
   }
 ]

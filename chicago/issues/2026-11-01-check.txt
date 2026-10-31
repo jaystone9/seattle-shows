@@ -1,0 +1,59 @@
+Subject: CHECK before sending: Nov 1–14: Chicago 2 Week Playlist
+
+This is the pre-send check. The beehiiv test of the real issue arrives separately.
+Nothing goes to subscribers until you say OK.
+
+SEND TO
+  beehiiv segment "Chicago readers" only (refresh the segment first). Never All subscribers.
+
+LINKS
+  [ok] Chicago playlist: https://open.spotify.com/playlist/6bQQHT3nbmswECo6kjdVsm
+  [ok] Wicker Park & Logan Square playlist: https://open.spotify.com/playlist/0Cai6d5nZjacjUprIl87eU
+  [ok] West Loop & Pilsen playlist: https://open.spotify.com/playlist/0rhjpsjK7etitZ4oQgbg1D
+  [ok] North Suburbs playlist: https://open.spotify.com/playlist/2uNvzTnTQSxkDxtFTFhZJy
+  [ok] Pop playlist: https://open.spotify.com/playlist/5fhgaqGLzgLom3UWbO7Omv
+  [ok] Indie & Rock playlist: https://open.spotify.com/playlist/0S4sJW9bRNW17CflCxxwxz
+  [ok] Folk & Country playlist: https://open.spotify.com/playlist/35nQUQI0XJyLOLPRqYbMCl
+  [ok] Electronic playlist: https://open.spotify.com/playlist/6EoQk3Zh7ktbTBgYMtorU0
+  [ok] Hip-hop & R&B playlist: https://open.spotify.com/playlist/4JgkU2lu5ytPAP2apnZxgb
+  [ok] Punk & Metal playlist: https://open.spotify.com/playlist/6h4uvj2Wq83EuKD4zq3FLl
+  [ok] Funk & Blues playlist: https://open.spotify.com/playlist/5J8mAWi9QTtmxvAkXE4iy5
+  [ok] Jazz, World & Classical playlist: https://open.spotify.com/playlist/00ZyMFHVxZF0rDItopHJvp
+  [ok] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
+  [ok, old data until push] Site: https://2weeksoundcheck.com/chicago/
+
+NUMBERS
+  Dates: Nov 1–14
+  Shows on the site in this window: 318
+  Chicago: 816 songs, 275 headliners, 3 per artist
+  Wicker Park & Logan Square: 292 songs, 99 artists, 3 per artist
+  West Loop & Pilsen: 308 songs, 103 artists, 3 per artist
+  North Suburbs: 102 songs, 34 artists, 3 per artist
+  Pop: 63 songs, 21 artists
+  Indie & Rock: 261 songs, 89 artists
+  Folk & Country: 150 songs, 51 artists
+  Electronic: 75 songs, 25 artists
+  Hip-hop & R&B: 75 songs, 25 artists
+  Punk & Metal: 108 songs, 36 artists
+  Funk & Blues: 58 songs, 20 artists
+  Jazz, World & Classical: 92 songs, 31 artists
+  Chicago skipped (not on Spotify or ambiguous): Beginningless & Jeremy Cunningham Special Quartet, Chocolate Labs, Gabriel Wade Quintet, Avant Symphony Orchestra, Raíces Latin Jazz Quintet, Rikki G. Godd, Swerv & Friends Part 2, Jack Jr, Nick Wilkinson, The Scovilles, Denise Tomasello and her 17-Piece Orchestra, Frequency Series, Derek Caruso, Alejandro Urzagaste Quartet, ConstelNation, Marci, Noiś Saxophone Quartet, GCS (Eric Gales, Dennis Chambers, Billy Sheehan), Nora Jean, Mycelium New Music, Henry Geraghty
+  Wicker Park & Logan Square skipped (not on Spotify or ambiguous): The Sheltered, NVRMORE, Orbital Gate, Chocolate Labs, Rent Party, Bliss Cemetery, Ryan Hemsworth, Whelmed, Rikki G. Godd, Sarah Lutkenhaus, Mr. Yipeman, Mortido, Exhumed Corpse, Black Triangle Badge, The Iron Spiders, Mothermary, AUGMENT., Don't Front, Backbreaker, Conrad., Contact Sports, Jack Jr, Free Time, Head, Aim High, Rare Candy, Marci, Ester, Cuss, Toccororo, Jaxx, Kylie Exotic, Ariel Zetina, kitship, Proxoxie
+  West Loop & Pilsen skipped (not on Spotify or ambiguous): Beginningless & Jeremy Cunningham Special Quartet, Spaced, Fast Preacher, Softly, I Promised The World, Sports., Cable-Knit, Temps, Swerv & Friends Part 2, G Herbo, GloRilla, Young Thug, Yung Miami, YTB Fatt, Fabolous, Peezy, Belly Gang Kushington, Dean Turnley, Toman, Andino, Ballista, Spare No Mercy, Invasive, Choice, Brooke Combe, Slamwich, Orbital Gate, Christian Lee Hutson, Olswel, Eddie Adams, Nick Karchner, Kyle Starkey, Cannelle, 10cust, TDY b2b Shaun LaCosta-Sinclair
+  North Suburbs skipped (not on Spotify or ambiguous): Avant Symphony Orchestra, Ryan Burns, Denise Tomasello and her 17-Piece Orchestra, Sirsy, Rick Maguire, Colleen Brown, Noiś Saxophone Quartet, GCS (Eric Gales, Dennis Chambers, Billy Sheehan), Tony Lucca
+
+FLAGS
+  - GITHUB PUSH BLOCKED: this scheduled session started without the seattle-shows repo attached, so the refresh (695 Seattle / 1,350 Chicago shows, Nov 1-14 playlists, genres, issues) is committed locally but NOT on the live site yet. The commit is in the chat as a git bundle. Quickest fix: start a new chat with the repo attached (push access) and say "apply the Soundcheck bundle and push"; or run the Thursday prep task again from a chat that has the repo. Until then the site still shows the Oct 25-Nov 7 playlists and last week's listings, so the "All N shows" link in the issue won't match until the push lands.
+  - BEEHIIV SEGMENTS NOW LOCKED: the Pro trial has ended and "Include and exclude segments" shows "Unlock with Lite plan". Both drafts were made by duplicating last week's posts, so they still carry the segment: the audience step shows 27 recipients (Seattle readers) / 13 recipients (Chicago readers) with All subscribers unchecked. Do not touch the segment toggle on either draft (it can't be re-added on Free). Before Sunday, decide whether to upgrade to Lite so segment sends stay supported; if beehiiv ignores the inherited segment at send time, the issue would go to all 40.
+  - GENRE REVIEW: done. 221 new headliners were looked up (both cities on one page this week): 115 confirmed automatically from Last.fm, and the other 106 were researched one by one from their own sites, Spotify bios, venue pages and press (Jay said "do the genre review for me", Oct 30). 88 got a genre and are now in the genre playlists above; 18 were left out (orchestra programs, one-off ensembles, acts with no recordings, or no reliable source): Kurtag and Tchaikovsky programs, Taylor Mac, Mycelium New Music, Frequency Series, Melmann x Costello, Beginningless & Jeremy Cunningham, Singleman Affair & Temp Wishes, Janet Bean & Ghost Voice, Swerv & Friends, Skeleton Crewe, Chocolate Labs, Talia Pearl, Bryce Makela, Displacer & Mensa, GCS, Nayu, Los Chismosos. Six confirmed acts have no Spotify Popular tracks so they are tagged but not in a playlist: The Scovilles, Crab, Denise Tomasello, Rikki G. Godd, Alejandro Urzagaste, Henry Geraghty. Every decision is on the Genre Review page (https://claude.ai/artifact/A8aMCZEEGqB6HPV7TvjNP9, week 2026-11-01) and in genres.json; change any of them there and say so Sunday.
+  - SPOTIFY: the builder app hit Spotify's search rate limit mid-run (dev-mode quota). All six weekly playlists and all 16 genre playlists were still built; about 40 acts (nearly all local openers, plus Swerv, Crab, Los Chismosos, Temps, Rick Maguire) could not be looked up and are in the skipped lists. Ambiguous-name openers were skipped as usual; ambiguous-name headliners took Spotify's top match.
+  - hello@ INBOX: no problem reports or contact messages since Oct 25 (only the beehiiv support thread). Note: https://mail.2weeksoundcheck.com shows a certificate for another host; the http:// address redirects to the real webmail login.
+  - REPO HYGIENE: SUNDAY.md contained your personal Chrome profile name (committed Oct 25); replaced with "personal Chrome profile" in this commit. It is still in that one earlier commit's history if you want another rewrite.
+  - CHICAGO VENUES: all 55 files re-collected. Kingston Mines: TicketWeb names acts only through Dec 19, so six later nights (Nov 28, Dec 3, 12, 17, 26, 31) are carried over from last week unverified. Tally Hall Apr 18 left Metro and the Salt Shed move couldn't be confirmed, so it's not listed. Cancelled: John Cowan Trio Nov 4 (SPACE), They Are Gutting a Body of Water Nov 21 (Thalia), Aly & AJ Dec 5 (Des Plaines); Lee Rocker Nov 6 and Jaik Willis Nov 19 gone from their venues; jackzebra Nov 2 -> Feb 16. Jalen Ngonda shows on Do312 at Thalia on both Nov 10 and Dec 9 with no note; both kept.
+  - Links above: all four new playlists were created this run and the eight genre playlists were refreshed (dated Nov 1-14 copies saved too). The site link works but shows last week's data until the push.
+
+SUBJECT AND PREVIEW
+  Nov 1–14: Chicago 2 Week Playlist
+  Four new playlists for the next two weeks: all of Chicago, plus Wicker Park & Logan Square and West Loop & Pilsen and North Suburbs.
+
+Reply OK (or tell Claude in the chat) and it goes to subscribers.

@@ -16,7 +16,7 @@
     "date": "2026-10-31",
     "doors": null,
     "start": "19:30",
-    "url": "https://www.heynonny.com/shows/lunar-ticks-31-oct",
+    "url": "https://www.heynonny.com/shows/lunar-ticks-31-oct-c3776",
     "status": null
   },
   {
@@ -212,6 +212,16 @@
   {
     "venue": "Hey Nonny",
     "room": null,
+    "title": "Lil' Ed & The Blues Imperials: Holiday Show",
+    "date": "2026-12-05",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.heynonny.com/shows/lil-ed-the-blues-imperials-holiday-show-05-dec",
+    "status": null
+  },
+  {
+    "venue": "Hey Nonny",
+    "room": null,
     "title": "Gaudete Brass: Holiday Show",
     "date": "2026-12-06",
     "doors": null,
@@ -262,6 +272,16 @@
   {
     "venue": "Hey Nonny",
     "room": null,
+    "title": "Dave Rudolf: Completely Cracked Christmas",
+    "date": "2026-12-19",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.heynonny.com/shows/dave-rudolf-s-completely-cracked-christmas-19-dec-69269",
+    "status": null
+  },
+  {
+    "venue": "Hey Nonny",
+    "room": null,
     "title": "Paul Marinaro: Holiday Show",
     "date": "2026-12-23",
     "doors": null,
@@ -277,6 +297,16 @@
     "doors": null,
     "start": "19:30",
     "url": "https://www.heynonny.com/shows/hello-dave-26-dec",
+    "status": null
+  },
+  {
+    "venue": "Hey Nonny",
+    "room": null,
+    "title": "Hello Dave",
+    "date": "2026-12-27",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.heynonny.com/shows/hello-dave-27-dec-8c250",
     "status": null
   },
   {

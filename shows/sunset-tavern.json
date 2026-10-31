@@ -2,47 +2,7 @@
  {
   "venue": "The Sunset Tavern",
   "room": null,
-  "title": "Marika Che (with Whitney Ballen, Skyler Ford)",
-  "date": "2026-10-25",
-  "doors": "19:30",
-  "start": null,
-  "url": "https://do206.com/events/2026/10/25/marika-che-whitney-ballen-skyler-ford-tickets",
-  "status": null
- },
- {
-  "venue": "The Sunset Tavern",
-  "room": null,
-  "title": "Burgundy Suns (with Mallard, Diana Gale)",
-  "date": "2026-10-26",
-  "doors": null,
-  "start": "18:30",
-  "url": "https://do206.com/events/2026/10/26/burgundy-suns-mallard-diana-gale-tickets",
-  "status": null
- },
- {
-  "venue": "The Sunset Tavern",
-  "room": null,
-  "title": "Abby Webster & Her Imaginary Band (with Alex Dunn (trio), Leo Craft)",
-  "date": "2026-10-27",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/tractor-presents-abby-webster-w-tractor-tickets/14309294?pl=tractor&REFID=clientsitewp",
-  "status": "cancelled"
- },
- {
-  "venue": "The Sunset Tavern",
-  "room": null,
-  "title": "Blitzkid (with guests)",
-  "date": "2026-10-28",
-  "doors": "19:30",
-  "start": null,
-  "url": "https://do206.com/events/2026/10/28/blitzkid-guests-tickets",
-  "status": null
- },
- {
-  "venue": "The Sunset Tavern",
-  "room": null,
-  "title": "Great Lake Swimmers (with guests)",
+  "title": "Great Lake Swimmers (with Jesse Sykes & The Sweet Hereafter (duo))",
   "date": "2026-11-01",
   "doors": "19:30",
   "start": null,
@@ -152,9 +112,9 @@
  {
   "venue": "The Sunset Tavern",
   "room": null,
-  "title": "Los Chismosos: Dark Chisme Punk Set (with Anthers)",
+  "title": "Los Chismosos: Dark Chisme Punk Set (with Anthers, Beautiful Freaks)",
   "date": "2026-11-13",
-  "doors": null,
+  "doors": "20:30",
   "start": "21:00",
   "url": "https://link.dice.fm/P94d5b823067",
   "status": null
@@ -172,7 +132,7 @@
  {
   "venue": "The Sunset Tavern",
   "room": null,
-  "title": "Chris Acker (with guests)",
+  "title": "Chris Acker (with Ray Wolff)",
   "date": "2026-11-15",
   "doors": "19:00",
   "start": null,
@@ -202,7 +162,7 @@
  {
   "venue": "The Sunset Tavern",
   "room": null,
-  "title": "The Gallaghers (LP release) (with guests)",
+  "title": "The Gallaghers (LP release) (with Runaway Satellite, Hire Stranger)",
   "date": "2026-11-18",
   "doors": "19:00",
   "start": null,
@@ -212,7 +172,7 @@
  {
   "venue": "The Sunset Tavern",
   "room": null,
-  "title": "Todd Day Wait (with guests)",
+  "title": "Todd Day Wait (with Jesco Payne and the Painkillers)",
   "date": "2026-11-19",
   "doors": "19:30",
   "start": null,
@@ -222,17 +182,17 @@
  {
   "venue": "The Sunset Tavern",
   "room": null,
-  "title": "Chrome Lakes (with Moon Letters)",
+  "title": "Chrome Lakes (with Pachinko Royale, Moon Letters)",
   "date": "2026-11-20",
-  "doors": "21:00",
+  "doors": "20:30",
   "start": null,
-  "url": "https://www.songkick.com/concerts/43465470-chrome-lakes-at-sunset-tavern",
+  "url": "https://do206.com/events/2026/11/20/chrome-lakes-pachinko-royale-moon-letters-tickets",
   "status": null
  },
  {
   "venue": "The Sunset Tavern",
   "room": null,
-  "title": "Drag the River (with guests)",
+  "title": "Drag the River (with Dewey Nielsen Band, Good Dirt)",
   "date": "2026-11-21",
   "doors": "20:30",
   "start": null,
@@ -242,11 +202,21 @@
  {
   "venue": "The Sunset Tavern",
   "room": null,
-  "title": "Trestles (with guests)",
+  "title": "Trestles (with Pilot Seat)",
   "date": "2026-11-22",
   "doors": "19:30",
   "start": null,
   "url": "https://do206.com/events/2026/11/22/trestles-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Frankie Beach (with Sabrina Saed, Your Jack)",
+  "date": "2026-11-24",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/24/frankie-beach-sabrina-saed-your-jack-tickets",
   "status": null
  },
  {
@@ -257,6 +227,16 @@
   "doors": "20:00",
   "start": null,
   "url": "https://www.songkick.com/concerts/43449573-dead-bars-at-sunset-tavern",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "Grover (with Sean Atkins, Northern Echo, & more)",
+  "date": "2026-11-27",
+  "doors": "19:30",
+  "start": null,
+  "url": "https://do206.com/events/2026/11/27/grover-sean-atkins-northern-echo-more-tickets",
   "status": null
  },
  {
@@ -312,7 +292,7 @@
  {
   "venue": "The Sunset Tavern",
   "room": null,
-  "title": "Two Runner (with guests)",
+  "title": "Two Runner (with Bad Posture Club)",
   "date": "2026-12-06",
   "doors": "19:30",
   "start": "20:00",
@@ -367,6 +347,16 @@
   "doors": "19:30",
   "start": null,
   "url": "https://do206.com/events/2026/12/17/basic-guests-tickets",
+  "status": null
+ },
+ {
+  "venue": "The Sunset Tavern",
+  "room": null,
+  "title": "DVD Bonus (album release) (with Gus Englehorn)",
+  "date": "2026-12-19",
+  "doors": "20:00",
+  "start": null,
+  "url": "https://do206.com/events/2026/12/19/dvd-bonus-album-release-party-w-gus-englehorn-scott-losse-tickets",
   "status": null
  },
  {

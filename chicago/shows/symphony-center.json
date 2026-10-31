@@ -2,36 +2,6 @@
   {
     "venue": "Symphony Center",
     "room": null,
-    "title": "Chicago Symphony Orchestra: Sleeping Beauty & Dvořák Cello Concerto (with Jian Wang)",
-    "date": "2026-10-25",
-    "doors": null,
-    "start": "15:00",
-    "url": "https://chicagosymphony.org/performances/26-27/cso/sleeping-beauty-dvorak-cello-concerto/",
-    "status": null
-  },
-  {
-    "venue": "Symphony Center",
-    "room": null,
-    "title": "Civic Orchestra of Chicago: Finlandia & Beethoven Eroica",
-    "date": "2026-10-26",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://chicagosymphony.org/performances/26-27/civic/finlandia-beethoven-eroica/",
-    "status": null
-  },
-  {
-    "venue": "Symphony Center",
-    "room": null,
-    "title": "Chicago Symphony Orchestra: Brahms Requiem",
-    "date": "2026-10-29",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://chicagosymphony.org/performances/26-27/cso/brahms-requiem/",
-    "status": null
-  },
-  {
-    "venue": "Symphony Center",
-    "room": null,
     "title": "Chicago Symphony Orchestra: Brahms Requiem",
     "date": "2026-10-30",
     "doors": null,
@@ -277,16 +247,6 @@
     "doors": null,
     "start": "19:30",
     "url": "https://chicagosymphony.org/performances/26-27/cso/postcard-from-vienna-muti-bronfman/",
-    "status": null
-  },
-  {
-    "venue": "Symphony Center",
-    "room": null,
-    "title": "Civic Orchestra of Chicago: Bach Marathon Finale",
-    "date": "2026-12-14",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://chicagosymphony.org/performances/26-27/civic/bach-marathon-finale/",
     "status": null
   },
   {
@@ -867,6 +827,16 @@
     "doors": null,
     "start": "15:00",
     "url": "https://chicagosymphony.org/performances/26-27/piano-recital/evgeny-kissin/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Chicago Symphony Orchestra: Hisaishi Conducts Hisaishi",
+    "date": "2027-04-30",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://chicagosymphony.org/performances/26-27/featured/hisaishi-conducts-hisaishi/",
     "status": null
   }
 ]

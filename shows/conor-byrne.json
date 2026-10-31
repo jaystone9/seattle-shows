@@ -2,26 +2,6 @@
  {
   "venue": "Conor Byrne Pub",
   "room": null,
-  "title": "Born of Ghosts (with The Sirens, DB Stewart, Collin Salcido)",
-  "date": "2026-10-28",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://do206.com/events/2026/10/28/born-of-ghosts-the-sirens-db-stewart-collin-salcido-tickets",
-  "status": null
- },
- {
-  "venue": "Conor Byrne Pub",
-  "room": null,
-  "title": "The Rolling Thunder (with Bigfoot Curious, Velvet Armada)",
-  "date": "2026-10-29",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://do206.com/events/2026/10/29/the-rolling-thunder-bigfoot-curious-velvet-armada-tickets",
-  "status": null
- },
- {
-  "venue": "Conor Byrne Pub",
-  "room": null,
   "title": "Freakout Presents: Laborotorios Moreno (with Buddy Wynkoop, Gadfly, Weep Wave) - Matinee",
   "date": "2026-11-01",
   "doors": null,
@@ -112,16 +92,6 @@
  {
   "venue": "Conor Byrne Pub",
   "room": null,
-  "title": "Jealous Dogs (with The Mabys, Jed Zeppelin)",
-  "date": "2026-11-13",
-  "doors": null,
-  "start": "20:30",
-  "url": "https://do206.com/events/2026/11/13/jealous-dogs-the-mabys-jed-zeppelin-tickets",
-  "status": null
- },
- {
-  "venue": "Conor Byrne Pub",
-  "room": null,
   "title": "Former Jock (with Brites, Anna Eisch)",
   "date": "2026-11-18",
   "doors": null,
@@ -165,8 +135,8 @@
   "title": "Lushy",
   "date": "2026-11-22",
   "doors": null,
-  "start": null,
-  "url": "https://www.jambase.com/show/lushy-conor-byrne-pub-20261122",
+  "start": "16:00",
+  "url": "https://do206.com/events/2026/11/22/lushy-matinee-tickets",
   "status": null
  },
  {
@@ -192,11 +162,11 @@
  {
   "venue": "Conor Byrne Pub",
   "room": null,
-  "title": "The Strix",
-  "date": "2026-12-01",
+  "title": "WillyPete (with Silversmith, Manila Folder)",
+  "date": "2026-12-09",
   "doors": null,
-  "start": null,
-  "url": "https://www.jambase.com/show/the-strix-conor-byrne-pub-20261201",
+  "start": "20:00",
+  "url": "https://do206.com/events/2026/12/9/willypete-silversmith-manila-folder-tickets",
   "status": null
  },
  {
@@ -222,11 +192,31 @@
  {
   "venue": "Conor Byrne Pub",
   "room": null,
+  "title": "Goldi Locke - Matinee",
+  "date": "2026-12-18",
+  "doors": null,
+  "start": "18:00",
+  "url": "https://do206.com/events/2026/12/18/goldi-locke-matinee-tickets",
+  "status": null
+ },
+ {
+  "venue": "Conor Byrne Pub",
+  "room": null,
   "title": "Garage Punk X-Mas Party: The Sinister Six (with Hutchie, Small Yards)",
   "date": "2026-12-18",
   "doors": null,
   "start": "21:00",
   "url": "https://do206.com/events/2026/12/18/garage-punk-x-mas-party-the-sinister-six-hutchie-small-yards-tickets",
+  "status": null
+ },
+ {
+  "venue": "Conor Byrne Pub",
+  "room": null,
+  "title": "Something United (with Daphne, Delridge)",
+  "date": "2027-01-09",
+  "doors": null,
+  "start": "21:00",
+  "url": "https://do206.com/events/2027/1/9/something-united-daphne-delridge-tickets",
   "status": null
  },
  {

@@ -2,26 +2,6 @@
   {
     "venue": "Bottom Lounge",
     "room": null,
-    "title": "Icon For Hire (with Elijah, Lauren Babic, Stories Through Storms)",
-    "date": "2026-10-25",
-    "doors": "18:00",
-    "start": "18:30",
-    "url": "https://www.ticketweb.com/event/icon-for-hire-scripted-15-bottom-lounge-tickets/14170654",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
-    "title": "Dammit! (with Sour Milk, The Human Trials, Sihaya Scarlet, Virginia Plain, DJ Viscera Spit)",
-    "date": "2026-10-29",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/dammit-sour-milk-the-human-bottom-lounge-tickets/14375804",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
     "title": "Pig Destroyer (with Necrot, Eternal Champion, Lair of the Minotaur)",
     "date": "2026-10-30",
     "doors": "18:00",
@@ -175,8 +155,8 @@
     "title": "Local H",
     "date": "2026-12-31",
     "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43481761-local-h-at-bottom-lounge",
+    "start": "22:00",
+    "url": "https://do312.com/events/2026/12/31/local-h-tickets",
     "status": null
   },
   {
@@ -207,6 +187,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://bottomlounge.com/shows/saxsquatch-the-conspiracy-theory-tour-february-13-2027-778257/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
+    "title": "Tate Butts",
+    "date": "2027-02-26",
+    "doors": null,
+    "start": "18:30",
+    "url": "https://do312.com/events/2027/2/26/tate-butts-tickets",
     "status": null
   },
   {

@@ -2,16 +2,6 @@
  {
   "venue": "Metro",
   "room": null,
-  "title": "Plini (with Night Verses, Portraits)",
-  "date": "2026-10-25",
-  "doors": "18:00",
-  "start": "19:00",
-  "url": "https://www.etix.com/ticket/p/31704379/?partner_id=100",
-  "status": null
- },
- {
-  "venue": "Metro",
-  "room": null,
   "title": "Quadeca (with DERBY, Olēka)",
   "date": "2026-10-30",
   "doors": "19:00",
@@ -22,11 +12,11 @@
  {
   "venue": "Metro",
   "room": null,
-  "title": "Sleep (with Zombi)",
+  "title": "Sleep (with Zombi, The Schizophonics)",
   "date": "2026-11-06",
   "doors": "18:30",
-  "start": null,
-  "url": "https://www.songkick.com/concerts/43282595-sleep-at-metro",
+  "start": "19:30",
+  "url": "https://www.etix.com/ticket/p/95547317/?partner_id=100",
   "status": null
  },
  {
@@ -58,16 +48,6 @@
   "start": "19:30",
   "url": "https://www.etix.com/ticket/p/53873208/?partner_id=100",
   "status": "sold out"
- },
- {
-  "venue": "Metro",
-  "room": null,
-  "title": "Alyssa Grace",
-  "date": "2026-11-10",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://www.bandsintown.com/e/1040204815-alyssa-grace-at-metro-chicago",
-  "status": null
  },
  {
   "venue": "Metro",
@@ -222,6 +202,16 @@
  {
   "venue": "Metro",
   "room": null,
+  "title": "Portugal. The Man (with Anthony Green)",
+  "date": "2027-01-13",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://www.etix.com/ticket/p/44359293/?partner_id=100",
+  "status": null
+ },
+ {
+  "venue": "Metro",
+  "room": null,
   "title": "Wolves In The Throne Room (with Stygian Bough, Spirit Possession)",
   "date": "2027-01-19",
   "doors": "18:30",
@@ -262,11 +252,31 @@
  {
   "venue": "Metro",
   "room": null,
+  "title": "The Flaming Lips",
+  "date": "2027-02-27",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://www.etix.com/ticket/p/60003753/?partner_id=100",
+  "status": "sold out"
+ },
+ {
+  "venue": "Metro",
+  "room": null,
+  "title": "The Flaming Lips",
+  "date": "2027-02-28",
+  "doors": "19:00",
+  "start": "20:00",
+  "url": "https://www.etix.com/ticket/p/58390050/?partner_id=100",
+  "status": null
+ },
+ {
+  "venue": "Metro",
+  "room": null,
   "title": "Haywire (with Dark Thoughts, GVLLOW)",
   "date": "2027-03-25",
   "doors": "19:00",
   "start": null,
-  "url": "https://www.songkick.com/concerts/43481752-haywire-at-metro",
+  "url": "https://www.etix.com/ticket/p/64246206/?partner_id=100",
   "status": null
  },
  {

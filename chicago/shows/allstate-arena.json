@@ -78,5 +78,15 @@
     "start": "20:00",
     "url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-02-26-2027/event/040064D2F74DED5B",
     "status": null
+  },
+  {
+    "venue": "Allstate Arena",
+    "room": null,
+    "title": "Camila",
+    "date": "2027-03-12",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketmaster.com/camila-adios-world-tour-rosemont-illinois-03-12-2027/event/0400653607143C0C",
+    "status": null
   }
 ]

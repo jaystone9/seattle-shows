@@ -2,16 +2,6 @@
   {
     "venue": "Constellation",
     "room": null,
-    "title": "Frequency Series Presents: Morton Feldman's For John Cage",
-    "date": "2026-10-25",
-    "doors": "20:00",
-    "start": "20:30",
-    "url": "https://wl.seetickets.us/event/frequency-series-presents-morton-feldmans-for-john-cage/705264?afflky=ConstellationChicago",
-    "status": null
-  },
-  {
-    "venue": "Constellation",
-    "room": null,
     "title": "ConstelNation & Chicago Blue Root Band",
     "date": "2026-10-30",
     "doors": "20:00",
@@ -142,6 +132,16 @@
   {
     "venue": "Constellation",
     "room": null,
+    "title": "John Sutton DogTime",
+    "date": "2026-11-28",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://wl.seetickets.us/event/john-sutton-dogtime/709198?afflky=ConstellationChicago",
+    "status": null
+  },
+  {
+    "venue": "Constellation",
+    "room": null,
     "title": "Frequency Series Presents: Austin Wulliman (with Theo Ramsey)",
     "date": "2026-12-06",
     "doors": "20:00",
@@ -212,6 +212,16 @@
   {
     "venue": "Constellation",
     "room": null,
+    "title": "Sparklmami (with Dani Offline)",
+    "date": "2027-01-09",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://wl.seetickets.us/event/sparklmami-dani-offline/708045?afflky=ConstellationChicago",
+    "status": null
+  },
+  {
+    "venue": "Constellation",
+    "room": null,
     "title": "Scurvy Jazzby",
     "date": "2027-01-16",
     "doors": "20:00",
@@ -227,6 +237,16 @@
     "doors": "20:00",
     "start": "20:30",
     "url": "https://wl.seetickets.us/event/anna-webber-angelica-sanchez-and-adam-shead/696488?afflky=ConstellationChicago",
+    "status": null
+  },
+  {
+    "venue": "Constellation",
+    "room": null,
+    "title": "Dennis Carroll & The Love",
+    "date": "2027-03-13",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://wl.seetickets.us/event/dennis-carroll-and-the-love/708844?afflky=ConstellationChicago",
     "status": null
   },
   {

@@ -2,26 +2,6 @@
   {
     "venue": "The Neptune Theatre",
     "room": null,
-    "title": "EPIK HIGH",
-    "date": "2026-10-25",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/epik-high/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
-    "title": "The Dillinger Escape Plan (with XCOMM, Squid Pisser)",
-    "date": "2026-10-27",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/the-dillinger-escape-plan/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
     "title": "The Brothers Comatose",
     "date": "2026-10-30",
     "doors": "19:00",
@@ -37,16 +17,6 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/the-buena-vista-orchestra/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
-    "title": "The Aces (with Gatlin)",
-    "date": "2026-11-03",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/the-aces/",
     "status": null
   },
   {
@@ -427,6 +397,36 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/sona-jobarteh/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
+    "title": "Mei Semones",
+    "date": "2027-04-28",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/mei-semones/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
+    "title": "Faun",
+    "date": "2027-04-29",
+    "doors": "19:00",
+    "start": "20:30",
+    "url": "https://www.stgpresents.org/events/faun/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
+    "title": "CG5",
+    "date": "2027-04-30",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/an-evening-with-cg5/",
     "status": null
   }
 ]

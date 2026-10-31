@@ -112,16 +112,6 @@
  {
   "venue": "Outset",
   "room": null,
-  "title": "Black House Radio",
-  "date": "2026-11-28",
-  "doors": null,
-  "start": "21:00",
-  "url": "https://www.ticketmaster.com/event/0400653A3ED617F0",
-  "status": null
- },
- {
-  "venue": "Outset",
-  "room": null,
   "title": "GorillaT",
   "date": "2026-12-04",
   "doors": null,
@@ -137,6 +127,16 @@
   "doors": null,
   "start": "20:00",
   "url": "https://www.ticketmaster.com/event/04006528AD088C66",
+  "status": null
+ },
+ {
+  "venue": "Outset",
+  "room": null,
+  "title": "F5VE",
+  "date": "2026-12-09",
+  "doors": "19:00",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43481151-f5ve-at-outset",
   "status": null
  },
  {
@@ -172,11 +172,31 @@
  {
   "venue": "Outset",
   "room": null,
+  "title": "Klangkarussell",
+  "date": "2027-01-28",
+  "doors": "18:30",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43478057-klangkarussell-at-outset",
+  "status": null
+ },
+ {
+  "venue": "Outset",
+  "room": null,
   "title": "Modeselektor",
   "date": "2027-02-18",
   "doors": null,
   "start": "20:00",
   "url": "https://www.ticketmaster.com/event/04006548050E0DFA",
+  "status": null
+ },
+ {
+  "venue": "Outset",
+  "room": null,
+  "title": "Back Alley",
+  "date": "2027-02-20",
+  "doors": "18:30",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43490080-back-alley-at-outset",
   "status": null
  }
 ]

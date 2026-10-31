@@ -62,7 +62,7 @@
  {
   "venue": "Concord Music Hall",
   "room": null,
-  "title": "Øtta",
+  "title": "Øtta (with Toccororo, Jaxx)",
   "date": "2026-11-13",
   "doors": "22:00",
   "start": null,
@@ -142,21 +142,21 @@
  {
   "venue": "Concord Music Hall",
   "room": null,
-  "title": "TYNAN (with HerShe)",
+  "title": "TYNAN (with HerShe, Wolfie)",
   "date": "2027-01-22",
   "doors": "22:00",
   "start": null,
-  "url": "https://www.songkick.com/concerts/43476299-tynan-at-concord-music-hall",
+  "url": "https://concordmusichall.com/calendar/tynan360-set/",
   "status": null
  },
  {
   "venue": "Concord Music Hall",
   "room": null,
-  "title": "Effin",
+  "title": "Effin (with Nikita, The Wicked Aych)",
   "date": "2027-02-05",
-  "doors": null,
+  "doors": "22:00",
   "start": null,
-  "url": "https://www.songkick.com/concerts/43476310-effin-at-concord-music-hall",
+  "url": "https://concordmusichall.com/calendar/effin/",
   "status": null
  },
  {
@@ -172,11 +172,21 @@
  {
   "venue": "Concord Music Hall",
   "room": null,
-  "title": "Thrown",
+  "title": "Thrown (with Guilt Trip, Fromjoy)",
   "date": "2027-03-21",
-  "doors": null,
+  "doors": "18:00",
   "start": null,
-  "url": "https://www.songkick.com/concerts/43476372-thrown-at-concord-music-hall",
+  "url": "https://concordmusichall.com/calendar/thrown/",
+  "status": null
+ },
+ {
+  "venue": "Concord Music Hall",
+  "room": null,
+  "title": "Jersey",
+  "date": "2027-04-01",
+  "doors": "18:30",
+  "start": null,
+  "url": "https://concordmusichall.com/calendar/jersey/",
   "status": null
  }
 ]

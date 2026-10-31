@@ -14,10 +14,10 @@ Window: TODAY through TODAY + 6 months. One JSON file per venue in `chicago/show
 | color-club.json | Color Club, Avondale | lh-st.com listings / DICE venue page. Drop dance parties |
 | concord-music-hall.json | Concord Music Hall, Logan Square | concordmusichall.com/calendar. EDM-heavy: keep named touring artists only, drop wrestling and festival days |
 | outset.json | Outset, Bucktown | site blocks fetches; browser, Songkick. Mostly DJs: keep named touring artists only |
-| metro.json | Metro, Wrigleyville | metrochicago.com (Etix). Drop Smart Bar club nights and author talks |
+| metro.json | Metro, Wrigleyville | metrochicago.com and Etix are unreachable from the workspace (Oct 30, 2026): use do312.com/venues/metro (4 pages) + JamBase/Songkick. Drop Smart Bar club nights and author talks |
 | schubas.json | Schubas, Lakeview | lh-st.com (shared with Lincoln Hall; filter by venue). Drop open mics, CHIRP listening bar, student showcases |
 | lincoln-hall.json | Lincoln Hall, Lincoln Park | lh-st.com. Drop comedy, wrestling, DJ/baby-rave parties, book launches |
-| the-vic.json | The Vic, Lakeview | victheatre.com blocks fetches; JAM/AXS, Songkick. Drop comedy and Brew & View movie nights |
+| the-vic.json | The Vic, Lakeview | victheatre.com, jamusa.com and AXS block fetches; do312.com/venues/the-vic-theatre (?page=N, AXS links) + JamBase venue page, Songkick. Drop comedy and Brew & View movie nights |
 | park-west.json | Park West, Lincoln Park | parkwestchicago.com / jamusa.com (AXS). Drop comedy, podcasts, karaoke |
 | beat-kitchen.json | Beat Kitchen, Roscoe Village | beatkitchen.com (See Tickets). MANY tribute acts, comedy, brunch, podcasts, 80s/indie dance nights: drop all |
 | martyrs.json | Martyrs', North Center | martyrslive.com calendar is often stale; use Songkick, Do312. Drop tribute bills |
@@ -44,7 +44,7 @@ Window: TODAY through TODAY + 6 months. One JSON file per venue in `chicago/show
 | buddy-guys-legends.json | Buddy Guy's Legends, South Loop | buddyguy.com/events (browser; Etix links, about 5 weeks out). Drop the weekly Wednesday "Host the Jam" nights. Buddy Guy's own January residency is announced in December on buddyguy.com/january-info (check the weekdays match the coming January; the page can show last year's dates). Added Oct 20, 2026 |
 | jazz-showcase.json | Jazz Showcase, South Loop | jazzshowcase.com/calendar |
 | soldier-field.json | Soldier Field, South Loop | soldierfield.com/events. Drop Bears/Fire games. Summer stadium shows only |
-| huntington-bank-pavilion.json | Huntington Bank Pavilion, Northerly Island | huntingtonbankpavilion.com. Seasonal (about May to September) |
+| huntington-bank-pavilion.json | Huntington Bank Pavilion, Northerly Island | huntingtonbankpavilion.com now redirects to thepavilionatnortherlyisland.com ("The Pavilion at Northerly Island", Oct 2026). Seasonal (about May to September) |
 | pritzker-pavilion.json | Jay Pritzker Pavilion, The Loop | Millennium Park / Grant Park Music Festival. Summer only; drop film nights |
 | space.json | SPACE, Evanston (North Suburbs) | evanstonspace.com loads by script; browser, Songkick. Out of Space / Cahn Auditorium shows only if held at SPACE itself |
 | studio5.json | Studio5, Evanston | studio5.dance calendar is script-only; the real listing is the Ticket Tailor org page tickettailor.com/events/studio5performingartscenter. "Live at Studio5!" Friday jazz/world series, doors 30 min before; the season is posted a couple of months ahead. Drop Practical Theatre Company runs, readings and online streams. Added Oct 20, 2026 |
