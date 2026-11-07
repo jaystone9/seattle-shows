@@ -2,46 +2,6 @@
   {
     "venue": "Radius",
     "room": null,
-    "title": "ATLiens (with Borgore b2b Benda, Pyke b2b 7L, Usaybflow)",
-    "date": "2026-10-30",
-    "doors": "22:00",
-    "start": null,
-    "url": "https://www.axs.com/events/1534963/atliens-tickets?skin=radius",
-    "status": null
-  },
-  {
-    "venue": "Radius",
-    "room": null,
-    "title": "TEN",
-    "date": "2026-11-01",
-    "doors": "18:30",
-    "start": null,
-    "url": "https://www.axs.com/events/1580817/teny-us-showcase-tour-tickets?skin=radius",
-    "status": null
-  },
-  {
-    "venue": "Radius",
-    "room": null,
-    "title": "Kaskade",
-    "date": "2026-11-06",
-    "doors": "22:00",
-    "start": null,
-    "url": "https://www.axs.com/events/1605551/kaskade-tickets?skin=radius",
-    "status": null
-  },
-  {
-    "venue": "Radius",
-    "room": null,
-    "title": "Rossi. (with Dean Turnley, Moorhaus)",
-    "date": "2026-11-06",
-    "doors": "22:00",
-    "start": null,
-    "url": "https://www.axs.com/events/1622833/rossi-tickets?skin=radius",
-    "status": null
-  },
-  {
-    "venue": "Radius",
-    "room": null,
     "title": "Carl Cox (with Toman, Kidoo, Andino)",
     "date": "2026-11-07",
     "doors": "22:00",
@@ -192,11 +152,91 @@
   {
     "venue": "Radius",
     "room": null,
+    "title": "Green Velvet (with Carl Craig, HoneyLuv)",
+    "date": "2026-12-26",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43504909-green-velvet-at-radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "I Hate Models",
+    "date": "2026-12-27",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43504913-i-hate-models-at-radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Disco Dom",
+    "date": "2026-12-28",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43503770-disco-dom-at-radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "DJ Harvey",
+    "date": "2026-12-28",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43504914-dj-harvey-at-radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Beltran",
+    "date": "2026-12-30",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43504918-beltran-at-radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Gene Farris",
+    "date": "2026-12-31",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43504922-gene-farris-at-radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
     "title": "D.O.D",
     "date": "2026-12-31",
     "doors": "22:00",
     "start": null,
     "url": "https://www.axs.com/events/1666251/dod-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Nico Moreno (with NOVAH)",
+    "date": "2027-01-01",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43504924-nico-moreno-at-radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "Odd Mob (with Murphy's Law)",
+    "date": "2027-01-02",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43504926-odd-mob-at-radius",
     "status": null
   },
   {
@@ -317,6 +357,16 @@
     "doors": "22:00",
     "start": null,
     "url": "https://www.axs.com/events/1670881/layz-tickets?skin=radius",
+    "status": null
+  },
+  {
+    "venue": "Radius",
+    "room": null,
+    "title": "LSDREAM (with Seth David)",
+    "date": "2027-03-27",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43501115-lsdream-at-radius",
     "status": null
   }
 ]

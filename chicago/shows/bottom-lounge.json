@@ -2,56 +2,6 @@
   {
     "venue": "Bottom Lounge",
     "room": null,
-    "title": "Pig Destroyer (with Necrot, Eternal Champion, Lair of the Minotaur)",
-    "date": "2026-10-30",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://www.ticketweb.com/event/three-floyds-30th-anniversary-event-bottom-lounge-tickets/15021343",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
-    "title": "Lilyisthatyou (with James the Seventh)",
-    "date": "2026-10-31",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/lilyisthatyou-the-flowers-bottom-lounge-tickets/14862513",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
-    "title": "Boston Manor (with Spaced, Ben Quad)",
-    "date": "2026-11-04",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/boston-manor-spaced-bottom-lounge-tickets/14940263",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
-    "title": "Static Dress (with I Promised The World, Car Underwater, Sherane)",
-    "date": "2026-11-05",
-    "doors": "17:30",
-    "start": "18:30",
-    "url": "https://www.ticketweb.com/event/static-dress-injury-bottom-lounge-tickets/15031013",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
-    "title": "Weatherday (with Sports., Rosacade, Cable-Knit)",
-    "date": "2026-11-06",
-    "doors": "19:00",
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/-weatherday-sports-bottom-lounge-tickets/14839013",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
     "title": "Post Sex Nachos (with Scarlet Demore, Hana Eid)",
     "date": "2026-11-07",
     "doors": "18:00",
@@ -122,6 +72,26 @@
   {
     "venue": "Bottom Lounge",
     "room": null,
+    "title": "Your Arms Are My Cocoon (with Febuary, Sadness, Blind Equation, Abriction)",
+    "date": "2026-11-29",
+    "doors": "17:00",
+    "start": "17:30",
+    "url": "https://bottomlounge.com/shows/your-arms-are-my-cocoon-november-29-2026-795953/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
+    "title": "FEM&M (with astrid, milkypossum, Charloux)",
+    "date": "2026-12-04",
+    "doors": "17:30",
+    "start": "18:30",
+    "url": "https://bottomlounge.com/shows/fem-m-x-astrid-emo-girls-vs-rave-girls-december-04-2026-795119/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
     "title": "Mondo Cozmo",
     "date": "2026-12-05",
     "doors": "19:00",
@@ -172,6 +142,16 @@
   {
     "venue": "Bottom Lounge",
     "room": null,
+    "title": "KAMIJO",
+    "date": "2027-01-31",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://bottomlounge.com/shows/kamijo-bloodline-world-tour-january-31-2027-792898/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
     "title": "Saxsquatch",
     "date": "2027-02-12",
     "doors": "19:00",
@@ -187,6 +167,26 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://bottomlounge.com/shows/saxsquatch-the-conspiracy-theory-tour-february-13-2027-778257/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
+    "title": "galdive & rum.gold",
+    "date": "2027-02-18",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://bottomlounge.com/shows/galdive-rum-gold-a-friend-tour-february-18-2027-761676/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
+    "title": "Caskets (with Nerv, True North)",
+    "date": "2027-02-20",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://bottomlounge.com/shows/caskets-february-20-2027-761081/",
     "status": null
   },
   {
@@ -237,6 +237,26 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://bottomlounge.com/shows/alex-sampson-april-02-2027-761086/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
+    "title": "The Palms",
+    "date": "2027-04-20",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://bottomlounge.com/shows/the-palms-april-20-2027-792712/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
+    "title": "Broken By The Scream",
+    "date": "2027-05-07",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://bottomlounge.com/shows/broken-by-the-scream-may-07-2027-792693/",
     "status": null
   }
 ]

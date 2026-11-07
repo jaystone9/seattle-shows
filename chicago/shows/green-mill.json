@@ -2,26 +2,6 @@
   {
     "venue": "Green Mill",
     "room": null,
-    "title": "The Model Citizens",
-    "date": "2026-10-30",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
-    "title": "Nick Mazzarella Quintet",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://greenmilljazz.com/calendar/",
-    "status": null
-  },
-  {
-    "venue": "Green Mill",
-    "room": null,
     "title": "Jenny Scheinman's All Species Parade",
     "date": "2026-11-07",
     "doors": null,
@@ -94,6 +74,26 @@
     "room": null,
     "title": "Jerry Weldon/Dave Schumacher Organ Quartet",
     "date": "2026-11-28",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://greenmilljazz.com/calendar/",
+    "status": null
+  },
+  {
+    "venue": "Green Mill",
+    "room": null,
+    "title": "The Chicago Soul Jazz Collective (with LaShera Ellis)",
+    "date": "2026-12-04",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://greenmilljazz.com/calendar/",
+    "status": null
+  },
+  {
+    "venue": "Green Mill",
+    "room": null,
+    "title": "The Chicago Soul Jazz Collective (with Dee Alexander)",
+    "date": "2026-12-05",
     "doors": null,
     "start": "20:00",
     "url": "https://greenmilljazz.com/calendar/",

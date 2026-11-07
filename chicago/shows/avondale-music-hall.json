@@ -2,21 +2,21 @@
   {
     "venue": "Avondale Music Hall",
     "room": null,
-    "title": "Sophie Hunter",
-    "date": "2026-11-06",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://wl.eventim.us/event/sophie-hunter/696284?afflky=AvondaleMusicHall",
-    "status": null
-  },
-  {
-    "venue": "Avondale Music Hall",
-    "room": null,
     "title": "Jack Jr",
     "date": "2026-11-07",
     "doors": "19:00",
     "start": "20:00",
     "url": "https://wl.eventim.us/event/jack-jr/701670?afflky=AvondaleMusicHall",
+    "status": null
+  },
+  {
+    "venue": "Avondale Music Hall",
+    "room": null,
+    "title": "ApolloRed1",
+    "date": "2026-11-10",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://app.discotech.me/events/38289407-apollored1-at-avondale-music-hall",
     "status": null
   },
   {
@@ -102,7 +102,7 @@
   {
     "venue": "Avondale Music Hall",
     "room": null,
-    "title": "Bodysnatcher",
+    "title": "Bodysnatcher (with Psycho-Frame, Volatile Ways, Gideon)",
     "date": "2026-12-05",
     "doors": "18:00",
     "start": "19:00",

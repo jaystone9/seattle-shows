@@ -1,76 +1,6 @@
 [
   {
     "venue": "The Crocodile",
-    "room": "Hotel Crocodile",
-    "title": "Psyched! Radio SF & Hotel Crocodile Present: Satana Satana (Argentina)",
-    "date": "2026-10-30",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://calendar.thecrocodile.com/shows/psyched-radio-sf-hotel-crocodile-present-satana-satana-argentina-30-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Ax and the Hatchetmen: The Late Checkout Tour 2026",
-    "date": "2026-10-31",
-    "doors": "17:00",
-    "start": "18:00",
-    "url": "https://calendar.thecrocodile.com/shows/ax-and-the-hatchetmen-the-late-checkout-tour-2026-31-oct",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Fox Stevenson / Mystery Skulls",
-    "date": "2026-11-02",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://calendar.thecrocodile.com/shows/fox-stevenson-mystery-skulls-02-nov",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Bahamas: Industrial Sport & Sound Tour",
-    "date": "2026-11-03",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://calendar.thecrocodile.com/shows/bahamas-industrial-sport-sound-tour-03-nov",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Plini - An Unnameable Desire North American Tour (with Night Verses, Portraits)",
-    "date": "2026-11-04",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://calendar.thecrocodile.com/shows/plini-an-unnameable-desire-north-american-tour-w-night-verses-portraits-04-nov",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "The Tallest Man On Earth (with Andrea von Kampen)",
-    "date": "2026-11-05",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://calendar.thecrocodile.com/shows/the-tallest-man-on-earth-05-nov",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "JOSEPH - 10 Year Anniversary of \"I'm Alone, No You're Not\"",
-    "date": "2026-11-06",
-    "doors": "17:00",
-    "start": "18:00",
-    "url": "https://calendar.thecrocodile.com/shows/joseph-i-m-alone-no-you-re-not-06-nov",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
     "room": null,
     "title": "An Evening With Railroad Earth",
     "date": "2026-11-07",
@@ -242,6 +172,36 @@
   {
     "venue": "The Crocodile",
     "room": null,
+    "title": "Bone Thugs-N-Harmony",
+    "date": "2027-01-08",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/bone-thugs-n-harmony-08-jan",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Ray Lau (early show)",
+    "date": "2027-01-29",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://calendar.thecrocodile.com/shows/ray-lau-29-jan",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Ray Lau (late show)",
+    "date": "2027-01-29",
+    "doors": null,
+    "start": "21:30",
+    "url": "https://calendar.thecrocodile.com/shows/ray-lau-29-jan-dfb65",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
     "title": "Whitey Morgan and the 78's",
     "date": "2027-02-04",
     "doors": "19:00",
@@ -312,11 +272,21 @@
   {
     "venue": "The Crocodile",
     "room": null,
-    "title": "Penelope Road",
+    "title": "Penelope Road (with The Takes)",
     "date": "2027-03-09",
     "doors": "19:00",
     "start": "20:00",
     "url": "https://calendar.thecrocodile.com/shows/penelope-road-09-mar",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Noah Gundersen: Rites of Spring Tour",
+    "date": "2027-03-10",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/noah-gundersen-10-mar",
     "status": null
   },
   {
@@ -372,6 +342,16 @@
   {
     "venue": "The Crocodile",
     "room": null,
+    "title": "Death from Above 1979",
+    "date": "2027-03-31",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43231956-death-from-above-1979-at-crocodile",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
     "title": "Thao - \"Show Me\" Tour",
     "date": "2027-04-03",
     "doors": "17:00",
@@ -397,6 +377,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://calendar.thecrocodile.com/shows/deca-joins-23-apr",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "The Chameleons",
+    "date": "2027-05-01",
+    "doors": null,
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/the-chameleons-01-may",
     "status": null
   }
 ]

@@ -2,56 +2,6 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Radiator Hospital (with Dusk, Able Baker)",
-    "date": "2026-11-01",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://wl.seetickets.us/event/radiator-hospital/697266",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "June Henry (with chrysalis, Hannah Sandoz)",
-    "date": "2026-11-02",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://wl.seetickets.us/event/june-henry/701483",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Isabel Dumaa (with Emily How)",
-    "date": "2026-11-04",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://wl.seetickets.us/event/isabel-dumaa/705908",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Louden Swain (with roseli)",
-    "date": "2026-11-05",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://wl.seetickets.us/event/louden-swain/695687",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Violet Crime (with JJ Smith, The King of Mars, Mikaela Brielle)",
-    "date": "2026-11-06",
-    "doors": "19:00",
-    "start": "19:30",
-    "url": "https://wl.seetickets.us/event/violet-crime/706667",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
     "title": "Frank Maza featuring Javier Limon",
     "date": "2026-11-07",
     "doors": "16:00",
@@ -142,7 +92,7 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Surfing for Daisy (with Belle and Chain)",
+    "title": "Surfing for Daisy (with Belle and Chain, Painted Canyon)",
     "date": "2026-11-17",
     "doors": "19:00",
     "start": "20:00",
@@ -242,7 +192,7 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Chris Simpson (of Mineral)",
+    "title": "Chris Simpson (of Mineral) (with Sunset Contender)",
     "date": "2026-12-08",
     "doors": "18:00",
     "start": "19:00",
@@ -252,7 +202,7 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Chris Farren",
+    "title": "Chris Farren (with Gay Meat)",
     "date": "2026-12-10",
     "doors": "18:00",
     "start": "19:00",
@@ -282,7 +232,7 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "The Dog & Everything (with Champions)",
+    "title": "The Dog & Everything (with Andrew Volpe from Ludo, Champions)",
     "date": "2026-12-19",
     "doors": "18:00",
     "start": "19:00",
@@ -307,6 +257,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://wl.seetickets.us/event/missio/701943",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Choose Your Character (with Bardware, Indoorsmen)",
+    "date": "2027-01-22",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/choose-your-character/709317",
     "status": null
   },
   {
@@ -377,6 +337,26 @@
     "doors": "18:00",
     "start": "19:00",
     "url": "https://wl.seetickets.us/event/baby-bugs/685984",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Rec Hall",
+    "date": "2027-04-12",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/rec-hall/710058",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Keo",
+    "date": "2027-05-07",
+    "doors": "18:00",
+    "start": "19:30",
+    "url": "https://wl.seetickets.us/event/keo/707047",
     "status": null
   }
 ]

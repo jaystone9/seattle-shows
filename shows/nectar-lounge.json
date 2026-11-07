@@ -2,46 +2,6 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
-    "title": "Lindstrom & The Limit (with Waltzerr) (Early Show)",
-    "date": "2026-10-30",
-    "doors": null,
-    "start": "17:30",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/lindstrom-the-limit-with-waltzerr-early-show--204803",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "Daley (with Aryana León)",
-    "date": "2026-11-01",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/daley-with-aryana-le-n-187401",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "Skeleton Crewe (2 sets)",
-    "date": "2026-11-05",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/skeleton-crewe-2-sets--191365",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "MaRLo (with Johnny Monsoon b2b Oxymoron, Madlon b2b Bella Rose, Just J b2b Dr Casa, Cancel the Couch b2b J-Note)",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/marlo-plus-johnny-monsoon-b2b-oxymoron-madlon-b2b-bella-rose-just-j-b2b-dr-casa-cancel-the-couch-b2b-j-note-201955",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
     "title": "Queen Mother (with Coool Babies)",
     "date": "2026-11-07",
     "doors": null,
@@ -332,11 +292,41 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
+    "title": "Knowmads (with Karma Knows)",
+    "date": "2026-12-27",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/knowmads-with-karma-knows-213959",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
+    "title": "Camaira Metz (with Charles Zaid, Kina Park)",
+    "date": "2027-01-07",
+    "doors": null,
+    "start": "18:30",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/camaira-metz-with-charles-zaid-kina-park-213960",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
     "title": "Clinton Fearon: A Birthday Celebration (with DJ Kid Hops, Surprise Special Guests)",
     "date": "2027-01-16",
     "doors": null,
     "start": "20:00",
     "url": "https://www.tixr.com/groups/nectarlounge/events/clinton-fearon-a-birthday-celebration-plus-dj-kid-hops-kexp-and-surprise-special-guests-206469",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
+    "title": "Banshee Tree (with Panda Conspiracy, Left on Tenth)",
+    "date": "2027-01-24",
+    "doors": null,
+    "start": "18:30",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/banshee-tree-with-panda-conspiracy-and-left-on-tenth-212303",
     "status": null
   },
   {
@@ -367,6 +357,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.tixr.com/groups/nectarlounge/events/l-a-b-with-seven-suns-205384",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
+    "title": "Charlie Hunter & Ella Feingold (Trio)",
+    "date": "2027-02-23",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/charlie-hunter-ella-feingold-trio--212922",
     "status": null
   },
   {

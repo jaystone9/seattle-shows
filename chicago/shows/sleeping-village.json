@@ -2,61 +2,11 @@
   {
     "venue": "Sleeping Village",
     "room": null,
-    "title": "The Symposium (with mtvghosts)",
-    "date": "2026-10-30",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://link.dice.fm/M3e0586b9873",
-    "status": "sold out"
-  },
-  {
-    "venue": "Sleeping Village",
-    "room": null,
-    "title": "Wine Lips (with Flesh Panthers)",
-    "date": "2026-11-03",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://link.dice.fm/X14f779c3bb1",
-    "status": null
-  },
-  {
-    "venue": "Sleeping Village",
-    "room": null,
-    "title": "Stratøs (with Mansa, Illville Vanguard)",
-    "date": "2026-11-05",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://link.dice.fm/s466f20af0ef",
-    "status": null
-  },
-  {
-    "venue": "Sleeping Village",
-    "room": null,
-    "title": "Leenalchi (with Clickbait)",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://link.dice.fm/V7f1d2b685d1",
-    "status": "sold out"
-  },
-  {
-    "venue": "Sleeping Village",
-    "room": null,
     "title": "Ultra Lights (with Free Time, Head)",
     "date": "2026-11-08",
     "doors": null,
     "start": "21:00",
     "url": "https://link.dice.fm/a5a96de270cf",
-    "status": null
-  },
-  {
-    "venue": "Sleeping Village",
-    "room": null,
-    "title": "Leenalchi",
-    "date": "2026-11-09",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://do312.com/events/2026/11/9/leenalchi-tickets",
     "status": null
   },
   {
@@ -72,7 +22,7 @@
   {
     "venue": "Sleeping Village",
     "room": null,
-    "title": "Marci",
+    "title": "Marci (with Chillona)",
     "date": "2026-11-11",
     "doors": null,
     "start": "21:00",
@@ -142,11 +92,31 @@
   {
     "venue": "Sleeping Village",
     "room": null,
+    "title": "Tommy Bravos (with Uma Bloo, Liska!)",
+    "date": "2026-11-28",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://www.songkick.com/concerts/43491216-tommy-bravos-at-sleeping-village",
+    "status": null
+  },
+  {
+    "venue": "Sleeping Village",
+    "room": null,
     "title": "Daisychain (with Machīn, Así Así)",
     "date": "2026-12-05",
     "doors": null,
     "start": "21:00",
     "url": "https://link.dice.fm/ma3a4bac0712",
+    "status": null
+  },
+  {
+    "venue": "Sleeping Village",
+    "room": null,
+    "title": "Rad Payoff",
+    "date": "2026-12-08",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.songkick.com/concerts/43486741-rad-payoff-at-sleeping-village",
     "status": null
   },
   {

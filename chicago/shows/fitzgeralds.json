@@ -2,56 +2,6 @@
   {
     "venue": "FitzGerald's",
     "room": null,
-    "title": "Greasy Gravy (with Tom V. Ray)",
-    "date": "2026-10-30",
-    "doors": "17:00",
-    "start": "17:30",
-    "url": "https://www.ticketweb.com/event/greasy-gravy-w-special-guest-fitzgeralds-sidebar-tickets/15053783",
-    "status": null
-  },
-  {
-    "venue": "FitzGerald's",
-    "room": null,
-    "title": "Night Moves (with Astrachan)",
-    "date": "2026-10-30",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/night-moves-w-special-guest-fitzgeralds-nightclub-tickets/14312064",
-    "status": null
-  },
-  {
-    "venue": "FitzGerald's",
-    "room": null,
-    "title": "Bardware",
-    "date": "2026-10-30",
-    "doors": "19:30",
-    "start": "20:30",
-    "url": "https://www.ticketweb.com/event/bardware-live-in-the-sidebar-fitzgeralds-sidebar-tickets/14312264",
-    "status": null
-  },
-  {
-    "venue": "FitzGerald's",
-    "room": null,
-    "title": "Billy Branch & The Sons of Blues",
-    "date": "2026-11-03",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://www.ticketweb.com/event/wdcb-bluesday-tuesday-w-host-fitzgeralds-nightclub-tickets/14369294",
-    "status": null
-  },
-  {
-    "venue": "FitzGerald's",
-    "room": null,
-    "title": "Charlie Parr (with Ross Thorn)",
-    "date": "2026-11-06",
-    "doors": "19:30",
-    "start": "20:30",
-    "url": "https://www.ticketweb.com/event/charlie-parr-rooming-house-record-fitzgeralds-nightclub-tickets/14995613",
-    "status": null
-  },
-  {
-    "venue": "FitzGerald's",
-    "room": null,
     "title": "Paul Cebar Tomorrow Sound",
     "date": "2026-11-07",
     "doors": "19:30",
@@ -72,6 +22,16 @@
   {
     "venue": "FitzGerald's",
     "room": null,
+    "title": "Chris Greene Quartet",
+    "date": "2026-11-11",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://concerts.consequence.net/events/chris-greene-quartet-at-fitzgeralds-sidebar-on-2026-11-11-19-00",
+    "status": null
+  },
+  {
+    "venue": "FitzGerald's",
+    "room": null,
     "title": "Frank Catalano: Celebrates Eddie Harris",
     "date": "2026-11-11",
     "doors": "19:30",
@@ -87,6 +47,16 @@
     "doors": "19:00",
     "start": "19:30",
     "url": "https://www.ticketweb.com/event/yarn-w-special-guest-terry-fitzgeralds-nightclub-tickets/15029353",
+    "status": null
+  },
+  {
+    "venue": "FitzGerald's",
+    "room": null,
+    "title": "The Hueseros",
+    "date": "2026-11-12",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://concerts.consequence.net/events/pachanka-music-presents-the-hueseros-at-fitzgeralds-sidebar-on-2026-11-12-19-00",
     "status": null
   },
   {
@@ -242,6 +212,16 @@
   {
     "venue": "FitzGerald's",
     "room": null,
+    "title": "Sam Day",
+    "date": "2026-12-18",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43494504-sam-day-at-fitzgeralds",
+    "status": null
+  },
+  {
+    "venue": "FitzGerald's",
+    "room": null,
     "title": "Classical Blast: Dark Side of the Yule",
     "date": "2026-12-27",
     "doors": "12:00",
@@ -297,6 +277,16 @@
     "doors": "17:00",
     "start": "21:00",
     "url": "https://www.ticketweb.com/event/saturday-night-in-the-sidebar-fitzgeralds-sidebar-tickets/14374594",
+    "status": null
+  },
+  {
+    "venue": "FitzGerald's",
+    "room": null,
+    "title": "Jon Bryant",
+    "date": "2027-02-03",
+    "doors": "20:30",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43489759-jon-bryant-at-fitzgeralds",
     "status": null
   }
 ]

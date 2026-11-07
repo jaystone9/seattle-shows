@@ -2,66 +2,6 @@
   {
     "venue": "Cobra Lounge",
     "room": null,
-    "title": "Snuffed (with Daybreaker, Mano A Mano, Don't Front, New Found Power, Lavender)",
-    "date": "2026-10-30",
-    "doors": null,
-    "start": "18:30",
-    "url": "https://do312.com/events/2026/10/30/beaver-s-halloween-26-snuffed-daybreaker-mano-a-mano-don-t-front-new-found-power-lavender-tickets",
-    "status": null
-  },
-  {
-    "venue": "Cobra Lounge",
-    "room": null,
-    "title": "Friday Pilots Club",
-    "date": "2026-11-01",
-    "doors": null,
-    "start": "18:00",
-    "url": "https://do312.com/events/2026/11/1/friday-pilots-club-tickets",
-    "status": "sold out"
-  },
-  {
-    "venue": "Cobra Lounge",
-    "room": null,
-    "title": "Archer Oh (with Integra Pink)",
-    "date": "2026-11-02",
-    "doors": null,
-    "start": "18:00",
-    "url": "https://do312.com/events/2026/11/2/archer-oh-integra-pink-tickets",
-    "status": null
-  },
-  {
-    "venue": "Cobra Lounge",
-    "room": null,
-    "title": "Careful Gaze",
-    "date": "2026-11-03",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://do312.com/events/2026/11/3/careful-gaze-tickets",
-    "status": null
-  },
-  {
-    "venue": "Cobra Lounge",
-    "room": null,
-    "title": "Thoughts on Bowling (with Computer, Softly, HummusVacuum)",
-    "date": "2026-11-05",
-    "doors": null,
-    "start": "18:00",
-    "url": "https://do312.com/events/2026/11/5/thoughts-on-bowling-computer-softly-hummusvacuum-tickets",
-    "status": null
-  },
-  {
-    "venue": "Cobra Lounge",
-    "room": null,
-    "title": "Ninth Key (with Away)",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://do312.com/events/2026/11/6/ninth-key-tickets",
-    "status": null
-  },
-  {
-    "venue": "Cobra Lounge",
-    "room": null,
     "title": "All Get Out (with Motherfolk, Saint Blonde)",
     "date": "2026-11-07",
     "doors": null,
@@ -97,7 +37,7 @@
     "doors": null,
     "start": "18:30",
     "url": "https://do312.com/events/2026/11/8/smush-tickets",
-    "status": null
+    "status": "cancelled"
   },
   {
     "venue": "Cobra Lounge",
@@ -137,6 +77,26 @@
     "doors": null,
     "start": "18:00",
     "url": "https://do312.com/events/2026/11/13/sunday-cruise-arcadia-grey-friend-tickets",
+    "status": null
+  },
+  {
+    "venue": "Cobra Lounge",
+    "room": null,
+    "title": "Vick Vapors",
+    "date": "2026-11-13",
+    "doors": "21:00",
+    "start": null,
+    "url": "https://songkick.com/concerts/43492270-vick-vapors-at-cobra-lounge",
+    "status": null
+  },
+  {
+    "venue": "Cobra Lounge",
+    "room": null,
+    "title": "Cliffhanger",
+    "date": "2026-11-14",
+    "doors": "15:00",
+    "start": null,
+    "url": "https://songkick.com/concerts/43468881-cliffhanger-at-cobra-lounge",
     "status": null
   },
   {
@@ -222,6 +182,36 @@
   {
     "venue": "Cobra Lounge",
     "room": null,
+    "title": "Full Nelson (with The Love Lost)",
+    "date": "2026-11-20",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://songkick.com/concerts/43489222-full-nelson-at-cobra-lounge",
+    "status": null
+  },
+  {
+    "venue": "Cobra Lounge",
+    "room": null,
+    "title": "Cxpital (with Hemlock Row)",
+    "date": "2026-11-21",
+    "doors": "21:00",
+    "start": null,
+    "url": "https://songkick.com/concerts/43492731-cxpital-at-cobra-lounge",
+    "status": null
+  },
+  {
+    "venue": "Cobra Lounge",
+    "room": null,
+    "title": "Pure Hatred",
+    "date": "2026-11-22",
+    "doors": "17:30",
+    "start": null,
+    "url": "https://songkick.com/concerts/43492732-pure-hatred-at-cobra-lounge",
+    "status": null
+  },
+  {
+    "venue": "Cobra Lounge",
+    "room": null,
     "title": "Devil Master (with Baazlvaat, Jail, Glorious Descent)",
     "date": "2026-11-24",
     "doors": null,
@@ -237,6 +227,16 @@
     "doors": null,
     "start": "18:00",
     "url": "https://do312.com/events/2026/11/25/the-mainliners-tickets",
+    "status": null
+  },
+  {
+    "venue": "Cobra Lounge",
+    "room": null,
+    "title": "Modele",
+    "date": "2026-11-27",
+    "doors": "21:00",
+    "start": null,
+    "url": "https://songkick.com/concerts/43492864-modele-at-cobra-lounge",
     "status": null
   },
   {
@@ -297,6 +297,26 @@
     "doors": null,
     "start": "18:00",
     "url": "https://do312.com/events/2026/12/10/laura-jane-grace-direct-hit-tickets",
+    "status": null
+  },
+  {
+    "venue": "Cobra Lounge",
+    "room": null,
+    "title": "Pretoria (with Street Dove)",
+    "date": "2026-12-11",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43492873-pretoria-at-cobra-lounge",
+    "status": null
+  },
+  {
+    "venue": "Cobra Lounge",
+    "room": null,
+    "title": "Bitter Thoughts (with Invasive)",
+    "date": "2026-12-11",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43484308-bitter-thoughts-at-cobra-lounge",
     "status": null
   },
   {
@@ -367,6 +387,16 @@
     "doors": null,
     "start": "19:00",
     "url": "https://do312.com/events/2026/12/30/gorilla-tuesday-the-raspberry-jams-sweetie-tickets",
+    "status": null
+  },
+  {
+    "venue": "Cobra Lounge",
+    "room": null,
+    "title": "Black Cross Hotel (with Sledgehammer, Vivid Vessel)",
+    "date": "2027-01-16",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43489471-black-cross-hotel-at-cobra-lounge",
     "status": null
   },
   {

@@ -2,16 +2,6 @@
   {
     "venue": "WaMu Theater",
     "room": null,
-    "title": "Jessie Reyez - A Little Vengeance Tour (with Faiza)",
-    "date": "2026-11-03",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.wamutheater.com/events/jessie-reyez-2026",
-    "status": null
-  },
-  {
-    "venue": "WaMu Theater",
-    "room": null,
     "title": "Sammy Virji (with Effy, TWOFACED)",
     "date": "2026-11-07",
     "doors": "19:00",
@@ -137,6 +127,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.wamutheater.com/events/2hollis-2027",
+    "status": null
+  },
+  {
+    "venue": "WaMu Theater",
+    "room": null,
+    "title": "Liquid Stranger (with Sully)",
+    "date": "2027-04-03",
+    "doors": null,
+    "start": null,
+    "url": "https://labs.songkick.com/concerts/43497779-liquid-stranger-at-wamu-theater",
     "status": null
   },
   {

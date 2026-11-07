@@ -2,56 +2,6 @@
   {
     "venue": "The Neptune Theatre",
     "room": null,
-    "title": "The Brothers Comatose",
-    "date": "2026-10-30",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/the-brothers-comatose/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
-    "title": "The Buena Vista Orchestra",
-    "date": "2026-10-31",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/the-buena-vista-orchestra/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
-    "title": "Big Star Quintet",
-    "date": "2026-11-04",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/big-star-quintet/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
-    "title": "Marc Broussard",
-    "date": "2026-11-05",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/marc-broussard/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
-    "title": "John Scofield Electrospective",
-    "date": "2026-11-06",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/john-scofield-electrospective/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
     "title": "Aterciopelados",
     "date": "2026-11-08",
     "doors": "19:00",
@@ -252,6 +202,16 @@
   {
     "venue": "The Neptune Theatre",
     "room": null,
+    "title": "Ray Lau",
+    "date": "2027-01-30",
+    "doors": null,
+    "start": null,
+    "url": "https://www.stgpresents.org/events/ray-lau/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
     "title": "Brandy Clark (with The Carlile Family Band)",
     "date": "2027-02-05",
     "doors": "19:00",
@@ -397,6 +357,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/sona-jobarteh/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
+    "title": "Elder",
+    "date": "2027-04-22",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/elder-2027/",
     "status": null
   },
   {

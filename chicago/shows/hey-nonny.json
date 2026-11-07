@@ -2,56 +2,6 @@
   {
     "venue": "Hey Nonny",
     "room": null,
-    "title": "Rare Element",
-    "date": "2026-10-30",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/rare-element-30-oct",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "Lunar Ticks",
-    "date": "2026-10-31",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/lunar-ticks-31-oct-c3776",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "Goran Ivanovic",
-    "date": "2026-11-04",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/goran-ivanovic-04-nov",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "Frank Catalano: Miles, Coltrane and Tony Bennett Centennial Celebration",
-    "date": "2026-11-05",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/frank-catalano-s-miles-coltrane-and-tony-bennett-centennial-celebration-05-nov",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "Tom West (with Ryan Burns)",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/tom-west-w-ryan-burns-supporting-06-nov",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
     "title": "Pino Farina Band",
     "date": "2026-11-07",
     "doors": null,
@@ -97,6 +47,16 @@
     "doors": null,
     "start": "19:30",
     "url": "https://www.heynonny.com/shows/mr-blotto-13-nov",
+    "status": null
+  },
+  {
+    "venue": "Hey Nonny",
+    "room": null,
+    "title": "Demi Clara",
+    "date": "2026-11-14",
+    "doors": null,
+    "start": "21:30",
+    "url": "https://app.opendate.io/e/nightcap-music-series-with-demi-clara-november-14-2026-700215",
     "status": null
   },
   {

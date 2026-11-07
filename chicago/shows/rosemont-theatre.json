@@ -2,36 +2,6 @@
   {
     "venue": "Rosemont Theatre",
     "room": null,
-    "title": "Grupo Niche (with Adolescentes Orquesta)",
-    "date": "2026-10-30",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketmaster.com/event/040064969A1C8442",
-    "status": null
-  },
-  {
-    "venue": "Rosemont Theatre",
-    "room": null,
-    "title": "Arcángel",
-    "date": "2026-10-31",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketmaster.com/event/040064AD908D649F",
-    "status": null
-  },
-  {
-    "venue": "Rosemont Theatre",
-    "room": null,
-    "title": "Pedro Fernández",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketmaster.com/event/040065059B3E74B8",
-    "status": null
-  },
-  {
-    "venue": "Rosemont Theatre",
-    "room": null,
     "title": "Pimpinela",
     "date": "2026-11-15",
     "doors": null,
@@ -67,6 +37,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.ticketmaster.com/event/04006555B83D8703",
+    "status": null
+  },
+  {
+    "venue": "Rosemont Theatre",
+    "room": null,
+    "title": "TQM 2027: Liberación, Ladrón, Los Fugitivos",
+    "date": "2027-02-13",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketmaster.com/tqm-2027-liberacion-ladron-los-fugitivos-rosemont-illinois-02-13-2027/event/0400656494CB4953",
     "status": null
   },
   {
@@ -127,6 +107,26 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.ticketmaster.com/event/040065319815C1C0",
+    "status": null
+  },
+  {
+    "venue": "Rosemont Theatre",
+    "room": null,
+    "title": "Yuri & Lucero",
+    "date": "2027-05-01",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketmaster.com/yuri-lucero-entre-amigas-tour-rosemont-illinois-05-01-2027/event/04006506BA39BA05",
+    "status": null
+  },
+  {
+    "venue": "Rosemont Theatre",
+    "room": null,
+    "title": "Jesse y Joy",
+    "date": "2027-05-07",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketmaster.com/jesse-y-joy-el-amor-de-rosemont-illinois-05-07-2027/event/0400655CC003A66D",
     "status": null
   }
 ]

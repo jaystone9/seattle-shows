@@ -2,56 +2,6 @@
  {
   "venue": "Substation",
   "room": null,
-  "title": "TR/ST (DJ Set) & Marie Davidson (with Dark Chisme, MØAA)",
-  "date": "2026-10-30",
-  "doors": null,
-  "start": "21:00",
-  "url": "https://www.eventbrite.com/e/trst-dj-set-x-marie-davidson-x-dark-chisme-x-maa-tickets-1995508424415",
-  "status": null
- },
- {
-  "venue": "Substation",
-  "room": null,
-  "title": "The Gaslamp Killer (with Hünter)",
-  "date": "2026-10-31",
-  "doors": null,
-  "start": "22:00",
-  "url": "https://www.eventbrite.com/e/the-gaslamp-killer-tickets-2001083432414",
-  "status": null
- },
- {
-  "venue": "Substation",
-  "room": null,
-  "title": "Cut Copy (DJ Set) (with Robin Burrowes)",
-  "date": "2026-11-04",
-  "doors": null,
-  "start": "21:00",
-  "url": "https://www.eventbrite.com/e/cut-copy-dj-set-tickets-1986264694169",
-  "status": null
- },
- {
-  "venue": "Substation",
-  "room": null,
-  "title": "Izzy Vadim (with crysomemore, Slim Chance)",
-  "date": "2026-11-05",
-  "doors": null,
-  "start": "21:00",
-  "url": "https://www.eventbrite.com/e/izzy-vadim-tickets-1989611724226",
-  "status": null
- },
- {
-  "venue": "Substation",
-  "room": null,
-  "title": "Riot Ten (with MVRDA, Vibrant Illusion, Kaime)",
-  "date": "2026-11-06",
-  "doors": null,
-  "start": "22:00",
-  "url": "https://www.eventbrite.com/e/riot-ten-tickets-1994518410256",
-  "status": null
- },
- {
-  "venue": "Substation",
-  "room": null,
   "title": "Lilyisthatyou (with James the Seventh)",
   "date": "2026-11-07",
   "doors": null,
@@ -302,6 +252,16 @@
  {
   "venue": "Substation",
   "room": null,
+  "title": "Anaya",
+  "date": "2026-12-10",
+  "doors": "21:00",
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43504683-anaya-at-substation",
+  "status": null
+ },
+ {
+  "venue": "Substation",
+  "room": null,
   "title": "Jantsen (with Chozen, BLOSSM, Sunshine Bloomed)",
   "date": "2026-12-11",
   "doors": null,
@@ -422,6 +382,16 @@
  {
   "venue": "Substation",
   "room": null,
+  "title": "Jacques Greene",
+  "date": "2027-02-11",
+  "doors": null,
+  "start": "21:00",
+  "url": "https://www.eventbrite.com/e/2004248334722",
+  "status": null
+ },
+ {
+  "venue": "Substation",
+  "room": null,
   "title": "Spag Heddy (with Badklaat, Kattana, Guy LeFoux)",
   "date": "2027-02-13",
   "doors": null,
@@ -442,6 +412,16 @@
  {
   "venue": "Substation",
   "room": null,
+  "title": "1tbsp",
+  "date": "2027-02-26",
+  "doors": null,
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43504690-1tbsp-at-substation",
+  "status": null
+ },
+ {
+  "venue": "Substation",
+  "room": null,
   "title": "BEHERIT (with Hulder, Iron Firmament, VIS)",
   "date": "2027-03-26",
   "doors": null,
@@ -457,6 +437,26 @@
   "doors": "19:00",
   "start": "19:30",
   "url": "https://www.eventbrite.com/e/waax-tickets-1998251547169",
+  "status": null
+ },
+ {
+  "venue": "Substation",
+  "room": null,
+  "title": "HENGE",
+  "date": "2027-05-01",
+  "doors": null,
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43269608-henge-at-substation",
+  "status": null
+ },
+ {
+  "venue": "Substation",
+  "room": null,
+  "title": "HENGE",
+  "date": "2027-05-02",
+  "doors": null,
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43501021-henge-at-substation",
   "status": null
  }
 ]

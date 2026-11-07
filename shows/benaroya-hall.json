@@ -1,46 +1,6 @@
 [
   {
     "venue": "Benaroya Hall",
-    "room": null,
-    "title": "Music of Remembrance: Journeys",
-    "date": "2026-11-01",
-    "doors": null,
-    "start": "15:00",
-    "url": "https://musicofremembrance.org/show-details/journeys",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
-    "room": "Taper Auditorium",
-    "title": "Seattle Symphony: Leila Josefowicz Returns",
-    "date": "2026-11-05",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://bachtrack.com/concert-event/leila-josefowicz-returns-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-5-november-2026/436347",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
-    "room": "Raisbeck Music Center",
-    "title": "The World of György Kurtág (Lucy Fitz Gibbon, Ryan MacEvoy McCullough, Will Langlie-Miletich)",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "18:30",
-    "url": "https://bachtrack.com/concert-event/the-world-of-gyorgy-kurtag-benaroya-hall-raisbeck-music-center-6-november-2026/436352",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
-    "room": "Raisbeck Music Center",
-    "title": "The World of György Kurtág (Lucy Fitz Gibbon, Ryan MacEvoy McCullough, Will Langlie-Miletich)",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "20:30",
-    "url": "https://bachtrack.com/concert-event/the-world-of-gyorgy-kurtag-benaroya-hall-raisbeck-music-center-6-november-2026/436352",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
     "room": "Taper Auditorium",
     "title": "Seattle Symphony: Leila Josefowicz Returns",
     "date": "2026-11-07",
@@ -587,6 +547,16 @@
     "doors": null,
     "start": "19:30",
     "url": "https://bachtrack.com/concert-event/shostakovichs-10th-symphony-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-29-april-2027/436549",
+    "status": null
+  },
+  {
+    "venue": "Benaroya Hall",
+    "room": null,
+    "title": "Andrew McMahon",
+    "date": "2027-05-07",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://songkick.com/concerts/43380070-andrew-mcmahon-at-benaroya-hall",
     "status": null
   }
 ]

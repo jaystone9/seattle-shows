@@ -1,692 +1,682 @@
 [
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "MARIS",
-  "date": "2026-10-30",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/10-30-2026-maris/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "DITZ (with Ganser, Gloin)",
-  "date": "2026-11-01",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-01-2026-ditz-uk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Man/Woman/Chainsaw (with Starcharm)",
-  "date": "2026-11-02",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-02-2026-man-woman-chainsaw/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Jesse Gold (with Jeremy Passion)",
-  "date": "2026-11-03",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-03-2026-jesse-gold/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Fabrizio (with Colette Elyse)",
-  "date": "2026-11-04",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-04-2026-fabrizio/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Tanner Dane (with Herons)",
-  "date": "2026-11-05",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-05-2026-tanner-dane/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Odie Leigh (with Kyrie)",
-  "date": "2026-11-06",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-06-2026-odie-leigh/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Flower Face (with Julia Barfield)",
-  "date": "2026-11-07",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-07-2026-flower-face/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Mad Tsai (with Mykey)",
-  "date": "2026-11-08",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-08-2026-mad-tsai/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "NATANYA",
-  "date": "2026-11-09",
-  "doors": "20:30",
-  "start": "21:00",
-  "url": "https://lh-st.com/shows/11-09-2026-natanya/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Certainly So",
-  "date": "2026-11-10",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-10-2026-certainly-so/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Samy Sharif (with Carlile, Clairice)",
-  "date": "2026-11-11",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-11-2026-samy-sharif/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Jackie Evans (with Elli Rowe)",
-  "date": "2026-11-12",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-12-2026-jackie-evans/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Fraxiom (with ell!psis, Naughta)",
-  "date": "2026-11-13",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-13-2026-fraxiom/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Memphis LK",
-  "date": "2026-11-14",
-  "doors": "20:30",
-  "start": "21:00",
-  "url": "https://lh-st.com/shows/11-14-2026-memphis-lk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Durtnap (with Broken Demeanor, Brain Sex, Mano a Mano)",
-  "date": "2026-11-15",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-15-2026-durtnap/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "lighthearted Kate Stephenson (with Growing Boys)",
-  "date": "2026-11-16",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://lh-st.com/shows/11-16-2026-lighthearted-kate-stephenson/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "LUCY (Cooper B. Handy) (with God's Wisdom)",
-  "date": "2026-11-17",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-17-2026-lucy-cooper-b-handy/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Shanghai Qiutian (with Dabda)",
-  "date": "2026-11-18",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-18-2026-shanghai-qiutian/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Boyfriend (with Lauren Ruth Ward)",
-  "date": "2026-11-20",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-20-2026-boyfriend/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Ebril (with Sarah Krohn, Susie McCollum)",
-  "date": "2026-11-22",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-22-2026-ebril/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Kent Avenue Carpool (with Lace for Leisure, Nature Club)",
-  "date": "2026-11-24",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-24-2026-kent-avenue-carpool/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Socially Acceptable (with Getting Started, Sun Queen)",
-  "date": "2026-11-25",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-25-2026-the-socially-acceptable-band/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Catie Turner (with Kiss Bang)",
-  "date": "2026-11-27",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-27-2026-catie-turner/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Flwers (with Better Love, Callback)",
-  "date": "2026-11-28",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/11-28-2026-flwers/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Devon Gabriella (with Sierra Sikora)",
-  "date": "2026-12-01",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-01-2026-devon-gabriella/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Kayo (with CASINO, TRELL, SONNY, Bandhunta, KT)",
-  "date": "2026-12-02",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-02-2026-kayo/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Toadvine (with Trash Kickers, Poolish)",
-  "date": "2026-12-03",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-03-2026-toadvine/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Westhead (with Samuel Aaron, Widemouth)",
-  "date": "2026-12-04",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-04-2026-westhead/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Josie Edwards",
-  "date": "2026-12-05",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-05-2026-josie-edwards/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Marital Bed (with Instrument, Joe Glass)",
-  "date": "2026-12-06",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-06-2026-marital-bed/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "The Transference (with Danimal Farm)",
-  "date": "2026-12-09",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-09-2026-the-transference/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Justice Hill (with White Lucy, Bigkid)",
-  "date": "2026-12-10",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-10-2026-justice-hill/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Tommy Fleece (with Reserv)",
-  "date": "2026-12-11",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-11-2026-tommy-fleece/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Late Night Thoughts",
-  "date": "2026-12-12",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-12-2026-late-night-thoughts/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Molly Carberry (with daarling, Heirloom Locket)",
-  "date": "2026-12-13",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-13-2026-molly-carberry/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Sunshine Benzi",
-  "date": "2026-12-16",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-16-2026-sunshine-benzi/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Emily Cavanagh (with Carl Banks)",
-  "date": "2026-12-17",
-  "doors": "18:00",
-  "start": "18:30",
-  "url": "https://lh-st.com/shows/12-17-2026-emily-cavanagh/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Arkose (with C.H.E.F.)",
-  "date": "2026-12-18",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/12-18-2026-arkose/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Bike Routes (with Good Sleepy)",
-  "date": "2026-12-20",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://lh-st.com/shows/12-20-2026-bike-routes/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "J Bambii",
-  "date": "2027-01-07",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/01-07-2027-j-bambii-tnk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "sunshy (with Cusp, Sacred Heart Academy)",
-  "date": "2027-01-08",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/01-08-2027-sunshy-tnk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Hollow Bastion (with Astrachan, Girly Pants)",
-  "date": "2027-01-09",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/01-09-2027-hollow-bastion-tnk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "John Roseboro",
-  "date": "2027-01-15",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/01-15-2027-john-roseboro-tnk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Them & I",
-  "date": "2027-01-16",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/01-16-2027-them-and-i-tnk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Jon Spencer",
-  "date": "2027-01-19",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/01-19-2027-jon-spencer/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "@ (with Wendy Eisenberg)",
-  "date": "2027-01-21",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/01-21-2027-at-tnk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Star Moles (with Sam and Louise Sullivan, Shane Butler)",
-  "date": "2027-01-22",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/01-22-2027-star-moles-sam-and-louise-sullivan-tnk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Heathers (with Plum, toss!)",
-  "date": "2027-01-23",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/01-23-2027-heathers-tnk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Helen Sun (with Hank Underwood)",
-  "date": "2027-01-28",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/01-28-2027-helen-sun-tnk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Max Fry",
-  "date": "2027-01-29",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/01-29-2027-max-fry-tnk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "BIG SIS",
-  "date": "2027-01-30",
-  "doors": "20:00",
-  "start": "21:00",
-  "url": "https://lh-st.com/shows/01-30-2027-big-sis-tnk/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "LA REEZY",
-  "date": "2027-02-01",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/02-01-2027-la-reezy/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Dan Campbell",
-  "date": "2027-02-11",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/02-11-2027-dan-campbell/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Zach Seabaugh",
-  "date": "2027-02-18",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/02-18-2027-zach-seabaugh/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Danz CM",
-  "date": "2027-02-22",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/02-22-2027-danz-cm/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Claud",
-  "date": "2027-02-24",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/02-24-2027-claud/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Aubory Bugg",
-  "date": "2027-02-25",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/02-25-2027-aubory-bugg/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Mike Viola",
-  "date": "2027-02-26",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/02-26-2027-mike-viola/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Surfer Girl (with South Summit, JOBY!)",
-  "date": "2027-03-02",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://lh-st.com/shows/03-02-2027-surfer-girl/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Beach Vacation (with COOL HEAT)",
-  "date": "2027-03-03",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/03-03-2027-beach-vacation/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Devvy Dub",
-  "date": "2027-03-06",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/03-06-2027-devvy-dub/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Bess Atwell",
-  "date": "2027-03-10",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/03-10-2027-bess-atwell/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Brooke Alexx",
-  "date": "2027-03-11",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/03-11-2027-brooke-alexx/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Anna Shoemaker",
-  "date": "2027-03-12",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/03-12-2027-anna-shoemaker/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Alt Bloom (with DOUBLECAMP)",
-  "date": "2027-03-26",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/03-26-2027-alt-bloom-doublecamp/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "DJ Suzy",
-  "date": "2027-03-28",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/03-28-2027-dj-suzy/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "Rikas",
-  "date": "2027-04-14",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://lh-st.com/shows/04-14-2027-rikas/",
-  "status": null
- },
- {
-  "venue": "Schubas",
-  "room": null,
-  "title": "The F16s",
-  "date": "2027-04-22",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://lh-st.com/shows/04-22-2027-the-f16s/",
-  "status": null
- }
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Flower Face (with Julia Barfield)",
+    "date": "2026-11-07",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-07-2026-flower-face/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Mad Tsai (with Mykey)",
+    "date": "2026-11-08",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-08-2026-mad-tsai/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "NATANYA",
+    "date": "2026-11-09",
+    "doors": "20:30",
+    "start": "21:00",
+    "url": "https://lh-st.com/shows/11-09-2026-natanya/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Certainly So (with Surf Cowboy)",
+    "date": "2026-11-10",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-10-2026-certainly-so/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Samy Sharif (with Carlile, Clairice)",
+    "date": "2026-11-11",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-11-2026-samy-sharif/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Jackie Evans (with Elli Rowe)",
+    "date": "2026-11-12",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-12-2026-jackie-evans/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Fraxiom (with ell!psis, Naughta)",
+    "date": "2026-11-13",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-13-2026-fraxiom/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Memphis LK (with Veri Peri)",
+    "date": "2026-11-14",
+    "doors": "20:30",
+    "start": "21:00",
+    "url": "https://lh-st.com/shows/11-14-2026-memphis-lk/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Durtnap (with Broken Demeanor, Brain Sex, Mano a Mano)",
+    "date": "2026-11-15",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-15-2026-durtnap/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "lighthearted Kate Stephenson (with Growing Boys)",
+    "date": "2026-11-16",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://lh-st.com/shows/11-16-2026-lighthearted-kate-stephenson/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "LUCY (Cooper B. Handy) (with God's Wisdom)",
+    "date": "2026-11-17",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-17-2026-lucy-cooper-b-handy/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Shanghai Qiutian (with Dabda)",
+    "date": "2026-11-18",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-18-2026-shanghai-qiutian/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Boyfriend (with Lauren Ruth Ward)",
+    "date": "2026-11-20",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-20-2026-boyfriend/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Ebril (with Sarah Krohn, Susie McCollum)",
+    "date": "2026-11-22",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-22-2026-ebril/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "The Foxtrots (with Goldheart, Mountaintop, Blu Carpet Authority, Jack Riedy & The Dealbreakers)",
+    "date": "2026-11-23",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-23-2026-high-five/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Kent Avenue Carpool (with Lace for Leisure, Nature Club)",
+    "date": "2026-11-24",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-24-2026-kent-avenue-carpool/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Socially Acceptable (with Getting Started, Sun Queen)",
+    "date": "2026-11-25",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-25-2026-the-socially-acceptable-band/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Catie Turner (with Kiss Bang)",
+    "date": "2026-11-27",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-27-2026-catie-turner/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Flwers (with Better Love, Callback)",
+    "date": "2026-11-28",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-28-2026-flwers/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Autofill (with Life In Public, Two Shoes)",
+    "date": "2026-11-29",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-29-2026-high-five/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "The Generic Version (with Dia Jane, Rad-ish)",
+    "date": "2026-11-30",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/11-30-2026-high-five/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Devon Gabriella (with Sierra Sikora)",
+    "date": "2026-12-01",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-01-2026-devon-gabriella/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Kayo (with CASINO, TRELL, SONNY, Bandhunta, KT)",
+    "date": "2026-12-02",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-02-2026-kayo/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Toadvine (with Trash Kickers, Poolish)",
+    "date": "2026-12-03",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-03-2026-toadvine/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Westhead (with Samuel Aaron, Widemouth)",
+    "date": "2026-12-04",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-04-2026-westhead/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Josie Edwards (with Hudson Ingram)",
+    "date": "2026-12-05",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-05-2026-josie-edwards/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Marital Bed (with Instrument, Joe Glass)",
+    "date": "2026-12-06",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-06-2026-marital-bed/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Stems (with Blondie Goodnight Darling, Style 2000)",
+    "date": "2026-12-07",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-07-2026-high-five/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "The Transference (with Danimal Farm)",
+    "date": "2026-12-09",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-09-2026-the-transference/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Justice Hill (with White Lucy, Bigkid)",
+    "date": "2026-12-10",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-10-2026-justice-hill/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Tommy Fleece (with Reserv, Rosacea Boy)",
+    "date": "2026-12-11",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-11-2026-tommy-fleece/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Late Night Thoughts (with Elias Hix)",
+    "date": "2026-12-12",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-12-2026-late-night-thoughts/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Molly Carberry (with daarling, Heirloom Locket)",
+    "date": "2026-12-13",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-13-2026-molly-carberry/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Sunshine Benzi",
+    "date": "2026-12-16",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-16-2026-sunshine-benzi/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Emily Cavanagh (with Carl Banks)",
+    "date": "2026-12-17",
+    "doors": "18:00",
+    "start": "18:30",
+    "url": "https://lh-st.com/shows/12-17-2026-emily-cavanagh/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Arkose (with C.H.E.F.)",
+    "date": "2026-12-18",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-18-2026-arkose/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Bike Routes (with Good Sleepy)",
+    "date": "2026-12-20",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://lh-st.com/shows/12-20-2026-bike-routes/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Josh Spinner",
+    "date": "2026-12-22",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/12-22-2026-josh-spinner/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Runner and Bobby (with Billy Joel Jr., Pleaser)",
+    "date": "2026-12-31",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://lh-st.com/shows/12-31-2026-runner-and-bobby/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "J Bambii",
+    "date": "2027-01-07",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-07-2027-j-bambii-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "sunshy (with Cusp, Sacred Heart Academy)",
+    "date": "2027-01-08",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-08-2027-sunshy-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Hollow Bastion (with Astrachan, Girly Pants)",
+    "date": "2027-01-09",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-09-2027-hollow-bastion-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "John Roseboro",
+    "date": "2027-01-15",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-15-2027-john-roseboro-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Them & I",
+    "date": "2027-01-16",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-16-2027-them-and-i-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Jon Spencer",
+    "date": "2027-01-19",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-19-2027-jon-spencer/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "@ (with Wendy Eisenberg)",
+    "date": "2027-01-21",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-21-2027-at-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Star Moles (with Sam and Louise Sullivan, Shane Butler)",
+    "date": "2027-01-22",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-22-2027-star-moles-sam-and-louise-sullivan-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Heathers (with Plum, toss!)",
+    "date": "2027-01-23",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-23-2027-heathers-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Helen Sun (with Hank Underwood)",
+    "date": "2027-01-28",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-28-2027-helen-sun-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Max Fry",
+    "date": "2027-01-29",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-29-2027-max-fry-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "BIG SIS",
+    "date": "2027-01-30",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://lh-st.com/shows/01-30-2027-big-sis-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "LA REEZY",
+    "date": "2027-02-01",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/02-01-2027-la-reezy/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Dan Campbell",
+    "date": "2027-02-11",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/02-11-2027-dan-campbell/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Zach Seabaugh",
+    "date": "2027-02-18",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/02-18-2027-zach-seabaugh/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Danz CM",
+    "date": "2027-02-22",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/02-22-2027-danz-cm/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Claud",
+    "date": "2027-02-24",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/02-24-2027-claud/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Aubory Bugg",
+    "date": "2027-02-25",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/02-25-2027-aubory-bugg/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Mike Viola",
+    "date": "2027-02-26",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/02-26-2027-mike-viola/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Surfer Girl (with South Summit, JOBY!)",
+    "date": "2027-03-02",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://lh-st.com/shows/03-02-2027-surfer-girl/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Beach Vacation (with COOL HEAT)",
+    "date": "2027-03-03",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/03-03-2027-beach-vacation/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Devvy Dub",
+    "date": "2027-03-06",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/03-06-2027-devvy-dub/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Bess Atwell",
+    "date": "2027-03-10",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/03-10-2027-bess-atwell/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Brooke Alexx",
+    "date": "2027-03-11",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/03-11-2027-brooke-alexx/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Anna Shoemaker",
+    "date": "2027-03-12",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/03-12-2027-anna-shoemaker/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Alt Bloom (with DOUBLECAMP)",
+    "date": "2027-03-26",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/03-26-2027-alt-bloom-doublecamp/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "DJ Suzy",
+    "date": "2027-03-28",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/03-28-2027-dj-suzy/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "Rikas",
+    "date": "2027-04-14",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://lh-st.com/shows/04-14-2027-rikas/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
+    "title": "The F16s",
+    "date": "2027-04-22",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/04-22-2027-the-f16s/",
+    "status": null
+  }
 ]

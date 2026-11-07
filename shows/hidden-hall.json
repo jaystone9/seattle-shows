@@ -2,46 +2,6 @@
   {
     "venue": "Hidden Hall",
     "room": null,
-    "title": "Eldridge Gravy & The Court Supreme (with Swavy, Jay Si Proof)",
-    "date": "2026-10-30",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/eldridge-gravy-the-court-supreme-with-swavy-and-jay-si-proof-199402",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
-    "title": "Rittz (with Kung Fu Vampire, Jay Fiddy, Vic Daggs II)",
-    "date": "2026-11-01",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/rittz-with-kung-fu-vampire-jay-fiddy-vic-daggs-ii-202356",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
-    "title": "Stop Light Observations (with Runner and Bobby)",
-    "date": "2026-11-05",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/stop-light-observations-with-runner-and-bobby-190860",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
-    "title": "Deante' Hitchcock (with Joe the Poet, Shane Diamanti, Coaster)",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/deante-hitchcock-with-joe-the-poet-shane-diamanti-coaster-201947",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
     "title": "The Last Revel (with Nathaniel Riley, Matthew \"Rev\" Rieger)",
     "date": "2026-11-07",
     "doors": null,
@@ -172,6 +132,16 @@
   {
     "venue": "Hidden Hall",
     "room": null,
+    "title": "Skerik",
+    "date": "2026-12-04",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43496603-skerik-at-hidden-hall",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
     "title": "The Jaws of Brooklyn (with Heavy Bloom, McKenna Esteb)",
     "date": "2026-12-05",
     "doors": null,
@@ -242,11 +212,31 @@
   {
     "venue": "Hidden Hall",
     "room": null,
+    "title": "Goose Vargis (with Pachinko Royale, Grand Arson)",
+    "date": "2027-01-02",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/goose-vargis-with-pachinko-royale-grand-arson-213218",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
     "title": "Azalee Schwartz (with KingDow, Witcher)",
     "date": "2027-01-07",
     "doors": null,
     "start": "19:00",
     "url": "https://www.tixr.com/groups/hiddenhall/events/azalee-schwartz-with-kingdow-witcher-210920",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
+    "title": "Carl Christensen & The Rain Delay (with Amy Hall, Aseda Safoa)",
+    "date": "2027-01-08",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/carl-christensen-the-rain-delay-with-amy-hall-aseda-safoa-213957",
     "status": null
   },
   {

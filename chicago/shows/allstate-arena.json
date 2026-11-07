@@ -2,16 +2,6 @@
   {
     "venue": "Allstate Arena",
     "room": null,
-    "title": "Maná",
-    "date": "2026-10-30",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketmaster.com/event/04006376813E42DA",
-    "status": null
-  },
-  {
-    "venue": "Allstate Arena",
-    "room": null,
     "title": "Zac Brown Band (with Grace Potter)",
     "date": "2026-11-21",
     "doors": null,
@@ -82,11 +72,11 @@
   {
     "venue": "Allstate Arena",
     "room": null,
-    "title": "Camila",
-    "date": "2027-03-12",
+    "title": "Los Tigres del Norte",
+    "date": "2027-03-20",
     "doors": null,
     "start": "20:00",
-    "url": "https://www.ticketmaster.com/camila-adios-world-tour-rosemont-illinois-03-12-2027/event/0400653607143C0C",
+    "url": "https://www.ticketmaster.com/event/04006546C23AB42E",
     "status": null
   }
 ]

@@ -2,26 +2,6 @@
   {
     "venue": "The Moore Theatre",
     "room": null,
-    "title": "Joy Oladokun",
-    "date": "2026-10-30",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/joy-oladokun/",
-    "status": null
-  },
-  {
-    "venue": "The Moore Theatre",
-    "room": null,
-    "title": "Periphery (with Greyhaven, Ne Obliviscaris, Ando San)",
-    "date": "2026-11-06",
-    "doors": "17:30",
-    "start": "18:30",
-    "url": "https://www.stgpresents.org/events/periphery/",
-    "status": null
-  },
-  {
-    "venue": "The Moore Theatre",
-    "room": null,
     "title": "Taylor Mac",
     "date": "2026-11-08",
     "doors": "18:30",
@@ -82,7 +62,7 @@
   {
     "venue": "The Moore Theatre",
     "room": null,
-    "title": "Alter Bridge",
+    "title": "Alter Bridge (with Big Wreck, Tim Montana)",
     "date": "2026-11-25",
     "doors": "18:00",
     "start": "19:00",
@@ -117,6 +97,16 @@
     "doors": "18:30",
     "start": "19:30",
     "url": "https://www.stgpresents.org/events/frank-turner-the-sleeping-souls/",
+    "status": null
+  },
+  {
+    "venue": "The Moore Theatre",
+    "room": null,
+    "title": "Akira Yamaoka (with Raj Ramayya)",
+    "date": "2027-03-21",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://www.stgpresents.org/events/akira-yamaoka/",
     "status": null
   },
   {

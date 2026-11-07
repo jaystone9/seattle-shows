@@ -2,36 +2,6 @@
   {
     "venue": "Black Lodge",
     "room": null,
-    "title": "Magma Fest: Echo Ravine (with Trash Panda Go Kart, Very Magical, Hate Knife, Skunk Ape, Pyrocene)",
-    "date": "2026-10-31",
-    "doors": null,
-    "start": "18:00",
-    "url": "https://app.discotech.me/events/38284738-magma-fest-at-the-black-lodge",
-    "status": null
-  },
-  {
-    "venue": "Black Lodge",
-    "room": null,
-    "title": "Dylan Thom (with horse laugh)",
-    "date": "2026-11-03",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://app.discotech.me/events/38288802-dylan-thom-at-the-black-lodge",
-    "status": null
-  },
-  {
-    "venue": "Black Lodge",
-    "room": null,
-    "title": "Sex Mex",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43340715-sex-mex-at-black-lodge",
-    "status": "cancelled"
-  },
-  {
-    "venue": "Black Lodge",
-    "room": null,
     "title": "Marci (with The Booyah! Kids, Good Enough)",
     "date": "2026-11-07",
     "doors": null,
@@ -54,15 +24,15 @@
     "room": null,
     "title": "carter c (with liz luevand, Planet Shelby)",
     "date": "2026-11-10",
-    "doors": null,
+    "doors": "19:00",
     "start": "19:00",
-    "url": "https://dice.fm/event/xe8b63-cicis-revenge-tour-kickoff-10th-nov-the-black-lodge-seattle-tickets",
+    "url": "https://dice.fm/event/6ac2cbf52f95f80001b9a56e",
     "status": null
   },
   {
     "venue": "Black Lodge",
     "room": null,
-    "title": "Super Cassette",
+    "title": "Super Cassette (with Worms in Dirt, Blip.)",
     "date": "2026-11-11",
     "doors": null,
     "start": "19:00",
@@ -148,5 +118,15 @@
     "start": null,
     "url": "https://do206.com/events/2026/12/18/train-breaks-down-tickets",
     "status": "sold out"
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Robo Pumpkin & Women in Peril",
+    "date": "2027-01-13",
+    "doors": null,
+    "start": null,
+    "url": "https://dice.fm/event/6aea4e8353eca80001b9eeae",
+    "status": null
   }
 ]

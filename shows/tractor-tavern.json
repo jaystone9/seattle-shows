@@ -2,76 +2,6 @@
  {
   "venue": "Tractor Tavern",
   "room": null,
-  "title": "Cumbia de Muertos V (with Tropa Magica, Terror/Cactus, Qiensave, rizoma)",
-  "date": "2026-10-30",
-  "doors": "19:00",
-  "start": "19:00",
-  "url": "https://app.opendate.io/e/cumbia-de-muertos-v-tractor-conor-byrne-pub-cloudburst-brewing-percy-s-october-30-2026-779198",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Patrick Wolf (with Hollow Eve)",
-  "date": "2026-11-01",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://www.ticketweb.com/event/patrick-wolf-w-guests-tractor-tickets/14267154?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Greg Freeman (with Trinity Ace)",
-  "date": "2026-11-02",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/tractor-presents-greg-freeman-tractor-tickets/14219084?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Brendan James (with guests)",
-  "date": "2026-11-03",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/brendan-james-w-guests-partially-tractor-tickets/14273854?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Jeffrey Martin (with Sam Weber)",
-  "date": "2026-11-04",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/jeffrey-martin-w-sam-weber-tractor-tickets/14993053?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "KEXP Presents: Improvement Movement (with Adron)",
-  "date": "2026-11-05",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/kexp-presents-improvement-movement-w-tractor-tickets/14248504?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Roger Clyne and The Peacemakers (with Buffalo Jones, Stephen Ashbrook)",
-  "date": "2026-11-06",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://www.ticketweb.com/event/roger-clyne-and-the-peacemakers-tractor-tickets/14147824?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
   "title": "Chris Smither (solo, matinee)",
   "date": "2026-11-07",
   "doors": "13:00",
@@ -392,6 +322,16 @@
  {
   "venue": "Tractor Tavern",
   "room": null,
+  "title": "Gabe Morehouse",
+  "date": "2026-12-21",
+  "doors": null,
+  "start": null,
+  "url": "https://www.jambase.com/show/gabe-morehouse-tractor-tavern-20261221",
+  "status": null
+ },
+ {
+  "venue": "Tractor Tavern",
+  "room": null,
   "title": "Riley Downing",
   "date": "2027-01-03",
   "doors": null,
@@ -537,6 +477,16 @@
   "doors": "19:30",
   "start": "20:00",
   "url": "https://www.ticketweb.com/event/rowena-wise-w-guests-tractor-tickets/14351994?pl=tractor&REFID=clientsitewp",
+  "status": null
+ },
+ {
+  "venue": "Tractor Tavern",
+  "room": null,
+  "title": "Hudson Freeman (with Sean Solomon)",
+  "date": "2027-03-31",
+  "doors": null,
+  "start": null,
+  "url": "https://www.songkick.com/concerts/43505169-hudson-freeman-at-tractor-tavern",
   "status": null
  },
  {

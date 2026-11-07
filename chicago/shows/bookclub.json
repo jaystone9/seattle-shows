@@ -2,66 +2,6 @@
   {
     "venue": "Bookclub",
     "room": null,
-    "title": "Rachel Kirby (outside on the fire escape)",
-    "date": "2026-10-30",
-    "doors": "17:00",
-    "start": "17:30",
-    "url": "https://bookclubchi.com/event/rachel-kirby-outside-on-the-fire-escape/bookclub/",
-    "status": null
-  },
-  {
-    "venue": "Bookclub",
-    "room": null,
-    "title": "Bugoff! (with The Sweet Spot, emma and the dilemma, Kent Avenue Carpool)",
-    "date": "2026-10-30",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://bookclubchi.com/event/bugoff-the-sweet-spot-emma-and-the-dilemma-kent-avenue-carpool/bookclub/",
-    "status": null
-  },
-  {
-    "venue": "Bookclub",
-    "room": null,
-    "title": "The Transference (with The Second Summer, Hollow Bastion)",
-    "date": "2026-11-01",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://bookclubchi.com/event/the-transference-the-second-summer-hollow-bastion/bookclub/",
-    "status": null
-  },
-  {
-    "venue": "Bookclub",
-    "room": null,
-    "title": "Media Luna (with Never Really Here, Rai)",
-    "date": "2026-11-02",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://bookclubchi.com/event/dead-a-tucanazo/bookclub/",
-    "status": null
-  },
-  {
-    "venue": "Bookclub",
-    "room": null,
-    "title": "Keynote Sisters (with Krista Kylen)",
-    "date": "2026-11-05",
-    "doors": null,
-    "start": "20:30",
-    "url": "https://bookclubchi.com/event/keynote-sisters-krista-kylen/bookclub/",
-    "status": null
-  },
-  {
-    "venue": "Bookclub",
-    "room": null,
-    "title": "Tokyo T (with Nique Royale, Shari B, FBE Duckie, Micah G, Ching$, Dakiyah)",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://bookclubchi.com/event/nothing-mid-002/bookclub/",
-    "status": null
-  },
-  {
-    "venue": "Bookclub",
-    "room": null,
     "title": "Juliet Garrett & The Wheels of Fortune",
     "date": "2026-11-07",
     "doors": "14:00",
@@ -112,6 +52,36 @@
   {
     "venue": "Bookclub",
     "room": null,
+    "title": "Harvey Lightyear (with Oddysseys, The Paper Cups, Ms. Bvll Heather)",
+    "date": "2026-11-19",
+    "doors": null,
+    "start": null,
+    "url": "https://bookclubchi.com/event/harvey-lightyear-oddysseys-the-paper-cups-ms-bvll-heather/bookclub/",
+    "status": null
+  },
+  {
+    "venue": "Bookclub",
+    "room": null,
+    "title": "Middle Child (with Cyrus Chrome, Lil Jul)",
+    "date": "2026-11-22",
+    "doors": null,
+    "start": null,
+    "url": "https://bookclubchi.com/event/middle-child-cyrus-chrome-lil-jul-guesst/bookclub/",
+    "status": null
+  },
+  {
+    "venue": "Bookclub",
+    "room": null,
+    "title": "Sid Kingston (with Megan Wren, Ellis D)",
+    "date": "2026-11-25",
+    "doors": null,
+    "start": null,
+    "url": "https://bookclubchi.com/event/sid-kingston-megan-wren-ellis-d/bookclub/",
+    "status": null
+  },
+  {
+    "venue": "Bookclub",
+    "room": null,
     "title": "Tony Piedra (with Suavé, Luke Gomez, JRDAMOBSTA)",
     "date": "2026-11-27",
     "doors": null,
@@ -142,11 +112,31 @@
   {
     "venue": "Bookclub",
     "room": null,
+    "title": "damsel. (with The Devil Said Jump, Growing Boys)",
+    "date": "2026-11-29",
+    "doors": null,
+    "start": null,
+    "url": "https://bookclubchi.com/event/damsel-the-devil-said-jump-growing-boys/bookclub/",
+    "status": null
+  },
+  {
+    "venue": "Bookclub",
+    "room": null,
     "title": "voidtheory (with Anteeter, Please Return)",
     "date": "2026-12-03",
     "doors": null,
     "start": "20:00",
     "url": "https://bookclubchi.com/event/voidtheory-anteeter-please-return/bookclub/",
+    "status": null
+  },
+  {
+    "venue": "Bookclub",
+    "room": null,
+    "title": "Megadad (with Davey and the Midnights)",
+    "date": "2026-12-05",
+    "doors": null,
+    "start": null,
+    "url": "https://bookclubchi.com/event/megadad-davey-and-the-midnights/bookclub/",
     "status": null
   }
 ]

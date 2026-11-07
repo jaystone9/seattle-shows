@@ -1,962 +1,982 @@
 [
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Camaira Metz (with Jamn, Clambrain)",
-  "date": "2026-10-31",
-  "doors": "18:30",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/camaira-metz-tickets-1580818",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Gilla Band (with Piss)",
-  "date": "2026-11-01",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/gilla-band-tickets-1460697",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Dice (with The Back Alley)",
-  "date": "2026-11-01",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/dice-tickets-1443866",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Katie Pruitt (with Olivia Barton)",
-  "date": "2026-11-02",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/katie-pruitt-tickets-1486745",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Lime Garden (with Clover)",
-  "date": "2026-11-02",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/lime-garden-tickets-1372738",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Kennedy Ryon",
-  "date": "2026-11-03",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/kennedy-ryon-tickets-1541713",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "King Buffalo (with L.A. Witch)",
-  "date": "2026-11-04",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/king-buffalo-tickets-1451706",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Heavens to Betsy (with Nudity)",
-  "date": "2026-11-05",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/heavens-to-betsy-tickets-1504237",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Cardinal Bloom (with Holdfast)",
-  "date": "2026-11-05",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/cardinal-bloom-tickets-1504590",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "IMiJ (with Sage, Black Ends)",
-  "date": "2026-11-06",
-  "doors": "17:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/imij-tickets-1518089",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Lucy",
-  "date": "2026-11-06",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/lucy-cooper-b-handy-tickets-1570046",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Mary in the Junkyard (with Lefty Parker)",
-  "date": "2026-11-07",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/mary-in-the-junkyard-tickets-1450885",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Avery Cochrane (with Karly Bowman, Manisha)",
-  "date": "2026-11-07",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/avery-cochrane-tickets-1566081",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Genesis Owusu (with After Louise)",
-  "date": "2026-11-08",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/genesis-owusu-tickets-1484070",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Keenan Te (with Frankie Venter)",
-  "date": "2026-11-08",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/keenan-te-tickets-1511120",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "AZ Chike",
-  "date": "2026-11-09",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/az-chike-tickets-1586336",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Vansire (with Ann Annie)",
-  "date": "2026-11-10",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/vansire-tickets-1540239",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "The Hails (with Meldrop)",
-  "date": "2026-11-10",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/the-hails-tickets-1498847",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Makenna DeCaro (with Rainbow Jackson, Josh Lambros)",
-  "date": "2026-11-12",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/makenna-decaro-tickets-1621578",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Hit the Lights (with Forever Came Calling, Fox Royale)",
-  "date": "2026-11-13",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/hit-the-lights-tickets-1413601",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Karina Rykman",
-  "date": "2026-11-14",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/karina-rykman-tickets-1498011",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Sueco (with Jeris Johnson, Port London)",
-  "date": "2026-11-14",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/sueco-tickets-1520137",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "headache (with Fleetwood Snack, amr*)",
-  "date": "2026-11-15",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/headache-tickets-1448781",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Goldenstar (with Stoneyard, n3ster)",
-  "date": "2026-11-15",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/goldenstar-tickets-1669460",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Bayonne (with Bobbing)",
-  "date": "2026-11-16",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/bayonne-tickets-1415454",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Olivia O'Brien (with Sophie Cates)",
-  "date": "2026-11-16",
-  "doors": "20:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/olivia-obrien-tickets-1462897",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Maddie Zahm",
-  "date": "2026-11-17",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/maddie-zahm-tickets-1476428",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Valé (with LCN!)",
-  "date": "2026-11-17",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/vale-tickets-1460691",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Clarion (with Novulent)",
-  "date": "2026-11-18",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/clarion-tickets-1521572",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Jervis Campbell (with Allie Paige)",
-  "date": "2026-11-18",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/jervis-campbell-tickets-1439907",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Julien Baker (with Great Grandpa)",
-  "date": "2026-11-19",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/julien-baker-tickets-1595867",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Julien Baker (with Great Grandpa)",
-  "date": "2026-11-20",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/julien-baker-tickets-1596348",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "1 Umbrella",
-  "date": "2026-11-21",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/1-umbrella-tickets-1608447",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Julien Baker (with Great Grandpa)",
-  "date": "2026-11-21",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/julien-baker-tickets-1596350",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Amtrac",
-  "date": "2026-11-22",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/amtrac-tickets-1575402",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Emma Ruth Rundle (with Cinder Well)",
-  "date": "2026-11-24",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/emma-ruth-rundle-tickets-1535118",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Sap (with Sludge Mother)",
-  "date": "2026-11-25",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/sap-tickets-1580336",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "The Kilans (with Jade Street)",
-  "date": "2026-11-29",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/the-kilans-tickets-1541878",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "feeble little horse (with MOP)",
-  "date": "2026-12-03",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/feeble-little-horse-tickets-1459430",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Tommy Fleece (with Reserv)",
-  "date": "2026-12-03",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/tommy-fleece-tickets-1596352",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Fat, Evil Children",
-  "date": "2026-12-04",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/fat-evil-children-tickets-1646139",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Wishy (with The Umbrellas)",
-  "date": "2026-12-05",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/wishy-tickets-1542161",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "New Constellations (with Vox Rea)",
-  "date": "2026-12-05",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/new-constellations-tickets-1505913",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Trask (with Dining Dead, Cal State Football)",
-  "date": "2026-12-06",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/trask-tickets-1636462",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Father of Peace",
-  "date": "2026-12-06",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/father-of-peace-tickets-1496637",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "June McDoom (with Eliana Glass)",
-  "date": "2026-12-07",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/june-mcdoom-tickets-1541338",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Ripe",
-  "date": "2026-12-08",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/ripe-tickets-1585380",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Jeremiah Chiu",
-  "date": "2026-12-08",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/jeremiah-chiu-tickets-1608435",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Terra Nobody (with Iris Kymm, The Sleepy Haunts)",
-  "date": "2026-12-10",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/terra-nobody-tickets-1542434",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Anna Justen (with Exiter)",
-  "date": "2026-12-11",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/anna-justen-tickets-1640220",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Casi x Love So Deep (with Visitor Coach)",
-  "date": "2026-12-11",
-  "doors": "20:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/casi-x-love-so-deep-tickets-1619051",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Ruby Haunt (with VHS Ghost)",
-  "date": "2026-12-12",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/ruby-haunt-tickets-1518704",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Pedro the Lion (with St. Yuma)",
-  "date": "2026-12-12",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/pedro-the-lion-tickets-1455616",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Swervedriver (with Love Battery)",
-  "date": "2026-12-16",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/swervedriver-tickets-1443845",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Takuya Nakamura (with RP Boo)",
-  "date": "2026-12-17",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/takuya-nakamura-tickets-1601822",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Colonies (with Slow Boys, Timothy Robert Graham)",
-  "date": "2026-12-18",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/colonies-tickets-1678594",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Baby Jane (with Waxwitch)",
-  "date": "2026-12-19",
-  "doors": "18:30",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/baby-jane-tickets-1597393",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Couch Dog (with Dark Dazey)",
-  "date": "2026-12-20",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/couch-dog-tickets-1593472",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Anna von Hausswolff (with KatzPascale)",
-  "date": "2027-01-12",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/anna-von-hausswolff-tickets-1364330",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Girl Parallel (with Tanisha, Clover, Deka)",
-  "date": "2027-01-16",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/girl-parallel-tickets-1656995",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "44phantom",
-  "date": "2027-01-19",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/44phantom-tickets-1644954",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Charles Zaid (with Talaya., JOVEN)",
-  "date": "2027-01-21",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/charles-zaid-tickets-1640622",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Mollie Elizabeth",
-  "date": "2027-01-28",
-  "doors": "18:30",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/mollie-elizabeth-tickets-1655377",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Pratt & Moody",
-  "date": "2027-02-02",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/pratt-moody-tickets-1625002",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Rare Americans (with Naethan Apollo)",
-  "date": "2027-02-04",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/rare-americans-tickets-1638955",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Winona Fighter",
-  "date": "2027-02-06",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/winona-fighter-tickets-1645256",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Wolves in the Throne Room (with Spirit Possession, Stygian Bough)",
-  "date": "2027-02-10",
-  "doors": "18:30",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/wolves-in-the-throne-room-tickets-1644155",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Lovely Colours (with La Fonda, Justin Harden)",
-  "date": "2027-02-13",
-  "doors": "17:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/lovely-colours-tickets-1672787",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Aubory Bugg",
-  "date": "2027-02-17",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/aubory-bugg-tickets-1620744",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Bella Poarch",
-  "date": "2027-02-18",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/bella-poarch-tickets-1642475",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Hot Freaks",
-  "date": "2027-02-27",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/hot-freaks-tickets-1631710",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Brooke Alexx",
-  "date": "2027-02-28",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/brooke-alexx-tickets-1592107",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Girl Ultra",
-  "date": "2027-03-03",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/girl-ultra-tickets-1644731",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "strongboi (with Salami Rose Joe Louis)",
-  "date": "2027-03-05",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/strongboi-tickets-1482122",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Vincent Lima",
-  "date": "2027-03-06",
-  "doors": "18:30",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/vincent-lima-tickets-1664472",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Christian Kuria",
-  "date": "2027-03-13",
-  "doors": "20:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/christian-kuria-tickets-1601824",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Bo Staloch",
-  "date": "2027-03-15",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/bo-staloch-tickets-1615785",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Ruby Waters",
-  "date": "2027-03-16",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/ruby-waters-tickets-1653656",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Sophia Stel",
-  "date": "2027-03-19",
-  "doors": "20:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/sophia-stel-tickets-1672985",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Hans Williams",
-  "date": "2027-03-20",
-  "doors": "20:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/hans-williams-tickets-1644698",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Helena Deland",
-  "date": "2027-03-21",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/helena-deland-tickets-1647423",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Games We Play (with Bears in Trees)",
-  "date": "2027-03-26",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/games-we-play-tickets-1617580",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Dan Reeder (with Peggy Reeder)",
-  "date": "2027-03-27",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/dan-peggy-reeder-tickets-1520019",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Rikas",
-  "date": "2027-03-28",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/rikas-tickets-1666230",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Susannah Joffe",
-  "date": "2027-03-29",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/susannah-joffe-tickets-1676086",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Sarah Julia",
-  "date": "2027-03-29",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/sarah-julia-tickets-1664461",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Worldpeace DMT",
-  "date": "2027-03-30",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/worldpeace-dmt-tickets-1668771",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Letters to Lions",
-  "date": "2027-04-01",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/letters-to-lions-tickets-1581523",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Iceage",
-  "date": "2027-04-02",
-  "doors": "20:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/iceage-tickets-1554505",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Sadurn",
-  "date": "2027-04-06",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/sadurn-tickets-1664412",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Jersey",
-  "date": "2027-04-07",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/jersey-tickets-1664442",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Gus Dapperton",
-  "date": "2027-04-08",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/gus-dapperton-tickets-1674923",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "Valencia Grace",
-  "date": "2027-04-09",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/valencia-grace-tickets-1506414",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Destroy Boys (with Illuminati Hotties, The Rat Utopia Experiment)",
-  "date": "2027-04-13",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/destroy-boys-tickets-1670884",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": null,
-  "title": "Alex Sampson",
-  "date": "2027-04-21",
-  "doors": "19:00",
-  "start": null,
-  "url": "https://www.neumos.com/events/detail/alex-sampson-tickets-1662620",
-  "status": null
- },
- {
-  "venue": "Neumos",
-  "room": "Barboza",
-  "title": "The F16s",
-  "date": "2027-04-24",
-  "doors": "18:00",
-  "start": null,
-  "url": "https://www.thebarboza.com/events/detail/the-f16s-tickets-1660166",
-  "status": null
- }
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Avery Cochrane (with Karly Bowman, Manisha)",
+    "date": "2026-11-07",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/avery-cochrane-tickets-1566081",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Mary in the Junkyard (with Lefty Parker)",
+    "date": "2026-11-07",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/mary-in-the-junkyard-tickets-1450885",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Genesis Owusu (with After Louise)",
+    "date": "2026-11-08",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/genesis-owusu-tickets-1484070",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Keenan Te (with Frankie Venter)",
+    "date": "2026-11-08",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/keenan-te-tickets-1511120",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "AZ Chike",
+    "date": "2026-11-09",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/az-chike-tickets-1586336",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Vansire (with Ann Annie)",
+    "date": "2026-11-10",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/vansire-tickets-1540239",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "The Hails (with Meldrop)",
+    "date": "2026-11-10",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/the-hails-tickets-1498847",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Makenna DeCaro (with Rainbow Jackson, Josh Lambros)",
+    "date": "2026-11-12",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/makenna-decaro-tickets-1621578",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Hit the Lights (with Forever Came Calling, Fox Royale)",
+    "date": "2026-11-13",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/hit-the-lights-tickets-1413601",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Sueco (with Jeris Johnson, Port London)",
+    "date": "2026-11-14",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/sueco-tickets-1520137",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Karina Rykman",
+    "date": "2026-11-14",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/karina-rykman-tickets-1498011",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "headache (with Fleetwood Snack, amr*)",
+    "date": "2026-11-15",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/headache-tickets-1448781",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Goldenstar (with Stoneyard, n3ster)",
+    "date": "2026-11-15",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/goldenstar-tickets-1669460",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Olivia O'Brien (with Sophie Cates)",
+    "date": "2026-11-16",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/olivia-obrien-tickets-1462897",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Bayonne (with Bobbing)",
+    "date": "2026-11-16",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/bayonne-tickets-1415454",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Maddie Zahm",
+    "date": "2026-11-17",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/maddie-zahm-tickets-1476428",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Valé (with LCN!)",
+    "date": "2026-11-17",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/vale-tickets-1460691",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Clarion (with Novulent)",
+    "date": "2026-11-18",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/clarion-tickets-1521572",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Jervis Campbell (with Lydi Lynn)",
+    "date": "2026-11-18",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/jervis-campbell-tickets-1439907",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Julien Baker (with Great Grandpa)",
+    "date": "2026-11-19",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/julien-baker-tickets-1595867",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Julien Baker (with Great Grandpa)",
+    "date": "2026-11-20",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/julien-baker-tickets-1596348",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Hot Bodies in Motion (with How to Be Human)",
+    "date": "2026-11-20",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/hot-bodies-in-motion-tickets-1688762",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Julien Baker (with Great Grandpa)",
+    "date": "2026-11-21",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/julien-baker-tickets-1596350",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "1 Umbrella",
+    "date": "2026-11-21",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/1-umbrella-tickets-1608447",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Amtrac",
+    "date": "2026-11-22",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/amtrac-tickets-1575402",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Emma Ruth Rundle (with Cinder Well)",
+    "date": "2026-11-24",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/emma-ruth-rundle-tickets-1535118",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Sap (with Sludge Mother)",
+    "date": "2026-11-25",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/sap-tickets-1580336",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Boydream (with Hubcap, divaria)",
+    "date": "2026-11-28",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/boydream-tickets-1689552",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "The Kilans (with Jade Street)",
+    "date": "2026-11-29",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/the-kilans-tickets-1541878",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "feeble little horse (with MOP)",
+    "date": "2026-12-03",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/feeble-little-horse-tickets-1459430",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Tommy Fleece (with Reserv)",
+    "date": "2026-12-03",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/tommy-fleece-tickets-1596352",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Fat, Evil Children",
+    "date": "2026-12-04",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/fat-evil-children-tickets-1646139",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "New Constellations (with Vox Rea)",
+    "date": "2026-12-05",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/new-constellations-tickets-1505913",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Wishy (with The Umbrellas)",
+    "date": "2026-12-05",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/wishy-tickets-1542161",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Father of Peace",
+    "date": "2026-12-06",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/father-of-peace-tickets-1496637",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Trask (with Dining Dead, Cal State Football)",
+    "date": "2026-12-06",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/trask-tickets-1636462",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "June McDoom (with Eliana Glass)",
+    "date": "2026-12-07",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/june-mcdoom-tickets-1541338",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Ripe",
+    "date": "2026-12-08",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/ripe-tickets-1585380",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Jeremiah Chiu",
+    "date": "2026-12-08",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/jeremiah-chiu-tickets-1608435",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Terra Nobody (with Iris Kymm, The Sleepy Haunts)",
+    "date": "2026-12-10",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/terra-nobody-tickets-1542434",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Casi x Love So Deep (with Visitor Coach)",
+    "date": "2026-12-11",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/casi-x-love-so-deep-tickets-1619051",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Anna Justen (with Exiter)",
+    "date": "2026-12-11",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/anna-justen-tickets-1640220",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Pedro the Lion (with St. Yuma)",
+    "date": "2026-12-12",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/pedro-the-lion-tickets-1455616",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Ruby Haunt (with VHS Ghost)",
+    "date": "2026-12-12",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/ruby-haunt-tickets-1518704",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Swervedriver (with Love Battery)",
+    "date": "2026-12-16",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/swervedriver-tickets-1443845",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Takuya Nakamura (with RP Boo)",
+    "date": "2026-12-17",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/takuya-nakamura-tickets-1601822",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Colonies (with Slow Boys, Timothy Robert Graham)",
+    "date": "2026-12-18",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/colonies-tickets-1678594",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Baby Jane (with Waxwitch)",
+    "date": "2026-12-19",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/baby-jane-tickets-1597393",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Couch Dog (with Dark Dazey)",
+    "date": "2026-12-20",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/couch-dog-tickets-1593472",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Anna von Hausswolff (with KatzPascale)",
+    "date": "2027-01-12",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/anna-von-hausswolff-tickets-1364330",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Girl Parallel (with Tanisha, Clover, Deka)",
+    "date": "2027-01-16",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/girl-parallel-tickets-1656995",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "44phantom",
+    "date": "2027-01-19",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/44phantom-tickets-1644954",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Charles Zaid (with Talaya., JOVEN)",
+    "date": "2027-01-21",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/charles-zaid-tickets-1640622",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Sage Francis",
+    "date": "2027-01-24",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/sage-francis-tickets-1692185",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Mollie Elizabeth",
+    "date": "2027-01-28",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/mollie-elizabeth-tickets-1655377",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Galdive (with rum·gold)",
+    "date": "2027-02-02",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43496236-galdive-at-neumos",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Pratt & Moody",
+    "date": "2027-02-02",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/pratt-moody-tickets-1625002",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Rare Americans (with Naethan Apollo)",
+    "date": "2027-02-04",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/rare-americans-tickets-1638955",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Winona Fighter",
+    "date": "2027-02-06",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/winona-fighter-tickets-1645256",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Wolves in the Throne Room (with Spirit Possession, Stygian Bough)",
+    "date": "2027-02-10",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/wolves-in-the-throne-room-tickets-1644155",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Lovely Colours (with La Fonda, Justin Harden)",
+    "date": "2027-02-13",
+    "doors": "17:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/lovely-colours-tickets-1672787",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "3L3D3P",
+    "date": "2027-02-13",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/3l3d3p-tickets-1682644",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Aubory Bugg",
+    "date": "2027-02-17",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/aubory-bugg-tickets-1620744",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Bella Poarch",
+    "date": "2027-02-18",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/bella-poarch-tickets-1642475",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Hot Freaks",
+    "date": "2027-02-27",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/hot-freaks-tickets-1631710",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Brooke Alexx",
+    "date": "2027-02-28",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/brooke-alexx-tickets-1592107",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Girl Ultra",
+    "date": "2027-03-03",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/girl-ultra-tickets-1644731",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "strongboi (with Salami Rose Joe Louis)",
+    "date": "2027-03-05",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/strongboi-tickets-1482122",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Vincent Lima",
+    "date": "2027-03-06",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/vincent-lima-tickets-1664472",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Christian Kuria",
+    "date": "2027-03-13",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/christian-kuria-tickets-1601824",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Bo Staloch",
+    "date": "2027-03-15",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/bo-staloch-tickets-1615785",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Ruby Waters",
+    "date": "2027-03-16",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/ruby-waters-tickets-1653656",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Sophia Stel",
+    "date": "2027-03-19",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/sophia-stel-tickets-1672985",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "KNATS",
+    "date": "2027-03-19",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/knats-tickets-1682661",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Hans Williams",
+    "date": "2027-03-20",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/hans-williams-tickets-1644698",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Helena Deland",
+    "date": "2027-03-21",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/helena-deland-tickets-1647423",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Games We Play (with Bears in Trees)",
+    "date": "2027-03-26",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/games-we-play-tickets-1617580",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Dan Reeder (with Peggy Reeder)",
+    "date": "2027-03-27",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/dan-peggy-reeder-tickets-1520019",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Charlotte Adigéry & Bolis Pupul",
+    "date": "2027-03-28",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43499021-charlotte-adigery-and-bolis-pupul-at-neumos",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Rikas",
+    "date": "2027-03-28",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/rikas-tickets-1666230",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Susannah Joffe",
+    "date": "2027-03-29",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/susannah-joffe-tickets-1676086",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Sarah Julia",
+    "date": "2027-03-29",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/sarah-julia-tickets-1664461",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Mumiy Troll",
+    "date": "2027-03-30",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43495125-mumiytroll-at-neumos",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Worldpeace DMT",
+    "date": "2027-03-30",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/worldpeace-dmt-tickets-1668771",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Letters to Lions",
+    "date": "2027-04-01",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/letters-to-lions-tickets-1581523",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Iceage",
+    "date": "2027-04-02",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/iceage-tickets-1554505",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Sadurn",
+    "date": "2027-04-06",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/sadurn-tickets-1664412",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Jersey",
+    "date": "2027-04-07",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/jersey-tickets-1664442",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Gus Dapperton",
+    "date": "2027-04-08",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/gus-dapperton-tickets-1674923",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Valencia Grace",
+    "date": "2027-04-09",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/valencia-grace-tickets-1506414",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Destroy Boys (with Illuminati Hotties, The Rat Utopia Experiment)",
+    "date": "2027-04-13",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/destroy-boys-tickets-1670884",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Alex Sampson",
+    "date": "2027-04-21",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.neumos.com/events/detail/alex-sampson-tickets-1662620",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "Rec Hall",
+    "date": "2027-04-21",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/rec-hall-tickets-1688796",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": "Barboza",
+    "title": "The F16s",
+    "date": "2027-04-24",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.thebarboza.com/events/detail/the-f16s-tickets-1660166",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "The Palms",
+    "date": "2027-04-26",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43499880-palms-usa-at-neumos",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "French 79",
+    "date": "2027-05-01",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43159813-french-79-at-neumos",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Northwest Terror Fest 2027 (with Napalm Death, Immolation, Gorguts, Fulci, Imperial Triumphant, SubRosa, Deadguy, Invunche)",
+    "date": "2027-05-06",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/festivals/1762789-northwest-terror-fest/id/43423190-northwest-terror-fest-2027",
+    "status": null
+  },
+  {
+    "venue": "Neumos",
+    "room": null,
+    "title": "Northwest Terror Fest 2027 (with Napalm Death, Immolation, Gorguts, Fulci, Imperial Triumphant, SubRosa, Deadguy, Invunche)",
+    "date": "2027-05-07",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/festivals/1762789-northwest-terror-fest/id/43423190-northwest-terror-fest-2027",
+    "status": null
+  }
 ]

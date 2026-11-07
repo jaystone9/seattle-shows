@@ -2,46 +2,6 @@
   {
     "venue": "Climate Pledge Arena",
     "room": null,
-    "title": "Gorillaz (with Little Simz, Deltron 3030)",
-    "date": "2026-10-31",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://songkick.com/concerts/43082088-gorillaz-at-climate-pledge-arena",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
-    "title": "Bryson Tiller (with Majid Jordan, Ty Dolla $ign, Austin Millz)",
-    "date": "2026-11-01",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://songkick.com/concerts/43247350-bryson-tiller-at-climate-pledge-arena",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
-    "title": "Teddy Swims (with MarcLo)",
-    "date": "2026-11-05",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://songkick.com/concerts/43164602-teddy-swims-at-climate-pledge-arena",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
-    "title": "The Smashing Pumpkins",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://songkick.com/concerts/43221312-smashing-pumpkins-at-climate-pledge-arena",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
     "title": "Ms. Lauryn Hill & Wyclef Jean",
     "date": "2026-11-10",
     "doors": null,
@@ -237,6 +197,16 @@
     "doors": null,
     "start": "18:30",
     "url": "https://songkick.com/concerts/43455972-nickelback-at-climate-pledge-arena",
+    "status": null
+  },
+  {
+    "venue": "Climate Pledge Arena",
+    "room": null,
+    "title": "Queens of the Stone Age (with Pixies, Wheelchair Sports Camp)",
+    "date": "2027-05-07",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://songkick.com/concerts/43477599-queens-of-the-stone-age-at-climate-pledge-arena",
     "status": null
   }
 ]

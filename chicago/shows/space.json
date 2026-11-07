@@ -2,36 +2,6 @@
   {
     "venue": "SPACE",
     "room": null,
-    "title": "John Cowan Trio & Luke Bulla",
-    "date": "2026-11-04",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/john-cowan-and-luke-bulla-space-tickets/14847023",
-    "status": "cancelled"
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Teddy Thompson (with Jenna Nicholls)",
-    "date": "2026-11-05",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/teddy-thompson-space-tickets/14907973",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Jon Cleary & The Absolute Monster Gentlemen",
-    "date": "2026-11-06",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/jon-cleary-the-absolute-space-tickets/14277324",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
     "title": "Jon Cleary & The Absolute Monster Gentlemen",
     "date": "2026-11-07",
     "doors": null,
@@ -117,6 +87,16 @@
     "doors": null,
     "start": "13:00",
     "url": "https://www.ticketweb.com/event/michael-j-miles-jill-space-tickets/14328364",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Jason Narducy",
+    "date": "2026-11-15",
+    "doors": "19:30",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43383307-jason-narducy-at-space",
     "status": null
   },
   {
@@ -312,6 +292,16 @@
   {
     "venue": "SPACE",
     "room": null,
+    "title": "Johnny Iguana (with Gerry Hundt, Billy Flynn)",
+    "date": "2026-12-14",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43452146-johnny-iguana-at-space",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
     "title": "Anne Heaton",
     "date": "2026-12-15",
     "doors": "19:30",
@@ -452,11 +442,41 @@
   {
     "venue": "SPACE",
     "room": null,
+    "title": "Lydia Loveless",
+    "date": "2027-02-06",
+    "doors": null,
+    "start": null,
+    "url": "https://www.jambase.com/show/lydia-loveless-evanston-space-20270206",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
     "title": "American Patchwork Quartet",
     "date": "2027-02-10",
     "doors": null,
     "start": "19:30",
     "url": "https://www.ticketweb.com/event/american-patchwork-quartet-space-tickets/14328884",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Charlie Hunter (early show)",
+    "date": "2027-02-27",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.jambase.com/show/charlie-hunter-evanston-space-20270227",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Charlie Hunter (late show)",
+    "date": "2027-02-27",
+    "doors": null,
+    "start": "21:30",
+    "url": "https://www.jambase.com/show/charlie-hunter-evanston-space-20270227-2",
     "status": null
   },
   {
@@ -497,6 +517,16 @@
     "doors": null,
     "start": null,
     "url": "https://www.songkick.com/concerts/43475912-cory-branan-at-space",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Mason Jennings",
+    "date": "2027-03-20",
+    "doors": null,
+    "start": null,
+    "url": "https://www.jambase.com/show/mason-jennings-evanston-space-20270320",
     "status": null
   },
   {

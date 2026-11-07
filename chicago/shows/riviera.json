@@ -2,40 +2,10 @@
   {
     "venue": "Riviera Theatre",
     "room": null,
-    "title": "AMBLE (with Vincent Lima)",
-    "date": "2026-10-30",
-    "doors": "18:30",
-    "start": "20:00",
-    "url": "https://www.axs.com/events/1425701/amble-tickets?skin=riviera",
-    "status": null
-  },
-  {
-    "venue": "Riviera Theatre",
-    "room": null,
-    "title": "Bad Gyal (with judith)",
-    "date": "2026-11-01",
-    "doors": "18:00",
-    "start": "19:30",
-    "url": "https://www.axs.com/events/1414956/bad-gyal-mas-cara-world-tour-2026-tickets?skin=riviera",
-    "status": null
-  },
-  {
-    "venue": "Riviera Theatre",
-    "room": null,
-    "title": "Pouya (with Ramirez, Fat Nick, Black Smurf, comehelpglo)",
-    "date": "2026-11-05",
-    "doors": "18:00",
-    "start": "19:30",
-    "url": "https://www.axs.com/events/1481023/pouya-tickets?skin=riviera",
-    "status": null
-  },
-  {
-    "venue": "Riviera Theatre",
-    "room": null,
     "title": "Vince Staples (with Mavi)",
     "date": "2026-11-08",
-    "doors": "18:00",
-    "start": "19:30",
+    "doors": "18:30",
+    "start": "20:00",
     "url": "https://www.axs.com/events/1488535/vince-staples-tickets?skin=riviera",
     "status": null
   },
@@ -114,8 +84,8 @@
     "room": null,
     "title": "Story of the Year & Silverstein (with Stand Atlantic, Footballhead)",
     "date": "2026-12-06",
-    "doors": "17:30",
-    "start": "19:00",
+    "doors": "17:00",
+    "start": "18:00",
     "url": "https://www.axs.com/events/1542701/story-of-the-year-silverstein-camp-screamo-tour-tickets?skin=riviera",
     "status": null
   },
@@ -137,6 +107,16 @@
     "doors": "18:30",
     "start": "20:00",
     "url": "https://www.axs.com/events/1602083/havasi-tickets?skin=riviera",
+    "status": "cancelled"
+  },
+  {
+    "venue": "Riviera Theatre",
+    "room": null,
+    "title": "Currents (with Vana, Stick to Your Guns, Dreamwake)",
+    "date": "2027-02-27",
+    "doors": "17:30",
+    "start": "19:00",
+    "url": "https://www.axs.com/events/1679509/currents-our-fates-lie-in-tandem-tickets?skin=riviera",
     "status": null
   },
   {
@@ -182,11 +162,41 @@
   {
     "venue": "Riviera Theatre",
     "room": null,
+    "title": "Akira Yamaoka",
+    "date": "2027-03-27",
+    "doors": "19:00",
+    "start": "20:30",
+    "url": "https://www.axs.com/events/1689095/akira-yamaoka-tickets?skin=riviera",
+    "status": null
+  },
+  {
+    "venue": "Riviera Theatre",
+    "room": null,
     "title": "Lambrini Girls (with Sprints)",
     "date": "2027-04-02",
     "doors": "18:00",
     "start": "19:30",
     "url": "https://www.axs.com/events/1637083/lambrini-girls-no-refunds-tour-with-support-from-sprints-tickets?skin=riviera",
+    "status": null
+  },
+  {
+    "venue": "Riviera Theatre",
+    "room": null,
+    "title": "The Wombats (with The Lathums)",
+    "date": "2027-05-04",
+    "doors": "18:00",
+    "start": "19:30",
+    "url": "https://www.axs.com/events/1659840/the-wombats-tickets?skin=riviera",
+    "status": null
+  },
+  {
+    "venue": "Riviera Theatre",
+    "room": null,
+    "title": "Two Door Cinema Club (with Friendly Fires)",
+    "date": "2027-05-06",
+    "doors": "18:00",
+    "start": "19:30",
+    "url": "https://www.axs.com/events/1674899/two-door-cinema-club-y-tourist-history-15th-anniversary-tour-tickets?skin=riviera",
     "status": null
   }
 ]
