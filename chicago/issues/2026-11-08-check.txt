@@ -1,0 +1,52 @@
+Subject: CHECK before sending: Nov 8–21: Chicago 2 Week Playlist
+
+This is the pre-send check. The beehiiv test of the real issue arrives separately.
+Nothing goes to subscribers until you say OK.
+
+SEND TO
+  beehiiv segment "Chicago readers" only (refresh the segment first). Never All subscribers.
+
+LINKS
+  [not checked here (URLError); open it in the browser] Chicago playlist: https://open.spotify.com/playlist/2qd5iOVVDEM3ERsbGpYphl
+  [not checked here (URLError); open it in the browser] Wicker Park & Logan Square playlist: https://open.spotify.com/playlist/2yCvfsjXpXecl727Ts2Qwx
+  [not checked here (URLError); open it in the browser] West Loop & Pilsen playlist: https://open.spotify.com/playlist/588WMCS5FT3GTw3aBpPbUG
+  [not checked here (URLError); open it in the browser] North Suburbs playlist: https://open.spotify.com/playlist/6PiUxaZbuBD0Ar9PaqYsXs
+  [not checked here (URLError); open it in the browser] Pop playlist: https://open.spotify.com/playlist/5fhgaqGLzgLom3UWbO7Omv
+  [not checked here (URLError); open it in the browser] Indie & Rock playlist: https://open.spotify.com/playlist/0S4sJW9bRNW17CflCxxwxz
+  [not checked here (URLError); open it in the browser] Folk & Country playlist: https://open.spotify.com/playlist/35nQUQI0XJyLOLPRqYbMCl
+  [not checked here (URLError); open it in the browser] Electronic playlist: https://open.spotify.com/playlist/6EoQk3Zh7ktbTBgYMtorU0
+  [not checked here (URLError); open it in the browser] Hip-hop & R&B playlist: https://open.spotify.com/playlist/4JgkU2lu5ytPAP2apnZxgb
+  [not checked here (URLError); open it in the browser] Punk & Metal playlist: https://open.spotify.com/playlist/6h4uvj2Wq83EuKD4zq3FLl
+  [not checked here (URLError); open it in the browser] Funk & Blues playlist: https://open.spotify.com/playlist/5J8mAWi9QTtmxvAkXE4iy5
+  [not checked here (URLError); open it in the browser] Jazz, World & Classical playlist: https://open.spotify.com/playlist/00ZyMFHVxZF0rDItopHJvp
+  [not checked here (URLError); open it in the browser] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
+  [not checked here (URLError); open it in the browser] Site: https://2weeksoundcheck.com/chicago/
+
+NUMBERS
+  Dates: Nov 8–21
+  Shows on the site in this window: 315
+  Chicago: 779 songs, 264 headliners, 3 per artist
+  Wicker Park & Logan Square: 266 songs, 91 artists, 3 per artist
+  West Loop & Pilsen: 298 songs, 101 artists, 3 per artist
+  North Suburbs: 126 songs, 43 artists, 3 per artist
+  Pop: 75 songs, 25 artists
+  Indie & Rock: 250 songs, 85 artists
+  Folk & Country: 168 songs, 56 artists
+  Electronic: 69 songs, 23 artists
+  Hip-hop & R&B: 84 songs, 28 artists
+  Punk & Metal: 86 songs, 29 artists
+  Funk & Blues: 62 songs, 22 artists
+  Jazz, World & Classical: 101 songs, 34 artists
+  Chicago skipped (not on Spotify or ambiguous): Denise Tomasello and her 17-Piece Orchestra, Austin Giorgio, Frequency Series, Alejandro Urzagaste Quartet, ConstelNation, Samy Sharif, The Hueseros, Future Folk Festival, GCS (Eric Gales, Dennis Chambers, Billy Sheehan), Cliffhanger, The Slackers, Victor Wooten & The Wooten Brothers, Mycelium New Music, Henry Geraghty, Jason Narducy, Sap, Gene, Civic Orchestra of Chicago, Jessie Reyez, Bob Lark Septet, Curro de Candela, Ours, Dorian Phelps Quartet, Alexander/McLean Project, Full Nelson, The Fran Banish Trio
+  Wicker Park & Logan Square skipped (not on Spotify or ambiguous): Head, Aim High, Rare Candy, Cableknit, Chillona, Ester, Damsel, Cuss, Blood Handsome, Toccororo, Jaxx, Kylie Exotic, Ariel Zetina, kitship, Proxoxie, DUSTY, Twice Told Tale, Timelife, Tender Object System, Zastava, Attic Reels, Tom Henry, Criteria, Discus, Leo, MVTE, Maldita Sea!, Local Boy Meets God, Ferny
+  West Loop & Pilsen skipped (not on Spotify or ambiguous): Spare No Mercy, Invasive, Choice, Slamwich, Orbital Gate, Christian Lee Hutson, Olswel, Friend, Cliffhanger, Victor Wooten & The Wooten Brothers, Kyle Starkey, 10cust, TDY b2b Shaun LaCosta-Sinclair, Budget Cuts, Another Enemy, Suffering, Gene, Thus Spoke Zarathustra, Ours, Mass Text, TRAYSH, Croaker, Full Nelson, The Love Lost, Valentina Cappellari, Locky, Isabella, KDAY, Anamanaguchi
+  North Suburbs skipped (not on Spotify or ambiguous): Denise Tomasello and her 17-Piece Orchestra, Sirsy, Colleen Brown, GCS (Eric Gales, Dennis Chambers, Billy Sheehan), Tony Lucca, Jason Narducy, Jesse James DeConto, Andrea Walker, Alexander/McLean Project
+
+FLAGS
+  None from the build. Add anything found in the run (failed venues, reports).
+
+SUBJECT AND PREVIEW
+  Nov 8–21: Chicago 2 Week Playlist
+  Four new playlists for the next two weeks: all of Chicago, plus Wicker Park & Logan Square and West Loop & Pilsen and North Suburbs.
+
+Reply OK (or tell Claude in the chat) and it goes to subscribers.
