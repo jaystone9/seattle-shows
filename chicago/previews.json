@@ -1,825 +1,9 @@
 {
- "Bruce Liu": {
-  "artist": "3GMPZX0AZo90KkPjFpgPT9",
-  "track": "0rJJNO9ERCd235TJQ67d5V",
-  "song": "The Seasons, Op. 37a: VI. June. Barcarolle",
-  "name": "Bruce Liu"
- },
- "Friday Pilots Club": {
-  "artist": "3PgEvPJKRuil74QPX8wtXY",
-  "track": "2U94Nj4SVS7TNsUiObLWPm",
-  "song": "End of It",
-  "name": "Friday Pilots Club"
- },
- "Sevalynn & heaving.": {
-  "artist": "6CjHJUDoAOIm2aadE4AAHR",
-  "track": "566WtwsaF0oCHzNGREtY0G",
-  "song": "HOLY SHIT!",
-  "name": "Sevalynn & heaving."
- },
- "TEN": {
-  "artist": "3Q5Qep7ytrjVleNnMnntgQ",
-  "track": "4Bn4b4N7rWCqPlKfEZi6PB",
-  "song": "OUTWEST",
-  "name": "TEN"
- },
- "Mike Stern Quintet": {
-  "artist": "3zX0EMvB00JzxnRi5EIICP",
-  "track": "3gakQDVv3xHBqR6As90L3v",
-  "song": "Mood Swings",
-  "name": "Mike Stern Quintet"
- },
- "Bad Gyal": {
-  "artist": "4F4pp8NUW08JuXwnoxglpN",
-  "track": "0ExNALbmBpY7IAZ2dzupnv",
-  "song": "Se Le Ve",
-  "name": "Bad Gyal"
- },
- "L7": {
-  "artist": "2zMQOJ4Cyl4BYbw6WqaO3h",
-  "track": "3z5ggGtcs4t8pizW521gW9",
-  "song": "Pretend We're Dead",
-  "name": "L7"
- },
- "New Constellations": {
-  "artist": "5WF5jtgP0H31QTl5g4WxW9",
-  "track": "1CLZzeLWqdhz5IfR5vHy4u",
-  "song": "Hot Blooded",
-  "name": "New Constellations"
- },
- "The Transference": {
-  "artist": "7yBM2c1fBzYP4YcmUsNIuA",
-  "track": "7iMHq47ckOZewLSC3UeCtM",
-  "song": "Ramone Says I'm the Devil",
-  "name": "The Transference"
- },
- "DITZ": {
-  "artist": "3oSKgWx1dqjhidhnhpGbfJ",
-  "track": "0En42zLevWWRTw8fzzP9VV",
-  "song": "The Body as a Structure",
-  "name": "DITZ"
- },
- "Flycatcher": {
-  "artist": "4j5N6CLoWuY6yv1NOzFLyn",
-  "track": "3Ue2UFBc1XOZmwlUZ5y26y",
-  "song": "Sodas in the Freezer",
-  "name": "Flycatcher"
- },
- "Geese": {
-  "artist": "0WCo84qtCKfbyIf1lqQWB4",
-  "track": "1g9GiiPPaL7KcDHlDzu7lT",
-  "song": "Au Pays du Cocaine",
-  "name": "Geese"
- },
- "King Sickabilly": {
-  "artist": "5tuHumunp3Wpy5fiGiN29x",
-  "track": "20wLKoNKs5XsW4zFJWIrrH",
-  "song": "Fueled By Synergy",
-  "name": "King Sickabilly"
- },
- "Radiator Hospital": {
-  "artist": "0HMLp79IAd9Z8zMgxqpyxn",
-  "track": "3ziv4Uszw9iRjUpZt1la0L",
-  "song": "Cut Your Bangs",
-  "name": "Radiator Hospital"
- },
- "Melmann x Costello: Música Aperta (Feldman, Cage, Cowell)": {
-  "artist": "1OGQjRSWmRC8r05k7vOEwU",
-  "track": "1iljdm6YQ10AClnQX9GhlG",
-  "song": "Forever",
-  "name": "Melmann x Costello"
- },
- "Cash Box Kings": {
-  "artist": "05eG6kRq0vo8hfQxW2sh8c",
-  "track": "6ityJZC7OtdAcEhxeEvDFK",
-  "song": "Ain't No Fun (When The Rabbit Got The Gun)",
-  "name": "Cash Box Kings"
- },
- "Jeremiah Chiu & Josh Johnson": {
-  "artist": "1RpHbIW5eeEBs693nyrhSa",
-  "track": "0LS3mY5d0bK6CTqvEDJvQf",
-  "song": "In Åland Air",
-  "name": "Jeremiah Chiu & Josh Johnson"
- },
- "Rod Wave": {
-  "artist": "45TgXXqMDdF8BkjA83OM7z",
-  "track": "0U60hgxzGit7juEuHul2y3",
-  "song": "25",
-  "name": "Rod Wave"
- },
- "Archer Oh": {
-  "artist": "0X9Bm4IwV18URXuurahcug",
-  "track": "07MPaFoRW1ySjDskV1rQ9a",
-  "song": "Dianthus",
-  "name": "Archer Oh"
- },
- "June Henry": {
-  "artist": "1DQNoe3zvgwOaiZmR7jO9P",
-  "track": "3sJm2yTOePvmNT4M7fcbba",
-  "song": "void-adjacent",
-  "name": "June Henry"
- },
- "Party Cannon": {
-  "artist": "5Oz5WX5xkESHBH5I4Wp09C",
-  "track": "2BifBYcHECHuBrEyCVFUiy",
-  "song": "Duct Taped to a Flag Pole",
-  "name": "Party Cannon"
- },
- "Blasting Company": {
-  "artist": "4paO0IcImRazkM6c1RUt48",
-  "track": "4rDDzbKwDldcYX66MB55DR",
-  "song": "Prelude (Over the Garden Wall)",
-  "name": "Blasting Company"
- },
- "Julius Tucker Trio": {
-  "artist": "6PZQD7s0g1uM7gA4HY0X9b",
-  "track": "6VklkVpwSWV3lJzZ5ZGWW5",
-  "song": "Not Too Far Away",
-  "name": "Julius Tucker Trio"
- },
- "Man/Woman/Chainsaw": {
-  "artist": "0KheksMhWogVV4frHAihPJ",
-  "track": "13Zz75ZnMXnfBGTMHf9E5s",
-  "song": "Nosedive",
-  "name": "Man/Woman/Chainsaw"
- },
- "Media Luna": {
-  "artist": "7IbEfU2lTGnjMtOn7DN03q",
-  "track": "5YlMsIC2w7cbD2NioFrQOq",
-  "song": "DRAMATICA",
-  "name": "Media Luna"
- },
- "The Hails": {
-  "artist": "3g65HWtAf8uyVmpR4sRbrT",
-  "track": "4ABxROGzabee4HvqzH8sSn",
-  "song": "Stay",
-  "name": "The Hails"
- },
- "Arch Enemy & The Black Dahlia Murder": {
-  "artist": "0DCw6lHkzh9t7f8Hb4Z0Sx",
-  "track": "0WZZENH0kt3O2cBE8q5IRq",
-  "song": "War Eternal",
-  "name": "Arch Enemy & The Black Dahlia Murder"
- },
- "Billy Branch & The Sons of Blues": {
-  "artist": "4TRfrM7ljwL52xGyQGHk9y",
-  "track": "0XYTOgT7iiaEiPo7DJycGo",
-  "song": "As The Years Go Passing By",
-  "name": "Billy Branch & The Sons of Blues"
- },
- "Careful Gaze": {
-  "artist": "0Eq0sOBzOFE1j2KvH9wJMj",
-  "track": "2NkD9JtzotqYn68Pm1xqlQ",
-  "song": "CERULEAN",
-  "name": "Careful Gaze"
- },
- "The Blasting Company plays Over The Garden Wall": {
-  "artist": "4paO0IcImRazkM6c1RUt48",
-  "track": "4rDDzbKwDldcYX66MB55DR",
-  "song": "Prelude (Over the Garden Wall)",
-  "name": "The Blasting Company plays Over The Garden Wall"
- },
- "INAYAH": {
-  "artist": "2jomvyAKdqYYimeLl3XcdZ",
-  "track": "1Ro8OnzPOeTPFiohUdQ6QH",
-  "song": "For The Streets",
-  "name": "INAYAH"
- },
- "Jesse Gold": {
-  "artist": "0ScLk4lNexNrtkDmGQicRx",
-  "track": "3aSYTUvbXoLo8Ho19cXYHX",
-  "song": "Always Been You",
-  "name": "Jesse Gold"
- },
- "Margaret Glaspy": {
-  "artist": "13YVfXddjRIUrubItJjadb",
-  "track": "0Wh4t8CQrnbLskLnZPYGOT",
-  "song": "Half of my heart (Between Steps : Original Television Soundtrack)",
-  "name": "Margaret Glaspy"
- },
- "SUSS & Luke Schneider": {
-  "artist": "3qb5O9pLE0urqttdq4CqLS",
-  "track": "3BJnhpM9ItAefdMZGdGf1d",
-  "song": "Ursa Major",
-  "name": "SUSS & Luke Schneider"
- },
- "Tear Dungeon": {
-  "artist": "0Y5jhKedYfIAWOE5KO3mJJ",
-  "track": "69I8ULFEKVlQXCfSlvgu5p",
-  "song": "Charlie Kirk's Neckhole Fleshlight",
-  "name": "Tear Dungeon"
- },
- "Wine Lips": {
-  "artist": "4fPl9Aa0FMkATDiA7AnBNM",
-  "track": "4KcxXxPAmgOaoZ6DJlYtSe",
-  "song": "Eyes",
-  "name": "Wine Lips"
- },
- "George Clanton": {
-  "artist": "1G5v3lpMz7TeoW0yGpRQHr",
-  "track": "0Ubp7kMZ6MWZIL8qkloYub",
-  "song": "Warmpop",
-  "name": "George Clanton"
- },
- "Arthur Lee Land": {
-  "artist": "2OWniaNiwEQUNne7EiGExI",
-  "track": "1CdYGTjSh21MHwlkfmFwtE",
-  "song": "Cracked Open",
-  "name": "Arthur Lee Land"
- },
- "Isabel Dumaa": {
-  "artist": "31R2Jd36gfwflNuGkqovpv",
-  "track": "1FnnFWEJVu1ytbBnxVeCg3",
-  "song": "James Dean",
-  "name": "Isabel Dumaa"
- },
- "My Upside Down": {
-  "artist": "3SGr6aDUx9FdbGZRuxtUPX",
-  "track": "02gRwyJTDuruDTXwgPKl5d",
-  "song": "I'm Living, You're Dying",
-  "name": "My Upside Down"
- },
- "Sombr": {
-  "artist": "4G9NDjRyZFDlJKMRL8hx3S",
-  "track": "7qjZnBKE73H4Oxkopwulqe",
-  "song": "back to friends",
-  "name": "Sombr"
- },
- "Boston Manor": {
-  "artist": "4WjeQi9wm84lYTIWZ95QoM",
-  "track": "5kHCsELTDAwAz3ghslicoO",
-  "song": "Foxglove",
-  "name": "Boston Manor"
- },
- "BOYNEXTDOOR": {
-  "artist": "4hnHLgMSOiqERWBL4jINP1",
-  "track": "3U7iIHygNSOcjcL98KwHQg",
-  "song": "ANIMAL",
-  "name": "BOYNEXTDOOR"
- },
- "Eivør": {
-  "artist": "2dB4ya2W1Gvng8gjWSPu2H",
-  "track": "3MdEnYp8pv39XHynVC8Lq0",
-  "song": "Trøllabundin",
-  "name": "Eivør"
- },
- "Goran Ivanovic": {
-  "artist": "3jIzd63WSShOqkp7jlcloa",
-  "track": "7m3hieashWTZIAi4i9ClPj",
-  "song": "Santorini",
-  "name": "Goran Ivanovic"
- },
- "Dent May": {
-  "artist": "34me8hAxavRmcDIwhxa3b7",
-  "track": "3oNQ6NkihVzQkV5qhk2Pbe",
-  "song": "Something About You",
-  "name": "Dent May"
- },
- "Fabrizio": {
-  "artist": "0PFfIFgLmqHJOlRocks9Cr",
-  "track": "5wlp24waiNLMRFxMZQKd9f",
-  "song": "Before The Soul Goes To Waste",
-  "name": "Fabrizio"
- },
- "Galactic Cowboy Orchestra": {
-  "artist": "07ijHzHCo5vZHIKWye6GYZ",
-  "track": "2iMBMJmhVrspRPKGqADZCO",
-  "song": "Lost in the Numbers",
-  "name": "Galactic Cowboy Orchestra"
- },
- "Ho99o9 & N8NOFACE": {
-  "artist": "5KuuNGYTUTokLerXMNYCGL",
-  "track": "1JmJd0PiRNmJdGJZVABRNX",
-  "song": "War Bait",
-  "name": "Ho99o9 & N8NOFACE"
- },
- "Lime Garden": {
-  "artist": "5GA6j57yIPCBrWk1lTvF9o",
-  "track": "2jAPwqfgCw5hsUrg3wsqzA",
-  "song": "Love Song",
-  "name": "Lime Garden"
- },
- "Lizzy & the Triggermen": {
-  "artist": "0Cm3sIRvw10KfaEpt6bAPF",
-  "track": "6jcm3oLMuPW7geFTslTBrw",
-  "song": "When That Man Is Dead and Gone (Live)",
-  "name": "Lizzy & the Triggermen"
- },
- "She's Green": {
-  "artist": "42IX4MHpnREqy3N7HugkLY",
-  "track": "6dHupfDe6k7OUh8EQqNphJ",
-  "song": "mandy - demo",
-  "name": "She's Green"
- },
- "Viano and the Wave": {
-  "artist": "7A4Vv2CJ1Fswjekhk4hx7F",
-  "track": "2CyxeEFRbqQtoGvq5cE4V8",
-  "song": "Barely Alive",
-  "name": "Viano and the Wave"
- },
- "Diles que no me maten": {
-  "artist": "22Gr8D6d3DlHfUYjbqtIev",
-  "track": "3HFtCewZzBRxOESSqk1nVn",
-  "song": "Outro",
-  "name": "Diles que no me maten"
- },
- "Thoughts on Bowling": {
-  "artist": "2uYZl0JqofhYv9Nma8LVUw",
-  "track": "0QxKUn6URGMgeAnhG7nb5k",
-  "song": "Cavity",
-  "name": "Thoughts on Bowling"
- },
- "Static Dress": {
-  "artist": "1Lqdsv7Ff4GNq9PM3Yd0vi",
-  "track": "2gViiDfjDK3lCScuq3B6aw",
-  "song": "human props",
-  "name": "Static Dress"
- },
- "Tune-Yards": {
-  "artist": "0asVlqTLu3TimnYVyY5Jxi",
-  "track": "7a5WVvAqdpvoZ0DZmw9LgW",
-  "song": "Water Fountain",
-  "name": "Tune-Yards"
- },
- "Abbie Gamboa": {
-  "artist": "4TJVQinD20ZEoJXSuV6IU5",
-  "track": "1yu6UKfMvbFZ0esY29yYlT",
-  "song": "Center - Live",
-  "name": "Abbie Gamboa"
- },
- "Matt Koziol": {
-  "artist": "2FxP1QGYEVLE2pI1TBBDQs",
-  "track": "3Lde74HGB6XqoynmBIAq44",
-  "song": "Runs in the Family",
-  "name": "Matt Koziol"
- },
- "Pigeons Playing Ping Pong": {
-  "artist": "52NOvMXEjgf8MQl0qop2dl",
-  "track": "6YJNcusdf5adRMqJUaRjLt",
-  "song": "Horizon",
-  "name": "Pigeons Playing Ping Pong"
- },
- "Styx": {
-  "artist": "4salDzkGmfycRqNUbyBphh",
-  "track": "1CQqupcyMg7176PPmIVmSj",
-  "song": "Renegade",
-  "name": "Styx"
- },
  "Chicago Symphony Orchestra: Beethoven 5 & Mao Fujita": {
   "artist": "6TD08jYeuN128P2MZTbc8E",
   "track": "0cqcRqZgkNHanWQ8slYA0v",
-  "song": "Mahler: Symphony No. 5 in C-Sharp Minor: IV. Adagietto. Sehr langsam",
+  "song": "Mahler: Symphony No. 5 in C-Sharp Minor:",
   "name": "Chicago Symphony Orchestra"
- },
- "Frank Catalano: Miles, Coltrane and Tony Bennett Centennial Celebration": {
-  "artist": "14dIeL5BWpNNzQpzFQuZlT",
-  "track": "73vSzjRyVKJQAyd9Li7IuG",
-  "song": "The Sky Is Crying",
-  "name": "Frank Catalano"
- },
- "Jace William & The Seventh Day Band": {
-  "artist": "1sRFcyES5PjvHnpRXXPgpM",
-  "track": "6AQ7ToaKBsRTZUjLSmMpYc",
-  "song": "ANGEL DUST",
-  "name": "Jace William & The Seventh Day Band"
- },
- "Pouya": {
-  "artist": "4nXOZlYoAD67hF9aUEncMY",
-  "track": "1tm7c4V0kqLiN0XPVnoUcT",
-  "song": "Runnin' Thru the 7th with My Woadies",
-  "name": "Pouya"
- },
- "Teddy Thompson": {
-  "artist": "1z98aCtgTzyUkAHR50ryFN",
-  "track": "0Wif7cImsLVzwJGq7PkBDC",
-  "song": "Tonight Will Be Fine",
-  "name": "Teddy Thompson"
- },
- "Vino Louden": {
-  "artist": "4rnm4FiHXyGSrd67FCNhBI",
-  "track": "1uRdbah1f460IljrUGI8Kk",
-  "song": "I'll Take Care of You - Live",
-  "name": "Vino Louden"
- },
- "Blitzkid": {
-  "artist": "1u8qqOF2w0kgbg1QLXEXSJ",
-  "track": "1tsH9P7zDMH9M5OLaOs31E",
-  "song": "She Dominates",
-  "name": "Blitzkid"
- },
- "Donny Benét": {
-  "artist": "1EiNEyiSrpB6BVxt58BnNN",
-  "track": "5qY5MMXsrlCmYj9X4qKqBX",
-  "song": "Konichiwa",
-  "name": "Donny Benét"
- },
- "Katseye": {
-  "artist": "3c0gDdb9lhnHGFtP4prQpn",
-  "track": "3ouNEk0tv5TTi8VWMe1xbX",
-  "song": "Animal",
-  "name": "Katseye"
- },
- "Louden Swain": {
-  "artist": "0qJj1cLIDBCmN8cYcMHtiD",
-  "track": "3qKa6gqpUqa5sF4OMwXUTB",
-  "song": "Whipping Post (Live)",
-  "name": "Louden Swain"
- },
- "Mark Solotroff": {
-  "artist": "1qzS0Txu14VyMELnNLjspk",
-  "track": "6r9EwZb8W1hV1DSS3OVKcI",
-  "song": "Era of Standardization - 2021 Remaster",
-  "name": "Mark Solotroff"
- },
- "Monty Alexander Trio": {
-  "artist": "31KKBLM5RlNTW9EAYa6kW9",
-  "track": "0FKnknau5UBXgN2Q6vVHgC",
-  "song": "Monticello",
-  "name": "Monty Alexander Trio"
- },
- "Steve Forbert": {
-  "artist": "3oAbjWINfcTSAuVUlXXMty",
-  "track": "4kPLmTsTwA6wvtcbb0LtbM",
-  "song": "Romeo's Tune",
-  "name": "Steve Forbert"
- },
- "Tanner Dane": {
-  "artist": "6eDivrXl4ANMMoyJaIF6JA",
-  "track": "50Y0kB31AXnep3vnjy9kKp",
-  "song": "Gotta Love Somebody",
-  "name": "Tanner Dane"
- },
- "Keynote Sisters": {
-  "artist": "5pswlj88r5Kjlb3DyzOV1j",
-  "track": "3CuF62NQD2xkCR0nEXB9wz",
-  "song": "Run",
-  "name": "Keynote Sisters"
- },
- "Rudresh Mahanthappa Hero Trio": {
-  "artist": "3OaIGXcN9CnCX6etIGVf8G",
-  "track": "4OCZosYvqSIZ0iU55mxhV1",
-  "song": "The Windup",
-  "name": "Rudresh Mahanthappa Hero Trio"
- },
- "Desire": {
-  "artist": "2OuSnRT9BKAvFuw0yoTim0",
-  "track": "2cSRuejq6DU9U6OkSmUw17",
-  "song": "Under Your Spell",
-  "name": "Desire"
- },
- "Noah Weiland & Dogma Society": {
-  "artist": "0jP1qUWSe4EElV6GaKCuW1",
-  "track": "6XGVLiWSliI5sjMUPj2PKb",
-  "song": "LIPS (AGAIN)",
-  "name": "Noah Weiland & Dogma Society"
- },
- "Paolo Apuli": {
-  "artist": "48lxYT3WzENwcKjfWWhHSO",
-  "track": "1eDJK34IlJt4vJgTHaBg6j",
-  "song": "Discover",
-  "name": "Paolo Apuli"
- },
- "Stratøs": {
-  "artist": "1Hnjv6dMBM9cKOgtZEmyHB",
-  "track": "7x7vUknaR9PnOTqQvifqSA",
-  "song": "Magnificent Prison",
-  "name": "Stratøs"
- },
- "Knox Fortune": {
-  "artist": "49O0SPoCoTiK2Nn2tOaHyU",
-  "track": "4At1qbqCOJ9WFbvpWTOOY4",
-  "song": "Lil Thing",
-  "name": "Knox Fortune"
- },
- "Trippie Redd": {
-  "artist": "6Xgp2XMz1fhVYe7i6yNAax",
-  "track": "7AQim7LbvFVZJE3O8TYgf2",
-  "song": "Fuck Love",
-  "name": "Trippie Redd"
- },
- "Basement": {
-  "artist": "4DUQBYAyOTZotSEdKhaf6c",
-  "track": "1AMADyXgIWayh5vXLZo2qF",
-  "song": "Covet",
-  "name": "Basement"
- },
- "Ninth Key": {
-  "artist": "4lcvro3hYRhGU6BtcNIIYx",
-  "track": "3zRJRc9jQqfX3df6cTO1Uh",
-  "song": "HAPPY FEELS LIKE",
-  "name": "Ninth Key"
- },
- "Parra for Cuva": {
-  "artist": "238y1dKPtMeFEpX3Y6H1Vr",
-  "track": "6JrAEmBFd61eYIGVOSPnT4",
-  "song": "Wicked Games (feat. Anna Naklab) - Radio Edit",
-  "name": "Parra for Cuva"
- },
- "Vile Mind": {
-  "artist": "41OUIUwotXeHSFlREgT81R",
-  "track": "2WyYZJBAJbqlsIlWB5RDiz",
-  "song": "Incensed",
-  "name": "Vile Mind"
- },
- "Luciano Antonio Octet": {
-  "artist": "63LiuRajL9SFPWOFScIvVl",
-  "track": "7vwOIjV0GpFuxCZHEJx6EA",
-  "song": "Canção Da Meia Noite (Midnight Song)",
-  "name": "Luciano Antonio Octet"
- },
- "Sleep": {
-  "artist": "4Mt6w4tDGiPgV5q6JWPlrI",
-  "track": "6qLgGLeawKyhMFJ848XtYD",
-  "song": "Dragonaut",
-  "name": "Sleep"
- },
- "Tom West": {
-  "artist": "4IszB4IvfBur47pa0bm1sr",
-  "track": "6m2cCJT4K54P5nLfRLyJud",
-  "song": "Easy, Love",
-  "name": "Tom West"
- },
- "Violet Crime": {
-  "artist": "0uoRAXJYHJ7003T0t0NbX4",
-  "track": "5WaUYD460umAIT9K17KhWO",
-  "song": "Bad Habits",
-  "name": "Violet Crime"
- },
- "Weatherday": {
-  "artist": "6pmR08TKSTs8rll6W99VnK",
-  "track": "6GbLngqvyXwLA0QXWCCFwr",
-  "song": "Come In",
-  "name": "Weatherday"
- },
- "Ancient Entities": {
-  "artist": "1HIwy7TiUVDXPYYbDCkJER",
-  "track": "0gJpGbzlcwsoJFS7C2IwU1",
-  "song": "Pierced by Obsidian",
-  "name": "Ancient Entities"
- },
- "Axis: Sova": {
-  "artist": "2KT7FKT1rFlBYXHzy91mjZ",
-  "track": "7mS4cvBYQmi00EznZQPNpt",
-  "song": "Still Here",
-  "name": "Axis"
- },
- "Eliza Neals": {
-  "artist": "48XgWMevIvFi72xQFN2qqb",
-  "track": "054MF2HfHcqygtR0ikyOPq",
-  "song": "You Ain't My Dog No More",
-  "name": "Eliza Neals"
- },
- "Jai Wolf": {
-  "artist": "24V5UY0nChKpnb1TBPJhCw",
-  "track": "05q78FY1IOa85XzPipVmvJ",
-  "song": "Indian Summer",
-  "name": "Jai Wolf"
- },
- "Jon Cleary & The Absolute Monster Gentlemen": {
-  "artist": "5AUpDp4yxURZjwzl1aOVyX",
-  "track": "4daZ2ohmOaI9p8VN2ZFbP3",
-  "song": "When You Get Back",
-  "name": "Jon Cleary & The Absolute Monster Gentlemen"
- },
- "LeAnn Rimes: 30 Years of Blue": {
-  "artist": "2d3VHzlOEwXvmBdS4pzOPL",
-  "track": "2AogRMqARWyUP7VQ3gmSoY",
-  "song": "Can't Fight The Moonlight",
-  "name": "LeAnn Rimes"
- },
- "Little Image": {
-  "artist": "5Ljgq0b8I3YkUwp3gtB1wm",
-  "track": "5M5ZnM9O8JW2SrukbfxZP8",
-  "song": "OUT OF MY MIND",
-  "name": "Little Image"
- },
- "Nick Mazzarella Quintet": {
-  "artist": "3NDzdB1Em5DFHnYECzpYQd",
-  "track": "1LP2hZpm1D2cTGIHPBrArQ",
-  "song": "What You Seek Is Seeking You",
-  "name": "Nick Mazzarella Quintet"
- },
- "Odie Leigh": {
-  "artist": "7AgbNZPRrvTpWjVbbPoUmU",
-  "track": "2VOrYcyK0rqa9gZ0gUL0fI",
-  "song": "Crop Circles",
-  "name": "Odie Leigh"
- },
- "Pedro Fernández": {
-  "artist": "24dYJ8P3YuFihvMcElFUWh",
-  "track": "7HveFMabDEzhn8ceKY5L6f",
-  "song": "Amarte A La Antigua",
-  "name": "Pedro Fernández"
- },
- "Pieta Brown": {
-  "artist": "43NpjLskaVb5j2Jgt6fdbP",
-  "track": "1E3aMKOVLZ7qWoEZO7fMnA",
-  "song": "Do You Know?",
-  "name": "Pieta Brown"
- },
- "Sophie Hunter": {
-  "artist": "3L2gl8O5cKVCbAnSWUFZxf",
-  "track": "5HzScPy2qtIW2S0u2sD5rP",
-  "song": "CVNT",
-  "name": "Sophie Hunter"
- },
- "The Bends": {
-  "artist": "2xBejdNon0VS3Egq8he7sb",
-  "track": "1XPxwcGKdiaFPWrBgFnDYI",
-  "song": "Makeup",
-  "name": "The Bends"
- },
- "Charlie Parr": {
-  "artist": "2OOAWkt15smEKXtNNLtaNG",
-  "track": "4JYHb0B9LU93nbeDAgFJ1C",
-  "song": "Rocky Racoon",
-  "name": "Charlie Parr"
- },
- "The Singleman Affair & Temp Wishes (record release)": {
-  "artist": "0XwYtwLoEUppEO2byle8kw",
-  "track": "0eKuEp6FL98KmfqsG6sjCY",
-  "song": "We Don't Need a Cure",
-  "name": "The Singleman Affair & Temp Wishes"
- },
- "Leenalchi": {
-  "artist": "0kHgYUOcTac5RhkYx1thsq",
-  "track": "6Fcu0gMjP3kETJ5DfZOeIQ",
-  "song": "Tiger Is Coming",
-  "name": "Leenalchi"
- },
- "Rico McFarland": {
-  "artist": "4ArQNmLTG1J9sV4Im7OkQv",
-  "track": "5wNw307ps4o02zXvAB5k3g",
-  "song": "Bad Attitude",
-  "name": "Rico McFarland"
- },
- "Tokyo T": {
-  "artist": "5Y5djQN55VUwm80HHjbO3N",
-  "track": "5YI07VUOZOslQA9e2NZ2sf",
-  "song": "Bellini",
-  "name": "Tokyo T"
- },
- "Danny L Harle (DJ Set)": {
-  "artist": "1PNvaesh1mkKZucGhBuqgD",
-  "track": "3WklkZOb3WmOxv9Xj0qrS5",
-  "song": "Starlight - Skrillex & ring noord Remix",
-  "name": "Danny L Harle (DJ Set)"
- },
- "Kaskade": {
-  "artist": "6TQj5BFPooTa08A7pk8AQ1",
-  "track": "3VpxEo6vMpi4rQ6t2WVVkK",
-  "song": "Escape (feat. Hayla)",
-  "name": "Kaskade"
- },
- "Rossi.": {
-  "artist": "7itMGcVGRKS43LcTQvJitf",
-  "track": "3Z23sDc2J9ZkmFiMStRoIp",
-  "song": "High On Me",
-  "name": "Rossi."
- },
- "Los Gemelos de Sinaloa": {
-  "artist": "1Zkxm1dM3HI3QkTmxUEVQA",
-  "track": "0dJ8BG6MjGBX2RwJbJOVGV",
-  "song": "AMOR",
-  "name": "Los Gemelos de Sinaloa"
- },
- "Juliet Garrett & The Wheels of Fortune": {
-  "artist": "4uvFZeKJoA2mG0x4CouNdx",
-  "track": "4A5k8oNDcKGLyi2DOYixR9",
-  "song": "Follow the River",
-  "name": "Juliet Garrett & The Wheels of Fortune"
- },
- "Frank Maza featuring Javier Limon": {
-  "artist": "5PSHGxg1VQAESRSvZBCbYD",
-  "track": "1wLVZ66SdIFV03cwXauOvE",
-  "song": "ya llovió",
-  "name": "Frank Maza"
- },
- "All Get Out": {
-  "artist": "40YwbT9WnYAkFgBSYtHGQj",
-  "track": "67mSnPBrCNWevJjLplCW66",
-  "song": "The Season",
-  "name": "All Get Out"
- },
- "Darryl Rahn": {
-  "artist": "2eogPRB3PTDU7KOd99s4UA",
-  "track": "1Rw62FOqkoInjsJ6dZ5fVX",
-  "song": "Silent Acknowledgement",
-  "name": "Darryl Rahn"
- },
- "Post Sex Nachos": {
-  "artist": "3BRSFkEbxBXsZASWPOMOuP",
-  "track": "0Pljubwi0VenHXbIvNQRtw",
-  "song": "Talk About It",
-  "name": "Post Sex Nachos"
- },
- "The Wldlfe": {
-  "artist": "2Vvj76fff5uAw10W1sW54W",
-  "track": "0DdITSIUnT7H9sv6A5TMc5",
-  "song": "Ruby",
-  "name": "The Wldlfe"
- },
- "Dave Matthews Band": {
-  "artist": "2TI7qyDE0QfyOlnbtfDo7L",
-  "track": "1HL3yEnYq8LEyFQ3QegA5V",
-  "song": "Crash into Me",
-  "name": "Dave Matthews Band"
- },
- "Die Spitz": {
-  "artist": "0zfZmpHTu0MlkkNr5KHeXE",
-  "track": "1T4TSL2UaYjauerxFyPal0",
-  "song": "Throw Yourself to the Sword",
-  "name": "Die Spitz"
- },
- "Pino Farina Band": {
-  "artist": "6YIffvtwZrlwymeRqNSC4K",
-  "track": "04Tzg19MhB2fpdwX1jSvqM",
-  "song": "Already Down",
-  "name": "Pino Farina Band"
- },
- "Flower Face": {
-  "artist": "0sYlth2PW1zWJMEU2vCukz",
-  "track": "6k7HtWuprjQmulpo4OpieI",
-  "song": "Spiracle",
-  "name": "Flower Face"
- },
- "Jenny Scheinman's All Species Parade": {
-  "artist": "5etpJzeeCBoFC8P5l2tkjd",
-  "track": "0BJhYVghVJSpfO9nsd4jnT",
-  "song": "So Many Moons (feat. Bill Frisell, Carmen Staaf)",
-  "name": "Jenny Scheinman's All Species Parade"
- },
- "Lucinda Williams": {
-  "artist": "60ht0hWRy1yjUDfNsLuHuP",
-  "track": "31nItlXwgCCFpttS50Rbxf",
-  "song": "Fruits Of My Labor",
-  "name": "Lucinda Williams"
- },
- "Orville Peck": {
-  "artist": "46auOkH1pk28rWrSoUNhLo",
-  "track": "08unC8N1V1dEcqiyi06g6W",
-  "song": "Dead of Night",
-  "name": "Orville Peck"
- },
- "West 22nd": {
-  "artist": "2FKnkloMDcNrUeLDfQJf8i",
-  "track": "6QVyKF2EE18eK14kOaxSeg",
-  "song": "Easy Love",
-  "name": "West 22nd"
- },
- "Ana Everling": {
-  "artist": "5ynnqCMfTSTnUslEhcDnLr",
-  "track": "3iB9HXxlMVTq1korufWEBs",
-  "song": "Bătrâneasca",
-  "name": "Ana Everling"
- },
- "Paul Cebar Tomorrow Sound": {
-  "artist": "02bNErMXKqFpwBCwoq5rwl",
-  "track": "493XwGSL8rmoR1wakEMVbV",
-  "song": "Baby Shake",
-  "name": "Paul Cebar Tomorrow Sound"
- },
- "The Messenger Birds": {
-  "artist": "7cETzIYBVYBvs8oJG1wywk",
-  "track": "7qUgfShL3zf8YaXheKTrNs",
-  "song": "Phantom Limb",
-  "name": "The Messenger Birds"
- },
- "Agriculture": {
-  "artist": "23Skjj6LyKEVkNIUFrLBUY",
-  "track": "1NoYnWzMQ1mY67jo7gDakq",
-  "song": "Bodhidharma",
-  "name": "Agriculture"
- },
- "Bumsy and the Moochers": {
-  "artist": "5qyzIfTCNsP4JwQoEnWVzh",
-  "track": "7gLOE8L11MenUvYISKYBcQ",
-  "song": "Let The Ska Flow Through",
-  "name": "Bumsy and the Moochers"
- },
- "Kat Riggins": {
-  "artist": "0gE5H6j7N6LseB5laJ8m1E",
-  "track": "6R0XLaIGSPCyf4BEvdP3x1",
-  "song": "Walk On",
-  "name": "Kat Riggins"
- },
- "Carl Cox": {
-  "artist": "19SmlbABtI4bXz864MLqOS",
-  "track": "58aSEVveLPGAGoyzYNgUHt",
-  "song": "Finder - Carl Cox Remix Edit",
-  "name": "Carl Cox"
- },
- "Juelz": {
-  "artist": "04p1jV00pBnrmh2rKl0jnT",
-  "track": "3GYv23rXigfEB2Sw6WbCPx",
-  "song": "MY MY MY",
-  "name": "Juelz"
- },
- "Rawayana": {
-  "artist": "2AbQwU2cuEGfD465wCXlg2",
-  "track": "3Y1xjjepdqMP141ipYCAqA",
-  "song": "Inglés En Miami",
-  "name": "Rawayana"
  },
  "Sierra Sikora": {
   "artist": "1Hm6XysSKvYMCEEjFlmGoR",
@@ -839,23 +23,11 @@
   "song": "Blue Eyes",
   "name": "Common People"
  },
- "smush": {
-  "artist": "0X7rdOQMhW5OjD3cdxdEoU",
-  "track": "21NzjKNEzy2k8hCP9N79NC",
-  "song": "milkweed butterfly",
-  "name": "smush"
- },
  "Suzy Sheer": {
   "artist": "50p44UTSqyTs7BBHCeQq2V",
   "track": "5dcG6HCp0jF90Fx2pRKycM",
   "song": "Blissed",
   "name": "Suzy Sheer"
- },
- "Austin Giorgio": {
-  "artist": "2NhXno18MV9YbhVmr5QX11",
-  "track": "0j22qHa0UFrzpAZnQ40XO9",
-  "song": "You Put a Spell on Me",
-  "name": "Austin Giorgio"
  },
  "Better Than Ezra": {
   "artist": "4UuoJfJ9UybJft7a8E6UHX",
@@ -868,6 +40,12 @@
   "track": "3ruJjAt0eybFoPw0g0h7ZT",
   "song": "Scared To Start (feat. Joy Oladokun)",
   "name": "Joy Oladokun"
+ },
+ "Lucinda Williams": {
+  "artist": "60ht0hWRy1yjUDfNsLuHuP",
+  "track": "31nItlXwgCCFpttS50Rbxf",
+  "song": "Fruits Of My Labor",
+  "name": "Lucinda Williams"
  },
  "Sueco": {
   "artist": "4iDroUFo89Y7YBsdDTBmTD",
@@ -893,18 +71,6 @@
   "song": "She Calls Me Love",
   "name": "Banda AL9"
  },
- "Death From Above 1979": {
-  "artist": "18H0sAptzdwid08XGg1Lcj",
-  "track": "1FuKAmuSC09b2xBlyVA1Ks",
-  "song": "Private Lives",
-  "name": "Death From Above 1979"
- },
- "Vince Staples": {
-  "artist": "68kEuyFKyqrdQQLLsmiatm",
-  "track": "4uQ7wYsuL0DryknoDc11Hk",
-  "song": "Norf Norf",
-  "name": "Vince Staples"
- },
  "Adam Ezra Group": {
   "artist": "0YZYZQRglf6GA3b6ffiAd2",
   "track": "5jDrZ1C91G11xfVymTU21q",
@@ -928,6 +94,36 @@
   "track": "2ubQc1V6ctD8YpRjP5H940",
   "song": "killer queen",
   "name": "Mad Tsai"
+ },
+ "Monty Alexander Trio": {
+  "artist": "31KKBLM5RlNTW9EAYa6kW9",
+  "track": "0FKnknau5UBXgN2Q6vVHgC",
+  "song": "Monticello",
+  "name": "Monty Alexander Trio"
+ },
+ "Vince Staples": {
+  "artist": "68kEuyFKyqrdQQLLsmiatm",
+  "track": "4uQ7wYsuL0DryknoDc11Hk",
+  "song": "Norf Norf",
+  "name": "Vince Staples"
+ },
+ "West 22nd": {
+  "artist": "2FKnkloMDcNrUeLDfQJf8i",
+  "track": "6QVyKF2EE18eK14kOaxSeg",
+  "song": "Easy Love",
+  "name": "West 22nd"
+ },
+ "Agriculture": {
+  "artist": "23Skjj6LyKEVkNIUFrLBUY",
+  "track": "1NoYnWzMQ1mY67jo7gDakq",
+  "song": "Bodhidharma",
+  "name": "Agriculture"
+ },
+ "Derek Caruso": {
+  "artist": "30AqlXTpvjz0xAZEFvvi2h",
+  "track": "4Vyhn1gQdxaM9I24HbpW4N",
+  "song": "Just a Little Sip",
+  "name": "Derek Caruso"
  },
  "Ultra Lights": {
   "artist": "6T7xnpZAOPf4XwrYZclzTA",
@@ -970,12 +166,6 @@
   "track": "3x1BcCcggfqJTxVny57HW5",
   "song": "El Pondito",
   "name": "Los Gaiteros de San Jacinto & Carmelo Torres"
- },
- "Makaya McCraven": {
-  "artist": "5FnpXrrMdJVZCK54oHWqUa",
-  "track": "2G6rigRT2zK9yV2Xkbopnn",
-  "song": "Autumn In New York",
-  "name": "Makaya McCraven"
  },
  "NATANYA": {
   "artist": "4QlEFh3gBGqmboPVc7AwUp",
@@ -1025,6 +215,12 @@
   "song": "I'm Beginning to See the Light",
   "name": "Paul Marinaro"
  },
+ "ApolloRed1": {
+  "artist": "6woKompAdi85uFZpAcqPhP",
+  "track": "1FwKIjYTe6ri9DgBMfYI3g",
+  "song": "9 bitches (with ApolloRed1 )",
+  "name": "ApolloRed1"
+ },
  "Certainly So": {
   "artist": "0VmYiMeoVRP5bSkfBs0PSR",
   "track": "4CwrFUDEMDVRf3wNLwB5cY",
@@ -1039,21 +235,15 @@
  },
  "Dev Lemons": {
   "artist": "5zbFRbEu3FDkqN4j1awLLO",
-  "track": "2w7vsxbXzWdgAACGE3wp5u",
-  "song": "best friend",
+  "track": "4jmJRk8jb4hH4cmEXFhBET",
+  "song": "in the middle of the night",
   "name": "Dev Lemons"
  },
  "Displacer & Mensa": {
   "artist": "6Iq1AMVe236PNVjvTeTbg2",
-  "track": "1cg0fL01d01XvPvEL9FjdM",
-  "song": "Rzla - Hologram_ Remix",
+  "track": "4Q3wz2FQOuy0vFvUFMzVCH",
+  "song": "Merge",
   "name": "Displacer & Mensa"
- },
- "Jalen Ngonda": {
-  "artist": "2kEDso93O2hDgCbnuiSkkZ",
-  "track": "4A48ckONJNoXU5smWT9CeG",
-  "song": "If You Don't Want My Love",
-  "name": "Jalen Ngonda"
  },
  "Nayu": {
   "artist": "4byJ73SNgLiHxFRKbhVH14",
@@ -1078,6 +268,12 @@
   "track": "54herQZC8NMaI3dBAKWYwj",
   "song": "SEE YOU NEXT TUESDAY",
   "name": "Lilith's Demise"
+ },
+ "Chris Greene Quartet": {
+  "artist": "7nt75SUfuooUmt3lhyNV8q",
+  "track": "3vslxeappIRjxdNxJZQovw",
+  "song": "Gentlemen's Breakfast",
+  "name": "Chris Greene Quartet"
  },
  "Dead Butterflies": {
   "artist": "5WO18L6Q3DbrDR5fJCxGtJ",
@@ -1130,7 +326,7 @@
  "Yo-Yo Ma & the Chicago Symphony Orchestra": {
   "artist": "5Dl3HXZjG6ZOWT5cV375lk",
   "track": "61dYvvfIRtIDFuqZypPAta",
-  "song": "Cello Suite No. 1 in G Major, BWV 1007: I. Prélude",
+  "song": "Cello Suite No. 1 in G Major, BWV 1007: ",
   "name": "Yo-Yo Ma & the Chicago Symphony Orchestra"
  },
  "Hovvdy": {
@@ -1163,12 +359,6 @@
   "song": "Take Me Where Your Heart Is",
   "name": "Q Marsden"
  },
- "Samy Sharif": {
-  "artist": "2Mzsx6Ss1YXrvigyijs3O6",
-  "track": "3RuXX9CwnyoqMvTRvUA2RT",
-  "song": "Snuff the Pilot Light",
-  "name": "Samy Sharif"
- },
  "Soul Message Trio": {
   "artist": "4xfO4aY5oYJ0G6adTAQQtx",
   "track": "40Xiq63wuSY7AeFxBAauXJ",
@@ -1186,6 +376,12 @@
   "track": "73vSzjRyVKJQAyd9Li7IuG",
   "song": "The Sky Is Crying",
   "name": "Frank Catalano"
+ },
+ "Marci": {
+  "artist": "2YvVKe1MfcslinaPCv402E",
+  "track": "6A7fTO37KsQ2aXwkoV2m9L",
+  "song": "Immaterial Girl",
+  "name": "Marci"
  },
  "mary in the junkyard": {
   "artist": "48Kc3HRodbvm5ropMf9B6M",
@@ -1206,9 +402,9 @@
   "name": "VOILÀ"
  },
  "Worst Party Ever & Equipment": {
-  "artist": "1xxn3mhlUmOugl1ZhE0Mcx",
-  "track": "6ZSQSu97ZtNrcxuSAlUqHv",
-  "song": "tequila redbull",
+  "artist": "2bLENLdxlsq2xbvzMa1SUG",
+  "track": "3krsxuWtEijWUjlHV3oz6r",
+  "song": "Trying Soda (I Know You so Well)",
   "name": "Worst Party Ever & Equipment"
  },
  "Psycroptic": {
@@ -1302,10 +498,10 @@
   "name": "Scott Ellison"
  },
  "Sleepwalk": {
-  "artist": "4Mt6w4tDGiPgV5q6JWPlrI",
-  "track": "6qLgGLeawKyhMFJ848XtYD",
-  "song": "Dragonaut",
-  "name": "Sleep"
+  "artist": "79bG0WSxgj7fnJr9cDqPjL",
+  "track": "4LP9nAAiWGF9Z343uIopF5",
+  "song": "Flesh",
+  "name": "Sleepwalk"
  },
  "Sunday Cruise": {
   "artist": "3TYvsBqwPbIkMvBgAJf5W6",
@@ -1321,9 +517,15 @@
  },
  "Danny Brown": {
   "artist": "7aA592KWirLsnfb5ulGWvU",
-  "track": "7BMSBNctr9IPelr6MFvuRL",
-  "song": "Psychoboost",
+  "track": "1wynG7AXLwVBoADUDKcnde",
+  "song": "NOT THE SPIRIT",
   "name": "Danny Brown"
+ },
+ "Noiś Saxophone Quartet": {
+  "artist": "5ipspmvMwUfwaTF9ad1xUF",
+  "track": "7dcVIy2J35zog6AtgJuhjv",
+  "song": "Gossamer - Vines version",
+  "name": "Noiś Saxophone Quartet"
  },
  "Andrew Bird & the Chicago Symphony Orchestra": {
   "artist": "4uSftVc3FPWe6RJuMZNEe9",
@@ -1360,6 +562,12 @@
   "track": "2k47MKPoBLFbKwqP796ZAA",
   "song": "rises the moon",
   "name": "Liana Flores"
+ },
+ "Meg and The Wheelers": {
+  "artist": "4t4GSOsMkcTwhvNYCXUc0u",
+  "track": "4oZ9BudzpqBAsXlEyffTSv",
+  "song": "The Hell I Won't",
+  "name": "Meg and The Wheelers"
  },
  "Neal Alger Quartet": {
   "artist": "6ffCrFzfEqasQ7czCz37KT",
@@ -1439,11 +647,29 @@
   "song": "Pathfinder",
   "name": "Janet Bean & Ghost Voice"
  },
+ "Nora Jean": {
+  "artist": "7anCiPVQ4jyiCCYBYfUt0U",
+  "track": "5SgBg7Ul5fUNGbQ06nakq7",
+  "song": "Martell",
+  "name": "Nora Jean"
+ },
  "Sicard Hollow": {
   "artist": "6KlgQd03pe6MIVSaszMWGr",
   "track": "7JpxGFwztdFSDcgERzeOWj",
   "song": "Little Miss Tipsy",
   "name": "Sicard Hollow"
+ },
+ "Vick Vapors": {
+  "artist": "5w2rxPw0ZQZmf6mkghM2Qe",
+  "track": "20EA6wKMLVrI6Gy9AQHzcQ",
+  "song": "Puedes Amarme",
+  "name": "Vick Vapors"
+ },
+ "WINGTIPS": {
+  "artist": "3ulf7xARUpgwKu0AH38bGR",
+  "track": "1P0bvab7gSj5q0PciHviPC",
+  "song": "The Eye That Follows Suit",
+  "name": "WINGTIPS"
  },
  "Westend": {
   "artist": "4epc3Bd0DOBA0kDywkRAsu",
@@ -1523,6 +749,12 @@
   "song": "Rio",
   "name": "Low Cut Connie"
  },
+ "Madame Reaper": {
+  "artist": "2wWL4gdTFbJC15Tx7VoWDu",
+  "track": "5SuTUWk71dTNM3MSPAPc1v",
+  "song": "Corporate Girl",
+  "name": "Madame Reaper"
+ },
  "Only Fire": {
   "artist": "4Cp42FwqEytHeaudurPKiN",
   "track": "2s8YowPUaPlBOFkG4b5nEA",
@@ -1540,18 +772,6 @@
   "track": "4S12gt45KpuVAMfcgQzbyn",
   "song": "Algiers",
   "name": "The Afghan Whigs"
- },
- "The Slackers": {
-  "artist": "2QRPuDfRA9LtoeGFaMikmK",
-  "track": "5z8lvQDJPOl8A7RkTOdJWQ",
-  "song": "Wasted Days",
-  "name": "The Slackers"
- },
- "Victor Wooten & The Wooten Brothers": {
-  "artist": "2STVYmc2T02GlvvWZl7umj",
-  "track": "0vPIxkes0dlATamjuRJdcb",
-  "song": "What You Won't Do for Love",
-  "name": "Victor Wooten & The Wooten Brothers"
  },
  "Alyssa Gallarneau": {
   "artist": "49iHfQoRXZdZbtUvkqSwKH",
@@ -1573,8 +793,8 @@
  },
  "Memphis LK": {
   "artist": "7z3XgqpRYdNJ7RvEUlYaUe",
-  "track": "6nlH3iGFED7iT2HYGVksCV",
-  "song": "Some Kinda Heaven",
+  "track": "7tGD9cSJDw687rsBENBYdx",
+  "song": "Are you holding on?",
   "name": "Memphis LK"
  },
  "Nightbreakers": {
@@ -1585,9 +805,15 @@
  },
  "Sassy 009": {
   "artist": "30gJ2CPCeUvghTg6TkfA4L",
-  "track": "1arcZv0I9V5yCS0aaBbzGt",
-  "song": "Tell Me - Jam City Remix",
+  "track": "1FKkOiN5akroSoNPJ07FFL",
+  "song": "Tell Me",
   "name": "Sassy 009"
+ },
+ "Demi Clara": {
+  "artist": "55lAShffxX2RLvHEP5A3Ds",
+  "track": "1PSBNar4ToN71RBmpYswxs",
+  "song": "Kiss Me",
+  "name": "Demi Clara"
  },
  "Benwal": {
   "artist": "38nG2aneQSUwlhbhXXZhxl",
@@ -1606,5 +832,737 @@
   "track": "3OYoAxiD88QHs4MzzA8cjn",
   "song": "Where You Really Come From",
   "name": "Tobiahs"
+ },
+ "Michael J. Miles & Jill Kaeding": {
+  "artist": "7ucnXVYtvs8GuAxgEI6cIh",
+  "track": "5u0wyUj1QgxpmVhH1Jk3bK",
+  "song": "Black Magic Woman",
+  "name": "Michael J. Miles & Jill Kaeding"
+ },
+ "Saosin": {
+  "artist": "1NUOfvAhA9AvsF1ISMkgHX",
+  "track": "0C71NJD4BhvPopTwI7a8KV",
+  "song": "Seven Years",
+  "name": "Saosin"
+ },
+ "Spanish Love Songs": {
+  "artist": "5DaZV3qmFT3aS57df8KPkV",
+  "track": "1w4ycJmkVn4GLTDLhAbvxB",
+  "song": "Good American",
+  "name": "Spanish Love Songs"
+ },
+ "Tightwire": {
+  "artist": "1wcg79njXMG7Yn8nXYqP8K",
+  "track": "4165dd9zfn9tY9HZdOX8jJ",
+  "song": "One Foot in the Grave",
+  "name": "Tightwire"
+ },
+ "No Bother": {
+  "artist": "6Q40W3tYIp59iKEIrJwWpw",
+  "track": "3bdd2M6iKjexaqakgJrar4",
+  "song": "4f",
+  "name": "No Bother"
+ },
+ "Allison Mahal": {
+  "artist": "1QGKecS8PxZ8FIAdkks06Y",
+  "track": "6Aul7ocGwV8i22hzaIdywX",
+  "song": "18 Moving South - alexrainbirdsessions",
+  "name": "Allison Mahal"
+ },
+ "Fox Stevenson & Mystery Skulls": {
+  "artist": "2BQWHuvxG4kMYnfghdaCIy",
+  "track": "6ZjF7ecMawDKpbMTfo5p46",
+  "song": "Bruises",
+  "name": "Fox Stevenson & Mystery Skulls"
+ },
+ "Hamilton Leithauser + Rostam": {
+  "artist": "3h0w83PsjASrm5999trG4n",
+  "track": "4QbkqU4Vlih2uLsPGXVBAS",
+  "song": "In a Black Out",
+  "name": "Hamilton Leithauser + Rostam"
+ },
+ "Internet Girl": {
+  "artist": "2eVTKG3Z5bbKk2OWMIe3iL",
+  "track": "5XmIFwv3CFpNXL8taA0U3Z",
+  "song": "DA BUSINESS",
+  "name": "Internet Girl"
+ },
+ "Manchester Orchestra": {
+  "artist": "5wFXmYsg3KFJ8BDsQudJ4f",
+  "track": "7qcXUzPwoxSBFxjTbNrV0B",
+  "song": "The Gold - Phoebe Bridgers Version",
+  "name": "Manchester Orchestra"
+ },
+ "Michael Vallera & Stephen Holliger": {
+  "artist": "2oNZXCHAKwdieQlwd10trP",
+  "track": "3qtN5Pf9czNygJS98JL3xu",
+  "song": "Early New York Silver I",
+  "name": "Michael Vallera & Stephen Holliger"
+ },
+ "Durtnap": {
+  "artist": "69e2wRQa4XSlOd1JykCwdQ",
+  "track": "199agqZjIJkeFvwZl40hQ4",
+  "song": "Show Yourself",
+  "name": "Durtnap"
+ },
+ "Pimpinela": {
+  "artist": "7E7CVSqFdLyh0K4AE9uTMo",
+  "track": "4FdwRmlzP5KGM7OewGBYiu",
+  "song": "Olvídame y Pega la Vuelta",
+  "name": "Pimpinela"
+ },
+ "Sean McKee": {
+  "artist": "6kKCdOTtVoFRyRMDao1qjo",
+  "track": "05bRigqg2ZbDJOMlpR2DBv",
+  "song": "Hold On",
+  "name": "Sean McKee"
+ },
+ "Discontent": {
+  "artist": "1zKLqt8i31ve2tyeR6dcMZ",
+  "track": "6oS4PhpVrCDBDMHkhjeBjo",
+  "song": "Tekken Jihad",
+  "name": "Discontent"
+ },
+ "Hank Garrett": {
+  "artist": "7s51mLOf66bbhxCjDNrjfa",
+  "track": "0K5rEz1VIHkufyccIh1KPi",
+  "song": "Stay With Me",
+  "name": "Hank Garrett"
+ },
+ "Keb' Mo'": {
+  "artist": "6iDaoPZVgxrTkndDCisX8F",
+  "track": "1TpcVz31rGdvET5ol3d7ER",
+  "song": "The Weight - Live",
+  "name": "Keb' Mo'"
+ },
+ "Laura Anglade": {
+  "artist": "49gu1QHXBPcWoeT5cyAGqG",
+  "track": "1S9iKpZkOwa8DHfpf0I27l",
+  "song": "J’aime Paris au mois de mai",
+  "name": "Laura Anglade"
+ },
+ "lighthearted Kate Stephenson": {
+  "artist": "5RAwXhLQfEX5khIsfnvDne",
+  "track": "6pxsQkxNCvloPHS7AmefIb",
+  "song": "Mulholland, Going Down",
+  "name": "lighthearted Kate Stephenson"
+ },
+ "Nonnie Parry": {
+  "artist": "5qGgG8DiSUCOkQcj12oVw4",
+  "track": "2l0rJuo7ku6aC7T7e2Rtdg",
+  "song": "Terror, in the Night",
+  "name": "Nonnie Parry"
+ },
+ "Girl of Glass": {
+  "artist": "5fDROS02V1TM9tbZyZtEhX",
+  "track": "7zjoz2ub7eB7PDkuCTHS9r",
+  "song": "Third Knives The Charm",
+  "name": "Girl of Glass"
+ },
+ "Skilla Baby": {
+  "artist": "1GVenmuuAtusi17LY6FvgI",
+  "track": "5KBmIlmWz3qU5JnICetxcq",
+  "song": "Thick One (with Skilla Baby & Kash Doll)",
+  "name": "Skilla Baby"
+ },
+ "Token": {
+  "artist": "4cUfFbVZGSsJWdbfmkdxYq",
+  "track": "157BtwkY54FQ3Xl8DsTso1",
+  "song": "Dhurandhar The Revenge - Aari Aari",
+  "name": "Token"
+ },
+ "David Wimbish (The Collection)": {
+  "artist": "3sva1UjOJOx6cGISZOpItl",
+  "track": "6iFJz1mbMqSIwRaBOtyAe3",
+  "song": "Sermon",
+  "name": "David Wimbish (The Collection)"
+ },
+ "A Good Year": {
+  "artist": "30F8R1qAerw8VvYtRGGg0j",
+  "track": "1Fdd2PRUOh1BBxfPMwuFbK",
+  "song": "Dealerz",
+  "name": "A Good Year"
+ },
+ "Burnout Syndromes": {
+  "artist": "0Oazwl71qoHvXnbSxv0wOT",
+  "track": "3YOZLPRiTuYgItSGO41gPT",
+  "song": "FLY HIGH!!",
+  "name": "Burnout Syndromes"
+ },
+ "Kotche/Van Duerm/Lux/Becker": {
+  "artist": "6upBn4tokWBDF9diqbYJZs",
+  "track": "4LQQvVDf7xNEMhFT6U4po1",
+  "song": "Vespers for a New Dark Age: I. Wayward F",
+  "name": "Kotche/Van Duerm/Lux/Becker"
+ },
+ "LUCY (Cooper B. Handy)": {
+  "artist": "16j0wVUk9UOoYEDknfb9rK",
+  "track": "2ro7o4RZVhksrTkcpk3rtC",
+  "song": "Autonomy (Ft. Lucy - Cooper B. Handy)",
+  "name": "LUCY (Cooper B. Handy)"
+ },
+ "Other Lives": {
+  "artist": "3bw0A7x5AgdJsK20ai5iS6",
+  "track": "6QeGi84xpNhXbz6edBGVoj",
+  "song": "For 12",
+  "name": "Other Lives"
+ },
+ "Petra's Recession Seven": {
+  "artist": "58vDtuAwvMcw0GgyQhWUWK",
+  "track": "5fsC8gjBlpvVMpcHQta2MK",
+  "song": "I'll Never Be the Same (Live)",
+  "name": "Petra's Recession Seven"
+ },
+ "Surfing for Daisy": {
+  "artist": "3zwFtNNRxR23FVS8jueGK9",
+  "track": "0eJH0Kv4zhanaE50xhyEQi",
+  "song": "Psychic",
+  "name": "Surfing for Daisy"
+ },
+ "Porcelain": {
+  "artist": "4PUPdR1u1N18esUCWLGYxW",
+  "track": "2xYnLRG2h4xjh7a13TW9gI",
+  "song": "DSD",
+  "name": "Porcelain"
+ },
+ "Hawthorne Heights": {
+  "artist": "126FigDBtqwS2YsOYMTPQe",
+  "track": "23DHUWJ7iEieNPMPKvjzBV",
+  "song": "Ohio Is For Lovers",
+  "name": "Hawthorne Heights"
+ },
+ "Havok": {
+  "artist": "2jw4wgixxa20jls9N3Bdpq",
+  "track": "4IOi7IORghPMhRPpjkU0cP",
+  "song": "Prepare For Attack",
+  "name": "Havok"
+ },
+ "Alla Boara": {
+  "artist": "3Jt42I8z4pf1ZnaJBpwTGZ",
+  "track": "38c6Mq67hYDh9KqT34BPdW",
+  "song": "Mare Maje",
+  "name": "Alla Boara"
+ },
+ "Humbird": {
+  "artist": "0RLSq3hJOLcEezH3rTpnsB",
+  "track": "3j2o1y2i3cjnwITkBX64PL",
+  "song": "Hey Big Dipper",
+  "name": "Humbird"
+ },
+ "Keenan Te": {
+  "artist": "6Ge3YISmUWPCUcSVx8VGor",
+  "track": "5SjfjoYaRJ5jycgqwV0ow0",
+  "song": "Scars",
+  "name": "Keenan Te"
+ },
+ "The Neighbourhood": {
+  "artist": "77SW9BnxLY8rJ0RciFqkHh",
+  "track": "2QjOHCTQ1Jl3zawyYOpxh6",
+  "song": "Sweater Weather",
+  "name": "The Neighbourhood"
+ },
+ "Benmont Tench": {
+  "artist": "64BpBvN4VY7JdhV9GaEbiV",
+  "track": "7jaicjkDOTttoGPUHjk4Xq",
+  "song": "The Melancholy Season",
+  "name": "Benmont Tench"
+ },
+ "Brent Penny": {
+  "artist": "17dVAgHvSF8z3aqiBoqFhY",
+  "track": "4OhDPekgTpFjKVeKC7XTpm",
+  "song": "Buddy",
+  "name": "Brent Penny"
+ },
+ "Cortex": {
+  "artist": "7EhUXju6pssa8o3CvFJTew",
+  "track": "2CsnpBAB8VQMTyPuws57ao",
+  "song": "Huit octobre 1971",
+  "name": "Cortex"
+ },
+ "Dogs on Shady Lane": {
+  "artist": "3knt52q5hbmRnHDzllw8qO",
+  "track": "5nuQm6FfSRHl5AFXAG63G0",
+  "song": "Colors",
+  "name": "Dogs on Shady Lane"
+ },
+ "Shallow Alcove": {
+  "artist": "2hEZUJYO26jhMzfw0ZzrCj",
+  "track": "5ADWxyh4vm7Zx0j02jMMxs",
+  "song": "Mercy Kill (Schrödinger's Cat)",
+  "name": "Shallow Alcove"
+ },
+ "Shanghai Qiutian": {
+  "artist": "6jPesaFAUoRzmHf1i8VgSg",
+  "track": "0YKE2Z79RSGVNXZ5TBlLJK",
+  "song": "We Just Have Tonight (Let’s Celebrate We",
+  "name": "Shanghai Qiutian"
+ },
+ "Victoria Monét": {
+  "artist": "63XBtGSEZINSyXylZxEUbv",
+  "track": "5sDYIz1pOavfbjfMVIMOzW",
+  "song": "See You In My Dreams (feat. SZA)",
+  "name": "Victoria Monét"
+ },
+ "Devyn Crimson & The Frivolities": {
+  "artist": "2T9dWlWrYRurAbWGDvGw1b",
+  "track": "41JycbhdPBTA8m5xatQwPK",
+  "song": "Check, Please",
+  "name": "Devyn Crimson & The Frivolities"
+ },
+ "Makaya McCraven": {
+  "artist": "5FnpXrrMdJVZCK54oHWqUa",
+  "track": "2G6rigRT2zK9yV2Xkbopnn",
+  "song": "Autumn In New York",
+  "name": "Makaya McCraven"
+ },
+ "Strawberry Girls": {
+  "artist": "4CyxMgnF71FyOWADVWxJRE",
+  "track": "1HjQOinOf6M2ZwG2ellEty",
+  "song": "Spanish Bay",
+  "name": "Strawberry Girls"
+ },
+ "Art Garfunkel": {
+  "artist": "6kEsKkXuE4olX7m3mNLZkS",
+  "track": "3Jy0dWV5AnnfyTvHK6UWof",
+  "song": "Bright Eyes",
+  "name": "Art Garfunkel"
+ },
+ "Chicago Symphony Orchestra: Jaap van Zweden & Vadim Gluzman": {
+  "artist": "6TD08jYeuN128P2MZTbc8E",
+  "track": "0cqcRqZgkNHanWQ8slYA0v",
+  "song": "Mahler: Symphony No. 5 in C-Sharp Minor:",
+  "name": "Chicago Symphony Orchestra"
+ },
+ "Little Big Town": {
+  "artist": "3CygdxquGHurS7f9LjNLkv",
+  "track": "11qh54D0PKkBwelpDxxiEU",
+  "song": "Girl Crush",
+  "name": "Little Big Town"
+ },
+ "Mike Wheeler": {
+  "artist": "0mbdB40WJauyCbe3U4evu0",
+  "track": "66B1oiHsBkrJlGBNK4KEv8",
+  "song": "Turn Up!!",
+  "name": "Mike Wheeler"
+ },
+ "Sara Evans": {
+  "artist": "7qvsLYsYP0MHD7jkdv6DAG",
+  "track": "6NhpIdjYoufuNNlBsgOztc",
+  "song": "Suds in the Bucket",
+  "name": "Sara Evans"
+ },
+ "The Jayhawks": {
+  "artist": "2UDplVRprMbazU74Hq8OLl",
+  "track": "5cDfI3KOa64zbuUgD6a4hG",
+  "song": "Blue",
+  "name": "The Jayhawks"
+ },
+ "Anthony Geraci": {
+  "artist": "0lHVaHyg12yXYhKMV38av3",
+  "track": "2XXU8fqtYEsyC4RqVKG3fy",
+  "song": "My Last Good-Bye",
+  "name": "Anthony Geraci"
+ },
+ "Charlie Zaa": {
+  "artist": "1KfBKoozFugeT1PBkz33xl",
+  "track": "5ywkVSlS93OL4lLkA6LY6h",
+  "song": "Sentimientos: Un Disco Mas / Niegalo Tod",
+  "name": "Charlie Zaa"
+ },
+ "Cyrus Chestnut Trio": {
+  "artist": "2p5z8mfdtbUoCEWfeOQwwL",
+  "track": "656FjeS0sNtfrWUDnERPnB",
+  "song": "Lover",
+  "name": "Cyrus Chestnut Trio"
+ },
+ "Denise Julia": {
+  "artist": "3L1qgTsUqavkiygkIKfWJD",
+  "track": "6AKE1FrWrErXkOulZq6FoA",
+  "song": "NVMD",
+  "name": "Denise Julia"
+ },
+ "Edgar Alejandro": {
+  "artist": "2bCTVmSdXV1fwUmt2qpkri",
+  "track": "6CYyVnDGbMYk0cwYZ5UqS4",
+  "song": "A Tu Lado",
+  "name": "Edgar Alejandro"
+ },
+ "Koastle": {
+  "artist": "3AqRITBdB7bKbE7aNOVx6g",
+  "track": "5NcQtOLLV1BycTfC0iuOIb",
+  "song": "What Was That",
+  "name": "Koastle"
+ },
+ "Mistrophia": {
+  "artist": "0qVZGJsrQOIU8M66LRBGUv",
+  "track": "2OCpkMQmwtsx4E4qBCj3Rw",
+  "song": "Summer Nights",
+  "name": "Mistrophia"
+ },
+ "Protomartyr": {
+  "artist": "2YFBqMMiIIL4XyiEwqySUQ",
+  "track": "2WU8SZDNivaj43lDPZqPFX",
+  "song": "Sounds We Cannot Hear",
+  "name": "Protomartyr"
+ },
+ "Slow Pulp": {
+  "artist": "2JFTRDi5v7JtqoouVe1z5D",
+  "track": "2b7zdV4i5vEaRlZAkiIAR5",
+  "song": "Falling Apart",
+  "name": "Slow Pulp"
+ },
+ "Small Brown Bike": {
+  "artist": "1zXtQWuMTmOYQUiP5a1c0j",
+  "track": "5OsAjzmcyT7lIdHQwicSSf",
+  "song": "See You In Hell",
+  "name": "Small Brown Bike"
+ },
+ "The Filthy Heathens": {
+  "artist": "5Ilia886qXoAlwpMpm3EP6",
+  "track": "4WCXSPcerTg9uJujOVrHQB",
+  "song": "Diamonds in the Rough",
+  "name": "The Filthy Heathens"
+ },
+ "Yr Knives": {
+  "artist": "0oH5EGXp83x2gLLeqRkiVM",
+  "track": "7ft3bdTGomagoFqQolOWMh",
+  "song": "These Chords",
+  "name": "Yr Knives"
+ },
+ "Dom Flemons": {
+  "artist": "79ScU9PMzW9i0jw67b5kVb",
+  "track": "64pmv1IacCuTcea9rTELcc",
+  "song": "Lonesome Old River Blues",
+  "name": "Dom Flemons"
+ },
+ "Magi Merlin": {
+  "artist": "6uOvQgcFOmdzhunx7n83J2",
+  "track": "7nWaSkCGVl7fSfcwGPj2bl",
+  "song": "pixxxie",
+  "name": "Magi Merlin"
+ },
+ "Packaging": {
+  "artist": "0Ptdlmg0GmSHwgazEsZFZ0",
+  "track": "2EyPQrBM0zOCeQjkP9FOKK",
+  "song": "Running Through the Airport (feat. cindy",
+  "name": "Packaging"
+ },
+ "Planetary Blues": {
+  "artist": "4IVJliQPakcJckTPmyjxhu",
+  "track": "7sRc1HNeXeqRImORT8bpsH",
+  "song": "Devastating Rain",
+  "name": "Planetary Blues"
+ },
+ "Harvey Lightyear": {
+  "artist": "4mdBPPtWmu9oaYQAX2ovwQ",
+  "track": "6RtHFdd487QrkFR3Kx4U9s",
+  "song": "Runaway",
+  "name": "Harvey Lightyear"
+ },
+ "Beartooth": {
+  "artist": "6vwjIs0tbIiseJMR3pqwiL",
+  "track": "03jdl5GTBhKsgB1Yw8mVPh",
+  "song": "In Between",
+  "name": "Beartooth"
+ },
+ "Ghostwoman": {
+  "artist": "4IEpQR24sUgq6BQw2MdZIy",
+  "track": "3S1fsqAI2wseDq6JcpamoY",
+  "song": "The End of a Gun",
+  "name": "Ghostwoman"
+ },
+ "Godchain": {
+  "artist": "2wrE606lRBejlXJzOUeq8x",
+  "track": "1tPPjfGNB5fESKR2QJ9tNm",
+  "song": "The American Dream",
+  "name": "Godchain"
+ },
+ "Headache": {
+  "artist": "1iX0eIvL5iHnaDny7BBtWH",
+  "track": "3omdHDf6LTJVnHDUKS9kN7",
+  "song": "That Thing with the Rabbit",
+  "name": "Headache"
+ },
+ "The Kilans": {
+  "artist": "4OyAwz3jcZcejoUd3bc5Qt",
+  "track": "3df7nsCiHf9jRsKX33TTrF",
+  "song": "Why Is It Light Out?",
+  "name": "The Kilans"
+ },
+ "Black Violin: The Be Free Tour": {
+  "artist": "4zeHJ3kiJyjYXlIOcG4MA7",
+  "track": "3CzUVBgdjLvmcWUBijo3jJ",
+  "song": "A-Flat",
+  "name": "Black Violin"
+ },
+ "Michigander": {
+  "artist": "0oL26Dn9y761yfJgNb3vfu",
+  "track": "6QuY6R1GxeNnZFiMUGbEe1",
+  "song": "Freaking Out",
+  "name": "Michigander"
+ },
+ "Duke Tumatoe": {
+  "artist": "2krgipEUEI60gq28XVgBIs",
+  "track": "7FrPzcQwxI2eboOcycyPXm",
+  "song": "Tie You Up",
+  "name": "Duke Tumatoe"
+ },
+ "The Flat Five": {
+  "artist": "32ese02QryCb75wljJ2LLD",
+  "track": "7IHVtsIG9FGs68YQugoEfE",
+  "song": "This Is Your Night",
+  "name": "The Flat Five"
+ },
+ "Boyfriend": {
+  "artist": "1d0nvifbTEmCbO8BlRKjod",
+  "track": "43e25bIoTEbp3Ari7oD8xh",
+  "song": "Marie Antoinette (feat. Big Freedia)",
+  "name": "Boyfriend"
+ },
+ "Bri Bagwell": {
+  "artist": "62D9vyyzOd1uIny0qRDLAo",
+  "track": "1CwRQkjVhnavibIusERz8k",
+  "song": "Can't Take My Eyes off You",
+  "name": "Bri Bagwell"
+ },
+ "Dalvin La Melodia": {
+  "artist": "6oYf3YTP3CaTNPlUqAK7xJ",
+  "track": "0RtlKChy7M5DHrezRiRNzh",
+  "song": "Amnesia",
+  "name": "Dalvin La Melodia"
+ },
+ "Fetty Wap": {
+  "artist": "6PXS4YHDkKvl1wkIl4V8DL",
+  "track": "2d8JP84HNLKhmd6IYOoupQ",
+  "song": "Trap Queen",
+  "name": "Fetty Wap"
+ },
+ "Freak Slug": {
+  "artist": "5wk7sY8GIg5ihSI09EbWeS",
+  "track": "1gyIYA98zceKTnjISviYRz",
+  "song": "Radio",
+  "name": "Freak Slug"
+ },
+ "Ghost Town Blues": {
+  "artist": "4VblfNPhfhWsX28dEgV4sK",
+  "track": "3utyGdz94oMBMSnEV6Cz8N",
+  "song": "Tip of My Hat (Live)",
+  "name": "Ghost Town Blues"
+ },
+ "In the Company of Serpents": {
+  "artist": "3Y6Z6amRVhT1WcUjDgTSoN",
+  "track": "4mzx26X6TPtwJwOVwwEijl",
+  "song": "The Fool's Journey",
+  "name": "In the Company of Serpents"
+ },
+ "Resentvul": {
+  "artist": "6ogEi25sdXxNuKmzXB75nH",
+  "track": "6ZrNI6AKLLJSP6HSgkEdJH",
+  "song": "Debauchery",
+  "name": "Resentvul"
+ },
+ "Squirrel Flower": {
+  "artist": "7bI1v9NGBBhq8iGfytctni",
+  "track": "6LHioVAsFPLjupnl8ikW7H",
+  "song": "So Hot You're Hurting My Feelings",
+  "name": "Squirrel Flower"
+ },
+ "The Reverend Peyton's Big Damn Band": {
+  "artist": "6Ec85Uubz3lO7BIEvcBfZK",
+  "track": "5HcxCFAlzj9mIExhcIE8Is",
+  "song": "Something for Nothing",
+  "name": "The Reverend Peyton's Big Damn Band"
+ },
+ "Craig Finn & The Band of Forgiveness": {
+  "artist": "78DZaDfOK3i88eRVPkzZu2",
+  "track": "1mgxwt5P7wZsaNL0A1dYvk",
+  "song": "Blankets",
+  "name": "Craig Finn & The Band of Forgiveness"
+ },
+ "ADULT. & A Place To Bury Strangers": {
+  "artist": "2jh27vMWRDaPgtwvluMomC",
+  "track": "59X6DOshEXZ6ChBm99nB7V",
+  "song": "Tonight, We Fall",
+  "name": "ADULT. & A Place To Bury Strangers"
+ },
+ "Stephen Hull": {
+  "artist": "5Ps7Mbw5YXlJeUemRAZQX1",
+  "track": "73nXdWhOwdie2Pox3r6CAp",
+  "song": "Toys in My Eyes",
+  "name": "Stephen Hull"
+ },
+ "Wookiefoot": {
+  "artist": "4qD6ABoI7PKjZCdTYodIaH",
+  "track": "4hcyUP6CkBy5NSUxwVd1sA",
+  "song": "Happy to Be Here",
+  "name": "Wookiefoot"
+ },
+ "Adiel": {
+  "artist": "1yetl1fEx0mE16k164jXvw",
+  "track": "1tIC7iOy14B3gB3FKl1SSv",
+  "song": "Jaded",
+  "name": "Adiel"
+ },
+ "Omni": {
+  "artist": "4wBhllC5Nto10UefzXVMt9",
+  "track": "5hJuHimP6BOjZR3lDyIBDI",
+  "song": "Wire",
+  "name": "Omni"
+ },
+ "Prospa": {
+  "artist": "6HabM2PUM519iIxervGWSb",
+  "track": "39hHUnYBmyMwprzRaPODCX",
+  "song": "Free Your Mind",
+  "name": "Prospa"
+ },
+ "Matt Hansen": {
+  "artist": "6wlhqnATSJIc0NQ64VxOVJ",
+  "track": "45rLsZceWn1sRWpsiFutkh",
+  "song": "LET EM GO",
+  "name": "Matt Hansen"
+ },
+ "Trivium": {
+  "artist": "278ZYwGhdK6QTzE3MFePnP",
+  "track": "5yDJpu0xh0d1w13gXaE3lS",
+  "song": "The Heart from Your Hate",
+  "name": "Trivium"
+ },
+ "Dax": {
+  "artist": "5icKdCmMhNMYoAzVBAWt39",
+  "track": "6jbV8P3fq5jFY7zd3UjGnV",
+  "song": "Lonely Dirt Road",
+  "name": "Dax"
+ },
+ "Garden Home": {
+  "artist": "7wLVViY9zOdtKJpBhXygTt",
+  "track": "74PQvWdfiopPalyRIWBw9O",
+  "song": "Hot Water / Cold Hands",
+  "name": "Garden Home"
+ },
+ "Mike Baggetta & Eli Winter Trio": {
+  "artist": "1Rf2dSdjhyLSXRzatVwdFX",
+  "track": "1tDJiiQhshkluG1YS27oPG",
+  "song": "Fleurette Africaine",
+  "name": "Mike Baggetta & Eli Winter Trio"
+ },
+ "Zac Brown Band": {
+  "artist": "6yJCxee7QumYr820xdIsjo",
+  "track": "0LQtEJt7x0s6knb6RKdRYc",
+  "song": "Chicken Fried",
+  "name": "Zac Brown Band"
+ },
+ "Giant Rooks": {
+  "artist": "5wD0owYApRtYmjPWavWKvb",
+  "track": "0oA9wBGDY4uyILLg4GymWP",
+  "song": "Tom's Diner",
+  "name": "Giant Rooks"
+ },
+ "Luke Winslow-King": {
+  "artist": "1VN3hs1Ra3vupNT3zN3baC",
+  "track": "2E09zjnAFR9WXsMyswlYH9",
+  "song": "I'm Glad Trouble Don't Last Always",
+  "name": "Luke Winslow-King"
+ },
+ "The Smithereens": {
+  "artist": "06KgaEpSluofkcChSo7TNr",
+  "track": "4qz8PpznLcX5AtoUusIiAh",
+  "song": "A Girl Like You",
+  "name": "The Smithereens"
+ },
+ "Ax and the Hatchetmen": {
+  "artist": "5WJCUSIw2Td5IEfa3LXCo9",
+  "track": "6DKSK32WwzBMZ0qAq28Zon",
+  "song": "Hotel Room",
+  "name": "Ax and the Hatchetmen"
+ },
+ "Death Cab for Cutie": {
+  "artist": "0YrtvWJMgSdVrk3SfNjTbx",
+  "track": "3kZC0ZmFWrEHdUCmUqlvgZ",
+  "song": "I Will Follow You into the Dark",
+  "name": "Death Cab for Cutie"
+ },
+ "Jake Blount Band": {
+  "artist": "63yfJDmaBbifNzvWUUdpv1",
+  "track": "7FIkSs1npKn3kgmGQC9V1I",
+  "song": "The Man Was Burning",
+  "name": "Jake Blount Band"
+ },
+ "Neurosis": {
+  "artist": "1KHydwFySZY3YcWyo2q2dF",
+  "track": "6bEPtGlc4sixMMcsG0nPHT",
+  "song": "Mirror Deep",
+  "name": "Neurosis"
+ },
+ "Ovrkast.": {
+  "artist": "4YISTUJnoZtAy6LjgOpRL7",
+  "track": "06jJ94bMXKhgOhTniBtSEv",
+  "song": "STATIC",
+  "name": "Ovrkast."
+ },
+ "Steve Poltz": {
+  "artist": "7AAenH06H5mjmOh4tj3z5Y",
+  "track": "6fLPn97ksi1TXTNHgVsYCf",
+  "song": "Life is Easy",
+  "name": "Steve Poltz"
+ },
+ "Stevie Wonder": {
+  "artist": "7guDJrEfX3qb6FEbdPA5qi",
+  "track": "6RNDeRnWsRMjPdNVgupZCs",
+  "song": "I Just Called To Say I Love You",
+  "name": "Stevie Wonder"
+ },
+ "Surprise Chef": {
+  "artist": "2Ks1Z1scmEDZfaYaCS7Osj",
+  "track": "6j4Z0E8BkowCgzYOrCUp6K",
+  "song": "All News Is Good News",
+  "name": "Surprise Chef"
+ },
+ "Vethaken": {
+  "artist": "6kbQcpZncCEyCI0vpSFiW5",
+  "track": "28LpCUonvU2u4sdIra6eZz",
+  "song": "Devil at Your Heels",
+  "name": "Vethaken"
+ },
+ "WHY?": {
+  "artist": "0d7aBBLFcc4dlETnae6zcH",
+  "track": "5v8tUdBAn13V2yKlICWZ61",
+  "song": "Siren 042",
+  "name": "WHY?"
+ },
+ "Geof Bradfield's Tenderera": {
+  "artist": "2ri3M2HWsexdDUMQ0sbhv9",
+  "track": "7d2GhCmvmxD4PEb7C9JQpY",
+  "song": "No Brand",
+  "name": "Geof Bradfield's Tenderera"
+ },
+ "Blue Earth Sound": {
+  "artist": "4PnTOlwNb4uJPI4aWVXQrE",
+  "track": "7z051axaQe97qayVI1srQe",
+  "song": "Mariposa",
+  "name": "Blue Earth Sound"
+ },
+ "Cxpital": {
+  "artist": "5OxzFzK5iHnc8YNGeASdPL",
+  "track": "7Fzfq3L1Tpwr01cIr6RbAn",
+  "song": "Back To You",
+  "name": "Cxpital"
+ },
+ "Mamas Gun": {
+  "artist": "09bP40OuEV5tOM1rQnZNxI",
+  "track": "4mPFe5IPy2A2tyoeFA8Hrt",
+  "song": "This Is The Day - Full Band Version",
+  "name": "Mamas Gun"
+ },
+ "Madeon": {
+  "artist": "4pb4rqWSoGUgxm63xmJ8xc",
+  "track": "5UNJM92MCcDgs4kGgm5fc1",
+  "song": "Shelter",
+  "name": "Madeon"
+ },
+ "Omnom": {
+  "artist": "3PYRXP25JcbqhvNaJYcnWy",
+  "track": "7JHkJ5mDS868b5j5h67cwL",
+  "song": "Coming Up (It’s Dare)",
+  "name": "Omnom"
  }
 }

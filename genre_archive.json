@@ -1,6 +1,94 @@
 [
  {
   "genre": "Pop",
+  "name": "2 Week Soundcheck · Pop: Nov 8–21",
+  "id": "6BwmA1EjQDUuzXkSS9Hsqx",
+  "url": "https://open.spotify.com/playlist/6BwmA1EjQDUuzXkSS9Hsqx",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 37,
+  "artists": 13,
+  "per_artist": 3
+ },
+ {
+  "genre": "Indie & Rock",
+  "name": "2 Week Soundcheck · Indie & Rock: Nov 8–21",
+  "id": "2A0JSoez2CiVlPunGnW750",
+  "url": "https://open.spotify.com/playlist/2A0JSoez2CiVlPunGnW750",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 162,
+  "artists": 55,
+  "per_artist": 3
+ },
+ {
+  "genre": "Folk & Country",
+  "name": "2 Week Soundcheck · Folk & Country: Nov 8–21",
+  "id": "3MHQVaYfYjcEraOtzGvq37",
+  "url": "https://open.spotify.com/playlist/3MHQVaYfYjcEraOtzGvq37",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 96,
+  "artists": 33,
+  "per_artist": 3
+ },
+ {
+  "genre": "Electronic",
+  "name": "2 Week Soundcheck · Electronic: Nov 8–21",
+  "id": "18ttQK9PgGlLkFX78BP4Ht",
+  "url": "https://open.spotify.com/playlist/18ttQK9PgGlLkFX78BP4Ht",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 50,
+  "artists": 17,
+  "per_artist": 3
+ },
+ {
+  "genre": "Hip-hop & R&B",
+  "name": "2 Week Soundcheck · Hip-hop & R&B: Nov 8–21",
+  "id": "3C9tdcRwVF2xXuour4tePG",
+  "url": "https://open.spotify.com/playlist/3C9tdcRwVF2xXuour4tePG",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 56,
+  "artists": 19,
+  "per_artist": 3
+ },
+ {
+  "genre": "Punk & Metal",
+  "name": "2 Week Soundcheck · Punk & Metal: Nov 8–21",
+  "id": "5wZ78jqRhcHw5F6m2hEdmh",
+  "url": "https://open.spotify.com/playlist/5wZ78jqRhcHw5F6m2hEdmh",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 69,
+  "artists": 23,
+  "per_artist": 3
+ },
+ {
+  "genre": "Funk & Blues",
+  "name": "2 Week Soundcheck · Funk & Blues: Nov 8–21",
+  "id": "3YGcsHebUwAkQhQfVHiPQ7",
+  "url": "https://open.spotify.com/playlist/3YGcsHebUwAkQhQfVHiPQ7",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 21,
+  "artists": 7,
+  "per_artist": 3
+ },
+ {
+  "genre": "Jazz, World & Classical",
+  "name": "2 Week Soundcheck · Jazz, World & Classical: Nov 8–21",
+  "id": "4cD1VuqNYCUOFkfLsqxOo8",
+  "url": "https://open.spotify.com/playlist/4cD1VuqNYCUOFkfLsqxOo8",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 13,
+  "artists": 5,
+  "per_artist": 3
+ },
+ {
+  "genre": "Pop",
   "name": "2 Week Soundcheck · Pop: Nov 1–14",
   "id": "538LLQxk0QgDh6MEqhhXc6",
   "url": "https://open.spotify.com/playlist/538LLQxk0QgDh6MEqhhXc6",

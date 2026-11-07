@@ -1,417 +1,21 @@
 {
- "Music of Remembrance: Journeys": {
-  "artist": "2wOKkQsDkED3MUOWmjYMzY",
-  "track": "3hADIfY5p0jAT7IV7dsLc1",
-  "song": "For a Look or a Touch: III. A Hundred Thousand Stars (Song Cycle Version)",
-  "name": "Music of Remembrance"
- },
- "Dice": {
-  "artist": "5E5dw9k43AX9GGGEA606KC",
-  "track": "58EybRsv2eC0iUfiYTmw8a",
-  "song": "Stop Sign",
-  "name": "Dice"
- },
- "Gilla Band": {
-  "artist": "7IdPmzvB3PugXieZE9vS4S",
-  "track": "5AepHZEo17yHF7LlZxLulD",
-  "song": "Alogia",
-  "name": "Gilla Band"
- },
- "Rittz": {
-  "artist": "5sRhscbWRXFbjXtSZyfaWY",
-  "track": "2ysVuXmtSgghzyYijfj7Od",
-  "song": "Switch Lanes",
-  "name": "Rittz"
- },
- "Bryson Tiller": {
-  "artist": "2EMAnMvWE2eb56ToJVfCWs",
-  "track": "3pXF1nA74528Edde4of9CC",
-  "song": "Don't",
-  "name": "Bryson Tiller"
- },
- "Daley": {
-  "artist": "13UXMns4uwUrEpIzY79Qgw",
-  "track": "4bx93Btylz6Rl6QIOrtBV4",
-  "song": "Alone Together",
-  "name": "Daley"
- },
- "Great Lake Swimmers": {
-  "artist": "2HcZuUtnktqMHm4H1R9gAR",
-  "track": "3CecLFOWdbQwc2qdTmHAc8",
-  "song": "Your Rocky Spine",
-  "name": "Great Lake Swimmers"
- },
- "Patrick Wolf": {
-  "artist": "6s92YZUPkTK1HL1WIGrPKE",
-  "track": "51VDsgehISUIIJvUgIjwQu",
-  "song": "The Magic Position",
-  "name": "Patrick Wolf"
- },
- "Slothrust": {
-  "artist": "6Nwhmo3adbTqPMCsgBgkf4",
-  "track": "4skGeNFamLnQ87WmQmhMrv",
-  "song": "Happy Together",
-  "name": "Slothrust"
- },
- "Katie Pruitt": {
-  "artist": "1c5w8KrxGwq44fxM5lGB4s",
-  "track": "1QIf2cf9Nn3u2Zn1NoYTky",
-  "song": "Fools for the Fleeting",
-  "name": "Katie Pruitt"
- },
- "Lime Garden": {
-  "artist": "5GA6j57yIPCBrWk1lTvF9o",
-  "track": "2jAPwqfgCw5hsUrg3wsqzA",
-  "song": "Love Song",
-  "name": "Lime Garden"
- },
- "Georgia Parker": {
-  "artist": "1I34cUj5AgrBrPAOqSXeiC",
-  "track": "5qrfxdje2YxEZEoM7rjkdl",
-  "song": "Cowboy's Life",
-  "name": "Georgia Parker"
- },
- "Fox Stevenson / Mystery Skulls": {
-  "artist": "2BQWHuvxG4kMYnfghdaCIy",
-  "track": "6ZjF7ecMawDKpbMTfo5p46",
-  "song": "Bruises",
-  "name": "Fox Stevenson / Mystery Skulls"
- },
- "Greg Freeman": {
-  "artist": "7naOvlP3zuvwVn7hiSeGwJ",
-  "track": "7jpHxGbTu4voy4jhv6u0CD",
-  "song": "Indu",
-  "name": "Greg Freeman"
- },
- "Sienna Spiro": {
-  "artist": "02gSuSAWEdWa5UOvqzjX6v",
-  "track": "7ujApz6iFP3PmKIDGcaGbe",
-  "song": "Great Expectation",
-  "name": "Sienna Spiro"
- },
- "Dylan Thom": {
-  "artist": "75hZOSuF07weHxVJkg60WW",
-  "track": "16APSX50nRLByjJxwwAepo",
-  "song": "The Field",
-  "name": "Dylan Thom"
- },
- "Kennedy Ryon": {
-  "artist": "02QGxgemaZGHvNZBDn53yH",
-  "track": "4m1lfvUr5fPaZm4eMVPMk0",
-  "song": "Ego",
-  "name": "Kennedy Ryon"
- },
- "Sven": {
-  "artist": "2JIFfHbBy5UbSJMzLs7zra",
-  "track": "1itxHmNG9VaaPpHhXnkLnP",
-  "song": "In the Sky Within a Sea",
-  "name": "Sven"
- },
- "Bahamas: Industrial Sport & Sound Tour": {
-  "artist": "4C50EbCS11M0VbGyH3OfLt",
-  "track": "6IBpFG2LU2udYofIuROp3w",
-  "song": "Lost In The Light",
-  "name": "Bahamas"
- },
- "Jessie Reyez - A Little Vengeance Tour": {
-  "artist": "3KedxarmBCyFBevnqQHy3P",
-  "track": "5N5k9nd479b1xpDZ4usjrg",
-  "song": "Promises (with Sam Smith)",
-  "name": "Jessie Reyez"
- },
- "Pinhead Gunpowder": {
-  "artist": "3FV6RFbfc6do1nCakWsNBx",
-  "track": "7HmBxtysZbecfjinY0eUeU",
-  "song": "Mahogany",
-  "name": "Pinhead Gunpowder"
- },
- "King Buffalo": {
-  "artist": "06D0YfeNZgBA7XWQ79Y42R",
-  "track": "6rIh2ETnPnBxkFYjQb83SV",
-  "song": "Centurion",
-  "name": "King Buffalo"
- },
- "Plini - An Unnameable Desire North American Tour": {
-  "artist": "3Gs10XJ4S4OEFrMRqZJcic",
-  "track": "1kuUcD74m4Pqmu3LYjNvMo",
-  "song": "Every Piece Matters",
-  "name": "Plini"
- },
- "Worst Party Ever x Equipment": {
-  "artist": "2bLENLdxlsq2xbvzMa1SUG",
-  "track": "3krsxuWtEijWUjlHV3oz6r",
-  "song": "Trying Soda (I Know You so Well)",
-  "name": "Worst Party Ever x Equipment"
- },
- "Tagua Tagua": {
-  "artist": "7hfRDZ2GLXzts759hMrdmt",
-  "track": "0HMKYTbPC854mg5Xsyeqe3",
-  "song": "Inteiro Metade",
-  "name": "Tagua Tagua"
- },
- "Jeffrey Martin": {
-  "artist": "7mIGDvDuuObf7vdxapVrmZ",
-  "track": "43u3tkWlfauia6mjLQmo79",
-  "song": "The Middle",
-  "name": "Jeffrey Martin"
- },
- "Middle Names": {
-  "artist": "2NOVcaGxRELChg5Zwvemmi",
-  "track": "3bqVN3GL6c2hst8vSLkqWX",
-  "song": "The Senator",
-  "name": "Middle Names"
- },
- "Cut Copy (DJ Set)": {
-  "artist": "4EENT7N7rCBwrddM3s0vFS",
-  "track": "0FezhHZVmDYXvk8jAr2fpU",
-  "song": "Lights & Music",
-  "name": "Cut Copy (DJ Set)"
- },
- "Cardinal Bloom": {
-  "artist": "1kL35cnfsVSfKJ6xLk0K9f",
-  "track": "7KkwCF7XL3SwDmZCdH0itR",
-  "song": "She’s Just a Friend",
-  "name": "Cardinal Bloom"
- },
- "Claire Conway (album release)": {
-  "artist": "6VN8lKQ3uH8ERz8K4PTib1",
-  "track": "3FsBRU05Fl9TvOIzcFZgJO",
-  "song": "Faraway Cars",
-  "name": "Claire Conway"
- },
- "Heavens to Betsy": {
-  "artist": "0nMGtVCtOB828z1CYKDzGZ",
-  "track": "5svfeW2c5FttYvj2IB5Gq6",
-  "song": "Terrorist",
-  "name": "Heavens to Betsy"
- },
- "Miscomings": {
-  "artist": "52kJCyitjiLQldwDvmZ8mx",
-  "track": "4QeMWctqhyLRPdwcSqqX4k",
-  "song": "I'm Blue",
-  "name": "Miscomings"
- },
- "Shanghai Qiutian": {
-  "artist": "6jPesaFAUoRzmHf1i8VgSg",
-  "track": "0YKE2Z79RSGVNXZ5TBlLJK",
-  "song": "We Just Have Tonight (Let’s Celebrate We Are Alive)",
-  "name": "Shanghai Qiutian"
- },
- "Stop Light Observations": {
-  "artist": "2EOIjdzbFGRM87IvJU34JJ",
-  "track": "1JGwBWiSPVfTTpP5N5frel",
-  "song": "2young",
-  "name": "Stop Light Observations"
- },
- "Teddy Swims": {
-  "artist": "33qOK5uJ8AR2xuQQAhHump",
-  "track": "17phhZDn6oGtzMe56NuWvj",
-  "song": "Lose Control",
-  "name": "Teddy Swims"
- },
- "Leila Josefowicz Returns": {
-  "artist": "28Bdn1xwlsfZKoLvMsgakl",
-  "track": "56NRYWoxAUjktoIkhhl8YP",
-  "song": "Carmen Fantasy, Op. 25",
-  "name": "Leila Josefowicz Returns"
- },
- "Bete Grise": {
-  "artist": "4uomm3rJ5eIH3lEXSLduk8",
-  "track": "1Cf4bAiNNfvnR1T73vKKLf",
-  "song": "Easter Mountain",
-  "name": "Bete Grise"
- },
- "Improvement Movement": {
-  "artist": "18S4ntNsQ8TCG80wpOsxWZ",
-  "track": "3ong2xjNkONx9HPYtxVzOG",
-  "song": "Too Far",
-  "name": "Improvement Movement"
- },
- "Marc Broussard": {
-  "artist": "4cEwEednPwWCdYT7ZhROZe",
-  "track": "3ceGfYOopNjTlXOaKLO1bQ",
-  "song": "Cry To Me",
-  "name": "Marc Broussard"
- },
- "The Tallest Man On Earth": {
-  "artist": "2BpAc5eK7Rz5GAwSp9UYXa",
-  "track": "3QGFHhGxUDtPAhdipwSrpl",
-  "song": "Love is All",
-  "name": "The Tallest Man On Earth"
- },
- "Izzy Vadim": {
-  "artist": "3mEgLhTVxuUG4n1ezLNY5l",
-  "track": "0bcoPdat6SIiixawZvWNws",
-  "song": "HOOLIGANS",
-  "name": "Izzy Vadim"
- },
- "JOSEPH - 10 Year Anniversary of \"I'm Alone, No You're Not\"": {
-  "artist": "5Wfvw7rDz7HA6gE2z6QhqO",
-  "track": "6Ufa8N6ZXD1Gp2gW0GbDOf",
-  "song": "Side Effects",
-  "name": "JOSEPH"
- },
- "Lucy": {
-  "artist": "16j0wVUk9UOoYEDknfb9rK",
-  "track": "2ro7o4RZVhksrTkcpk3rtC",
-  "song": "Autonomy (Ft. Lucy - Cooper B. Handy)",
-  "name": "Lucy"
- },
- "Periphery": {
-  "artist": "6d24kC5fxHFOSEAmjQPPhc",
-  "track": "3EbT5LT9lgaYCVVRtmydEI",
-  "song": "Heaven on High",
-  "name": "Periphery"
- },
- "Blackheart Honeymoon": {
-  "artist": "0zmW5zZVSMsEj9p2r9HWth",
-  "track": "0tXwcPNjsavvMGz83FzBhR",
-  "song": "Rest in Bone",
-  "name": "Blackheart Honeymoon"
- },
- "Deante' Hitchcock": {
-  "artist": "5REHfa3YDopGOzrxwTsPvH",
-  "track": "5ugBXrVSfcQK66D4s6FRSe",
-  "song": "Way Too Much",
-  "name": "Deante' Hitchcock"
- },
- "Roger Clyne and The Peacemakers": {
-  "artist": "3G3O90wIZmjYHTX2vgTVRM",
-  "track": "19sVCFHM39UPba8BagNqW4",
-  "song": "Americano",
-  "name": "Roger Clyne and The Peacemakers"
- },
- "Cherokee Social": {
-  "artist": "3BA0AjT1znMXddbdsT2jJD",
-  "track": "6Q3G5GQNkidv78rVE1L4hB",
-  "song": "Eeyoko Mataylë",
-  "name": "Cherokee Social"
- },
- "John Scofield Electrospective": {
-  "artist": "14RXohtx6NiBGFTW8IdmAK",
-  "track": "63p9izwA20hVjus2t68fE9",
-  "song": "I Don't Need No Doctor",
-  "name": "John Scofield Electrospective"
- },
- "Quadeca": {
-  "artist": "3zz52ViyCBcplK0ftEVPSS",
-  "track": "0Z1hvbWG6GJNfra89uS5Gx",
-  "song": "It goes like this",
-  "name": "Quadeca"
- },
- "The Smashing Pumpkins": {
-  "artist": "40Yq4vzPs9VNUrIBG5Jr2i",
-  "track": "5QLHGv0DfpeXLNFo7SFEy1",
-  "song": "1979 - Remastered 2012",
-  "name": "The Smashing Pumpkins"
- },
- "Dear John Letters": {
-  "artist": "1VuuwZa9UZ9PSkt6x8XFRH",
-  "track": "7LbPgpT1MjvBiTRAKQ2OTX",
-  "song": "We Could Be Angels",
-  "name": "Dear John Letters"
- },
- "Art Gecko": {
-  "artist": "1CHx5XwVCB0hy8wxToZ5h3",
-  "track": "0eYJKVu52g8Tpgt8c9Dzko",
-  "song": "Atomic Age",
-  "name": "Art Gecko"
- },
- "Riot Ten": {
-  "artist": "2Zxy5LwBatI5kw4uponwHQ",
-  "track": "4fn4yeyLWwq849nkDOlgfa",
-  "song": "Rail Breaker (feat. Rico Act)",
-  "name": "Riot Ten"
- },
- "Chris Smither (solo, matinee)": {
-  "artist": "4PM86aECDhcdwuJNZNrR22",
-  "track": "7aRdZmAwQbUt8e8cDBbBHQ",
-  "song": "Leave The Light On",
-  "name": "Chris Smither (solo, matinee)"
- },
- "Lilyisthatyou": {
-  "artist": "4ExEi8SBEd3QRgwbGw2nHC",
-  "track": "1baqAtYnkpNzHAYwqibv0x",
-  "song": "SIREN",
-  "name": "Lilyisthatyou"
- },
- "Mary in the Junkyard": {
-  "artist": "48Kc3HRodbvm5ropMf9B6M",
-  "track": "5qKD8WTc5qIZW96rIcgzXE",
-  "song": "Blood",
-  "name": "Mary in the Junkyard"
- },
- "Avery Cochrane": {
-  "artist": "2I0aPV0zqzG1LKhsMaKFDR",
-  "track": "6mlX5c8TxA1VtMeCm4c6Mf",
-  "song": "Shapeshifting on a Saturday Night",
-  "name": "Avery Cochrane"
- },
- "Jake Minch": {
-  "artist": "7Lfq2a2cpwQBdDzo7SW1HC",
-  "track": "6UVICy3W9iTUesDpamGvMW",
-  "song": "Fingers and Clothes",
-  "name": "Jake Minch"
- },
- "Punktuals": {
-  "artist": "5xVsNGliQxxOEgxh0s9Ou9",
-  "track": "44o2KcSqKwYtCc2aCpnY9c",
-  "song": "How'm I Gonna Go?",
-  "name": "Punktuals"
- },
- "Sammy Virji": {
-  "artist": "1GuqTQbuixFHD6eBkFwVcb",
-  "track": "1O8jgjoGRcRwcD4QPQbz8S",
-  "song": "Talk of the Town",
-  "name": "Sammy Virji"
- },
- "Queen Mother": {
-  "artist": "1l08P6bzNYjbysyWLwr6uD",
-  "track": "0NchRTBP1yga44AVeDt5GG",
-  "song": "MONARCH",
-  "name": "Queen Mother"
- },
- "An Evening With Railroad Earth": {
-  "artist": "6ijT84fUReKCGYV3MjhB2y",
-  "track": "71aoPq0Cez3dtsSMXJHqXI",
-  "song": "Long Way To Go",
-  "name": "An Evening With Railroad Earth"
- },
- "Dax": {
-  "artist": "5icKdCmMhNMYoAzVBAWt39",
-  "track": "6jbV8P3fq5jFY7zd3UjGnV",
-  "song": "Lonely Dirt Road",
-  "name": "Dax"
- },
- "The Last Revel": {
-  "artist": "2PyWfmEeKmRNhQkAJ1zJXw",
-  "track": "3J2SefFgx68fw3RI2x2OLx",
-  "song": "Engine Trouble",
-  "name": "The Last Revel"
- },
- "Squirrel Flower": {
-  "artist": "7bI1v9NGBBhq8iGfytctni",
-  "track": "6LHioVAsFPLjupnl8ikW7H",
-  "song": "So Hot You're Hurting My Feelings",
-  "name": "Squirrel Flower"
- },
- "Ray Wolff": {
-  "artist": "2gM0Ekx2XEjUz5jgIlv29T",
-  "track": "4uAainneic3AAmx3qKFT6P",
-  "song": "Agatha Christie",
-  "name": "Ray Wolff"
- },
- "The Sweet Lillies": {
-  "artist": "4yU0raooXzqeWGXmRRT7V6",
-  "track": "69EbxXWRIUzXD3rXZutRnc",
-  "song": "Colorado Song",
-  "name": "The Sweet Lillies"
- },
- "Capochino": {
-  "artist": "70qOCKE1NFO6q1a1pC0KRE",
-  "track": "5Enc65rdL60lrGyv6G5Yb4",
-  "song": "Get That",
-  "name": "Capochino"
+ "Crab": {
+  "artist": "5fZ0R9cAC607EJPyHA7GrM",
+  "track": "07085K2jsflzpiKngtFaQc",
+  "song": "Unlimited",
+  "name": "Crab"
+ },
+ "Denny Way (EP release)": {
+  "artist": "0JIBwx5yrjvWQMDbLFjoCl",
+  "track": "7H8DApgmjfxy8fDA0HUJ2D",
+  "song": "Anymore",
+  "name": "Denny Way"
+ },
+ "Beck with Ioanna Gika": {
+  "artist": "3vbKDsSS70ZX9D2OcvbZmS",
+  "track": "5PntSbMHC1ud6Vvl8x56qd",
+  "song": "Loser",
+  "name": "Beck"
  },
  "Genesis Owusu": {
   "artist": "1HvH97rzvCH6lfnLlgyfke",
@@ -446,7 +50,7 @@
  "Taylor Mac": {
   "artist": "4ziIVfZJz9kJmeR9I61v43",
   "track": "6CFISGx3InPAbwwyH2To03",
-  "song": "All Tomorrow's Parties / Little Drummer Boy",
+  "song": "All Tomorrow's Parties / Little Drummer ",
   "name": "Taylor Mac"
  },
  "Aterciopelados": {
@@ -492,10 +96,10 @@
   "name": "Jon Spencer"
  },
  "Lucy Bedroque": {
-  "artist": "16j0wVUk9UOoYEDknfb9rK",
-  "track": "2ro7o4RZVhksrTkcpk3rtC",
-  "song": "Autonomy (Ft. Lucy - Cooper B. Handy)",
-  "name": "Lucy"
+  "artist": "2I8H267eH5va9da4vGt38O",
+  "track": "0H0eIjcXruQpntK0LuNa5v",
+  "song": "How to Pretend",
+  "name": "Lucy Bedroque"
  },
  "River Shook": {
   "artist": "66NY7M7uxuzISHBID7J1Bv",
@@ -596,8 +200,14 @@
  "Allison Russell": {
   "artist": "3JBmecDGXTll46ygrnGTM6",
   "track": "3Zwb1yipBxvrukVaNMm4o5",
-  "song": "Wildflower and Barley (feat. Allison Russell)",
+  "song": "Wildflower and Barley (feat. Allison Rus",
   "name": "Allison Russell"
+ },
+ "An Evening with Craig Finn & The Band of Forgiveness": {
+  "artist": "78DZaDfOK3i88eRVPkzZu2",
+  "track": "1mgxwt5P7wZsaNL0A1dYvk",
+  "song": "Blankets",
+  "name": "Craig Finn & The Band of Forgiveness"
  },
  "Armand Hammer": {
   "artist": "3SCI7sXHUZIeDKMWC5NT9C",
@@ -619,15 +229,9 @@
  },
  "Sassy 009": {
   "artist": "30gJ2CPCeUvghTg6TkfA4L",
-  "track": "1arcZv0I9V5yCS0aaBbzGt",
-  "song": "Tell Me - Jam City Remix",
+  "track": "1FKkOiN5akroSoNPJ07FFL",
+  "song": "Tell Me",
   "name": "Sassy 009"
- },
- "Goldi Locke (EP release)": {
-  "artist": "0Npx5KzJKgjwLKqiUvKZuW",
-  "track": "2r6IXYQ1V9VGoyGzFHvUQ7",
-  "song": "Raspberry Lipstick",
-  "name": "Goldi Locke (EP release)"
  },
  "Makenna DeCaro": {
   "artist": "3GSJ5kz9MDmnpU9M1DLGxd",
@@ -645,7 +249,7 @@
   "artist": "50tcO1ZwIQWp67PHjhu4kZ",
   "track": "6vel1C1diKb2Zc09jkmMx7",
   "song": "Snowballers",
-  "name": "The Breaks - Eddie Roberts, Robert Walter, Stanton Moore"
+  "name": "The Breaks"
  },
  "Bhavya - EP Release": {
   "artist": "4IjULeeD8djbJ2Uj1uF21o",
@@ -656,7 +260,7 @@
  "Garth Brooks": {
   "artist": "4BclNkZtAUq1YrYNzye3N7",
   "track": "3nKLfeoq3YedJIZqvRW3Qz",
-  "song": "I Don't Need Your Rockin' Chair - Version w/special guests",
+  "song": "I Don't Need Your Rockin' Chair - Versio",
   "name": "Garth Brooks"
  },
  "Geordie Kieffer": {
@@ -665,10 +269,16 @@
   "song": "Red Line",
   "name": "Geordie Kieffer"
  },
+ "9-5 Hyperfuck": {
+  "artist": "6joYWm3TKLbKWc4QfQq3Zv",
+  "track": "1rvvNtG25uMeoBeTJp3Of1",
+  "song": "'Art Is Inherently Apolitical'",
+  "name": "9-5 Hyperfuck"
+ },
  "Margaret Glaspy: The I Am Both Tour": {
   "artist": "13YVfXddjRIUrubItJjadb",
   "track": "0Wh4t8CQrnbLskLnZPYGOT",
-  "song": "Half of my heart (Between Steps : Original Television Soundtrack)",
+  "song": "Half of my heart (Between Steps : Origin",
   "name": "Margaret Glaspy"
  },
  "Triptides": {
@@ -697,8 +307,8 @@
  },
  "Kim Virant - Early Show": {
   "artist": "4aEpXkDj2d2lDYld6TmisA",
-  "track": "1OYeUPSCFCMCzUZR3WggPc",
-  "song": "Questions",
+  "track": "4YruB0G7DOps4DPCBaSwh6",
+  "song": "Amplify",
   "name": "Kim Virant"
  },
  "Son Volt": {
@@ -733,8 +343,8 @@
  },
  "Haystack Slim & The Broken Arrow": {
   "artist": "078TCD2vBMukzScBVR997a",
-  "track": "3TuDdSADK1ikrHm7iQ6NrU",
-  "song": "Hotel Prison",
+  "track": "2M4F9ZjbDKacqFPxd9bqY7",
+  "song": "Honey",
   "name": "Haystack Slim & The Broken Arrow"
  },
  "nimino": {
@@ -747,7 +357,7 @@
   "artist": "2dI9IuajQnLR5dLxHjTTqU",
   "track": "68MsVSVZO8eSPdqPfhG83A",
   "song": "Let the Rhythm Just",
-  "name": "The Polish Ambassador - Dead Polish Phish"
+  "name": "The Polish Ambassador"
  },
  "Mild Minds (DJ Set)": {
   "artist": "3Ka3k9K2WStR52UJVtbJZW",
@@ -809,6 +419,12 @@
   "song": "Dum It Down",
   "name": "DumDums"
  },
+ "Goldi Locke (EP release)": {
+  "artist": "0Npx5KzJKgjwLKqiUvKZuW",
+  "track": "2r6IXYQ1V9VGoyGzFHvUQ7",
+  "song": "Raspberry Lipstick",
+  "name": "Goldi Locke"
+ },
  "Houndmouth": {
   "artist": "7EGwUS3c5dXduO4sMyLWC5",
   "track": "2MQhTbX792AT6YyzwLz9dt",
@@ -819,7 +435,7 @@
   "artist": "5fTJlk4f1YRh4ObYssJo44",
   "track": "3fGP2EeAI275OaT8oc7YWZ",
   "song": "You Look Good in Neon",
-  "name": "Silverada - Night One"
+  "name": "Silverada"
  },
  "GorillaT": {
   "artist": "3zcOegUrWqti1S0lu4juJz",
@@ -829,8 +445,428 @@
  },
  "AEREA": {
   "artist": "34ut5kAp6DfnW79Dp3P4CA",
-  "track": "09YIQFg8QleQknfduk71HE",
-  "song": "Monsters",
+  "track": "33cwanZqoTSRn0k4tSYkrF",
+  "song": "All this softness",
   "name": "AEREA"
+ },
+ "Seattle Chamber Music Society: Ehnes Quartet & Jonathan Vinocour": {
+  "artist": "79djmnThcxOKFSEPQpF7iX",
+  "track": "6P1KWwdeMz307U5LfvXRzH",
+  "song": "Daybreak",
+  "name": "Seattle Chamber Music Society"
+ },
+ "Cem Adrian": {
+  "artist": "2AWUCT9xtcvkjpFq1ZgpPj",
+  "track": "7eGi47ucrFzRVwMiNvPtsU",
+  "song": "Derinlerde",
+  "name": "Cem Adrian"
+ },
+ "Chris Acker": {
+  "artist": "6zOZGDOyElPbPuiI8kahym",
+  "track": "7dTxZVehEmTlDH8fMn9G14",
+  "song": "Wouldn't Do For You (Buddy)",
+  "name": "Chris Acker"
+ },
+ "Goldenstar": {
+  "artist": "7EeB9iiM7ESsG4VJZwVgtM",
+  "track": "5TrPCoC21uGhKauc1nxonO",
+  "song": "Forget",
+  "name": "Goldenstar"
+ },
+ "headache": {
+  "artist": "1iX0eIvL5iHnaDny7BBtWH",
+  "track": "3omdHDf6LTJVnHDUKS9kN7",
+  "song": "That Thing with the Rabbit",
+  "name": "headache"
+ },
+ "La Isla Electronica": {
+  "artist": "6ea3H4k1UXMYqt1dUJ0exN",
+  "track": "6dK4tXD3RIe03kmPC84DBv",
+  "song": "Volver a Empezar",
+  "name": "La Isla Electronica"
+ },
+ "Sutekh Hexen": {
+  "artist": "44jJChzaK3mg1GSI6R36vy",
+  "track": "0W9OtavAk5Y81qf0RgNQQR",
+  "song": "Part I",
+  "name": "Sutekh Hexen"
+ },
+ "BOYNEXTDOOR": {
+  "artist": "4hnHLgMSOiqERWBL4jINP1",
+  "track": "3U7iIHygNSOcjcL98KwHQg",
+  "song": "ANIMAL",
+  "name": "BOYNEXTDOOR"
+ },
+ "Eivør": {
+  "artist": "2dB4ya2W1Gvng8gjWSPu2H",
+  "track": "3MdEnYp8pv39XHynVC8Lq0",
+  "song": "Trøllabundin",
+  "name": "Eivør"
+ },
+ "Russian Circles": {
+  "artist": "0AZ3VR0YbFcS0Kgei7L2QF",
+  "track": "6F9Zmskmo9MY5YHCq7y7ji",
+  "song": "Youngblood",
+  "name": "Russian Circles"
+ },
+ "Silverada - Night Two": {
+  "artist": "5fTJlk4f1YRh4ObYssJo44",
+  "track": "3fGP2EeAI275OaT8oc7YWZ",
+  "song": "You Look Good in Neon",
+  "name": "Silverada"
+ },
+ "Sofie Royer": {
+  "artist": "2P2BXSc0Wxpf10Fpno38rl",
+  "track": "4mbTbsV69h72tPpNPefUrU",
+  "song": "Actress",
+  "name": "Sofie Royer"
+ },
+ "Arch Enemy & The Black Dahlia Murder": {
+  "artist": "0DCw6lHkzh9t7f8Hb4Z0Sx",
+  "track": "0WZZENH0kt3O2cBE8q5IRq",
+  "song": "War Eternal",
+  "name": "Arch Enemy & The Black Dahlia Murder"
+ },
+ "Underoath": {
+  "artist": "3GzWhE2xadJiW8MqRKIVSK",
+  "track": "47IWLfIKOKhFnz1FUEUIkE",
+  "song": "A Boy Brushed Red Living In Black And Wh",
+  "name": "Underoath"
+ },
+ "Bayonne": {
+  "artist": "6BbqU3r1G2mwkRIfIbkCek",
+  "track": "5WSbA7CYliGAJiZTRldTMK",
+  "song": "Right Thing",
+  "name": "Bayonne"
+ },
+ "DAMAG3": {
+  "artist": "0xIT8X4ltWYOTHXJ2hm6vn",
+  "track": "1FLfCj1dHGyxkDFU4XPfyq",
+  "song": "START A FIRE",
+  "name": "DAMAG3"
+ },
+ "Story of the Year & Silverstein": {
+  "artist": "0KDuKk6YdEu3hR56HtXmxt",
+  "track": "0DKNNR9iDjwfCEpMiFXMJq",
+  "song": "Until the Day I Die",
+  "name": "Story of the Year & Silverstein"
+ },
+ "Katzenväter": {
+  "artist": "3JMLn1qjEu7UtNTdDwWjsU",
+  "track": "4Lg66FKz96KPOpPBylYinV",
+  "song": "Semblance of Normalcy",
+  "name": "Katzenväter"
+ },
+ "Olivia O'Brien": {
+  "artist": "1QRj3hoop9Mv5VvHQkwPEp",
+  "track": "6cuWB0mRNHQcu7stBLpyvu",
+  "song": "Complicated",
+  "name": "Olivia O'Brien"
+ },
+ "Dev Lemons": {
+  "artist": "5zbFRbEu3FDkqN4j1awLLO",
+  "track": "4jmJRk8jb4hH4cmEXFhBET",
+  "song": "in the middle of the night",
+  "name": "Dev Lemons"
+ },
+ "Francisca Valenzuela - \"Maldita\" Tour": {
+  "artist": "2piHiUbXwUNNIvYyIOIUKt",
+  "track": "3PqqPzs10N3nX1U63CyYJP",
+  "song": "Afortunada",
+  "name": "Francisca Valenzuela"
+ },
+ "Maddie Zahm": {
+  "artist": "5dtPlx7yKOo7KdZGyrfFIq",
+  "track": "7z3NjKBqjv3d1ykXCFQxaT",
+  "song": "Fat Funny Friend",
+  "name": "Maddie Zahm"
+ },
+ "Surely Tempo": {
+  "artist": "70zssbn2dycY2RzSGLbWGQ",
+  "track": "3v5gnjKBw2yDbvEkrI9E9K",
+  "song": "Time Will Tell",
+  "name": "Surely Tempo"
+ },
+ "Valé": {
+  "artist": "3iyja6ErhSJ4NplEsdlzyE",
+  "track": "44UDz2lTsVzg5io2JPZsIw",
+  "song": "fit mami",
+  "name": "Valé"
+ },
+ "Turnover": {
+  "artist": "0gLjJuczGWhqKVMmVpIT52",
+  "track": "3vkj94FiLgUz3ysZcmIXPx",
+  "song": "Dizzy On the Comedown",
+  "name": "Turnover"
+ },
+ "Agriculture": {
+  "artist": "23Skjj6LyKEVkNIUFrLBUY",
+  "track": "1NoYnWzMQ1mY67jo7gDakq",
+  "song": "Bodhidharma",
+  "name": "Agriculture"
+ },
+ "Babehoven": {
+  "artist": "3Yjr5lVbAr2Fe7Lmpwja70",
+  "track": "5uLaMS2f1oC44B462IY4gU",
+  "song": "Lasagna",
+  "name": "Babehoven"
+ },
+ "Bonobo - Distance In Static Live": {
+  "artist": "0cmWgDlu9CwTgxPhf403hb",
+  "track": "7ub5dcQHBLCQHW3OZRAf9q",
+  "song": "Always on Your Side",
+  "name": "Bonobo"
+ },
+ "KATSEYE": {
+  "artist": "3c0gDdb9lhnHGFtP4prQpn",
+  "track": "3ouNEk0tv5TTi8VWMe1xbX",
+  "song": "Animal",
+  "name": "KATSEYE"
+ },
+ "Natural Child": {
+  "artist": "7epIIT85VR8OEggqKO3RSt",
+  "track": "1FOAgjh0uXXjNTPTwHxZCT",
+  "song": "Out In The Country",
+  "name": "Natural Child"
+ },
+ "RHYE": {
+  "artist": "2AcUPzkVWo81vumdzeLLRN",
+  "track": "1hgX0ZmmP7IRRjUFCIBrnQ",
+  "song": "Feel Your Weight - Poolside Remix",
+  "name": "RHYE"
+ },
+ "Tyla": {
+  "artist": "3SozjO3Lat463tQICI9LcE",
+  "track": "5aIVCx5tnk0ntmdiinnYvw",
+  "song": "Water",
+  "name": "Tyla"
+ },
+ "Clarion": {
+  "artist": "7KJSk2ytUFik1LGqFGHOLW",
+  "track": "0miNQiJqyO5CIZbyLTHO7J",
+  "song": "Hello Juliet",
+  "name": "Clarion"
+ },
+ "Jervis Campbell": {
+  "artist": "31Bh5G3Q9JzwqPpHDLIQtW",
+  "track": "00RJUxqmSh4UFm0NHOCAV2",
+  "song": "belief",
+  "name": "Jervis Campbell"
+ },
+ "Julian Fijma": {
+  "artist": "3KEvY1XBn7ZqQcHhUoGeqy",
+  "track": "7dDyrOyL1NBPE8uUi217NO",
+  "song": "Broken Love",
+  "name": "Julian Fijma"
+ },
+ "Louie TheSinger": {
+  "artist": "0Ht6v1kud5bXl4mp8eaDjj",
+  "track": "4uAt4c20CnnvBl9EViUXBk",
+  "song": "EYA",
+  "name": "Louie TheSinger"
+ },
+ "State Champs": {
+  "artist": "1qqdO7xMptucPDMopsOdkr",
+  "track": "6XbmIuDxm4gWpVYoGg5DQX",
+  "song": "Where I Belong (feat. We The Kings)",
+  "name": "State Champs"
+ },
+ "The Gallaghers (LP release)": {
+  "artist": "2j5TWD4Il6DUOB2eYrXx9O",
+  "track": "7Jo2s1XvpPTVUu4W5ODCmY",
+  "song": "Pretty Skeletons",
+  "name": "The Gallaghers"
+ },
+ "Former Jock": {
+  "artist": "1EWciEZ6Ip9oUvADZVrUhx",
+  "track": "0zWSWSgyazj8BTyCpbtBm6",
+  "song": "Intuition",
+  "name": "Former Jock"
+ },
+ "KINO": {
+  "artist": "2jkl2xJVm71azWAgZKyf42",
+  "track": "0u6SJZRhC1KSguPxLACkt9",
+  "song": "Спокойная ночь",
+  "name": "KINO"
+ },
+ "Maximiano": {
+  "artist": "7pcDeDUvxz1j0gDPH8WzZI",
+  "track": "284zAgelaSRe1RTWa4QdL8",
+  "song": "Puppers (Bandit's Song)",
+  "name": "Maximiano"
+ },
+ "Todd Rundgren": {
+  "artist": "0Lpr5wXzWLtDWm1SjNbpPb",
+  "track": "3gHFKiDanj4d2rqgHlRFFc",
+  "song": "Hello It's Me",
+  "name": "Todd Rundgren"
+ },
+ "Endless Joy": {
+  "artist": "4M35prpPYpTNHpZBNy1i1G",
+  "track": "64XDpMUIoZmV1fZn323bdc",
+  "song": "Recovery Position",
+  "name": "Endless Joy"
+ },
+ "Julien Baker": {
+  "artist": "12zbUHbPHL5DGuJtiUfsip",
+  "track": "3jt1ZVIuluGkV0sWWLSUzw",
+  "song": "Appointments",
+  "name": "Julien Baker"
+ },
+ "Mister Blank - Album Release Show": {
+  "artist": "7iCgVDrZSVxLEoe6Ajm1rg",
+  "track": "5eVBfHEXOnfKAK8MOphBEi",
+  "song": "Panic! at the Costco",
+  "name": "Mister Blank"
+ },
+ "Hard Maybe": {
+  "artist": "5tT0eDbA9SicXktXurkBzN",
+  "track": "4Wsi6IwC929iyeVb1JqBvf",
+  "song": "The Docks",
+  "name": "Hard Maybe"
+ },
+ "Rodrigo y Gabriela": {
+  "artist": "7vX3cMVyW8gtDA4y855ynF",
+  "track": "0nNwfRyw0eY323NMkBM0y8",
+  "song": "Tamacún",
+  "name": "Rodrigo y Gabriela"
+ },
+ "Todd Day Wait": {
+  "artist": "6GAZhXqlPQdf3mzK6hvGM9",
+  "track": "3RSgNrKX1pKr9IGXI8DJeb",
+  "song": "Oh Don't Tell Her",
+  "name": "Todd Day Wait"
+ },
+ "Gary Numan": {
+  "artist": "5KQMtyPE8DCQNUzoNqlEsE",
+  "track": "0YBA7eO8kqEzUoC6zAEutF",
+  "song": "M.E.",
+  "name": "Gary Numan"
+ },
+ "Lil Tracy": {
+  "artist": "5g63iWaMJ2UrkZMkCC8dMi",
+  "track": "1nKK4B9X8CbP5MwTfrSRBh",
+  "song": "white tee",
+  "name": "Lil Tracy"
+ },
+ "Moving in Slow": {
+  "artist": "2W9gOkZgtEgrnH8VQn72FU",
+  "track": "0OQt1ciFx1fcfAIFAe60H0",
+  "song": "Destroy The World",
+  "name": "Moving in Slow"
+ },
+ "Sallie Ford & The Sound Outside": {
+  "artist": "0Z8RhQLJrLxKMWoUW2qo95",
+  "track": "2ss5eOncaQ495ZAy36AR09",
+  "song": "I Swear",
+  "name": "Sallie Ford & The Sound Outside"
+ },
+ "Josh Baker": {
+  "artist": "4zf8Awb8y1X9qwL4oiVRd6",
+  "track": "06PtUjF9NsdCYLaYag104S",
+  "song": "My Place",
+  "name": "Josh Baker"
+ },
+ "Deerhoof": {
+  "artist": "7AZwAitWq1KcFoIJhRWb6V",
+  "track": "0YYlnQ9ABIRDRN7rgm81zo",
+  "song": "Running Thoughts",
+  "name": "Deerhoof"
+ },
+ "Hot Bodies in Motion": {
+  "artist": "1WLJdWa5bS3cX7WOYQbYBZ",
+  "track": "0x3m28AtT05jxJzC521ss4",
+  "song": "Old Habits",
+  "name": "Hot Bodies in Motion"
+ },
+ "Bombargo": {
+  "artist": "5gcuakqbbCNnx9fBZWCFfW",
+  "track": "5tVqHAqOtg5Dsmfms8ssLf",
+  "song": "Has It Been Easy",
+  "name": "Bombargo"
+ },
+ "Baby Smoove": {
+  "artist": "15oLsNy8mZYaIukh4eDhXy",
+  "track": "2JMW1iCKgPnSqbVVhHR6wI",
+  "song": "Losing My Mind",
+  "name": "Baby Smoove"
+ },
+ "Thundercat": {
+  "artist": "4frXpPxQQZwbCu3eTGnZEw",
+  "track": "3jiKUMXqwEodB7gVv1RMZU",
+  "song": "After Last Night (with Thundercat & Boot",
+  "name": "Thundercat"
+ },
+ "Chrome Lakes": {
+  "artist": "6m9zCuumpnn6S7Kvxvm0ed",
+  "track": "5SQtXK8sfuYkiFwOGOcL2I",
+  "song": "A Spear to Bear",
+  "name": "Chrome Lakes"
+ },
+ "The Cactus Blossoms - Night One": {
+  "artist": "7kWwQAe9JnYNMk4kuEe73S",
+  "track": "4MaNTAN78ylZnCMCKBFiU9",
+  "song": "Hey Baby",
+  "name": "The Cactus Blossoms"
+ },
+ "Aage Birch": {
+  "artist": "3Uyv14BPl75UV0zeRunByC",
+  "track": "6AvOnPazCHuHHkWTPR68Nd",
+  "song": "Wolves Of The North",
+  "name": "Aage Birch"
+ },
+ "1 Umbrella": {
+  "artist": "2KgAvy3nNfdR0tWMBZpOrl",
+  "track": "5lU1b02ar5sLIwFt8Eocmx",
+  "song": "1 Umbrella (feat. ALLBLACK & 22nd Jim)",
+  "name": "1 Umbrella"
+ },
+ "2DEAD BOYZ x The Underachievers: NO1LIVESFOREVER Tour": {
+  "artist": "4JuXkitoXoAUH9cLRjVOre",
+  "track": "6jUg78kJNcwkf5r3HoBiD1",
+  "song": "Felony Ring",
+  "name": "2DEAD BOYZ x The Underachievers"
+ },
+ "AJJ": {
+  "artist": "4IDpDJIDfK96HMLD4Tphyl",
+  "track": "4epSzmo6Xw01vTgGoYb2KR",
+  "song": "Brave as a Noun",
+  "name": "AJJ"
+ },
+ "Polyrhythmics (2 sets)": {
+  "artist": "43pamwJj22NKepRqNeS412",
+  "track": "58Qtl0Yf6KDnfN3sGgpADv",
+  "song": "Life from Below",
+  "name": "Polyrhythmics"
+ },
+ "Song Dongye": {
+  "artist": "5aJFmaCc09jEz9ghzppUxo",
+  "track": "0l4SPPA0oMUyI9TNyPyrrp",
+  "song": "安和桥",
+  "name": "Song Dongye"
+ },
+ "Switchfoot": {
+  "artist": "6S58b0fr8TkWrEHOH4tRVu",
+  "track": "2md2i5QvelRFnafpnd6LOg",
+  "song": "Meant to Live",
+  "name": "Switchfoot"
+ },
+ "The Cactus Blossoms - Night Two": {
+  "artist": "7kWwQAe9JnYNMk4kuEe73S",
+  "track": "4MaNTAN78ylZnCMCKBFiU9",
+  "song": "Hey Baby",
+  "name": "The Cactus Blossoms"
+ },
+ "Jai Wolf": {
+  "artist": "24V5UY0nChKpnb1TBPJhCw",
+  "track": "05q78FY1IOa85XzPipVmvJ",
+  "song": "Indian Summer",
+  "name": "Jai Wolf"
+ },
+ "Emancipator": {
+  "artist": "6HCnsY0Rxi3cg53xreoAIm",
+  "track": "6WuZeRJ8RWPdNgtqLNqn4F",
+  "song": "Dusk to Dawn",
+  "name": "Emancipator"
  }
 }
