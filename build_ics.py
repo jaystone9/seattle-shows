@@ -107,13 +107,16 @@ END:STANDARD
 END:VTIMEZONE"""
 
 
+VTZ_DENVER = VTZ_CHICAGO.replace("America/Chicago", "America/Denver").replace("-0600", "-0700").replace("-0500", "-0600").replace("CDT", "MDT").replace("CST", "MST")
+
+
 def use_city(slug):
     """Switch to another edition (cities.py): its addresses, time zone and calendar name."""
     from cities import CITIES
     c = CITIES[slug]
     ADDR.clear()
     ADDR.update(c["addr"])
-    CAL.update(name=c["name"], tz=c["tz"], vtz={"America/Chicago": VTZ_CHICAGO}[c["tz"]], uid=f"{slug}-shows")
+    CAL.update(name=c["name"], tz=c["tz"], vtz={"America/Chicago": VTZ_CHICAGO, "America/Denver": VTZ_DENVER}[c["tz"]], uid=f"{slug}-shows")
 
 
 def main(src, out):

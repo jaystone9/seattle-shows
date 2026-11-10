@@ -146,6 +146,44 @@ CHICAGO_ADDR = {
     "Credit Union 1 Amphitheatre": "Credit Union 1 Amphitheatre, 19100 S Ridgeland Ave, Tinley Park, IL 60477",
 }
 
+# Salt Lake City (Jay, Nov 10, 2026). Sources: S&S Presents (Kilby Court, Urban Lounge, Metro Music Hall),
+# The State Room Presents iCal feeds (State Room, Commonwealth Room, Eccles), depotslc.com, thecomplexslc.com,
+# soundwellslc.com, deltacenter.com. See salt-lake/REFRESH.md.
+SLC_VENUES = {
+    "Kilby Court": {"short": "Kilby Court", "hood": "Granary District", "site": "https://www.kilbycourt.com/"},
+    "Urban Lounge": {"short": "Urban Lounge", "hood": "Central City", "site": "https://www.theurbanloungeslc.com/"},
+    "Metro Music Hall": {"short": "Metro Music Hall", "hood": "Depot District", "site": "https://www.metromusichall.com/"},
+    "The Complex": {"short": "The Complex", "hood": "Depot District", "site": "https://www.thecomplexslc.com/shows"},
+    "The Depot": {"short": "The Depot", "hood": "The Gateway", "site": "https://www.depotslc.com/shows"},
+    "The Union Event Center": {"short": "The Union", "hood": "The Gateway", "site": "https://snspresents.com/"},
+    "Delta Center": {"short": "Delta Center", "hood": "The Gateway", "site": "https://www.deltacenter.com/events/"},
+    "The State Room": {"short": "The State Room", "hood": "Downtown", "site": "https://thestateroompresents.com/the-state-room"},
+    "Soundwell": {"short": "Soundwell", "hood": "Downtown", "site": "https://soundwellslc.com/"},
+    "Eccles Theater": {"short": "Eccles Theater", "hood": "Downtown", "site": "https://thestateroompresents.com/eccles-theater"},
+    "The Commonwealth Room": {"short": "Commonwealth Room", "hood": "South Salt Lake", "site": "https://thestateroompresents.com/the-commonwealth-room"},
+}
+
+SLC_AREAS = {
+    "Downtown": ["Downtown"],
+    "Gateway & Depot District": ["The Gateway", "Depot District"],
+    "Granary & Central City": ["Granary District", "Central City"],
+    "South Salt Lake": ["South Salt Lake"],
+}
+
+SLC_ADDR = {
+    "Kilby Court": "Kilby Court, 741 S Kilby Ct, Salt Lake City, UT 84101",
+    "Urban Lounge": "The Urban Lounge, 241 S 500 E, Salt Lake City, UT 84102",
+    "Metro Music Hall": "Metro Music Hall, 615 W 100 S, Salt Lake City, UT 84104",
+    "The Complex": "The Complex, 536 W 100 S, Salt Lake City, UT 84101",
+    "The Depot": "The Depot, 13 N 400 W, Salt Lake City, UT 84101",
+    "The Union Event Center": "The Union Event Center, 235 N 500 W, Salt Lake City, UT 84116",
+    "Delta Center": "Delta Center, 301 S Temple, Salt Lake City, UT 84101",
+    "The State Room": "The State Room, 638 S State St, Salt Lake City, UT 84111",
+    "Soundwell": "Soundwell, 149 W 200 S, Salt Lake City, UT 84101",
+    "Eccles Theater": "Eccles Theater, 131 S Main St, Salt Lake City, UT 84111",
+    "The Commonwealth Room": "The Commonwealth Room, 195 W 2100 S, South Salt Lake, UT 84115",
+}
+
 CITIES = {
     "chicago": {
         "name": "Chicago",
@@ -158,5 +196,17 @@ CITIES = {
         "addr": CHICAGO_ADDR,
         "area_playlists": ["Wicker Park & Logan Square", "West Loop & Pilsen", "North Suburbs"],   # Jay, Oct 19 / Oct 20, 2026: headliners + openers
         "live": True,
+    },
+    "salt-lake": {
+        "name": "Salt Lake City",
+        "tz": "America/Denver",
+        "dir": "salt-lake",
+        "data": "data/salt-lake.json",
+        "calendar_file": "salt-lake-shows.ics",
+        "venues": SLC_VENUES,
+        "areas": SLC_AREAS,
+        "addr": SLC_ADDR,
+        "area_playlists": [],                # no neighborhood playlist yet
+        "live": False,                       # flipped to True once the first playlist is built
     },
 }

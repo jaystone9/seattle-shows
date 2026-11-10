@@ -106,7 +106,8 @@
 <script src="common.js"></script>
 <script>
 (function () {
-  // Each city's beehiiv form (from its newsletter.json), filled in by build_site.py.
+  // Each city's signup form (from its newsletter.json), filled in by build_site.py: beehiiv for
+  // Seattle and Chicago, Kit for Salt Lake City.
   // The form a reader signs up through decides their city segment in beehiiv.
   const FORMS = /*CITY_FORMS*/{};
   const slugs = Object.keys(FORMS);
@@ -145,7 +146,13 @@
     if (!slot) {
       slot = document.createElement("div");
       slot.dataset.slot = s;
-      if (FORMS[s].form_id) {
+      if (FORMS[s].provider === "kit" && FORMS[s].kit_uid) {
+        const sc = document.createElement("script");
+        sc.async = true;
+        sc.src = FORMS[s].kit_src;
+        sc.setAttribute("data-uid", FORMS[s].kit_uid);
+        slot.appendChild(sc);
+      } else if (FORMS[s].form_id) {
         const sc = document.createElement("script");
         sc.async = true;
         sc.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";

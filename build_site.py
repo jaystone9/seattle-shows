@@ -106,7 +106,7 @@ for _v in VENUES.values():
 
 TICKET_HOSTS = ("tixr.com", "ticketweb.com", "showboxpresents.com", "thecrocodile.com",
                 "wamutheater.com", "tickpick.com", "gametime.co", "dice.fm", "axs.com",
-                "ticketmaster.com", "etix.com", "seetickets", "venuepilot", "eventbrite",
+                "ticketmaster.com", "24tix.com", "eventliveus.com", "etix.com", "seetickets", "venuepilot", "eventbrite",
                 "seattlechambermusic.org", "seattlesymphony.org", "opendate", "climatepledgearena.com", "neumos.com", "thebarboza.com")
 
 PRESENTER = re.compile(r"^(Showbox Presents|Hotel Crocodile Presents|Tractor Presents|KEXP Presents|KBCS Presents|Seattle Symphony)\s*:\s*", re.I)
@@ -395,7 +395,8 @@ def home_page():
             stats = " · ".join(f"{n} {w}{'' if n == 1 else 's'}" for n, w in parts)
         rows.append(f'      <a class="city-row" href="/{slug}/" data-city="{slug}"><span class="city-name">{H.escape(c["name"])}<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta">{stats}</span></a>')
         nl = d.get("newsletter") or {}
-        forms[slug] = {"name": c["name"], "form_id": nl.get("form_id"), "publication_id": nl.get("publication_id")}
+        forms[slug] = {"name": c["name"], "form_id": nl.get("form_id"), "publication_id": nl.get("publication_id"),
+                       "provider": nl.get("provider"), "kit_uid": nl.get("kit_uid"), "kit_src": nl.get("kit_src")}
     tpl = open("templates/home.html").read()
     out = (tpl.replace("<!--CITY_ROWS-->", "\n".join(rows).strip())
               .replace("<!--WINDOW-->", window or "the next two weeks")

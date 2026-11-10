@@ -46,7 +46,8 @@ window.SC = (function () {
   }
 
   // Newsletter signup. newsletter.json can hold:
-  //   form_id       beehiiv subscribe form id (loads beehiiv's form script)  <- in use
+  //   form_id       beehiiv subscribe form id (loads beehiiv's form script)  <- Seattle, Chicago
+  //   provider:"kit" + kit_uid + kit_src   a Kit form embed                    <- Salt Lake City
   //   embed_url     an iframe embed URL (older beehiiv embeds)
   //   subscribe_url a link to the beehiiv signup page
   // With none set, the slot says "opens soon".
@@ -68,6 +69,16 @@ window.SC = (function () {
   function fillSignup(slot, nl) {
     if (nl.form_id && alreadySubscribed(nl)) {
       slot.innerHTML = `<p class="nl-done">✓ You're subscribed. The next playlist lands in your inbox Sunday.</p>`;
+      return;
+    }
+    // Kit (kit.com) editions: Kit's script draws the form where the script tag sits.
+    if (nl.provider === "kit" && nl.kit_uid) {
+      slot.innerHTML = "";
+      const sc = document.createElement("script");
+      sc.async = true;
+      sc.src = nl.kit_src;
+      sc.setAttribute("data-uid", nl.kit_uid);
+      slot.appendChild(sc);
       return;
     }
     if (nl.form_id) {
