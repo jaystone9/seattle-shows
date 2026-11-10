@@ -207,6 +207,6 @@ CITIES = {
         "areas": SLC_AREAS,
         "addr": SLC_ADDR,
         "area_playlists": [],                # no neighborhood playlist yet
-        "live": False,                       # flipped to True once the first playlist is built
+        "live": True,
     },
 }

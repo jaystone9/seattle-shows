@@ -78,6 +78,7 @@
       <nav class="cities" aria-label="Choose a city">
       <a class="city-row" href="/seattle/" data-city="seattle"><span class="city-name">Seattle<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta">10 playlists · 20 venues · 146 artists</span></a>
       <a class="city-row" href="/chicago/" data-city="chicago"><span class="city-name">Chicago<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta">12 playlists · 44 venues · 264 artists</span></a>
+      <a class="city-row" href="/salt-lake/" data-city="salt-lake"><span class="city-name">Salt Lake City<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta">1 playlist · 9 venues · 60 artists</span></a>
       </nav>
       <p class="home-more">Playlists by city, neighborhood and genre. <span class="tagline">Discover more music. Go to more shows.</span></p>
       <p class="home-more soon">More cities coming soon. <a href="contact.html#contact">Tell us where you want one</a></p>
@@ -110,7 +111,7 @@
   // Each city's signup form (from its newsletter.json), filled in by build_site.py: beehiiv for
   // Seattle and Chicago, Kit for Salt Lake City.
   // The form a reader signs up through decides their city segment in beehiiv.
-  const FORMS = {"seattle": {"name": "Seattle", "form_id": "1ad07685-795d-445f-b8cf-49ca5bfdadd5", "publication_id": "26448a31-644a-49f3-b3d3-c1d96a7c5469", "provider": "beehiiv", "kit_uid": null, "kit_src": null}, "chicago": {"name": "Chicago", "form_id": "6f1e11ac-c4f2-4bf8-8769-bdf4b88650d1", "publication_id": "26448a31-644a-49f3-b3d3-c1d96a7c5469", "provider": "beehiiv", "kit_uid": null, "kit_src": null}};
+  const FORMS = {"seattle": {"name": "Seattle", "form_id": "1ad07685-795d-445f-b8cf-49ca5bfdadd5", "publication_id": "26448a31-644a-49f3-b3d3-c1d96a7c5469", "provider": "beehiiv", "kit_uid": null, "kit_src": null}, "chicago": {"name": "Chicago", "form_id": "6f1e11ac-c4f2-4bf8-8769-bdf4b88650d1", "publication_id": "26448a31-644a-49f3-b3d3-c1d96a7c5469", "provider": "beehiiv", "kit_uid": null, "kit_src": null}, "salt-lake": {"name": "Salt Lake City", "form_id": null, "publication_id": null, "provider": "kit", "kit_uid": "7515a7c0d5", "kit_src": "https://2-week-soundcheck.kit.com/7515a7c0d5/index.js"}};
   const slugs = Object.keys(FORMS);
   const tabs = document.getElementById("nl-city");
   const slots = document.getElementById("nl-slots");
