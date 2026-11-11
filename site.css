@@ -220,8 +220,10 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .hero h1{transition:opacity .25s ease}
 .hero h1.pending{opacity:0}
 /* small deliverability tip under the signup field */
-.nl-note{margin:8px 0 0;font-size:13px;line-height:1.45;color:var(--muted)}
-.signup .nl-note{margin:6px 0 0}
+.nl-note{margin:12px 0 0;padding:10px 14px;font-size:14px;line-height:1.45;color:var(--ink);text-align:left;
+  background:color-mix(in srgb,var(--amber) 18%,var(--surface));border-left:4px solid var(--amber);border-radius:8px}
+.nl-note b{font-weight:800}
+.signup .nl-note{margin:12px 0 0}
 .nl-done{margin:0;font-weight:700;color:var(--ink)}
 
 /* Playlist switch (All Seattle / Frelard) and the area filter note */
