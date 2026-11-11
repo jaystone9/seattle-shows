@@ -38,7 +38,7 @@ playlist `2 Week Soundcheck · Salt Lake City: <Mon D>–<Mon D>` (3 songs per h
 add dated copies to `salt-lake/genre_archive.json`). **Salt Lake genre playlists take 5 songs per headliner**
 (Jay, Nov 10, 2026: the city has about 60 headliners per window, so 3 each left most genres under 20 songs);
 the citywide playlist stays at 3. No neighborhood playlists yet.
-Its newsletter is NOT in beehiiv: it is a Kit broadcast (kit.com, login hello@), sent on **Monday** to the
+Its newsletter is NOT in beehiiv: it is a Kit broadcast (kit.com, login hello@), sent on **Sunday** with the other cities (Jay, Nov 10, 2026; Monday was only needed for beehiiv's post limit), to the
 filter "Subscribed to → forms → Salt Lake signup" only. Prep leaves it as a Kit draft (subject
 `<dates>: Salt Lake City 2 Week Playlist`; body: intro, playlist link, genre line linking the site, TuneMyMusic
 line, "All N shows are on the site →", reply/forward/sponsor lines) and never sends it; Jay OKs the send.
