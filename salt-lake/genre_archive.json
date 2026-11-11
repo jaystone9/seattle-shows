@@ -1,1 +1,90 @@
-[]
+[
+ {
+  "genre": "Pop",
+  "name": "2 Week Soundcheck · Salt Lake City · Pop: Nov 8–21",
+  "id": "4dvihKN8fz9WRLk1UADsgw",
+  "url": "https://open.spotify.com/playlist/4dvihKN8fz9WRLk1UADsgw",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 30,
+  "artists": 6,
+  "per_artist": 5
+ },
+ {
+  "genre": "Indie & Rock",
+  "name": "2 Week Soundcheck · Salt Lake City · Indie & Rock: Nov 8–21",
+  "id": "2SQEm34t3vt3EqVdiuixuJ",
+  "url": "https://open.spotify.com/playlist/2SQEm34t3vt3EqVdiuixuJ",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 85,
+  "artists": 17,
+  "per_artist": 5
+ },
+ {
+  "genre": "Folk & Country",
+  "name": "2 Week Soundcheck · Salt Lake City · Folk & Country: Nov 8–21",
+  "id": "3lHWkqZG8AYagSqmmvaO8y",
+  "url": "https://open.spotify.com/playlist/3lHWkqZG8AYagSqmmvaO8y",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 40,
+  "artists": 8,
+  "per_artist": 5
+ },
+ {
+  "genre": "Electronic",
+  "name": "2 Week Soundcheck · Salt Lake City · Electronic: Nov 8–21",
+  "id": "5vJNhjkqFTFyXdn3Tt6Ue2",
+  "url": "https://open.spotify.com/playlist/5vJNhjkqFTFyXdn3Tt6Ue2",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 45,
+  "artists": 9,
+  "per_artist": 5
+ },
+ {
+  "genre": "Hip-hop & R&B",
+  "name": "2 Week Soundcheck · Salt Lake City · Hip-hop & R&B: Nov 8–21",
+  "id": "63jcIpqNYKx3lncXuNksCO",
+  "url": "https://open.spotify.com/playlist/63jcIpqNYKx3lncXuNksCO",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 25,
+  "artists": 5,
+  "per_artist": 5
+ },
+ {
+  "genre": "Punk & Metal",
+  "name": "2 Week Soundcheck · Salt Lake City · Punk & Metal: Nov 8–21",
+  "id": "12FeNyC61Z2kenfdOGIisf",
+  "url": "https://open.spotify.com/playlist/12FeNyC61Z2kenfdOGIisf",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 30,
+  "artists": 6,
+  "per_artist": 5
+ },
+ {
+  "genre": "Funk & Blues",
+  "name": "2 Week Soundcheck · Salt Lake City · Funk & Blues: Nov 8–21",
+  "id": "6cZqt3y1bP0GRdYsLXJTRm",
+  "url": "https://open.spotify.com/playlist/6cZqt3y1bP0GRdYsLXJTRm",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 20,
+  "artists": 4,
+  "per_artist": 5
+ },
+ {
+  "genre": "Jazz, World & Classical",
+  "name": "2 Week Soundcheck · Salt Lake City · Jazz, World & Classical: Nov 8–21",
+  "id": "4jSUX7wvvSEy6THIv4mmCs",
+  "url": "https://open.spotify.com/playlist/4jSUX7wvvSEy6THIv4mmCs",
+  "start": "2026-11-08",
+  "end": "2026-11-21",
+  "songs": 25,
+  "artists": 5,
+  "per_artist": 5
+ }
+]

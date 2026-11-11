@@ -1,4 +1,4 @@
-# Sunday run (2 Week Soundcheck · Seattle + Chicago)
+# Sunday run (2 Week Soundcheck · Seattle + Chicago + Salt Lake City)
 
 Jay starts this in the "Seattle concerts" project on Sundays when he's at his computer
 ("run my Sunday Soundcheck" or "run my Seattle Shows playlist"). It replaces the old
@@ -28,6 +28,21 @@ Pilsen, headliners + openers, like Frelard), a North Suburbs playlist (Jay's dad
 issue says so) and 8 genre playlists named `2 Week Soundcheck · Chicago · <Genre>` (dated copies:
 `... · <Genre>: <Mon D>–<D>`), listed in `chicago/genre_playlists.json` / `chicago/genre_archive.json`.
 `genres.json` is shared by both cities.
+
+**Salt Lake City (added Nov 10, 2026) is part of the weekly prep.** Same steps with `--city salt-lake`
+(see `salt-lake/REFRESH.md`, 11 venue files in `salt-lake/shows/`): refresh, `python3 build_ics.py
+salt-lake/shows salt-lake-shows.ics --city salt-lake`, `python3 build_site.py --city salt-lake`, one citywide
+playlist `2 Week Soundcheck · Salt Lake City: <Mon D>–<Mon D>` (3 songs per headliner, top of
+`salt-lake/playlists.json`, rewrite `salt-lake/previews.json`), then the 8 genre playlists
+`2 Week Soundcheck · Salt Lake City · <Genre>` in `salt-lake/genre_playlists.json` (refresh the standing ones,
+add dated copies to `salt-lake/genre_archive.json`). **Salt Lake genre playlists take 5 songs per headliner**
+(Jay, Nov 10, 2026: the city has about 60 headliners per window, so 3 each left most genres under 20 songs);
+the citywide playlist stays at 3. No neighborhood playlists yet.
+Its newsletter is NOT in beehiiv: it is a Kit broadcast (kit.com, login hello@), sent on **Monday** to the
+filter "Subscribed to → forms → Salt Lake signup" only. Prep leaves it as a Kit draft (subject
+`<dates>: Salt Lake City 2 Week Playlist`; body: intro, playlist link, genre line linking the site, TuneMyMusic
+line, "All N shows are on the site →", reply/forward/sponsor lines) and never sends it; Jay OKs the send.
+`build_issue.py` does not cover Salt Lake. Details: project doc `kit-salt-lake-pilot.md`.
 
 ## Steps, in order
 1. **Inbox check.** Open the hello@2weeksoundcheck.com webmail and look for FormSubmit
