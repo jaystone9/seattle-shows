@@ -270,6 +270,14 @@
   "confirmed": "2026-10-19",
   "spotify": "5ZC7GPz5h9zkEfjZBUDNzI"
  },
+ "Amtrac": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Electronic"
+  ],
+  "source": "claude",
+  "spotify": "3ifxHfYz2pqHku0bwx8H5J"
+ },
  "Amy Hall": {
   "genres": [
    "Indie & Rock"
@@ -518,6 +526,14 @@
   ],
   "spotify": "25fqWEebq6PoiGQIHIrdtv",
   "confirmed": "2026-10-14"
+ },
+ "Babe Haven": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Punk & Metal"
+  ],
+  "source": "claude",
+  "spotify": "0b0NRq58okVkvcHSGOzM4x"
  },
  "Babehoven": {
   "genres": [
@@ -1773,6 +1789,15 @@
   "source": "lastfm-check",
   "spotify": "79ScU9PMzW9i0jw67b5kVb"
  },
+ "Don Omar": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Jazz, World & Classical",
+   "Hip-hop & R&B"
+  ],
+  "source": "claude",
+  "spotify": "33ScadVnbm2X8kkUqOkC6Z"
+ },
  "Donny Benét": {
   "genres": [
    "Pop",
@@ -2501,6 +2526,14 @@
   "confirmed": "2026-10-25",
   "source": "lastfm"
  },
+ "GWAR": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Punk & Metal"
+  ],
+  "source": "claude",
+  "spotify": "3dnH7fdVm2X07MK6Fkbhbt"
+ },
  "Habak": {
   "genres": [
    "Punk & Metal"
@@ -3057,6 +3090,14 @@
   "confirmed": "2026-10-25",
   "source": "lastfm"
  },
+ "Joanne Shaw Taylor": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Funk & Blues"
+  ],
+  "source": "claude",
+  "spotify": "3FmTlY1F9dQyRursrsUaU7"
+ },
  "John Carroll Kirby": {
   "genres": [
    "Electronic"
@@ -3114,6 +3155,14 @@
   ],
   "confirmed": "2026-10-30",
   "spotify": "5q6Nhg9lGUeSjODDdctHvN"
+ },
+ "Jonah Kagen": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Pop"
+  ],
+  "source": "claude",
+  "spotify": "5KsRA81UaMVKvLNiwDySfp"
  },
  "Jonas Brothers": {
   "genres": [
@@ -3252,6 +3301,14 @@
   ],
   "spotify": "1uquUYtkdKei0zuhBY9P0t",
   "confirmed": "2026-10-14"
+ },
+ "Kabaka Pyramid": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "source": "claude",
+  "spotify": "10p1CDVyRIkR2ybAu7SbVH"
  },
  "Kacey Musgraves": {
   "genres": [
@@ -3499,6 +3556,14 @@
   ],
   "confirmed": "2026-11-07",
   "source": "claude"
+ },
+ "Krooked Kings": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Indie & Rock"
+  ],
+  "source": "claude",
+  "spotify": "6PbMwLmbus5mZl93tX1lXE"
  },
  "Kyle Gordon": {
   "genres": [
@@ -4339,6 +4404,15 @@
   "confirmed": "2026-10-19",
   "spotify": "77iXzlVmGIOFyieeHf4qYZ"
  },
+ "Missio": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Indie & Rock",
+   "Electronic"
+  ],
+  "source": "claude",
+  "spotify": "2HOMW1liAxI3URnEq95SMS"
+ },
  "Mississippi Heat": {
   "genres": [
    "Funk & Blues"
@@ -4624,6 +4698,14 @@
   "confirmed": "2026-10-25",
   "source": "claude"
  },
+ "Nick Sefakis": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "source": "claude",
+  "spotify": "4DWMlcBKrd7umh7ceKKcvW"
+ },
  "Nick Wilkinson": {
   "genres": [
    "Folk & Country"
@@ -4765,6 +4847,14 @@
   ],
   "spotify": "5jAMCwdNHWr7JThxtMuEyy",
   "confirmed": "2026-10-14"
+ },
+ "Obskuros": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Indie & Rock"
+  ],
+  "source": "claude",
+  "spotify": "5v6M1ui4nJDByWmGcdpqC8"
  },
  "Odie Leigh": {
   "genres": [
@@ -4946,6 +5036,14 @@
   ],
   "confirmed": "2026-10-25",
   "source": "claude"
+ },
+ "Parachute": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Pop"
+  ],
+  "source": "claude",
+  "spotify": "2PCUhxD40qlMqsKHjTZD2e"
  },
  "Parra for Cuva": {
   "genres": [
@@ -5219,6 +5317,14 @@
   ],
   "spotify": "3BRSFkEbxBXsZASWPOMOuP",
   "confirmed": "2026-10-14"
+ },
+ "Postmodern Jukebox": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "source": "claude",
+  "spotify": "5HYNPEO2NNBONQkp3Mvwvc"
  },
  "Pouya": {
   "genres": [
@@ -5843,6 +5949,14 @@
   "confirmed": "2026-10-18",
   "spotify": "5POUA3KoQ9Y20hzBuikqim"
  },
+ "Shwayze": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "source": "claude",
+  "spotify": "6f0hUHWLOCxCSDQMtdVAS7"
+ },
  "Shyne": {
   "genres": [
    "Hip-hop & R&B"
@@ -6390,6 +6504,15 @@
   "genres": [],
   "confirmed": "2026-10-30"
  },
+ "Tank & The Bangas": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Funk & Blues",
+   "Hip-hop & R&B"
+  ],
+  "source": "claude",
+  "spotify": "5cAtakaadWHJLxmGKrKcX7"
+ },
  "Tank and The Bangas": {
   "genres": [
    "Hip-hop & R&B",
@@ -6668,6 +6791,14 @@
   ],
   "confirmed": "2026-10-18",
   "spotify": "7IGcjaMGAtsvKBLQX26W4i"
+ },
+ "The Dream Eaters": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Indie & Rock"
+  ],
+  "source": "claude",
+  "spotify": "58EGECKV4drTQ3m7SFJNYf"
  },
  "The Dresden Dolls": {
   "genres": [
@@ -7138,6 +7269,14 @@
   "confirmed": "2026-10-25",
   "source": "lastfm"
  },
+ "Tommy Castro and The Painkillers": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Funk & Blues"
+  ],
+  "source": "claude",
+  "spotify": "3qcmjQYtotraA2JrvN8165"
+ },
  "Tommy Lefroy": {
   "genres": [
    "Indie & Rock"
@@ -7216,6 +7355,14 @@
   "confirmed": "2026-11-07",
   "source": "lastfm",
   "spotify": "0gLjJuczGWhqKVMmVpIT52"
+ },
+ "TVBOO": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Electronic"
+  ],
+  "source": "claude",
+  "spotify": "3T0BepBNnd3kw2m10rh8yW"
  },
  "Twin Talk": {
   "genres": [
@@ -7424,6 +7571,14 @@
   "confirmed": "2026-10-18",
   "spotify": "6pmR08TKSTs8rll6W99VnK"
  },
+ "Weathers": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Indie & Rock"
+  ],
+  "source": "claude",
+  "spotify": "4OTFxPi5CtWyj1NThDe6z5"
+ },
  "West 22nd": {
   "genres": [],
   "confirmed": "2026-10-25",
@@ -7456,6 +7611,15 @@
   ],
   "spotify": "3WXW0FSr1X1OMEnO1CcWTo",
   "confirmed": "2026-10-14"
+ },
+ "Whethan": {
+  "confirmed": "2026-11-10",
+  "genres": [
+   "Electronic",
+   "Pop"
+  ],
+  "source": "claude",
+  "spotify": "0vqJkZ0RpLZixt3lTmD8vP"
  },
  "Whitney": {
   "genres": [
