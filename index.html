@@ -31,7 +31,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=44e67028">
+<link rel="stylesheet" href="site.css?v=8ee10594">
 <style>
 .home-hero{padding:64px 0 0}
 .eyebrow{margin:0 0 10px;font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gel)}
@@ -105,7 +105,7 @@
   </footer>
 </div>
 
-<script src="common.js?v=d3924cc5"></script>
+<script src="common.js?v=157d343f"></script>
 <script>
 (function () {
   // Each city's signup form (from its newsletter.json), filled in by build_site.py: beehiiv for
@@ -153,7 +153,13 @@
         sc.async = true;
         sc.src = FORMS[s].kit_src;
         sc.setAttribute("data-uid", FORMS[s].kit_uid);
-        slot.appendChild(sc);
+        const key = "sc_kit_" + FORMS[s].kit_uid; let done = false;
+        try { done = !!localStorage.getItem(key); } catch (e) {}
+        if (done) slot.innerHTML = `<p class="nl-done">✓ You're subscribed. The next playlist lands in your inbox Sunday.</p>`;
+        else {
+          slot.appendChild(sc);
+          try { new MutationObserver(() => { if (slot.querySelector(".formkit-alert-success")) { try { localStorage.setItem(key, "1"); } catch (e) {} } }).observe(slot, { childList: true, subtree: true }); } catch (e) {}
+        }
       } else if (FORMS[s].form_id) {
         const sc = document.createElement("script");
         sc.async = true;

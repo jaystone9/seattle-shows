@@ -151,7 +151,13 @@
         sc.async = true;
         sc.src = FORMS[s].kit_src;
         sc.setAttribute("data-uid", FORMS[s].kit_uid);
-        slot.appendChild(sc);
+        const key = "sc_kit_" + FORMS[s].kit_uid; let done = false;
+        try { done = !!localStorage.getItem(key); } catch (e) {}
+        if (done) slot.innerHTML = `<p class="nl-done">✓ You're subscribed. The next playlist lands in your inbox Sunday.</p>`;
+        else {
+          slot.appendChild(sc);
+          try { new MutationObserver(() => { if (slot.querySelector(".formkit-alert-success")) { try { localStorage.setItem(key, "1"); } catch (e) {} } }).observe(slot, { childList: true, subtree: true }); } catch (e) {}
+        }
       } else if (FORMS[s].form_id) {
         const sc = document.createElement("script");
         sc.async = true;

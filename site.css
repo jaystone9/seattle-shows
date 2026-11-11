@@ -225,6 +225,11 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .nl-note b{font-weight:800}
 .signup .nl-note{margin:12px 0 0}
 .nl-done{margin:0;font-weight:700;color:var(--ink)}
+/* Kit (kit.com) signup form: drop the template's 56px top padding; make its dark badge readable on dark */
+.formkit-form[data-uid] > div{padding:0 !important}
+.formkit-form[data-uid] .formkit-powered-by-convertkit-container{margin-top:4px !important}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .formkit-powered-by-convertkit{filter:invert(1) brightness(1.6);opacity:.55} }
+:root[data-theme="dark"] .formkit-powered-by-convertkit{filter:invert(1) brightness(1.6);opacity:.55}
 
 /* Playlist switch (All Seattle / Frelard) and the area filter note */
 .pl-tabs{position:relative;display:inline-flex;gap:4px;margin:2px 0 12px;padding:4px;background:var(--surface);border:1px solid var(--line);border-radius:999px}

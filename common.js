@@ -73,12 +73,16 @@ window.SC = (function () {
     }
     // Kit (kit.com) editions: Kit's script draws the form where the script tag sits.
     if (nl.provider === "kit" && nl.kit_uid) {
+      // Kit doesn't remember subscribers, so remember it here (this browser only) once the form reports success.
+      const key = "sc_kit_" + nl.kit_uid;
+      try { if (localStorage.getItem(key)) { slot.innerHTML = `<p class="nl-done">✓ You're subscribed. The next playlist lands in your inbox Sunday.</p>`; return; } } catch (e) {}
       slot.innerHTML = "";
       const sc = document.createElement("script");
       sc.async = true;
       sc.src = nl.kit_src;
       sc.setAttribute("data-uid", nl.kit_uid);
       slot.appendChild(sc);
+      try { new MutationObserver(() => { if (slot.querySelector(".formkit-alert-success")) { try { localStorage.setItem(key, "1"); } catch (e) {} } }).observe(slot, { childList: true, subtree: true }); } catch (e) {}
       return;
     }
     if (nl.form_id) {
