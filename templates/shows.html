@@ -202,7 +202,7 @@
       }
     }
     $("#pl-tabs").innerHTML = [["",`All ${data.edition||"Seattle"}`],...PL_AREAS.map(a=>[a,a])].map(([a,l])=>`<button type="button" data-area="${esc(a)}" aria-pressed="false">${esc(l)}</button>`).join("");
-    $("#pl-tabs").hidden = !PL_AREAS.length; SC.slide($("#pl-tabs"));  // one playlist only: no switch
+    $("#pl-tabs").hidden = !PL_AREAS.length && !genres.length; SC.slide($("#pl-tabs"));  // one playlist only: no switch (genre playlists still need the "All <city>" way back)
     // ?playlist=folk (etc.) opens a genre playlist; kept in the URL so it can be shared.
     const setPlParam = slug => { const u = new URL(location.href); slug ? u.searchParams.set("playlist", slug) : u.searchParams.delete("playlist"); history.replaceState(null,"",u); };
     $("#pl-tabs").addEventListener("click",ev=>{const b=ev.target.closest("button"); if(b){ showPlaylist(b.dataset.area); setPlParam(""); }});
