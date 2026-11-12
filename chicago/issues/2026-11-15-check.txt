@@ -1,0 +1,52 @@
+Subject: CHECK before sending: Nov 15–28: Chicago 2 Week Playlist
+
+This is the pre-send check. The beehiiv test of the real issue arrives separately.
+Nothing goes to subscribers until you say OK.
+
+SEND TO
+  beehiiv segment "Chicago readers" only (refresh the segment first). Never All subscribers.
+
+LINKS
+  [  ] Chicago playlist: https://open.spotify.com/playlist/57ZWoBmHB8kVu0tw5cw6pw
+  [  ] Wicker Park & Logan Square playlist: https://open.spotify.com/playlist/2NYcLYUsP93Tt8dnpXCAw1
+  [  ] West Loop & Pilsen playlist: https://open.spotify.com/playlist/0vrJFK4xfydT4AkNh6wiId
+  [  ] North Suburbs playlist: https://open.spotify.com/playlist/0Brc0wYSTp3rDlbqs0yM0q
+  [  ] Pop playlist: https://open.spotify.com/playlist/5fhgaqGLzgLom3UWbO7Omv
+  [  ] Indie & Rock playlist: https://open.spotify.com/playlist/0S4sJW9bRNW17CflCxxwxz
+  [  ] Folk & Country playlist: https://open.spotify.com/playlist/35nQUQI0XJyLOLPRqYbMCl
+  [  ] Electronic playlist: https://open.spotify.com/playlist/6EoQk3Zh7ktbTBgYMtorU0
+  [  ] Hip-hop & R&B playlist: https://open.spotify.com/playlist/4JgkU2lu5ytPAP2apnZxgb
+  [  ] Punk & Metal playlist: https://open.spotify.com/playlist/6h4uvj2Wq83EuKD4zq3FLl
+  [  ] Funk & Blues playlist: https://open.spotify.com/playlist/5J8mAWi9QTtmxvAkXE4iy5
+  [  ] Jazz, World & Classical playlist: https://open.spotify.com/playlist/00ZyMFHVxZF0rDItopHJvp
+  [  ] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
+  [  ] Site: https://2weeksoundcheck.com/chicago/
+
+NUMBERS
+  Dates: Nov 15–28
+  Shows on the site in this window: 275
+  Chicago: 657 songs, 223 headliners, 3 per artist
+  Wicker Park & Logan Square: 206 songs, 70 artists, 3 per artist
+  West Loop & Pilsen: 282 songs, 95 artists, 3 per artist
+  North Suburbs: 80 songs, 27 artists, 3 per artist
+  Pop: 63 songs, 21 artists
+  Indie & Rock: 172 songs, 58 artists
+  Folk & Country: 102 songs, 34 artists
+  Electronic: 57 songs, 19 artists
+  Hip-hop & R&B: 71 songs, 24 artists
+  Punk & Metal: 107 songs, 36 artists
+  Funk & Blues: 52 songs, 18 artists
+  Jazz, World & Classical: 78 songs, 26 artists
+  Chicago skipped (not on Spotify or ambiguous): Jason Narducy, Bob Lark Septet, Curro de Candela, Dorian Phelps Quartet, Full Nelson, The Fran Banish Trio, Music of the Baroque, Heat On, Dakarai Barclay Quintet, The Foxtrots, The Part Timers, 3000 B.C., Kyle Swan Quartet, Sid Kingston, Allegra Malone & The Revival, Black and White Gipsy Orchestra, Sabertooth Organ Quartet, Justin Robinson Quintet, Brian Krumm & His Barfly Friends, Tony Piedra, Jerry Weldon, Gerald Dowd Band, Mark Rose, PANCHO, John Sutton DogTime, Mary Lane
+  Wicker Park & Logan Square skipped (not on Spotify or ambiguous): Twice Told Tale, Timelife, Tender Object System, Attic Reels, Tom Henry, Voice Memo, Leo, Maldita Sea!, Local Boy Meets God, PXM, Ferny, Anna Johnson, Liam Taylor, The Part Timers, Petsit, Earl Gary, AJ, Jacob Ciocci, Brian Krumm & His Barfly Friends, Lynn Canfield, Zercher, Violet Waves, PANCHO, Enough Already
+  West Loop & Pilsen skipped (not on Spotify or ambiguous): Budget Cuts, Another Enemy, Bill Dolan, Mass Text, TRAYSH, Puzzle House, Full Nelson, The Love Lost, Valentina Cappellari, Heat On, Original Time Demonstrations, 3000 B.C., Understudy, Instrument, Fallen Angels, Jail, Glorious Descent, EERA, Mary K
+  North Suburbs skipped (not on Spotify or ambiguous): Jason Narducy, Jesse James DeConto, Andrea Walker, Music of the Baroque, Allegra Malone & The Revival
+
+FLAGS
+  None from the build. Add anything found in the run (failed venues, reports).
+
+SUBJECT AND PREVIEW
+  Nov 15–28: Chicago 2 Week Playlist
+  Four new playlists for the next two weeks: all of Chicago, plus Wicker Park & Logan Square and West Loop & Pilsen and North Suburbs.
+
+Reply OK (or tell Claude in the chat) and it goes to subscribers.

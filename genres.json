@@ -7849,5 +7849,730 @@
   ],
   "confirmed": "2026-10-30",
   "spotify": "13Mv9xsTvpgUxCdth9MWnG"
+ },
+ "KATSEYE": {
+  "genres": [
+   "Pop"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Jim Lauderdale": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Trestles": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Buunshin": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Senses Fail": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Emma Ruth Rundle": {
+  "genres": [
+   "Folk & Country",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "SAOSIN": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Scott Bradlee's Postmodern Jukebox": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Alter Bridge": {
+  "genres": [
+   "Indie & Rock",
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Dead Bars": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Dusty 45s": {
+  "genres": [
+   "Folk & Country",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Skream": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "The Amity Affliction": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Guest Directors": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Haley Heynderickx": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Feed Me": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Nouveau Arcade and KJ Sawka (Live)": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Steve Lacy": {
+  "genres": [
+   "Hip-hop & R&B",
+   "Pop"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Valentino Khan": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Headache": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Pooh": {
+  "genres": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Cracker": {
+  "genres": [
+   "Indie & Rock",
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Nemanja Radulović & Double Sens": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Pure Hatred": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Liim": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Yung Gravy": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "John McEuen": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Kingdom Of Giants": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Music of the Baroque": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "DANNA": {
+  "genres": [
+   "Pop"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Heat On": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Doom Scroll": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Making Movies": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Ok Goodnight": {
+  "genres": [
+   "Indie & Rock",
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Giles Corey": {
+  "genres": [
+   "Folk & Country",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Kathryn Mohr": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Amorphis & Insomnium": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Rotting Out": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Stella Lefty": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Jorja Smith": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Underoath, August Burns Red & Atreyu": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Devil Master": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Sabaton": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "John Summit": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "John Primer": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "JoJo": {
+  "genres": [
+   "Pop",
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "The Koffin Kats & Voodoo Glow Skulls": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Nick Moss Band": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Rivkah Reyes": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "El Tri": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "The Blind Staggers": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Rickie Lee Jones": {
+  "genres": [
+   "Folk & Country",
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Exhumed": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Venna": {
+  "genres": [
+   "Jazz, World & Classical",
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "The Pineapple Thief": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "BoDeans": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Bobby Rush": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Jerry Weldon/Dave Schumacher Organ Quartet": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Al Scorch's Big Fantastical Residency": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Death Possession": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Daily Bread": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Catie Turner": {
+  "genres": [
+   "Pop"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Pigface": {
+  "genres": [
+   "Indie & Rock",
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Mazzarella/Håker Flaten/Ra Trio & Heaven Orchestra": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Ben Klock": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Daniel Allan": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Petey USA": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Deacon Blue": {
+  "genres": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Ume": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Vienna Boys Choir": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Jon Walker, William Beckett & Mark Rose (all-ages matinee)": {
+  "genres": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Jon Walker, William Beckett & Mark Rose": {
+  "genres": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Mariachi Herencia de México": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Susan Werner": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Whitechapel": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Kurt Travis": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Lauren Anderson": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Dexter and The Moonrocks": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "2Dead Boyz & The Underachievers": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "The Palmer Squares": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Father of Peace": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Pegboy": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Ha Ha Tonka": {
+  "genres": [
+   "Indie & Rock",
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Mary Lane": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Tommy Bravos": {
+  "genres": [
+   "Indie & Rock",
+   "Pop"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Takuya Nakamura": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "MIJA": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Comeback Kid": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Adelitas Way": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Clara La San": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Trans-Siberian Orchestra": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Daisy Grenade": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Gentri": {
+  "genres": [
+   "Pop"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Senses Fail Presents Still Searching": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Cat Clyde & Dean Johnson": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Yheti b2b Toadface Sleight of Sound Tour": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Tommy Fleece": {
+  "genres": [
+   "Electronic",
+   "Pop"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Royal Bliss Annual Hometown Thanksgiving Bash": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Rinzen": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Ollie": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "SAP": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-12",
+  "source": "claude"
  }
 }
