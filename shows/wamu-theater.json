@@ -148,5 +148,25 @@
     "start": "20:00",
     "url": "https://www.wamutheater.com/events/lola-young-2027",
     "status": null
+  },
+  {
+    "venue": "WaMu Theater",
+    "room": null,
+    "title": "Sam Fender - North America Tour '27",
+    "date": "2027-05-07",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.showboxpresents.com/events/detail/1700626",
+    "status": null
+  },
+  {
+    "venue": "WaMu Theater",
+    "room": null,
+    "title": "Fontaines D.C. (with Westside Cowboy)",
+    "date": "2027-05-08",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.showboxpresents.com/events/detail/1641301",
+    "status": null
   }
 ]

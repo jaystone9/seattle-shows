@@ -52,16 +52,6 @@
   {
     "venue": "Hidden Hall",
     "room": null,
-    "title": "Francisca Valenzuela - \"Maldita\" Tour",
-    "date": "2026-11-17",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/francisca-valenzuela-maldita-tour-186275",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
     "title": "Mister Blank - Album Release Show (with The Fabulous Downey Brothers, MuerteMen)",
     "date": "2026-11-19",
     "doors": null,
@@ -212,6 +202,26 @@
   {
     "venue": "Hidden Hall",
     "room": null,
+    "title": "Andy Coe Band - Night One",
+    "date": "2026-12-30",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/andy-coe-band-2-nights--210887",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
+    "title": "Andy Coe Band - Night Two (NYE)",
+    "date": "2026-12-31",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/andy-coe-band-2-nights--210887",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
     "title": "Goose Vargis (with Pachinko Royale, Grand Arson)",
     "date": "2027-01-02",
     "doors": null,
@@ -237,6 +247,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.tixr.com/groups/hiddenhall/events/carl-christensen-the-rain-delay-with-amy-hall-aseda-safoa-213957",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
+    "title": "Bloqueador Solar - Vinyl Release Show (with XOË, Como Qué)",
+    "date": "2027-01-16",
+    "doors": null,
+    "start": "17:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/bloqueador-solar-vinyl-release-show-with-xo-como-qu--214448",
     "status": null
   },
   {
@@ -282,11 +302,31 @@
   {
     "venue": "Hidden Hall",
     "room": null,
+    "title": "Grieves (with Horrorshow, The Street Sweepers)",
+    "date": "2027-02-27",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/grieves-with-horrorshow-and-the-street-sweepers-192070",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
     "title": "Surfer Girl (with South Summit, JOBY!)",
     "date": "2027-03-10",
     "doors": null,
     "start": "19:00",
     "url": "https://www.tixr.com/groups/hiddenhall/events/surfer-girl-with-south-summit-and-joby--208655",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
+    "title": "The Mother Hips (with guests)",
+    "date": "2027-03-20",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/the-mother-hips-with-guests-213755",
     "status": null
   },
   {

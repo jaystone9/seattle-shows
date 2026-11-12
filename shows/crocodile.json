@@ -302,6 +302,16 @@
   {
     "venue": "The Crocodile",
     "room": null,
+    "title": "Noah Rinker",
+    "date": "2027-03-14",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/noah-rinker-14-mar",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
     "title": "Saxsquatch - The Conspiracy Theory Tour",
     "date": "2027-03-25",
     "doors": "19:00",
@@ -342,16 +352,6 @@
   {
     "venue": "The Crocodile",
     "room": null,
-    "title": "Death from Above 1979",
-    "date": "2027-03-31",
-    "doors": null,
-    "start": null,
-    "url": "https://songkick.com/concerts/43231956-death-from-above-1979-at-crocodile",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
     "title": "Thao - \"Show Me\" Tour",
     "date": "2027-04-03",
     "doors": "17:00",
@@ -377,6 +377,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://calendar.thecrocodile.com/shows/deca-joins-23-apr",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Getdown Services",
+    "date": "2027-04-26",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/getdown-services-26-apr",
     "status": null
   },
   {

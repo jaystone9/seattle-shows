@@ -72,6 +72,16 @@
   {
     "venue": "The Moore Theatre",
     "room": null,
+    "title": "WONHO",
+    "date": "2027-01-09",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/wonho/",
+    "status": null
+  },
+  {
+    "venue": "The Moore Theatre",
+    "room": null,
     "title": "FLO (with Sevyn Streeter, AMMA)",
     "date": "2027-01-22",
     "doors": "19:00",

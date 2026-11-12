@@ -352,11 +352,31 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
+    "title": "Ott. (with Mfinity, Luke Rain)",
+    "date": "2027-02-06",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/ott-with-mfinity-plus-luke-rain-207416",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
     "title": "L.A.B. (with Seven Suns)",
     "date": "2027-02-12",
     "doors": null,
     "start": "20:00",
     "url": "https://www.tixr.com/groups/nectarlounge/events/l-a-b-with-seven-suns-205384",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
+    "title": "Luh Kel (with Special Guests)",
+    "date": "2027-02-21",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/luh-kel-with-special-guests-213731",
     "status": null
   },
   {
@@ -417,6 +437,16 @@
     "doors": null,
     "start": "19:00",
     "url": "https://www.tixr.com/groups/nectarlounge/events/kash-d-out-with-cydeways-a-mac-208902",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
+    "title": "Babes in Canyon (with Smokey Brights, Camp Bedford)",
+    "date": "2027-04-01",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/babes-in-canyon-with-smokey-brights-camp-bedford-213937",
     "status": null
   }
 ]

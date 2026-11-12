@@ -482,7 +482,7 @@
   {
     "venue": "The Showbox",
     "room": "Showbox SoDo",
-    "title": "ZULAN",
+    "title": "ZULAN (with Sophie Gray)",
     "date": "2026-12-19",
     "doors": null,
     "start": "20:00",
@@ -621,6 +621,16 @@
   },
   {
     "venue": "The Showbox",
+    "room": "Showbox SoDo",
+    "title": "Clutch (with Corrosion of Conformity, Agnostic Front, Chuck Ragan)",
+    "date": "2027-03-13",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.showboxpresents.com/events/detail/1690588",
+    "status": null
+  },
+  {
+    "venue": "The Showbox",
     "room": "Showbox at the Market",
     "title": "Little Big",
     "date": "2027-03-14",
@@ -632,11 +642,31 @@
   {
     "venue": "The Showbox",
     "room": "Showbox SoDo",
+    "title": "Beach Bunny (with Daisy Grenade)",
+    "date": "2027-03-17",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.showboxpresents.com/events/detail/1692988",
+    "status": null
+  },
+  {
+    "venue": "The Showbox",
+    "room": "Showbox SoDo",
     "title": "Wheeler Walker Jr. - Pullin' Out: The Farewell Tour",
     "date": "2027-03-26",
     "doors": null,
     "start": "20:00",
     "url": "https://www.showboxpresents.com/events/detail/1477926",
+    "status": null
+  },
+  {
+    "venue": "The Showbox",
+    "room": "Showbox at the Market",
+    "title": "Grace Potter & The Trespassers (with Langhorne Slim)",
+    "date": "2027-03-27",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.showboxpresents.com/events/detail/1695639",
     "status": null
   },
   {
@@ -672,6 +702,16 @@
   {
     "venue": "The Showbox",
     "room": "Showbox at the Market",
+    "title": "Gang of Youths (with The Sophs)",
+    "date": "2027-04-02",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://www.showboxpresents.com/events/detail/1694869",
+    "status": null
+  },
+  {
+    "venue": "The Showbox",
+    "room": "Showbox at the Market",
     "title": "The Damned: Final Damnation 50 (with Mudhoney)",
     "date": "2027-04-04",
     "doors": null,
@@ -682,7 +722,7 @@
   {
     "venue": "The Showbox",
     "room": "Showbox at the Market",
-    "title": "The Chats",
+    "title": "The Chats (with Chain Whip, Gymshorts)",
     "date": "2027-04-10",
     "doors": null,
     "start": null,
@@ -701,6 +741,16 @@
   },
   {
     "venue": "The Showbox",
+    "room": "Showbox at the Market",
+    "title": "Royal Blood (with Bodega)",
+    "date": "2027-04-16",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.showboxpresents.com/events/detail/1694858",
+    "status": null
+  },
+  {
+    "venue": "The Showbox",
     "room": "Showbox SoDo",
     "title": "brakence",
     "date": "2027-04-17",
@@ -712,7 +762,7 @@
   {
     "venue": "The Showbox",
     "room": "Showbox at the Market",
-    "title": "TWRP",
+    "title": "TWRP (with Jazz Emu)",
     "date": "2027-04-22",
     "doors": null,
     "start": null,
@@ -767,6 +817,26 @@
     "doors": null,
     "start": null,
     "url": "https://app.songkick.com/concerts/43485689-ocean-alley-at-showbox-at-the-market",
+    "status": null
+  },
+  {
+    "venue": "The Showbox",
+    "room": "Showbox SoDo",
+    "title": "Panchiko (with Korea Girl)",
+    "date": "2027-05-08",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.showboxpresents.com/events/detail/1678588",
+    "status": null
+  },
+  {
+    "venue": "The Showbox",
+    "room": "Showbox SoDo",
+    "title": "Silversun Pickups (with Hannah Cole)",
+    "date": "2027-05-10",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.showboxpresents.com/events/detail/1682657",
     "status": null
   }
 ]

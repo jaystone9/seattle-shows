@@ -122,11 +122,31 @@
   {
     "venue": "Schubas",
     "room": null,
+    "title": "Hank Heaven",
+    "date": "2026-11-19",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://do312.com/events/2026/11/19/hank-heaven-tickets",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": null,
     "title": "Boyfriend (with Lauren Ruth Ward)",
     "date": "2026-11-20",
     "doors": "19:30",
     "start": "20:00",
     "url": "https://lh-st.com/shows/11-20-2026-boyfriend/",
+    "status": null
+  },
+  {
+    "venue": "Schubas",
+    "room": "Upstairs",
+    "title": "feral (with Bruno Baby)",
+    "date": "2026-11-20",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://do312.com/events/2026/11/20/feral-bruno-baby-tickets",
     "status": null
   },
   {

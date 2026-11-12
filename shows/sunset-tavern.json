@@ -152,7 +152,7 @@
   {
     "venue": "The Sunset Tavern",
     "room": null,
-    "title": "Trestles (with Pilot Seat)",
+    "title": "Trestles (with clover, Pilot Seat)",
     "date": "2026-11-22",
     "doors": "19:30",
     "start": null,
@@ -182,7 +182,7 @@
   {
     "venue": "The Sunset Tavern",
     "room": null,
-    "title": "Grover (with Sean Atkins, Northern Echo, & more)",
+    "title": "Grover (with Sean Atkins, Northern Echo, Lawn Darts)",
     "date": "2026-11-27",
     "doors": "19:30",
     "start": null,
@@ -257,6 +257,16 @@
     "doors": "19:30",
     "start": "20:00",
     "url": "https://www.ticketweb.com/event/tractor-presents-two-runner-w-tractor-tickets/14201114?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "The Sunset Tavern",
+    "room": null,
+    "title": "Clean Fight (with Forest Service, Quiet Husband)",
+    "date": "2026-12-09",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://dice.fm/event/clean-fight-forest-service-quiet-husband-9th-dec-the-sunset-tavern-seattle-tickets",
     "status": null
   },
   {
@@ -412,11 +422,41 @@
   {
     "venue": "The Sunset Tavern",
     "room": null,
+    "title": "Radio School (with Mini Blinds (release show), Le Nood)",
+    "date": "2027-01-24",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://dice.fm/event/radio-school-mini-blinds-release-show-le-nood-24th-jan-the-sunset-tavern-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Sunset Tavern",
+    "room": null,
     "title": "Where's West? (with guests)",
     "date": "2027-02-11",
     "doors": "20:00",
     "start": null,
     "url": "https://dice.fm/event/wheres-west-guests-11th-feb-the-sunset-tavern-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Sunset Tavern",
+    "room": null,
+    "title": "The Talbott Brothers (with guests)",
+    "date": "2027-02-12",
+    "doors": "21:00",
+    "start": null,
+    "url": "https://dice.fm/event/the-talbott-brothers-guests-12th-feb-the-sunset-tavern-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Sunset Tavern",
+    "room": null,
+    "title": "Mariee Siou (with guests)",
+    "date": "2027-02-14",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://dice.fm/event/mariee-siou-guests-14th-feb-the-sunset-tavern-seattle-tickets",
     "status": null
   },
   {
@@ -497,6 +537,36 @@
     "doors": "20:00",
     "start": null,
     "url": "https://www.songkick.com/concerts/43467218-world-news-at-sunset-tavern",
+    "status": null
+  },
+  {
+    "venue": "The Sunset Tavern",
+    "room": null,
+    "title": "Wild Pink (with Truth Club)",
+    "date": "2027-04-01",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://dice.fm/event/the-crocodile-presents-wild-pink-truth-club-1st-apr-the-sunset-tavern-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Sunset Tavern",
+    "room": null,
+    "title": "Radio Free Alice (with guests)",
+    "date": "2027-04-03",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://dice.fm/event/the-crocodile-presents-radio-free-alice-guests-3rd-apr-the-sunset-tavern-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Sunset Tavern",
+    "room": null,
+    "title": "almost a.m. (with moody, guests)",
+    "date": "2027-04-06",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://dice.fm/event/almost-am-moody-guests-6th-apr-the-sunset-tavern-seattle-tickets",
     "status": null
   }
 ]

@@ -52,6 +52,16 @@
   {
     "venue": "The Paramount Theatre",
     "room": null,
+    "title": "Scott Bradlee's Postmodern Jukebox",
+    "date": "2026-11-24",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/scott-bradlees-postmodern-jukebox/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
     "title": "Trivium (with In Flames, Orbit Culture, Frozen Soul)",
     "date": "2026-12-09",
     "doors": "17:30",
@@ -247,6 +257,26 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/haash/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Saint Levant",
+    "date": "2027-05-10",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/saint-levant/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Tinashe",
+    "date": "2027-05-11",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/tinashe/",
     "status": null
   }
 ]

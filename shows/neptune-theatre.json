@@ -398,5 +398,25 @@
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/an-evening-with-cg5/",
     "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
+    "title": "Conor Oberst",
+    "date": "2027-05-09",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/conor-oberst/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
+    "title": "Palaye Royale (with Beauty School Dropout)",
+    "date": "2027-05-10",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/palaye-royale/",
+    "status": null
   }
 ]
