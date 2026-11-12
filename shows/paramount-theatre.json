@@ -52,6 +52,16 @@
   {
     "venue": "The Paramount Theatre",
     "room": null,
+    "title": "Straight No Chaser",
+    "date": "2026-11-19",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://www.stgpresents.org/events/straight-no-chaser/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
     "title": "Scott Bradlee's Postmodern Jukebox",
     "date": "2026-11-24",
     "doors": "19:00",
