@@ -48,8 +48,13 @@ a:hover{color:var(--mark)}
 
 /* hero: city and dates in marker */
 .hero{padding:56px 0 0}
-.hero h1{margin:0;font-family:var(--marker);font-size:clamp(60px,13vw,132px);line-height:.95;transition:opacity .25s ease}
-.hero h1 span{display:block}
+.hero h1{margin:0;display:flex;flex-direction:column;align-items:flex-start;transition:opacity .25s ease}
+.hero h1 .city{display:inline-flex;flex-direction:column;max-width:100%}
+#r1{font-family:var(--marker);font-size:clamp(84px,22vw,176px);line-height:.95}
+#r1.long{font-size:clamp(54px,13vw,112px)}
+.scribble{display:block;width:0;min-width:100%;height:26px;margin-top:2px;overflow:visible}
+.scribble path{fill:none;stroke:var(--mark);stroke-width:7;stroke-linecap:round;vector-effect:non-scaling-stroke}
+.hero h1 .when{margin-top:16px;font-size:clamp(21px,5.4vw,44px);line-height:1.15;letter-spacing:.08em;text-transform:uppercase}
 .hero h1.pending{opacity:0}
 .hero p{max-width:31em;margin:20px 0 0}
 
@@ -240,6 +245,8 @@ footer ul{list-style:none;padding:0;margin:0;display:grid;gap:3px}
 /* One template makes two pages. City page: playlist + signup. shows.html: the show list. */
 body:not([data-view="shows"]) #set,body:not([data-view="shows"]) #further{display:none}
 body[data-view="shows"] .listen,body[data-view="shows"] #lede,body[data-view="shows"] .to-shows{display:none}
-body[data-view="shows"] .hero h1{font-size:clamp(44px,9vw,84px)}
+body[data-view="shows"] #r1{font-size:clamp(64px,15vw,116px)}
+body[data-view="shows"] #r1.long{font-size:clamp(44px,10vw,84px)}
+body[data-view="shows"] .hero h1 .when{font-size:clamp(19px,4vw,30px)}
 body[data-view="shows"] .section-head{margin-top:40px}
 .to-shows{white-space:nowrap}
