@@ -364,11 +364,12 @@ def contact_root():
     cities = "".join(f'<li><a href="/{k}/">{c["name"]}</a></li>' for k, c in eds)
     html = re.sub(r'\s*<label class="edition">.*?</label>', "", html, flags=re.S)
     html = re.sub(r'<nav class="nav" aria-label="Main">.*?</nav>',
-                  '<nav class="nav" aria-label="Main">\n      <a href="/#newsletter">Sunday email</a>\n      <a href="contact.html" aria-current="page">Contact</a>\n    </nav>', html, flags=re.S)
+                  '<nav class="nav" aria-label="Main">\n      <a href="contact.html" aria-current="page">Contact</a>\n    </nav>', html, flags=re.S)
     html = re.sub(r'<footer>.*?</footer>',
                   '<footer>\n    <div class="foot">\n      <div>\n        <h4>About</h4>\n        <p>2 Week Soundcheck tracks every concert at a short list of rooms worth knowing, refreshed every week, so you can discover new music and go to more shows.</p>\n      </div>\n'
                   f'      <div>\n        <h4>Cities</h4>\n        <ul>{cities}</ul>\n      </div>\n    </div>\n  </footer>', html, flags=re.S)
-    for a, b in [('<div class="field" id="r-city-field" hidden>', '<div class="field" id="r-city-field">'),
+    for a, b in [('class="nl-cta" href="#newsletter"', 'class="nl-cta" href="/#newsletter"'),
+                 ('<div class="field" id="r-city-field" hidden>', '<div class="field" id="r-city-field">'),
                  ("<!--CITY_OPTIONS-->", opts),
                  ('class="brand" href="./"', 'class="brand" href="/"'),
                  ("og-image.jpg", "og-image-home.jpg"),
