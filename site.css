@@ -128,13 +128,15 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .tools{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0}
 .tools input,.tools select,.tools #when-pick{font:inherit;font-size:16px;color:var(--ink);background:transparent;border:0;border-bottom:2px solid var(--line);border-radius:0;padding:9px 2px;min-width:0;min-height:44px;color-scheme:light}
 .tools select option{color:#121212;background:#FBFAF5}
-.tools input#q{flex:1 1 200px}
-.tools select{flex:0 1 170px}
-.tools #when{flex:0 1 140px}
-.tools #when-pick{flex:0 1 170px}
+.tools input#q{flex:1 1 100%}
+.tools select,.tools #when-pick{flex:1 1 150px;padding-right:18px;text-overflow:ellipsis}
+.tools #when{flex:.8 1 120px}
+.tools #area{flex:1.5 1 196px}
 @media (max-width:640px){
-  .tools input#q{flex:1 1 100%}
-  .tools select,.tools #when,.tools #area,.tools #when-pick{flex:1 1 calc(50% - 8px)}
+  .tools #area{flex:1 1 196px;order:1}
+  .tools #when,.tools #when-pick{flex:1 1 100px;order:1}
+  .tools #venue,.tools #genre{flex:1 1 calc(50% - 8px);order:2}
+  .tools .clear{order:3}
 }
 .filters .note{font-size:15px;margin:6px 0 0}
 .clear{font:inherit;font-size:16px;background:none;border:0;color:var(--ink);text-decoration:underline;cursor:pointer;padding:10px 4px}
