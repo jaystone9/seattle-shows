@@ -35,7 +35,7 @@ import sys
 import urllib.request
 
 SITE = "https://2weeksoundcheck.com/seattle/"
-PINK = "#D6336C"
+PINK = "#FFE14D"   # button color: highlighter yellow since the Nov 2026 redesign (name kept for the code below)
 MUTED = "#5A6476"
 WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five"}
 DEFAULT_TRANSFER = "https://www.tunemymusic.com/transfer"
@@ -46,7 +46,7 @@ def rng(s, e):
 
 
 def button(url, label):
-    return (f'<p><a href="{html.escape(url)}" style="display:inline-block;background:{PINK};color:#ffffff;font-weight:700;'
+    return (f'<p><a href="{html.escape(url)}" style="display:inline-block;background:{PINK};color:#121212;font-weight:700;'
             f'padding:10px 18px;border-radius:999px;text-decoration:none">{label}</a></p>')
 
 
