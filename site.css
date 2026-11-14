@@ -265,7 +265,6 @@ body[data-view="shows"] .section-head{margin-top:40px}
 .all-shows{margin:40px 0 0}
 .all-shows a{display:inline-flex;align-items:center;min-height:56px;padding:10px 22px;border:2px solid var(--ink);font-size:20px;line-height:1.3;text-decoration:none}
 .all-shows a:hover{background:var(--ink);color:var(--bg)}
-.listen .pl-tabs{margin-top:10px}
 @media (max-width:560px){
   .pick .show{grid-template-columns:auto auto 1fr;row-gap:4px}
   .pick .show > div{grid-column:1 / -1}
@@ -276,3 +275,12 @@ body[data-view="shows"] .section-head{margin-top:40px}
 .pl-find{margin:10px 0 0}
 .legend{margin:12px 0 0;font-size:15px;color:var(--muted)}
 #fo-open{margin:8px 0 0;font-size:18px}
+
+/* Playlist choices sit above the player as boxed buttons so they are hard to miss */
+.pl-pick{margin:4px 0 18px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pl-pick .genre-label{margin:0 0 8px;font-size:15px;letter-spacing:.1em;text-transform:uppercase}
+.pl-pick .genre-pick{margin:16px 0 0}
+.pl-pick .pl-tabs,.pl-pick .genre-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0}
+.pl-pick .pl-tabs button,.pl-pick .genre-chips button{min-height:44px;padding:8px 14px;font-size:17px;border:2px solid var(--ink);text-decoration:none;background:transparent;color:var(--ink)}
+.pl-pick .pl-tabs button:hover,.pl-pick .genre-chips button:hover{background:var(--hi);color:var(--hi-ink)}
+.pl-pick .pl-tabs button[aria-pressed="true"],.pl-pick .genre-chips button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}

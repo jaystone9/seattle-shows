@@ -32,7 +32,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=3c6428b1">
+<link rel="stylesheet" href="../site.css?v=43cedcd2">
 </head>
 <body data-city="chicago" data-tz="America/Chicago" data-data="../data/chicago.json">
 <div class="wrap">
@@ -69,15 +69,18 @@
   <section class="listen" id="playlist" aria-labelledby="listen-h">
     <div>
       <h2 id="listen-h"><span class="mk">or just press play</span><span>The 2 week playlist</span></h2>
+      <div class="pl-pick">
+        <p class="genre-label">Pick a playlist</p>
+        <div class="pl-tabs" id="pl-tabs" role="group" aria-label="Which playlist" hidden></div>
+        <div class="genre-pick" id="genre-pick" hidden>
+          <p class="genre-label" id="genre-label">Or just one genre</p>
+          <div class="genre-chips" id="genre-chips" role="group" aria-labelledby="genre-label"></div>
+        </div>
+      </div>
       <p class="sub" id="pl-sub">The top songs from every headliner, in show order.</p>
       <div class="player" id="player"></div>
       <p class="pl-find">Hear one you like? <a href="shows.html">Find their show →</a></p>
       <p class="pl-note" id="pl-note" hidden>Follow it once on Spotify. It refreshes every Sunday.</p>
-      <div class="pl-tabs" id="pl-tabs" role="group" aria-label="Which playlist" hidden></div>
-      <div class="genre-pick" id="genre-pick" hidden>
-        <p class="genre-label" id="genre-label">Or just one genre</p>
-        <div class="genre-chips" id="genre-chips" role="group" aria-labelledby="genre-label"></div>
-      </div>
       <p style="margin:12px 0 0"><a href="playlists.html">Past playlists</a></p>
     </div>
   </section>
