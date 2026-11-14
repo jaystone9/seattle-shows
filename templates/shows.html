@@ -23,12 +23,13 @@
 <meta property="og:image" content="https://2weeksoundcheck.com/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="A vintage photo of a bandleader singing into a microphone with a bass player behind him, captioned 2 Week Soundcheck, Seattle.">
+<meta property="og:image:alt" content="The words 2 Week Soundcheck in typewriter and marker lettering beside a taped-up vintage photo of a bandleader singing into a microphone, Seattle.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://2weeksoundcheck.com/og-image.jpg">
 <meta name="theme-color" content="#FBFAF5" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#FBFAF5" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121212'/%3E%3Crect x='6' y='14' width='4' height='12' fill='%23FBFAF5'/%3E%3Crect x='14' y='8' width='4' height='18' fill='%23FBFAF5'/%3E%3Crect x='22' y='11' width='4' height='15' fill='%23FBFAF5'/%3E%3Crect x='14' y='5' width='4' height='2' fill='%23FFE14D'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -307,7 +308,7 @@
     if(params.get("date")) setWhen(params.get("date"));
     const match = (e,q,vf,af,dr,gf) => (!gf||(gOf(e)||[]).includes(gf)) && (!dr||(e.date>=dr[0]&&e.date<=dr[1])) && (!af||areaOf(e.venue)===af) && (!vf||e.venue===vf) && (!q||(e.title+" "+e.support.join(" ")).toLowerCase().includes(q));
 
-    let limit = 60, foOpen = false;   // "Further out" starts closed so the page isn't a mile long
+    let limit = 60, foOpen = false; const openDays = new Set();   // "Further out" starts closed so the page isn't a mile long
     const iso_ok = i => addDays(today,i) <= end;
     function render(){
       const q=$("#q").value.trim().toLowerCase(), vf=$("#venue").value, af=$("#area").value, dr=whenRange(), gs=$("#genre").value, gf=genreName(gs), filtered=!!(q||vf||af||dr||gf);
@@ -320,7 +321,10 @@
         if(filtered && !list.length) continue;
         count += list.length;
         const name = i===0?"Today":i===1?"Tomorrow":fmt(iso,{weekday:"long"});
-        html += `<div class="day${i===0?" today":""}" id="d-${iso}"><h3 tabindex="-1">${name}<small>${fmt(iso,{month:"long",day:"numeric"})}</small></h3>${list.length?list.map(e=>showRow(e,venues,false)).join(""):`<p class="empty">No concerts at our venues. A good night for the playlist.</p>`}</div>`;
+        // Days fold: today and tomorrow start open, the rest are one line each ("Saturday / November 14 · 17 shows").
+        // Any filter opens every day that still has a match.
+        const isOpen = filtered || i<2 || openDays.has("d-"+iso);
+        html += `<details class="day${i===0?" today":""}" id="d-${iso}"${isOpen?" open":""}><summary><h3>${name}<small>${fmt(iso,{month:"long",day:"numeric"})}</small><span class="cnt">${list.length} show${list.length===1?"":"s"}</span><span class="tog" aria-hidden="true"></span></h3></summary>${list.length?list.map(e=>showRow(e,venues,false)).join(""):`<p class="empty">No concerts at our venues. A good night for the playlist.</p>`}</details>`;
       }
       $("#lineup").innerHTML = html ? (af&&!vf&&!q?`<p class="area-note">${esc(af)}: ${af==="Frelard"?"the small rooms in Ballard and Fremont":esc(hoods(af))}.</p>`:"") + html : (dr && dr[0] > end ? "" : `<p class="empty">${dr?"No shows match on those dates.":`Nothing matches through ${fmt(end,{month:"long",day:"numeric"})}. Check Further out below, or clear the filters.`}</p>`);
       $("#lineup-h").textContent = `Now through ${fmt(end,{month:"long",day:"numeric"})}`;
@@ -386,6 +390,8 @@
     $("#clear").addEventListener("click",()=>{$("#q").value="";$("#area").value="";$("#genre").value="";setWhen("");fillVenues();$("#venue").value="";limit=60;render();$("#q").focus();});
     $("#more").addEventListener("click",()=>{limit+=60;render();});
     $("#fo-open").addEventListener("click",()=>{foOpen=true;render();});
+    // remember which days a visitor opened, so filtering and clearing doesn't fold them again
+    $("#lineup").addEventListener("click",ev=>{ const sm=ev.target.closest("summary"); if(!sm) return; const d=sm.parentElement; setTimeout(()=>{ d.open ? openDays.add(d.id) : openDays.delete(d.id); },0); });
     // remember the city so the home page can bring a returning visitor straight back
     try { localStorage.setItem("sc-city", document.body.dataset.city || "seattle"); } catch(e) {}
     SC.previews(document.getElementById("lineup"));

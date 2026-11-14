@@ -140,11 +140,18 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .clear{font:inherit;font-size:16px;background:none;border:0;color:var(--ink);text-decoration:underline;cursor:pointer;padding:10px 4px}
 .area-note{margin:12px 0 0;font-size:16px}
 #lineup{counter-reset:show}
-.day{scroll-margin-top:96px;padding:26px 0 0}
-.day h3{margin:0 0 8px;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;font-size:16px;line-height:1.3;letter-spacing:.14em;text-transform:uppercase}
+.day{scroll-margin-top:96px;counter-reset:show;border-top:2px solid var(--line)}
+.day > summary{list-style:none;cursor:pointer;padding:14px 0}
+.day > summary::-webkit-details-marker{display:none}
+.day h3{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;font-size:16px;line-height:1.3;letter-spacing:.14em;text-transform:uppercase}
 .day h3 small{font-size:inherit}
 .day h3 small::before{content:"/ "}
-.day.today h3::after{content:"tonight!";font-family:var(--marker);font-size:22px;letter-spacing:0;text-transform:none;color:var(--mark)}
+.day h3 .cnt{margin-left:auto;letter-spacing:.06em;text-transform:none;color:var(--muted)}
+.day h3 .tog::before{content:"+";display:inline-block;width:1em;text-align:center;font-size:22px;line-height:1;letter-spacing:0}
+.day[open] h3 .tog::before{content:"–"}
+.day > summary:hover h3{color:var(--mark)}
+.day.today h3 small::after{content:"tonight!";margin-left:12px;font-family:var(--marker);font-size:22px;letter-spacing:0;text-transform:none;color:var(--mark)}
+.day[open]{padding-bottom:10px}
 .show{counter-increment:show;display:grid;grid-template-columns:44px 1fr auto;gap:2px 12px;padding:16px 0;border-top:1px solid var(--line)}
 .show::before{content:counter(show) ".";grid-column:1;grid-row:1 / span 2;font-family:var(--marker);font-size:24px;line-height:1.3;color:var(--mark)}
 .show > div{grid-column:2;min-width:0}
