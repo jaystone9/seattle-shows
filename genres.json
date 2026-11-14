@@ -4,6 +4,13 @@
   "confirmed": "2026-11-07",
   "source": "claude"
  },
+ "1788-L": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "2Dead Boyz & The Underachievers": {
   "genres": [
    "Hip-hop & R&B"
@@ -48,6 +55,13 @@
   "source": "lastfm",
   "spotify": "30F8R1qAerw8VvYtRGGg0j"
  },
+ "A Mat and Savanna Christmas": {
+  "genres": [
+   "Pop"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "A Split Second": {
   "genres": [
    "Electronic"
@@ -76,6 +90,13 @@
   ],
   "confirmed": "2026-10-18",
   "spotify": "0HhLNo5pI32wCYNKqpXuCD"
+ },
+ "Abram Collier Nonet": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Acapulco Lips": {
   "genres": [
@@ -121,6 +142,13 @@
   "confirmed": "2026-10-30",
   "spotify": "34ut5kAp6DfnW79Dp3P4CA"
  },
+ "Afterlife Afterparty": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Agriculture": {
   "genres": [
    "Punk & Metal"
@@ -140,6 +168,13 @@
   ],
   "spotify": "1gbDc1TANALgP8lLvO5UEf",
   "confirmed": "2026-10-14"
+ },
+ "AJ McLean": {
+  "genres": [
+   "Pop"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "AJJ": {
   "genres": [
@@ -854,6 +889,13 @@
   "confirmed": "2026-10-30",
   "spotify": "4TRfrM7ljwL52xGyQGHk9y"
  },
+ "Black and White Gipsy Orchestra": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Black Ends": {
   "genres": [
    "Indie & Rock"
@@ -956,6 +998,13 @@
   "confirmed": "2026-11-13",
   "source": "lastfm"
  },
+ "BOLO THE DJ": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Bombargo": {
   "genres": [
    "Indie & Rock"
@@ -1017,6 +1066,13 @@
   "confirmed": "2026-10-25",
   "source": "lastfm"
  },
+ "Brass Cheeks (holiday matinee)": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude-web"
+ },
  "Brent Faiyaz": {
   "genres": [
    "Hip-hop & R&B"
@@ -1061,6 +1117,13 @@
   ],
   "confirmed": "2026-10-30",
   "spotify": "6LtXxYMIiKSy2EGHnz1f5j"
+ },
+ "Bryan Andrews": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Bryce Makela": {
   "genres": [],
@@ -1198,6 +1261,13 @@
   "confirmed": "2026-10-30",
   "spotify": "0uV7gNXQdzaZA0GjgeUdE6"
  },
+ "Cascade Cody & The Washington Apples": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Cash Box Kings": {
   "genres": [
    "Funk & Blues"
@@ -1248,6 +1318,14 @@
   ],
   "confirmed": "2026-10-30",
   "spotify": "0VmYiMeoVRP5bSkfBs0PSR"
+ },
+ "Cesar Rosas & The Chi-Town Playboys": {
+  "genres": [
+   "Indie & Rock",
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Champagne Sunday": {
   "genres": [
@@ -1338,6 +1416,13 @@
   "confirmed": "2026-10-25",
   "source": "claude"
  },
+ "Chicago Jazz Composers Collective 25th Anniversary": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Chicago Symphony Orchestra": {
   "genres": [
    "Jazz, World & Classical"
@@ -1410,6 +1495,13 @@
   "confirmed": "2026-11-07",
   "source": "claude",
   "spotify": "6m9zCuumpnn6S7Kvxvm0ed"
+ },
+ "Citric Dummies": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "City of the Sun": {
   "genres": [
@@ -1517,6 +1609,20 @@
   "confirmed": "2026-10-20",
   "spotify": "76udl9rOEb244XK73Xrm54"
  },
+ "Corky Siegel": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
+ "Cornerstones of Rock": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Cortex": {
   "genres": [
    "Jazz, World & Classical",
@@ -1547,6 +1653,13 @@
   ],
   "spotify": "2Io6B7GkUzVocvpqAXQk8t",
   "confirmed": "2026-10-14"
+ },
+ "Cr1tter": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Crab": {
   "genres": [
@@ -1630,12 +1743,34 @@
   "confirmed": "2026-11-12",
   "source": "claude"
  },
+ "Daisychain": {
+  "genres": [
+   "Indie & Rock",
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
+ "Dakarai Barclay Quintet": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Daley": {
   "genres": [
    "Hip-hop & R&B"
   ],
   "confirmed": "2026-10-25",
   "source": "lastfm"
+ },
+ "Dallas Brass": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Dalvin La Melodia": {
   "genres": [
@@ -1659,6 +1794,13 @@
    "Punk & Metal"
   ],
   "confirmed": "2026-10-25",
+  "source": "claude"
+ },
+ "Dan Rodriguez": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
   "source": "claude"
  },
  "Daniel Allan": {
@@ -1773,6 +1915,13 @@
   "confirmed": "2026-10-30",
   "spotify": "5WO18L6Q3DbrDR5fJCxGtJ"
  },
+ "Dead Dog": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Dead Gowns": {
   "genres": [
    "Folk & Country",
@@ -1858,6 +2007,13 @@
    "Jazz, World & Classical"
   ],
   "confirmed": "2026-10-30"
+ },
+ "DENNETT": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Denny Way": {
   "genres": [
@@ -2103,6 +2259,13 @@
   "confirmed": "2026-11-13",
   "source": "lastfm"
  },
+ "Drag the River": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "DragonForce": {
   "genres": [
    "Punk & Metal"
@@ -2279,6 +2442,13 @@
   "confirmed": "2026-10-19",
   "spotify": "5dnti9enpYV0oAqZJ9SUbn"
  },
+ "Enzo Siragusa": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "EPIK HIGH": {
   "genres": [
    "Hip-hop & R&B"
@@ -2400,6 +2570,13 @@
    "Electronic"
   ],
   "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "FEM&M": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-13",
   "source": "claude"
  },
  "Fetty Wap": {
@@ -2727,6 +2904,13 @@
   "confirmed": "2026-10-25",
   "source": "lastfm"
  },
+ "Gerald Dowd Band": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Ghost Town Blues": {
   "genres": [
    "Funk & Blues"
@@ -2742,6 +2926,13 @@
   "confirmed": "2026-11-07",
   "source": "claude",
   "spotify": "4IEpQR24sUgq6BQw2MdZIy"
+ },
+ "Ghoul Talk": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Giant Rooks": {
   "genres": [
@@ -2780,6 +2971,13 @@
   ],
   "confirmed": "2026-10-30",
   "spotify": "1Tq0nryXkwLARcHDMIZbY6"
+ },
+ "Gnarls Barkley": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "gnash": {
   "genres": [
@@ -2968,6 +3166,13 @@
   "confirmed": "2026-11-07",
   "source": "claude"
  },
+ "Harbour": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude-web"
+ },
  "Hard Maybe": {
   "genres": [
    "Funk & Blues",
@@ -3085,6 +3290,13 @@
   ],
   "confirmed": "2026-10-19",
   "spotify": "5KH7MeHHmovSJL3Muoeqiw"
+ },
+ "Hi Crime": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Hillhaven": {
   "genres": [
@@ -3311,6 +3523,14 @@
   "confirmed": "2026-10-19",
   "spotify": "1KliMuvrUp7XhKu7vVeex3"
  },
+ "Irish Christmas in America": {
+  "genres": [
+   "Jazz, World & Classical",
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Isabel Dumaa": {
   "genres": [
    "Folk & Country",
@@ -3332,6 +3552,14 @@
   ],
   "confirmed": "2026-10-30",
   "spotify": "6aaMZ3fcfLv4tEbmY7bjRM"
+ },
+ "Isaiah Sharkey": {
+  "genres": [
+   "Hip-hop & R&B",
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Izaak Opatz": {
   "genres": [
@@ -3428,6 +3656,20 @@
   "confirmed": "2026-10-30",
   "spotify": "2kEDso93O2hDgCbnuiSkkZ"
  },
+ "James Armstrong": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
+ "Jamila Woods": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Janet Bean & Ghost Voice": {
   "genres": [],
   "confirmed": "2026-10-30"
@@ -3466,6 +3708,20 @@
   ],
   "spotify": "3aHe9rMa5HFTjXHw8tEz0A",
   "confirmed": "2026-10-14"
+ },
+ "Jenner Fox Band": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
+ "Jenny Oaks Baker": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Jenny Scheinman": {
   "genres": [
@@ -3588,6 +3844,13 @@
    "Folk & Country"
   ],
   "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "John Moulder Quintet": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
   "source": "claude"
  },
  "John Primer": {
@@ -3745,6 +4008,13 @@
   "confirmed": "2026-10-18",
   "spotify": "7rrTqtOUOwva4sgTx9C9F9"
  },
+ "JSTJR": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Juana Molina": {
   "genres": [
    "Folk & Country"
@@ -3832,6 +4102,13 @@
   ],
   "spotify": "1uquUYtkdKei0zuhBY9P0t",
   "confirmed": "2026-10-14"
+ },
+ "Justin Robinson Quintet": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Kabaka Pyramid": {
   "confirmed": "2026-11-10",
@@ -4138,6 +4415,13 @@
   "source": "claude",
   "spotify": "6PbMwLmbus5mZl93tX1lXE"
  },
+ "Kurt Bestor": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Kurt Travis": {
   "genres": [
    "Indie & Rock"
@@ -4151,6 +4435,13 @@
   ],
   "confirmed": "2026-10-18",
   "spotify": "3LjnXZYlHbblbd8OZTtSip"
+ },
+ "Kyle Swan Quartet": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "L'il Ed & the Blues Imperials": {
   "genres": [
@@ -4182,6 +4473,13 @@
   ],
   "confirmed": "2026-10-25",
   "source": "https://do206.com/events/2026/11/1/freakout-presents-laborotorios-moreno-buddy-wynkoop-gadfly-weep-wave-matinee-tickets "
+ },
+ "Ladrones": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude-web"
  },
  "Lady Radiator": {
   "genres": [
@@ -4333,6 +4631,13 @@
   "confirmed": "2026-11-07",
   "source": "lastfm",
   "spotify": "5g63iWaMJ2UrkZMkCC8dMi"
+ },
+ "Lil' Ed & The Blues Imperials": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Lila Downs": {
   "genres": [
@@ -4575,6 +4880,13 @@
   "confirmed": "2026-10-20",
   "spotify": "21CsJBQcd0rNevHDe5kT3u"
  },
+ "Lushy": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Mad Tsai": {
   "genres": [
    "Pop"
@@ -4725,6 +5037,13 @@
   ],
   "confirmed": "2026-10-19",
   "spotify": "09sGt1f94g756ela9MfKZv"
+ },
+ "Mannheim Steamroller Christmas by Chip Davis": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Maná": {
   "genres": [
@@ -4897,6 +5216,20 @@
   "confirmed": "2026-11-12",
   "source": "claude"
  },
+ "MC4D": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude-web"
+ },
+ "McLuhan": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Media Luna": {
   "genres": [
    "Electronic"
@@ -5013,6 +5346,13 @@
   "confirmed": "2026-11-07",
   "source": "claude"
  },
+ "Mike Cooley": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Mike Stern": {
   "genres": [
    "Jazz, World & Classical"
@@ -5120,6 +5460,14 @@
   ],
   "spotify": "6pvai2QB2c0defVI0UTFos",
   "confirmed": "2026-10-14"
+ },
+ "Mondo Cozmo": {
+  "genres": [
+   "Indie & Rock",
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "MONSTA X": {
   "genres": [
@@ -5230,6 +5578,13 @@
   ],
   "confirmed": "2026-10-30",
   "spotify": "2Mu5NfyYm8n5iTomuKAEHl"
+ },
+ "Mucca Pazza - Hideout 30th Kick-Off": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude-web"
  },
  "Music of Remembrance": {
   "genres": [
@@ -5668,6 +6023,13 @@
   "confirmed": "2026-10-19",
   "spotify": "0uj6QiPsPfK8ywLC7uwBE1"
  },
+ "Oscar Wilson": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Oso Oso": {
   "genres": [
    "Punk & Metal"
@@ -5783,6 +6145,13 @@
   "confirmed": "2026-10-25",
   "source": "lastfm"
  },
+ "Parranda Gaitera": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Parrotfish": {
   "genres": [
    "Indie & Rock"
@@ -5894,6 +6263,13 @@
   ],
   "confirmed": "2026-10-25",
   "source": "lastfm"
+ },
+ "Persephone Darke": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Pertinence": {
   "genres": [
@@ -6102,6 +6478,13 @@
   "confirmed": "2026-10-18",
   "spotify": "4nXOZlYoAD67hF9aUEncMY"
  },
+ "Prateek Kuhad": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Premo Rice": {
   "genres": [
    "Hip-hop & R&B"
@@ -6301,6 +6684,13 @@
   "source": "lastfm",
   "spotify": "6ogEi25sdXxNuKmzXB75nH"
  },
+ "REXV2": {
+  "genres": [
+   "Hip-hop & R&B"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Rhea the Second": {
   "genres": [
    "Pop",
@@ -6403,6 +6793,13 @@
    "Indie & Rock"
   ],
   "confirmed": "2026-11-12",
+  "source": "claude"
+ },
+ "Robbie Lynn Hunsinger": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
   "source": "claude"
  },
  "Robert Ellis": {
@@ -6528,6 +6925,13 @@
   "confirmed": "2026-11-07",
   "source": "lastfm",
   "spotify": "0Z8RhQLJrLxKMWoUW2qo95"
+ },
+ "Samantha Henson's Holiday Matinee": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Sammy Rae & The Friends": {
   "genres": [
@@ -6796,6 +7200,13 @@
   "confirmed": "2026-10-30",
   "spotify": "6XJ5IHDtW2OkjtwVllkANt"
  },
+ "Shawn Holt": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "She Wants Revenge": {
   "genres": [
    "Indie & Rock"
@@ -6809,6 +7220,13 @@
   ],
   "confirmed": "2026-10-25",
   "source": "lastfm"
+ },
+ "Shintaro Sakamoto": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Shiverz": {
   "genres": [
@@ -6928,6 +7346,14 @@
  "Skeleton Crewe (2 sets)": {
   "genres": [],
   "confirmed": "2026-10-30"
+ },
+ "Skerik": {
+  "genres": [
+   "Jazz, World & Classical",
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Skilla Baby": {
   "genres": [
@@ -7086,6 +7512,13 @@
   "confirmed": "2026-10-30",
   "spotify": "4xfO4aY5oYJ0G6adTAQQtx"
  },
+ "Spafford": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Spanish Love Songs": {
   "genres": [
    "Punk & Metal"
@@ -7194,6 +7627,13 @@
   "source": "lastfm-check",
   "spotify": "7AAenH06H5mjmOh4tj3z5Y"
  },
+ "Steve Schneck Quartet": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Stevie Wonder": {
   "genres": [
    "Hip-hop & R&B",
@@ -7216,6 +7656,13 @@
    "Punk & Metal"
   ],
   "confirmed": "2026-11-07",
+  "source": "claude"
+ },
+ "Straight No Chaser": {
+  "genres": [
+   "Pop"
+  ],
+  "confirmed": "2026-11-13",
   "source": "claude"
  },
  "Stratøs": {
@@ -7271,6 +7718,13 @@
   "confirmed": "2026-11-13",
   "source": "lastfm"
  },
+ "Sullivan King": {
+  "genres": [
+   "Electronic"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Sunday Cruise": {
   "genres": [
    "Indie & Rock"
@@ -7284,6 +7738,13 @@
   ],
   "spotify": "7BqRcZsHYYQeqMAOp7e532",
   "confirmed": "2026-10-14"
+ },
+ "Sunshine Boys": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude-web"
  },
  "Super Cassette": {
   "genres": [
@@ -7545,6 +8006,13 @@
   "confirmed": "2026-10-25",
   "source": "lastfm"
  },
+ "The Adrian Dunn Singers": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "The Afghan Whigs": {
   "genres": [
    "Indie & Rock"
@@ -7696,6 +8164,13 @@
   "spotify": "7kWwQAe9JnYNMk4kuEe73S",
   "alias_of": "The Cactus Blossoms"
  },
+ "The Chicago Soul Jazz Collective": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "The Chicks": {
   "genres": [
    "Folk & Country"
@@ -7787,6 +8262,13 @@
   "confirmed": "2026-11-07",
   "source": "claude"
  },
+ "The Fretliners": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "The Gallaghers": {
   "genres": [],
   "confirmed": "2026-11-07",
@@ -7847,6 +8329,13 @@
   "confirmed": "2026-10-19",
   "spotify": "0SkowJJkVMZrHRIYRXidTH"
  },
+ "The Jaws of Brooklyn": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude-web"
+ },
  "The Jayhawks": {
   "genres": [
    "Folk & Country"
@@ -7904,6 +8393,13 @@
   ],
   "confirmed": "2026-10-19",
   "spotify": "0q9jV5Ht9bBTX6pHgzRjRg"
+ },
+ "The Mainliners": {
+  "genres": [
+   "Punk & Metal"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "The Menzingers": {
   "genres": [
@@ -7971,6 +8467,13 @@
    "Electronic"
   ],
   "confirmed": "2026-10-30"
+ },
+ "The Rainieros": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "The Rat Utopia Experiment": {
   "genres": [
@@ -8132,6 +8635,13 @@
   "spotify": "2a4lU7F8toqKpb5v6Ftqya",
   "confirmed": "2026-10-14"
  },
+ "They Are Gutting a Body of Water": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "This Is Lorelei": {
   "genres": [
    "Indie & Rock"
@@ -8281,6 +8791,13 @@
   "confirmed": "2026-10-19",
   "spotify": "3vldh5Ceynytj6Iglw4haP"
  },
+ "Toronzo Cannon": {
+  "genres": [
+   "Funk & Blues"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "TR/ST": {
   "genres": [
    "Electronic",
@@ -8302,6 +8819,13 @@
   ],
   "confirmed": "2026-11-13",
   "source": "lastfm"
+ },
+ "Trash Moon Hootenanny": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Tray Wellington Band": {
   "genres": [
@@ -8652,6 +9176,13 @@
   "confirmed": "2026-10-30",
   "spotify": "4epc3Bd0DOBA0kDywkRAsu"
  },
+ "Westhead": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Weston Estate": {
   "genres": [
    "Hip-hop & R&B"
@@ -8726,6 +9257,13 @@
   "confirmed": "2026-11-13",
   "source": "lastfm"
  },
+ "Wild Earp & the Free for Alls": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
+ },
  "Willi Carlisle": {
   "genres": [
    "Folk & Country"
@@ -8740,6 +9278,13 @@
   ],
   "confirmed": "2026-10-20",
   "spotify": "55N838yCXjxLVkBkIM5pnf"
+ },
+ "Willy Porter & The Humans in a Room Quartet": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-13",
+  "source": "claude"
  },
  "Wine Lips": {
   "genres": [
