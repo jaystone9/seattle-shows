@@ -16,12 +16,12 @@
 <meta property="og:image:alt" content="A vintage photo of a bandleader singing into a microphone with a bass player behind him, captioned 2 Week Soundcheck, Seattle.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://2weeksoundcheck.com/og-image.jpg">
-<meta name="theme-color" content="#F3F5F9" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#1A2030" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231C2433'/%3E%3Crect x='6' y='14' width='4' height='12' fill='%23D6336C'/%3E%3Crect x='14' y='8' width='4' height='18' fill='%23D6336C'/%3E%3Crect x='22' y='11' width='4' height='15' fill='%23D6336C'/%3E%3Crect x='14' y='5' width='4' height='2' fill='%23F2A100'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#FBFAF5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121212'/%3E%3Crect x='6' y='14' width='4' height='12' fill='%23FBFAF5'/%3E%3Crect x='14' y='8' width='4' height='18' fill='%23FBFAF5'/%3E%3Crect x='22' y='11' width='4' height='15' fill='%23FBFAF5'/%3E%3Crect x='14' y='5' width='4' height='2' fill='%23FFE14D'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="site.css?v=e57820ca">
 </head>
 <body>
@@ -47,11 +47,11 @@
   <section class="hero" aria-labelledby="range">
     <h1 id="range" class="pending"><span id="r1">The next</span><span id="r2">two weeks</span></h1>
     <p id="lede">The next two weeks of live music at Seattle's best venues, all in one place. We hope you fall in love with some new artists and go see them live.</p>
-    <div class="meter" id="meter" role="list" aria-label="Shows per day"></div>
-    <div class="days" id="days" aria-hidden="true"></div>
+    <div class="meter" id="meter" role="group" aria-label="The two weeks. Pick a date to see just that night."></div>
+    <p class="cal-note">Tap a date to see just that night.</p>
   </section>
 
-  <section class="listen" aria-labelledby="listen-h">
+  <section class="listen" id="playlist" aria-labelledby="listen-h">
     <div>
       <h2 id="listen-h">Find your next show</h2>
       <div class="pl-tabs" id="pl-tabs" role="group" aria-label="Which playlist" hidden></div>
@@ -64,16 +64,17 @@
       <p class="pl-note" id="pl-note" hidden>Follow it once on Spotify. It refreshes every Sunday.</p>
       <p style="margin:12px 0 0"><a href="playlists.html">Past playlists</a></p>
     </div>
-    <aside class="signup" id="newsletter" aria-labelledby="signup-h">
-      <h3 id="signup-h">Get it every Sunday</h3>
-      <p>Get this week's playlist sent straight to your inbox every Sunday. Free, one email a week.</p>
-      <div id="signup-slot" data-signup></div>
-      <p class="nl-note"><b>Using Gmail?</b> Your first email may land in Promotions. <b>Drag it to Primary</b> so the playlist shows up in your inbox every Sunday.</p>
-      <div class="alt">Or put every show in your calendar: <a data-cal href="#">Apple Calendar</a> or <a data-gcal href="#">Google Calendar</a>. It updates on its own.</div>
-    </aside>
   </section>
 
-  <section aria-labelledby="lineup-h">
+  <section class="signup" id="newsletter" aria-labelledby="signup-h">
+    <h3 id="signup-h">get it every Sunday</h3>
+    <p>Get this week's playlist sent straight to your inbox every Sunday. Free, one email a week.</p>
+    <div id="signup-slot" data-signup></div>
+    <p class="nl-note">Using Gmail? Your first email may land in Promotions. Drag it to Primary so the playlist shows up in your inbox every Sunday.</p>
+    <div class="alt">Or put every show in your calendar: <a data-cal href="#">Apple Calendar</a> or <a data-gcal href="#">Google Calendar</a>. It updates on its own.</div>
+  </section>
+
+  <section id="set" aria-labelledby="lineup-h">
     <div class="section-head">
       <h2 id="lineup-h">The next two weeks</h2>
       <p id="lineup-count"></p>
@@ -148,27 +149,26 @@
     footer(data);
 
     // hero
-    $("#r1").textContent = range(start,end);
-    $("#r2").textContent = `${windowShows.length} show${windowShows.length===1?"":"s"}`;
+    $("#r1").textContent = `${data.edition||"Seattle"},`;
+    $("#r2").textContent = range(start,end);
     $("#range").classList.remove("pending");
 
     // meter
     const byDay = {}; windowShows.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
     const max = Math.max(4,...Object.values(byDay).map(a=>a.length));
-    let m="", dl="";
+    // Past days are crossed out, today is circled, and tapping a date filters the list to that night.
+    let m="";
     for(let i=0;i<days;i++){
-      const iso=addDays(start,i), past=iso<today, n=(byDay[iso]||[]).length, wd=D(iso).getUTCDay();
-      const h = n? Math.max(6, Math.round(n/max*84)) : 2;
+      const iso=addDays(start,i), past=iso<today, n=(byDay[iso]||[]).length;
       const label = `${fmt(iso,{weekday:"long",month:"long",day:"numeric"})}: ${n} show${n===1?"":"s"}${past?" (already happened)":""}`;
-      m += `<button class="ch${wd===5||wd===6?" weekend":""}${past?" past":""}"${past?" disabled":""} role="listitem" style="--h:${h}%;--i:${i}" aria-label="${label}" data-day="${iso}"><span class="n">${n||""}</span><span class="peak"></span><span class="bar"></span></button>`;
-      dl += `<span${past?' class="past"':""}>${fmt(iso,{weekday:"narrow"})}<strong>${fmt(iso,{day:"numeric"})}</strong></span>`;
+      m += `<button type="button" class="ch${past?" past":""}${iso===today?" today":""}"${past?" disabled":""} aria-pressed="false" aria-label="${label}" data-day="${iso}"><span class="w">${fmt(iso,{weekday:"short"})}</span><span class="n">${fmt(iso,{day:"numeric"})}</span></button>`;
     }
-    $("#meter").innerHTML = m; $("#days").innerHTML = dl;
+    $("#meter").innerHTML = m;
     $("#meter").addEventListener("click",ev=>{
-      const b=ev.target.closest(".ch"); if(!b) return;
-      if($("#q").value||$("#venue").value||$("#area").value||$("#when").value){ $("#q").value=""; $("#area").value=""; setWhen(""); fillVenues(); $("#venue").value=""; render(); }
-      const t=document.getElementById("d-"+b.dataset.day);
-      if(t){t.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"}); t.querySelector("h3").focus({preventScroll:true});}
+      const b=ev.target.closest(".ch"); if(!b || b.disabled) return;
+      const on = b.getAttribute("aria-pressed")==="true";
+      setWhen(on ? "" : b.dataset.day); limit=60; render();
+      if(!on) document.getElementById("set").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
     });
 
     // playlist
@@ -284,6 +284,7 @@
     function render(){
       const q=$("#q").value.trim().toLowerCase(), vf=$("#venue").value, af=$("#area").value, dr=whenRange(), gs=$("#genre").value, gf=genreName(gs), filtered=!!(q||vf||af||dr||gf);
       $("#clear").hidden = !filtered;
+      document.querySelectorAll("#meter .ch").forEach(b=>b.setAttribute("aria-pressed", String(!!dr && dr[0]===dr[1] && dr[0]===b.dataset.day)));
       // next two weeks
       let html="", count=0;
       for(let i=0;iso_ok(i);i++){
@@ -291,7 +292,7 @@
         if(filtered && !list.length) continue;
         count += list.length;
         const name = i===0?"Today":i===1?"Tomorrow":fmt(iso,{weekday:"long"});
-        html += `<div class="day" id="d-${iso}"><h3 tabindex="-1">${name}<small>${fmt(iso,{month:"long",day:"numeric"})}</small></h3>${list.length?list.map(e=>showRow(e,venues,false)).join(""):`<p class="empty">No concerts at our venues. A good night for the playlist.</p>`}</div>`;
+        html += `<div class="day${i===0?" today":""}" id="d-${iso}"><h3 tabindex="-1">${name}<small>${fmt(iso,{month:"long",day:"numeric"})}</small></h3>${list.length?list.map(e=>showRow(e,venues,false)).join(""):`<p class="empty">No concerts at our venues. A good night for the playlist.</p>`}</div>`;
       }
       $("#lineup").innerHTML = html ? (af&&!vf&&!q?`<p class="area-note">${esc(af)}: ${af==="Frelard"?"the small rooms in Ballard and Fremont":esc(hoods(af))}.</p>`:"") + html : (dr && dr[0] > end ? "" : `<p class="empty">${dr?"No shows match on those dates.":`Nothing matches through ${fmt(end,{month:"long",day:"numeric"})}. Check Further out below, or clear the filters.`}</p>`);
       $("#lineup-h").textContent = `Now through ${fmt(end,{month:"long",day:"numeric"})}`;
