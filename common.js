@@ -21,7 +21,7 @@ window.SC = (function () {
     const flag = e.status ? `<span class="flag">${esc(e.status[0].toUpperCase() + e.status.slice(1))}</span>` : "";
     const t = e.time ? `<span class="t">${time(e.time)}</span> at ` : "";
     const btn = e.url && !cancelled ? `<a class="${e.link}" href="${esc(e.url)}" target="_blank" rel="noopener">${e.link === "tickets" ? "Tickets" : "Details"}<span class="visually-hidden"> for ${esc(e.title)}</span></a>` : "";
-    const pv = !compact && e.preview && !cancelled ? `<button class="pv" type="button" data-track="${esc(e.preview.track)}" aria-expanded="false" aria-label="Preview ${esc(e.title)}: ${esc(e.preview.song || "top song")}"><svg viewBox="0 0 16 16" aria-hidden="true"><path class="i-play" d="M4 2.5v11l9-5.5z"/><rect class="i-stop" x="3.5" y="3.5" width="9" height="9" rx="1.5"/></svg><span>Preview</span></button>` : "";
+    const pv = !compact && e.preview && !cancelled ? `<button class="pv" type="button" data-track="${esc(e.preview.track)}" aria-expanded="false" aria-label="Preview ${esc(e.title)}: ${esc(e.preview.song || "top song")}"><svg viewBox="0 0 16 16" aria-hidden="true"><path class="i-play" d="M4 2.5v11l9-5.5z"/><rect class="i-stop" x="3.5" y="3.5" width="9" height="9" rx="1.5"/></svg><span>Hear them</span></button>` : "";
     const d = compact ? `<div class="d">${fmt(e.date, { month: "short", day: "numeric" })}<span>${fmt(e.date, { weekday: "short" })}</span></div>` : "";
     return `<div class="show${cancelled ? " cancelled" : ""}">${d}
       <div><div class="who">${esc(e.title)}${flag}</div>${e.support.length ? `<div class="with">with ${esc(e.support.join(", "))}</div>` : ""}</div>
@@ -35,7 +35,7 @@ window.SC = (function () {
       const b = ev.target.closest(".pv"); if (!b) return;
       const row = b.closest(".show"), open = root.querySelector(".pv-player");
       const wasThis = open && open.previousElementSibling === row;
-      if (open) { open.remove(); root.querySelectorAll('.pv[aria-expanded="true"]').forEach(x => { x.setAttribute("aria-expanded", "false"); x.querySelector("span").textContent = "Preview"; }); }
+      if (open) { open.remove(); root.querySelectorAll('.pv[aria-expanded="true"]').forEach(x => { x.setAttribute("aria-expanded", "false"); x.querySelector("span").textContent = "Hear them"; }); }
       if (wasThis) return;
       const box = document.createElement("div");
       box.className = "pv-player";

@@ -32,7 +32,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=af78dd4d">
+<link rel="stylesheet" href="../site.css?v=75972043">
 </head>
 <body data-city="salt-lake" data-tz="America/Denver" data-data="../data/salt-lake.json">
 <div class="wrap">
@@ -47,7 +47,7 @@
       </select>
     </label>
     </div>
-    <a class="nl-cta" href="#newsletter">Sunday email</a>
+    <a class="nl-cta" href="#newsletter">Get the Sunday email</a>
     <nav class="nav" aria-label="Main">
       <a href="./" aria-current="page">Playlists</a>
       <a href="shows.html">Shows</a>
@@ -56,30 +56,34 @@
   </header>
 
   <section class="hero" aria-labelledby="range">
-    <h1 id="range" class="pending"><span class="city"><span id="r1">The next</span><svg class="scribble" viewBox="0 0 560 26" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16 C 60 4, 110 24, 170 12 S 290 6, 350 15 S 480 20, 556 8"/></svg></span> <span id="r2" class="when">two weeks</span></h1>
-    <p id="lede">The next two weeks of live music at Salt Lake City's best venues, all in one place. We hope you fall in love with some new artists and go see them live.</p>
+    <h1 id="range" class="pending"><span class="city"><span id="r1">The next</span><svg class="scribble" viewBox="0 0 560 26" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16 C 60 4, 110 24, 170 12 S 290 6, 350 15 S 480 20, 556 8"/></svg></span></h1>
+    <p id="lede">Every concert at Salt Lake City's best venues for the next two weeks. Hear any band before you buy a ticket.</p>
+    <p id="r2" class="when"></p>
     <div class="meter" id="meter" role="group" aria-label="The two weeks. Pick a date to see just that night."></div>
-    <p class="cal-note">Tap a date to see just that night. <a class="to-shows" id="to-shows" href="shows.html">See all the shows →</a></p>
+    <p class="cal-note">The small number is how many shows that night. Tap a date to see them.</p>
   </section>
+
+  <section id="picks" aria-label="Tonight and this weekend"></section>
+  <p class="all-shows"><a class="to-shows" id="to-shows" href="shows.html">See all the shows →</a></p>
 
   <section class="listen" id="playlist" aria-labelledby="listen-h">
     <div>
-      <h2 id="listen-h">Find your next show</h2>
+      <h2 id="listen-h"><span class="mk">or just press play</span><span>The 2 week playlist</span></h2>
+      <p class="sub" id="pl-sub">The top songs from every headliner, in show order.</p>
+      <div class="player" id="player"></div>
+      <p class="pl-note" id="pl-note" hidden>Follow it once on Spotify. It refreshes every Sunday.</p>
       <div class="pl-tabs" id="pl-tabs" role="group" aria-label="Which playlist" hidden></div>
       <div class="genre-pick" id="genre-pick" hidden>
         <p class="genre-label" id="genre-label">Or just one genre</p>
         <div class="genre-chips" id="genre-chips" role="group" aria-labelledby="genre-label"></div>
       </div>
-      <p class="sub" id="pl-sub">The top songs from every headliner, in show order.</p>
-      <div class="player" id="player"></div>
-      <p class="pl-note" id="pl-note" hidden>Follow it once on Spotify. It refreshes every Sunday.</p>
       <p style="margin:12px 0 0"><a href="playlists.html">Past playlists</a></p>
     </div>
   </section>
 
   <section class="signup" id="newsletter" aria-labelledby="signup-h">
     <h3 id="signup-h">get it every Sunday</h3>
-    <p>Get this week's playlist sent straight to your inbox every Sunday. Free, one email a week.</p>
+    <p>The next two weeks of Salt Lake City shows and the playlist to hear them first. Free, one email a week.</p>
     <div id="signup-slot" data-signup></div>
     <p class="nl-note">Using Gmail? Your first email may land in Promotions. Drag it to Primary so the playlist shows up in your inbox every Sunday.</p>
     <div class="alt">Or put every show in your calendar: <a data-cal href="#">Apple Calendar</a> or <a data-gcal href="#">Google Calendar</a>. It updates on its own.</div>
@@ -141,7 +145,7 @@
 </div>
 
 <script>setTimeout(()=>document.getElementById("range")?.classList.remove("pending"),2500)</script>
-<script src="../common.js?v=6a7e4423"></script>
+<script src="../common.js?v=8131f7ed"></script>
 <script>
 (function(){
   const {esc,todayISO,addDays,D,fmt,range,showRow,load,footer} = SC;
@@ -166,7 +170,8 @@
     const cityName = data.edition||"Salt Lake City";
     $("#r1").textContent = cityName;
     $("#r1").classList.toggle("long", cityName.length>9);  // long names (Salt Lake City) get a smaller size
-    $("#r2").textContent = `${range(start,end)} / ${soon.length} show${soon.length===1?"":"s"}`;
+    const nVen = new Set(soon.map(e=>e.venue)).size;
+    $("#r2").textContent = `${range(start,end)} / ${soon.length} show${soon.length===1?"":"s"} / ${nVen} venue${nVen===1?"":"s"}`;
     $("#range").classList.remove("pending");
 
     // meter
@@ -177,7 +182,7 @@
     for(let i=0;i<days;i++){
       const iso=addDays(start,i), past=iso<today, n=(byDay[iso]||[]).length;
       const label = `${fmt(iso,{weekday:"long",month:"long",day:"numeric"})}: ${n} show${n===1?"":"s"}${past?" (already happened)":""}`;
-      m += `<button type="button" class="ch${past?" past":""}${iso===today?" today":""}"${past?" disabled":""} aria-pressed="false" aria-label="${label}" data-day="${iso}"><span class="w">${fmt(iso,{weekday:"short"})}</span><span class="n">${fmt(iso,{day:"numeric"})}</span></button>`;
+      m += `<button type="button" class="ch${past?" past":""}${iso===today?" today":""}"${past?" disabled":""} aria-pressed="false" aria-label="${label}" data-day="${iso}"><span class="w">${fmt(iso,{weekday:"short"})}</span><span class="n">${fmt(iso,{day:"numeric"})}</span><span class="c">${past?"":n}</span></button>`;
     }
     $("#meter").innerHTML = m;
     $("#meter").addEventListener("click",ev=>{
@@ -331,7 +336,39 @@
       const u = new URL(location.href); q?u.searchParams.set("q",$("#q").value.trim()):u.searchParams.delete("q"); vf?u.searchParams.set("venue",vf):u.searchParams.delete("venue"); af?u.searchParams.set("area",slug(af)):u.searchParams.delete("area"); gs?u.searchParams.set("genre",gs):u.searchParams.delete("genre"); const wv=$("#when").value==="pick"?$("#when-pick").value:$("#when").value; wv?u.searchParams.set("date",wv):u.searchParams.delete("date");
       if(VIEW==="shows") history.replaceState(null,"",u);
     }
-    $("#to-shows").textContent = `See all ${soon.length} shows →`;
+    $("#to-shows").textContent = `See all ${soon.length} shows, by date, neighborhood, venue or genre →`;
+
+    // City page: tonight (or the next night with shows) and the weekend ahead, a few shows each,
+    // every row with a "hear them" button. Time order; only shows that have a song to play.
+    if(VIEW!=="shows"){
+      const ok = e => e.preview && e.status!=="cancelled";
+      const rows = (list,n) => list.slice(0,n).map(e=>showRow(e,venues,false)).join("");
+      const first = soon.length ? soon[0].date : null;
+      let html = "";
+      if(first){
+        const all = soon.filter(e=>e.date===first), pick = all.filter(ok).slice(0,4);
+        const name = first===today ? "tonight" : fmt(first,{weekday:"long"}).toLowerCase();
+        const more = all.length - pick.length;
+        html += `<div class="pick${first===today?" today":""}"><h2><span class="mk">${name}</span><span>${fmt(first,{weekday:"short",month:"short",day:"numeric"}).replace(",","")} / ${all.length} show${all.length===1?"":"s"}</span></h2>${rows(pick,4)}${more>0?`<a class="pick-more" href="shows.html?date=${first}">+ ${more} more ${name} →</a>`:""}</div>`;
+        const wd = D(first).getUTCDay();                       // 0 = Sunday
+        const sat = addDays(first, wd===6 ? 0 : 6-wd), sun = addDays(sat,1);
+        const wdays = [sat,sun].filter(d=>d>first && d<=end);
+        const wAll = soon.filter(e=>wdays.includes(e.date));
+        const per = wdays.map(d=>wAll.filter(e=>e.date===d && ok(e)));
+        const take = per.map((l,i)=>l.slice(0, per.length===2 ? (i?2:3) : 5));
+        const shown = take.reduce((a,l)=>a+l.length,0);
+        if(shown){
+          const label = wd===0 ? "next weekend" : wdays.length===2 ? "this weekend" : fmt(wdays[0],{weekday:"long"}).toLowerCase();
+          const href = wdays.length===1 ? `shows.html?date=${wdays[0]}` : wd===0 ? "shows.html?date=next-weekend" : "shows.html?date=weekend";
+          const wm = wAll.length - shown;
+          html += `<div class="pick"><h2><span class="mk">${label}</span><span>${wdays.map(d=>fmt(d,{weekday:"short"})).join(" + ")} / ${wAll.length} show${wAll.length===1?"":"s"}</span></h2>`
+            + wdays.map((d,i)=>take[i].length?`<h3>${fmt(d,{weekday:"long",month:"long",day:"numeric"})}</h3>${rows(take[i],5)}`:"").join("")
+            + (wm>0?`<a class="pick-more" href="${href}">+ ${wm} more ${label} →</a>`:"") + `</div>`;
+        }
+      }
+      $("#picks").innerHTML = html;
+      SC.previews(document.getElementById("picks"));
+    }
     $("#q").addEventListener("input",()=>{limit=60;render();});
     $("#venue").addEventListener("change",()=>{limit=60;render();});
     $("#genre").addEventListener("change",()=>{limit=60;render();});
