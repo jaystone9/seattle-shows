@@ -10,6 +10,14 @@
   var p = new URLSearchParams(location.search);
   if (["area", "venue", "genre", "date", "q", "playlist"].some(function (k) { return p.has(k); }))
     location.replace("/seattle/" + location.search + location.hash);
+  // Returning visitors who already picked a city go straight to it when they arrive from
+  // outside the site. Coming from another page here (the site name link) still shows this page.
+  else if (!location.hash && !/2weeksoundcheck\.com/.test(document.referrer)) {
+    try {
+      var c = localStorage.getItem("sc-city");
+      if (c && /^[a-z-]+$/.test(c)) location.replace("/" + c + "/");
+    } catch (e) {}
+  }
 })();
 </script>
 <title>2 Week Soundcheck · The next two weeks of live music</title>
@@ -37,7 +45,7 @@
 .home-hero > div{flex:1 1 380px;min-width:0}
 .home-hero h1{margin:0;font-family:var(--marker);font-size:clamp(52px,9vw,92px);line-height:1.05}
 .home-hero h1 .hi{display:inline-block;background:var(--hi);color:var(--hi-ink);padding:0 14px;line-height:1.2;margin-top:10px;white-space:nowrap}
-.home-hero .lead{margin:20px 0 0;max-width:30em}
+.home-hero .lead{margin:20px 0 0;max-width:24em;font-size:clamp(19px,3vw,22px);line-height:1.35}
 .print{flex:0 0 230px;margin:0 auto;display:flex;flex-direction:column;align-items:center;transform:rotate(2.5deg)}
 .print::before{content:"";width:96px;height:28px;background:#B9B8B0;opacity:.9;margin-bottom:-14px;position:relative;z-index:1}
 .print img{display:block;width:230px;height:288px;object-fit:cover;border:8px solid #fff;box-shadow:0 6px 18px rgba(0,0,0,.25)}
@@ -74,7 +82,7 @@
     <section class="home-hero" aria-labelledby="pick">
       <div>
         <h1 id="pick">hear the next two weeks. <span class="hi">then go.</span></h1>
-        <p class="lead">Every headliner playing your city over the next two weeks, in one playlist. Every show, filtered by genre, neighborhood or venue.</p>
+        <p class="lead">Every concert in your city for the next two weeks, and a playlist of every headliner so you can hear them first. Filter shows by genre, neighborhood or venue.</p>
       </div>
       <figure class="print"><img src="bandstand.jpg" width="230" height="288" alt="Old black and white photo of a singer in a white dinner jacket at a stand microphone, with an upright bass player behind him"></figure>
     </section>

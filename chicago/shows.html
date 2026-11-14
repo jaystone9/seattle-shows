@@ -32,7 +32,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=75972043">
+<link rel="stylesheet" href="../site.css?v=3c6428b1">
 </head>
 <body data-view="shows" data-city="chicago" data-tz="America/Chicago" data-data="../data/chicago.json">
 <div class="wrap">
@@ -49,7 +49,7 @@
     </div>
     <a class="nl-cta" href="#newsletter">Get the Sunday email</a>
     <nav class="nav" aria-label="Main">
-      <a href="./">Playlists</a>
+      <a href="./">What's on</a>
       <a href="shows.html" aria-current="page">Shows</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -71,6 +71,7 @@
       <h2 id="listen-h"><span class="mk">or just press play</span><span>The 2 week playlist</span></h2>
       <p class="sub" id="pl-sub">The top songs from every headliner, in show order.</p>
       <div class="player" id="player"></div>
+      <p class="pl-find">Hear one you like? <a href="shows.html">Find their show →</a></p>
       <p class="pl-note" id="pl-note" hidden>Follow it once on Spotify. It refreshes every Sunday.</p>
       <div class="pl-tabs" id="pl-tabs" role="group" aria-label="Which playlist" hidden></div>
       <div class="genre-pick" id="genre-pick" hidden>
@@ -105,6 +106,7 @@
         <button class="clear" id="clear" hidden>Clear</button>
       </div>
     </div>
+    <p class="legend">"Tickets" goes to the ticket seller. "Details" goes to the venue's page for that show.</p>
     <div id="lineup"></div>
   </section>
 
@@ -113,6 +115,7 @@
       <h2 id="all-h">Further out</h2>
       <p id="all-count"></p>
     </div>
+    <button class="btn ghost" id="fo-open" hidden>Show them</button>
     <div id="all" class="compact"></div>
     <div class="more"><button class="btn ghost" id="more" hidden>Show more</button></div>
   </section>
@@ -302,7 +305,7 @@
     if(params.get("date")) setWhen(params.get("date"));
     const match = (e,q,vf,af,dr,gf) => (!gf||(gOf(e)||[]).includes(gf)) && (!dr||(e.date>=dr[0]&&e.date<=dr[1])) && (!af||areaOf(e.venue)===af) && (!vf||e.venue===vf) && (!q||(e.title+" "+e.support.join(" ")).toLowerCase().includes(q));
 
-    let limit = 60;
+    let limit = 60, foOpen = false;   // "Further out" starts closed so the page isn't a mile long
     const iso_ok = i => addDays(today,i) <= end;
     function render(){
       const q=$("#q").value.trim().toLowerCase(), vf=$("#venue").value, af=$("#area").value, dr=whenRange(), gs=$("#genre").value, gf=genreName(gs), filtered=!!(q||vf||af||dr||gf);
@@ -330,7 +333,10 @@
       let out="", mo="";
       rows.slice(0,limit).forEach(e=>{const mm=fmt(e.date,{month:"long",year:"numeric"}); if(mm!==mo){out+=`<div class="month">${mm}</div>`;mo=mm;} out+=showRow(e,venues,true);});
       $("#all").innerHTML = out || `<p class="empty">${gf?"Genres cover the next two weeks. Shows further out aren't sorted by genre yet.":filtered?"No later shows match.":"Nothing further out yet."}</p>`;
-      $("#more").hidden = rows.length<=limit;
+      const shut = !foOpen && !filtered && rows.length>0;
+      $("#all").hidden = shut; $("#fo-open").hidden = !shut;
+      $("#fo-open").textContent = `Show the ${rows.length} shows further out`;
+      $("#more").hidden = shut || rows.length<=limit;
       $("#all-count").textContent = gf ? "" : filtered ? `${rows.length} match${rows.length===1?"":"es"}` : `${later.length} more shows through ${fmt(later.at(-1)?.date||end,{month:"long"})}`;
       // keep the filter in the URL so it can be shared
       const u = new URL(location.href); q?u.searchParams.set("q",$("#q").value.trim()):u.searchParams.delete("q"); vf?u.searchParams.set("venue",vf):u.searchParams.delete("venue"); af?u.searchParams.set("area",slug(af)):u.searchParams.delete("area"); gs?u.searchParams.set("genre",gs):u.searchParams.delete("genre"); const wv=$("#when").value==="pick"?$("#when-pick").value:$("#when").value; wv?u.searchParams.set("date",wv):u.searchParams.delete("date");
@@ -377,6 +383,9 @@
     $("#when-pick").addEventListener("change",()=>{limit=60;render();});
     $("#clear").addEventListener("click",()=>{$("#q").value="";$("#area").value="";$("#genre").value="";setWhen("");fillVenues();$("#venue").value="";limit=60;render();$("#q").focus();});
     $("#more").addEventListener("click",()=>{limit+=60;render();});
+    $("#fo-open").addEventListener("click",()=>{foOpen=true;render();});
+    // remember the city so the home page can bring a returning visitor straight back
+    try { localStorage.setItem("sc-city", document.body.dataset.city || "seattle"); } catch(e) {}
     SC.previews(document.getElementById("lineup"));
     render();
   }).catch(()=>{ $("#lineup").innerHTML = `<p class="empty">The show list didn't load. Refresh the page to try again.</p>`; });

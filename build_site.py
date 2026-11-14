@@ -339,7 +339,7 @@ def city_pages():
                 html = html.replace(a, b)
             if page == "shows.html":
                 for a, b in [('<body data-city', '<body data-view="shows" data-city'),
-                             ('<a href="./" aria-current="page">Playlists</a>', '<a href="./">Playlists</a>'),
+                             ('<a href="./" aria-current="page">What\'s on</a>', '<a href="./">What\'s on</a>'),
                              ('<a href="shows.html">Shows</a>', '<a href="shows.html" aria-current="page">Shows</a>'),
                              (f'<title>2 Week Soundcheck · {name}</title>', f'<title>Shows · 2 Week Soundcheck · {name}</title>'),
                              (f'content="https://2weeksoundcheck.com/{slug}/"', f'content="https://2weeksoundcheck.com/{slug}/shows.html"')]:
@@ -400,15 +400,18 @@ def home_page():
             areas = d.get("area_playlists") or {}
             areas = areas.values() if isinstance(areas, dict) else areas
             n_pl = 1 + sum(same(p) for p in areas) + sum(same(p) for p in d.get("genre_playlists") or [])
-            n_venues = len({e["venue"] for e in d.get("events", []) if s0 <= e["date"] <= s1})
-            parts = [(n_pl, "playlist"), (n_venues, "venue"), (pl.get("artists", 0), "artist")]
-            stats = " · ".join(f"{n} {w}{'' if n == 1 else 's'}" for n, w in parts)
+            n_venues = len({e["venue"] for e in d.get("events", []) if max(s0, dt.date.today().isoformat()) <= e["date"] <= s1})
+            n_shows = sum(1 for e in d.get("events", []) if max(s0, dt.date.today().isoformat()) <= e["date"] <= s1 and e.get("status") != "cancelled")
+            parts = [(n_shows, "show"), (n_venues, "venue")]
+            stats = " at ".join(f"{n} {w}{'' if n == 1 else 's'}" for n, w in parts)
         # Up to three headliners from this window (still to come where possible), so the row shows names, not just counts.
         acts = ""
         if pl.get("start") and pl.get("end"):
             today = dt.date.today().isoformat()
             win = [e for e in d.get("events", []) if pl["start"] <= e["date"] <= pl["end"] and e.get("status") != "cancelled"]
-            names = list(dict.fromkeys(e["title"] for e in ([e for e in win if e["date"] >= today] or win)))
+            # plain act names only: drop "(matinee)", " - Early Show" and skip programs like "Festival: Act"
+            tidy = lambda t: re.sub(r"\s*(\([^)]*\)|[-–]\s*(early|late)\s+show)\s*$", "", t, flags=re.I).strip()
+            names = list(dict.fromkeys(tidy(e["title"]) for e in ([e for e in win if e["date"] >= today] or win) if ":" not in e["title"]))
             if names:
                 more = max(pl.get("artists", 0) - len(names[:3]), 0)
                 acts = ", ".join(H.escape(n) for n in names[:3]) + (f" + {more} more" if more else "")
