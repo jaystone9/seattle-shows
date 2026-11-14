@@ -47,12 +47,12 @@ def rng(s, e):
 
 def button(url, label):
     return (f'<p><a href="{html.escape(url)}" style="display:inline-block;background:{PINK};color:#121212;font-weight:700;'
-            f'padding:10px 18px;border-radius:999px;text-decoration:none">{label}</a></p>')
+            f'padding:10px 18px;border-radius:0;text-decoration:none">{label}</a></p>')
 
 
 def link(url, text, bold=False):
     t = f"<strong>{text}</strong>" if bold else text
-    return f'<a href="{html.escape(url)}" style="color:{PINK}">{t}</a>'
+    return f'<a href="{html.escape(url)}" style="color:#121212">{t}</a>'
 
 
 def check(url):
