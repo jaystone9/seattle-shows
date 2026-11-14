@@ -9,14 +9,8 @@
   --type:"Special Elite","Courier New",Courier,monospace;
   --marker:"Permanent Marker","Marker Felt","Comic Sans MS",cursive;
 }
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --bg:#141414; --surface:#1E1E1E; --ink:#F4F1E8; --muted:#B5B2A8; --line:#F4F1E8; --mark:#8EA8FF;
-  }
-}
-:root[data-theme="dark"]{
-  --bg:#141414; --surface:#1E1E1E; --ink:#F4F1E8; --muted:#B5B2A8; --line:#F4F1E8; --mark:#8EA8FF;
-}
+/* Always the light sheet: off-white paper with black type, even when the visitor's device is in dark mode (Jay, Nov 13, 2026). */
+:root{color-scheme:light}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--type);font-size:17px;line-height:1.55;font-weight:400}
@@ -129,7 +123,7 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .section-head p{margin:0;font-size:15px}
 .filters{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0 12px;border-bottom:1px solid var(--line)}
 .tools{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0}
-.tools input,.tools select,.tools #when-pick{font:inherit;font-size:16px;color:var(--ink);background:transparent;border:0;border-bottom:2px solid var(--line);border-radius:0;padding:9px 2px;min-width:0;min-height:44px;color-scheme:light dark}
+.tools input,.tools select,.tools #when-pick{font:inherit;font-size:16px;color:var(--ink);background:transparent;border:0;border-bottom:2px solid var(--line);border-radius:0;padding:9px 2px;min-width:0;min-height:44px;color-scheme:light}
 .tools select option{color:#121212;background:#FBFAF5}
 .tools input#q{flex:1 1 200px}
 .tools select{flex:0 1 170px}
