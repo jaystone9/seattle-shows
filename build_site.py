@@ -291,7 +291,8 @@ def city_picker():
     return opts
 
 
-PAGES = (("index.html", "templates/shows.html"), ("playlists.html", "templates/playlists.html"),
+# templates/shows.html makes two pages: the city page (playlist + signup) and shows.html (the show list).
+PAGES = (("index.html", "templates/shows.html"), ("shows.html", "templates/shows.html"), ("playlists.html", "templates/playlists.html"),
          ("contact.html", "templates/contact.html"))
 
 SEATTLE = {"name": "Seattle", "tz": "America/Los_Angeles", "data": "data/seattle.json", "area_playlists": ["Frelard"], "live": True}
@@ -336,6 +337,14 @@ def city_pages():
                 ]
             for a, b in subs:
                 html = html.replace(a, b)
+            if page == "shows.html":
+                for a, b in [('<body data-city', '<body data-view="shows" data-city'),
+                             ('<a href="./" aria-current="page">Playlists</a>', '<a href="./">Playlists</a>'),
+                             ('<a href="shows.html">Shows</a>', '<a href="shows.html" aria-current="page">Shows</a>'),
+                             (f'<title>2 Week Soundcheck · {name}</title>', f'<title>Shows · 2 Week Soundcheck · {name}</title>'),
+                             (f'content="https://2weeksoundcheck.com/{slug}/"', f'content="https://2weeksoundcheck.com/{slug}/shows.html"')]:
+                    assert a in html, a
+                    html = html.replace(a, b)
             html = picker(html, slug)   # after the name swap, so the Seattle option keeps its label
             os.makedirs(slug, exist_ok=True)
             out = f"{slug}/{page}"

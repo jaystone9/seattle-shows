@@ -3,6 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+// The show list has its own page (shows.html). Old links to the city page with a filter
+// (flyers with ?area=frelard, shared searches, newsletter links) are forwarded there.
+(function () {
+  if (/shows\.html$/.test(location.pathname)) return;
+  var p = new URLSearchParams(location.search);
+  if (["area", "venue", "genre", "date", "q"].some(function (k) { return p.has(k); }))
+    location.replace("shows.html" + location.search + location.hash);
+})();
+</script>
 <title>2 Week Soundcheck · Seattle</title>
 <meta name="description" content="The next two weeks of live music at Seattle's best venues, all in one place, plus a playlist of every headliner and ticket links.">
 <meta property="og:type" content="website">
@@ -37,9 +47,9 @@
     </label>
     </div>
     <nav class="nav" aria-label="Main">
-      <a href="playlists.html">Playlists</a>
+      <a href="./" aria-current="page">Playlists</a>
       <a href="#newsletter">Sunday email</a>
-      <a href="#set" aria-current="page">Shows</a>
+      <a href="shows.html">Shows</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
@@ -48,7 +58,7 @@
     <h1 id="range" class="pending"><span id="r1">The next</span><span id="r2">two weeks</span></h1>
     <p id="lede">The next two weeks of live music at Seattle's best venues, all in one place. We hope you fall in love with some new artists and go see them live.</p>
     <div class="meter" id="meter" role="group" aria-label="The two weeks. Pick a date to see just that night."></div>
-    <p class="cal-note">Tap a date to see just that night.</p>
+    <p class="cal-note">Tap a date to see just that night. <a class="to-shows" id="to-shows" href="shows.html">See all the shows →</a></p>
   </section>
 
   <section class="listen" id="playlist" aria-labelledby="listen-h">
@@ -93,7 +103,7 @@
     <div id="lineup"></div>
   </section>
 
-  <section aria-labelledby="all-h">
+  <section id="further" aria-labelledby="all-h">
     <div class="section-head">
       <h2 id="all-h">Further out</h2>
       <p id="all-count"></p>
@@ -139,6 +149,9 @@
   load().then(data=>{
     // The page follows the current playlist's two weeks (e.g. Oct 12–25), so the dates
     // match the playlist and the newsletter. If that window has ended, fall back to today + 13.
+    // One template, two pages: the city page (playlist + signup) and shows.html (the show list).
+    const VIEW = document.body.dataset.view === "shows" ? "shows" : "listen";
+    if(VIEW==="shows") document.querySelector("footer").before(document.getElementById("newsletter"));
     const venues = data.venues, today = todayISO();
     const cur = data.playlist && data.playlist.end >= today ? data.playlist : null;
     const start = cur ? cur.start : today, end = cur ? cur.end : addDays(today,13);
@@ -166,6 +179,7 @@
     $("#meter").innerHTML = m;
     $("#meter").addEventListener("click",ev=>{
       const b=ev.target.closest(".ch"); if(!b || b.disabled) return;
+      if(VIEW!=="shows"){ location.href = "shows.html?date=" + b.dataset.day; return; }
       const on = b.getAttribute("aria-pressed")==="true";
       setWhen(on ? "" : b.dataset.day); limit=60; render();
       if(!on) document.getElementById("set").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
@@ -183,6 +197,7 @@
     let plTab = "", plGenre = "";
     function showPlaylist(area, genre){
       plTab = area; plGenre = genre || "";
+      if(VIEW==="shows") return;  // no player on the Shows page
       const gp = plGenre ? genres.find(g=>g.slug===plGenre) : null;
       const pl = gp || (area ? areaPls[area] : data.playlist);
       document.querySelectorAll("#pl-tabs button").forEach(b=>b.setAttribute("aria-pressed", String(!gp && b.dataset.area===area)));
@@ -311,8 +326,9 @@
       $("#all-count").textContent = gf ? "" : filtered ? `${rows.length} match${rows.length===1?"":"es"}` : `${later.length} more shows through ${fmt(later.at(-1)?.date||end,{month:"long"})}`;
       // keep the filter in the URL so it can be shared
       const u = new URL(location.href); q?u.searchParams.set("q",$("#q").value.trim()):u.searchParams.delete("q"); vf?u.searchParams.set("venue",vf):u.searchParams.delete("venue"); af?u.searchParams.set("area",slug(af)):u.searchParams.delete("area"); gs?u.searchParams.set("genre",gs):u.searchParams.delete("genre"); const wv=$("#when").value==="pick"?$("#when-pick").value:$("#when").value; wv?u.searchParams.set("date",wv):u.searchParams.delete("date");
-      history.replaceState(null,"",u);
+      if(VIEW==="shows") history.replaceState(null,"",u);
     }
+    $("#to-shows").textContent = `See all ${soon.length} shows →`;
     $("#q").addEventListener("input",()=>{limit=60;render();});
     $("#venue").addEventListener("change",()=>{limit=60;render();});
     $("#genre").addEventListener("change",()=>{limit=60;render();});

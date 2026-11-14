@@ -37,9 +37,9 @@
     </label>
     </div>
     <nav class="nav" aria-label="Main">
-      <a href="playlists.html" aria-current="page">Playlists</a>
+      <a href="./">Playlists</a>
       <a href="#newsletter">Sunday email</a>
-      <a href="./#set">Shows</a>
+      <a href="shows.html">Shows</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
@@ -104,7 +104,7 @@ SC.load().then(data=>{
     const players = mains.map(p=>{
       const k = p.area || city;
       const who = p.area ? `${p.artists} artists, openers included` : `${p.artists} headliners`;
-      const shows = p.area ? `./?area=${encodeURIComponent(p.area.toLowerCase())}` : "./";
+      const shows = p.area ? `shows.html?area=${encodeURIComponent(p.area.toLowerCase())}` : "shows.html";
       return `<article class="pl-card" data-kind="${esc(k)}">
         <h3>${esc(p.area ? p.area : `All of ${city}`)}</h3>
         <p class="meta">${p.songs} songs from ${who} · <a href="${esc(p.url)}" target="_blank" rel="noopener">Open in Spotify</a>${now?` · <a href="${shows}">See the shows</a>`:""}</p>
@@ -112,7 +112,7 @@ SC.load().then(data=>{
       </article>`;}).join("");
     const tiles = gens.map(p=>`<article class="g-tile" data-kind="${esc(p.genre)}" data-id="${esc(p.id)}" data-label="${esc(r+" "+p.genre)}">
         <a class="g-open" href="${esc(p.url)}" target="_blank" rel="noopener"><strong>${esc(p.genre)}</strong><span>${p.songs} songs · ${p.artists} headliners</span><span class="g-go">Open in Spotify ↗</span></a>
-        ${now && slug[p.genre]?`<a class="g-shows" href="./?genre=${encodeURIComponent(slug[p.genre])}">See the shows</a>`:""}
+        ${now && slug[p.genre]?`<a class="g-shows" href="shows.html?genre=${encodeURIComponent(slug[p.genre])}">See the shows</a>`:""}
       </article>`).join("");
     return `<section class="wk${now?" current":""}">
       <h2>${esc(r)}${now?'<span class="now">This week</span>':""}</h2>

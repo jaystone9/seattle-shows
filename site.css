@@ -233,3 +233,10 @@ footer ul{list-style:none;padding:0;margin:0;display:grid;gap:3px}
 .field textarea{min-height:120px;resize:vertical;border:1px solid var(--line);padding:10px}
 .status{margin:12px 0 0}
 .status.err{color:var(--mark)}
+
+/* One template makes two pages. City page: playlist + signup. shows.html: the show list. */
+body:not([data-view="shows"]) #set,body:not([data-view="shows"]) #further{display:none}
+body[data-view="shows"] .listen,body[data-view="shows"] #lede,body[data-view="shows"] .to-shows{display:none}
+body[data-view="shows"] .hero h1{font-size:clamp(44px,9vw,84px)}
+body[data-view="shows"] .section-head{margin-top:40px}
+.to-shows{white-space:nowrap}

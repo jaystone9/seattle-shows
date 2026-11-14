@@ -162,12 +162,12 @@ def main(*args):
     t.append(f"Not on Spotify? Copy {which} to Apple Music, YouTube Music and more, free: {transfer}\n")
 
     h.append("<hr>")
-    h.append(f'<p>{link(SITE, f"All {n} shows are on the site →", bold=True)}<br>'
+    h.append(f'<p>{link(SITE + "shows.html", f"All {n} shows are on the site →", bold=True)}<br>'
              f'<span style="color:{MUTED}">Filter by date, neighborhood, venue or artist.</span></p>')
     h.append("<p>Want a playlist for your neighborhood next? Reply and tell us where.</p>")
     h.append(f"<p>Please share this with friends: forward it to them. They can sign up at {link(SITE, '2weeksoundcheck.com')}.</p>")
     h.append(f'<p style="color:{MUTED}">Run a venue or local business? Sponsor an issue. Just reply to this email.</p>')
-    t.append(f"All {n} shows are on the site. Filter by date, neighborhood, venue or artist: {SITE}\n")
+    t.append(f"All {n} shows are on the site. Filter by date, neighborhood, venue or artist: {SITE}shows.html\n")
     t.append("Want a playlist for your neighborhood next? Reply and tell us where.\n")
     t.append(f"Please share this with friends: forward it to them. They can sign up at {SITE}\n")
     t.append("Run a venue or local business? Sponsor an issue. Just reply to this email.")
