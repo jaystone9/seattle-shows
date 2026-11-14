@@ -197,7 +197,7 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
                 "link": "tickets" if any(h in host for h in TICKET_HOSTS) else "details",
             })
     events.sort(key=lambda e: (e["date"], e["time"] or "99", e["title"].lower()))
-    # previews.json: {show title: {"artist": id, "track": id, "song": name}} for the next two weeks
+    # previews.json: {show title: {"artist": id, "track": id, "song": name}} for three weeks from the playlist's Sunday
     try:
         pv = json.load(open(path("previews.json")))
     except FileNotFoundError:
@@ -221,7 +221,10 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
         confirmed = {}
     try:
         cur = next((p for p in json.load(open(pl)) if not p.get("area")), None)
-        g_from, g_to = cur["start"], cur["end"]
+        # Three weeks from the playlist's Sunday: the page shows a rolling two weeks from today, so by
+        # Saturday it reaches six days past the playlist. The weekly prep covers the same three weeks.
+        g_from = cur["start"]
+        g_to = (dt.date.fromisoformat(cur["start"]) + dt.timedelta(days=20)).isoformat()
         if g_to < today.isoformat():
             raise ValueError
     except Exception:

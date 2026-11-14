@@ -1,5 +1,8 @@
 # Sunday run (2 Week Soundcheck · Seattle + Chicago + Salt Lake City)
 
+> **Three weeks of previews and genres (Jay, Nov 13, 2026).** The site now shows a rolling two weeks from *today*, not from Sunday, so by Saturday it reaches six days past the playlist. Playlists are still built for two weeks (Sunday → Sunday + 13). But `previews.json` (the "hear them" buttons) and the genre confirmations in `genres.json` must cover **three weeks** (Sunday → Sunday + 20) for every city. List those acts with `python3 lineup.py --days 21 --start <Sunday>` (add `--city …`). `build_site.py` tags genres for the same three weeks.
+
+
 Jay starts this in the "Seattle concerts" project on Sundays when he's at his computer
 ("run my Sunday Soundcheck" or "run my Seattle Shows playlist"). It replaces the old
 Monday scheduled task, which is paused because unattended runs can't reach the venue sites.

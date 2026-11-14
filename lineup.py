@@ -41,6 +41,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--area", help='e.g. "Frelard"; omit for citywide')
     ap.add_argument("--start", help="YYYY-MM-DD (default: today, Pacific)")
+    ap.add_argument("--days", type=int, default=14, help="how many days to list (default 14; use 21 for the site's song previews and genres)")
     ap.add_argument("--json", action="store_true", help="print JSON instead of text")
     ap.add_argument("--city", help="another edition from cities.py, e.g. chicago")
     a = ap.parse_args()
@@ -55,7 +56,7 @@ def main():
         tz, shows_dir, edition = build_site.CITY["tz"], build_site.path("shows"), build_site.CITY["name"]
     venue_key, split_title = build_site.venue_key, build_site.split_title
     start = dt.date.fromisoformat(a.start) if a.start else dt.datetime.now(ZoneInfo(tz)).date()
-    end = start + dt.timedelta(days=13)
+    end = start + dt.timedelta(days=a.days - 1)
     venues = build_site.VENUES
     events = []
     for f in sorted(glob.glob(f"{shows_dir}/*.json")):

@@ -61,7 +61,7 @@
     <p id="lede">Every concert at Salt Lake City's best venues for the next two weeks. Hear any artist before you buy a ticket.</p>
     <p id="r2" class="when"></p>
     <div class="meter" id="meter" role="group" aria-label="The two weeks. Pick a date to see just that night."></div>
-    <p class="cal-note">The small number is how many shows that night. Tap a date to see them.</p>
+    <p class="cal-note">The next two weeks, starting today. The small number is how many shows that night; tap a date to see them.</p>
   </section>
 
   <section id="picks" aria-label="Tonight and this weekend"></section>
@@ -69,7 +69,7 @@
 
   <section class="listen" id="playlist" aria-labelledby="listen-h">
     <div>
-      <h2 id="listen-h"><span class="mk">or just press play</span><span>The 2 week playlist</span></h2>
+      <h2 id="listen-h"><span class="mk">or just press play</span><span>The 2 week playlist / new every Sunday</span></h2>
       <div class="pl-pick">
         <p class="genre-label">Pick a playlist</p>
         <div class="pl-tabs" id="pl-tabs" role="group" aria-label="Which playlist" hidden></div>
@@ -88,7 +88,7 @@
 
   <section class="signup" id="newsletter" aria-labelledby="signup-h">
     <h3 id="signup-h">get it every Sunday</h3>
-    <p>The next two weeks of Salt Lake City shows and the playlist to hear them first. Free, one email a week.</p>
+    <p>A new playlist and the next two weeks of Salt Lake City shows, in your inbox every Sunday. Free, one email a week.</p>
     <div id="signup-slot" data-signup></div>
     <p class="nl-note">Using Gmail? Your first email may land in Promotions. Drag it to Primary so the playlist shows up in your inbox every Sunday.</p>
     <div class="alt">Or put every show in your calendar: <a data-cal href="#">Apple Calendar</a> or <a data-gcal href="#">Google Calendar</a>. It updates on its own.</div>
@@ -159,14 +159,14 @@
   const $ = s => document.querySelector(s);
 
   load().then(data=>{
-    // The page follows the current playlist's two weeks (e.g. Oct 12–25), so the dates
-    // match the playlist and the newsletter. If that window has ended, fall back to today + 13.
+    // The shows on the page are always the next two weeks from today (today + 13 days), so the
+    // page rolls forward every day. The playlists are rebuilt each Sunday for that Sunday's two
+    // weeks and say so; on a Sunday the two ranges are the same dates. (Jay, Nov 13, 2026.)
     // One template, two pages: the city page (playlist + signup) and shows.html (the show list).
     const VIEW = document.body.dataset.view === "shows" ? "shows" : "listen";
     if(VIEW==="shows") document.querySelector("footer").before(document.getElementById("newsletter"));
     const venues = data.venues, today = todayISO();
-    const cur = data.playlist && data.playlist.end >= today ? data.playlist : null;
-    const start = cur ? cur.start : today, end = cur ? cur.end : addDays(today,13);
+    const start = today, end = addDays(today,13);
     const days = Math.round((D(end)-D(start))/864e5)+1;
     const upcoming = data.events.filter(e=>e.date>=today);
     const soon = upcoming.filter(e=>e.date<=end), later = upcoming.filter(e=>e.date>end);
@@ -225,7 +225,7 @@
           ? `${pl.songs} songs from ${pl.artists} ${gp.genre} headliners playing ${range(pl.start,pl.end)}, in show order.`
           : area
           ? `${pl.songs} songs from ${pl.artists} artists playing ${where(area)} ${range(pl.start,pl.end)}, openers included, in show order.`
-          : `${pl.songs} songs from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order.`;
+          : `${pl.songs} songs from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order. A new playlist every Sunday.`;
       } else {
         $("#player").innerHTML = `<p class="empty" style="padding:24px">${area?`The first ${esc(area)} playlist lands this Sunday: every band on the bill at ${where(area)}, openers included.`:"This week's playlist is being built. Check back Sunday evening."}</p>`;
         $("#pl-sub").textContent = area ? `Every act playing ${where(area)}.` : "The top songs from every headliner, in show order.";

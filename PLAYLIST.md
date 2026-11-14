@@ -1,5 +1,8 @@
 # Sunday playlist procedure (run when Jay asks)
 
+> **Three weeks of previews and genres (Jay, Nov 13, 2026).** The site now shows a rolling two weeks from *today*, not from Sunday, so by Saturday it reaches six days past the playlist. Playlists are still built for two weeks (Sunday → Sunday + 13). But `previews.json` (the "hear them" buttons) and the genre confirmations in `genres.json` must cover **three weeks** (Sunday → Sunday + 20) for every city. List those acts with `python3 lineup.py --days 21 --start <Sunday>` (add `--city …`). `build_site.py` tags genres for the same three weeks.
+
+
 Part of the Sunday run: see SUNDAY.md for the full order (inbox check, venue refresh, this playlist, newsletter).
 
 Jay prompts this manually each Sunday ("run my Seattle Shows playlist"). Do not email until the playlist is fully built. This needs the desktop app's built-in browser: a cloud-only session (e.g. one started by the weekly scheduled task) can't do it, and the Spotify connector can't build multi-artist playlists.
