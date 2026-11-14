@@ -3,6 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+// The show list has its own page (shows.html). Old links to the city page with a filter
+// (flyers with ?area=frelard, shared searches, newsletter links) are forwarded there.
+(function () {
+  if (/shows\.html$/.test(location.pathname)) return;
+  var p = new URLSearchParams(location.search);
+  if (["area", "venue", "genre", "date", "q"].some(function (k) { return p.has(k); }))
+    location.replace("shows.html" + location.search + location.hash);
+})();
+</script>
 <title>2 Week Soundcheck · Salt Lake City</title>
 <meta name="description" content="The next two weeks of live music at Salt Lake City's best venues, all in one place, plus a playlist of every headliner and ticket links.">
 <meta property="og:type" content="website">
@@ -16,13 +26,13 @@
 <meta property="og:image:alt" content="A vintage photo of a bandleader singing into a microphone with a bass player behind him, captioned 2 Week Soundcheck, Salt Lake City.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://2weeksoundcheck.com/og-image-salt-lake.jpg">
-<meta name="theme-color" content="#F3F5F9" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#1A2030" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231C2433'/%3E%3Crect x='6' y='14' width='4' height='12' fill='%23D6336C'/%3E%3Crect x='14' y='8' width='4' height='18' fill='%23D6336C'/%3E%3Crect x='22' y='11' width='4' height='15' fill='%23D6336C'/%3E%3Crect x='14' y='5' width='4' height='2' fill='%23F2A100'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#FBFAF5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121212'/%3E%3Crect x='6' y='14' width='4' height='12' fill='%23FBFAF5'/%3E%3Crect x='14' y='8' width='4' height='18' fill='%23FBFAF5'/%3E%3Crect x='22' y='11' width='4' height='15' fill='%23FBFAF5'/%3E%3Crect x='14' y='5' width='4' height='2' fill='%23FFE14D'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=8ee10594">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css?v=1140bf2c">
 </head>
 <body data-city="salt-lake" data-tz="America/Denver" data-data="../data/salt-lake.json">
 <div class="wrap">
@@ -37,22 +47,22 @@
       </select>
     </label>
     </div>
+    <a class="nl-cta" href="#newsletter">Sunday email</a>
     <nav class="nav" aria-label="Main">
-      <a href="./" aria-current="page">Shows</a>
-      <a href="playlists.html">Playlists</a>
-      <a href="#newsletter">Sunday email</a>
+      <a href="./" aria-current="page">Playlists</a>
+      <a href="shows.html">Shows</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <section class="hero" aria-labelledby="range">
-    <h1 id="range" class="pending"><span id="r1">The next</span><span id="r2">two weeks</span></h1>
+    <h1 id="range" class="pending"><span class="city"><span id="r1">The next</span><svg class="scribble" viewBox="0 0 560 26" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16 C 60 4, 110 24, 170 12 S 290 6, 350 15 S 480 20, 556 8"/></svg></span> <span id="r2" class="when">two weeks</span></h1>
     <p id="lede">The next two weeks of live music at Salt Lake City's best venues, all in one place. We hope you fall in love with some new artists and go see them live.</p>
-    <div class="meter" id="meter" role="list" aria-label="Shows per day"></div>
-    <div class="days" id="days" aria-hidden="true"></div>
+    <div class="meter" id="meter" role="group" aria-label="The two weeks. Pick a date to see just that night."></div>
+    <p class="cal-note">Tap a date to see just that night. <a class="to-shows" id="to-shows" href="shows.html">See all the shows →</a></p>
   </section>
 
-  <section class="listen" aria-labelledby="listen-h">
+  <section class="listen" id="playlist" aria-labelledby="listen-h">
     <div>
       <h2 id="listen-h">Find your next show</h2>
       <div class="pl-tabs" id="pl-tabs" role="group" aria-label="Which playlist" hidden></div>
@@ -65,16 +75,17 @@
       <p class="pl-note" id="pl-note" hidden>Follow it once on Spotify. It refreshes every Sunday.</p>
       <p style="margin:12px 0 0"><a href="playlists.html">Past playlists</a></p>
     </div>
-    <aside class="signup" id="newsletter" aria-labelledby="signup-h">
-      <h3 id="signup-h">Get it every Sunday</h3>
-      <p>Get this week's playlist sent straight to your inbox every Sunday. Free, one email a week.</p>
-      <div id="signup-slot" data-signup></div>
-      <p class="nl-note"><b>Using Gmail?</b> Your first email may land in Promotions. <b>Drag it to Primary</b> so the playlist shows up in your inbox every Sunday.</p>
-      <div class="alt">Or put every show in your calendar: <a data-cal href="#">Apple Calendar</a> or <a data-gcal href="#">Google Calendar</a>. It updates on its own.</div>
-    </aside>
   </section>
 
-  <section aria-labelledby="lineup-h">
+  <section class="signup" id="newsletter" aria-labelledby="signup-h">
+    <h3 id="signup-h">get it every Sunday</h3>
+    <p>Get this week's playlist sent straight to your inbox every Sunday. Free, one email a week.</p>
+    <div id="signup-slot" data-signup></div>
+    <p class="nl-note">Using Gmail? Your first email may land in Promotions. Drag it to Primary so the playlist shows up in your inbox every Sunday.</p>
+    <div class="alt">Or put every show in your calendar: <a data-cal href="#">Apple Calendar</a> or <a data-gcal href="#">Google Calendar</a>. It updates on its own.</div>
+  </section>
+
+  <section id="set" aria-labelledby="lineup-h">
     <div class="section-head">
       <h2 id="lineup-h">The next two weeks</h2>
       <p id="lineup-count"></p>
@@ -93,7 +104,7 @@
     <div id="lineup"></div>
   </section>
 
-  <section aria-labelledby="all-h">
+  <section id="further" aria-labelledby="all-h">
     <div class="section-head">
       <h2 id="all-h">Further out</h2>
       <p id="all-count"></p>
@@ -130,7 +141,7 @@
 </div>
 
 <script>setTimeout(()=>document.getElementById("range")?.classList.remove("pending"),2500)</script>
-<script src="../common.js?v=157d343f"></script>
+<script src="../common.js?v=6a7e4423"></script>
 <script>
 (function(){
   const {esc,todayISO,addDays,D,fmt,range,showRow,load,footer} = SC;
@@ -139,6 +150,9 @@
   load().then(data=>{
     // The page follows the current playlist's two weeks (e.g. Oct 12–25), so the dates
     // match the playlist and the newsletter. If that window has ended, fall back to today + 13.
+    // One template, two pages: the city page (playlist + signup) and shows.html (the show list).
+    const VIEW = document.body.dataset.view === "shows" ? "shows" : "listen";
+    if(VIEW==="shows") document.querySelector("footer").before(document.getElementById("newsletter"));
     const venues = data.venues, today = todayISO();
     const cur = data.playlist && data.playlist.end >= today ? data.playlist : null;
     const start = cur ? cur.start : today, end = cur ? cur.end : addDays(today,13);
@@ -149,27 +163,29 @@
     footer(data);
 
     // hero
-    $("#r1").textContent = range(start,end);
-    $("#r2").textContent = `${windowShows.length} show${windowShows.length===1?"":"s"}`;
+    const cityName = data.edition||"Salt Lake City";
+    $("#r1").textContent = cityName;
+    $("#r1").classList.toggle("long", cityName.length>9);  // long names (Salt Lake City) get a smaller size
+    $("#r2").textContent = `${range(start,end)} / ${soon.length} show${soon.length===1?"":"s"}`;
     $("#range").classList.remove("pending");
 
     // meter
     const byDay = {}; windowShows.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
     const max = Math.max(4,...Object.values(byDay).map(a=>a.length));
-    let m="", dl="";
+    // Past days are crossed out, today is circled, and tapping a date filters the list to that night.
+    let m="";
     for(let i=0;i<days;i++){
-      const iso=addDays(start,i), past=iso<today, n=(byDay[iso]||[]).length, wd=D(iso).getUTCDay();
-      const h = n? Math.max(6, Math.round(n/max*84)) : 2;
+      const iso=addDays(start,i), past=iso<today, n=(byDay[iso]||[]).length;
       const label = `${fmt(iso,{weekday:"long",month:"long",day:"numeric"})}: ${n} show${n===1?"":"s"}${past?" (already happened)":""}`;
-      m += `<button class="ch${wd===5||wd===6?" weekend":""}${past?" past":""}"${past?" disabled":""} role="listitem" style="--h:${h}%;--i:${i}" aria-label="${label}" data-day="${iso}"><span class="n">${n||""}</span><span class="peak"></span><span class="bar"></span></button>`;
-      dl += `<span${past?' class="past"':""}>${fmt(iso,{weekday:"narrow"})}<strong>${fmt(iso,{day:"numeric"})}</strong></span>`;
+      m += `<button type="button" class="ch${past?" past":""}${iso===today?" today":""}"${past?" disabled":""} aria-pressed="false" aria-label="${label}" data-day="${iso}"><span class="w">${fmt(iso,{weekday:"short"})}</span><span class="n">${fmt(iso,{day:"numeric"})}</span></button>`;
     }
-    $("#meter").innerHTML = m; $("#days").innerHTML = dl;
+    $("#meter").innerHTML = m;
     $("#meter").addEventListener("click",ev=>{
-      const b=ev.target.closest(".ch"); if(!b) return;
-      if($("#q").value||$("#venue").value||$("#area").value||$("#when").value){ $("#q").value=""; $("#area").value=""; setWhen(""); fillVenues(); $("#venue").value=""; render(); }
-      const t=document.getElementById("d-"+b.dataset.day);
-      if(t){t.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"}); t.querySelector("h3").focus({preventScroll:true});}
+      const b=ev.target.closest(".ch"); if(!b || b.disabled) return;
+      if(VIEW!=="shows"){ location.href = "shows.html?date=" + b.dataset.day; return; }
+      const on = b.getAttribute("aria-pressed")==="true";
+      setWhen(on ? "" : b.dataset.day); limit=60; render();
+      if(!on) document.getElementById("set").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
     });
 
     // playlist
@@ -184,6 +200,7 @@
     let plTab = "", plGenre = "";
     function showPlaylist(area, genre){
       plTab = area; plGenre = genre || "";
+      if(VIEW==="shows") return;  // no player on the Shows page
       const gp = plGenre ? genres.find(g=>g.slug===plGenre) : null;
       const pl = gp || (area ? areaPls[area] : data.playlist);
       document.querySelectorAll("#pl-tabs button").forEach(b=>b.setAttribute("aria-pressed", String(!gp && b.dataset.area===area)));
@@ -285,6 +302,7 @@
     function render(){
       const q=$("#q").value.trim().toLowerCase(), vf=$("#venue").value, af=$("#area").value, dr=whenRange(), gs=$("#genre").value, gf=genreName(gs), filtered=!!(q||vf||af||dr||gf);
       $("#clear").hidden = !filtered;
+      document.querySelectorAll("#meter .ch").forEach(b=>b.setAttribute("aria-pressed", String(!!dr && dr[0]===dr[1] && dr[0]===b.dataset.day)));
       // next two weeks
       let html="", count=0;
       for(let i=0;iso_ok(i);i++){
@@ -292,7 +310,7 @@
         if(filtered && !list.length) continue;
         count += list.length;
         const name = i===0?"Today":i===1?"Tomorrow":fmt(iso,{weekday:"long"});
-        html += `<div class="day" id="d-${iso}"><h3 tabindex="-1">${name}<small>${fmt(iso,{month:"long",day:"numeric"})}</small></h3>${list.length?list.map(e=>showRow(e,venues,false)).join(""):`<p class="empty">No concerts at our venues. A good night for the playlist.</p>`}</div>`;
+        html += `<div class="day${i===0?" today":""}" id="d-${iso}"><h3 tabindex="-1">${name}<small>${fmt(iso,{month:"long",day:"numeric"})}</small></h3>${list.length?list.map(e=>showRow(e,venues,false)).join(""):`<p class="empty">No concerts at our venues. A good night for the playlist.</p>`}</div>`;
       }
       $("#lineup").innerHTML = html ? (af&&!vf&&!q?`<p class="area-note">${esc(af)}: ${af==="Frelard"?"the small rooms in Ballard and Fremont":esc(hoods(af))}.</p>`:"") + html : (dr && dr[0] > end ? "" : `<p class="empty">${dr?"No shows match on those dates.":`Nothing matches through ${fmt(end,{month:"long",day:"numeric"})}. Check Further out below, or clear the filters.`}</p>`);
       $("#lineup-h").textContent = `Now through ${fmt(end,{month:"long",day:"numeric"})}`;
@@ -311,8 +329,9 @@
       $("#all-count").textContent = gf ? "" : filtered ? `${rows.length} match${rows.length===1?"":"es"}` : `${later.length} more shows through ${fmt(later.at(-1)?.date||end,{month:"long"})}`;
       // keep the filter in the URL so it can be shared
       const u = new URL(location.href); q?u.searchParams.set("q",$("#q").value.trim()):u.searchParams.delete("q"); vf?u.searchParams.set("venue",vf):u.searchParams.delete("venue"); af?u.searchParams.set("area",slug(af)):u.searchParams.delete("area"); gs?u.searchParams.set("genre",gs):u.searchParams.delete("genre"); const wv=$("#when").value==="pick"?$("#when-pick").value:$("#when").value; wv?u.searchParams.set("date",wv):u.searchParams.delete("date");
-      history.replaceState(null,"",u);
+      if(VIEW==="shows") history.replaceState(null,"",u);
     }
+    $("#to-shows").textContent = `See all ${soon.length} shows →`;
     $("#q").addEventListener("input",()=>{limit=60;render();});
     $("#venue").addEventListener("change",()=>{limit=60;render();});
     $("#genre").addEventListener("change",()=>{limit=60;render();});

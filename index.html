@@ -25,39 +25,41 @@
 <meta property="og:image:alt" content="A vintage photo of a bandleader singing into a microphone with a bass player behind him, captioned 2 Week Soundcheck.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://2weeksoundcheck.com/og-image-home.jpg">
-<meta name="theme-color" content="#F3F5F9" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#1A2030" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231C2433'/%3E%3Crect x='6' y='14' width='4' height='12' fill='%23D6336C'/%3E%3Crect x='14' y='8' width='4' height='18' fill='%23D6336C'/%3E%3Crect x='22' y='11' width='4' height='15' fill='%23D6336C'/%3E%3Crect x='14' y='5' width='4' height='2' fill='%23F2A100'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#FBFAF5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121212'/%3E%3Crect x='6' y='14' width='4' height='12' fill='%23FBFAF5'/%3E%3Crect x='14' y='8' width='4' height='18' fill='%23FBFAF5'/%3E%3Crect x='22' y='11' width='4' height='15' fill='%23FBFAF5'/%3E%3Crect x='14' y='5' width='4' height='2' fill='%23FFE14D'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=8ee10594">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css?v=1140bf2c">
 <style>
-.home-hero{padding:64px 0 0}
-.eyebrow{margin:0 0 10px;font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gel)}
-.home-hero .lead{margin:0 0 12px;font-weight:700;font-size:28px;line-height:1.15;font-variation-settings:"wdth" 80;color:var(--muted);text-wrap:balance}
-@media (max-width:719px){.home-hero{padding-top:28px}}
-.cities{border-top:2px solid var(--ink)}
-.city-row{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px 24px;padding:14px 0 18px;border-bottom:2px solid var(--ink);text-decoration:none;color:var(--ink)}
-.city-name{font-weight:850;font-variation-settings:var(--narrow);font-size:clamp(56px,10vw,112px);line-height:.9;letter-spacing:-.02em}
-.city-name .arrow{color:var(--gel);display:inline-block;transition:transform .2s}
-.city-row:hover .city-name .arrow,.city-row:focus-visible .city-name .arrow{transform:translateX(8px)}
-.city-meta{color:var(--muted);font-size:16px}
-@media (min-width:720px){.city-meta{text-align:right}}
-@media (max-width:719px){.city-name{line-height:1}}
-.home-more{margin:20px 0 0;color:var(--muted);font-size:16px}
+.home-hero{padding:56px 0 0;display:flex;flex-wrap:wrap;gap:32px 40px;align-items:center}
+.home-hero > div{flex:1 1 380px;min-width:0}
+.eyebrow{margin:0 0 14px;font-size:15px;letter-spacing:.14em;text-transform:uppercase}
+.home-hero h1{margin:0;font-family:var(--marker);font-size:clamp(52px,9vw,92px);line-height:1.05}
+.home-hero h1 .hi{display:inline-block;background:var(--hi);color:var(--hi-ink);padding:0 14px;line-height:1.2;margin-top:10px;white-space:nowrap}
+.home-hero .lead{margin:20px 0 0;max-width:30em}
+.print{flex:0 0 230px;margin:0 auto;display:flex;flex-direction:column;align-items:center;transform:rotate(2.5deg)}
+.print::before{content:"";width:96px;height:28px;background:#B9B8B0;opacity:.9;margin-bottom:-14px;position:relative;z-index:1}
+.print img{display:block;width:230px;height:288px;object-fit:cover;border:8px solid #fff;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.home-signup h2{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px}
+.home-signup h2 .pl-tabs{margin:0;font-family:var(--type)}
+.home-signup .sub{margin:0 0 16px}
+.cities-h{margin:64px 0 12px;font-size:16px;letter-spacing:.14em;text-transform:uppercase}
+.cities{counter-reset:city;border-bottom:1px solid var(--line)}
+.city-row{counter-increment:city;display:grid;grid-template-columns:44px 1fr auto;gap:2px 12px;align-items:baseline;padding:20px 0;border-top:1px solid var(--line);text-decoration:none;color:var(--ink)}
+.city-row::before{content:counter(city) ".";grid-row:1 / span 3;font-family:var(--marker);font-size:26px;color:var(--mark)}
+.city-name{grid-column:2;font-size:clamp(30px,6vw,46px);line-height:1.1;letter-spacing:.02em;text-transform:uppercase}
+.city-name .arrow{display:none}
+.city-acts,.city-meta{grid-column:2}
+.city-acts{font-size:17px}
+.city-meta{font-size:15px}
+.city-go{grid-column:3;grid-row:1 / span 3;align-self:center;display:inline-flex;align-items:center;min-height:44px;padding:0 8px;background:var(--hi);color:var(--hi-ink);white-space:nowrap}
+.city-row:hover .city-name{color:var(--mark)}
+@media (max-width:560px){.city-row{grid-template-columns:32px 1fr}.city-go{grid-column:2;grid-row:auto;justify-self:start;margin-top:6px}}
+.home-more{margin:20px 0 0;font-size:16px}
 .home-more.soon{margin-top:6px}
-.home-more.soon a{white-space:nowrap}
-@media (max-width:719px){.home-more .tagline{display:block}}
-.home-signup{margin:56px 0 0;display:grid;gap:16px 32px;align-items:center;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--gel);border-radius:12px;padding:24px;scroll-margin-top:16px}
-@media (min-width:760px){.home-signup{grid-template-columns:1.1fr 1fr;padding:28px 32px}}
-.home-signup h2{margin:0;font-size:30px;line-height:1.05;font-weight:850;font-variation-settings:var(--narrow);display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
-.home-signup h2 .pl-tabs{margin:0}
-.home-signup h2 .pl-tabs button{font-size:16px;padding:7px 16px}
-.home-signup .sub{margin:8px 0 0;color:var(--muted);font-size:16px}
-.home-signup footer,.home-foot{margin-top:48px}
-.home-foot{padding:24px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:8px 20px}
-.home-foot a{color:var(--muted)}
+.home-foot{margin-top:64px;padding:24px 0 40px;border-top:1px solid var(--line);font-size:14px;display:flex;flex-wrap:wrap;gap:8px 20px}
 </style>
 </head>
 <body>
@@ -66,37 +68,41 @@
     <div class="brandrow">
       <a class="brand" href="/"><b>2</b> Week Soundcheck</a>
     </div>
+    <a class="nl-cta" href="#newsletter">Sunday email</a>
     <nav class="nav" aria-label="Main">
-      <a href="#newsletter">Sunday email</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <main>
     <section class="home-hero" aria-labelledby="pick">
-      <p class="eyebrow">Nov 8–21 · Refreshed every Sunday</p>
-      <h1 id="pick" class="lead">The next two weeks of live music in</h1>
-      <nav class="cities" aria-label="Choose a city">
-      <a class="city-row" href="/seattle/" data-city="seattle"><span class="city-name">Seattle<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta">10 playlists · 20 venues · 146 artists</span></a>
-      <a class="city-row" href="/chicago/" data-city="chicago"><span class="city-name">Chicago<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta">12 playlists · 44 venues · 264 artists</span></a>
-      <a class="city-row" href="/salt-lake/" data-city="salt-lake"><span class="city-name">Salt Lake City<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta">9 playlists · 9 venues · 60 artists</span></a>
-      </nav>
-      <p class="home-more">Playlists by city, neighborhood and genre. <span class="tagline">Discover more music. Go to more shows.</span></p>
-      <p class="home-more soon">More cities coming soon. <a href="contact.html#contact">Tell us where you want one</a></p>
+      <div>
+        <p class="eyebrow">Nov 8–21 / new every Sunday</p>
+        <h1 id="pick">hear the next two weeks. <span class="hi">then go.</span></h1>
+        <p class="lead">Every headliner playing your city in the next two weeks, in one playlist, with every show on one page.</p>
+      </div>
+      <figure class="print"><img src="bandstand.jpg" width="230" height="288" alt="Old black and white photo of a singer in a white dinner jacket at a stand microphone, with an upright bass player behind him"></figure>
     </section>
 
     <section class="home-signup" id="newsletter" aria-labelledby="nl-h">
-      <div>
-        <h2 id="nl-h"><span>Get it every Sunday for</span>
-          <span class="pl-tabs" id="nl-city" role="group" aria-label="Newsletter city"></span>
-        </h2>
-        <p class="sub" id="nl-sub"></p>
-      </div>
+      <h2 id="nl-h"><span>get it every Sunday for</span>
+        <span class="pl-tabs" id="nl-city" role="group" aria-label="Newsletter city"></span>
+      </h2>
+      <p class="sub" id="nl-sub"></p>
       <div class="nl-form">
         <div id="nl-slots"></div>
-        <p class="nl-note"><b>Using Gmail?</b> Your first email may land in Promotions. <b>Drag it to Primary</b> so the playlist shows up in your inbox every Sunday.</p>
+        <p class="nl-note">Using Gmail? Your first email may land in Promotions. Drag it to Primary so the playlist shows up in your inbox every Sunday.</p>
       </div>
     </section>
+
+    <h2 class="cities-h">Pick your city</h2>
+    <nav class="cities" aria-label="Choose a city">
+    <a class="city-row" href="/seattle/" data-city="seattle"><span class="city-name">Seattle<span class="arrow" aria-hidden="true"> →</span></span><span class="city-acts">Hit the Lights, Kim Virant - Early Show, Son Volt + 143 more</span><span class="city-meta">10 playlists · 20 venues · 146 artists</span><span class="city-go">see the shows →</span></a>
+      <a class="city-row" href="/chicago/" data-city="chicago"><span class="city-name">Chicago<span class="arrow" aria-hidden="true"> →</span></span><span class="city-acts">Future Folk Festival: Eva Supreme, Sunday Cruise, almost monday + 261 more</span><span class="city-meta">12 playlists · 44 venues · 264 artists</span><span class="city-go">see the shows →</span></a>
+      <a class="city-row" href="/salt-lake/" data-city="salt-lake"><span class="city-name">Salt Lake City<span class="arrow" aria-hidden="true"> →</span></span><span class="city-acts">GWAR, Frankie J, Kirk Dath and The Bruisers + 57 more</span><span class="city-meta">9 playlists · 9 venues · 60 artists</span><span class="city-go">see the shows →</span></a>
+    </nav>
+    <p class="home-more">Playlists by city, neighborhood and genre. Discover more music. Go to more shows.</p>
+    <p class="home-more soon">More cities coming soon. <a href="contact.html#contact">Tell us where you want one</a></p>
   </main>
 
   <footer class="home-foot">
@@ -106,7 +112,7 @@
   </footer>
 </div>
 
-<script src="common.js?v=157d343f"></script>
+<script src="common.js?v=6a7e4423"></script>
 <script>
 (function () {
   // Each city's signup form (from its newsletter.json), filled in by build_site.py: beehiiv for
@@ -131,7 +137,7 @@
   const pub = (FORMS[cur] || {}).publication_id;
   const subscribed = pub && document.cookie.split(";").some(c => c.trim().startsWith("bhv_" + pub + "_subscribed="));
   if (subscribed) {
-    tabs.parentElement.querySelector("span").textContent = "Get it every Sunday";
+    tabs.parentElement.querySelector("span").textContent = "get it every Sunday";
     tabs.remove();
     slots.innerHTML = `<p class="nl-done">✓ You're subscribed. The next playlist lands in your inbox Sunday.</p>`;
     return;
