@@ -291,7 +291,8 @@ def city_picker():
     return opts
 
 
-PAGES = (("index.html", "templates/shows.html"), ("playlists.html", "templates/playlists.html"),
+# templates/shows.html makes two pages: the city page (playlist + signup) and shows.html (the show list).
+PAGES = (("index.html", "templates/shows.html"), ("shows.html", "templates/shows.html"), ("playlists.html", "templates/playlists.html"),
          ("contact.html", "templates/contact.html"))
 
 SEATTLE = {"name": "Seattle", "tz": "America/Los_Angeles", "data": "data/seattle.json", "area_playlists": ["Frelard"], "live": True}
@@ -336,6 +337,14 @@ def city_pages():
                 ]
             for a, b in subs:
                 html = html.replace(a, b)
+            if page == "shows.html":
+                for a, b in [('<body data-city', '<body data-view="shows" data-city'),
+                             ('<a href="./" aria-current="page">Playlists</a>', '<a href="./">Playlists</a>'),
+                             ('<a href="shows.html">Shows</a>', '<a href="shows.html" aria-current="page">Shows</a>'),
+                             (f'<title>2 Week Soundcheck · {name}</title>', f'<title>Shows · 2 Week Soundcheck · {name}</title>'),
+                             (f'content="https://2weeksoundcheck.com/{slug}/"', f'content="https://2weeksoundcheck.com/{slug}/shows.html"')]:
+                    assert a in html, a
+                    html = html.replace(a, b)
             html = picker(html, slug)   # after the name swap, so the Seattle option keeps its label
             os.makedirs(slug, exist_ok=True)
             out = f"{slug}/{page}"
@@ -355,11 +364,12 @@ def contact_root():
     cities = "".join(f'<li><a href="/{k}/">{c["name"]}</a></li>' for k, c in eds)
     html = re.sub(r'\s*<label class="edition">.*?</label>', "", html, flags=re.S)
     html = re.sub(r'<nav class="nav" aria-label="Main">.*?</nav>',
-                  '<nav class="nav" aria-label="Main">\n      <a href="/#newsletter">Sunday email</a>\n      <a href="contact.html" aria-current="page">Contact</a>\n    </nav>', html, flags=re.S)
+                  '<nav class="nav" aria-label="Main">\n      <a href="contact.html" aria-current="page">Contact</a>\n    </nav>', html, flags=re.S)
     html = re.sub(r'<footer>.*?</footer>',
                   '<footer>\n    <div class="foot">\n      <div>\n        <h4>About</h4>\n        <p>2 Week Soundcheck tracks every concert at a short list of rooms worth knowing, refreshed every week, so you can discover new music and go to more shows.</p>\n      </div>\n'
                   f'      <div>\n        <h4>Cities</h4>\n        <ul>{cities}</ul>\n      </div>\n    </div>\n  </footer>', html, flags=re.S)
-    for a, b in [('<div class="field" id="r-city-field" hidden>', '<div class="field" id="r-city-field">'),
+    for a, b in [('class="nl-cta" href="#newsletter"', 'class="nl-cta" href="/#newsletter"'),
+                 ('<div class="field" id="r-city-field" hidden>', '<div class="field" id="r-city-field">'),
                  ("<!--CITY_OPTIONS-->", opts),
                  ('class="brand" href="./"', 'class="brand" href="/"'),
                  ("og-image.jpg", "og-image-home.jpg"),
@@ -393,7 +403,18 @@ def home_page():
             n_venues = len({e["venue"] for e in d.get("events", []) if s0 <= e["date"] <= s1})
             parts = [(n_pl, "playlist"), (n_venues, "venue"), (pl.get("artists", 0), "artist")]
             stats = " · ".join(f"{n} {w}{'' if n == 1 else 's'}" for n, w in parts)
-        rows.append(f'      <a class="city-row" href="/{slug}/" data-city="{slug}"><span class="city-name">{H.escape(c["name"])}<span class="arrow" aria-hidden="true"> →</span></span><span class="city-meta">{stats}</span></a>')
+        # Up to three headliners from this window (still to come where possible), so the row shows names, not just counts.
+        acts = ""
+        if pl.get("start") and pl.get("end"):
+            today = dt.date.today().isoformat()
+            win = [e for e in d.get("events", []) if pl["start"] <= e["date"] <= pl["end"] and e.get("status") != "cancelled"]
+            names = list(dict.fromkeys(e["title"] for e in ([e for e in win if e["date"] >= today] or win)))
+            if names:
+                more = max(pl.get("artists", 0) - len(names[:3]), 0)
+                acts = ", ".join(H.escape(n) for n in names[:3]) + (f" + {more} more" if more else "")
+        rows.append(f'      <a class="city-row" href="/{slug}/" data-city="{slug}"><span class="city-name">{H.escape(c["name"])}<span class="arrow" aria-hidden="true"> →</span></span>'
+                    + (f'<span class="city-acts">{acts}</span>' if acts else "")
+                    + f'<span class="city-meta">{stats}</span><span class="city-go">see the shows →</span></a>')
         nl = d.get("newsletter") or {}
         forms[slug] = {"name": c["name"], "form_id": nl.get("form_id"), "publication_id": nl.get("publication_id"),
                        "provider": nl.get("provider"), "kit_uid": nl.get("kit_uid"), "kit_src": nl.get("kit_src")}
