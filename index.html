@@ -55,13 +55,11 @@
 .cities-h{margin:64px 0 12px;font-size:16px;letter-spacing:.14em;text-transform:uppercase}
 .cities{counter-reset:city;border-bottom:1px solid var(--line)}
 .city-row{counter-increment:city;display:grid;grid-template-columns:44px 1fr auto;gap:2px 12px;align-items:baseline;padding:20px 0;border-top:1px solid var(--line);text-decoration:none;color:var(--ink)}
-.city-row::before{content:counter(city) ".";grid-row:1 / span 3;font-family:var(--marker);font-size:26px;color:var(--mark)}
+.city-row::before{content:counter(city) ".";grid-row:1 / span 2;font-family:var(--marker);font-size:26px;color:var(--mark)}
 .city-name{grid-column:2;font-size:clamp(30px,6vw,46px);line-height:1.1;letter-spacing:.02em;text-transform:uppercase}
 .city-name .arrow{display:none}
-.city-acts,.city-meta{grid-column:2}
-.city-acts{font-size:17px}
-.city-meta{font-size:15px}
-.city-go{grid-column:3;grid-row:1 / span 3;align-self:center;display:inline-flex;align-items:center;min-height:44px;padding:0 8px;background:var(--hi);color:var(--hi-ink);white-space:nowrap}
+.city-meta{grid-column:2;font-size:16px}
+.city-go{grid-column:3;grid-row:1 / span 2;align-self:center;display:inline-flex;align-items:center;min-height:44px;padding:0 8px;background:var(--hi);color:var(--hi-ink);white-space:nowrap}
 .city-row:hover .city-name{color:var(--mark)}
 @media (max-width:560px){.city-row{grid-template-columns:32px 1fr}.city-go{grid-column:2;grid-row:auto;justify-self:start;margin-top:6px}}
 .home-more{margin:20px 0 0;font-size:16px}
@@ -82,18 +80,17 @@
     <section class="home-hero" aria-labelledby="pick">
       <div>
         <h1 id="pick">hear the next two weeks. <span class="hi">then go.</span></h1>
-        <p class="lead">Every concert in your city for the next two weeks, and a playlist of every headliner so you can hear them first. Filter shows by genre, neighborhood or venue.</p>
+        <p class="lead">Every concert in your city for the next two weeks, and a playlist to hear the bands first.</p>
       </div>
       <figure class="print"><img src="bandstand.jpg" width="230" height="288" alt="Old black and white photo of a singer in a white dinner jacket at a stand microphone, with an upright bass player behind him"></figure>
     </section>
 
     <h2 class="cities-h">Pick your city</h2>
     <nav class="cities" aria-label="Choose a city">
-    <a class="city-row" href="/seattle/" data-city="seattle"><span class="city-name">Seattle<span class="arrow" aria-hidden="true"> →</span></span><span class="city-acts">Hit the Lights, Kim Virant, Son Volt + 143 more</span><span class="city-meta">114 shows at 19 venues</span><span class="city-go">see the shows →</span></a>
-      <a class="city-row" href="/chicago/" data-city="chicago"><span class="city-name">Chicago<span class="arrow" aria-hidden="true"> →</span></span><span class="city-acts">Sunday Cruise, almost monday, Danny Brown + 261 more</span><span class="city-meta">219 shows at 44 venues</span><span class="city-go">see the shows →</span></a>
-      <a class="city-row" href="/salt-lake/" data-city="salt-lake"><span class="city-name">Salt Lake City<span class="arrow" aria-hidden="true"> →</span></span><span class="city-acts">GWAR, Frankie J, Kirk Dath and The Bruisers + 57 more</span><span class="city-meta">48 shows at 9 venues</span><span class="city-go">see the shows →</span></a>
+    <a class="city-row" href="/chicago/" data-city="chicago"><span class="city-name">Chicago</span><span class="city-meta">12 playlists, 44 venues, 264 artists</span><span class="city-go">see the shows →</span></a>
+      <a class="city-row" href="/salt-lake/" data-city="salt-lake"><span class="city-name">Salt Lake City</span><span class="city-meta">9 playlists, 9 venues, 60 artists</span><span class="city-go">see the shows →</span></a>
+      <a class="city-row" href="/seattle/" data-city="seattle"><span class="city-name">Seattle</span><span class="city-meta">10 playlists, 19 venues, 146 artists</span><span class="city-go">see the shows →</span></a>
     </nav>
-    <p class="home-more">Playlists by city, neighborhood and genre. Discover more music. Go to more shows.</p>
     <p class="home-more soon">More cities coming soon. <a href="contact.html#contact">Tell us where you want one</a></p>
 
     <section class="home-signup" id="newsletter" aria-labelledby="nl-h">
