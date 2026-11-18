@@ -33,7 +33,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=646dd270">
+<link rel="stylesheet" href="../site.css?v=8dc39c29">
 </head>
 <body data-view="shows" data-city="salt-lake" data-tz="America/Denver" data-data="../data/salt-lake.json">
 <div class="wrap">
@@ -50,8 +50,8 @@
     </div>
     <a class="nl-cta" href="#newsletter">Get the Sunday email</a>
     <nav class="nav" aria-label="Main">
-      <a href="./">What's on</a>
-      <a href="shows.html" aria-current="page">Shows</a>
+      <a href="./">This week</a>
+      <a href="shows.html" aria-current="page">All shows</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
@@ -66,6 +66,7 @@
 
   <section id="picks" aria-label="Tonight and this weekend"></section>
   <p class="all-shows"><a class="to-shows" id="to-shows" href="shows.html">See all the shows →</a></p>
+  <p class="venue-line" id="venue-line"></p>
 
   <section class="listen" id="playlist" aria-labelledby="listen-h">
     <div>
@@ -280,6 +281,7 @@
         + l.map(k=>{ const n=count(k); return `<label class="vrow${picked.has(k)?" on":""}${n?"":" zero"}"><input type="checkbox" value="${esc(k)}"${picked.has(k)?" checked":""}><span class="vn">${esc(venues[k].short)}</span><span class="vc">${n}</span></label>`; }).join("") + `</div>`).join("");
     }
     function setPanel(open){ $("#venue-panel").hidden = !open; $("#venue-btn").setAttribute("aria-expanded", String(open)); }
+    const wantVenues = VIEW==="shows" && location.hash==="#venues";   // "See the venue list" on the city page lands here
     function pickChanged(how){
       if(picked.size){ saved = [...picked]; try { localStorage.setItem(SAVE, JSON.stringify(saved)); } catch(e) {} }
       limit=60; render();
@@ -385,38 +387,43 @@
       if(VIEW==="shows") history.replaceState(null,"",u);
     }
     $("#to-shows").textContent = `See all ${soon.length} shows, by date, venue or genre →`;
+    { const nv = new Set(soon.map(e=>e.venue)).size, vl = $("#venue-line"); if(vl) vl.innerHTML = `${nv} venues in the next two weeks. <a href="shows.html#venues">See the venue list →</a>`; }
 
     // City page: tonight (or the next night with shows) and the weekend ahead, a few shows each,
     // every row with a "hear them" button. Time order; only shows that have a song to play.
     if(VIEW!=="shows"){
       const ok = e => e.preview && e.status!=="cancelled";
       const rows = (list,n) => list.slice(0,n).map(e=>showRow(e,venues,false)).join("");
+      // these lists are a sample: say so ("4 of 19 shows") so nobody thinks the rest are missing
+      const cnt = (n,all) => n<all ? `${n} of ${all} shows` : `${all} show${all===1?"":"s"}`;
       const first = soon.length ? soon[0].date : null;
       let html = "";
       if(first){
-        const all = soon.filter(e=>e.date===first), pick = all.filter(ok).slice(0,4);
+        const all = soon.filter(e=>e.date===first), pick = all.filter(ok).slice(0, all.length<=8 ? 8 : 4);  // a short night is shown whole
         const name = first===today ? "tonight" : fmt(first,{weekday:"long"}).toLowerCase();
         const more = all.length - pick.length;
-        html += `<div class="pick${first===today?" today":""}"><h2><span class="mk">${name}</span><span>${fmt(first,{weekday:"short",month:"short",day:"numeric"}).replace(",","")} / ${all.length} show${all.length===1?"":"s"}</span></h2>${rows(pick,4)}${more>0?`<a class="pick-more" href="shows.html?date=${first}">+ ${more} more ${name} →</a>`:""}</div>`;
+        html += `<div class="pick${first===today?" today":""}"><h2><span class="mk">${name}</span><span>${fmt(first,{weekday:"short",month:"short",day:"numeric"}).replace(",","")} / ${cnt(pick.length,all.length)}</span></h2>${rows(pick,8)}${more>0?`<a class="pick-more" href="shows.html?date=${first}">See all ${all.length} shows ${name==="tonight"?"tonight":"on "+fmt(first,{weekday:"long"})}&nbsp;→</a>`:""}</div>`;
         const wd = D(first).getUTCDay();                       // 0 = Sunday
         const sat = addDays(first, wd===6 ? 0 : 6-wd), sun = addDays(sat,1);
         const wdays = [sat,sun].filter(d=>d>first && d<=end);
         const wAll = soon.filter(e=>wdays.includes(e.date));
         const per = wdays.map(d=>wAll.filter(e=>e.date===d && ok(e)));
-        const take = per.map((l,i)=>l.slice(0, per.length===2 ? (i?2:3) : 5));
+        const dayAll = wdays.map(d=>wAll.filter(e=>e.date===d).length);
+        const take = per.map((l,i)=>l.slice(0, dayAll[i]<=8 ? 8 : per.length===2 ? (i?2:3) : 5));  // a short day is shown whole
         const shown = take.reduce((a,l)=>a+l.length,0);
         if(shown){
           const label = wd===0 ? "next weekend" : wdays.length===2 ? "this weekend" : fmt(wdays[0],{weekday:"long"}).toLowerCase();
           const href = wdays.length===1 ? `shows.html?date=${wdays[0]}` : wd===0 ? "shows.html?date=next-weekend" : "shows.html?date=weekend";
           const wm = wAll.length - shown;
-          html += `<div class="pick"><h2><span class="mk">${label}</span><span>${wdays.map(d=>fmt(d,{weekday:"short"})).join(" + ")} / ${wAll.length} show${wAll.length===1?"":"s"}</span></h2>`
-            + wdays.map((d,i)=>take[i].length?`<h3>${fmt(d,{weekday:"long",month:"long",day:"numeric"})}</h3>${rows(take[i],5)}`:"").join("")
-            + (wm>0?`<a class="pick-more" href="${href}">+ ${wm} more ${label} →</a>`:"") + `</div>`;
+          html += `<div class="pick"><h2><span class="mk">${label}</span><span>${wdays.map(d=>fmt(d,{weekday:"short"})).join(" + ")} / ${cnt(shown,wAll.length)}</span></h2>`
+            + wdays.map((d,i)=>take[i].length?`<h3>${fmt(d,{weekday:"long",month:"long",day:"numeric"})}${take[i].length<dayAll[i]?` <span class="of">${take[i].length} of ${dayAll[i]} shows</span>`:""}</h3>${rows(take[i],8)}`:"").join("")
+            + (wm>0?`<a class="pick-more" href="${href}">See all ${wAll.length} shows ${label.replace(" ","&nbsp;")}&nbsp;→</a>`:"") + `</div>`;
         }
       }
       $("#picks").innerHTML = html;
       SC.previews(document.getElementById("picks"));
     }
+    if(wantVenues){ setPanel(true); document.getElementById("venue-btn").scrollIntoView(); SC.track("venues-open",{from:"city-page"}); }
     let qT; $("#q").addEventListener("input",()=>{limit=60;render(); clearTimeout(qT); qT=setTimeout(()=>{ if($("#q").value.trim()) SC.track("search"); },1500);});
     $("#genre").addEventListener("change",()=>{limit=60;render(); SC.track("genre-filter",{genre:$("#genre").value||"all"});});
     $("#venue-btn").addEventListener("click",()=>{ const open=$("#venue-panel").hidden; setPanel(open); if(open) SC.track("venues-open"); });
