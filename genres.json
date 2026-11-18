@@ -9718,5 +9718,69 @@
   ],
   "confirmed": "2026-10-30",
   "spotify": "13Mv9xsTvpgUxCdth9MWnG"
+ },
+ "Oz Noy": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-17",
+  "source": "lastfm"
+ },
+ "Oz Noy Trio": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-17",
+  "source": "lastfm"
+ },
+ "Oz Noy Trio featuring Dave Weckl & Brian Charette": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-17",
+  "source": "lastfm"
+ },
+ "3rd Secret": {
+  "genres": [
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-17",
+  "source": "lastfm"
+ },
+ "Trace Bundy": {
+  "genres": [
+   "Folk & Country"
+  ],
+  "confirmed": "2026-11-17",
+  "source": "lastfm"
+ },
+ "The Bad Plus": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-17",
+  "source": "lastfm"
+ },
+ "Janis Siegel": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-17",
+  "source": "claude"
+ },
+ "The Paperboys": {
+  "genres": [
+   "Folk & Country",
+   "Indie & Rock"
+  ],
+  "confirmed": "2026-11-17",
+  "source": "claude"
+ },
+ "Elijah Fox": {
+  "genres": [
+   "Jazz, World & Classical"
+  ],
+  "confirmed": "2026-11-17",
+  "source": "claude"
  }
 }

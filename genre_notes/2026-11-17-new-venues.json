@@ -194,6 +194,70 @@
    ],
    "source": "claude",
    "note": "Hungry Brain's listing tags the show Jazz."
+  },
+  "Oz Noy": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "Oz Noy Trio": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "lastfm",
+   "note": "Same as Oz Noy."
+  },
+  "Oz Noy Trio featuring Dave Weckl & Brian Charette": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "lastfm",
+   "note": "Same as Oz Noy."
+  },
+  "3rd Secret": {
+   "genres": [
+    "Indie & Rock"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "Trace Bundy": {
+   "genres": [
+    "Folk & Country"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "The Bad Plus": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "Janis Siegel": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "claude",
+   "note": "Last.fm: jazz, swing, vocal jazz (12.7K listeners); The Manhattan Transfer singer."
+  },
+  "The Paperboys": {
+   "genres": [
+    "Folk & Country",
+    "Indie & Rock"
+   ],
+   "source": "claude",
+   "note": "Last.fm: folk, celtic rock, folk rock (9.3K listeners); the Vancouver band, not the Norwegian hip-hop duo Paperboys."
+  },
+  "Elijah Fox": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "claude",
+   "note": "Last.fm: piano, jazz, soul, ambient (521K listeners); jazz is the only genre tag among them."
   }
  },
  "left_out": {
@@ -205,6 +269,8 @@
   "Jen Howard": "No tags, 13 listeners.",
   "Haight St": "Not found.",
   "Afterbirth Pulp": "Not found.",
-  "Budget Cuts": "Not looked up on Last.fm; not found on Spotify."
+  "Budget Cuts": "Not looked up on Last.fm; not found on Spotify.",
+  "Joel Astley and Ben Rice & the PDX Hustle": "No Last.fm tags for either act.",
+  "Savannah Pope": "No Last.fm tags."
  }
 }
