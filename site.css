@@ -131,11 +131,31 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .tools input#q{flex:1 1 100%}
 .tools select,.tools #when-pick{flex:1 1 150px;padding-right:18px;text-overflow:ellipsis}
 .tools #when{flex:.8 1 120px}
-.tools #area{flex:1.5 1 196px}
+.pickbtn{flex:1.2 1 170px;font:inherit;font-size:16px;color:var(--ink);background:transparent;border:0;border-bottom:2px solid var(--line);border-radius:0;padding:9px 2px;min-width:0;min-height:44px;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pickbtn::after{content:"\25BE";flex:none}
+.pickbtn[aria-expanded="true"]::after{content:"\25B4"}
+.pickbtn.on{background:var(--hi);color:var(--hi-ink);padding:9px 6px}
+.pickbtn[aria-expanded="true"]{background:var(--ink);color:var(--bg);padding:9px 6px}
+.vpanel{margin:10px 0 0;border:2px solid var(--line);background:var(--surface);display:flex;flex-direction:column;max-height:min(62vh,560px)}
+.vpanel[hidden]{display:none}
+.vhead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:10px 14px 6px;border-bottom:1px solid var(--line)}
+.vhead h3{margin:0;font-family:var(--marker);font-size:26px;line-height:1;font-weight:400}
+#v-list{overflow:auto;padding:0 14px 8px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));column-gap:28px;align-content:start}
+.vg-h{display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding:12px 0 2px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.vg-h .clear{font-size:14px;letter-spacing:0;text-transform:none;padding:8px 4px}
+.vrow{display:flex;align-items:center;gap:12px;min-height:44px;margin:0 -8px;padding:0 8px;cursor:pointer}
+.vrow input{width:22px;height:22px;margin:0;flex:none;accent-color:#121212}
+.vrow .vn{flex:1;min-width:0}
+.vrow .vc{font-size:13px;color:var(--muted)}
+.vrow.on{background:var(--hi);color:var(--hi-ink)}
+.vrow.on .vc{color:var(--hi-ink)}
+.vrow.zero:not(.on) .vn{color:var(--muted)}
+.vfoot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 14px;border-top:2px solid var(--line);background:var(--bg);font-size:14px;color:var(--muted)}
+.vfoot .btn{min-height:44px;cursor:pointer;border:0}
 @media (max-width:640px){
-  .tools #area{flex:1 1 196px;order:1}
   .tools #when,.tools #when-pick{flex:1 1 100px;order:1}
-  .tools #venue,.tools #genre{flex:1 1 calc(50% - 8px);order:2}
+  .tools .pickbtn{flex:1 1 calc(50% - 8px);order:1}
+  .tools #genre{flex:1 1 100%;order:2}
   .tools .clear{order:3}
 }
 .filters .note{font-size:15px;margin:6px 0 0}

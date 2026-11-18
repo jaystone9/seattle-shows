@@ -157,5 +157,31 @@ window.SC = (function () {
   }
   cityPicker();
 
-  return { esc, todayISO, addDays, D, fmt, range, time, load, showRow, footer, previews, slide };
+  // Page analytics (Jay, Nov 17, 2026). Off until analytics.json at the site root has a website_id.
+  // Umami Cloud: no cookies, no personal data, pageviews counted by the script itself.
+  // SC.track("name", {..}) records a named action; it does nothing when analytics is off.
+  function track(name, props) { try { if (window.umami && window.umami.track) window.umami.track(name, props); } catch (e) {} }
+  (function analytics() {
+    if (/^(localhost|127\.|\[::1\])/.test(location.host) || location.protocol === "file:") return;
+    fetch("/analytics.json").then(r => r.ok ? r.json() : null).then(a => {
+      if (!a || !a.website_id || !a.src) return;
+      const s = document.createElement("script");
+      s.defer = true; s.src = a.src; s.dataset.websiteId = a.website_id;
+      document.head.appendChild(s);
+    }).catch(() => {});
+    document.addEventListener("click", ev => {
+      const t = ev.target.closest ? ev.target.closest("a,button") : null; if (!t) return;
+      const city = B.city || "seattle";
+      if (t.classList.contains("pv")) track("hear-them", { city });
+      else if (t.matches(".go a.tickets")) track("tickets-click", { city });
+      else if (t.matches(".go a.details")) track("details-click", { city });
+      else if (t.id === "pl-transfer") track("copy-playlist", { city });
+      else if (t.classList.contains("nl-cta")) track("sunday-email-button", { city });
+      else if (t.closest("#pl-tabs")) track("playlist-pick", { city, kind: "area" });
+      else if (t.closest("#genre-chips")) track("playlist-pick", { city, kind: "genre" });
+      else if (t.closest("#meter")) track("calendar-date", { city });
+    });
+  })();
+
+  return { esc, todayISO, addDays, D, fmt, range, time, load, showRow, footer, previews, slide, track };
 })();
