@@ -1,0 +1,329 @@
+{
+ "date": "2026-11-12",
+ "window": "2026-11-15/2026-11-28",
+ "by": "claude",
+ "note": "Last.fm top tags (artist.gettoptags) plus the venue listing; acts with no tags, tiny followings or same-name mismatches were left unconfirmed.",
+ "decisions": {
+  "KATSEYE": [
+   "Pop"
+  ],
+  "Jim Lauderdale": [
+   "Folk & Country"
+  ],
+  "Trestles": [
+   "Indie & Rock"
+  ],
+  "Buunshin": [
+   "Electronic"
+  ],
+  "Senses Fail": [
+   "Punk & Metal"
+  ],
+  "Emma Ruth Rundle": [
+   "Folk & Country",
+   "Indie & Rock"
+  ],
+  "SAOSIN": [
+   "Punk & Metal"
+  ],
+  "Scott Bradlee's Postmodern Jukebox": [
+   "Jazz, World & Classical"
+  ],
+  "Alter Bridge": [
+   "Indie & Rock",
+   "Punk & Metal"
+  ],
+  "Dead Bars": [
+   "Punk & Metal"
+  ],
+  "Dusty 45s": [
+   "Folk & Country",
+   "Indie & Rock"
+  ],
+  "Skream": [
+   "Electronic"
+  ],
+  "The Amity Affliction": [
+   "Punk & Metal"
+  ],
+  "Guest Directors": [
+   "Indie & Rock"
+  ],
+  "Haley Heynderickx": [
+   "Folk & Country"
+  ],
+  "Feed Me": [
+   "Electronic"
+  ],
+  "Nouveau Arcade and KJ Sawka (Live)": [
+   "Electronic"
+  ],
+  "Steve Lacy": [
+   "Hip-hop & R&B",
+   "Pop"
+  ],
+  "Valentino Khan": [
+   "Electronic"
+  ],
+  "Headache": [
+   "Electronic"
+  ],
+  "Pooh": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "Cracker": [
+   "Indie & Rock",
+   "Folk & Country"
+  ],
+  "Nemanja Radulović & Double Sens": [
+   "Jazz, World & Classical"
+  ],
+  "Pure Hatred": [
+   "Punk & Metal"
+  ],
+  "Liim": [
+   "Hip-hop & R&B"
+  ],
+  "Yung Gravy": [
+   "Hip-hop & R&B"
+  ],
+  "John McEuen": [
+   "Folk & Country"
+  ],
+  "Kingdom Of Giants": [
+   "Punk & Metal"
+  ],
+  "Music of the Baroque": [
+   "Jazz, World & Classical"
+  ],
+  "DANNA": [
+   "Pop"
+  ],
+  "Heat On": [
+   "Jazz, World & Classical"
+  ],
+  "Doom Scroll": [
+   "Folk & Country"
+  ],
+  "Making Movies": [
+   "Indie & Rock"
+  ],
+  "Ok Goodnight": [
+   "Indie & Rock",
+   "Punk & Metal"
+  ],
+  "Giles Corey": [
+   "Folk & Country",
+   "Indie & Rock"
+  ],
+  "Kathryn Mohr": [
+   "Indie & Rock"
+  ],
+  "Amorphis & Insomnium": [
+   "Punk & Metal"
+  ],
+  "Rotting Out": [
+   "Punk & Metal"
+  ],
+  "Stella Lefty": [
+   "Folk & Country"
+  ],
+  "Jorja Smith": [
+   "Hip-hop & R&B"
+  ],
+  "Underoath, August Burns Red & Atreyu": [
+   "Punk & Metal"
+  ],
+  "Devil Master": [
+   "Punk & Metal"
+  ],
+  "Sabaton": [
+   "Punk & Metal"
+  ],
+  "John Summit": [
+   "Electronic"
+  ],
+  "John Primer": [
+   "Funk & Blues"
+  ],
+  "JoJo": [
+   "Pop",
+   "Hip-hop & R&B"
+  ],
+  "The Koffin Kats & Voodoo Glow Skulls": [
+   "Punk & Metal"
+  ],
+  "Nick Moss Band": [
+   "Funk & Blues"
+  ],
+  "Rivkah Reyes": [
+   "Indie & Rock"
+  ],
+  "El Tri": [
+   "Indie & Rock"
+  ],
+  "The Blind Staggers": [
+   "Folk & Country"
+  ],
+  "Rickie Lee Jones": [
+   "Folk & Country",
+   "Jazz, World & Classical"
+  ],
+  "Exhumed": [
+   "Punk & Metal"
+  ],
+  "Venna": [
+   "Jazz, World & Classical",
+   "Hip-hop & R&B"
+  ],
+  "The Pineapple Thief": [
+   "Indie & Rock"
+  ],
+  "BoDeans": [
+   "Indie & Rock"
+  ],
+  "Bobby Rush": [
+   "Funk & Blues"
+  ],
+  "Jerry Weldon/Dave Schumacher Organ Quartet": [
+   "Jazz, World & Classical"
+  ],
+  "Al Scorch's Big Fantastical Residency": [
+   "Folk & Country"
+  ],
+  "Death Possession": [
+   "Punk & Metal"
+  ],
+  "Daily Bread": [
+   "Electronic"
+  ],
+  "Catie Turner": [
+   "Pop"
+  ],
+  "Pigface": [
+   "Indie & Rock",
+   "Electronic"
+  ],
+  "Mazzarella/Håker Flaten/Ra Trio & Heaven Orchestra": [
+   "Jazz, World & Classical"
+  ],
+  "Ben Klock": [
+   "Electronic"
+  ],
+  "Daniel Allan": [
+   "Electronic"
+  ],
+  "Petey USA": [
+   "Indie & Rock"
+  ],
+  "Deacon Blue": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "Ume": [
+   "Indie & Rock"
+  ],
+  "Vienna Boys Choir": [
+   "Jazz, World & Classical"
+  ],
+  "Jon Walker, William Beckett & Mark Rose (all-ages matinee)": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "Jon Walker, William Beckett & Mark Rose": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "Mariachi Herencia de México": [
+   "Jazz, World & Classical"
+  ],
+  "Susan Werner": [
+   "Folk & Country"
+  ],
+  "Whitechapel": [
+   "Punk & Metal"
+  ],
+  "Kurt Travis": [
+   "Indie & Rock"
+  ],
+  "Lauren Anderson": [
+   "Funk & Blues"
+  ],
+  "Dexter and The Moonrocks": [
+   "Indie & Rock"
+  ],
+  "2Dead Boyz & The Underachievers": [
+   "Hip-hop & R&B"
+  ],
+  "The Palmer Squares": [
+   "Hip-hop & R&B"
+  ],
+  "Father of Peace": [
+   "Indie & Rock"
+  ],
+  "Pegboy": [
+   "Punk & Metal"
+  ],
+  "Ha Ha Tonka": [
+   "Indie & Rock",
+   "Folk & Country"
+  ],
+  "Mary Lane": [
+   "Funk & Blues"
+  ],
+  "Tommy Bravos": [
+   "Indie & Rock",
+   "Pop"
+  ],
+  "Takuya Nakamura": [
+   "Electronic"
+  ],
+  "MIJA": [
+   "Electronic"
+  ],
+  "Comeback Kid": [
+   "Punk & Metal"
+  ],
+  "Adelitas Way": [
+   "Indie & Rock"
+  ],
+  "Clara La San": [
+   "Hip-hop & R&B"
+  ],
+  "Trans-Siberian Orchestra": [
+   "Indie & Rock"
+  ],
+  "Daisy Grenade": [
+   "Punk & Metal"
+  ],
+  "Gentri": [
+   "Pop"
+  ],
+  "Senses Fail Presents Still Searching": [
+   "Punk & Metal"
+  ],
+  "Cat Clyde & Dean Johnson": [
+   "Folk & Country"
+  ],
+  "Yheti b2b Toadface Sleight of Sound Tour": [
+   "Electronic"
+  ],
+  "Tommy Fleece": [
+   "Electronic",
+   "Pop"
+  ],
+  "Royal Bliss Annual Hometown Thanksgiving Bash": [
+   "Indie & Rock"
+  ],
+  "Rinzen": [
+   "Electronic"
+  ],
+  "Ollie": [
+   "Hip-hop & R&B"
+  ],
+  "SAP": [
+   "Punk & Metal"
+  ]
+ }
+}

@@ -1,0 +1,46 @@
+Subject: CHECK before sending: Nov 15–28: Seattle 2 Week Playlist
+
+This is the pre-send check. The beehiiv test of the real issue arrives separately.
+Nothing goes to subscribers until you say OK.
+
+SEND TO
+  beehiiv segment "Seattle readers" only (refresh the segment first). Never All subscribers.
+
+LINKS
+  [  ] Seattle playlist: https://open.spotify.com/playlist/06DJuRB9sapbfcArj6TAAH
+  [  ] Frelard playlist: https://open.spotify.com/playlist/4IEiiBheLcVO6E0msPVmRv
+  [  ] Pop playlist: https://open.spotify.com/playlist/0LEwAFe9B7AFgH3rWZT609
+  [  ] Indie & Rock playlist: https://open.spotify.com/playlist/3HcRSO057WS9UqZ88zgyWJ
+  [  ] Folk & Country playlist: https://open.spotify.com/playlist/3xp63ElmPkWM1ORiA8Hga9
+  [  ] Electronic playlist: https://open.spotify.com/playlist/2UeMpvFCNOIEtaHC6m5asF
+  [  ] Hip-hop & R&B playlist: https://open.spotify.com/playlist/0cTNVqAXYPGgCzJG1UCbit
+  [  ] Punk & Metal playlist: https://open.spotify.com/playlist/24ApPpkPeQQwxjbBZgTmIo
+  [  ] Funk & Blues playlist: https://open.spotify.com/playlist/35GDqKEz34wFNoVK52R1Zv
+  [  ] Jazz, World & Classical playlist: https://open.spotify.com/playlist/5HNgVRlRYbrDkwZAKIV7vC
+  [  ] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
+  [  ] Site: https://2weeksoundcheck.com/seattle/
+
+NUMBERS
+  Dates: Nov 15–28
+  Shows on the site in this window: 124
+  Seattle: 318 songs, 108 headliners, 3 per artist
+  Frelard: 232 songs, 79 artists, 3 per artist
+  Pop: 30 songs, 10 artists
+  Indie & Rock: 89 songs, 30 artists
+  Folk & Country: 50 songs, 18 artists
+  Electronic: 45 songs, 15 artists
+  Hip-hop & R&B: 27 songs, 9 artists
+  Punk & Metal: 63 songs, 21 artists
+  Funk & Blues: 12 songs, 4 artists
+  Jazz, World & Classical: 12 songs, 4 artists
+  Seattle skipped (not on Spotify or ambiguous): Mireya & The Poor Choices, Gem Arbogast, Orchard Ladder, Left Turn on Blue, Dusty 45s, Cascade Cody & The Washington Apples, The Rainieros, Boydream
+  Frelard skipped (not on Spotify or ambiguous): Mireya & The Poor Choices, Connor Cristi, David's Van, Pileup, Divine Timing, Cheif, Runaway Satellite, Hire Stranger, Brites, Wishing Well, Jordan Wesley Campbell, MuerteMen, Bad Peanut, Sugar Bones, Jesco Payne and the Painkillers, Sammy D, Suffering Yuckheads, Pachinko Royale, Scott Strickland, Shaun Crawford & The Reasons, Orchard Ladder, Wiseacre, Bellflower, Left Turn on Blue, The Underhills, Rainbow Jackson, Blackstock, Verboten, Owleks, Bad Tats, Dusty 45s, False Hemlock, Northern Echo, Lawn Darts, Fruit Juice, Cascade Cody & The Washington Apples, The Wayside, Matney Cook, The Rainieros, Ritual Scars, Sarah Not Sarah
+
+FLAGS
+  None from the build. Add anything found in the run (failed venues, reports).
+
+SUBJECT AND PREVIEW
+  Nov 15–28: Seattle 2 Week Playlist
+  Two new playlists for the next two weeks: all of Seattle, plus Frelard.
+
+Reply OK (or tell Claude in the chat) and it goes to subscribers.
