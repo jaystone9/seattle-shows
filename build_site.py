@@ -44,6 +44,8 @@ VENUES = {
     "The Neptune Theatre": {"short": "The Neptune", "hood": "U District", "site": "https://www.stgpresents.org/venues/neptune-theatre/"},
     "The Vera Project": {"short": "Vera Project", "hood": "Seattle Center", "site": "https://theveraproject.org/"},
     "Black Lodge": {"short": "Black Lodge", "hood": "Eastlake", "site": "https://dice.fm/venue/the-black-lodge-qppa"},
+    "El Corazón": {"short": "El Corazón", "hood": "Eastlake", "site": "https://www.elcorazonseattle.com/"},
+    "The Funhouse": {"short": "The Funhouse", "hood": "Eastlake", "site": "https://www.elcorazonseattle.com/"},
     "Belltown Yacht Club": {"short": "Belltown Yacht Club", "hood": "Belltown", "site": "http://bycseattle.com/"},
     "Add-a-Ball": {"short": "Add-a-Ball", "hood": "Fremont", "site": "http://add-a-ball.com/"},
     "Substation": {"short": "Substation", "hood": "Fremont", "site": "https://substationseattle.com/"},

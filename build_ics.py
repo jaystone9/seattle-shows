@@ -30,6 +30,8 @@ ADDR = {
     "The Neptune Theatre": "The Neptune Theatre, 1303 NE 45th St, Seattle, WA 98105",
     "The Vera Project": "The Vera Project, 305 Harrison St, Seattle, WA 98109",
     "Black Lodge": "Black Lodge, 429 Eastlake Ave E, Seattle, WA 98109",
+    "El Corazón": "El Corazón, 109 Eastlake Ave E, Seattle, WA 98109",
+    "The Funhouse": "The Funhouse (at El Corazón), 109 Eastlake Ave E, Seattle, WA 98109",
     "Belltown Yacht Club": "Belltown Yacht Club (downstairs from Screwdriver), 2320 1st Ave, Seattle, WA 98121",
     "Add-a-Ball": "Add-a-Ball, 315 N 36th St, Seattle, WA 98103",
     "Substation": "Substation, 645 NW 45th St, Seattle, WA 98107",
