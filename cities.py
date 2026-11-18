@@ -22,6 +22,7 @@ CHICAGO_VENUES = {
     "Outset": {"short": "Outset", "hood": "Bucktown", "site": "https://www.outsetchicago.com/"},
     # Lakeview, Lincoln Park & North Side
     "Metro": {"short": "Metro", "hood": "Wrigleyville", "site": "https://metrochicago.com/"},
+    "GMan Tavern": {"short": "GMan Tavern", "hood": "Wrigleyville", "site": "https://www.gmantavern.com/"},
     "Schubas": {"short": "Schubas", "hood": "Lakeview", "site": "https://lh-st.com/"},
     "Lincoln Hall": {"short": "Lincoln Hall", "hood": "Lincoln Park", "site": "https://lh-st.com/"},
     "The Vic": {"short": "The Vic", "hood": "Lakeview", "site": "https://www.victheatre.com/"},
@@ -97,6 +98,7 @@ CHICAGO_ADDR = {
     "Concord Music Hall": "Concord Music Hall, 2047 N Milwaukee Ave, Chicago, IL 60647",
     "Outset": "Outset, 1675 N Elston Ave, Chicago, IL 60642",
     "Metro": "Metro, 3730 N Clark St, Chicago, IL 60613",
+    "GMan Tavern": "The GMan Tavern, 3740 N Clark St, Chicago, IL 60613",
     "Schubas": "Schubas Tavern, 3159 N Southport Ave, Chicago, IL 60657",
     "Lincoln Hall": "Lincoln Hall, 2424 N Lincoln Ave, Chicago, IL 60614",
     "The Vic": "The Vic Theatre, 3145 N Sheffield Ave, Chicago, IL 60657",

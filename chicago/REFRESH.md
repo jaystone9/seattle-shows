@@ -15,6 +15,7 @@ Window: TODAY through TODAY + 6 months. One JSON file per venue in `chicago/show
 | concord-music-hall.json | Concord Music Hall, Logan Square | concordmusichall.com/calendar. EDM-heavy: keep named touring artists only, drop wrestling and festival days |
 | outset.json | Outset, Bucktown | site blocks fetches; browser, Songkick. Mostly DJs: keep named touring artists only |
 | metro.json | Metro, Wrigleyville | metrochicago.com and Etix are unreachable from the workspace (Oct 30, 2026): use do312.com/venues/metro (4 pages) + JamBase/Songkick. Drop Smart Bar club nights and author talks |
+| gman-tavern.json | The GMan Tavern, Wrigleyville (next door to Metro) | SOURCE_TBD. Added Nov 17, 2026 on a tip from a Chicago reader. Drop weekly residencies, open mics, DJ/theme nights, cover bands and Cubs watch parties |
 | schubas.json | Schubas, Lakeview | lh-st.com (shared with Lincoln Hall; filter by venue). Drop open mics, CHIRP listening bar, student showcases |
 | lincoln-hall.json | Lincoln Hall, Lincoln Park | lh-st.com. Drop comedy, wrestling, DJ/baby-rave parties, book launches |
 | the-vic.json | The Vic, Lakeview | victheatre.com, jamusa.com and AXS block fetches; do312.com/venues/the-vic-theatre (?page=N, AXS links) + JamBase venue page, Songkick. Drop comedy and Brew & View movie nights |
