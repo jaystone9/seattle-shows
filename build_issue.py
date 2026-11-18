@@ -81,7 +81,7 @@ def main(*args):
     nl_file = f"{city['dir']}/newsletter.json" if city else "newsletter.json"
     if city:
         SITE = f"https://2weeksoundcheck.com/{city['slug']}/"
-    want_areas = city["area_playlists"] if city else ["Frelard"]
+    want_areas = city["area_playlists"] if city else ["Frelard", "Downtown, Seattle Center & SoDo"]
 
     d = json.load(open(src))
     cfg = json.load(open(nl_file)) if os.path.exists(nl_file) else {}
@@ -132,6 +132,9 @@ def main(*args):
     for AREA, fr in hoods:
         why = {"Frelard": "I live in Ballard and want to go to more shows close to home, so this one covers "
                           "the small rooms in Fremont and Ballard, openers included.",
+               "Downtown, Seattle Center & SoDo": "The big nights out: the Showbox (both rooms), the Paramount, Benaroya, "
+                                                  "the Triple Door, Climate Pledge Arena, the Vera Project and WaMu Theater, "
+                                                  "openers included.",
                "Wicker Park & Logan Square": "The small rooms in Wicker Park, Logan Square and Avondale, "
                                              "openers included, so you can find a new favorite before they play the big rooms.",
                "West Loop & Pilsen": "Thalia Hall, the Salt Shed, the Hideout, Bottom Lounge, Cobra Lounge and the "
