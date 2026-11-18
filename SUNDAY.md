@@ -1,5 +1,23 @@
 # Sunday run (2 Week Soundcheck · Seattle + Chicago + Salt Lake City)
 
+> **Close-out rule (Jay, Nov 17, 2026): a week is not finished until `python3 check_week.py` passes.**
+> On Sunday Nov 15, 2026 nobody ran the Sunday steps: the site kept the Nov 8–21 playlists until Tuesday,
+> the standing genre playlists kept last week's songs, and neither beehiiv issue was sent. Nothing flagged it.
+> So, every week:
+> 1. **Thursday prep** puts the new window on a branch named `prep/<Sunday's date>` (playlists, genre playlists,
+>    issues, logs) and leaves `main` on the current week. Always push that branch.
+> 2. **Sunday go-live** (scheduled task "Soundcheck Sunday go-live", early Sunday, no laptop needed) merges
+>    `prep/<this Sunday>` into `main`: keep main's `previews.json` (all cities), `genres.json`, templates, CSS and JS
+>    when they are supersets (check, don't assume); take the branch's playlists, genre playlists/archives, issues,
+>    genre notes and log lines; rebuild all three cities and the three `.ics` files; push.
+> 3. **Standing genre playlists** are refreshed on Sunday in the builder page (needs Jay's laptop), then
+>    `python3 check_week.py --mark genres`.
+> 4. **Sends happen only on Jay's OK in chat.** After each send: `python3 check_week.py --mark sent:<city>`
+>    (`seattle`, `chicago`, `salt-lake`) and a "(send)" line in that city's log. If Jay decides not to send:
+>    `--mark skipped:<city> "reason"`.
+> 5. Finish every Sunday session by running `python3 check_week.py`, committing `weekly_status.json`, and telling
+>    Jay exactly which lines are still open. A scheduled Sunday-evening check runs the same script and alerts him.
+
 > **Three weeks of previews and genres (Jay, Nov 13, 2026).** The site now shows a rolling two weeks from *today*, not from Sunday, so by Saturday it reaches six days past the playlist. Playlists are still built for two weeks (Sunday → Sunday + 13). But `previews.json` (the "hear them" buttons) and the genre confirmations in `genres.json` must cover **three weeks** (Sunday → Sunday + 20) for every city. List those acts with `python3 lineup.py --days 21 --start <Sunday>` (add `--city …`). `build_site.py` tags genres for the same three weeks.
 
 
