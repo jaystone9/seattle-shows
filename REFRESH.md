@@ -69,6 +69,9 @@ A r/SeattleWA reader asked for these and Jay replied "Will do". Add each one the
 - **Fast Fashion Brewing** (confirm it exists and where; same reader). Only if it lists live shows by named artists.
 - **The Royal Room** (Columbia City). r/SeattleWA reader, Nov 18, 2026. Drop jam sessions, student and school showcases, tribute nights and weekly residencies.
 - **Lucky Liquor** (Tukwila, just south of the city; punk and metal). r/SeattleMusic reader, Nov 18, 2026 (who also asked for The Kraken, above). Outside the city line like Darrell's; add with its own neighborhood.
+- **Fremont Abbey Arts Center** (Fremont). r/SeattleWA reader, Nov 18, 2026. Abbey Arts also books other rooms; list only shows at the Fremont Abbey itself. Drop storytelling, poetry and open-mic nights. Fremont is in the Frelard area, so its artists belong in the Frelard playlist once it is added.
+- **Chop Suey** (Capitol Hill). Same reader. Drop DJ and dance nights, drag, comedy and karaoke.
+- **Edmonds Center for the Arts** (Edmonds; outside the city, like Chateau Ste. Michelle). Same reader, offered as a maybe. Concerts by named artists only; drop theater, dance, film, comedy, speakers, family shows and tribute acts. ASK JAY before adding: he has told other readers he is keeping to Seattle for now.
 - Cross-check idea from a reader: seattle.showlists.net lists Seattle shows. Use it only to spot shows or venues we are missing, then confirm each on the venue's own site; do not copy its data.
 
 If any of these cannot be reached or has no usable calendar, leave it on this list and tell Jay which.
