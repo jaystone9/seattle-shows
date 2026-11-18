@@ -81,3 +81,9 @@ won't load in the workspace. Use the venue's own ticket link as `url` whenever i
 3. Sanity check counts against last week (`chicago/log.md`).
 4. Append a line to `chicago/log.md`: date, total events, per-venue counts, notable gaps.
 5. Commit and push to `main`.
+
+## Venues to add at the next refresh (reader requests, Nov 18, 2026)
+
+Add the way Hungry Brain was added on Nov 17 (an entry in `cities.py` with neighborhood and the address from the venue's own site, a `chicago/shows/<slug>.json` file, a row in the table above), then delete it from this list.
+
+- **Carol's Pub** (Uptown), a country and honky-tonk bar. r/ChicagoConcerts reader. Real artists only: keep named artists playing their own material; drop cover and tribute bands, karaoke, line-dancing and DJ nights, and the weekly house-band residency. If almost nothing is left after that, add what there is and tell Jay.

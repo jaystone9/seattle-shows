@@ -60,5 +60,7 @@ A r/SeattleWA reader asked for these and Jay replied "Will do". Add each one the
 - **Jules Maes Saloon** (Georgetown).
 - **The Rabbit Box Theatre** (Pike Place Market). Drop storytelling, comedy and burlesque nights.
 - **Tim's Tavern** (White Center), timslivemusic.com. The reader was unsure it is still open; it has had permit and patio problems. Add it only if its calendar shows upcoming shows; otherwise say so in the summary to Jay.
+- **Skylark Cafe** (West Seattle / Delridge). r/SeattleMusic reader, Nov 18, 2026 (the same reader also asked for Slim's, above). Drop open mics, karaoke and trivia.
+- **Darrell's Tavern** (Shoreline, on Aurora; the reader wrote "Darryl's"). r/SeattleMusic reader, Nov 18, 2026. Just north of the city line; add it with neighborhood "Shoreline".
 
 If any of these cannot be reached or has no usable calendar, leave it on this list and tell Jay which.
