@@ -402,7 +402,7 @@
         const all = soon.filter(e=>e.date===first), pick = all.filter(ok).slice(0, all.length<=8 ? 8 : 4);  // a short night is shown whole
         const name = first===today ? "tonight" : fmt(first,{weekday:"long"}).toLowerCase();
         const more = all.length - pick.length;
-        html += `<div class="pick${first===today?" today":""}"><h2><span class="mk">${name}</span><span>${fmt(first,{weekday:"short",month:"short",day:"numeric"}).replace(",","")} / ${cnt(pick.length,all.length)}</span></h2>${rows(pick,8)}${more>0?`<a class="pick-more" href="shows.html?date=${first}">See all ${all.length} shows ${name==="tonight"?"tonight":"on "+fmt(first,{weekday:"long"})}&nbsp;→</a>`:""}</div>`;
+        html += `<div class="pick${first===today?" today":""}"><h2><span class="mk">${name}</span><span>${fmt(first,{weekday:"short",month:"short",day:"numeric"}).replace(",","")} · ${cnt(pick.length,all.length)}</span></h2>${rows(pick,8)}${more>0?`<a class="pick-more" href="shows.html?date=${first}">See all ${all.length} shows ${name==="tonight"?"tonight":"on "+fmt(first,{weekday:"long"})}&nbsp;→</a>`:""}</div>`;
         const wd = D(first).getUTCDay();                       // 0 = Sunday
         const sat = addDays(first, wd===6 ? 0 : 6-wd), sun = addDays(sat,1);
         const wdays = [sat,sun].filter(d=>d>first && d<=end);
@@ -415,7 +415,7 @@
           const label = wd===0 ? "next weekend" : wdays.length===2 ? "this weekend" : fmt(wdays[0],{weekday:"long"}).toLowerCase();
           const href = wdays.length===1 ? `shows.html?date=${wdays[0]}` : wd===0 ? "shows.html?date=next-weekend" : "shows.html?date=weekend";
           const wm = wAll.length - shown;
-          html += `<div class="pick"><h2><span class="mk">${label}</span><span>${wdays.map(d=>fmt(d,{weekday:"short"})).join(" + ")} / ${cnt(shown,wAll.length)}</span></h2>`
+          html += `<div class="pick"><h2><span class="mk">${label}</span><span>${wdays.map(d=>fmt(d,{weekday:"short"})).join(" + ")} · ${cnt(shown,wAll.length)}</span></h2>`
             + wdays.map((d,i)=>take[i].length?`<h3>${fmt(d,{weekday:"long",month:"long",day:"numeric"})}${take[i].length<dayAll[i]?` <span class="of">${take[i].length} of ${dayAll[i]} shows</span>`:""}</h3>${rows(take[i],8)}`:"").join("")
             + (wm>0?`<a class="pick-more" href="${href}">See all ${wAll.length} shows ${label.replace(" ","&nbsp;")}&nbsp;→</a>`:"") + `</div>`;
         }
