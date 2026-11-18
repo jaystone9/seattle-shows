@@ -165,7 +165,7 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
     # home page chart can still show the days that have already passed, muted.
     keep_from = today
     try:
-        cur = next((p for p in json.load(open(pl)) if not p.get("area")), None)
+        cur = next((p for p in json.load(open(pl)) if not p.get("area") and not p.get("archive")), None)
         if cur and cur["start"] <= today.isoformat() <= cur["end"]:
             keep_from = dt.date.fromisoformat(cur["start"])
     except Exception:
@@ -222,7 +222,7 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
     except FileNotFoundError:
         confirmed = {}
     try:
-        cur = next((p for p in json.load(open(pl)) if not p.get("area")), None)
+        cur = next((p for p in json.load(open(pl)) if not p.get("area") and not p.get("archive")), None)
         # Three weeks from the playlist's Sunday: the page shows a rolling two weeks from today, so by
         # Saturday it reaches six days past the playlist. The weekly prep covers the same three weeks.
         g_from = cur["start"]
@@ -247,7 +247,7 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
     except FileNotFoundError:
         playlists = []
     # Entries with an "area" (e.g. "Frelard") are area playlists; the rest are the citywide one.
-    playlist = next((p for p in playlists if not p.get("area")), None)
+    playlist = next((p for p in playlists if not p.get("area") and not p.get("archive")), None)
     area_playlists = {}
     for p in playlists:
         if p.get("area") and p["area"] not in area_playlists:
@@ -300,7 +300,7 @@ def city_picker():
 PAGES = (("index.html", "templates/shows.html"), ("shows.html", "templates/shows.html"), ("playlists.html", "templates/playlists.html"),
          ("contact.html", "templates/contact.html"))
 
-SEATTLE = {"name": "Seattle", "tz": "America/Los_Angeles", "data": "data/seattle.json", "area_playlists": ["Frelard"], "live": True}
+SEATTLE = {"name": "Seattle", "tz": "America/Los_Angeles", "data": "data/seattle.json", "area_playlists": ["Frelard", "Downtown, Seattle Center & SoDo"], "live": True}
 
 
 def editions():

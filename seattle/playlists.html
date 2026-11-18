@@ -100,8 +100,13 @@ SC.load().then(data=>{
 
   const weeks = starts.map((s,i)=>{
     const now = i===0;
-    const mains = main.filter(p=>p.start===s).sort((a,b)=>!!a.area - !!b.area);  // citywide first
-    const gens = gen.filter(p=>p.start===s).sort((a,b)=>order.indexOf(a.genre)-order.indexOf(b.genre));
+    // Standing playlists (Jay, Nov 17, 2026): the city, neighborhood and genre playlists keep one link and are
+    // refreshed every Sunday; each week leaves one dated city copy ("archive": true) for this page. While a
+    // week is current its dated copy is hidden (the standing city playlist is the same songs).
+    const mains = main.filter(p=>p.start===s && !(p.archive && main.some(q=>q.start===s && !q.archive && !q.area))).sort((a,b)=>!!a.area - !!b.area);  // citywide first
+    let gens = gen.filter(p=>p.start===s);
+    if(!gens.length) gens = (data.genre_playlists||[]).filter(p=>p.start===s);  // no dated genre copies any more
+    gens.sort((a,b)=>order.indexOf(a.genre)-order.indexOf(b.genre));
     const r = range(s, (mains[0]||gens[0]).end);
     const players = mains.map(p=>{
       const k = p.area || city;

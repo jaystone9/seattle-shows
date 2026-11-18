@@ -10,8 +10,8 @@
 >    `prep/<this Sunday>` into `main`: keep main's `previews.json` (all cities), `genres.json`, templates, CSS and JS
 >    when they are supersets (check, don't assume); take the branch's playlists, genre playlists/archives, issues,
 >    genre notes and log lines; rebuild all three cities and the three `.ics` files; push.
-> 3. **Standing genre playlists** are refreshed on Sunday in the builder page (needs Jay's laptop), then
->    `python3 check_week.py --mark genres`.
+> 3. **All standing playlists** (city, neighborhoods and genres; see the save-once note at the top of PLAYLIST.md)
+>    are refreshed on Sunday in the builder page (needs Jay's laptop), then `python3 check_week.py --mark genres`.
 > 4. **Sends happen only on Jay's OK in chat.** After each send: `python3 check_week.py --mark sent:<city>`
 >    (`seattle`, `chicago`, `salt-lake`) and a "(send)" line in that city's log. If Jay decides not to send:
 >    `--mark skipped:<city> "reason"`.

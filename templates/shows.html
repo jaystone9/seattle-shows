@@ -223,16 +223,16 @@
       document.querySelectorAll("#pl-tabs button").forEach(b=>b.setAttribute("aria-pressed", String(!gp && b.dataset.area===area)));
       document.querySelectorAll("#genre-chips button").forEach(b=>b.setAttribute("aria-pressed", String(!!gp && b.dataset.genre===plGenre)));
       SC.slide($("#pl-tabs"));
-      $("#pl-note").hidden = !gp;
+      $("#pl-note").hidden = !(gp || (pl && pl.standing));  // standing playlists: save once, refreshed every Sunday
       if(pl && pl.id){
         $("#player").innerHTML = `<iframe title="${esc(pl.name)} on Spotify" src="https://open.spotify.com/embed/playlist/${esc(pl.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
         $("#pl-sub").textContent = gp
           ? `${pl.songs} songs from ${pl.artists} ${gp.genre} headliners playing ${range(pl.start,pl.end)}, in show order.`
           : area
           ? `${pl.songs} songs from ${pl.artists} artists playing ${where(area)} ${range(pl.start,pl.end)}, openers included, in show order.`
-          : `${pl.songs} songs from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order. A new playlist every Sunday.`;
+          : `${pl.songs} songs from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order. ${pl.standing?"Save it once; it refreshes every Sunday.":"A new playlist every Sunday."}`;
       } else {
-        $("#player").innerHTML = `<p class="empty" style="padding:24px">${area?`The first ${esc(area)} playlist lands this Sunday: every band on the bill at ${where(area)}, openers included.`:"This week's playlist is being built. Check back Sunday evening."}</p>`;
+        $("#player").innerHTML = `<p class="empty" style="padding:24px">${area?`The first ${esc(area)} playlist lands this Sunday: every artist on the bill at ${where(area)}, openers included.`:"This week's playlist is being built. Check back Sunday evening."}</p>`;
         $("#pl-sub").textContent = area ? `Every act playing ${where(area)}.` : "The top songs from every headliner, in show order.";
       }
     }
