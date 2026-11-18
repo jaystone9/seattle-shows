@@ -7,3 +7,4 @@
 - 2026-11-17 — the Sunday Nov 15 steps were never run; fixed Tuesday night by chat: `prep/2026-11-15` merged into main (site now shows the Nov 15–28 playlists), the 8 standing genre playlists refreshed in the builder, checked live. The Nov 15–28 newsletter was NOT sent and is still a draft (Jay: do not send anything). Added `check_week.py` + `weekly_status.json` and the close-out rule at the top of SUNDAY.md.
 - 2026-11-17 (send) — Nov 15–28 issue SKIPPED on Jay's say-so ("skip this week"); the draft was left untouched and nothing was sent.
 - 2026-11-18 — City page made clearer after four readers took the preview for the full list: tabs renamed "This week" / "All shows"; preview headings say "4 of 19 shows"; "See all N shows" buttons; a venue-count line linking to the venue list; a day with 8 or fewer shows is shown whole.
+- 2026-11-18 — City page: "this weekend" is now Fri + Sat + Sun (Jay), two shows previewed per day when the days are busy.

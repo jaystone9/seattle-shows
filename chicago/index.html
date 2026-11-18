@@ -405,14 +405,14 @@
         html += `<div class="pick${first===today?" today":""}"><h2><span class="mk">${name}</span><span>${fmt(first,{weekday:"short",month:"short",day:"numeric"}).replace(",","")} · ${cnt(pick.length,all.length)}</span></h2>${rows(pick,8)}${more>0?`<a class="pick-more" href="shows.html?date=${first}">See all ${all.length} shows ${name==="tonight"?"tonight":"on "+fmt(first,{weekday:"long"})}&nbsp;→</a>`:""}</div>`;
         const wd = D(first).getUTCDay();                       // 0 = Sunday
         const sat = addDays(first, wd===6 ? 0 : 6-wd), sun = addDays(sat,1);
-        const wdays = [sat,sun].filter(d=>d>first && d<=end);
+        const wdays = [addDays(sat,-1),sat,sun].filter(d=>d>first && d<=end);   // the weekend is Fri + Sat + Sun (Jay, Nov 18, 2026), same as the All shows date filter
         const wAll = soon.filter(e=>wdays.includes(e.date));
         const per = wdays.map(d=>wAll.filter(e=>e.date===d && ok(e)));
         const dayAll = wdays.map(d=>wAll.filter(e=>e.date===d).length);
-        const take = per.map((l,i)=>l.slice(0, dayAll[i]<=8 ? 8 : per.length===2 ? (i?2:3) : 5));  // a short day is shown whole
+        const take = per.map((l,i)=>l.slice(0, dayAll[i]<=8 ? 8 : per.length===3 ? 2 : per.length===2 ? (i?2:3) : 5));  // a short day is shown whole
         const shown = take.reduce((a,l)=>a+l.length,0);
         if(shown){
-          const label = wd===0 ? "next weekend" : wdays.length===2 ? "this weekend" : fmt(wdays[0],{weekday:"long"}).toLowerCase();
+          const label = wd===0 ? "next weekend" : wdays.length>=2 ? "this weekend" : fmt(wdays[0],{weekday:"long"}).toLowerCase();
           const href = wdays.length===1 ? `shows.html?date=${wdays[0]}` : wd===0 ? "shows.html?date=next-weekend" : "shows.html?date=weekend";
           const wm = wAll.length - shown;
           html += `<div class="pick"><h2><span class="mk">${label}</span><span>${wdays.map(d=>fmt(d,{weekday:"short"})).join(" + ")} · ${cnt(shown,wAll.length)}</span></h2>`

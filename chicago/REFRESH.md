@@ -87,3 +87,4 @@ won't load in the workspace. Use the venue's own ticket link as `url` whenever i
 Add the way Hungry Brain was added on Nov 17 (an entry in `cities.py` with neighborhood and the address from the venue's own site, a `chicago/shows/<slug>.json` file, a row in the table above), then delete it from this list.
 
 - **Carol's Pub** (Uptown), a country and honky-tonk bar. r/ChicagoConcerts reader. Real artists only: keep named artists playing their own material; drop cover and tribute bands, karaoke, line-dancing and DJ nights, and the weekly house-band residency. If almost nothing is left after that, add what there is and tell Jay.
+- **The Burlington** (Logan Square). r/ChicagoConcerts reader, Nov 18, 2026. Small rock room with local bills; drop DJ nights and karaoke. It is in the Wicker Park & Logan Square area, so its artists (openers included) belong in that playlist once added.

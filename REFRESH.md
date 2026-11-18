@@ -72,6 +72,7 @@ A r/SeattleWA reader asked for these and Jay replied "Will do". Add each one the
 - **Fremont Abbey Arts Center** (Fremont). r/SeattleWA reader, Nov 18, 2026. Abbey Arts also books other rooms; list only shows at the Fremont Abbey itself. Drop storytelling, poetry and open-mic nights. Fremont is in the Frelard area, so its artists belong in the Frelard playlist once it is added.
 - **Chop Suey** (Capitol Hill). Same reader. Drop DJ and dance nights, drag, comedy and karaoke.
 - **Edmonds Center for the Arts** (Edmonds; outside the city, like Chateau Ste. Michelle). Same reader, offered as a maybe. Concerts by named artists only; drop theater, dance, film, comedy, speakers, family shows and tribute acts. ASK JAY before adding: he has told other readers he is keeping to Seattle for now.
+- **Kremwerk** and **Monkey Loft** (r/SeattleMusic reader, Nov 18, 2026). Both are mostly DJ and dance-music rooms, which the content rules leave out. Add only nights headlined by a named artist with their own releases (a live set or a touring DJ/producer billed by name); drop club nights, residencies, drag and themed parties. If that leaves almost nothing, do not add the venue and tell Jay.
 - Cross-check idea from a reader: seattle.showlists.net lists Seattle shows. Use it only to spot shows or venues we are missing, then confirm each on the venue's own site; do not copy its data.
 
 If any of these cannot be reached or has no usable calendar, leave it on this list and tell Jay which.
