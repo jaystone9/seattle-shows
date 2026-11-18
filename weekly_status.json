@@ -1,7 +1,12 @@
 {
  "weeks": {
   "2026-11-15": {
-   "genres_refreshed": "2026-11-17"
+   "genres_refreshed": "2026-11-17",
+   "sent": {
+    "seattle": "skipped 2026-11-17: Jay chose to skip the Nov 15-28 issue (go-live was two days late)",
+    "chicago": "skipped 2026-11-17: Jay chose to skip the Nov 15-28 issue (go-live was two days late)",
+    "salt-lake": "skipped 2026-11-17: Jay chose to skip the Nov 15-28 issue (go-live was two days late)"
+   }
   }
  }
 }
