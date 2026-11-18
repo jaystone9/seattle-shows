@@ -64,5 +64,8 @@ A r/SeattleWA reader asked for these and Jay replied "Will do". Add each one the
 - **Darrell's Tavern** (Shoreline, on Aurora; the reader wrote "Darryl's"). r/SeattleMusic reader, Nov 18, 2026. Just north of the city line; add it with neighborhood "Shoreline".
 - **Kenyon Hall** (West Seattle). r/SeattleWA reader, Nov 18, 2026. Drop silent films, variety and family shows, open mics.
 - **Easy Street Records** (West Seattle Junction). r/SeattleWA reader, Nov 18, 2026. A record store: only its in-store performances by named artists; drop signings without a set, listening parties and sales events. Many are free and announced late, so it may be empty some weeks.
+- **The Kraken Bar & Lounge** (University District / Roosevelt; moved to Roosevelt Way NE in 2024). r/SeattleWA reader, Nov 18, 2026 (who also asked for Blue Moon, above). Drop the Tuesday open mic.
+- **Montana Badlands** (Lower Queen Anne, Queen Anne Ave N; one venue, not two). r/SeattleMusic reader, Nov 18, 2026. Live sets by named artists only; drop DJ sets, art walks and workshops. It may only post shows on Instagram; if there is no calendar that can be read, leave it here and tell Jay.
+- **Fast Fashion Brewing** (confirm it exists and where; same reader). Only if it lists live shows by named artists.
 
 If any of these cannot be reached or has no usable calendar, leave it on this list and tell Jay which.
