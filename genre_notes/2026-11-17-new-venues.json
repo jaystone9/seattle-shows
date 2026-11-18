@@ -1,0 +1,210 @@
+{
+ "date": "2026-11-17",
+ "by": "claude",
+ "why": "New venues added Nov 17 (El Corazón, The Funhouse, Hungry Brain, Garcia's, Ramova, GMan Tavern); Jay asked for genres right away.",
+ "decisions": {
+  "Christian Death": {
+   "genres": [
+    "Indie & Rock"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "Fear Factory": {
+   "genres": [
+    "Punk & Metal"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "Brokencyde": {
+   "genres": [
+    "Punk & Metal"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "Ayria": {
+   "genres": [
+    "Electronic"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "The Meteors": {
+   "genres": [
+    "Indie & Rock"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "Guilt Trip": {
+   "genres": [
+    "Punk & Metal"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "Jackie Greene": {
+   "genres": [
+    "Folk & Country"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "Black Label Society": {
+   "genres": [
+    "Punk & Metal"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "Tchami": {
+   "genres": [
+    "Electronic"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "Genevieve Artadi": {
+   "genres": [
+    "Indie & Rock"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "Genevieve Artadi ft. Louis Cole & Chiquita Magic": {
+   "genres": [
+    "Indie & Rock"
+   ],
+   "source": "lastfm",
+   "note": "Same as Genevieve Artadi (the headliner)."
+  },
+  "Rachael & Vilray": {
+   "genres": [
+    "Jazz, World & Classical",
+    "Funk & Blues"
+   ],
+   "source": "lastfm",
+   "note": null
+  },
+  "The OBGMs": {
+   "genres": [
+    "Punk & Metal"
+   ],
+   "source": "claude",
+   "note": "Last.fm: punk, hardcore, Toronto (23.5K listeners); matches the Toronto punk band on this tour."
+  },
+  "Mountain Grass Unit": {
+   "genres": [
+    "Folk & Country"
+   ],
+   "source": "claude",
+   "note": "Last.fm: bluegrass, Alabama (10K listeners); matches the band."
+  },
+  "The Werks": {
+   "genres": [
+    "Indie & Rock"
+   ],
+   "source": "claude",
+   "note": "Last.fm: jam band, space rock, rock (17.8K listeners); matches the Ohio jam band."
+  },
+  "Stevie Stone": {
+   "genres": [
+    "Hip-hop & R&B"
+   ],
+   "source": "claude",
+   "note": "Last.fm: Hip-Hop, rap (63.9K listeners); flagged only because the top tag is his label's name."
+  },
+  "Gibby Haynes": {
+   "genres": [
+    "Indie & Rock",
+    "Punk & Metal"
+   ],
+   "source": "claude",
+   "note": "Butthole Surfers frontman; the show is billed as Butthole Surfers material (alternative / noise rock, punk)."
+  },
+  "Hot Like Mars": {
+   "genres": [
+    "Funk & Blues",
+    "Indie & Rock"
+   ],
+   "source": "claude",
+   "note": "Last.fm: soul, rock, jam band, funk (1.3K listeners)."
+  },
+  "X & Stacy": {
+   "genres": [
+    "Electronic"
+   ],
+   "source": "claude",
+   "note": "Last.fm: darkwave, ebm (27 listeners); the only artist of that name."
+  },
+  "BTTRFLY Quintet": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "claude",
+   "note": "Last.fm: jazz (501 listeners)."
+  },
+  "Josh Berman": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "claude",
+   "note": "Last.fm: jazz, free jazz, cornet; Hungry Brain lists the show as Jazz."
+  },
+  "Josh Berman Trio": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "claude",
+   "note": "Hungry Brain's listing tags the show Jazz."
+  },
+  "Dave Rempis": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "claude",
+   "note": "Last.fm: jazz, free jazz, saxophone; Hungry Brain lists the residency as Jazz."
+  },
+  "Dave Rempis Residency": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "claude",
+   "note": "Hungry Brain's listing tags the show Jazz."
+  },
+  "Brian Citro Organ Trio ft. Nate Lepine": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "claude",
+   "note": "Hungry Brain's listing tags the show Jazz."
+  },
+  "MOBKE": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "claude",
+   "note": "Hungry Brain's listing tags the show Jazz."
+  },
+  "Jackson/Giallorenzo/Harris": {
+   "genres": [
+    "Jazz, World & Classical"
+   ],
+   "source": "claude",
+   "note": "Hungry Brain's listing tags the show Jazz."
+  }
+ },
+ "left_out": {
+  "Crucible of Absolution": "No Last.fm tags (163 listeners).",
+  "Sneezy": "No Last.fm tags.",
+  "Bryce Alakai": "No Last.fm tags.",
+  "Factory": "Last.fm's Factory is a Swedish 1980s rock band, not this act.",
+  "Bad Wallpaper": "No tags, 5 listeners.",
+  "Jen Howard": "No tags, 13 listeners.",
+  "Haight St": "Not found.",
+  "Afterbirth Pulp": "Not found.",
+  "Budget Cuts": "Not looked up on Last.fm; not found on Spotify."
+ }
+}
