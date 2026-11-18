@@ -49,3 +49,16 @@ Keep titles/venue names identical week to week where the listing is unchanged (U
 3. Sanity check: event count within reason of last week (see `log.md`), file parses.
 4. Append a line to `log.md`: date, total events, per-venue counts, notable gaps.
 5. Commit and push to `main`. GitHub Pages republishes automatically.
+
+## Venues to add at the next refresh (reader requests, Nov 18, 2026)
+
+A r/SeattleWA reader asked for these and Jay replied "Will do". Add each one the way El Corazón and The Triple Door were added on Nov 17: an entry in `build_site.py` VENUES (short name, neighborhood) and AREAS if the neighborhood is new, an address in `build_ics.py` (take it from the venue's own site, do not guess), a `shows/<slug>.json` file, and a row in the table above with where its calendar lives. Then delete the venue from this list. Same content rules as every venue (real artists only; drop karaoke, trivia, DJ and dance nights, open mics, comedy, markets).
+
+- **Baba Yaga** (Pioneer Square), babayagaseattle.com. Two stages; music only.
+- **Blue Moon Tavern** (University District).
+- **Slim's Last Chance** (Georgetown / SoDo). Reported in May 2026 to be run by the Tim's Tavern team; check its own calendar.
+- **Jules Maes Saloon** (Georgetown).
+- **The Rabbit Box Theatre** (Pike Place Market). Drop storytelling, comedy and burlesque nights.
+- **Tim's Tavern** (White Center), timslivemusic.com. The reader was unsure it is still open; it has had permit and patio problems. Add it only if its calendar shows upcoming shows; otherwise say so in the summary to Jay.
+
+If any of these cannot be reached or has no usable calendar, leave it on this list and tell Jay which.
