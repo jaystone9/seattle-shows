@@ -92,6 +92,22 @@ window.SC = (function () {
       sc.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";
       sc.setAttribute("data-beehiiv-form", nl.form_id);
       slot.appendChild(sc);
+      // Some browsers block or break the embedded form (a Chicago reader on DuckDuckGo's phone browser
+      // could not type in it, Nov 17, 2026). So: always offer the same form as its own page, and if the
+      // form never appears, put a plain button in its place instead of an empty box.
+      const direct = "https://subscribe-forms.beehiiv.com/v3/forms/" + encodeURIComponent(nl.form_id) + "?referrer=" + encodeURIComponent(location.origin + location.pathname);
+      if (!slot.nextElementSibling || !slot.nextElementSibling.classList.contains("nl-alt")) {
+        const alt = document.createElement("p");
+        alt.className = "nl-alt";
+        alt.innerHTML = `Can't type in the box? <a href="${esc(direct)}" target="_blank" rel="noopener" data-nl-direct>Open the signup form on its own page →</a>`;
+        slot.after(alt);
+      }
+      setTimeout(() => {
+        if (slot.querySelector("iframe")) return;
+        slot.innerHTML = `<a class="nl-direct" href="${esc(direct)}" target="_blank" rel="noopener" data-nl-direct>Sign up for the Sunday email →</a>`;
+        const alt = slot.nextElementSibling; if (alt && alt.classList.contains("nl-alt")) alt.remove();
+        track("signup-form-blocked");
+      }, 6000);
     } else slot.innerHTML = signupHTML(nl);
   }
 
@@ -176,6 +192,7 @@ window.SC = (function () {
       else if (t.matches(".go a.tickets")) track("tickets-click", { city });
       else if (t.matches(".go a.details")) track("details-click", { city });
       else if (t.id === "pl-transfer") track("copy-playlist", { city });
+      else if (t.hasAttribute("data-nl-direct")) track("signup-direct-link", { city });
       else if (t.classList.contains("nl-cta")) track("sunday-email-button", { city });
       else if (t.closest("#pl-tabs")) track("playlist-pick", { city, kind: "area" });
       else if (t.closest("#genre-chips")) track("playlist-pick", { city, kind: "genre" });
