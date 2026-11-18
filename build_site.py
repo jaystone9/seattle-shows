@@ -337,8 +337,9 @@ def city_pages():
             if slug != "seattle":
                 subs += [
                     ("og-image.jpg", f"og-image-{slug}.jpg"),
+                    # must come before the "Seattle" swap below: the list itself contains the word Seattle
+                    ('const PL_AREAS = ["Frelard", "Downtown, Seattle Center & SoDo"];', f"const PL_AREAS = {json.dumps(c['area_playlists'])};"),
                     ("Seattle", name),
-                    ('const PL_AREAS = ["Frelard"];', f"const PL_AREAS = {json.dumps(c['area_playlists'])};"),
                 ]
             for a, b in subs:
                 html = html.replace(a, b)

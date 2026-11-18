@@ -209,8 +209,8 @@
     // Citywide playlist plus area playlists (Frelard first). Each tab swaps the player.
     const slug = a => a.toLowerCase().replace(/[^a-z]+/g,"-").replace(/^-|-$/g,"");
     const areaPls = data.area_playlists || {};
-    const PL_AREAS = ["Frelard"];  // area playlists we build every Sunday
-    const where = a => ({"Frelard":"the small rooms in Ballard and Fremont","West Loop & Pilsen":"West Loop & Pilsen",
+    const PL_AREAS = ["Frelard", "Downtown, Seattle Center & SoDo"];  // area playlists we build every Sunday
+    const where = a => ({"Frelard":"the small rooms in Ballard and Fremont","Downtown, Seattle Center & SoDo":"Downtown, Seattle Center and SoDo","West Loop & Pilsen":"West Loop & Pilsen",
                          "North Suburbs":"the North Shore and northwest suburbs"})[a] || `${a}'s small rooms`;
     // Standing genre playlists (Pop, Indie & Rock, ...): one chip each, refreshed every Sunday.
     const genres = data.genre_playlists || [];
