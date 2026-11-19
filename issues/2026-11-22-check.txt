@@ -1,0 +1,49 @@
+Subject: CHECK before sending: Nov 22–Dec 5: Seattle 2 Week Playlist
+
+This is the pre-send check. The beehiiv test of the real issue arrives separately.
+Nothing goes to subscribers until you say OK.
+
+SEND TO
+  beehiiv segment "Seattle readers" only (refresh the segment first). Never All subscribers.
+
+LINKS
+  [  ] Seattle playlist: https://open.spotify.com/playlist/2IiCl3vn63vD5OmMYMpTP8
+  [  ] Frelard playlist: https://open.spotify.com/playlist/3AnhcPXMdLkrdLq6H8dljn
+  [  ] Downtown, Seattle Center & SoDo playlist: https://open.spotify.com/playlist/0xbsjpmynDKDqlGZVfraDr
+  [  ] Pop playlist: https://open.spotify.com/playlist/0LEwAFe9B7AFgH3rWZT609
+  [  ] Indie & Rock playlist: https://open.spotify.com/playlist/3HcRSO057WS9UqZ88zgyWJ
+  [  ] Folk & Country playlist: https://open.spotify.com/playlist/3xp63ElmPkWM1ORiA8Hga9
+  [  ] Electronic playlist: https://open.spotify.com/playlist/2UeMpvFCNOIEtaHC6m5asF
+  [  ] Hip-hop & R&B playlist: https://open.spotify.com/playlist/0cTNVqAXYPGgCzJG1UCbit
+  [  ] Punk & Metal playlist: https://open.spotify.com/playlist/24ApPpkPeQQwxjbBZgTmIo
+  [  ] Funk & Blues playlist: https://open.spotify.com/playlist/35GDqKEz34wFNoVK52R1Zv
+  [  ] Jazz, World & Classical playlist: https://open.spotify.com/playlist/5HNgVRlRYbrDkwZAKIV7vC
+  [  ] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
+  [  ] Site: https://2weeksoundcheck.com/seattle/
+
+NUMBERS
+  Dates: Nov 22–Dec 5
+  Shows on the site in this window: 121
+  Seattle: 312 songs, 104 headliners, 3 per artist
+  Frelard: 251 songs, 85 artists, 3 per artist
+  Downtown, Seattle Center & SoDo: 201 songs, 67 artists, 3 per artist
+  Pop: 21 songs, 7 artists
+  Indie & Rock: 69 songs, 23 artists
+  Folk & Country: 42 songs, 14 artists
+  Electronic: 42 songs, 14 artists
+  Hip-hop & R&B: 18 songs, 6 artists
+  Punk & Metal: 66 songs, 22 artists
+  Funk & Blues: 12 songs, 4 artists
+  Jazz, World & Classical: 18 songs, 6 artists
+  Seattle skipped (not on Spotify or ambiguous): Left Turn on Blue, Ballard Food Bank Benefit, Hidden Honky Tonk, Haight St, Brass Cheeks (holiday matinee), Head Hurt, Lost Footage, Afterbirth Pulp, Great Jade Labyrinth, Sara Camille, Afterlife Afterparty, Samantha Henson's Holiday Matinee
+  Frelard skipped (not on Spotify or ambiguous): Left Turn on Blue, The Underhills, Rainbow Jackson, Verboten, Ballard Food Bank Benefit, Hidden Honky Tonk, Owen Thayer, Dutch Hudson, Van Wheeler, Bad Tats, False Hemlock, Lawn Darts, Fruit Juice, The Wayside, Matney Cook, Ritual Scars, Sarah Not Sarah, Brass Cheeks (holiday matinee), Head Hurt, Side Hustle, Lost Footage, Clean Fight, Brake Down, Salt Horse, Empty Shell Casing, Mad King, Post Revolver, Great Jade Labyrinth, Freak Beam, Poysenberry, Lark Vs. Owl, Clam & Owie, Novachrome, The Vases, Steel Cartwheel, Kitty O'Hara, Jason Cressey, Geoff Harper, Tiny Monsters, Sara Camille, Paper Trails, Afterlife Afterparty, Samantha Henson's Holiday Matinee, Anthony Jaeger, McKenna Esteb, guests
+  Downtown, Seattle Center & SoDo skipped (not on Spotify or ambiguous): Mac Sabbath, Nailed Shut, Save Us, Spaced, Super Sometimes, blessthefall, Buried in Spring, Doctor P, Kuru
+
+FLAGS
+  None from the build. Add anything found in the run (failed venues, reports).
+
+SUBJECT AND PREVIEW
+  Nov 22–Dec 5: Seattle 2 Week Playlist
+  Three playlists to save once: all of Seattle, plus Frelard and Downtown, Seattle Center & SoDo. They refresh every Sunday.
+
+Reply OK (or tell Claude in the chat) and it goes to subscribers.

@@ -1,0 +1,52 @@
+Subject: CHECK before sending: Nov 22–Dec 5: Chicago 2 Week Playlist
+
+This is the pre-send check. The beehiiv test of the real issue arrives separately.
+Nothing goes to subscribers until you say OK.
+
+SEND TO
+  beehiiv segment "Chicago readers" only (refresh the segment first). Never All subscribers.
+
+LINKS
+  [  ] Chicago playlist: https://open.spotify.com/playlist/6moaNK4s5vkeaQNF0Vb4wx
+  [  ] Wicker Park & Logan Square playlist: https://open.spotify.com/playlist/03iBC8ZXxFFgKFv8MqaBYk
+  [  ] West Loop & Pilsen playlist: https://open.spotify.com/playlist/6hcjOaWAbYK45HhD9OVX9H
+  [  ] North Suburbs playlist: https://open.spotify.com/playlist/2bTBntJfvCN3PFPq7VrVIB
+  [  ] Pop playlist: https://open.spotify.com/playlist/5fhgaqGLzgLom3UWbO7Omv
+  [  ] Indie & Rock playlist: https://open.spotify.com/playlist/0S4sJW9bRNW17CflCxxwxz
+  [  ] Folk & Country playlist: https://open.spotify.com/playlist/35nQUQI0XJyLOLPRqYbMCl
+  [  ] Electronic playlist: https://open.spotify.com/playlist/6EoQk3Zh7ktbTBgYMtorU0
+  [  ] Hip-hop & R&B playlist: https://open.spotify.com/playlist/4JgkU2lu5ytPAP2apnZxgb
+  [  ] Punk & Metal playlist: https://open.spotify.com/playlist/6h4uvj2Wq83EuKD4zq3FLl
+  [  ] Funk & Blues playlist: https://open.spotify.com/playlist/5J8mAWi9QTtmxvAkXE4iy5
+  [  ] Jazz, World & Classical playlist: https://open.spotify.com/playlist/00ZyMFHVxZF0rDItopHJvp
+  [  ] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
+  [  ] Site: https://2weeksoundcheck.com/chicago/
+
+NUMBERS
+  Dates: Nov 22–Dec 5
+  Shows on the site in this window: 275
+  Chicago: 557 songs, 188 headliners, 3 per artist
+  Wicker Park & Logan Square: 190 songs, 64 artists, 3 per artist
+  West Loop & Pilsen: 274 songs, 92 artists, 3 per artist
+  North Suburbs: 57 songs, 19 artists, 3 per artist
+  Pop: 33 songs, 11 artists
+  Indie & Rock: 138 songs, 46 artists
+  Folk & Country: 66 songs, 22 artists
+  Electronic: 62 songs, 21 artists
+  Hip-hop & R&B: 48 songs, 16 artists
+  Punk & Metal: 90 songs, 30 artists
+  Funk & Blues: 48 songs, 16 artists
+  Jazz, World & Classical: 49 songs, 17 artists
+  Chicago skipped (not on Spotify or ambiguous): Chicago Jazz Composers Collective 25th Anniversary, Music of the Baroque, Heat On, Josh Berman Trio, Diaspora Duos, The Foxtrots, Dakarai Barclay Quintet, bim+bo, The Part Timers, 3000 B.C., Kyle Swan Quartet, Black and White Gipsy Orchestra, Sabertooth Organ Quartet, Justin Robinson Quintet, Jerry Weldon/Dave Schumacher Organ Quartet, Al Scorch's Big Fantastical Residency, Cryofloves, Mazzarella/Håker Flaten/Ra Trio & Heaven Orchestra, Gerald Dowd Band, Evrod Cassimy, PANCHO, John Sutton DogTime, Cornerstones of Rock, xSoakedintormentx, Autofill, Alpert/Cunningham/Corsano, The Generic Version, Ronnie Acoustic, Abram Collier Nonet, Jimmy Farace Quartet, Steve Schneck Quartet, Henry Carpender, Parranda Gaitera, Willy Porter & The Humans in a Room Quartet, Rachel Farr, Bob Lark Septet, Mayn Groove, Nicholas Alexander, Home by 3, Cantus, Jeremy Pelt Quintet, La Croix Mystique, Lee Ketch, Dave Rempis Residency, The Adrian Dunn Singers, Dan Ponce (Chicago Christmas), The Stigs, MOBKE, PB, Mannheim Steamroller Christmas by Chip Davis, New Heartaches, Jonny Lyons & The Pride, Megadad, Dos Santos, Daisychain
+  Wicker Park & Logan Square skipped (not on Spotify or ambiguous): Anna Johnson, Diaspora Duos, Hugo Flores García, Aliah Ajamoughli, Cruz, Liam Taylor, The Part Timers, Petsit, Earl Gary, AJ, Jacob Ciocci, Lynn Canfield & Henry Frayne, Zercher, Violet Waves, Dietpooch, PANCHO, nvrmore, Instrument, Laliberté, Ronnie Acoustic, The Maxwell Blast, Chris Coleslaw Band, Lost Legion, The Alices, Yetta, Flail, Iris Marlowe, Hangxiety, Ston Don, Daryn Alexus, Malci, PB, Shiksa, Co-Stanza, Dos Santos, Daisychain, Machīn, Así Así
+  West Loop & Pilsen skipped (not on Spotify or ambiguous): Soaked in Torment, Curb Stomp the Opposition, On Dirt, Wall of Flesh, Constant Pain, Heat On, Original Time Demonstrations, 3000 B.C., Understudy, Instrument, Fallen Angels, Jail, Glorious Descent, Al Scorch's Big Fantastical Residency, Evrod Cassimy, Mary K, xSoakedintormentx, xCommandx, Contra Mi, CUT, Kitship, Torn Open, Katywentmissing, Squelching, Tash Solara
+  North Suburbs skipped (not on Spotify or ambiguous): Music of the Baroque, Cornerstones of Rock, Abram Collier Nonet, Jimmy Farace Quartet, Anna Donnelly, Willy Porter & The Humans in a Room Quartet, Cantus, The Adrian Dunn Singers, Kevin King, Mannheim Steamroller Christmas by Chip Davis, Jonny Lyons & The Pride
+
+FLAGS
+  None from the build. Add anything found in the run (failed venues, reports).
+
+SUBJECT AND PREVIEW
+  Nov 22–Dec 5: Chicago 2 Week Playlist
+  Four playlists to save once: all of Chicago, plus Wicker Park & Logan Square, West Loop & Pilsen and the North Suburbs. They refresh every Sunday.
+
+Reply OK (or tell Claude in the chat) and it goes to subscribers.
