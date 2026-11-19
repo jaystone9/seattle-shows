@@ -2,61 +2,21 @@
   {
     "venue": "Black Lodge",
     "room": null,
-    "title": "Marci (with The Booyah! Kids, Good Enough)",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://app.discotech.me/events/38256293-marci-at-the-black-lodge",
-    "status": null
-  },
-  {
-    "venue": "Black Lodge",
-    "room": null,
-    "title": "Habak (with Generation Decline, MASSGRIEF, Nerve Rot)",
-    "date": "2026-11-08",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://app.discotech.me/events/38287864-habak-at-the-black-lodge",
-    "status": null
-  },
-  {
-    "venue": "Black Lodge",
-    "room": null,
-    "title": "carter c (with liz luevand, Planet Shelby)",
-    "date": "2026-11-10",
-    "doors": "19:00",
-    "start": "19:00",
-    "url": "https://dice.fm/event/6ac2cbf52f95f80001b9a56e",
-    "status": null
-  },
-  {
-    "venue": "Black Lodge",
-    "room": null,
-    "title": "Super Cassette (with Worms in Dirt, Blip.)",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://app.discotech.me/events/38275746-super-cassette-at-the-black-lodge",
-    "status": null
-  },
-  {
-    "venue": "Black Lodge",
-    "room": null,
-    "title": "Sutekh Hexen (with Sin Pavilion, Recursive Transform Array, Coping Method, Kole Galbraith)",
-    "date": "2026-11-15",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://do206.com/events/2026/11/15/sutekh-hexen-sin-pavilion-more-tickets",
-    "status": null
-  },
-  {
-    "venue": "Black Lodge",
-    "room": null,
     "title": "Endless Joy (with Coping Method)",
     "date": "2026-11-19",
     "doors": "19:00",
     "start": null,
     "url": "https://dice.fm/event/8ed2bw-aaa-fest-endless-joy-coping-method-friends-19th-nov-the-black-lodge-seattle-tickets",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Fashion Change (with Brainwash Victims, Civil Event, Cherub Chains, Agony Corrodes)",
+    "date": "2026-12-04",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do206.com/events/2026/12/4/fashion-change-brainwash-victims-more-tickets",
     "status": null
   },
   {
@@ -122,11 +82,61 @@
   {
     "venue": "Black Lodge",
     "room": null,
-    "title": "Robo Pumpkin & Women in Peril",
+    "title": "Adipocere (with Blasphemous Act, Odios, Exit Wound, Infight)",
+    "date": "2026-12-19",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do206.com/events/2026/12/19/adipocere-blasphemous-act-odios-more-tickets",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Robo Pumpkin (with Women in Peril, Big Day Out, No Leaders, Please!)",
     "date": "2027-01-13",
     "doors": null,
-    "start": null,
+    "start": "19:00",
     "url": "https://dice.fm/event/6aea4e8353eca80001b9eeae",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Susquatch 6, Day 1: Morgan Garrett (with Black Ends, Give Me the Money, Casi, God Boat, 129600, Fleetwood Snack, I Luv Abortion)",
+    "date": "2027-01-29",
+    "doors": null,
+    "start": "17:00",
+    "url": "https://do206.com/events/2027/1/29/susquatch-6-day-1-tickets",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Susquatch 6, Day 2: Los Chimasos (with Sea Moss, Miscomings, Glass Egg, Neverendings, Lenny Voter, Laser Beam, Florida Man)",
+    "date": "2027-01-30",
+    "doors": null,
+    "start": "17:00",
+    "url": "https://do206.com/events/2027/1/30/susquatch-6-day-2-tickets",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "The Body & Cel Genesis",
+    "date": "2027-03-12",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do206.com/events/2027/3/12/the-body-cel-genesis-tickets",
+    "status": null
+  },
+  {
+    "venue": "Black Lodge",
+    "room": null,
+    "title": "Truck Violence (with Concrete Vehicles)",
+    "date": "2027-03-31",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do206.com/events/2027/3/31/truck-violence-tickets",
     "status": null
   }
 ]

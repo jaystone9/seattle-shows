@@ -1,66 +1,6 @@
 [
   {
     "venue": "The Complex",
-    "room": "The Grand",
-    "title": "Token (with Clark D)",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.thecomplexslc.com/events/detail?event_id=1521566",
-    "status": null
-  },
-  {
-    "venue": "The Complex",
-    "room": "Rockwell",
-    "title": "GWAR (with Midnight, Mac Sabbath, Nailed Shut)",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "18:00",
-    "url": "https://www.thecomplexslc.com/events/detail?event_id=1423193",
-    "status": null
-  },
-  {
-    "venue": "The Complex",
-    "room": "The Grand",
-    "title": "Lucy Bedroque (with pinponpanpon)",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.axs.com/events/1559144/lucy-bedroque-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Complex",
-    "room": "Rockwell",
-    "title": "Whethan (with Flozone)",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.thecomplexslc.com/events/detail?event_id=1462884",
-    "status": null
-  },
-  {
-    "venue": "The Complex",
-    "room": "Rockwell",
-    "title": "Thundercat (with fera)",
-    "date": "2026-11-15",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.axs.com/events/1518422/thundercat-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Complex",
-    "room": "Rockwell",
-    "title": "Parachute (with Ava Liv Mabry)",
-    "date": "2026-11-17",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.axs.com/events/1527104/parachute-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Complex",
     "room": "Rockwell",
     "title": "Switchfoot (with Anberlin)",
     "date": "2026-11-19",
@@ -322,6 +262,16 @@
   {
     "venue": "The Complex",
     "room": "Rockwell",
+    "title": "Ian Asher",
+    "date": "2027-01-15",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://www.axs.com/events/1705093/ian-asher-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Complex",
+    "room": "Rockwell",
     "title": "Greensky Bluegrass (with Magoo)",
     "date": "2027-01-22",
     "doors": null,
@@ -512,7 +462,7 @@
   {
     "venue": "The Complex",
     "room": "Rockwell",
-    "title": "Grace Potter",
+    "title": "Grace Potter (with Langhorne Slim)",
     "date": "2027-03-19",
     "doors": null,
     "start": "18:30",
@@ -531,12 +481,32 @@
   },
   {
     "venue": "The Complex",
+    "room": "Rockwell",
+    "title": "CHVRCHES",
+    "date": "2027-03-23",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.axs.com/events/1704402/chvrches-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Complex",
     "room": "The Grand",
     "title": "VNV Nation",
     "date": "2027-03-26",
     "doors": null,
     "start": "18:30",
     "url": "https://www.thecomplexslc.com/events/detail?event_id=1505213",
+    "status": null
+  },
+  {
+    "venue": "The Complex",
+    "room": "The Grand",
+    "title": "Gang of Youths",
+    "date": "2027-03-31",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43513745-gang-of-youths-at-grand-the-complex",
     "status": null
   },
   {
@@ -622,21 +592,31 @@
   {
     "venue": "The Complex",
     "room": "Rockwell",
-    "title": "Fkj – Tyber",
-    "date": "2027-04-28",
-    "doors": null,
-    "start": null,
-    "url": "https://www.axs.com/events/1465854/fkj-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Complex",
-    "room": "Rockwell",
     "title": "FKJ",
     "date": "2027-04-28",
     "doors": null,
     "start": "19:00",
     "url": "https://www.thecomplexslc.com/events/detail?event_id=1465854",
+    "status": null
+  },
+  {
+    "venue": "The Complex",
+    "room": "Rockwell",
+    "title": "Sullivan King",
+    "date": "2027-04-30",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://www.axs.com/events/1698285/sullivan-king-430-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Complex",
+    "room": "Rockwell",
+    "title": "Sullivan King",
+    "date": "2027-05-01",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://www.axs.com/events/1698287/sullivan-king-501-tickets",
     "status": null
   },
   {
@@ -665,18 +645,8 @@
     "title": "CG5",
     "date": "2027-05-07",
     "doors": null,
-    "start": null,
-    "url": "https://www.axs.com/events/1662635/cg5-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Complex",
-    "room": "The Grand",
-    "title": "CG5 Presents",
-    "date": "2027-05-07",
-    "doors": null,
     "start": "19:00",
-    "url": "https://www.thecomplexslc.com/events/detail?event_id=1662635",
+    "url": "https://www.axs.com/events/1662635/cg5-tickets",
     "status": null
   },
   {
@@ -697,16 +667,6 @@
     "doors": null,
     "start": "19:00",
     "url": "https://www.axs.com/events/1660142/our-last-night-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Complex",
-    "room": "Rockwell",
-    "title": "Hazlett (with lighthearted)",
-    "date": "2027-05-21",
-    "doors": null,
-    "start": "18:30",
-    "url": "https://www.axs.com/events/1489836/hazlett-tickets",
     "status": null
   }
 ]

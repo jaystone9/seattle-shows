@@ -28,5 +28,35 @@
     "start": "19:30",
     "url": "https://www.auditoriumtheatre.org/events/detail/jessica-vosk",
     "status": null
+  },
+  {
+    "venue": "Auditorium Theatre",
+    "room": null,
+    "title": "Damien Rice",
+    "date": "2027-05-11",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/5/11/damien-rice-o-25th-anniversary-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "Auditorium Theatre",
+    "room": null,
+    "title": "Damien Rice",
+    "date": "2027-05-12",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.axs.com/events/1659851/damien-rice-o-tickets",
+    "status": null
+  },
+  {
+    "venue": "Auditorium Theatre",
+    "room": null,
+    "title": "Nathaniel Rateliff (with Bebe Stockwell)",
+    "date": "2027-05-13",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.auditoriumtheatre.org/events/detail/nathaniel-rateliff",
+    "status": null
   }
 ]

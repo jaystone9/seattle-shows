@@ -2,56 +2,6 @@
   {
     "venue": "The Neptune Theatre",
     "room": null,
-    "title": "Aterciopelados",
-    "date": "2026-11-08",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/aterciopelados/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
-    "title": "Foy Vance (with Bonnie Bishop, Ryan McMullan)",
-    "date": "2026-11-13",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://www.stgpresents.org/events/foy-vance/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
-    "title": "Eivør",
-    "date": "2026-11-15",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/eivor/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
-    "title": "RHYE",
-    "date": "2026-11-17",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/rhye/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
-    "title": "Todd Rundgren",
-    "date": "2026-11-18",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/todd-rundgren/",
-    "status": null
-  },
-  {
-    "venue": "The Neptune Theatre",
-    "room": null,
     "title": "Gary Numan (with TREMOURS)",
     "date": "2026-11-19",
     "doors": "19:00",
@@ -182,6 +132,16 @@
   {
     "venue": "The Neptune Theatre",
     "room": null,
+    "title": "Rock Out, Feed Seattle! (with Daughters of Venus, Aurora Ave, Missmanaged)",
+    "date": "2027-01-15",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/rock-out-feed-seattle/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
     "title": "TesseracT (with Entheos, Sunborn)",
     "date": "2027-01-27",
     "doors": "19:00",
@@ -192,21 +152,21 @@
   {
     "venue": "The Neptune Theatre",
     "room": null,
-    "title": "Fruition (with Rainbow Girls)",
-    "date": "2027-01-29",
+    "title": "Bebel Gilberto",
+    "date": "2027-01-28",
     "doors": "19:00",
     "start": "20:00",
-    "url": "https://www.stgpresents.org/events/fruition/",
+    "url": "https://www.stgpresents.org/events/bebel-gilberto/",
     "status": null
   },
   {
     "venue": "The Neptune Theatre",
     "room": null,
-    "title": "Ray Lau",
-    "date": "2027-01-30",
-    "doors": null,
-    "start": null,
-    "url": "https://www.stgpresents.org/events/ray-lau/",
+    "title": "Fruition (with Rainbow Girls)",
+    "date": "2027-01-29",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/fruition/",
     "status": null
   },
   {
@@ -267,6 +227,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/oteil-friends/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
+    "title": "Teenage Fanclub",
+    "date": "2027-03-16",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/teenage-fanclub/",
     "status": null
   },
   {
@@ -417,6 +387,56 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/palaye-royale/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
+    "title": "Racing Mount Pleasant (with Dutch Interior)",
+    "date": "2027-05-12",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/racing-mount-pleasant/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
+    "title": "Leo Middea",
+    "date": "2027-05-13",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/leo-middea/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
+    "title": "Too Many Zooz",
+    "date": "2027-05-14",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/too-many-zooz/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
+    "title": "Enjambre",
+    "date": "2027-05-15",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/enjambre/",
+    "status": null
+  },
+  {
+    "venue": "The Neptune Theatre",
+    "room": null,
+    "title": "Haute & Freddy",
+    "date": "2027-05-19",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/haute-and-freddy/",
     "status": null
   }
 ]

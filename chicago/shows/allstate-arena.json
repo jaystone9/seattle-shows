@@ -72,11 +72,41 @@
   {
     "venue": "Allstate Arena",
     "room": null,
+    "title": "Westlife (with O-Town)",
+    "date": "2027-03-17",
+    "doors": null,
+    "start": "18:30",
+    "url": "https://www.ticketmaster.com/event/0400656BEB87EFFC",
+    "status": null
+  },
+  {
+    "venue": "Allstate Arena",
+    "room": null,
     "title": "Los Tigres del Norte",
     "date": "2027-03-20",
     "doors": null,
     "start": "20:00",
     "url": "https://www.ticketmaster.com/event/04006546C23AB42E",
+    "status": null
+  },
+  {
+    "venue": "Allstate Arena",
+    "room": null,
+    "title": "Banda MS",
+    "date": "2027-05-15",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketmaster.com/banda-ms-somos-ms-2026-tour-rosemont-illinois-05-15-2027/event/0400647490464269",
+    "status": null
+  },
+  {
+    "venue": "Allstate Arena",
+    "room": null,
+    "title": "Queens of the Stone Age (with Pixies, Wheelchair Sports Camp)",
+    "date": "2027-05-16",
+    "doors": null,
+    "start": "18:30",
+    "url": "https://www.ticketmaster.com/event/040065539EE6427C",
     "status": null
   }
 ]

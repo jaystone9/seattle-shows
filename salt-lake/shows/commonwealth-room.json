@@ -2,66 +2,6 @@
   {
     "venue": "The Commonwealth Room",
     "room": null,
-    "title": "Tank & The Bangas",
-    "date": "2026-11-08",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://thestateroompresents.com/state-room-presents/tank-the-bangas",
-    "status": null
-  },
-  {
-    "venue": "The Commonwealth Room",
-    "room": null,
-    "title": "Railroad Earth",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://thestateroompresents.com/state-room-presents/railroad-earth-3",
-    "status": null
-  },
-  {
-    "venue": "The Commonwealth Room",
-    "room": null,
-    "title": "Trash Moon Hootenanny",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://thestateroompresents.com/state-room-presents/trash-moon-hootenanny-2",
-    "status": null
-  },
-  {
-    "venue": "The Commonwealth Room",
-    "room": null,
-    "title": "Jill Whit",
-    "date": "2026-11-16",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://thestateroompresents.com/state-room-presents/jill-whit-2",
-    "status": null
-  },
-  {
-    "venue": "The Commonwealth Room",
-    "room": null,
-    "title": "Foy Vance",
-    "date": "2026-11-17",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://thestateroompresents.com/state-room-presents/foy-vance-2",
-    "status": null
-  },
-  {
-    "venue": "The Commonwealth Room",
-    "room": null,
-    "title": "The Brothers Comatose",
-    "date": "2026-11-18",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://thestateroompresents.com/state-room-presents/the-brothers-comatose-4",
-    "status": null
-  },
-  {
-    "venue": "The Commonwealth Room",
-    "room": null,
     "title": "Peter Cain",
     "date": "2026-11-21",
     "doors": null,
@@ -122,6 +62,16 @@
   {
     "venue": "The Commonwealth Room",
     "room": null,
+    "title": "The Motet",
+    "date": "2027-01-23",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://thestateroompresents.com/state-room-presents/the-motet-5",
+    "status": null
+  },
+  {
+    "venue": "The Commonwealth Room",
+    "room": null,
     "title": "Lotus",
     "date": "2027-01-26",
     "doors": null,
@@ -172,6 +122,16 @@
   {
     "venue": "The Commonwealth Room",
     "room": null,
+    "title": "The Altons",
+    "date": "2027-03-31",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://thestateroompresents.com/state-room-presents/the-altons",
+    "status": null
+  },
+  {
+    "venue": "The Commonwealth Room",
+    "room": null,
     "title": "moe.",
     "date": "2027-04-03",
     "doors": null,
@@ -182,11 +142,21 @@
   {
     "venue": "The Commonwealth Room",
     "room": null,
-    "title": "John Splithoff",
-    "date": "2027-05-22",
+    "title": "Charley Crockett",
+    "date": "2027-04-19",
     "doors": null,
-    "start": "19:00",
-    "url": "https://thestateroompresents.com/state-room-presents/john-splithoff-3",
+    "start": "20:00",
+    "url": "https://thestateroompresents.com/state-room-presents/charley-crockett",
+    "status": null
+  },
+  {
+    "venue": "The Commonwealth Room",
+    "room": null,
+    "title": "Charley Crockett",
+    "date": "2027-04-20",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://thestateroompresents.com/state-room-presents/charley-crockett-2",
     "status": null
   }
 ]

@@ -2,51 +2,11 @@
   {
     "venue": "Color Club",
     "room": null,
-    "title": "Mel Bryant & the Mercy Makers (with Molly Compton)",
-    "date": "2026-11-11",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://link.dice.fm/Pf7f26e5a189?pid=717f1d8a",
-    "status": null
-  },
-  {
-    "venue": "Color Club",
-    "room": null,
-    "title": "Mother Soki (with Alana Markel)",
-    "date": "2026-11-11",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://link.dice.fm/P16146b93bcd",
-    "status": null
-  },
-  {
-    "venue": "Color Club",
-    "room": null,
-    "title": "Kiernan (with Beauty Saloon, Ester, Damsel)",
-    "date": "2026-11-12",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://dice.fm/event/6add214d73038d0001a5eeb2",
-    "status": null
-  },
-  {
-    "venue": "Color Club",
-    "room": null,
-    "title": "Madame Reaper",
-    "date": "2026-11-14",
-    "doors": "20:00",
+    "title": "Diaspora Duos (with Hugo Flores García, Aliah Ajamoughli, Cruz, KASIA)",
+    "date": "2026-11-23",
+    "doors": "18:30",
     "start": null,
-    "url": "https://www.songkick.com/concerts/43480487-madame-reaper-at-color-club",
-    "status": null
-  },
-  {
-    "venue": "Color Club",
-    "room": null,
-    "title": "Shallow Alcove",
-    "date": "2026-11-18",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://link.dice.fm/m3cbff7f85a9?pid=717f1d8a",
+    "url": "https://link.dice.fm/H17ba1a780da?pid=717f1d8a",
     "status": null
   },
   {
@@ -82,11 +42,61 @@
   {
     "venue": "Color Club",
     "room": null,
+    "title": "Milou Moon (with Toddo)",
+    "date": "2026-12-18",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://link.dice.fm/D2737e3809a9?pid=717f1d8a",
+    "status": null
+  },
+  {
+    "venue": "Color Club",
+    "room": null,
+    "title": "The Hissy Kits",
+    "date": "2026-12-20",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://link.dice.fm/ce14ddafd2ab?pid=717f1d8a",
+    "status": null
+  },
+  {
+    "venue": "Color Club",
+    "room": null,
+    "title": "The Hissy Kits",
+    "date": "2026-12-20",
+    "doors": "20:30",
+    "start": null,
+    "url": "https://link.dice.fm/ce14ddafd2ab?pid=717f1d8a",
+    "status": null
+  },
+  {
+    "venue": "Color Club",
+    "room": null,
+    "title": "Aimee Zarder (with Cat Merkle, Efi Malliaras)",
+    "date": "2027-01-07",
+    "doors": "19:30",
+    "start": null,
+    "url": "https://link.dice.fm/g2960f7dee65?pid=717f1d8a",
+    "status": null
+  },
+  {
+    "venue": "Color Club",
+    "room": null,
+    "title": "Madame Starlet",
+    "date": "2027-01-10",
+    "doors": "19:30",
+    "start": null,
+    "url": "https://link.dice.fm/p9303494c94e?pid=717f1d8a",
+    "status": null
+  },
+  {
+    "venue": "Color Club",
+    "room": null,
     "title": "Jesus Christ Taxi Driver",
     "date": "2027-01-23",
-    "doors": "20:00",
+    "doors": "19:30",
     "start": null,
-    "url": "https://www.songkick.com/concerts/43503066-jesus-christ-taxi-driver-at-color-club",
+    "url": "https://link.dice.fm/O6ef33fc0406?pid=717f1d8a",
     "status": null
   }
 ]

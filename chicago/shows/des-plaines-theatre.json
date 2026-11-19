@@ -2,52 +2,12 @@
   {
     "venue": "Des Plaines Theatre",
     "room": null,
-    "title": "Denise Tomasello and her 17-Piece Orchestra",
-    "date": "2026-11-08",
-    "doors": null,
-    "start": "15:00",
-    "url": "https://www.etix.com/ticket/p/31036691/denise-tomasello-des-plaines-des-plaines-theatre",
-    "status": null
-  },
-  {
-    "venue": "Des Plaines Theatre",
-    "room": null,
-    "title": "Engelbert Humperdinck",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.etix.com/ticket/p/46982052/engelbert-humperdinck-des-plaines-des-plaines-theatre",
-    "status": null
-  },
-  {
-    "venue": "Des Plaines Theatre",
-    "room": null,
-    "title": "GCS (Eric Gales, Dennis Chambers, Billy Sheehan)",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.etix.com/ticket/p/45784752/gcs-fteric-galesdennis-chambersbilly-sheehan-des-plaines-des-plaines-theatre",
-    "status": null
-  },
-  {
-    "venue": "Des Plaines Theatre",
-    "room": null,
-    "title": "John Waite (with John Cafferty & The Beaver Brown Band)",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.etix.com/ticket/p/86410567/john-waite-with-special-guest-john-cafferty-the-beaver-brown-band-des-plaines-des-plaines-theatre",
-    "status": null
-  },
-  {
-    "venue": "Des Plaines Theatre",
-    "room": null,
     "title": "Art Garfunkel",
     "date": "2026-11-19",
     "doors": null,
     "start": "19:30",
     "url": "https://www.etix.com/ticket/p/81206239/art-garfunkel-what-a-wonderful-world-celebration-concerts-des-plaines-des-plaines-theatre",
-    "status": null
+    "status": "postponed"
   },
   {
     "venue": "Des Plaines Theatre",
@@ -55,18 +15,8 @@
     "title": "Pooh",
     "date": "2026-11-22",
     "doors": null,
-    "start": "15:00",
+    "start": "19:00",
     "url": "https://www.etix.com/ticket/p/96003660/i-pooh-60th-anniversary-finale-des-plaines-des-plaines-theatre",
-    "status": null
-  },
-  {
-    "venue": "Des Plaines Theatre",
-    "room": null,
-    "title": "Deacon Blue",
-    "date": "2026-11-28",
-    "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43502640-deacon-blue-at-des-plaines-theatre",
     "status": null
   },
   {
@@ -132,11 +82,31 @@
   {
     "venue": "Des Plaines Theatre",
     "room": null,
-    "title": "The Ides of March",
+    "title": "The Ides of March (with Megon McDonough)",
     "date": "2026-12-20",
     "doors": null,
     "start": "15:00",
     "url": "https://www.etix.com/ticket/p/94389044/ides-of-march-christmas-show-des-plaines-des-plaines-theatre",
+    "status": null
+  },
+  {
+    "venue": "Des Plaines Theatre",
+    "room": null,
+    "title": "Heart By Heart (Steve Fossen and Michael Derosier of Heart)",
+    "date": "2027-01-16",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.etix.com/ticket/p/92334064/heart-by-heart-des-plaines-des-plaines-theatre",
+    "status": null
+  },
+  {
+    "venue": "Des Plaines Theatre",
+    "room": null,
+    "title": "Saving Abel (with Tantric, Flaw, Oray)",
+    "date": "2027-02-04",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.etix.com/ticket/p/85739201/saving-abel-with-tantric-flaw-des-plaines-des-plaines-theatre",
     "status": null
   },
   {
@@ -182,6 +152,16 @@
   {
     "venue": "Des Plaines Theatre",
     "room": null,
+    "title": "The Association (with Classics IV)",
+    "date": "2027-03-07",
+    "doors": null,
+    "start": "18:00",
+    "url": "https://www.etix.com/ticket/p/79098322/the-association-with-classics-iv-des-plaines-des-plaines-theatre",
+    "status": null
+  },
+  {
+    "venue": "Des Plaines Theatre",
+    "room": null,
     "title": "The Buddy Rich Big Band Machine (with Gregg Potter, Cathy Rich)",
     "date": "2027-03-14",
     "doors": null,
@@ -197,6 +177,46 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.etix.com/ticket/p/71984861/here-come-the-mummies-des-plaines-des-plaines-theatre",
+    "status": null
+  },
+  {
+    "venue": "Des Plaines Theatre",
+    "room": null,
+    "title": "38 Special",
+    "date": "2027-04-09",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.etix.com/ticket/p/68253606/38-special-des-plaines-des-plaines-theatre",
+    "status": null
+  },
+  {
+    "venue": "Des Plaines Theatre",
+    "room": null,
+    "title": "American Pop!: The Grass Roots, The Buckinghams, The Box Tops",
+    "date": "2027-04-15",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.etix.com/ticket/p/97062756/american-popfeaturing-the-grass-rootsthe-buckinghams-the-box-tops-des-plaines-des-plaines-theatre",
+    "status": null
+  },
+  {
+    "venue": "Des Plaines Theatre",
+    "room": null,
+    "title": "Tony Hadley",
+    "date": "2027-04-16",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.etix.com/ticket/p/68747964/tony-hadley-of-spandau-ballet-des-plaines-des-plaines-theatre",
+    "status": null
+  },
+  {
+    "venue": "Des Plaines Theatre",
+    "room": null,
+    "title": "The Wailers",
+    "date": "2027-05-02",
+    "doors": null,
+    "start": "17:00",
+    "url": "https://www.etix.com/ticket/p/72103614/the-wailers-des-plaines-des-plaines-theatre",
     "status": null
   }
 ]

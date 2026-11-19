@@ -2,46 +2,6 @@
   {
     "venue": "Soundwell",
     "room": null,
-    "title": "Kabaka Pyramid",
-    "date": "2026-11-12",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.eventliveus.com/event/10553/kabakapyramid",
-    "status": null
-  },
-  {
-    "venue": "Soundwell",
-    "room": null,
-    "title": "Frankie J (with Raz B Of B2K & Big Gemini)",
-    "date": "2026-11-13",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://tixr.com/e/199964",
-    "status": null
-  },
-  {
-    "venue": "Soundwell",
-    "room": null,
-    "title": "Amtrac (with Jordan Zundel)",
-    "date": "2026-11-14",
-    "doors": "21:00",
-    "start": null,
-    "url": "https://www.eventliveus.com/event/10496/amtrac",
-    "status": null
-  },
-  {
-    "venue": "Soundwell",
-    "room": null,
-    "title": "1 Umbrella",
-    "date": "2026-11-19",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.eventliveus.com/event/10544/1umbrella",
-    "status": null
-  },
-  {
-    "venue": "Soundwell",
-    "room": null,
     "title": "Shwayze (with Asher Roth, Chiddy Bang)",
     "date": "2026-11-20",
     "doors": "19:00",
@@ -87,7 +47,7 @@
     "doors": "17:00",
     "start": null,
     "url": "https://tixr.com/e/194974",
-    "status": null
+    "status": "sold out"
   },
   {
     "venue": "Soundwell",
@@ -102,7 +62,7 @@
   {
     "venue": "Soundwell",
     "room": null,
-    "title": "Ripe",
+    "title": "Ripe (with 19 Miles Per Hour)",
     "date": "2026-12-11",
     "doors": "19:00",
     "start": null,
@@ -122,11 +82,121 @@
   {
     "venue": "Soundwell",
     "room": null,
+    "title": "The Floozies (with Future Joy, Bray Radbury)",
+    "date": "2027-01-20",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.eventliveus.com/event/10619/thefloozies",
+    "status": null
+  },
+  {
+    "venue": "Soundwell",
+    "room": null,
     "title": "CYCLOPS (with Paper Skies)",
     "date": "2027-01-23",
     "doors": "21:00",
     "start": null,
     "url": "https://www.eventliveus.com/event/10582/cyclops",
+    "status": null
+  },
+  {
+    "venue": "Soundwell",
+    "room": null,
+    "title": "Grabbitz",
+    "date": "2027-01-30",
+    "doors": "21:00",
+    "start": null,
+    "url": "https://www.eventliveus.com/event/10556/grabbitz",
+    "status": null
+  },
+  {
+    "venue": "Soundwell",
+    "room": null,
+    "title": "Satsang",
+    "date": "2027-02-03",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.eventliveus.com/event/10541/satsang",
+    "status": null
+  },
+  {
+    "venue": "Soundwell",
+    "room": null,
+    "title": "Ballyhoo! (with Chad Tepper, Keep Flying)",
+    "date": "2027-02-07",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.eventliveus.com/event/10566/ballyhoo",
+    "status": null
+  },
+  {
+    "venue": "Soundwell",
+    "room": null,
+    "title": "Softest Hard B2B Capozzi",
+    "date": "2027-02-13",
+    "doors": "21:00",
+    "start": null,
+    "url": "https://www.eventliveus.com/event/10598/softesthardb2bcapozzi",
+    "status": null
+  },
+  {
+    "venue": "Soundwell",
+    "room": null,
+    "title": "L.A.B (with Seven Suns)",
+    "date": "2027-02-20",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.eventliveus.com/event/10568/lab",
+    "status": null
+  },
+  {
+    "venue": "Soundwell",
+    "room": null,
+    "title": "Surfer Girl (with South Summit, Joby!)",
+    "date": "2027-03-05",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.eventliveus.com/event/10567/surfergirl",
+    "status": null
+  },
+  {
+    "venue": "Soundwell",
+    "room": null,
+    "title": "Graham Barham",
+    "date": "2027-03-13",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.eventliveus.com/event/10558/grahambarham",
+    "status": null
+  },
+  {
+    "venue": "Soundwell",
+    "room": null,
+    "title": "Kash'd Out (with Cydeways, A-Mac)",
+    "date": "2027-03-20",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.eventliveus.com/event/10580/kashdout",
+    "status": null
+  },
+  {
+    "venue": "Soundwell",
+    "room": null,
+    "title": "Southall",
+    "date": "2027-03-24",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.eventliveus.com/event/10602/southall",
+    "status": null
+  },
+  {
+    "venue": "Soundwell",
+    "room": null,
+    "title": "Hotel Mira (with Pretty Bitter, Lisa Heller)",
+    "date": "2027-05-02",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.eventliveus.com/event/10599/hotelmira",
     "status": null
   }
 ]

@@ -2,36 +2,6 @@
   {
     "venue": "Park West",
     "room": null,
-    "title": "Hurricane Wisdom",
-    "date": "2026-11-09",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.axs.com/events/1561837/hurricane-wisdom-weathering-the-world-tickets?skin=parkwest",
-    "status": null
-  },
-  {
-    "venue": "Park West",
-    "room": null,
-    "title": "Dev Lemons (with Venus & the Flytraps)",
-    "date": "2026-11-10",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.axs.com/events/1515575/dev-lemons-eat-the-pavement-tour-tickets?skin=parkwest",
-    "status": null
-  },
-  {
-    "venue": "Park West",
-    "room": null,
-    "title": "Prateek Kuhad",
-    "date": "2026-11-17",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://www.axs.com/events/1599923/prateek-kuhad-tickets?skin=parkwest",
-    "status": "cancelled"
-  },
-  {
-    "venue": "Park West",
-    "room": null,
     "title": "The Smithereens (with The Handcuffs)",
     "date": "2026-11-21",
     "doors": "18:30",
@@ -177,6 +147,16 @@
     "doors": "18:30",
     "start": "19:30",
     "url": "https://www.axs.com/events/1650484/rare-americans-tickets?skin=parkwest",
+    "status": null
+  },
+  {
+    "venue": "Park West",
+    "room": null,
+    "title": "Jason Cheny",
+    "date": "2027-03-05",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.axs.com/events/1622820/jason-cheny-tickets?skin=parkwest",
     "status": null
   },
   {

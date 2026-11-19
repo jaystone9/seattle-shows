@@ -2,16 +2,6 @@
   {
     "venue": "Gorton Center",
     "room": null,
-    "title": "Noiś Saxophone Quartet",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://gortoncenter.org/event/rendezvous-arts-nois-saxophone-quartet/",
-    "status": null
-  },
-  {
-    "venue": "Gorton Center",
-    "room": null,
     "title": "Jo Ann Daugherty Jazz Trio",
     "date": "2026-12-18",
     "doors": null,
@@ -77,6 +67,26 @@
     "doors": null,
     "start": "19:00",
     "url": "https://gortoncenter.org/event/rendezvous-arts-haymarket-opera-company/",
+    "status": null
+  },
+  {
+    "venue": "Gorton Center",
+    "room": null,
+    "title": "Collision of Rhythm",
+    "date": "2027-04-18",
+    "doors": null,
+    "start": "14:00",
+    "url": "https://gortoncenter.org/event/collision-of-rhythm/",
+    "status": null
+  },
+  {
+    "venue": "Gorton Center",
+    "room": null,
+    "title": "Katie Grennan, John Williams & Friends",
+    "date": "2027-04-23",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://gortoncenter.org/event/katie-grennan-john-williams/",
     "status": null
   }
 ]

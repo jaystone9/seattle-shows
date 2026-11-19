@@ -2,56 +2,6 @@
   {
     "venue": "The Paramount Theatre",
     "room": null,
-    "title": "Isaiah Rashad",
-    "date": "2026-11-10",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/isaiah-rashad/",
-    "status": null
-  },
-  {
-    "venue": "The Paramount Theatre",
-    "room": null,
-    "title": "Not For Radio",
-    "date": "2026-11-11",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/not-for-radio-2026/",
-    "status": null
-  },
-  {
-    "venue": "The Paramount Theatre",
-    "room": null,
-    "title": "Not For Radio",
-    "date": "2026-11-12",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/not-for-radio-2026/",
-    "status": null
-  },
-  {
-    "venue": "The Paramount Theatre",
-    "room": null,
-    "title": "Underoath (with August Burns Red, Atreyu, As Cities Burn)",
-    "date": "2026-11-16",
-    "doors": "17:30",
-    "start": "18:30",
-    "url": "https://www.stgpresents.org/events/underoath/",
-    "status": null
-  },
-  {
-    "venue": "The Paramount Theatre",
-    "room": null,
-    "title": "Tyla",
-    "date": "2026-11-17",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/tyla/",
-    "status": null
-  },
-  {
-    "venue": "The Paramount Theatre",
-    "room": null,
     "title": "Straight No Chaser",
     "date": "2026-11-19",
     "doors": "18:30",
@@ -87,6 +37,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/angine-de-poitrine/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Victoria Monét",
+    "date": "2026-12-14",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://www.stgpresents.org/events/victoria-monet/",
     "status": null
   },
   {
@@ -287,6 +247,36 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/tinashe/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "A.R. Rahman",
+    "date": "2027-05-14",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/a-r-rahman/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "A.R. Rahman",
+    "date": "2027-05-15",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/a-r-rahman/",
+    "status": null
+  },
+  {
+    "venue": "The Paramount Theatre",
+    "room": null,
+    "title": "Two Door Cinema Club",
+    "date": "2027-05-17",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://www.stgpresents.org/events/two-door-cinema-club/",
     "status": null
   }
 ]

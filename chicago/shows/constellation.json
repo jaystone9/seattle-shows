@@ -2,56 +2,6 @@
   {
     "venue": "Constellation",
     "room": null,
-    "title": "Ana Everling",
-    "date": "2026-11-07",
-    "doors": "20:00",
-    "start": "20:30",
-    "url": "https://wl.seetickets.us/event/ana-everling/707978?afflky=ConstellationChicago",
-    "status": null
-  },
-  {
-    "venue": "Constellation",
-    "room": null,
-    "title": "Frequency Series: Bridge Percussion ft. Sachi Keiko (with Ava Brennan)",
-    "date": "2026-11-08",
-    "doors": "20:00",
-    "start": "20:30",
-    "url": "https://wl.seetickets.us/event/frequency-bridge-percussion-ft-sachi-keiko-w-ava-brennan/705305?afflky=ConstellationChicago",
-    "status": null
-  },
-  {
-    "venue": "Constellation",
-    "room": null,
-    "title": "Twin Talk: Delights Album Release",
-    "date": "2026-11-13",
-    "doors": "20:00",
-    "start": "20:30",
-    "url": "https://wl.seetickets.us/event/twin-talk-delights-album-release/706523?afflky=ConstellationChicago",
-    "status": null
-  },
-  {
-    "venue": "Constellation",
-    "room": null,
-    "title": "Frequency Series Presents: Mycelium New Music (with Kate Soper)",
-    "date": "2026-11-14",
-    "doors": "20:00",
-    "start": "20:30",
-    "url": "https://wl.seetickets.us/event/frequency-series-presents-mycelium-new-music-w-kate-soper/703725?afflky=ConstellationChicago",
-    "status": null
-  },
-  {
-    "venue": "Constellation",
-    "room": null,
-    "title": "Frequency Series: Nick Zoulek's Rushing Past Willow 10th Anniversary",
-    "date": "2026-11-15",
-    "doors": "20:00",
-    "start": "20:30",
-    "url": "https://wl.seetickets.us/event/frequency-series-nick-zouleks-rushing-past-willow-10-anniv/707032?afflky=ConstellationChicago",
-    "status": null
-  },
-  {
-    "venue": "Constellation",
-    "room": null,
     "title": "Geof Bradfield's Tenderera",
     "date": "2026-11-21",
     "doors": "20:00",
@@ -122,6 +72,16 @@
   {
     "venue": "Constellation",
     "room": null,
+    "title": "Zoe Markle, Nolan Ehlers & Friends: bearings",
+    "date": "2026-12-17",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://wl.seetickets.us/event/zoe-markle-nolan-ehlers-and-friends-present-bearings/710799?afflky=ConstellationChicago",
+    "status": null
+  },
+  {
+    "venue": "Constellation",
+    "room": "Comrade",
     "title": "Drake & Zerang: Winter Solstice Sunrise Concert",
     "date": "2026-12-21",
     "doors": "05:30",
@@ -141,7 +101,7 @@
   },
   {
     "venue": "Constellation",
-    "room": null,
+    "room": "Comrade",
     "title": "Drake & Zerang: Winter Solstice Sunrise Concert",
     "date": "2026-12-22",
     "doors": "05:30",
@@ -161,7 +121,7 @@
   },
   {
     "venue": "Constellation",
-    "room": null,
+    "room": "Comrade",
     "title": "Drake & Zerang: Winter Solstice Sunrise Concert",
     "date": "2026-12-23",
     "doors": "05:30",
@@ -177,6 +137,16 @@
     "doors": "20:00",
     "start": "20:30",
     "url": "https://wl.seetickets.us/event/sparklmami-dani-offline/708045?afflky=ConstellationChicago",
+    "status": null
+  },
+  {
+    "venue": "Constellation",
+    "room": null,
+    "title": "Lundberg / Meryhew / Henneman Shaw & Kwan: Triple Album Release",
+    "date": "2027-01-15",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://wl.seetickets.us/event/lundberg-meryhew-henneman-shaw-and-kwan-triple-album-release/710823?afflky=ConstellationChicago",
     "status": null
   },
   {
@@ -212,6 +182,16 @@
   {
     "venue": "Constellation",
     "room": null,
+    "title": "Knats",
+    "date": "2027-03-16",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://wl.seetickets.us/event/knats/709906?afflky=ConstellationChicago",
+    "status": null
+  },
+  {
+    "venue": "Constellation",
+    "room": null,
     "title": "Manu Delago & Max ZT",
     "date": "2027-03-28",
     "doors": "20:00",
@@ -227,6 +207,16 @@
     "doors": "20:00",
     "start": "20:30",
     "url": "https://wl.seetickets.us/event/this-is-the-kit/705286?afflky=ConstellationChicago",
+    "status": null
+  },
+  {
+    "venue": "Constellation",
+    "room": null,
+    "title": "Efrim Manuel Menuck & Tashi Dorji: Bloom and Ruin",
+    "date": "2027-04-08",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://wl.seetickets.us/event/efrim-manuel-menuck-and-tashi-dorji-present-bloom-and-ruin/711952?afflky=ConstellationChicago",
     "status": null
   },
   {

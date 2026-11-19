@@ -42,6 +42,16 @@
   {
     "venue": "The Depot",
     "room": null,
+    "title": "Ladrones (with Empty Shell Casing)",
+    "date": "2026-12-01",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43505813-ladrones-mx-at-depot",
+    "status": null
+  },
+  {
+    "venue": "The Depot",
+    "room": null,
     "title": "Frost Children",
     "date": "2026-12-02",
     "doors": null,
@@ -82,7 +92,7 @@
   {
     "venue": "The Depot",
     "room": null,
-    "title": "Rise Up Select Presents",
+    "title": "Atmosphere (with Souls of Mischief, Mac Lethal, Blueprint)",
     "date": "2027-01-30",
     "doors": null,
     "start": "18:00",
@@ -237,16 +247,6 @@
     "doors": null,
     "start": "19:00",
     "url": "https://www.ticketmaster.com/palaye-royale-salt-lake-city-utah-05-06-2027/event/1E00653ED837E4CF",
-    "status": null
-  },
-  {
-    "venue": "The Depot",
-    "room": null,
-    "title": "The Airborne Toxic Event",
-    "date": "2027-06-09",
-    "doors": null,
-    "start": null,
-    "url": "https://www.ticketmaster.com/event/1E0064A7A5C59E52",
     "status": null
   }
 ]

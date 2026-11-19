@@ -2,26 +2,6 @@
   {
     "venue": "Riviera Theatre",
     "room": null,
-    "title": "Vince Staples (with Mavi)",
-    "date": "2026-11-08",
-    "doors": "18:30",
-    "start": "20:00",
-    "url": "https://www.axs.com/events/1488535/vince-staples-tickets?skin=riviera",
-    "status": null
-  },
-  {
-    "venue": "Riviera Theatre",
-    "room": null,
-    "title": "Julia Jacklin (with Jordan Patterson)",
-    "date": "2026-11-14",
-    "doors": "18:00",
-    "start": "19:30",
-    "url": "https://www.axs.com/events/1471219/julia-jacklin-tickets?skin=riviera",
-    "status": null
-  },
-  {
-    "venue": "Riviera Theatre",
-    "room": null,
     "title": "The Jayhawks (with Kathleen Edwards)",
     "date": "2026-11-19",
     "doors": "18:00",
@@ -102,6 +82,16 @@
   {
     "venue": "Riviera Theatre",
     "room": null,
+    "title": "The Renaissance Orchestra",
+    "date": "2026-12-18",
+    "doors": "19:00",
+    "start": "20:30",
+    "url": "https://www.axs.com/events/1693122/the-renaissance-orchestra-tickets?skin=riviera",
+    "status": null
+  },
+  {
+    "venue": "Riviera Theatre",
+    "room": null,
     "title": "Havasi",
     "date": "2026-12-20",
     "doors": "18:30",
@@ -162,6 +152,16 @@
   {
     "venue": "Riviera Theatre",
     "room": null,
+    "title": "Silversun Pickups (with Hannah Cole)",
+    "date": "2027-03-16",
+    "doors": "18:00",
+    "start": "19:30",
+    "url": "https://www.axs.com/events/1680074/silversun-pickups-tickets?skin=riviera",
+    "status": null
+  },
+  {
+    "venue": "Riviera Theatre",
+    "room": null,
     "title": "Akira Yamaoka",
     "date": "2027-03-27",
     "doors": "19:00",
@@ -197,6 +197,16 @@
     "doors": "18:00",
     "start": "19:30",
     "url": "https://www.axs.com/events/1674899/two-door-cinema-club-y-tourist-history-15th-anniversary-tour-tickets?skin=riviera",
+    "status": null
+  },
+  {
+    "venue": "Riviera Theatre",
+    "room": null,
+    "title": "Ocean Alley (with Mild Orange)",
+    "date": "2027-05-14",
+    "doors": "18:30",
+    "start": "20:00",
+    "url": "https://www.axs.com/events/1674894/ocean-alley-north-america-y27-tickets?skin=riviera",
     "status": null
   }
 ]

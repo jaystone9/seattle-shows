@@ -2,66 +2,6 @@
   {
     "venue": "Metro",
     "room": null,
-    "title": "Die Spitz (with Faetooth)",
-    "date": "2026-11-07",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://www.etix.com/ticket/p/61307906/?partner_id=100",
-    "status": "sold out"
-  },
-  {
-    "venue": "Metro",
-    "room": null,
-    "title": "Alyssa Grace",
-    "date": "2026-11-08",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://www.etix.com/ticket/p/54031283/?partner_id=100",
-    "status": "sold out"
-  },
-  {
-    "venue": "Metro",
-    "room": null,
-    "title": "Alyssa Grace",
-    "date": "2026-11-09",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://www.etix.com/ticket/p/53873208/?partner_id=100",
-    "status": "sold out"
-  },
-  {
-    "venue": "Metro",
-    "room": null,
-    "title": "Strawberry Guy (with Jean-Luc Eldenwood)",
-    "date": "2026-11-11",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://www.etix.com/ticket/p/96853584/?partner_id=100",
-    "status": null
-  },
-  {
-    "venue": "Metro",
-    "room": null,
-    "title": "SIX60",
-    "date": "2026-11-13",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.etix.com/ticket/p/50154557/?partner_id=100",
-    "status": null
-  },
-  {
-    "venue": "Metro",
-    "room": null,
-    "title": "The Afghan Whigs (with Night Moves)",
-    "date": "2026-11-14",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.etix.com/ticket/p/45387285/?partner_id=100",
-    "status": null
-  },
-  {
-    "venue": "Metro",
-    "room": null,
     "title": "Protomartyr (with J.R.C.G.)",
     "date": "2026-11-19",
     "doors": "19:00",
@@ -183,6 +123,16 @@
     "venue": "Metro",
     "room": null,
     "title": "Portugal. The Man (with Anthony Green)",
+    "date": "2027-01-12",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.etix.com/ticket/p/73680620/?partner_id=100",
+    "status": null
+  },
+  {
+    "venue": "Metro",
+    "room": null,
+    "title": "Portugal. The Man (with Anthony Green)",
     "date": "2027-01-13",
     "doors": "19:00",
     "start": "20:00",
@@ -262,6 +212,16 @@
   {
     "venue": "Metro",
     "room": null,
+    "title": "Chapterhouse (with shes green)",
+    "date": "2027-03-27",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.etix.com/ticket/p/52605828/?partner_id=100",
+    "status": null
+  },
+  {
+    "venue": "Metro",
+    "room": null,
     "title": "VNV Nation (with DJ Scary Lady Sarah)",
     "date": "2027-04-01",
     "doors": "19:00",
@@ -274,19 +234,9 @@
     "room": null,
     "title": "Elder",
     "date": "2027-04-14",
-    "doors": null,
+    "doors": "20:00",
     "start": null,
     "url": "https://www.songkick.com/concerts/43498692-elder-at-metro",
-    "status": null
-  },
-  {
-    "venue": "Metro",
-    "room": null,
-    "title": "Tally Hall",
-    "date": "2027-04-18",
-    "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43486963-tally-hall-at-metro",
     "status": null
   },
   {
@@ -295,8 +245,8 @@
     "title": "John Splithoff",
     "date": "2027-04-24",
     "doors": "20:00",
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43462975-john-splithoff-at-metro",
+    "start": "20:00",
+    "url": "https://www.etix.com/ticket/p/64428138/?partner_id=100",
     "status": null
   }
 ]

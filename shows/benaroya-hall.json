@@ -2,66 +2,6 @@
   {
     "venue": "Benaroya Hall",
     "room": "Taper Auditorium",
-    "title": "Seattle Symphony: Leila Josefowicz Returns",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://bachtrack.com/concert-event/leila-josefowicz-returns-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-5-november-2026/436347",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
-    "room": "Taper Auditorium",
-    "title": "Beck with Ioanna Gika",
-    "date": "2026-11-08",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://concertfix.com/tickets/8265867",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
-    "room": "Taper Auditorium",
-    "title": "Seattle Symphony: Tchaikovsky's First Piano Concerto and Zarathustra",
-    "date": "2026-11-12",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://bachtrack.com/concert-event/tchaikovskys-first-piano-concerto-and-zarathustra-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-12-november-2026/436348",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
-    "room": "Taper Auditorium",
-    "title": "Seattle Symphony: Tchaikovsky's First Piano Concerto and Zarathustra",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://bachtrack.com/concert-event/tchaikovskys-first-piano-concerto-and-zarathustra-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-12-november-2026/436348",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
-    "room": "Nordstrom Recital Hall",
-    "title": "Seattle Chamber Music Society: Ehnes Quartet & Jonathan Vinocour",
-    "date": "2026-11-15",
-    "doors": null,
-    "start": "14:00",
-    "url": "https://www.seattlechambermusic.org/events/ehnes-quartet-jonathan-vinocour/",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
-    "room": "Taper Auditorium",
-    "title": "Seattle Symphony: Tchaikovsky's First Piano Concerto and Zarathustra",
-    "date": "2026-11-15",
-    "doors": null,
-    "start": "14:00",
-    "url": "https://bachtrack.com/concert-event/tchaikovskys-first-piano-concerto-and-zarathustra-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-12-november-2026/436348",
-    "status": null
-  },
-  {
-    "venue": "Benaroya Hall",
-    "room": "Taper Auditorium",
     "title": "Seattle Symphony: Mozart's Requiem with Xian",
     "date": "2026-11-19",
     "doors": null,
@@ -321,6 +261,16 @@
   },
   {
     "venue": "Benaroya Hall",
+    "room": null,
+    "title": "Emmylou Harris",
+    "date": "2027-03-04",
+    "doors": null,
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43505083-emmylou-harris-at-benaroya-hall",
+    "status": null
+  },
+  {
+    "venue": "Benaroya Hall",
     "room": "Raisbeck Music Center",
     "title": "Adam Tendler: Inheritances",
     "date": "2027-03-05",
@@ -551,12 +501,62 @@
   },
   {
     "venue": "Benaroya Hall",
+    "room": "Taper Auditorium",
+    "title": "Seattle Symphony: Shostakovich's 10th Symphony",
+    "date": "2027-05-01",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://bachtrack.com/concert-event/shostakovichs-10th-symphony-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-29-april-2027/436549",
+    "status": null
+  },
+  {
+    "venue": "Benaroya Hall",
     "room": null,
     "title": "Andrew McMahon",
     "date": "2027-05-07",
     "doors": null,
     "start": "20:00",
     "url": "https://songkick.com/concerts/43380070-andrew-mcmahon-at-benaroya-hall",
+    "status": null
+  },
+  {
+    "venue": "Benaroya Hall",
+    "room": "Raisbeck Music Center",
+    "title": "Seattle Symphony Musicians: Beethoven & Beach",
+    "date": "2027-05-11",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://bachtrack.com/concert-event/beethoven-beach-benaroya-hall-raisbeck-music-center-11-may-2027/436557",
+    "status": null
+  },
+  {
+    "venue": "Benaroya Hall",
+    "room": "Taper Auditorium",
+    "title": "Seattle Symphony: Rachmaninov's Second Piano Concerto",
+    "date": "2027-05-13",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://bachtrack.com/concert-event/rachmaninovs-second-piano-concerto-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-13-may-2027/436558",
+    "status": null
+  },
+  {
+    "venue": "Benaroya Hall",
+    "room": "Taper Auditorium",
+    "title": "Seattle Symphony: Rachmaninov's Second Piano Concerto",
+    "date": "2027-05-14",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://bachtrack.com/concert-event/rachmaninovs-second-piano-concerto-seattle-symphony-benaroya-hall-s-mark-taper-auditorium-13-may-2027/436558",
+    "status": null
+  },
+  {
+    "venue": "Benaroya Hall",
+    "room": "Raisbeck Music Center",
+    "title": "Seattle Symphony: Alisa Weilerstein & Inon Barnatan Play Chopin & Shostakovich",
+    "date": "2027-05-15",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://bachtrack.com/concert-event/alisa-weilerstein-and-inon-barnatan-play-chopin-shostakovich-benaroya-hall-raisbeck-music-center-15-may-2027/436559",
     "status": null
   }
 ]

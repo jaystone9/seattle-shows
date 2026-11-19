@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "venue": "Skokie Theatre",
+    "room": null,
+    "title": "Jonny Lyons & The Pride: Rockin' Christmas",
+    "date": "2026-12-05",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tickettailor.com/events/theskokie1/2519883",
+    "status": null
+  },
+  {
+    "venue": "Skokie Theatre",
+    "room": null,
+    "title": "Lance Lipinsky & The Lovers: Shake Baby Shake",
+    "date": "2026-12-27",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tickettailor.com/events/theskokie1/2519898",
+    "status": null
+  }
+]

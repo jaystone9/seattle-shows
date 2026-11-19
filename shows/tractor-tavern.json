@@ -1,502 +1,552 @@
 [
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Chris Smither (solo, matinee)",
-  "date": "2026-11-07",
-  "doors": "13:00",
-  "start": "14:00",
-  "url": "https://www.ticketweb.com/event/matinee-show-with-chris-smither-tractor-tickets/14860103?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "KEXP Presents: Squirrel Flower (with Sour Widows)",
-  "date": "2026-11-07",
-  "doors": "19:30",
-  "start": "20:30",
-  "url": "https://www.ticketweb.com/event/kexp-presents-squirrel-flower-w-tractor-tickets/14904203?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Jake Xerxes Fussell (with Dougie Poole)",
-  "date": "2026-11-08",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/jake-xerxes-fussell-w-dougie-tractor-tickets/14877693?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "River Shook (with Ismay)",
-  "date": "2026-11-09",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/river-shook-w-ismay-tractor-tickets/15010073?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Other Lives (with Kelcey Ayer)",
-  "date": "2026-11-10",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/other-lives-w-kelcey-ayer-tractor-tickets/14919013?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "KEXP Presents: An Evening with Craig Finn & The Band of Forgiveness",
-  "date": "2026-11-11",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/kexp-presents-an-evening-with-tractor-tickets/14201434?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Margaret Glaspy: The I Am Both Tour (with Anna Tivel)",
-  "date": "2026-11-12",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/margaret-glaspy-the-i-am-tractor-tickets/14957593?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Haystack Slim & The Broken Arrow (with Danny Baker, Wheelwright, Parshall Blue)",
-  "date": "2026-11-13",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://www.songkick.com/concerts/43480756-haystack-slim-and-the-broken-arrow-at-tractor-tavern",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "KEXP Presents: Fred Eaglesmith (matinee)",
-  "date": "2026-11-14",
-  "doors": "13:00",
-  "start": "14:00",
-  "url": "https://www.ticketweb.com/event/kexp-presents-matinee-show-fred-tractor-tickets/14896863?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Silverada - Night One (with Emily Nenni)",
-  "date": "2026-11-14",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/silverada-w-emily-nenni-night-tractor-tickets/14238564?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Silverada - Night Two (with Emily Nenni)",
-  "date": "2026-11-15",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/silverada-w-emily-nenni-night-tractor-tickets/14238584?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Natural Child (with Smoker Dad)",
-  "date": "2026-11-17",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/natural-child-w-smoker-dad-tractor-tickets/14851763?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Maximiano (with Wishing Well, Jordan Wesley Campbell)",
-  "date": "2026-11-18",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://app.opendate.io/e/maximiano-w-wishing-well-jordan-wesley-campbell-november-18-2026-784789",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Sallie Ford & The Sound Outside (with Maita)",
-  "date": "2026-11-19",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://app.opendate.io/e/sallie-ford-the-sound-outside-w-maita-november-19-2026-778921",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "KEXP Presents: The Cactus Blossoms - Night One (with Devin Champlin)",
-  "date": "2026-11-20",
-  "doors": "19:30",
-  "start": "20:30",
-  "url": "https://www.ticketweb.com/event/kexp-presents-the-cactus-blossoms-tractor-tickets/14231604?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "KEXP Presents: The Cactus Blossoms - Night Two (with Devin Champlin)",
-  "date": "2026-11-21",
-  "doors": "19:30",
-  "start": "20:30",
-  "url": "https://www.ticketweb.com/event/kexp-presents-the-cactus-blossoms-tractor-tickets/14231644?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Jim Lauderdale (with guests)",
-  "date": "2026-11-22",
-  "doors": "17:30",
-  "start": "18:00",
-  "url": "https://www.ticketweb.com/event/jim-lauderdale-w-guests-partially-tractor-tickets/14337024?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Dusty 45s (with Heels to the Hardwood)",
-  "date": "2026-11-25",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/dusty-45s-w-heels-to-tractor-tickets/14360404?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Cascade Cody & The Washington Apples (with The Wayside, Matney Cook)",
-  "date": "2026-11-27",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://app.opendate.io/e/cascade-cody-the-washington-apples-x-the-wayside-x-matney-cook-november-27-2026-779368",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "El Vez & The Centuries Merry MEX-mas 2026 (with King of Hawaii)",
-  "date": "2026-12-02",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://app.opendate.io/e/el-vez-the-centuries-merry-mex-mas-2026-w-king-of-hawaii-partially-seated-december-02-2026-785537",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Jenner Fox Band",
-  "date": "2026-12-03",
-  "doors": null,
-  "start": null,
-  "url": "https://www.jambase.com/show/jenner-fox-band-tractor-tavern-20261203",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "KEXP Presents: Sera Cahoone - Night One (with Serafima & The Shakedowns)",
-  "date": "2026-12-05",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/kexp-presents-sera-cahoone-w-tractor-tickets/15033383?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "KEXP Presents: Sera Cahoone - Night Two (with Chris Pureka)",
-  "date": "2026-12-06",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://www.ticketweb.com/event/kexp-presents-sera-cahoone-w-tractor-tickets/15033393?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Jessica Lea Mayfield (with Horsepower)",
-  "date": "2026-12-07",
-  "doors": null,
-  "start": null,
-  "url": "https://www.jambase.com/show/jessica-lea-mayfield-tractor-tavern-20261207",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "The Bobby Lees (with Forty Feet Tall)",
-  "date": "2026-12-08",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/the-bobby-lees-w-forty-tractor-tickets/14903983?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Willi Carlisle - The Universal Bubba Tour (with Amelia Day)",
-  "date": "2026-12-10",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/willi-carlisle-the-tractor-tickets/14248684?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Wayfarer (with Nox Novacula, John Haughm)",
-  "date": "2026-12-11",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/tractor-heirophant-present-wayfarer-tractor-tickets/14312564?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Artist Home Presents: Dead Pioneers (with P.E.S.T., Vic Bondi and His Issues)",
-  "date": "2026-12-12",
-  "doors": "20:00",
-  "start": "20:30",
-  "url": "https://www.ticketweb.com/event/sold-out-artist-home-presents-tractor-tickets/14335124?pl=tractor&REFID=clientsitewp",
-  "status": "sold out"
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Mason Jennings (with Larsen Gardens)",
-  "date": "2026-12-13",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://www.ticketweb.com/event/mason-jennings-w-larsen-gardens-tractor-tickets/14300984?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "CRAB (with King Lincoln, Panoramics)",
-  "date": "2026-12-14",
-  "doors": "18:30",
-  "start": "19:00",
-  "url": "https://app.opendate.io/e/crab-w-king-lincoln-panoramics-december-14-2026-785991",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "JD McPherson - SOCKS: A Rock N' Roll Christmas Tour (with Melissa Carper)",
-  "date": "2026-12-16",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/jd-mcpherson-socks-tractor-tickets/14297174?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "The Sons of Rainier (with Sam Gelband)",
-  "date": "2026-12-19",
-  "doors": null,
-  "start": null,
-  "url": "https://www.jambase.com/show/the-sons-of-rainier-tractor-tavern-20261219",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Gabe Morehouse",
-  "date": "2026-12-21",
-  "doors": null,
-  "start": null,
-  "url": "https://www.jambase.com/show/gabe-morehouse-tractor-tavern-20261221",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Riley Downing",
-  "date": "2027-01-03",
-  "doors": null,
-  "start": null,
-  "url": "https://www.jambase.com/show/riley-downing-tractor-tavern-20270103",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Susie Philipsen x Barton Carroll x Warren Jackson Hearne",
-  "date": "2027-01-06",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://app.opendate.io/e/susie-philipsen-x-barton-carroll-x-warren-jackson-hearne-partially-seated-january-06-2027-794019",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Mark Mackay",
-  "date": "2027-01-21",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://app.opendate.io/e/mark-mackay-january-21-2027-778523",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "An Evening with Steve Poltz - Winter Tour 2027",
-  "date": "2027-01-28",
-  "doors": "19:00",
-  "start": "19:30",
-  "url": "https://www.ticketweb.com/event/an-evening-with-steve-poltz-tractor-tickets/14314414?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Bonnie \"Prince\" Billy - Early Show (with Tiny Vipers)",
-  "date": "2027-01-29",
-  "doors": "17:00",
-  "start": "18:00",
-  "url": "https://www.ticketweb.com/event/bonnie-prince-billy-returns-to-tractor-tickets/14834723?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Bonnie \"Prince\" Billy - Late Show",
-  "date": "2027-01-29",
-  "doors": "21:30",
-  "start": "22:00",
-  "url": "https://www.ticketweb.com/event/bonnie-prince-billy-returns-to-tractor-tickets/14834773?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Coey Redd",
-  "date": "2027-02-03",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://app.opendate.io/e/coey-redd-february-03-2027-778525",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Reverend Horton Heat presents The Sub Pop Years (El Corazon presents: The Sea-Tac Tour)",
-  "date": "2027-02-11",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/el-corazon-presents-the-sea-tractor-tickets/14349014?pl=tractor&REFID=clientsitewp",
-  "status": "sold out"
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Jess Williamson - Night One (with Andrew Sa)",
-  "date": "2027-02-12",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/jess-williamson-w-guests-night-tractor-tickets/14352544?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Jess Williamson - Night Two (with guests)",
-  "date": "2027-02-13",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/jess-williamson-w-guests-night-tractor-tickets/14352564?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Eddie 9V (with guests)",
-  "date": "2027-02-20",
-  "doors": "20:00",
-  "start": "20:30",
-  "url": "https://www.ticketweb.com/event/eddie-9v-w-guests-tractor-tickets/14352484?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Cytrus (with Swavy)",
-  "date": "2027-02-27",
-  "doors": "20:00",
-  "start": "20:30",
-  "url": "https://app.opendate.io/e/cytrus-w-swavy-february-27-2027-779398",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Graham Barham - Club Country Tour",
-  "date": "2027-03-11",
-  "doors": "19:00",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/graham-barham-club-tractor-tickets/14316844?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "D.A.N. (JP)",
-  "date": "2027-03-27",
-  "doors": null,
-  "start": null,
-  "url": "https://www.songkick.com/concerts/43323850-dan-jp-at-tractor-tavern",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Rowena Wise (with guests)",
-  "date": "2027-03-28",
-  "doors": "19:30",
-  "start": "20:00",
-  "url": "https://www.ticketweb.com/event/rowena-wise-w-guests-tractor-tickets/14351994?pl=tractor&REFID=clientsitewp",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Hudson Freeman (with Sean Solomon)",
-  "date": "2027-03-31",
-  "doors": null,
-  "start": null,
-  "url": "https://www.songkick.com/concerts/43505169-hudson-freeman-at-tractor-tavern",
-  "status": null
- },
- {
-  "venue": "Tractor Tavern",
-  "room": null,
-  "title": "Joe Pug (matinee)",
-  "date": "2027-04-10",
-  "doors": "13:00",
-  "start": "13:00",
-  "url": "https://app.opendate.io/e/joe-pug-afternoon-matinee-partially-seated-april-10-2027-778031",
-  "status": null
- }
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Sallie Ford & The Sound Outside (with Maita)",
+    "date": "2026-11-19",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/sallie-ford-the-sound-outside-w-maita-november-19-2026-778921",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "KEXP Presents: The Cactus Blossoms - Night One (with Devin Champlin)",
+    "date": "2026-11-20",
+    "doors": "19:30",
+    "start": "20:30",
+    "url": "https://www.ticketweb.com/event/kexp-presents-the-cactus-blossoms-tractor-tickets/14231604?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "KEXP Presents: The Cactus Blossoms - Night Two (with Devin Champlin)",
+    "date": "2026-11-21",
+    "doors": "19:30",
+    "start": "20:30",
+    "url": "https://www.ticketweb.com/event/kexp-presents-the-cactus-blossoms-tractor-tickets/14231644?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Jim Lauderdale (with Amanda Winterhalter)",
+    "date": "2026-11-22",
+    "doors": "17:30",
+    "start": "18:00",
+    "url": "https://www.ticketweb.com/event/jim-lauderdale-w-guests-partially-tractor-tickets/14337024?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Ballard Food Bank Benefit: Mike Frazier & Friends (with Hayden Everett, Left Hand Smoke, Chico Detour, Townsend's Solitaire)",
+    "date": "2026-11-24",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://app.opendate.io/e/ballard-food-bank-benefit-featuring-mike-frazier-friends-hosted-by-dj-troy-nelson-november-24-2026-761657",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Dusty 45s (with Heels to the Hardwood)",
+    "date": "2026-11-25",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/dusty-45s-w-heels-to-tractor-tickets/14360404?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Cascade Cody & The Warshington Apples (with The Wayside, Matney Cook)",
+    "date": "2026-11-27",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/cascade-cody-the-warshington-apples-x-the-wayside-x-matney-cook-november-27-2026-779368",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "CUPCAKE (with Brake Down, Salt Horse)",
+    "date": "2026-11-29",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://app.opendate.io/e/cupcake-x-brake-down-x-salt-horse-november-29-2026-796406",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Great Jade Labyrinth (with Freak Beam, Poysenberry)",
+    "date": "2026-12-01",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/great-jade-labyrinth-x-freak-beam-x-poysenberry-december-01-2026-794951",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "El Vez & The Centuries Merry MEX-mas 2026 (with King of Hawaii)",
+    "date": "2026-12-02",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://app.opendate.io/e/el-vez-the-centuries-merry-mex-mas-2026-w-king-of-hawaii-partially-seated-december-02-2026-785537",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "KEXP Presents: Sera Cahoone - Night One (with Serafima & The Shakedowns)",
+    "date": "2026-12-05",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/kexp-presents-sera-cahoone-w-tractor-tickets/15033383?pl=tractor&REFID=clientsitewp",
+    "status": "sold out"
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "KEXP Presents: Sera Cahoone - Night Two (with Chris Pureka)",
+    "date": "2026-12-06",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://www.ticketweb.com/event/kexp-presents-sera-cahoone-w-tractor-tickets/15033393?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Jessica Lea Mayfield (with Horsepower)",
+    "date": "2026-12-07",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/jessica-lea-mayfield-w-horsepower-december-07-2026-779201",
+    "status": "cancelled"
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "The Bobby Lees (with Forty Feet Tall)",
+    "date": "2026-12-08",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/the-bobby-lees-w-forty-tractor-tickets/14903983?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "The Lichen Hearts (with Grrrizzly, Three Fingers)",
+    "date": "2026-12-09",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://app.opendate.io/e/the-lichen-hearts-x-grrrizzly-x-three-fingers-december-09-2026-794952",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Willi Carlisle - The Universal Bubba Tour (with Amelia Day)",
+    "date": "2026-12-10",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/willi-carlisle-the-tractor-tickets/14248684?pl=tractor&REFID=clientsitewp",
+    "status": "sold out"
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Wayfarer (with Nox Novacula, John Haughm)",
+    "date": "2026-12-11",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/tractor-heirophant-present-wayfarer-tractor-tickets/14312564?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Artist Home Presents: Dead Pioneers (with P.E.S.T., Vic Bondi and His Issues)",
+    "date": "2026-12-12",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://www.ticketweb.com/event/sold-out-artist-home-presents-tractor-tickets/14335124?pl=tractor&REFID=clientsitewp",
+    "status": "sold out"
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Mason Jennings (with Larsen Gardens)",
+    "date": "2026-12-13",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/mason-jennings-w-larsen-gardens-tractor-tickets/14300984?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "CRAB (with King Lincoln, Panoramics)",
+    "date": "2026-12-14",
+    "doors": "18:30",
+    "start": "19:00",
+    "url": "https://app.opendate.io/e/crab-w-king-lincoln-panoramics-december-14-2026-785991",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Last Minute Maybes (with Church of Brunch, Meredith Smith)",
+    "date": "2026-12-15",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://app.opendate.io/e/last-minute-maybes-x-church-of-brunch-x-meredith-smith-a-benefit-show-for-ballard-solidarity-partially-seated-december-15-2026-794012",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "JD McPherson - SOCKS: A Rock N' Roll Christmas Tour (with Melissa Carper)",
+    "date": "2026-12-16",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/jd-mcpherson-socks-tractor-tickets/14297174?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Betsy Olson Band (with Grant Steele, Hank Lemon)",
+    "date": "2026-12-17",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/betsy-olson-band-x-grant-steele-x-hank-lemon-december-17-2026-799658",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "The Sons of Rainier (with Sam Gelband, Anna Preston)",
+    "date": "2026-12-19",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/sons-of-rainier-w-sam-gelband-anna-preston-december-19-2026-788525",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Ayron Jones (with guests)",
+    "date": "2026-12-26",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://app.opendate.io/e/ayron-jones-w-guests-benefitting-treehouse-december-26-2026-795731",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Glitterfox (with guests)",
+    "date": "2026-12-29",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/glitterfox-w-guests-december-29-2026-794953",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Artist Home's 13th Annual NYE Bash (with members of Smokey Brights, Shaina Shepherd, Warren Dunes, Packaging, Marshall Law Band, Prom Queen, Acapulco Lips)",
+    "date": "2026-12-31",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://app.opendate.io/e/artist-home-s-13th-annual-nye-bash-december-31-2026-797017",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Riley Downing (with Stephanie Anne Johnson)",
+    "date": "2027-01-03",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/riley-downing-w-stephanie-anne-johnson-january-03-2027-778486",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Susie Philipsen x Barton Carroll x Warren Jackson Hearne",
+    "date": "2027-01-06",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://app.opendate.io/e/susie-philipsen-x-barton-carroll-x-warren-jackson-hearne-partially-seated-january-06-2027-794019",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Swindler (with Buzz Brump, CHONK)",
+    "date": "2027-01-15",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/swindler-x-buzz-brump-x-chonk-january-15-2027-776629",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Mark Mackay",
+    "date": "2027-01-21",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://app.opendate.io/e/mark-mackay-january-21-2027-778523",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "City of the Sun",
+    "date": "2027-01-23",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/the-crocodile-presents-city-of-the-sun-january-23-2027-793980",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "An Evening with Steve Poltz - Winter Tour 2027",
+    "date": "2027-01-28",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/an-evening-with-steve-poltz-tractor-tickets/14314414?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Bonnie \"Prince\" Billy - Early Show (with Tiny Vipers)",
+    "date": "2027-01-29",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://www.ticketweb.com/event/bonnie-prince-billy-returns-to-tractor-tickets/14834723?pl=tractor&REFID=clientsitewp",
+    "status": "sold out"
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Bonnie \"Prince\" Billy - Late Show",
+    "date": "2027-01-29",
+    "doors": "21:30",
+    "start": "22:00",
+    "url": "https://www.ticketweb.com/event/bonnie-prince-billy-returns-to-tractor-tickets/14834773?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Coey Redd",
+    "date": "2027-02-03",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/coey-redd-february-03-2027-778525",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "North Mississippi Allstars (with guests)",
+    "date": "2027-02-06",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/north-mississippi-allstars-w-guests-february-06-2027-779348",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Reverend Horton Heat presents The Sub Pop Years (El Corazon presents: The Sea-Tac Tour)",
+    "date": "2027-02-11",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/el-corazon-presents-the-sea-tractor-tickets/14349014?pl=tractor&REFID=clientsitewp",
+    "status": "sold out"
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Jess Williamson - Night One (with Andrew Sa)",
+    "date": "2027-02-12",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/jess-williamson-w-guests-night-tractor-tickets/14352544?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Jess Williamson - Night Two (with Andrew Sa)",
+    "date": "2027-02-13",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/jess-williamson-w-guests-night-tractor-tickets/14352564?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Sylvie (with guests)",
+    "date": "2027-02-19",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://app.opendate.io/e/sylvie-w-guests-february-19-2027-794373",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Eddie 9V (with guests)",
+    "date": "2027-02-20",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://www.ticketweb.com/event/eddie-9v-w-guests-tractor-tickets/14352484?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Cloud Nothings (with guests)",
+    "date": "2027-02-23",
+    "doors": "19:30",
+    "start": "20:30",
+    "url": "https://app.opendate.io/e/cloud-nothings-w-guests-february-23-2027-779400",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Cytrus (with Swavy)",
+    "date": "2027-02-27",
+    "doors": "20:00",
+    "start": "20:30",
+    "url": "https://app.opendate.io/e/cytrus-w-swavy-february-27-2027-779398",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Hot 8 Brass Band",
+    "date": "2027-03-02",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/hot-8-brass-band-march-02-2027-775905",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Jack West: The Acoustic Spank Project featuring James Nash (matinee)",
+    "date": "2027-03-07",
+    "doors": "13:00",
+    "start": "13:30",
+    "url": "https://app.opendate.io/e/jack-west-the-acoustic-spank-project-fting-james-nash-matinee-partially-seated-march-07-2027-795739",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Cursive - Happy Hollow 20th Anniversary (with Smidley)",
+    "date": "2027-03-08",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/cursive-happy-hollow-20th-anniversary-w-smidley-march-08-2027-779342",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Graham Barham - Club Country Tour",
+    "date": "2027-03-11",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/graham-barham-club-tractor-tickets/14316844?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Carissa's Wierd (with guests)",
+    "date": "2027-03-14",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://app.opendate.io/e/sold-out-carissa-s-wierd-w-guests-march-14-2027-793974",
+    "status": "sold out"
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Southall (with guests)",
+    "date": "2027-03-20",
+    "doors": "19:30",
+    "start": "20:30",
+    "url": "https://app.opendate.io/e/southall-w-guests-march-20-2027-779345",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Rowena Wise (with guests)",
+    "date": "2027-03-28",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/rowena-wise-w-guests-tractor-tickets/14351994?pl=tractor&REFID=clientsitewp",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Hudson Freeman (with Sean Solomon)",
+    "date": "2027-03-31",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/tractor-and-daydream-state-present-hudson-freeman-this-tour-is-doomed-march-31-2027-793955",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Ash - 1977 30th Anniversary Tour",
+    "date": "2027-04-06",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/ash-1977-30th-anniversary-tour-north-america-2027-april-06-2027-795058",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Joe Pug (matinee)",
+    "date": "2027-04-10",
+    "doors": "13:00",
+    "start": "13:00",
+    "url": "https://app.opendate.io/e/joe-pug-afternoon-matinee-partially-seated-april-10-2027-778031",
+    "status": null
+  },
+  {
+    "venue": "Tractor Tavern",
+    "room": null,
+    "title": "Kaitlin Butts (with Fancy Hagood)",
+    "date": "2027-05-01",
+    "doors": "19:30",
+    "start": "20:30",
+    "url": "https://app.opendate.io/e/kaitlin-butts-the-hello-honky-tonk-tour-w-fancy-hagood-may-01-2027-800358",
+    "status": null
+  }
 ]

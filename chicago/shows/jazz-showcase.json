@@ -2,116 +2,6 @@
   {
     "venue": "Jazz Showcase",
     "room": null,
-    "title": "Monty Alexander Trio",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.jazzshowcase.com/nowplaying/monty-alexander-3pg7s",
-    "status": null
-  },
-  {
-    "venue": "Jazz Showcase",
-    "room": null,
-    "title": "Monty Alexander Trio",
-    "date": "2026-11-08",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.jazzshowcase.com/nowplaying/monty-alexander-3pg7s",
-    "status": null
-  },
-  {
-    "venue": "Jazz Showcase",
-    "room": null,
-    "title": "Alejandro Urzagaste Quartet",
-    "date": "2026-11-10",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.jazzshowcase.com/nowplaying/4l73srrys3p6ff6",
-    "status": null
-  },
-  {
-    "venue": "Jazz Showcase",
-    "room": null,
-    "title": "Soul Message Trio",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.jazzshowcase.com/nowplaying/soul-message-trio-nov",
-    "status": null
-  },
-  {
-    "venue": "Jazz Showcase",
-    "room": null,
-    "title": "Pharez Whitted Quintet",
-    "date": "2026-11-12",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.jazzshowcase.com/nowplaying/pharez-whitted-bdmjm-fbez7-r84tc-ws8zt-cycjy",
-    "status": null
-  },
-  {
-    "venue": "Jazz Showcase",
-    "room": null,
-    "title": "Pharez Whitted Quintet",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.jazzshowcase.com/nowplaying/pharez-whitted-bdmjm-fbez7-r84tc-ws8zt-cycjy",
-    "status": null
-  },
-  {
-    "venue": "Jazz Showcase",
-    "room": null,
-    "title": "Pharez Whitted Quintet",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.jazzshowcase.com/nowplaying/pharez-whitted-bdmjm-fbez7-r84tc-ws8zt-cycjy",
-    "status": null
-  },
-  {
-    "venue": "Jazz Showcase",
-    "room": null,
-    "title": "Pharez Whitted Quintet",
-    "date": "2026-11-15",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.jazzshowcase.com/nowplaying/pharez-whitted-bdmjm-fbez7-r84tc-ws8zt-cycjy",
-    "status": null
-  },
-  {
-    "venue": "Jazz Showcase",
-    "room": null,
-    "title": "Bob Lark Septet",
-    "date": "2026-11-16",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.jazzshowcase.com/nowplaying/boblark-12621-gmtn7-je8zn-k8b75-9nr7x-4st8k-w2bbg-ccm6b-3fs7e-zrmhj-4z6bn-janth-9hle5-splph-pkt2c-jjgy6-plltj-629zb-ymapz-378yf-lwbhp-24ywm-mw7h8-k8whm",
-    "status": null
-  },
-  {
-    "venue": "Jazz Showcase",
-    "room": null,
-    "title": "Petra's Recession Seven",
-    "date": "2026-11-17",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.jazzshowcase.com/nowplaying/petra-recession-seven-epy66-xl6gs-mcz77-p9h2b-gp2s6-gxrc7-m43n2-slpze-5bkhx-r7y7z-29t9c-xf6t6-ccd7j-7r7md-3g4e9-jggrg-kd59z-7yfxj-3ywkb-hzbgn-lgd6z-ad8km-m3z7g-hgler-y74k5-m6dte",
-    "status": null
-  },
-  {
-    "venue": "Jazz Showcase",
-    "room": null,
-    "title": "Dorian Phelps Quartet",
-    "date": "2026-11-18",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.jazzshowcase.com/nowplaying/dorian-phelps-quartet",
-    "status": null
-  },
-  {
-    "venue": "Jazz Showcase",
-    "room": null,
     "title": "Cyrus Chestnut Trio",
     "date": "2026-11-19",
     "doors": null,
@@ -412,6 +302,16 @@
   {
     "venue": "Jazz Showcase",
     "room": null,
+    "title": "Abram Collier Nonet",
+    "date": "2026-12-22",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.jazzshowcase.com/nowplaying/4l73srrys3p6ff6-bfjmd",
+    "status": null
+  },
+  {
+    "venue": "Jazz Showcase",
+    "room": null,
     "title": "Dee Alexander Christmas Celebration",
     "date": "2026-12-23",
     "doors": null,
@@ -422,7 +322,7 @@
   {
     "venue": "Jazz Showcase",
     "room": null,
-    "title": "Marquis Hill (with Ekep Nkwelle)",
+    "title": "Marquis Hill (with Christie Dashiell)",
     "date": "2026-12-26",
     "doors": null,
     "start": "20:00",
@@ -432,7 +332,7 @@
   {
     "venue": "Jazz Showcase",
     "room": null,
-    "title": "Marquis Hill (with Ekep Nkwelle)",
+    "title": "Marquis Hill (with Christie Dashiell)",
     "date": "2026-12-27",
     "doors": null,
     "start": "20:00",
@@ -442,7 +342,7 @@
   {
     "venue": "Jazz Showcase",
     "room": null,
-    "title": "Marquis Hill (with Ekep Nkwelle)",
+    "title": "Marquis Hill (with Christie Dashiell)",
     "date": "2026-12-28",
     "doors": null,
     "start": "20:00",
@@ -482,7 +382,7 @@
   {
     "venue": "Jazz Showcase",
     "room": null,
-    "title": "Marquis Hill (with Christie Dashiell)",
+    "title": "Marquis Hill (with Ekep Nkwelle)",
     "date": "2027-01-01",
     "doors": null,
     "start": "20:00",
@@ -492,7 +392,7 @@
   {
     "venue": "Jazz Showcase",
     "room": null,
-    "title": "Marquis Hill (with Christie Dashiell)",
+    "title": "Marquis Hill (with Ekep Nkwelle)",
     "date": "2027-01-02",
     "doors": null,
     "start": "20:00",
@@ -502,7 +402,7 @@
   {
     "venue": "Jazz Showcase",
     "room": null,
-    "title": "Marquis Hill (with Christie Dashiell)",
+    "title": "Marquis Hill (with Ekep Nkwelle)",
     "date": "2027-01-03",
     "doors": null,
     "start": "20:00",

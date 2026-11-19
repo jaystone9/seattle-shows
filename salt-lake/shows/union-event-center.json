@@ -2,9 +2,49 @@
   {
     "venue": "The Union Event Center",
     "room": null,
+    "title": "Underoath (with As Cities Burn, Atreyu, August Burns Red)",
+    "date": "2026-11-19",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43263113-underoath-at-union-event-center",
+    "status": null
+  },
+  {
+    "venue": "The Union Event Center",
+    "room": null,
+    "title": "Imminence (with Dying Wish, GAEREA)",
+    "date": "2026-12-01",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43278940-imminence-at-union-event-center",
+    "status": null
+  },
+  {
+    "venue": "The Union Event Center",
+    "room": null,
+    "title": "Whitechapel (with Chelsea Grin, The Acacia Strain)",
+    "date": "2026-12-03",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43271377-whitechapel-at-union-event-center",
+    "status": null
+  },
+  {
+    "venue": "The Union Event Center",
+    "room": null,
+    "title": "Stella Lefty",
+    "date": "2027-02-12",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43381432-stella-lefty-at-union-event-center",
+    "status": null
+  },
+  {
+    "venue": "The Union Event Center",
+    "room": null,
     "title": "Ashe (with Claire Rosinkranz)",
     "date": "2027-03-02",
-    "doors": null,
+    "doors": "20:00",
     "start": null,
     "url": "https://www.ticketmaster.com/event/1E00654FD104A17C",
     "status": null
@@ -12,11 +52,61 @@
   {
     "venue": "The Union Event Center",
     "room": null,
+    "title": "Jesse & Joy",
+    "date": "2027-04-10",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43484997-jesse-and-joy-at-union-event-center",
+    "status": null
+  },
+  {
+    "venue": "The Union Event Center",
+    "room": null,
+    "title": "Vincent Mason (with Phil Kane)",
+    "date": "2027-04-17",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43498621-vincent-mason-at-union-event-center",
+    "status": null
+  },
+  {
+    "venue": "The Union Event Center",
+    "room": null,
+    "title": "Meshuggah (with Testament, Blood Incantation)",
+    "date": "2027-04-19",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43487697-meshuggah-at-union-event-center",
+    "status": null
+  },
+  {
+    "venue": "The Union Event Center",
+    "room": null,
+    "title": "The Interrupters (with Doom Regulator, Rat Boy)",
+    "date": "2027-04-24",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43429107-interrupters-at-union-event-center",
+    "status": null
+  },
+  {
+    "venue": "The Union Event Center",
+    "room": null,
     "title": "Lola Young",
     "date": "2027-04-26",
-    "doors": null,
+    "doors": "20:00",
     "start": null,
     "url": "https://www.ticketmaster.com/event/1E00654190EC5F11",
+    "status": null
+  },
+  {
+    "venue": "The Union Event Center",
+    "room": null,
+    "title": "Tinashe",
+    "date": "2027-05-06",
+    "doors": "19:30",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43472466-tinashe-at-union-event-center",
     "status": null
   }
 ]

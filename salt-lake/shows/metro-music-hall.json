@@ -2,86 +2,6 @@
   {
     "venue": "Metro Music Hall",
     "room": null,
-    "title": "Static Dress (with I Promised The World, Car Underwater, Sherane)",
-    "date": "2026-11-10",
-    "doors": null,
-    "start": null,
-    "url": "https://www.24tix.com/event/szayezgmufgatgmisx7wdrqeym",
-    "status": null
-  },
-  {
-    "venue": "Metro Music Hall",
-    "room": null,
-    "title": "INOHA (with Buddha Trixie, Flight By Nothing)",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": null,
-    "url": "https://www.24tix.com/event/hk2kn7rcifee3fdbqhkhop6d7m",
-    "status": null
-  },
-  {
-    "venue": "Metro Music Hall",
-    "room": null,
-    "title": "Eivør (with Midori Jaeger)",
-    "date": "2026-11-12",
-    "doors": null,
-    "start": null,
-    "url": "https://www.24tix.com/event/bsojnl5cdvcpnhnvdimzk4alai",
-    "status": null
-  },
-  {
-    "venue": "Metro Music Hall",
-    "room": null,
-    "title": "The Black Angels (with GHOSTWOMAN)",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": null,
-    "url": null,
-    "status": "sold out"
-  },
-  {
-    "venue": "Metro Music Hall",
-    "room": null,
-    "title": "Maddie Zahm (with Oston)",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": null,
-    "url": "https://www.24tix.com/event/rhifl22xufgpdhaz5go3py2fva",
-    "status": null
-  },
-  {
-    "venue": "Metro Music Hall",
-    "room": null,
-    "title": "Dev Lemons (with Venus & the Flytraps)",
-    "date": "2026-11-15",
-    "doors": null,
-    "start": null,
-    "url": "https://www.24tix.com/event/cjxczh67kzgfjntkr2ykrr43du",
-    "status": null
-  },
-  {
-    "venue": "Metro Music Hall",
-    "room": null,
-    "title": "Vansire (with Morrow Morrow)",
-    "date": "2026-11-16",
-    "doors": null,
-    "start": null,
-    "url": "https://www.24tix.com/event/xozvi73t75aqlftk47ttv3uqki",
-    "status": null
-  },
-  {
-    "venue": "Metro Music Hall",
-    "room": null,
-    "title": "Russian Circles (with Primitive Man)",
-    "date": "2026-11-17",
-    "doors": null,
-    "start": null,
-    "url": "https://www.24tix.com/event/uph67uummrb6vfzl4ql3mehiv4",
-    "status": null
-  },
-  {
-    "venue": "Metro Music Hall",
-    "room": null,
     "title": "Stephen Day (with Elysia Biro)",
     "date": "2026-11-20",
     "doors": null,
@@ -132,6 +52,16 @@
   {
     "venue": "Metro Music Hall",
     "room": null,
+    "title": "Bodysnatcher (with Gideon, Psycho-Frame, Volatile Ways)",
+    "date": "2026-11-30",
+    "doors": null,
+    "start": null,
+    "url": "https://www.24tix.com/event/4dvkme54nrbclfezazmbeeucaa",
+    "status": null
+  },
+  {
+    "venue": "Metro Music Hall",
+    "room": null,
     "title": "Chase Petra (with Jer, Leisure Hour)",
     "date": "2026-12-02",
     "doors": null,
@@ -172,6 +102,26 @@
   {
     "venue": "Metro Music Hall",
     "room": null,
+    "title": "The Dread Crew Of Oddwood",
+    "date": "2026-12-06",
+    "doors": null,
+    "start": null,
+    "url": "https://www.24tix.com/event/24jfqevov5cazbh45724ay6ewu",
+    "status": null
+  },
+  {
+    "venue": "Metro Music Hall",
+    "room": null,
+    "title": "Guilt Trip (with Gates To Hell, Mauled)",
+    "date": "2026-12-09",
+    "doors": null,
+    "start": null,
+    "url": "https://www.24tix.com/event/6baye7hvjncvpmoxpkx4z3a6ru",
+    "status": null
+  },
+  {
+    "venue": "Metro Music Hall",
+    "room": null,
     "title": "The Kilans (with Margot Sinclair)",
     "date": "2026-12-10",
     "doors": null,
@@ -202,6 +152,26 @@
   {
     "venue": "Metro Music Hall",
     "room": null,
+    "title": "Wolves in the Throne Room (with Stygian Bough, Spirit Possession)",
+    "date": "2027-01-14",
+    "doors": null,
+    "start": null,
+    "url": "https://www.24tix.com/event/ftmsdwwbcfbz3gregpjsc2wrku",
+    "status": null
+  },
+  {
+    "venue": "Metro Music Hall",
+    "room": null,
+    "title": "Silver Cup (with Dogpaw, Bentlelou, Ellis Ivory)",
+    "date": "2027-01-21",
+    "doors": null,
+    "start": null,
+    "url": "https://www.24tix.com/event/x22qklbycbbvnawmwars3yhfyq",
+    "status": null
+  },
+  {
+    "venue": "Metro Music Hall",
+    "room": null,
     "title": "Surf Hat",
     "date": "2027-02-03",
     "doors": null,
@@ -217,6 +187,16 @@
     "doors": null,
     "start": null,
     "url": "https://www.24tix.com/event/bctp74ovgrd77dd575mb7v2bbe",
+    "status": null
+  },
+  {
+    "venue": "Metro Music Hall",
+    "room": null,
+    "title": "CIARÁN",
+    "date": "2027-02-11",
+    "doors": null,
+    "start": null,
+    "url": "https://www.24tix.com/event/4dgttf5sdrdohdbzh2p76cxvbe",
     "status": null
   },
   {
@@ -242,6 +222,16 @@
   {
     "venue": "Metro Music Hall",
     "room": null,
+    "title": "Amira Elfeky (with My Upside Down, Meghan Curtin)",
+    "date": "2027-02-28",
+    "doors": null,
+    "start": null,
+    "url": "https://www.24tix.com/event/ifmhxrdddrc33kkqyccb4ksrgy",
+    "status": null
+  },
+  {
+    "venue": "Metro Music Hall",
+    "room": null,
     "title": "Jack Kays (with Jack Kays And His Band, Willowake, Dear Cincinnati)",
     "date": "2027-03-05",
     "doors": null,
@@ -257,6 +247,16 @@
     "doors": null,
     "start": null,
     "url": "https://www.24tix.com/event/japkdfe2indg5koqs2lxtnmk3q",
+    "status": null
+  },
+  {
+    "venue": "Metro Music Hall",
+    "room": null,
+    "title": "Mod Sun (with Public Works)",
+    "date": "2027-03-10",
+    "doors": null,
+    "start": null,
+    "url": "https://www.24tix.com/event/7ofatolayzdobcrlws6wymksui",
     "status": null
   },
   {
@@ -282,6 +282,16 @@
   {
     "venue": "Metro Music Hall",
     "room": null,
+    "title": "Rio Romeo",
+    "date": "2027-03-17",
+    "doors": null,
+    "start": null,
+    "url": "https://www.24tix.com/event/fpg7ipsnnzgv7cpccgy26ivdgm",
+    "status": null
+  },
+  {
+    "venue": "Metro Music Hall",
+    "room": null,
     "title": "Dogpark (with The Rose Hips)",
     "date": "2027-03-23",
     "doors": null,
@@ -297,6 +307,26 @@
     "doors": null,
     "start": null,
     "url": "https://www.24tix.com/event/5ujc6c3grrep7lfosyiqrtqzsu",
+    "status": null
+  },
+  {
+    "venue": "Metro Music Hall",
+    "room": null,
+    "title": "ASIRIS",
+    "date": "2027-03-25",
+    "doors": null,
+    "start": null,
+    "url": "https://www.24tix.com/event/76b4zekwzzcfffr5j6f62zf6ye",
+    "status": null
+  },
+  {
+    "venue": "Metro Music Hall",
+    "room": null,
+    "title": "Narrow Head & Midrift (with Horse Jumper of Love, Modern Color, Knumears, Worlds Worst, Bleary Eyed)",
+    "date": "2027-03-31",
+    "doors": null,
+    "start": null,
+    "url": "https://www.24tix.com/event/4tzjwd4gvrbc7eurc5qtlspu5q",
     "status": null
   },
   {
@@ -327,6 +357,16 @@
     "doors": null,
     "start": null,
     "url": "https://www.24tix.com/event/u6odtoj6mvf73bwkvlyfaoninu",
+    "status": null
+  },
+  {
+    "venue": "Metro Music Hall",
+    "room": null,
+    "title": "Slow Crush (with Seahaven)",
+    "date": "2027-04-18",
+    "doors": null,
+    "start": null,
+    "url": "https://www.24tix.com/event/4yysiigmknaulho7bxtrzwxzea",
     "status": null
   },
   {

@@ -2,16 +2,6 @@
   {
     "venue": "Rosemont Theatre",
     "room": null,
-    "title": "Pimpinela",
-    "date": "2026-11-15",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketmaster.com/event/040064F48E1D5855",
-    "status": null
-  },
-  {
-    "venue": "Rosemont Theatre",
-    "room": null,
     "title": "Marisela",
     "date": "2026-12-13",
     "doors": null,
@@ -97,6 +87,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-rosemont-illinois-04-02-2027/event/0400653E9C0C6FAB",
+    "status": null
+  },
+  {
+    "venue": "Rosemont Theatre",
+    "room": null,
+    "title": "BeBe and CeCe Winans",
+    "date": "2027-04-07",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.ticketmaster.com/event/04006564B5AF7917",
     "status": null
   },
   {

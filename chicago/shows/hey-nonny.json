@@ -2,86 +2,6 @@
   {
     "venue": "Hey Nonny",
     "room": null,
-    "title": "Pino Farina Band",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/pino-farina-band-07-nov",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "Paul Marinaro: Mood Ellington",
-    "date": "2026-11-10",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/paul-marinaro-10-nov",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "The Claudettes",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/the-claudettes-11-nov",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "Paul Wertico & David Becker",
-    "date": "2026-11-12",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/paul-wertico-david-becker-12-nov",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "Mr. Blotto",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/mr-blotto-13-nov",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "Demi Clara",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "21:30",
-    "url": "https://app.opendate.io/e/nightcap-music-series-with-demi-clara-november-14-2026-700215",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "David Wimbish (The Collection) (with Jesse James DeConto)",
-    "date": "2026-11-17",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/david-wimbish-the-collection-w-jesse-james-deconto-the-pinkerton-raid-17-nov",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "Alla Boara (with Andrea Walker)",
-    "date": "2026-11-18",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/alla-boara-with-special-guest-andrea-walker-18-nov",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
     "title": "Duke Tumatoe",
     "date": "2026-11-20",
     "doors": null,
@@ -117,16 +37,6 @@
     "doors": null,
     "start": "19:30",
     "url": "https://www.heynonny.com/shows/john-primer-24-nov",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "Allegra Malone & The Revival",
-    "date": "2026-11-25",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/allegra-malone-the-revival-25-nov",
     "status": null
   },
   {
@@ -292,6 +202,16 @@
   {
     "venue": "Hey Nonny",
     "room": null,
+    "title": "Paul Marinaro: Mood Ellington",
+    "date": "2027-01-09",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.heynonny.com/shows/paul-marinaro-10-nov",
+    "status": null
+  },
+  {
+    "venue": "Hey Nonny",
+    "room": null,
     "title": "Chicago Farmer",
     "date": "2027-01-15",
     "doors": null,
@@ -327,16 +247,6 @@
     "doors": null,
     "start": "19:30",
     "url": "https://www.heynonny.com/shows/sawyer-fredericks-26-jan",
-    "status": null
-  },
-  {
-    "venue": "Hey Nonny",
-    "room": null,
-    "title": "Zach Pietrini",
-    "date": "2027-02-20",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.heynonny.com/shows/zach-pietrini-20-feb",
     "status": null
   }
 ]

@@ -2,57 +2,7 @@
   {
     "venue": "Outset",
     "room": null,
-    "title": "The Wldlfe",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://hive.co/l/261107thewldlfe",
-    "status": null
-  },
-  {
-    "venue": "Outset",
-    "room": null,
-    "title": "Suzy Sheer",
-    "date": "2026-11-08",
-    "doors": null,
-    "start": "18:30",
-    "url": "https://www.ticketmaster.com/event/0400650EE9382DA8",
-    "status": null
-  },
-  {
-    "venue": "Outset",
-    "room": null,
-    "title": "Frost Children",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "22:00",
-    "url": "https://www.axs.com/events/1675612",
-    "status": null
-  },
-  {
-    "venue": "Outset",
-    "room": null,
-    "title": "Danny Brown",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.ticketmaster.com/event/040065350FDD9E0D",
-    "status": null
-  },
-  {
-    "venue": "Outset",
-    "room": null,
-    "title": "Only Fire (with Alice Longyu Gao, Kylie Exotic, Ariel Zetina)",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketmaster.com/event/040065291FD6DF50",
-    "status": null
-  },
-  {
-    "venue": "Outset",
-    "room": null,
-    "title": "Headache",
+    "title": "Headache (with amr*, Spectacular Diagnostics)",
     "date": "2026-11-20",
     "doors": null,
     "start": "18:30",
@@ -62,7 +12,7 @@
   {
     "venue": "Outset",
     "room": null,
-    "title": "Matt Hansen",
+    "title": "Matt Hansen (with Conall Cafferty)",
     "date": "2026-11-21",
     "doors": null,
     "start": "18:30",
@@ -112,7 +62,7 @@
   {
     "venue": "Outset",
     "room": null,
-    "title": "Amtrac",
+    "title": "Amtrac (with Andrew Emil)",
     "date": "2026-12-11",
     "doors": null,
     "start": "20:00",
@@ -127,6 +77,26 @@
     "doors": null,
     "start": "21:00",
     "url": "https://hive.co/l/261219thought-process",
+    "status": null
+  },
+  {
+    "venue": "Outset",
+    "room": null,
+    "title": "Joey Ca$h (with Casual Affairs, Proxoxie)",
+    "date": "2026-12-26",
+    "doors": null,
+    "start": "22:00",
+    "url": "https://hive.co/l/transitionsoutset",
+    "status": null
+  },
+  {
+    "venue": "Outset",
+    "room": null,
+    "title": "Mindchatter (with Smoko Ono, NOTE2SELF)",
+    "date": "2026-12-30",
+    "doors": null,
+    "start": "22:00",
+    "url": "https://hive.co/l/transitionsoutset",
     "status": null
   },
   {
@@ -157,6 +127,36 @@
     "doors": "18:30",
     "start": null,
     "url": "https://www.songkick.com/concerts/43490080-back-alley-at-outset",
+    "status": null
+  },
+  {
+    "venue": "Outset",
+    "room": null,
+    "title": "MOD SUN (with Public Works)",
+    "date": "2027-03-05",
+    "doors": "18:30",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43523201-mod-sun-at-outset",
+    "status": null
+  },
+  {
+    "venue": "Outset",
+    "room": null,
+    "title": "TWO LANES",
+    "date": "2027-03-06",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43496693-two-lanes-at-outset",
+    "status": null
+  },
+  {
+    "venue": "Outset",
+    "room": null,
+    "title": "NTO",
+    "date": "2027-03-27",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43523530-nto-at-outset",
     "status": null
   }
 ]

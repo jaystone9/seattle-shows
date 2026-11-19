@@ -2,26 +2,6 @@
   {
     "venue": "Martyrs'",
     "room": null,
-    "title": "Kate Nash",
-    "date": "2026-11-11",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://do312.com/events/2026/11/11/an-evening-with-kate-nash-general-admission-standing-room-only-ticket-tickets",
-    "status": null
-  },
-  {
-    "venue": "Martyrs'",
-    "room": null,
-    "title": "No Bother",
-    "date": "2026-11-15",
-    "doors": null,
-    "start": "18:30",
-    "url": "https://do312.com/events/2026/11/15/no-bother-tickets",
-    "status": null
-  },
-  {
-    "venue": "Martyrs'",
-    "room": null,
     "title": "Mistrophia (with Monroe, Helicopter Leaves, Paige and the Kizers)",
     "date": "2026-11-19",
     "doors": "19:00",
@@ -44,9 +24,29 @@
     "room": null,
     "title": "DC & The Love",
     "date": "2026-12-08",
-    "doors": null,
+    "doors": "18:00",
     "start": "19:00",
     "url": "https://do312.com/events/2026/12/8/dc-the-love-tickets",
+    "status": null
+  },
+  {
+    "venue": "Martyrs'",
+    "room": null,
+    "title": "The Front Desk (with Chicago Loud 9, Ropa Vieja)",
+    "date": "2026-12-11",
+    "doors": "19:30",
+    "start": "20:30",
+    "url": "https://do312.com/events/2026/12/11/the-front-desk-chicago-loud-9-ropa-vieja-tickets",
+    "status": null
+  },
+  {
+    "venue": "Martyrs'",
+    "room": null,
+    "title": "Lowlayers (with Wild Zero, Laliberté)",
+    "date": "2026-12-17",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://do312.com/events/2026/12/17/lowlayers-wild-zero-laliberte-tickets",
     "status": null
   },
   {
@@ -86,6 +86,16 @@
     "date": "2026-12-26",
     "doors": "20:00",
     "start": "21:00",
+    "url": "https://do312.com/events/2026/12/26/shoe-fest-holiday-jam-limited-10-tickets-available-tickets",
+    "status": null
+  },
+  {
+    "venue": "Martyrs'",
+    "room": null,
+    "title": "Assembly of Dust",
+    "date": "2027-01-29",
+    "doors": "19:00",
+    "start": "20:00",
     "url": "https://martyrslive.com/upcoming",
     "status": null
   },
@@ -94,6 +104,16 @@
     "room": null,
     "title": "Bonzo Squad (with Cole DeGenova, DJ GAC)",
     "date": "2027-02-04",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/2/4/bonzo-squad-record-release-cole-degenova-dj-gac-tickets",
+    "status": null
+  },
+  {
+    "venue": "Martyrs'",
+    "room": null,
+    "title": "The Brothers Comatose",
+    "date": "2027-04-16",
     "doors": "19:00",
     "start": "20:00",
     "url": "https://martyrslive.com/upcoming",
@@ -106,7 +126,7 @@
     "date": "2027-04-19",
     "doors": null,
     "start": "19:30",
-    "url": "https://martyrslive.com/upcoming",
+    "url": "https://do312.com/events/2027/4/19/brian-ohern-the-model-citizens-big-band-tickets",
     "status": null
   }
 ]

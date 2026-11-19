@@ -2,26 +2,6 @@
   {
     "venue": "Avondale Music Hall",
     "room": null,
-    "title": "Jack Jr",
-    "date": "2026-11-07",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://wl.eventim.us/event/jack-jr/701670?afflky=AvondaleMusicHall",
-    "status": null
-  },
-  {
-    "venue": "Avondale Music Hall",
-    "room": null,
-    "title": "ApolloRed1",
-    "date": "2026-11-10",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://app.discotech.me/events/38289407-apollored1-at-avondale-music-hall",
-    "status": null
-  },
-  {
-    "venue": "Avondale Music Hall",
-    "room": null,
     "title": "Resentvul",
     "date": "2026-11-20",
     "doors": "19:00",
@@ -122,11 +102,51 @@
   {
     "venue": "Avondale Music Hall",
     "room": null,
+    "title": "Gorilla Glue & Lil Nakur",
+    "date": "2026-12-10",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.eventim.us/event/gorilla-glue-and-lil-nakur/711375?afflky=AvondaleMusicHall",
+    "status": null
+  },
+  {
+    "venue": "Avondale Music Hall",
+    "room": null,
     "title": "B Jack$",
     "date": "2026-12-11",
     "doors": "19:00",
     "start": "20:00",
     "url": "https://wl.eventim.us/event/b-jackdollar/707496?afflky=AvondaleMusicHall",
+    "status": null
+  },
+  {
+    "venue": "Avondale Music Hall",
+    "room": null,
+    "title": "Filth",
+    "date": "2026-12-11",
+    "doors": null,
+    "start": "21:30",
+    "url": "https://wl.eventim.us/event/filth/710878?afflky=AvondaleMusicHall",
+    "status": null
+  },
+  {
+    "venue": "Avondale Music Hall",
+    "room": null,
+    "title": "Autumn!",
+    "date": "2027-01-08",
+    "doors": null,
+    "start": null,
+    "url": "https://wl.eventim.us/event/autumn/710216?afflky=AvondaleMusicHall",
+    "status": null
+  },
+  {
+    "venue": "Avondale Music Hall",
+    "room": "Backline",
+    "title": "Montana 700",
+    "date": "2027-01-29",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.eventim.us/event/montana-700/711800?afflky=AvondaleMusicHall",
     "status": null
   },
   {

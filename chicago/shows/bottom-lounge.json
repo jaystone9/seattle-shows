@@ -2,66 +2,6 @@
   {
     "venue": "Bottom Lounge",
     "room": null,
-    "title": "Post Sex Nachos (with Scarlet Demore, Hana Eid)",
-    "date": "2026-11-07",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://www.ticketweb.com/event/post-sex-nachos-scarlet-demore-bottom-lounge-tickets/14905223",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
-    "title": "Sueco (with Jeris Johnson)",
-    "date": "2026-11-08",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://www.ticketweb.com/event/sueco-with-jeris-johnson-bottom-lounge-tickets/14251634",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
-    "title": "Premo Rice",
-    "date": "2026-11-13",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/premo-rice-another-bottom-lounge-tickets/14321604",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
-    "title": "Fox Stevenson & Mystery Skulls",
-    "date": "2026-11-15",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://www.ticketweb.com/event/fox-stevenson-mystery-skulls-bottom-lounge-tickets/14261764",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
-    "title": "Gene",
-    "date": "2026-11-16",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/gene-bottom-lounge-tickets/14901513",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
-    "title": "Ours (with JG Shadid)",
-    "date": "2026-11-18",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/ours-bottom-lounge-tickets/14984813",
-    "status": null
-  },
-  {
-    "venue": "Bottom Lounge",
-    "room": null,
     "title": "Michigander (with Wildermiss)",
     "date": "2026-11-20",
     "doors": "18:00",
@@ -92,7 +32,7 @@
   {
     "venue": "Bottom Lounge",
     "room": null,
-    "title": "Mondo Cozmo",
+    "title": "Mondo Cozmo (with Flake Michigan)",
     "date": "2026-12-05",
     "doors": "19:00",
     "start": "20:00",
@@ -122,11 +62,21 @@
   {
     "venue": "Bottom Lounge",
     "room": null,
+    "title": "Action/Adventure (with Hit The Lights, Keep Flying, Rematch)",
+    "date": "2026-12-20",
+    "doors": "17:00",
+    "start": "18:00",
+    "url": "https://bottomlounge.com/shows/action-adventure-december-20-2026-798791/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
     "title": "Local H",
     "date": "2026-12-31",
-    "doors": null,
+    "doors": "21:00",
     "start": "22:00",
-    "url": "https://do312.com/events/2026/12/31/local-h-tickets",
+    "url": "https://bottomlounge.com/shows/local-h-december-31-2026-792858/",
     "status": null
   },
   {
@@ -147,6 +97,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://bottomlounge.com/shows/kamijo-bloodline-world-tour-january-31-2027-792898/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
+    "title": "Scarlet Demore (with Latter, Snuffed)",
+    "date": "2027-02-06",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://bottomlounge.com/shows/scarlet-demore-february-06-2027-796777/",
     "status": null
   },
   {
@@ -194,9 +154,9 @@
     "room": null,
     "title": "Tate Butts",
     "date": "2027-02-26",
-    "doors": null,
+    "doors": "17:30",
     "start": "18:30",
-    "url": "https://do312.com/events/2027/2/26/tate-butts-tickets",
+    "url": "https://bottomlounge.com/shows/tate-butts-february-26-2027-790855/",
     "status": null
   },
   {
@@ -212,6 +172,16 @@
   {
     "venue": "Bottom Lounge",
     "room": null,
+    "title": "Amira Elfeky",
+    "date": "2027-03-07",
+    "doors": "17:30",
+    "start": "18:30",
+    "url": "https://bottomlounge.com/shows/amira-elfeky-it-was-only-a-dream-tour-march-07-2027-801489/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
     "title": "Jack Kays (with Willowake, Dear Cincinnati)",
     "date": "2027-03-10",
     "doors": "18:00",
@@ -222,11 +192,31 @@
   {
     "venue": "Bottom Lounge",
     "room": null,
+    "title": "Johnnie Guilbert",
+    "date": "2027-03-14",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://bottomlounge.com/shows/johnnie-guilbert-march-14-2027-801479/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
+    "title": "Narrow Head (with Soul Blind, knumears, seko)",
+    "date": "2027-03-26",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://bottomlounge.com/shows/narrow-head-march-26-2027-801425/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
     "title": "Jack and Jack",
     "date": "2027-03-27",
-    "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43478999-jack-and-jack-at-bottom-lounge",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://bottomlounge.com/shows/jack-jack-march-27-2027-783500/",
     "status": null
   },
   {
@@ -242,6 +232,26 @@
   {
     "venue": "Bottom Lounge",
     "room": null,
+    "title": "Delta Sleep (with Pet Symmetry)",
+    "date": "2027-04-12",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://bottomlounge.com/shows/delta-sleep-april-12-2027-801411/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
+    "title": "Cursive",
+    "date": "2027-04-16",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://bottomlounge.com/shows/cursive-happy-hollow-20th-anniversary-april-16-2027-799356/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
     "title": "The Palms",
     "date": "2027-04-20",
     "doors": "18:00",
@@ -252,11 +262,51 @@
   {
     "venue": "Bottom Lounge",
     "room": null,
+    "title": "Slow Crush (with Seahaven, Deux Visages)",
+    "date": "2027-04-24",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://bottomlounge.com/shows/slow-crush-april-24-2027-799458/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
+    "title": "Rio Romeo",
+    "date": "2027-04-28",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://bottomlounge.com/shows/rio-romeo-personal-slot-machine-tour-april-28-2027-797573/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
+    "title": "Gurriers",
+    "date": "2027-05-04",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://bottomlounge.com/shows/gurriers-may-04-2027-794382/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
     "title": "Broken By The Scream",
     "date": "2027-05-07",
     "doors": "18:00",
     "start": "19:00",
     "url": "https://bottomlounge.com/shows/broken-by-the-scream-may-07-2027-792693/",
+    "status": null
+  },
+  {
+    "venue": "Bottom Lounge",
+    "room": null,
+    "title": "John Michael Howell",
+    "date": "2027-05-18",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://bottomlounge.com/shows/john-michael-howell-the-poet-tour-may-18-2027-799194/",
     "status": null
   }
 ]

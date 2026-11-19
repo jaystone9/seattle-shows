@@ -2,36 +2,6 @@
   {
     "venue": "Genesee Theatre",
     "room": null,
-    "title": "Alice Cooper: Alice's Attic Tour",
-    "date": "2026-11-08",
-    "doors": "18:00",
-    "start": "19:30",
-    "url": "https://www.ticketmaster.com/event/070064C39DA34AEA?brand=genesee&camefrom=CFC_GENESEE",
-    "status": null
-  },
-  {
-    "venue": "Genesee Theatre",
-    "room": null,
-    "title": "Shaun Cassidy: UNWRAPPED - Songs and Stories for the Holidays",
-    "date": "2026-11-13",
-    "doors": "18:30",
-    "start": "20:00",
-    "url": "https://www.ticketmaster.com/event/070064D2D1199884?brand=genesee&camefrom=CFC_GENESEE",
-    "status": null
-  },
-  {
-    "venue": "Genesee Theatre",
-    "room": null,
-    "title": "Patti LaBelle",
-    "date": "2026-11-14",
-    "doors": "18:00",
-    "start": "19:30",
-    "url": "https://www.ticketmaster.com/event/07006483A03A4DD2?brand&camefrom=CFC_GENESEE",
-    "status": null
-  },
-  {
-    "venue": "Genesee Theatre",
-    "room": null,
     "title": "Sara Evans (with Braden Hull)",
     "date": "2026-11-19",
     "doors": "18:00",
@@ -132,11 +102,51 @@
   {
     "venue": "Genesee Theatre",
     "room": null,
+    "title": "Welcome Back My Friends: An Evening with Emerson, Lake & Palmer",
+    "date": "2027-02-21",
+    "doors": "18:30",
+    "start": "20:00",
+    "url": "https://www.ticketmaster.com/event/07006564B2A34B63?brand&camefrom=CFC_GENESEE",
+    "status": null
+  },
+  {
+    "venue": "Genesee Theatre",
+    "room": null,
+    "title": "Puddle of Mudd (with Small Town Titans)",
+    "date": "2027-03-12",
+    "doors": "18:30",
+    "start": "20:00",
+    "url": "https://www.ticketmaster.com/event/0700655BE209711D?brand&camefrom=CFC_GENESEE",
+    "status": null
+  },
+  {
+    "venue": "Genesee Theatre",
+    "room": null,
     "title": "The Psychedelic Furs (with Living Colour)",
     "date": "2027-04-01",
     "doors": "18:00",
     "start": "19:30",
     "url": "https://www.ticketmaster.com/event/07006521911B20A2?brand&camefrom=CFC_GENESEE",
+    "status": null
+  },
+  {
+    "venue": "Genesee Theatre",
+    "room": null,
+    "title": "Scott Bradlee's Postmodern Jukebox",
+    "date": "2027-04-22",
+    "doors": "18:30",
+    "start": "20:00",
+    "url": "https://www.ticketmaster.com/event/07006558D0E3636F?brand=genesee&camefrom=CFC_GENESEE",
+    "status": null
+  },
+  {
+    "venue": "Genesee Theatre",
+    "room": null,
+    "title": "David Foster and Katharine McPhee",
+    "date": "2027-05-13",
+    "doors": "18:00",
+    "start": "19:30",
+    "url": "https://www.ticketmaster.com/event/07006536C6F65294?brand&camefrom=CFC_GENESEE",
     "status": null
   }
 ]

@@ -2,96 +2,6 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
-    "title": "Queen Mother (with Coool Babies)",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/queen-mother-and-coool-babies-204170",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "Crab (with Sydney Graves, Villians Inside)",
-    "date": "2026-11-08",
-    "doors": null,
-    "start": "18:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/crab-with-sydney-graves-villians-inside-206336",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "The Breaks - Eddie Roberts, Robert Walter, Stanton Moore (with Doria Klomp Heyer)",
-    "date": "2026-11-12",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/the-breaks-eddie-roberts-robert-walter-stanton-moore-plus-guests-doria-klomp-heyer-199404",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "The Polish Ambassador - Dead Polish Phish (with Willdabeast, Cheeks)",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/the-polish-ambassador-dead-polish-phish-187160",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "The Polish Ambassador - Dead Polish Phish (with Pressha, DJ Max Gain)",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/the-polish-ambassador-dead-polish-phish-187378",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "Cem Adrian",
-    "date": "2026-11-15",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/cem-adrian-197129",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "DAMAG3 (with The Neighborhood Kids, Connor Cristi)",
-    "date": "2026-11-16",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/damag3-with-the-neighborhood-kids-connor-cristi-201624",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "Dev Lemons",
-    "date": "2026-11-17",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/dev-lemons-198650",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
-    "title": "Louie TheSinger (with Special Guests)",
-    "date": "2026-11-18",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/louie-thesinger-with-special-guests-209101",
-    "status": null
-  },
-  {
-    "venue": "Nectar Lounge",
-    "room": null,
     "title": "Hard Maybe (with Bad Peanut, Sugar Bones)",
     "date": "2026-11-19",
     "doors": null,
@@ -102,11 +12,11 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
-    "title": "Garaj Mahal feat. Andy Coe (with Suffering Yuckheads)",
+    "title": "Garaj Mahal feat. Andy Coe (2 sets)",
     "date": "2026-11-20",
     "doors": null,
     "start": "20:00",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/garaj-mahal-feat-andy-coe-with-suffering-yuckheads-204167",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/garaj-mahal-feat-andy-coe-2-sets--204167",
     "status": null
   },
   {
@@ -302,11 +212,21 @@
   {
     "venue": "Nectar Lounge",
     "room": null,
-    "title": "Camaira Metz (with Charles Zaid, Kina Park)",
+    "title": "Camaira Metz (with Charles Zaid, Kina Pak)",
     "date": "2027-01-07",
     "doors": null,
     "start": "18:30",
-    "url": "https://www.tixr.com/groups/nectarlounge/events/camaira-metz-with-charles-zaid-kina-park-213960",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/camaira-metz-with-charles-zaid-kina-pak-213960",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
+    "title": "Big Brass Extravaganza #15 (with Chaotic Noise Marching Corps, AGAB, 8-Bit Brass Band, Vamola)",
+    "date": "2027-01-14",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/big-brass-extravaganza-15-feat-chaotic-noise-marching-corps-agab-8-bit-brass-band-vamola-215199",
     "status": null
   },
   {
@@ -317,6 +237,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.tixr.com/groups/nectarlounge/events/clinton-fearon-a-birthday-celebration-plus-dj-kid-hops-kexp-and-surprise-special-guests-206469",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
+    "title": "Gifted Youngstaz (with AJ Suede, LA, King Khazm, Mostafa, Mugs and Pockets, Hekl The Mad Scientist)",
+    "date": "2027-01-21",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/gifted-youngstaz-with-aj-suede-la-king-khazm-mostafa-mugs-and-pockets-hekl-the-mad-scientist-215211",
     "status": null
   },
   {
@@ -417,6 +347,16 @@
     "doors": null,
     "start": "19:00",
     "url": "https://www.tixr.com/groups/nectarlounge/events/deathbyromy-with-bodyimage-208947",
+    "status": null
+  },
+  {
+    "venue": "Nectar Lounge",
+    "room": null,
+    "title": "May Erlewine (with Packy Lundholm)",
+    "date": "2027-03-04",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/nectarlounge/events/may-erlewine-with-packy-lundholm-214969",
     "status": null
   },
   {

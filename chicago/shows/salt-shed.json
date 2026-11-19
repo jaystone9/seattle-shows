@@ -2,46 +2,6 @@
   {
     "venue": "The Salt Shed",
     "room": null,
-    "title": "Orville Peck (with Abbie Callahan)",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do312.com/events/2026/11/7/orville-peck-man-turned-mule-tour-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
-    "title": "Charles Wesley Godwin (with Tyler Nance)",
-    "date": "2026-11-12",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do312.com/events/2026/11/12/charles-wesley-godwin-christian-name-tour-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
-    "title": "Palace (with Willie J Healey)",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do312.com/events/2026/11/13/palace-with-willie-j-healey-usa-canada-tour-2026-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
-    "title": "The Menzingers (with Hot Water Music, Weakened Friends)",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://do312.com/events/2026/11/14/the-menzingers-everything-i-ever-saw-north-american-tour-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
     "title": "Slow Pulp (with Her New Knife)",
     "date": "2026-11-19",
     "doors": null,
@@ -77,16 +37,6 @@
     "doors": null,
     "start": "19:00",
     "url": "https://do312.com/events/2026/11/24/sabaton-legends-on-tour-tickets",
-    "status": null
-  },
-  {
-    "venue": "The Salt Shed",
-    "room": null,
-    "title": "Turnover (with NOTHING, Trauma Ray)",
-    "date": "2026-11-25",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://do312.com/events/2026/11/25/turnover-down-on-earth-tour-tickets",
     "status": null
   },
   {
@@ -232,7 +182,7 @@
   {
     "venue": "The Salt Shed",
     "room": null,
-    "title": "Mersiv",
+    "title": "Mersiv (with Eprom, Super Future, Dr. Ushūu, 2LØT, Terrawave)",
     "date": "2027-02-27",
     "doors": null,
     "start": "20:00",
@@ -272,11 +222,31 @@
   {
     "venue": "The Salt Shed",
     "room": null,
+    "title": "Dashboard Confessional",
+    "date": "2027-03-12",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/3/12/dashboard-confessional-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
     "title": "Lucky Daye",
     "date": "2027-03-27",
     "doors": null,
     "start": "19:00",
     "url": "https://do312.com/events/2027/3/27/lucky-daye-the-aloud-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
+    "title": "Noga Erez",
+    "date": "2027-03-28",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/3/28/noga-erez-duck-season-tour-2027-tickets",
     "status": null
   },
   {
@@ -305,8 +275,8 @@
     "title": "The Plot In You",
     "date": "2027-04-15",
     "doors": null,
-    "start": null,
-    "url": "https://songkick.com/concerts/43487786-plot-in-you-at-shed-the-salt-shed",
+    "start": "19:00",
+    "url": "https://do312.com/events/2027/4/15/the-plot-in-you-world-tour-part-1-tickets",
     "status": null
   },
   {
@@ -317,6 +287,16 @@
     "doors": null,
     "start": "19:30",
     "url": "https://do312.com/events/2027/4/17/warren-zeiders-no-brakes-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
+    "title": "Tally Hall",
+    "date": "2027-04-18",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do312.com/events/2027/4/18/tally-hall-tickets",
     "status": null
   },
   {
@@ -356,7 +336,47 @@
     "date": "2027-05-06",
     "doors": null,
     "start": "20:00",
-    "url": "https://do312.com/events/2027/5/6/hermanos-gutierrez-tickets",
+    "url": "https://do312.com/events/2027/5/6/hermanos-guti-rrez-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
+    "title": "Beach Bunny (with Daisy Grenade)",
+    "date": "2027-05-07",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do312.com/events/2027/5/7/beach-bunny-out-of-office-tour-with-special-guest-daisy-grenade-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
+    "title": "Haute & Freddy",
+    "date": "2027-05-09",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do312.com/events/2027/5/9/haute-freddy-bigger-disgrace-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
+    "title": "Circa Survive",
+    "date": "2027-05-11",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do312.com/events/2027/5/11/circa-survive-tickets",
+    "status": null
+  },
+  {
+    "venue": "The Salt Shed",
+    "room": null,
+    "title": "Circa Survive",
+    "date": "2027-05-12",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do312.com/events/2027/5/12/circa-survive-tickets",
     "status": null
   }
 ]

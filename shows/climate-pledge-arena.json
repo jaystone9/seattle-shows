@@ -2,66 +2,6 @@
   {
     "venue": "Climate Pledge Arena",
     "room": null,
-    "title": "Ms. Lauryn Hill & Wyclef Jean",
-    "date": "2026-11-10",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://songkick.com/concerts/43385477-ms-lauryn-hill-at-climate-pledge-arena",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
-    "title": "Garth Brooks",
-    "date": "2026-11-12",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://songkick.com/concerts/43481586-garth-brooks-at-climate-pledge-arena",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
-    "title": "Garth Brooks",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://songkick.com/concerts/43465892-garth-brooks-at-climate-pledge-arena",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
-    "title": "Garth Brooks",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://songkick.com/concerts/43465872-garth-brooks-at-climate-pledge-arena",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
-    "title": "Garth Brooks",
-    "date": "2026-11-15",
-    "doors": null,
-    "start": "14:00",
-    "url": "https://songkick.com/concerts/43477855-garth-brooks-at-climate-pledge-arena",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
-    "title": "KATSEYE",
-    "date": "2026-11-17",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://songkick.com/concerts/43215086-katseye-at-climate-pledge-arena",
-    "status": null
-  },
-  {
-    "venue": "Climate Pledge Arena",
-    "room": null,
     "title": "Trans-Siberian Orchestra (matinee)",
     "date": "2026-11-29",
     "doors": null,
@@ -182,6 +122,16 @@
   {
     "venue": "Climate Pledge Arena",
     "room": null,
+    "title": "Feid",
+    "date": "2027-04-04",
+    "doors": "18:30",
+    "start": "20:00",
+    "url": "https://climatepledgearena.com/event/feid-27/",
+    "status": null
+  },
+  {
+    "venue": "Climate Pledge Arena",
+    "room": null,
     "title": "Hans Zimmer",
     "date": "2027-04-09",
     "doors": null,
@@ -207,6 +157,26 @@
     "doors": "18:30",
     "start": null,
     "url": "https://songkick.com/concerts/43477599-queens-of-the-stone-age-at-climate-pledge-arena",
+    "status": null
+  },
+  {
+    "venue": "Climate Pledge Arena",
+    "room": null,
+    "title": "Calvin Harris",
+    "date": "2027-05-14",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://climatepledgearena.com/event/calvin-harris-27/",
+    "status": null
+  },
+  {
+    "venue": "Climate Pledge Arena",
+    "room": null,
+    "title": "Calvin Harris",
+    "date": "2027-05-15",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://climatepledgearena.com/event/calvin-harris-27/",
     "status": null
   }
 ]

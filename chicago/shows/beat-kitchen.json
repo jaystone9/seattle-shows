@@ -2,116 +2,6 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Frank Maza featuring Javier Limon",
-    "date": "2026-11-07",
-    "doors": "16:00",
-    "start": "17:00",
-    "url": "https://wl.seetickets.us/event/frank-maza-featuring-javier-limon-back-then/698083",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Austin Giorgio (with Caroline Romano)",
-    "date": "2026-11-08",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://wl.seetickets.us/event/austin-giorgio/695294",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Qendresa",
-    "date": "2026-11-09",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://wl.seetickets.us/event/qendresa/702627",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Qendresa",
-    "date": "2026-11-10",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://wl.seetickets.us/event/qendresa/701407",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Surely Tempo (with Dogs With Hats, Almost There But Not Really)",
-    "date": "2026-11-12",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://wl.seetickets.us/event/surely-tempo/699102",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Patrick Wolf (with Friend of a Friend)",
-    "date": "2026-11-13",
-    "doors": "19:30",
-    "start": "20:30",
-    "url": "https://wl.seetickets.us/event/patrick-wolf/699235",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Babehoven (with Shoulderbird)",
-    "date": "2026-11-14",
-    "doors": "19:30",
-    "start": "20:30",
-    "url": "https://wl.seetickets.us/event/babehoven/700921",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Allison Mahal (with Leah Jean, Whitney Fenimore)",
-    "date": "2026-11-15",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://wl.seetickets.us/event/allison-mahal/701314",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Sap (with Sludge Mother, aWannabe)",
-    "date": "2026-11-16",
-    "doors": "18:00",
-    "start": "18:30",
-    "url": "https://wl.seetickets.us/event/saps-erasure-tour/702943",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Surfing for Daisy (with Belle and Chain, Painted Canyon)",
-    "date": "2026-11-17",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://wl.seetickets.us/event/surfing-for-daisy-dont-quit-your-day-job-tour/699285",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
-    "title": "Keenan Te",
-    "date": "2026-11-18",
-    "doors": "19:00",
-    "start": "19:30",
-    "url": "https://wl.seetickets.us/event/keenan-te/697515",
-    "status": null
-  },
-  {
-    "venue": "Beat Kitchen",
-    "room": null,
     "title": "Denise Julia",
     "date": "2026-11-19",
     "doors": "19:00",
@@ -222,7 +112,7 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
-    "title": "Bird and Byron",
+    "title": "Bird and Byron (with Tanner Dane)",
     "date": "2026-12-12",
     "doors": "19:00",
     "start": "20:00",
@@ -257,6 +147,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://wl.seetickets.us/event/missio/701943",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Night Spice (with End Path, Grave Love, East Moon)",
+    "date": "2027-01-16",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://wl.seetickets.us/event/night-spice/710903",
     "status": null
   },
   {
@@ -302,6 +202,36 @@
   {
     "venue": "Beat Kitchen",
     "room": null,
+    "title": "Adult DVD",
+    "date": "2027-02-17",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/adult-dvd/710892",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Teenage Wrist",
+    "date": "2027-02-22",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/teenage-wrist/710346",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "asiris",
+    "date": "2027-03-02",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://wl.seetickets.us/event/asiris-the-summerside-final-lap-tour/711472",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
     "title": "Coey Redd",
     "date": "2027-03-03",
     "doors": "19:00",
@@ -337,6 +267,26 @@
     "doors": "18:00",
     "start": "19:00",
     "url": "https://wl.seetickets.us/event/baby-bugs/685984",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Declan J. Donovan",
+    "date": "2027-03-17",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/declan-j-donovan/710338",
+    "status": null
+  },
+  {
+    "venue": "Beat Kitchen",
+    "room": null,
+    "title": "Trophy Wife",
+    "date": "2027-03-20",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://wl.seetickets.us/event/trophy-wife/711440",
     "status": null
   },
   {

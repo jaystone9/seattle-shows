@@ -2,56 +2,6 @@
   {
     "venue": "Hidden Hall",
     "room": null,
-    "title": "The Last Revel (with Nathaniel Riley, Matthew \"Rev\" Rieger)",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/the-last-revel-plus-nathaniel-riley-and-matthew-rev-rieger-197880",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
-    "title": "Geordie Kieffer (with Special Guests)",
-    "date": "2026-11-12",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/geordie-kieffer-with-special-guests-201493",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
-    "title": "Goodnight, Texas (with Stephanie Anne Johnson, Forest Stoke)",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/goodnight-texas-with-stephanie-anne-johnson-forest-stoke-195264",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
-    "title": "Clay Street Unit",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "17:30",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/clay-street-unit-197131",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
-    "title": "Mireya & The Poor Choices (with Special Guests)",
-    "date": "2026-11-15",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/mireya-the-poor-choices-with-special-guests-197882",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
     "title": "Mister Blank - Album Release Show (with The Fabulous Downey Brothers, MuerteMen)",
     "date": "2026-11-19",
     "doors": null,
@@ -82,6 +32,16 @@
   {
     "venue": "Hidden Hall",
     "room": null,
+    "title": "Hidden Honky Tonk (with Alex Evangelista, Owen Thayer, Sonny Parker, Dutch Hudson, Van Wheeler, Country Dave Harmonson and the Hen House Band)",
+    "date": "2026-11-25",
+    "doors": "19:00",
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/hidden-honky-tonk-a-local-country-music-showcase-213754",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
     "title": "Russian Blue (with Ghost Fetish, Fruit Juice)",
     "date": "2026-11-27",
     "doors": null,
@@ -102,16 +62,6 @@
   {
     "venue": "Hidden Hall",
     "room": null,
-    "title": "Isaiah Sharkey (with Midpak)",
-    "date": "2026-12-01",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/isaiah-sharkey-with-midpak-195679",
-    "status": null
-  },
-  {
-    "venue": "Hidden Hall",
-    "room": null,
     "title": "Hi Crime (with Sister Swimmer, Clam & Owie)",
     "date": "2026-12-03",
     "doors": null,
@@ -122,11 +72,11 @@
   {
     "venue": "Hidden Hall",
     "room": null,
-    "title": "Skerik",
+    "title": "Skerik & Mike Stone present the music of Charles Mingus (with Jason Cressey, Geoff Harper)",
     "date": "2026-12-04",
     "doors": null,
-    "start": null,
-    "url": "https://songkick.com/concerts/43496603-skerik-at-hidden-hall",
+    "start": "17:30",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/skerik-mike-stone-present-the-music-of-charles-mingus-213311",
     "status": null
   },
   {
@@ -146,7 +96,7 @@
     "date": "2026-12-06",
     "doors": null,
     "start": "19:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/lau-noah-adam-neely-193753",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/adam-neely-of-sungazer-x-lau-noah-193753",
     "status": null
   },
   {
@@ -206,7 +156,7 @@
     "date": "2026-12-30",
     "doors": null,
     "start": "19:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/andy-coe-band-2-nights--210887",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/andy-coe-band-nye-2-nights--210887",
     "status": null
   },
   {
@@ -216,7 +166,7 @@
     "date": "2026-12-31",
     "doors": null,
     "start": "20:00",
-    "url": "https://www.tixr.com/groups/hiddenhall/events/andy-coe-band-2-nights--210887",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/andy-coe-band-2-nights--213450",
     "status": null
   },
   {
@@ -247,6 +197,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.tixr.com/groups/hiddenhall/events/carl-christensen-the-rain-delay-with-amy-hall-aseda-safoa-213957",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
+    "title": "Aryana León x Nathan Nzanga (with Charles Zaid, HNY)",
+    "date": "2027-01-15",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/aryana-le-n-x-nathan-nzanga-with-charles-zaid-hny-215208",
     "status": null
   },
   {
@@ -292,6 +252,16 @@
   {
     "venue": "Hidden Hall",
     "room": null,
+    "title": "Honeybear (with Annie J, CrossRhythm Trio)",
+    "date": "2027-02-04",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/honeybear-with-annie-j-crossrhythm-trio-214832",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
     "title": "Romare (Live) (with Kid Hops)",
     "date": "2027-02-11",
     "doors": null,
@@ -312,11 +282,31 @@
   {
     "venue": "Hidden Hall",
     "room": null,
+    "title": "Minnesota (with Pressha, Lotus Drops)",
+    "date": "2027-03-06",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/minnesota-with-pressha-and-lotus-drops-214253",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
     "title": "Surfer Girl (with South Summit, JOBY!)",
     "date": "2027-03-10",
     "doors": null,
     "start": "19:00",
     "url": "https://www.tixr.com/groups/hiddenhall/events/surfer-girl-with-south-summit-and-joby--208655",
+    "status": null
+  },
+  {
+    "venue": "Hidden Hall",
+    "room": null,
+    "title": "SML",
+    "date": "2027-03-14",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.tixr.com/groups/hiddenhall/events/sml-213753",
     "status": null
   },
   {

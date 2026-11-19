@@ -2,36 +2,6 @@
   {
     "venue": "The Moore Theatre",
     "room": null,
-    "title": "Taylor Mac",
-    "date": "2026-11-08",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://www.stgpresents.org/events/taylor-mac/",
-    "status": null
-  },
-  {
-    "venue": "The Moore Theatre",
-    "room": null,
-    "title": "SYD",
-    "date": "2026-11-10",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/syd/",
-    "status": null
-  },
-  {
-    "venue": "The Moore Theatre",
-    "room": null,
-    "title": "Houndmouth (with DOGPARK)",
-    "date": "2026-11-14",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.stgpresents.org/events/houndmouth/",
-    "status": null
-  },
-  {
-    "venue": "The Moore Theatre",
-    "room": null,
     "title": "Rodrigo y Gabriela",
     "date": "2026-11-19",
     "doors": "18:30",
@@ -112,6 +82,16 @@
   {
     "venue": "The Moore Theatre",
     "room": null,
+    "title": "Chiodos (with Hail The Sun, Emery, Buried In Spring)",
+    "date": "2027-03-13",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://www.stgpresents.org/events/chiodos/",
+    "status": null
+  },
+  {
+    "venue": "The Moore Theatre",
+    "room": null,
     "title": "Akira Yamaoka (with Raj Ramayya)",
     "date": "2027-03-21",
     "doors": "18:00",
@@ -147,6 +127,26 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.stgpresents.org/events/the-warning/",
+    "status": null
+  },
+  {
+    "venue": "The Moore Theatre",
+    "room": null,
+    "title": "Luka Šulić",
+    "date": "2027-05-15",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/luka-sulic/",
+    "status": null
+  },
+  {
+    "venue": "The Moore Theatre",
+    "room": null,
+    "title": "Valery Meladze",
+    "date": "2027-05-18",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.stgpresents.org/events/valery-meladze/",
     "status": null
   }
 ]

@@ -2,16 +2,6 @@
   {
     "venue": "The Funhouse",
     "room": null,
-    "title": "Christian Death (with Black Season Witch, Altar Girl)",
-    "date": "2026-11-18",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://www.elcorazonseattle.com/shows/christian-death-18-nov",
-    "status": null
-  },
-  {
-    "venue": "The Funhouse",
-    "room": null,
     "title": "Bad Wallpaper (with Narbs, One Night at the Eagles, Public Witness)",
     "date": "2026-11-19",
     "doors": "19:00",
@@ -147,6 +137,16 @@
     "doors": "18:00",
     "start": "19:00",
     "url": "https://www.elcorazonseattle.com/shows/eyes-set-to-kill-guilty-pleasures-tour-11-dec",
+    "status": null
+  },
+  {
+    "venue": "The Funhouse",
+    "room": null,
+    "title": "Boydream (with Splitshift, Modern Bird)",
+    "date": "2026-12-26",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.elcorazonseattle.com/shows/boydream-26-dec",
     "status": null
   },
   {

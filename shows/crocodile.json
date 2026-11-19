@@ -2,81 +2,21 @@
   {
     "venue": "The Crocodile",
     "room": null,
-    "title": "An Evening With Railroad Earth",
-    "date": "2026-11-07",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://calendar.thecrocodile.com/shows/an-evening-with-railroad-earth-07-nov",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "INOHA (with Buddha Trixie, Flight by Nothing)",
-    "date": "2026-11-08",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://calendar.thecrocodile.com/shows/inoha-08-nov",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Tank and The Bangas - The Last Balloon Tour 2026 (with Ariel J.)",
-    "date": "2026-11-10",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://calendar.thecrocodile.com/shows/tank-and-the-bangas-the-last-balloon-tour-2026-10-nov",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Armand Hammer",
-    "date": "2026-11-11",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://calendar.thecrocodile.com/shows/armand-hammer-11-nov",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Nekrogoblikon (with Aborted, Signs of the Swarm, Party Cannon)",
-    "date": "2026-11-12",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://calendar.thecrocodile.com/shows/nekrogoblikon-12-nov",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Son Volt (with Kelly Willis)",
-    "date": "2026-11-13",
-    "doors": "17:00",
-    "start": "18:00",
-    "url": "https://calendar.thecrocodile.com/shows/son-volt-13-nov",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
-    "title": "Stephen Day",
-    "date": "2026-11-14",
-    "doors": "17:00",
-    "start": "18:00",
-    "url": "https://calendar.thecrocodile.com/shows/stephen-day-14-nov",
-    "status": null
-  },
-  {
-    "venue": "The Crocodile",
-    "room": null,
     "title": "Jamila Woods: 10 Years of HEAVN",
     "date": "2026-11-20",
     "doors": "17:00",
     "start": "18:00",
     "url": "https://calendar.thecrocodile.com/shows/jamila-woods-10-years-of-heavn-20-nov",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": "Hotel Crocodile",
+    "title": "Lenny Voter - Record Release Show (with Brandon Grumbles, David Coppin Lanegan, Naked Days, Evangelos Lassos, Sonora Enjambre, Starbird, Ttwopercentmilk)",
+    "date": "2026-11-20",
+    "doors": "18:00",
+    "start": "18:00",
+    "url": "https://calendar.thecrocodile.com/shows/lenny-voter-record-release-peren-votolato-photo-show-20-nov",
     "status": null
   },
   {
@@ -112,7 +52,7 @@
   {
     "venue": "The Crocodile",
     "room": null,
-    "title": "How The Grouch Stole Christmas Tour 2026 - The Grouch & Eligh ft. AmpLive (with Brother Ali)",
+    "title": "How The Grouch Stole Christmas Tour 2026 - The Grouch & Eligh ft. AmpLive (with Brother Ali, Lyrics Born)",
     "date": "2026-12-06",
     "doors": "19:00",
     "start": "20:00",
@@ -174,7 +114,7 @@
     "room": null,
     "title": "Bone Thugs-N-Harmony",
     "date": "2027-01-08",
-    "doors": null,
+    "doors": "19:00",
     "start": "20:00",
     "url": "https://calendar.thecrocodile.com/shows/bone-thugs-n-harmony-08-jan",
     "status": null
@@ -184,7 +124,7 @@
     "room": null,
     "title": "Ray Lau (early show)",
     "date": "2027-01-29",
-    "doors": null,
+    "doors": "18:00",
     "start": "19:00",
     "url": "https://calendar.thecrocodile.com/shows/ray-lau-29-jan",
     "status": null
@@ -194,7 +134,7 @@
     "room": null,
     "title": "Ray Lau (late show)",
     "date": "2027-01-29",
-    "doors": null,
+    "doors": "21:00",
     "start": "21:30",
     "url": "https://calendar.thecrocodile.com/shows/ray-lau-29-jan-dfb65",
     "status": null
@@ -282,9 +222,9 @@
   {
     "venue": "The Crocodile",
     "room": null,
-    "title": "Noah Gundersen: Rites of Spring Tour",
+    "title": "Noah Gundersen: Rites of Spring Tour (with Nathan Evans Fox)",
     "date": "2027-03-10",
-    "doors": null,
+    "doors": "19:00",
     "start": "20:00",
     "url": "https://calendar.thecrocodile.com/shows/noah-gundersen-10-mar",
     "status": null
@@ -397,6 +337,16 @@
     "doors": null,
     "start": "18:00",
     "url": "https://calendar.thecrocodile.com/shows/the-chameleons-01-may",
+    "status": null
+  },
+  {
+    "venue": "The Crocodile",
+    "room": null,
+    "title": "Midnight Generation - Rooted Tour 2027",
+    "date": "2027-05-16",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://calendar.thecrocodile.com/shows/midnight-generation-rooted-tour-2027-16-may",
     "status": null
   }
 ]

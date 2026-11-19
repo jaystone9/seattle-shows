@@ -2,66 +2,6 @@
   {
     "venue": "Symphony Center",
     "room": null,
-    "title": "Chicago Symphony Orchestra: Beethoven 5 & Mao Fujita",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://chicagosymphony.org/performances/26-27/cso/beethoven-5-mao-fujita/",
-    "status": null
-  },
-  {
-    "venue": "Symphony Center",
-    "room": null,
-    "title": "Chicago Symphony Orchestra: Beethoven 5 & Mao Fujita",
-    "date": "2026-11-08",
-    "doors": null,
-    "start": "15:00",
-    "url": "https://chicagosymphony.org/performances/26-27/cso/beethoven-5-mao-fujita/",
-    "status": null
-  },
-  {
-    "venue": "Symphony Center",
-    "room": null,
-    "title": "Yo-Yo Ma & the Chicago Symphony Orchestra",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://chicagosymphony.org/performances/26-27/featured/yo-yo-ma-and-the-cso/",
-    "status": null
-  },
-  {
-    "venue": "Symphony Center",
-    "room": null,
-    "title": "Andrew Bird & the Chicago Symphony Orchestra",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://chicagosymphony.org/performances/26-27/featured/andrew-bird-and-the-cso/",
-    "status": null
-  },
-  {
-    "venue": "Symphony Center",
-    "room": null,
-    "title": "Andrew Bird & the Chicago Symphony Orchestra",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://chicagosymphony.org/performances/26-27/featured/andrew-bird-and-the-cso/",
-    "status": null
-  },
-  {
-    "venue": "Symphony Center",
-    "room": null,
-    "title": "Civic Orchestra of Chicago: Shostakovich 11",
-    "date": "2026-11-16",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://chicagosymphony.org/performances/26-27/civic/shostakovich-11/",
-    "status": null
-  },
-  {
-    "venue": "Symphony Center",
-    "room": null,
     "title": "Chicago Symphony Orchestra: Jaap van Zweden & Vadim Gluzman",
     "date": "2026-11-19",
     "doors": null,
@@ -197,6 +137,16 @@
     "doors": null,
     "start": "19:30",
     "url": "https://chicagosymphony.org/performances/26-27/cso/postcard-from-vienna-muti-bronfman/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Civic Orchestra of Chicago: Bach Marathon Finale",
+    "date": "2026-12-14",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://chicagosymphony.org/performances/26-27/civic/bach-marathon-finale/",
     "status": null
   },
   {
@@ -512,6 +462,16 @@
   {
     "venue": "Symphony Center",
     "room": null,
+    "title": "Civic Orchestra of Chicago: IMPACT",
+    "date": "2027-03-12",
+    "doors": null,
+    "start": "18:30",
+    "url": "https://chicagosymphony.org/performances/26-27/civic/impact/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
     "title": "Chicago Symphony Orchestra: Beethoven Violin Concerto & Mendelssohn (with Isabelle Faust)",
     "date": "2027-03-13",
     "doors": null,
@@ -787,6 +747,116 @@
     "doors": null,
     "start": "19:30",
     "url": "https://chicagosymphony.org/performances/26-27/featured/hisaishi-conducts-hisaishi/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Civic Orchestra of Chicago: Ravel Daphnis and Chloe",
+    "date": "2027-05-03",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://chicagosymphony.org/performances/26-27/civic/ravel-daphnis-and-chloe/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Chicago Symphony Orchestra: Honeck Conducts Mahler & Bruckner 9",
+    "date": "2027-05-06",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://chicagosymphony.org/performances/26-27/cso/honeck-conducts-mahler-bruckner-9/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Chicago Symphony Orchestra: Honeck Conducts Mahler & Bruckner 9",
+    "date": "2027-05-07",
+    "doors": null,
+    "start": "13:30",
+    "url": "https://chicagosymphony.org/performances/26-27/cso/honeck-conducts-mahler-bruckner-9/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Chicago Symphony Orchestra: Honeck Conducts Mahler & Bruckner 9",
+    "date": "2027-05-08",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://chicagosymphony.org/performances/26-27/cso/honeck-conducts-mahler-bruckner-9/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Piotr Anderszewski",
+    "date": "2027-05-09",
+    "doors": null,
+    "start": "15:00",
+    "url": "https://chicagosymphony.org/performances/26-27/piano-recital/piotr-anderszewski/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Chicago Symphony Orchestra Chamber Music: CSO Brass Quintet",
+    "date": "2027-05-11",
+    "doors": null,
+    "start": "18:30",
+    "url": "https://chicagosymphony.org/performances/26-27/chamber-music/cso-chamber-music-cso-brass-quintet/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Chicago Symphony Orchestra: Mäkelä, Batiashvili & Sibelius 1",
+    "date": "2027-05-13",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://chicagosymphony.org/performances/26-27/cso/makela-batiashvili-sibelius-1/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Chicago Symphony Orchestra: Mäkelä, Batiashvili & Sibelius 1",
+    "date": "2027-05-15",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://chicagosymphony.org/performances/26-27/cso/makela-batiashvili-sibelius-1/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Chicago Symphony Orchestra: Mäkelä, Batiashvili & Sibelius 1",
+    "date": "2027-05-16",
+    "doors": null,
+    "start": "15:00",
+    "url": "https://chicagosymphony.org/performances/26-27/cso/makela-batiashvili-sibelius-1/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Kissin, Vengerov & Capuçon",
+    "date": "2027-05-18",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://chicagosymphony.org/performances/26-27/chamber-music/kissin-vengerov-capucon/",
+    "status": null
+  },
+  {
+    "venue": "Symphony Center",
+    "room": null,
+    "title": "Civic Orchestra of Chicago: Civic Fellows & Chicago Refugee Coalition",
+    "date": "2027-05-19",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://chicagosymphony.org/performances/26-27/civic/civic-fellows-chicago-refugee-coalition/",
     "status": null
   }
 ]

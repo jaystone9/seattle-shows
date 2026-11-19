@@ -2,76 +2,6 @@
   {
     "venue": "Sleeping Village",
     "room": null,
-    "title": "Ultra Lights (with Free Time, Head)",
-    "date": "2026-11-08",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://link.dice.fm/a5a96de270cf",
-    "status": null
-  },
-  {
-    "venue": "Sleeping Village",
-    "room": null,
-    "title": "Displacer & Mensa",
-    "date": "2026-11-10",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://link.dice.fm/m9796631b629",
-    "status": null
-  },
-  {
-    "venue": "Sleeping Village",
-    "room": null,
-    "title": "Marci (with Chillona)",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://link.dice.fm/s16eac064724",
-    "status": null
-  },
-  {
-    "venue": "Sleeping Village",
-    "room": null,
-    "title": "Sleepwalk (with Cuss, Left of Heaven)",
-    "date": "2026-11-12",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://link.dice.fm/y2b8bb812277",
-    "status": null
-  },
-  {
-    "venue": "Sleeping Village",
-    "room": null,
-    "title": "Sassy 009 (with Proxoxie)",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://link.dice.fm/fc6fcf23a372",
-    "status": null
-  },
-  {
-    "venue": "Sleeping Village",
-    "room": null,
-    "title": "A Good Year (with Lipsticism)",
-    "date": "2026-11-17",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://link.dice.fm/p75e1a59af2b",
-    "status": null
-  },
-  {
-    "venue": "Sleeping Village",
-    "room": null,
-    "title": "Devyn Crimson & The Frivolities (with Tom Henry, Voice Memo)",
-    "date": "2026-11-18",
-    "doors": null,
-    "start": "21:00",
-    "url": "https://link.dice.fm/M15930f929ae",
-    "status": null
-  },
-  {
-    "venue": "Sleeping Village",
-    "room": null,
     "title": "Magi Merlin (with MVTE)",
     "date": "2026-11-19",
     "doors": null,
@@ -102,6 +32,16 @@
   {
     "venue": "Sleeping Village",
     "room": null,
+    "title": "Mykele Deville (with Daryn Alexus, Malci)",
+    "date": "2026-12-04",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://link.dice.fm/B7849485d4de",
+    "status": null
+  },
+  {
+    "venue": "Sleeping Village",
+    "room": null,
     "title": "Daisychain (with Machīn, Así Así)",
     "date": "2026-12-05",
     "doors": null,
@@ -112,11 +52,11 @@
   {
     "venue": "Sleeping Village",
     "room": null,
-    "title": "Rad Payoff",
+    "title": "Rad Payoff (with Ditch Witch)",
     "date": "2026-12-08",
     "doors": null,
     "start": "20:00",
-    "url": "https://www.songkick.com/concerts/43486741-rad-payoff-at-sleeping-village",
+    "url": "https://link.dice.fm/d3ad89886c6e",
     "status": null
   },
   {
@@ -142,11 +82,31 @@
   {
     "venue": "Sleeping Village",
     "room": null,
+    "title": "V.V. Lightbody",
+    "date": "2027-01-15",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://link.dice.fm/U35f8fb9453b",
+    "status": null
+  },
+  {
+    "venue": "Sleeping Village",
+    "room": null,
     "title": "bbymutha (with Cae Monae)",
     "date": "2027-01-16",
     "doors": null,
     "start": "21:00",
     "url": "https://link.dice.fm/s0711de94810",
+    "status": null
+  },
+  {
+    "venue": "Sleeping Village",
+    "room": null,
+    "title": "Louisahhh",
+    "date": "2027-01-21",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://link.dice.fm/ubc21948119a",
     "status": null
   },
   {
@@ -202,6 +162,16 @@
   {
     "venue": "Sleeping Village",
     "room": null,
+    "title": "Islandman",
+    "date": "2027-03-07",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.songkick.com/concerts/43525130-islandman-at-sleeping-village",
+    "status": null
+  },
+  {
+    "venue": "Sleeping Village",
+    "room": null,
     "title": "Sarah Julia",
     "date": "2027-04-06",
     "doors": null,
@@ -217,6 +187,26 @@
     "doors": null,
     "start": "21:00",
     "url": "https://link.dice.fm/Ldd808552c48",
+    "status": null
+  },
+  {
+    "venue": "Sleeping Village",
+    "room": null,
+    "title": "ACTORS (with Hallows)",
+    "date": "2027-05-08",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://link.dice.fm/Vf4fb946e911",
+    "status": null
+  },
+  {
+    "venue": "Sleeping Village",
+    "room": null,
+    "title": "Hudson Freeman (with Hiding Places)",
+    "date": "2027-05-10",
+    "doors": null,
+    "start": "21:00",
+    "url": "https://link.dice.fm/f84ac77ddbb0",
     "status": null
   }
 ]

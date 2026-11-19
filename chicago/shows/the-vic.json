@@ -2,46 +2,6 @@
   {
     "venue": "The Vic",
     "room": null,
-    "title": "Joy Oladokun (with Nat Myers)",
-    "date": "2026-11-08",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://www.axs.com/events/1540215/joy-oladokun-the-heavy-things-tour-tickets?skin=thevic",
-    "status": null
-  },
-  {
-    "venue": "The Vic",
-    "room": null,
-    "title": "Hunxho",
-    "date": "2026-11-10",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://www.axs.com/events/1623452/hunxho-tickets?skin=thevic",
-    "status": null
-  },
-  {
-    "venue": "The Vic",
-    "room": null,
-    "title": "Shyne (with Lil' Cease)",
-    "date": "2026-11-11",
-    "doors": "18:30",
-    "start": "19:30",
-    "url": "https://www.axs.com/events/1536703/shyne-2622-lgnd-tour-tickets?skin=thevic",
-    "status": null
-  },
-  {
-    "venue": "The Vic",
-    "room": null,
-    "title": "Manchester Orchestra (with Kevin Devine, Brother Bird)",
-    "date": "2026-11-15",
-    "doors": "18:00",
-    "start": "19:00",
-    "url": "https://www.axs.com/events/1580776/manchester-orchestra-im-like-a-virgin-losing-a-child-20th-anniversary--tickets?skin=thevic",
-    "status": null
-  },
-  {
-    "venue": "The Vic",
-    "room": null,
     "title": "Charlie Zaa",
     "date": "2026-11-19",
     "doors": "19:00",
@@ -212,6 +172,26 @@
   {
     "venue": "The Vic",
     "room": null,
+    "title": "Goldie Boutilier",
+    "date": "2027-03-25",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://www.axs.com/events/1649717/goldie-boutilier-tickets?skin=thevic",
+    "status": null
+  },
+  {
+    "venue": "The Vic",
+    "room": null,
+    "title": "Gang of Youths",
+    "date": "2027-03-27",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.axs.com/events/1695546/gang-of-youths-tickets?skin=thevic",
+    "status": null
+  },
+  {
+    "venue": "The Vic",
+    "room": null,
     "title": "brakence",
     "date": "2027-04-07",
     "doors": "18:30",
@@ -222,11 +202,41 @@
   {
     "venue": "The Vic",
     "room": null,
+    "title": "Royal Blood (with Bodega)",
+    "date": "2027-04-12",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://www.axs.com/events/1688621/royal-blood-north-america-2027-tickets?skin=thevic",
+    "status": null
+  },
+  {
+    "venue": "The Vic",
+    "room": null,
     "title": "FAUN",
     "date": "2027-04-20",
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.axs.com/events/1665351/faun-usa-canada-tour-2027-tickets?skin=thevic",
+    "status": null
+  },
+  {
+    "venue": "The Vic",
+    "room": null,
+    "title": "Enjambre",
+    "date": "2027-05-09",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.axs.com/events/1676779/enjambre-2027-us-canada-tour-tickets?skin=thevic",
+    "status": null
+  },
+  {
+    "venue": "The Vic",
+    "room": null,
+    "title": "Mass of the Fermenting Dregs",
+    "date": "2027-05-10",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.axs.com/events/1544420/mass-of-the-fermenting-dregs-tickets?skin=thevic",
     "status": null
   }
 ]

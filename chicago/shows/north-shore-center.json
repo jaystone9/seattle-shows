@@ -1,36 +1,6 @@
 [
   {
     "venue": "North Shore Center for the Performing Arts",
-    "room": "George Van Dusen Theatre",
-    "title": "AJ McLean presents Alexander James: The Better Man Tour",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.ticketmaster.com/event/070064D2D4D29C31",
-    "status": null
-  },
-  {
-    "venue": "North Shore Center for the Performing Arts",
-    "room": "George Van Dusen Theatre",
-    "title": "Little Feat: The Last Farewell Tour",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.northshorecenter.org/events/2026/little-feat",
-    "status": null
-  },
-  {
-    "venue": "North Shore Center for the Performing Arts",
-    "room": "George Van Dusen Theatre",
-    "title": "Keb' Mo'",
-    "date": "2026-11-16",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.ticketmaster.com/event/070064EFB16642DE",
-    "status": null
-  },
-  {
-    "venue": "North Shore Center for the Performing Arts",
     "room": null,
     "title": "Music of the Baroque: Bach's Mass in B Minor (Jane Glover)",
     "date": "2026-11-22",
@@ -167,6 +137,16 @@
     "doors": null,
     "start": "15:00",
     "url": "https://www.ticketmaster.com/event/07006521D52D6272",
+    "status": null
+  },
+  {
+    "venue": "North Shore Center for the Performing Arts",
+    "room": null,
+    "title": "John Oates",
+    "date": "2027-03-30",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketmaster.com/event/07006563F8D59BF8",
     "status": null
   },
   {

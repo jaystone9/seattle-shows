@@ -2,71 +2,11 @@
   {
     "venue": "Bookclub",
     "room": null,
-    "title": "Juliet Garrett & The Wheels of Fortune",
-    "date": "2026-11-07",
-    "doors": "14:00",
-    "start": "15:00",
-    "url": "https://bookclubchi.com/event/juliet-garrett-the-wheels-of-fortune/bookclub/",
-    "status": null
-  },
-  {
-    "venue": "Bookclub",
-    "room": null,
-    "title": "Nick Wilkinson (with Conor Churchill, Ian McKinley, Reva K)",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "20:30",
-    "url": "https://bookclubchi.com/event/nick-wilkinson-conor-churchill-ian-mckinley-reva-k/bookclub/",
-    "status": null
-  },
-  {
-    "venue": "Bookclub",
-    "room": null,
-    "title": "Sierra Sikora",
-    "date": "2026-11-08",
-    "doors": null,
-    "start": "15:00",
-    "url": "https://bookclubchi.com/event/sierra-sikoras-aftertaste-release-party/bookclub/",
-    "status": null
-  },
-  {
-    "venue": "Bookclub",
-    "room": null,
-    "title": "Talia Pearl (with OBSIDIAN, Charming Ritual)",
-    "date": "2026-11-09",
-    "doors": "17:00",
-    "start": "20:00",
-    "url": "https://bookclubchi.com/event/talia-pearl-obsidian-charming-ritual/bookclub/",
-    "status": null
-  },
-  {
-    "venue": "Bookclub",
-    "room": null,
-    "title": "Nayu (with boyponder, Zay Allen)",
-    "date": "2026-11-10",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://bookclubchi.com/event/nayu-boyponder-zay-allen/bookclub/",
-    "status": null
-  },
-  {
-    "venue": "Bookclub",
-    "room": null,
     "title": "Harvey Lightyear (with Oddysseys, The Paper Cups, Ms. Bvll Heather)",
     "date": "2026-11-19",
-    "doors": null,
-    "start": null,
+    "doors": "17:00",
+    "start": "20:00",
     "url": "https://bookclubchi.com/event/harvey-lightyear-oddysseys-the-paper-cups-ms-bvll-heather/bookclub/",
-    "status": null
-  },
-  {
-    "venue": "Bookclub",
-    "room": null,
-    "title": "Juliet Garrett & The Wheels of Fortune",
-    "date": "2026-11-20",
-    "doors": null,
-    "start": null,
-    "url": "https://do312.com/events/2026/11/20/juliet-garrett-the-wheels-of-fortune-tickets",
     "status": null
   },
   {
@@ -74,19 +14,19 @@
     "room": null,
     "title": "Middle Child (with Cyrus Chrome, Lil Jul)",
     "date": "2026-11-22",
-    "doors": null,
-    "start": null,
+    "doors": "17:00",
+    "start": "20:00",
     "url": "https://bookclubchi.com/event/middle-child-cyrus-chrome-lil-jul-guesst/bookclub/",
     "status": null
   },
   {
     "venue": "Bookclub",
     "room": null,
-    "title": "Sid Kingston (with Megan Wren, Ellis D)",
-    "date": "2026-11-25",
-    "doors": null,
-    "start": null,
-    "url": "https://bookclubchi.com/event/sid-kingston-megan-wren-ellis-d/bookclub/",
+    "title": "bim+bo (with Andréa Ranae)",
+    "date": "2026-11-23",
+    "doors": "17:00",
+    "start": "20:30",
+    "url": "https://bookclubchi.com/event/bimbo-andr%c3%a9a-ranae/bookclub/",
     "status": null
   },
   {
@@ -124,9 +64,19 @@
     "room": null,
     "title": "damsel. (with The Devil Said Jump, Growing Boys)",
     "date": "2026-11-29",
-    "doors": null,
-    "start": null,
+    "doors": "17:00",
+    "start": "19:30",
     "url": "https://bookclubchi.com/event/damsel-the-devil-said-jump-growing-boys/bookclub/",
+    "status": null
+  },
+  {
+    "venue": "Bookclub",
+    "room": null,
+    "title": "Rachel Farr (with Dubby Mac, Marcus Bailey, Airro)",
+    "date": "2026-12-02",
+    "doors": "20:00",
+    "start": "20:00",
+    "url": "https://bookclubchi.com/event/rachel-farr-dubby-mac-marcus-bailey-airro/bookclub/",
     "status": null
   },
   {
@@ -134,7 +84,7 @@
     "room": null,
     "title": "voidtheory (with Anteeter, Please Return)",
     "date": "2026-12-03",
-    "doors": null,
+    "doors": "17:00",
     "start": "20:00",
     "url": "https://bookclubchi.com/event/voidtheory-anteeter-please-return/bookclub/",
     "status": null
@@ -144,9 +94,19 @@
     "room": null,
     "title": "Megadad (with Davey and the Midnights)",
     "date": "2026-12-05",
-    "doors": null,
-    "start": null,
+    "doors": "17:00",
+    "start": "19:30",
     "url": "https://bookclubchi.com/event/megadad-davey-and-the-midnights/bookclub/",
+    "status": null
+  },
+  {
+    "venue": "Bookclub",
+    "room": null,
+    "title": "Midwest Beefcake (with Cosmic Jaywalkers, Dupree)",
+    "date": "2026-12-13",
+    "doors": "17:00",
+    "start": "19:30",
+    "url": "https://bookclubchi.com/event/midwest-beefcake-cosmic-jaywalkers-dupree/bookclub/",
     "status": null
   }
 ]

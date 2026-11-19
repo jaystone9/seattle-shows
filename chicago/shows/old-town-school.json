@@ -1,108 +1,8 @@
 [
   {
     "venue": "Old Town School of Folk Music",
-    "room": "Maurer Hall",
-    "title": "Lucinda Williams",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.oldtownschool.org/concerts/2026/11-07-2026-lucinda-williams",
-    "status": null
-  },
-  {
-    "venue": "Old Town School of Folk Music",
-    "room": "Maurer Hall",
-    "title": "Lucinda Williams",
-    "date": "2026-11-08",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.oldtownschool.org/concerts/2026/11-07-2026-lucinda-williams",
-    "status": null
-  },
-  {
-    "venue": "Old Town School of Folk Music",
-    "room": "Maurer Hall",
-    "title": "Lucinda Williams",
-    "date": "2026-11-09",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.oldtownschool.org/concerts/2026/11-07-2026-lucinda-williams",
-    "status": null
-  },
-  {
-    "venue": "Old Town School of Folk Music",
-    "room": "Maurer Hall",
-    "title": "Lucinda Williams",
-    "date": "2026-11-10",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.oldtownschool.org/concerts/2026/11-07-2026-lucinda-williams",
-    "status": null
-  },
-  {
-    "venue": "Old Town School of Folk Music",
     "room": "Szold Hall",
-    "title": "ConstelNation: The Bridge #2.11 (with Angel Bat Dawid, Magic Malik, Richard Comte, Nick Macri, Toma Gouband)",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.oldtownschool.org/concerts/2026/11-11-2026-wmw-the-bridge",
-    "status": null
-  },
-  {
-    "venue": "Old Town School of Folk Music",
-    "room": "Maurer Hall",
-    "title": "Lucinda Williams",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.oldtownschool.org/concerts/2026/11-07-2026-lucinda-williams",
-    "status": null
-  },
-  {
-    "venue": "Old Town School of Folk Music",
-    "room": null,
-    "title": "Future Folk Festival: Eva Supreme (with PRAISE MOTHER SQUAD, Duane Powell)",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "18:00",
-    "url": "https://www.oldtownschool.org/concerts/2026/11-13-2026-future-folk-festival",
-    "status": null
-  },
-  {
-    "venue": "Old Town School of Folk Music",
-    "room": "Maurer Hall",
-    "title": "Liana Flores (with Allie Sandt)",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.oldtownschool.org/concerts/2026/11-13-2026-liana-flores",
-    "status": null
-  },
-  {
-    "venue": "Old Town School of Folk Music",
-    "room": "Szold Hall",
-    "title": "Curro de Candela: Chicago Flamenco Nights",
-    "date": "2026-11-18",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.oldtownschool.org/concerts/2026/11-11-2026-wmw-flamenco-nights",
-    "status": null
-  },
-  {
-    "venue": "Old Town School of Folk Music",
-    "room": "Maurer Hall",
-    "title": "Benmont Tench",
-    "date": "2026-11-18",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.oldtownschool.org/concerts/2026/11-18-2026-benmont-tench",
-    "status": null
-  },
-  {
-    "venue": "Old Town School of Folk Music",
-    "room": "Szold Hall",
-    "title": "Jake Blount Band",
+    "title": "Jake Blount Band (with Patrik Ahlberg)",
     "date": "2026-11-21",
     "doors": null,
     "start": "20:00",
@@ -112,7 +12,7 @@
   {
     "venue": "Old Town School of Folk Music",
     "room": "Maurer Hall",
-    "title": "WHY?",
+    "title": "WHY? (with Serengeti)",
     "date": "2026-11-21",
     "doors": null,
     "start": "20:00",
@@ -231,7 +131,7 @@
   },
   {
     "venue": "Old Town School of Folk Music",
-    "room": null,
+    "room": "Maurer Hall",
     "title": "Irish Christmas in America",
     "date": "2026-12-05",
     "doors": null,
@@ -241,7 +141,7 @@
   },
   {
     "venue": "Old Town School of Folk Music",
-    "room": null,
+    "room": "Maurer Hall",
     "title": "Irish Christmas in America",
     "date": "2026-12-05",
     "doors": null,
@@ -301,6 +201,26 @@
   },
   {
     "venue": "Old Town School of Folk Music",
+    "room": "Szold Hall",
+    "title": "Alash",
+    "date": "2027-01-30",
+    "doors": null,
+    "start": "17:00",
+    "url": "https://www.oldtownschool.org/concerts/2027/01-30-2027-alash",
+    "status": null
+  },
+  {
+    "venue": "Old Town School of Folk Music",
+    "room": "Szold Hall",
+    "title": "Alash",
+    "date": "2027-01-30",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.oldtownschool.org/concerts/2027/01-30-2027-alash",
+    "status": null
+  },
+  {
+    "venue": "Old Town School of Folk Music",
     "room": "Maurer Hall",
     "title": "Solas",
     "date": "2027-02-20",
@@ -331,12 +251,82 @@
   },
   {
     "venue": "Old Town School of Folk Music",
+    "room": "Szold Hall",
+    "title": "Jeffrey Martin",
+    "date": "2027-03-11",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.oldtownschool.org/concerts/2027/03-11-2027-jeffrey-martin",
+    "status": null
+  },
+  {
+    "venue": "Old Town School of Folk Music",
+    "room": "Szold Hall",
+    "title": "Karan Casey",
+    "date": "2027-03-12",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.oldtownschool.org/concerts/2027/03-12-2027-karan-casey",
+    "status": null
+  },
+  {
+    "venue": "Old Town School of Folk Music",
+    "room": "Maurer Hall",
+    "title": "Carrie Newcomer",
+    "date": "2027-03-12",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.oldtownschool.org/concerts/2027/03-12-2027-carrie-newcomer",
+    "status": null
+  },
+  {
+    "venue": "Old Town School of Folk Music",
+    "room": "Maurer Hall",
+    "title": "Avi Kaplan (with Jaguar Sun)",
+    "date": "2027-03-18",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.oldtownschool.org/concerts/2027/03-18-2027-avi-kaplan",
+    "status": null
+  },
+  {
+    "venue": "Old Town School of Folk Music",
+    "room": "Maurer Hall",
+    "title": "Robbie Fulks",
+    "date": "2027-03-20",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.oldtownschool.org/concerts/2027/03-20-2027-robbie-fulks",
+    "status": null
+  },
+  {
+    "venue": "Old Town School of Folk Music",
     "room": "Maurer Hall",
     "title": "Kelly Willis & Radney Foster (with Logan Mac)",
     "date": "2027-04-01",
     "doors": null,
     "start": "20:00",
     "url": "https://www.oldtownschool.org/concerts/2027/04-01-2027-kelly-willis-and-radney-foster",
+    "status": null
+  },
+  {
+    "venue": "Old Town School of Folk Music",
+    "room": "Szold Hall",
+    "title": "Dirty Projectors solo (with Otto Benson)",
+    "date": "2027-04-17",
+    "doors": null,
+    "start": "17:00",
+    "url": "https://www.oldtownschool.org/concerts/2027/04-17-2027-dirty-projectors-solo",
+    "status": null
+  },
+  {
+    "venue": "Old Town School of Folk Music",
+    "room": "Szold Hall",
+    "title": "Dirty Projectors solo (with Otto Benson)",
+    "date": "2027-04-17",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.oldtownschool.org/concerts/2027/04-17-2027-dirty-projectors-solo",
     "status": null
   },
   {
@@ -357,6 +347,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://www.oldtownschool.org/concerts/2027/04-23-2027-bruce-cockburn",
+    "status": null
+  },
+  {
+    "venue": "Old Town School of Folk Music",
+    "room": "Maurer Hall",
+    "title": "Jorma Kaukonen",
+    "date": "2027-04-25",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.oldtownschool.org/concerts/2027/04-25-2027-jorma-kaukonen",
     "status": null
   }
 ]

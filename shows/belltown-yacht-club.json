@@ -1,92 +1,62 @@
 [
- {
-  "venue": "Belltown Yacht Club",
-  "room": null,
-  "title": "Punktuals (with Moon Letters, Foul Blooded)",
-  "date": "2026-11-07",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://do206.com/events/2026/11/7/punktuals-moon-letters-foul-blooded-tickets",
-  "status": null
- },
- {
-  "venue": "Belltown Yacht Club",
-  "room": null,
-  "title": "LANDROID (with Blackpool Astronomy, Beatrix Sky)",
-  "date": "2026-11-11",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://do206.com/events/2026/11/11/landroid-blackpool-astronomy-beatrix-sky-tickets",
-  "status": null
- },
- {
-  "venue": "Belltown Yacht Club",
-  "room": null,
-  "title": "DumDums (with Panoramics, Radio Weekend)",
-  "date": "2026-11-14",
-  "doors": null,
-  "start": "20:00",
-  "url": "https://do206.com/events/2026/11/14/dumdums-panoramics-radio-weekend-tickets",
-  "status": null
- },
- {
-  "venue": "Belltown Yacht Club",
-  "room": null,
-  "title": "La Isla Electronica (with BATNAP!, NiGHTofAL)",
-  "date": "2026-11-15",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://do206.com/events/2026/11/15/la-isla-electronica-batnap-nightofal-more-tickets",
-  "status": null
- },
- {
-  "venue": "Belltown Yacht Club",
-  "room": null,
-  "title": "Fraxiom (with Draz, Paintscratcher)",
-  "date": "2026-11-24",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://do206.com/events/2026/11/24/fraxiom-draz-paintscratcher-tickets",
-  "status": null
- },
- {
-  "venue": "Belltown Yacht Club",
-  "room": null,
-  "title": "Mel Bryant & the Mercy Makers (with Torch, Bigfoot Curious)",
-  "date": "2026-12-02",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://do206.com/events/2026/12/2/mel-bryant-the-mercy-makers-torch-bigfoot-curious-tickets",
-  "status": null
- },
- {
-  "venue": "Belltown Yacht Club",
-  "room": null,
-  "title": "Good Job (with Scott Yoder, Enfield)",
-  "date": "2026-12-05",
-  "doors": null,
-  "start": "21:00",
-  "url": "https://app.opendate.io/e/scott-yoder-good-job-enfield-december-05-2026-790384",
-  "status": null
- },
- {
-  "venue": "Belltown Yacht Club",
-  "room": null,
-  "title": "Kill the Keg 5: Bugs (with Good Dirt, Haloed Hyena, Kids on Fire, Your Mother Should Know)",
-  "date": "2026-12-13",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://app.opendate.io/e/kill-the-keg-5-december-13-2026-794566",
-  "status": null
- },
- {
-  "venue": "Belltown Yacht Club",
-  "room": null,
-  "title": "Zach Seabaugh",
-  "date": "2027-01-27",
-  "doors": null,
-  "start": "19:00",
-  "url": "https://app.opendate.io/e/zach-seabaugh-january-27-2027-750823",
-  "status": null
- }
+  {
+    "venue": "Belltown Yacht Club",
+    "room": null,
+    "title": "Fraxiom (with Draz, Paintscratcher)",
+    "date": "2026-11-24",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do206.com/events/2026/11/24/fraxiom-draz-paintscratcher-tickets",
+    "status": null
+  },
+  {
+    "venue": "Belltown Yacht Club",
+    "room": null,
+    "title": "Mel Bryant & the Mercy Makers (with Torch, Bigfoot Curious)",
+    "date": "2026-12-02",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do206.com/events/2026/12/2/mel-bryant-the-mercy-makers-torch-bigfoot-curious-tickets",
+    "status": null
+  },
+  {
+    "venue": "Belltown Yacht Club",
+    "room": null,
+    "title": "Good Job (with Scott Yoder, Enfield)",
+    "date": "2026-12-05",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://app.opendate.io/e/scott-yoder-good-job-enfield-december-05-2026-790384",
+    "status": null
+  },
+  {
+    "venue": "Belltown Yacht Club",
+    "room": null,
+    "title": "Someone's Daughter (with The Disorderlies, Negative Passengers)",
+    "date": "2026-12-12",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://app.opendate.io/e/someone-s-daughter-the-disorderlies-negative-passengers-december-12-2026-800262",
+    "status": null
+  },
+  {
+    "venue": "Belltown Yacht Club",
+    "room": null,
+    "title": "Kill the Keg 5: Bugs (with Good Dirt, Haloed Hyena, Kids on Fire, Your Mother Should Know)",
+    "date": "2026-12-13",
+    "doors": "19:00",
+    "start": "19:00",
+    "url": "https://app.opendate.io/e/kill-the-keg-5-december-13-2026-794566",
+    "status": null
+  },
+  {
+    "venue": "Belltown Yacht Club",
+    "room": null,
+    "title": "Zach Seabaugh",
+    "date": "2027-01-27",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://app.opendate.io/e/zach-seabaugh-january-27-2027-750823",
+    "status": null
+  }
 ]

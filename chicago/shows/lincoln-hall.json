@@ -2,77 +2,7 @@
   {
     "venue": "Lincoln Hall",
     "room": null,
-    "title": "The Bends (with The Braymores)",
-    "date": "2026-11-07",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://lh-st.com/shows/11-07-2026-the-bends/",
-    "status": null
-  },
-  {
-    "venue": "Lincoln Hall",
-    "room": null,
-    "title": "West 22nd (with Places To Be, The 4411)",
-    "date": "2026-11-08",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://lh-st.com/shows/11-08-2026-west-22nd/",
-    "status": null
-  },
-  {
-    "venue": "Lincoln Hall",
-    "room": null,
-    "title": "Pretty Sick (with Computerwife)",
-    "date": "2026-11-10",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://lh-st.com/shows/11-10-2026-pretty-sick/",
-    "status": null
-  },
-  {
-    "venue": "Lincoln Hall",
-    "room": null,
-    "title": "Q Marsden (with RAHM)",
-    "date": "2026-11-11",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://lh-st.com/shows/11-11-2026-q/",
-    "status": null
-  },
-  {
-    "venue": "Lincoln Hall",
-    "room": null,
-    "title": "Porch Light (with Superhero)",
-    "date": "2026-11-13",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://lh-st.com/shows/11-13-2026-porch-light/",
-    "status": null
-  },
-  {
-    "venue": "Lincoln Hall",
-    "room": null,
-    "title": "Low Cut Connie (with JT Loux)",
-    "date": "2026-11-14",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://lh-st.com/shows/11-14-2026-low-cut-connie/",
-    "status": null
-  },
-  {
-    "venue": "Lincoln Hall",
-    "room": null,
-    "title": "Other Lives (with Kelcey Ayer)",
-    "date": "2026-11-17",
-    "doors": "19:00",
-    "start": "20:00",
-    "url": "https://lh-st.com/shows/11-17-2026-other-lives/",
-    "status": null
-  },
-  {
-    "venue": "Lincoln Hall",
-    "room": null,
-    "title": "Koastle",
+    "title": "Koastle (with Geo Smith, Lovepark)",
     "date": "2026-11-19",
     "doors": "19:00",
     "start": "20:00",
@@ -242,7 +172,17 @@
   {
     "venue": "Lincoln Hall",
     "room": null,
-    "title": "Swirlies",
+    "title": "Horsegirl",
+    "date": "2027-01-09",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-09-2027-horsegirl-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "Swirlies (with High., Current Union TM)",
     "date": "2027-01-15",
     "doors": "19:00",
     "start": "20:00",
@@ -267,6 +207,26 @@
     "doors": "18:30",
     "start": "19:30",
     "url": "https://lh-st.com/shows/01-20-2027-mollie-elizabeth/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "@ (with Wendy Eisenberg)",
+    "date": "2027-01-21",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-21-2027-at-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "Scoochie Boochie (with Mvte, Groovebox)",
+    "date": "2027-01-22",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/01-22-2027-scoochie-boochie-tnk/",
     "status": null
   },
   {
@@ -302,6 +262,26 @@
   {
     "venue": "Lincoln Hall",
     "room": null,
+    "title": "Ciarán",
+    "date": "2027-01-30",
+    "doors": "20:00",
+    "start": "21:00",
+    "url": "https://lh-st.com/shows/01-30-2027-ciaran-tnk/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "Jake Minch (with Alix Page)",
+    "date": "2027-01-31",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://lh-st.com/shows/01-31-2027-jake-minch/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
     "title": "Cloud Nothings",
     "date": "2027-02-03",
     "doors": "19:30",
@@ -332,7 +312,7 @@
   {
     "venue": "Lincoln Hall",
     "room": null,
-    "title": "Hans Williams",
+    "title": "Hans Williams (with phin)",
     "date": "2027-02-12",
     "doors": "19:00",
     "start": "20:00",
@@ -342,7 +322,17 @@
   {
     "venue": "Lincoln Hall",
     "room": null,
-    "title": "Bo Staloch",
+    "title": "Paris Jackson",
+    "date": "2027-02-18",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/02-18-2027-paris-jackson/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "Bo Staloch (with RYMAN)",
     "date": "2027-02-19",
     "doors": "19:00",
     "start": "20:00",
@@ -372,6 +362,16 @@
   {
     "venue": "Lincoln Hall",
     "room": null,
+    "title": "Gabriel Jacoby (with Tiger Lewis)",
+    "date": "2027-03-03",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/03-03-2027-gabriel-jacoby/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
     "title": "Crowe Boys (with Gareth)",
     "date": "2027-03-05",
     "doors": "19:00",
@@ -382,11 +382,31 @@
   {
     "venue": "Lincoln Hall",
     "room": null,
+    "title": "Flower Face",
+    "date": "2027-03-06",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/03-06-2027-flower-face/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
     "title": "THAO",
     "date": "2027-03-07",
     "doors": "19:00",
     "start": "20:00",
     "url": "https://lh-st.com/shows/03-07-2027-thao/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "Roar",
+    "date": "2027-03-09",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/03-09-2027-roar/",
     "status": null
   },
   {
@@ -422,6 +442,26 @@
   {
     "venue": "Lincoln Hall",
     "room": null,
+    "title": "SOAK",
+    "date": "2027-03-21",
+    "doors": "19:30",
+    "start": "20:30",
+    "url": "https://lh-st.com/shows/03-21-2027-soak/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "Midrift (with Modern Color, Bleary Eyed)",
+    "date": "2027-03-24",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://lh-st.com/shows/03-24-2027-midrift/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
     "title": "Arthur Hill",
     "date": "2027-03-26",
     "doors": "19:00",
@@ -437,6 +477,16 @@
     "doors": "19:00",
     "start": "20:00",
     "url": "https://lh-st.com/shows/03-30-2027-charlotte-adigery-and-bolis-pupul/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "Rickshaw Billie's Burger Patrol (with MKULTRA)",
+    "date": "2027-04-02",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/04-02-2027-rickshaw-billies-burger-patrol/",
     "status": null
   },
   {
@@ -472,6 +522,26 @@
   {
     "venue": "Lincoln Hall",
     "room": null,
+    "title": "Ron Gallo",
+    "date": "2027-04-10",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/04-10-2027-ron-gallo/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "76th Street",
+    "date": "2027-04-11",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/04-11-2027-76th-street/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
     "title": "Gus Dapperton",
     "date": "2027-04-17",
     "doors": "19:00",
@@ -482,11 +552,71 @@
   {
     "venue": "Lincoln Hall",
     "room": null,
+    "title": "Peel Dream Magazine (with Dari Bay)",
+    "date": "2027-04-24",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/04-24-2027-peel-dream-magazine/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
     "title": "YEИDRY",
     "date": "2027-04-27",
     "doors": "19:00",
     "start": "20:00",
     "url": "https://lh-st.com/shows/04-27-2027-yendry/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "J. Roddy Walston",
+    "date": "2027-04-30",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/04-30-2027-j-roddy-walston/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "Friendly Fires",
+    "date": "2027-05-04",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/05-04-2027-friendly-fires/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "Babes in Canyon (with Smokey Brights, Camp Bedford)",
+    "date": "2027-05-06",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/05-06-2027-babes-in-canyon/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "Carsie Blanton",
+    "date": "2027-05-08",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://lh-st.com/shows/05-08-2027-carsie-blanton/",
+    "status": null
+  },
+  {
+    "venue": "Lincoln Hall",
+    "room": null,
+    "title": "CG5",
+    "date": "2027-05-14",
+    "doors": "18:00",
+    "start": "19:00",
+    "url": "https://lh-st.com/shows/05-14-2027-cg5/",
     "status": null
   }
 ]

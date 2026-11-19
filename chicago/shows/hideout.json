@@ -2,86 +2,6 @@
   {
     "venue": "Hideout",
     "room": null,
-    "title": "Lou Turner & Kate Teague",
-    "date": "2026-11-08",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.hideoutchicago.com/shows/lou-turner-kate-teague-08-nov",
-    "status": null
-  },
-  {
-    "venue": "Hideout",
-    "room": null,
-    "title": "Dead Gowns (with Sleeper's Bell)",
-    "date": "2026-11-10",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.hideoutchicago.com/shows/dead-gowns-10-nov",
-    "status": null
-  },
-  {
-    "venue": "Hideout",
-    "room": null,
-    "title": "The Animeros (with Fachoso)",
-    "date": "2026-11-11",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.hideoutchicago.com/shows/the-animeros-11-nov",
-    "status": null
-  },
-  {
-    "venue": "Hideout",
-    "room": null,
-    "title": "Disaster Kid (with Sara Geist, Julian Saunders)",
-    "date": "2026-11-12",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.hideoutchicago.com/shows/disaster-kid-single-release-with-sara-geist-and-julian-saunders-12-nov",
-    "status": null
-  },
-  {
-    "venue": "Hideout",
-    "room": null,
-    "title": "Janet Bean & Ghost Voice",
-    "date": "2026-11-13",
-    "doors": "20:30",
-    "start": "21:00",
-    "url": "https://www.hideoutchicago.com/shows/janet-bean-ghost-voice-album-release-13-nov",
-    "status": null
-  },
-  {
-    "venue": "Hideout",
-    "room": null,
-    "title": "Michael Vallera & Stephen Holliger",
-    "date": "2026-11-15",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://www.hideoutchicago.com/shows/vallera-holliger-15-nov",
-    "status": null
-  },
-  {
-    "venue": "Hideout",
-    "room": null,
-    "title": "Kotche/Van Duerm/Lux/Becker (with Bill Dolan, DJ Slinkie)",
-    "date": "2026-11-17",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.hideoutchicago.com/shows/kvl-b-17-nov",
-    "status": null
-  },
-  {
-    "venue": "Hideout",
-    "room": null,
-    "title": "Brent Penny (with Mass Text)",
-    "date": "2026-11-18",
-    "doors": "19:30",
-    "start": "20:00",
-    "url": "https://www.hideoutchicago.com/shows/brent-penny-mass-text-18-nov",
-    "status": null
-  },
-  {
-    "venue": "Hideout",
-    "room": null,
     "title": "Yr Knives (with TRAYSH, Puzzle House)",
     "date": "2026-11-19",
     "doors": "19:30",
@@ -114,8 +34,8 @@
     "room": null,
     "title": "Heat On - Release Show (with Dragonfruit, Original Time Demonstrations)",
     "date": "2026-11-22",
-    "doors": "20:00",
-    "start": null,
+    "doors": "19:30",
+    "start": "20:00",
     "url": "https://www.hideoutchicago.com/shows/heat-on-release-show-with-dragonfruit-original-time-demonstrations-22-nov",
     "status": null
   },
@@ -125,7 +45,7 @@
     "title": "3000 B.C. - EP Release Show (with Understudy, Instrument, Fallen Angels)",
     "date": "2026-11-23",
     "doors": "21:00",
-    "start": null,
+    "start": "21:00",
     "url": "https://www.hideoutchicago.com/shows/torn-light-presents-3000-b-c-ep-release-show-with-understudy-instrument-fallen-angels-23-nov",
     "status": null
   },
@@ -135,7 +55,7 @@
     "title": "Mucca Pazza - Hideout 30th Kick-Off",
     "date": "2026-11-25",
     "doors": "19:00",
-    "start": null,
+    "start": "20:00",
     "url": "https://www.hideoutchicago.com/shows/hideout-30th-kick-off-with-mucca-pazza-25-nov",
     "status": null
   },
@@ -147,6 +67,26 @@
     "doors": "19:30",
     "start": "20:00",
     "url": "https://www.hideoutchicago.com/shows/al-scorch-s-big-fantastical-residency-27-nov",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
+    "title": "Joe Glass (with CUT, Kitship)",
+    "date": "2026-11-29",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.hideoutchicago.com/shows/joe-glass-record-release-with-cut-29-nov",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
+    "title": "Jimmy Cicero",
+    "date": "2026-12-02",
+    "doors": "20:30",
+    "start": "21:00",
+    "url": "https://www.hideoutchicago.com/shows/jimmy-cicero-02-dec",
     "status": null
   },
   {
@@ -164,9 +104,39 @@
     "room": null,
     "title": "Scurvy Jazzby (with Forest Field)",
     "date": "2026-12-06",
-    "doors": "20:00",
-    "start": null,
+    "doors": "19:30",
+    "start": "20:00",
     "url": "https://www.hideoutchicago.com/shows/scurvy-jazzby-forest-field-06-dec",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
+    "title": "Fantombs (with Plastic Crimewave Syndicate, When the Wall Breaks Down)",
+    "date": "2026-12-07",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.hideoutchicago.com/shows/fantombs-plastic-crimewave-syndicate-when-the-wall-breaks-down-07-dec",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
+    "title": "Winefred RT (with Gerfety)",
+    "date": "2026-12-08",
+    "doors": "20:30",
+    "start": "21:00",
+    "url": "https://www.hideoutchicago.com/shows/winefred-rt-gerfety-jake-1628-08-dec",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
+    "title": "Winters Wonderland (with Maggie Winters, Bart Winters, Liam Winters)",
+    "date": "2026-12-09",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.hideoutchicago.com/shows/winters-wonderland-09-dec",
     "status": null
   },
   {
@@ -242,10 +212,20 @@
   {
     "venue": "Hideout",
     "room": null,
+    "title": "Liam Kazar & Sima Cunningham",
+    "date": "2026-12-21",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.hideoutchicago.com/shows/liam-kazar-sima-cunningham-21-dec",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
     "title": "Waco Brothers [Night 1]",
     "date": "2026-12-29",
     "doors": "19:00",
-    "start": null,
+    "start": "20:00",
     "url": "https://www.hideoutchicago.com/shows/waco-brothers-night-1-29-dec",
     "status": null
   },
@@ -255,7 +235,7 @@
     "title": "Waco Brothers [Night 2]",
     "date": "2026-12-30",
     "doors": "19:30",
-    "start": null,
+    "start": "20:00",
     "url": "https://www.hideoutchicago.com/shows/waco-brothers-day-2-30-dec",
     "status": null
   },
@@ -272,11 +252,41 @@
   {
     "venue": "Hideout",
     "room": null,
+    "title": "Maisy Owen (with Jordan Day)",
+    "date": "2027-01-27",
+    "doors": "19:00",
+    "start": "19:30",
+    "url": "https://www.hideoutchicago.com/shows/maisy-owen-jordan-day-27-jan",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
+    "title": "Bill MacKay & Michael Zerang",
+    "date": "2027-01-29",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.hideoutchicago.com/shows/mackay-zerang-release-show-29-jan",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
     "title": "June McDoom",
     "date": "2027-01-30",
     "doors": "19:30",
     "start": "20:00",
     "url": "https://www.hideoutchicago.com/shows/june-mcdoom-30-jan",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
+    "title": "Morgan Garrett (with The Doxa, National Photo Committee)",
+    "date": "2027-02-06",
+    "doors": "18:30",
+    "start": "19:00",
+    "url": "https://www.hideoutchicago.com/shows/morgan-garrett-the-doxa-national-photo-committee-06-feb",
     "status": null
   },
   {
@@ -294,8 +304,8 @@
     "room": null,
     "title": "Joseph [Night 1]",
     "date": "2027-02-12",
-    "doors": "19:30",
-    "start": null,
+    "doors": "19:00",
+    "start": "20:00",
     "url": "https://www.hideoutchicago.com/shows/joseph-night-1-12-feb",
     "status": null
   },
@@ -304,9 +314,19 @@
     "room": null,
     "title": "Joseph [Night 2]",
     "date": "2027-02-13",
-    "doors": "19:30",
-    "start": null,
+    "doors": "19:00",
+    "start": "20:00",
     "url": "https://www.hideoutchicago.com/shows/joseph-night-2-13-feb",
+    "status": null
+  },
+  {
+    "venue": "Hideout",
+    "room": null,
+    "title": "Javier Reyes (of Post Animal)",
+    "date": "2027-03-04",
+    "doors": "19:30",
+    "start": "20:00",
+    "url": "https://www.hideoutchicago.com/shows/javier-reyes-of-post-animal-04-mar",
     "status": null
   },
   {

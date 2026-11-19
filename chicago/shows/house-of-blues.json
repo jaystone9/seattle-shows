@@ -2,86 +2,6 @@
   {
     "venue": "House of Blues Chicago",
     "room": null,
-    "title": "Better Than Ezra (with Brett Newski)",
-    "date": "2026-11-08",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.ticketmaster.com/better-than-ezra-legends-of-the-chicago-illinois-11-08-2026/event/040064F7B271BF7E",
-    "status": null
-  },
-  {
-    "venue": "House of Blues Chicago",
-    "room": null,
-    "title": "Michelle Branch (with Josie Edwards)",
-    "date": "2026-11-10",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-chicago-illinois-11-10-2026/event/040064E1E6DECA83",
-    "status": null
-  },
-  {
-    "venue": "House of Blues Chicago",
-    "room": null,
-    "title": "VOILÀ (with Weathers, Ella Red)",
-    "date": "2026-11-12",
-    "doors": "17:00",
-    "start": "18:00",
-    "url": "https://www.ticketmaster.com/voila-presents-moonbloom-chicago-illinois-11-12-2026/event/040064BBDD8F67F0",
-    "status": null
-  },
-  {
-    "venue": "House of Blues Chicago",
-    "room": null,
-    "title": "almost monday (with Feel Trip)",
-    "date": "2026-11-13",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.ticketmaster.com/almost-monday-thank-god-its-almost-chicago-illinois-11-13-2026/event/040064D2D734C5FC",
-    "status": null
-  },
-  {
-    "venue": "House of Blues Chicago",
-    "room": null,
-    "title": "Lucky Boys Confusion (with Spitalfield)",
-    "date": "2026-11-14",
-    "doors": "17:00",
-    "start": null,
-    "url": "https://www.ticketmaster.com/lucky-boys-confusion-25-years-of-chicago-illinois-11-14-2026/event/040064F7D39D1E7D",
-    "status": null
-  },
-  {
-    "venue": "House of Blues Chicago",
-    "room": null,
-    "title": "Saosin (with Silent Planet, Like Moths to Flames, Save Us)",
-    "date": "2026-11-15",
-    "doors": "18:00",
-    "start": null,
-    "url": "https://www.ticketmaster.com/saosin-20-years-of-selftitled-chicago-illinois-11-15-2026/event/0400648EAE116A87",
-    "status": null
-  },
-  {
-    "venue": "House of Blues Chicago",
-    "room": null,
-    "title": "Skilla Baby (with Sada Baby)",
-    "date": "2026-11-17",
-    "doors": "19:00",
-    "start": null,
-    "url": "https://www.ticketmaster.com/skilla-baby-the-price-of-fame-chicago-illinois-11-17-2026/event/0400651AD91725DE",
-    "status": null
-  },
-  {
-    "venue": "House of Blues Chicago",
-    "room": null,
-    "title": "Hawthorne Heights",
-    "date": "2026-11-18",
-    "doors": "18:00",
-    "start": null,
-    "url": "https://www.ticketmaster.com/hawthorne-heights-20th-anniversary-of-if-chicago-illinois-11-18-2026/event/040064B6C6F8BCF8",
-    "status": null
-  },
-  {
-    "venue": "House of Blues Chicago",
-    "room": null,
     "title": "Dax (with Gifted Hands)",
     "date": "2026-11-21",
     "doors": "19:00",
@@ -132,22 +52,22 @@
   {
     "venue": "House of Blues Chicago",
     "room": null,
-    "title": "Ume",
-    "date": "2026-11-28",
-    "doors": null,
-    "start": null,
-    "url": "https://songkick.com/concerts/43504064-ume-at-house-of-blues-chicago",
-    "status": null
-  },
-  {
-    "venue": "House of Blues Chicago",
-    "room": null,
     "title": "Gnarls Barkley (with Duckwrth)",
     "date": "2026-11-28",
     "doors": "18:30",
     "start": "19:30",
     "url": "https://www.ticketmaster.com/gnarls-barkley-to-whom-it-still-chicago-illinois-11-28-2026/event/0400652F238BFB33",
     "status": "cancelled"
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "Ume",
+    "date": "2026-11-28",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43504064-ume-at-house-of-blues-chicago",
+    "status": null
   },
   {
     "venue": "House of Blues Chicago",
@@ -217,6 +137,16 @@
     "doors": "17:00",
     "start": "18:00",
     "url": "https://www.ticketmaster.com/baby-smoove-live-chicago-illinois-12-20-2026/event/0400652ACD36E876",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "Infected Mushroom",
+    "date": "2027-01-29",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43523386-infected-mushroom-at-house-of-blues-chicago",
     "status": null
   },
   {
@@ -312,6 +242,16 @@
   {
     "venue": "House of Blues Chicago",
     "room": null,
+    "title": "Boundaries (with Spite, Callous Daoboys, Your Spirit Dies)",
+    "date": "2027-03-17",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://songkick.com/concerts/43510628-boundaries-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
     "title": "Haken (with Thank You Scientist, Einar Solberg)",
     "date": "2027-03-19",
     "doors": "18:30",
@@ -322,11 +262,51 @@
   {
     "venue": "House of Blues Chicago",
     "room": null,
+    "title": "The Funeral Portrait (with Archers, CREEPER, If Not for Me, FKA Rayne)",
+    "date": "2027-03-23",
+    "doors": "16:00",
+    "start": null,
+    "url": "https://songkick.com/concerts/43510788-funeral-portrait-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "Sasha Keable (with EJ Ross)",
+    "date": "2027-03-24",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43521509-sasha-keable-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "Sasha Keable (with EJ Ross)",
+    "date": "2027-03-25",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43525181-sasha-keable-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
     "title": "Four Year Strong (with Drug Church, Heart Attack Man, Sunbloc)",
     "date": "2027-03-27",
     "doors": "17:30",
     "start": "18:30",
     "url": "https://www.ticketmaster.com/four-year-strong-rise-or-die-chicago-illinois-03-27-2027/event/040065520B3DAE4E",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "Marcy Playground (with Wheatus)",
+    "date": "2027-04-01",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43510414-marcy-playground-at-house-of-blues-chicago",
     "status": null
   },
   {
@@ -362,6 +342,16 @@
   {
     "venue": "House of Blues Chicago",
     "room": null,
+    "title": "BigXthaPlug",
+    "date": "2027-04-13",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43519692-bigxthaplug-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
     "title": "Crush 40",
     "date": "2027-04-14",
     "doors": "18:00",
@@ -382,11 +372,131 @@
   {
     "venue": "House of Blues Chicago",
     "room": null,
+    "title": "Tracy",
+    "date": "2027-04-22",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43519874-tracy-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
     "title": "The Growlers",
     "date": "2027-04-24",
     "doors": "19:00",
     "start": "20:00",
     "url": "https://www.ticketmaster.com/the-growlers-city-club-live-chicago-illinois-04-24-2027/event/04006550DFCBDBF7",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "Ricky Montgomery",
+    "date": "2027-04-25",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43501910-ricky-montgomery-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "SiM (with Zero, aurorawave, Within Destruction)",
+    "date": "2027-04-28",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43227820-sim-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "Tori Kelly (with HILLARI)",
+    "date": "2027-04-30",
+    "doors": "19:00",
+    "start": null,
+    "url": "https://songkick.com/concerts/43520515-tori-kelly-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "Palaye Royale (with Beauty School Dropout)",
+    "date": "2027-05-01",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43447164-palaye-royale-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "TWRP (with Jazz Emu)",
+    "date": "2027-05-03",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43500572-twrp-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "Frank Turner & the Sleeping Souls (with Skinny Lister, Beans on Toast)",
+    "date": "2027-05-06",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43486580-frank-turner-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "Frank Turner & the Sleeping Souls (with Skinny Lister, Beans on Toast)",
+    "date": "2027-05-07",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43486585-frank-turner-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "Midnight Generation",
+    "date": "2027-05-08",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43503891-midnight-generation-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "NSQK",
+    "date": "2027-05-11",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43491636-nsqk-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "NSQK",
+    "date": "2027-05-12",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43484895-nsqk-at-house-of-blues-chicago",
+    "status": null
+  },
+  {
+    "venue": "House of Blues Chicago",
+    "room": null,
+    "title": "Hazlett (with Lighthearted)",
+    "date": "2027-05-13",
+    "doors": null,
+    "start": null,
+    "url": "https://songkick.com/concerts/43275302-hazlett-at-house-of-blues-chicago",
     "status": null
   }
 ]

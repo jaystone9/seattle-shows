@@ -2,56 +2,6 @@
   {
     "venue": "Thalia Hall",
     "room": null,
-    "title": "Hovvdy (with Christian Lee Hutson)",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do312.com/events/2026/11/11/hovvdy-tickets",
-    "status": null
-  },
-  {
-    "venue": "Thalia Hall",
-    "room": null,
-    "title": "Hiss Golden Messenger (with Sam Amidon)",
-    "date": "2026-11-12",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do312.com/events/2026/11/12/hiss-golden-messenger-i-m-people-tour-tickets",
-    "status": null
-  },
-  {
-    "venue": "Thalia Hall",
-    "room": null,
-    "title": "Ethan Regan (with Lily Kershaw)",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://do312.com/events/2026/11/13/ethan-regan-young-regan-tour-with-lily-kershaw-tickets",
-    "status": null
-  },
-  {
-    "venue": "Thalia Hall",
-    "room": null,
-    "title": "Victor Wooten & The Wooten Brothers",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://do312.com/events/2026/11/14/the-wooten-brothers-tickets",
-    "status": null
-  },
-  {
-    "venue": "Thalia Hall",
-    "room": null,
-    "title": "Hamilton Leithauser + Rostam (with Johanna Samuels)",
-    "date": "2026-11-15",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://do312.com/events/2026/11/15/hamilton-leithauser-rostam-the-joint-tour-with-johanna-samuels-tickets",
-    "status": null
-  },
-  {
-    "venue": "Thalia Hall",
-    "room": null,
     "title": "Edgar Alejandro",
     "date": "2026-11-19",
     "doors": null,
@@ -97,6 +47,16 @@
     "doors": null,
     "start": "20:00",
     "url": "https://do312.com/events/2026/11/27/pigface-with-en-esch-and-i-speak-machine-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "Evrod Cassimy",
+    "date": "2026-11-28",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://do312.com/events/2026/11/28/standing-on-christmas-live-2026-with-evrod-cassimy-tickets",
     "status": null
   },
   {
@@ -245,14 +205,34 @@
     "title": "Anna von Hausswolff",
     "date": "2027-01-15",
     "doors": null,
-    "start": null,
-    "url": "https://www.ticketweb.com/event/anna-von-hausswolff-presented-by-thalia-hall-tickets/14755233",
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/1/15/anna-von-hausswolff-tickets",
     "status": null
   },
   {
     "venue": "Thalia Hall",
     "room": null,
-    "title": "Jess Williamson",
+    "title": "Rebirth Brass Band",
+    "date": "2027-01-16",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/1/16/rebirth-brass-band-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "Classicks Never Die Fest (with Smino, Ravyn Lenae, Monte Booker, Femdot., Kai Crewsade)",
+    "date": "2027-01-17",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://do312.com/events/2027/1/17/classicks-never-die-fest-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "Jess Williamson (with Riley Downing)",
     "date": "2027-01-21",
     "doors": null,
     "start": "20:00",
@@ -312,6 +292,16 @@
   {
     "venue": "Thalia Hall",
     "room": null,
+    "title": "JOHNNYSWIM",
+    "date": "2027-02-08",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43507855-johnnyswim-at-thalia-hall",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
     "title": "La Roux",
     "date": "2027-02-09",
     "doors": null,
@@ -352,6 +342,16 @@
   {
     "venue": "Thalia Hall",
     "room": null,
+    "title": "Ericdoa",
+    "date": "2027-02-23",
+    "doors": "19:30",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43525810-ericdoa-at-thalia-hall",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
     "title": "Vansire",
     "date": "2027-02-25",
     "doors": null,
@@ -372,21 +372,11 @@
   {
     "venue": "Thalia Hall",
     "room": null,
-    "title": "Mei Semones",
+    "title": "Mei Semones (with aron!)",
     "date": "2027-03-02",
     "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43442750-mei-semones-at-thalia-hall",
-    "status": null
-  },
-  {
-    "venue": "Thalia Hall",
-    "room": null,
-    "title": "Conor Moore",
-    "date": "2027-03-11",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://do312.com/events/2027/3/11/conor-moore-me-myself-and-ireland-tickets",
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/3/2/mei-semones-aron-tickets",
     "status": null
   },
   {
@@ -412,11 +402,31 @@
   {
     "venue": "Thalia Hall",
     "room": null,
+    "title": "Teenage Fanclub",
+    "date": "2027-03-27",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43522464-teenage-fanclub-at-thalia-hall",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
     "title": "Ruby Waters",
     "date": "2027-03-29",
     "doors": null,
     "start": "19:30",
     "url": "https://do312.com/events/2027/3/29/ruby-waters-suppre-ions-north-america-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "Gustavo Santaolalla",
+    "date": "2027-04-05",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://do312.com/events/2027/4/5/gustavo-santaolalla-ronroco-north-america-tour-2027-tickets",
     "status": null
   },
   {
@@ -462,11 +472,31 @@
   {
     "venue": "Thalia Hall",
     "room": null,
+    "title": "The White Buffalo",
+    "date": "2027-04-14",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43510961-white-buffalo-at-thalia-hall",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
     "title": "Foy Vance (with Bonnie Bishop, Ryan McMullan)",
     "date": "2027-04-17",
     "doors": null,
     "start": "19:00",
     "url": "https://do312.com/events/2027/4/17/foy-vance-the-wake-world-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "My New Band Believe (with Threshold)",
+    "date": "2027-04-18",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43510943-my-new-band-believe-at-thalia-hall",
     "status": null
   },
   {
@@ -487,6 +517,36 @@
     "doors": null,
     "start": "20:00",
     "url": "https://do312.com/events/2027/4/30/the-sheepdogs-out-all-night-tour-tickets",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "Antony Szmierek (with Getdown Services)",
+    "date": "2027-05-04",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43507101-antony-szmierek-at-thalia-hall",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "Leo Middea",
+    "date": "2027-05-07",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://www.songkick.com/concerts/43510964-leo-middea-at-thalia-hall",
+    "status": null
+  },
+  {
+    "venue": "Thalia Hall",
+    "room": null,
+    "title": "Clap Your Hands Say Yeah",
+    "date": "2027-05-08",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://do312.com/events/2027/5/8/clap-your-hands-say-yeah-tickets",
     "status": null
   }
 ]

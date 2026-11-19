@@ -2,36 +2,6 @@
   {
     "venue": "United Center",
     "room": null,
-    "title": "Dave Matthews Band",
-    "date": "2026-11-07",
-    "doors": "18:00",
-    "start": "19:30",
-    "url": "https://www.unitedcenter.com/events/2026/11/7/dave-matthews-band/",
-    "status": null
-  },
-  {
-    "venue": "United Center",
-    "room": null,
-    "title": "XG",
-    "date": "2026-11-09",
-    "doors": "18:30",
-    "start": "20:00",
-    "url": "https://www.unitedcenter.com/events/2026/11/09/xg-world-tour-the-core/",
-    "status": null
-  },
-  {
-    "venue": "United Center",
-    "room": null,
-    "title": "The Neighbourhood (with Nessa Barrett)",
-    "date": "2026-11-18",
-    "doors": "18:00",
-    "start": "19:30",
-    "url": "https://www.unitedcenter.com/events/2026/11/18/the-neighbourhood-world-tour/",
-    "status": null
-  },
-  {
-    "venue": "United Center",
-    "room": null,
     "title": "Stevie Wonder",
     "date": "2026-11-21",
     "doors": "18:30",
@@ -92,6 +62,16 @@
   {
     "venue": "United Center",
     "room": null,
+    "title": "Karan Aujla (with Ikky)",
+    "date": "2027-02-13",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://songkick.com/concerts/43507505-karan-aujla-at-united-center",
+    "status": null
+  },
+  {
+    "venue": "United Center",
+    "room": null,
     "title": "Nickelback (with Don Broco)",
     "date": "2027-02-18",
     "doors": "17:00",
@@ -107,6 +87,26 @@
     "doors": "18:00",
     "start": "19:30",
     "url": "https://www.unitedcenter.com/events/2027/03/05/hans-zimmer-live-the-next-level/",
+    "status": null
+  },
+  {
+    "venue": "United Center",
+    "room": null,
+    "title": "Feid",
+    "date": "2027-03-18",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://songkick.com/concerts/43503909-feid-at-united-center",
+    "status": null
+  },
+  {
+    "venue": "United Center",
+    "room": null,
+    "title": "Jhené Aiko (with Swae Lee, Karri)",
+    "date": "2027-03-21",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://songkick.com/concerts/43522989-jhene-aiko-at-united-center",
     "status": null
   },
   {
@@ -132,6 +132,16 @@
   {
     "venue": "United Center",
     "room": null,
+    "title": "Marc Anthony (with Eddie Santiago)",
+    "date": "2027-04-17",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://songkick.com/concerts/43507815-marc-anthony-at-united-center",
+    "status": null
+  },
+  {
+    "venue": "United Center",
+    "room": null,
     "title": "Cleo Sol",
     "date": "2027-04-21",
     "doors": "18:30",
@@ -147,6 +157,36 @@
     "doors": null,
     "start": "20:00",
     "url": "https://songkick.com/concerts/43462920-calvin-harris-at-united-center",
+    "status": null
+  },
+  {
+    "venue": "United Center",
+    "room": null,
+    "title": "Calvin Harris",
+    "date": "2027-05-02",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://songkick.com/concerts/43474230-calvin-harris-at-united-center",
+    "status": null
+  },
+  {
+    "venue": "United Center",
+    "room": null,
+    "title": "The Neighbourhood",
+    "date": "2027-05-08",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.ticketmaster.com/q101-presents-the-neighbourhood-wourld-tour-chicago-illinois-05-08-2027/event/0400655AB9F15B64",
+    "status": null
+  },
+  {
+    "venue": "United Center",
+    "room": null,
+    "title": "Fantasia (with Anthony Hamilton, October London)",
+    "date": "2027-05-14",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://songkick.com/concerts/43439057-fantasia-at-united-center",
     "status": null
   }
 ]

@@ -2,37 +2,7 @@
   {
     "venue": "Concord Music Hall",
     "room": null,
-    "title": "Juelz (with Tye Turner, Julienne By, Sweet N Sour)",
-    "date": "2026-11-07",
-    "doors": "22:00",
-    "start": null,
-    "url": "https://concordmusichall.com/calendar/juelz-dramatica-tour/",
-    "status": null
-  },
-  {
-    "venue": "Concord Music Hall",
-    "room": null,
-    "title": "Øtta (with Toccororo, Jaxx)",
-    "date": "2026-11-13",
-    "doors": "22:00",
-    "start": null,
-    "url": "https://concordmusichall.com/calendar/otta/",
-    "status": null
-  },
-  {
-    "venue": "Concord Music Hall",
-    "room": null,
-    "title": "Tobiahs",
-    "date": "2026-11-14",
-    "doors": "22:00",
-    "start": null,
-    "url": "https://concordmusichall.com/calendar/tobiahs/",
-    "status": null
-  },
-  {
-    "venue": "Concord Music Hall",
-    "room": null,
-    "title": "Omnom",
+    "title": "Omnom (with Avi Sic, Dame)",
     "date": "2026-11-21",
     "doors": "22:00",
     "start": null,
@@ -42,7 +12,7 @@
   {
     "venue": "Concord Music Hall",
     "room": null,
-    "title": "Daniel Allan",
+    "title": "Daniel Allan (with Fromclay, Skeen, Dietpooch)",
     "date": "2026-11-27",
     "doors": "22:00",
     "start": null,
@@ -52,12 +22,22 @@
   {
     "venue": "Concord Music Hall",
     "room": null,
-    "title": "MC4D",
+    "title": "MC4D (with Hangxiety, Adeous, Ston Don)",
     "date": "2026-12-04",
     "doors": "21:00",
     "start": null,
     "url": "https://concordmusichall.com/calendar/mc4d/",
     "status": null
+  },
+  {
+    "venue": "Concord Music Hall",
+    "room": null,
+    "title": "Club 1BD ft. Durand Bernarr",
+    "date": "2026-12-06",
+    "doors": "18:00",
+    "start": null,
+    "url": "https://concordmusichall.com/calendar/durand-bernarrperforming-as-dj-tbd-aka-bra-coley/",
+    "status": "sold out"
   },
   {
     "venue": "Concord Music Hall",
@@ -86,17 +66,17 @@
     "date": "2026-12-26",
     "doors": "22:00",
     "start": null,
-    "url": "https://www.axs.com/events/1693012/conrad-taylor-tickets",
+    "url": "https://concordmusichall.com/calendar/conrad-taylor/",
     "status": null
   },
   {
     "venue": "Concord Music Hall",
     "room": null,
-    "title": "AIROD",
+    "title": "Dylan Brady (with umru, Miss Madeline, Kirk B2B DJ Thank You)",
     "date": "2026-12-31",
-    "doors": "21:00",
+    "doors": "22:00",
     "start": null,
-    "url": "https://www.songkick.com/concerts/42930459-airod-at-concord-music-hall",
+    "url": "https://concordmusichall.com/calendar/boots-nye/",
     "status": null
   },
   {
@@ -122,11 +102,41 @@
   {
     "venue": "Concord Music Hall",
     "room": null,
-    "title": "Twin Temple",
+    "title": "Spencer Brown",
+    "date": "2027-02-06",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://concordmusichall.com/calendar/spencer-brown-2/",
+    "status": null
+  },
+  {
+    "venue": "Concord Music Hall",
+    "room": null,
+    "title": "Miss Bashful",
+    "date": "2027-02-13",
+    "doors": "21:00",
+    "start": null,
+    "url": "https://concordmusichall.com/calendar/miss-bashful/",
+    "status": null
+  },
+  {
+    "venue": "Concord Music Hall",
+    "room": null,
+    "title": "Twin Temple (with Nuovo Testamento)",
     "date": "2027-02-27",
     "doors": "19:00",
     "start": null,
     "url": "https://concordmusichall.com/calendar/twin-temple/",
+    "status": null
+  },
+  {
+    "venue": "Concord Music Hall",
+    "room": null,
+    "title": "Taiki Nulight (with Joker)",
+    "date": "2027-03-13",
+    "doors": "22:00",
+    "start": null,
+    "url": "https://concordmusichall.com/calendar/taiki-nulight-2/",
     "status": null
   },
   {
@@ -147,6 +157,26 @@
     "doors": "18:30",
     "start": null,
     "url": "https://concordmusichall.com/calendar/jersey/",
+    "status": null
+  },
+  {
+    "venue": "Concord Music Hall",
+    "room": null,
+    "title": "Vikkstar",
+    "date": "2027-04-09",
+    "doors": "21:00",
+    "start": null,
+    "url": "https://concordmusichall.com/calendar/vikkstar/",
+    "status": null
+  },
+  {
+    "venue": "Concord Music Hall",
+    "room": null,
+    "title": "Klangphonics",
+    "date": "2027-04-27",
+    "doors": "20:00",
+    "start": null,
+    "url": "https://concordmusichall.com/calendar/klangphonics/",
     "status": null
   }
 ]

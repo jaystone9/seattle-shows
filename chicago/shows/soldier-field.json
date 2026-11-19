@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "venue": "Soldier Field",
+    "room": null,
+    "title": "Zach Bryan (with John Fogerty, Fey Fili)",
+    "date": "2027-05-07",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.axs.com/series/35102/zach-bryan-tickets?skin=soldierfield",
+    "status": null
+  },
+  {
+    "venue": "Soldier Field",
+    "room": null,
+    "title": "Zach Bryan (with John Fogerty, Fey Fili)",
+    "date": "2027-05-08",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.axs.com/series/35102/zach-bryan-tickets?skin=soldierfield",
+    "status": null
+  }
+]

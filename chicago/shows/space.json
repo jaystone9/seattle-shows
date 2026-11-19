@@ -2,126 +2,6 @@
   {
     "venue": "SPACE",
     "room": null,
-    "title": "Jon Cleary & The Absolute Monster Gentlemen",
-    "date": "2026-11-07",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/jon-cleary-the-absolute-space-tickets/14277354",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Adam Ezra Group (with Sirsy)",
-    "date": "2026-11-08",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/adam-ezra-group-w-sirsy-space-tickets/14937003",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Bill Callahan (with Rick Maguire)",
-    "date": "2026-11-09",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/bill-callahan-solo-space-tickets/15029903",
-    "status": "sold out"
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Tyler Ballgame (with Evan Blix)",
-    "date": "2026-11-10",
-    "doors": null,
-    "start": "19:00",
-    "url": "https://www.ticketweb.com/event/tyler-ballgame-space-tickets/14828993",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Great Lake Swimmers (with Colleen Brown)",
-    "date": "2026-11-11",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/great-lake-swimmers-space-tickets/14197794",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "John Carroll Kirby (with Erin Durant)",
-    "date": "2026-11-12",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/john-carroll-kirby-space-tickets/15001403",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Tyrone Wells (with Tony Lucca)",
-    "date": "2026-11-13",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/tyrone-wells-space-tickets/14973663",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Amythyst Kiah (with Buffalo Nichols)",
-    "date": "2026-11-14",
-    "doors": null,
-    "start": "20:00",
-    "url": "https://www.ticketweb.com/event/amythyst-kiah-space-tickets/14921043",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Michael J. Miles & Jill Kaeding",
-    "date": "2026-11-15",
-    "doors": null,
-    "start": "13:00",
-    "url": "https://www.ticketweb.com/event/michael-j-miles-jill-space-tickets/14328364",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Jason Narducy",
-    "date": "2026-11-15",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43383307-jason-narducy-at-space",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Laura Anglade",
-    "date": "2026-11-16",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/laura-anglade-space-tickets/14290524",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
-    "title": "Humbird (with Bad Posture Club)",
-    "date": "2026-11-18",
-    "doors": null,
-    "start": "19:30",
-    "url": "https://www.ticketweb.com/event/humbird-space-tickets/14270404",
-    "status": null
-  },
-  {
-    "venue": "SPACE",
-    "room": null,
     "title": "Anthony Geraci",
     "date": "2026-11-19",
     "doors": null,
@@ -212,6 +92,16 @@
   {
     "venue": "SPACE",
     "room": null,
+    "title": "Jimmy Farace Quartet: A Swinging Christmas (with Anna Donnelly)",
+    "date": "2026-12-01",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/a-swinging-christmas-the-jimmy-space-tickets/14415034",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
     "title": "Willy Porter & The Humans in a Room Quartet",
     "date": "2026-12-02",
     "doors": null,
@@ -284,9 +174,9 @@
     "room": null,
     "title": "Funkadesi",
     "date": "2026-12-11",
-    "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43475992-funkadesi-at-space",
+    "doors": "18:30",
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/funkadesi-30th-anniversary-concert-space-tickets/14385774",
     "status": null
   },
   {
@@ -295,8 +185,8 @@
     "title": "Johnny Iguana (with Gerry Hundt, Billy Flynn)",
     "date": "2026-12-14",
     "doors": null,
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43452146-johnny-iguana-at-space",
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/blue-monday-remembering-barrelhouse-chuck-space-tickets/14363044",
     "status": null
   },
   {
@@ -304,19 +194,19 @@
     "room": null,
     "title": "Anne Heaton",
     "date": "2026-12-15",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43487533-anne-heaton-at-space",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/songs-to-light-a-winters-space-tickets/15053103",
     "status": null
   },
   {
     "venue": "SPACE",
     "room": null,
-    "title": "The Hoyle Brothers",
+    "title": "Leroy From The North (with The Hoyle Brothers)",
     "date": "2026-12-16",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43487782-hoyle-brothers-at-space",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/leroy-from-the-north-with-space-tickets/14395584",
     "status": null
   },
   {
@@ -342,6 +232,46 @@
   {
     "venue": "SPACE",
     "room": null,
+    "title": "Joel Paterson Hi-Fi Christmas (with Oscar Wilson)",
+    "date": "2026-12-20",
+    "doors": null,
+    "start": "18:00",
+    "url": "https://www.ticketweb.com/event/joel-paterson-hi-fi-christmas-space-tickets/14391534",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Joel Paterson Hi-Fi Christmas (with Oscar Wilson)",
+    "date": "2026-12-20",
+    "doors": null,
+    "start": "20:30",
+    "url": "https://www.ticketweb.com/event/joel-paterson-hi-fi-christmas-space-tickets/14391544",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Ouray",
+    "date": "2026-12-21",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/ouray-space-tickets/14391614",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Steve Gunn (with James Elkington)",
+    "date": "2026-12-29",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/steve-gunn-w-james-elkington-space-tickets/14429204",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
     "title": "Ben Kweller (with Case Oats)",
     "date": "2026-12-30",
     "doors": null,
@@ -362,11 +292,61 @@
   {
     "venue": "SPACE",
     "room": null,
+    "title": "Mark Lavengood",
+    "date": "2027-01-02",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/mark-lavengood-space-tickets/14424444",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "New Jazz Underground",
+    "date": "2027-01-07",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/new-jazz-underground-space-tickets/14425554",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Chicken Bone",
+    "date": "2027-01-08",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/chicken-bone-space-tickets/14428494",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Freddie Dixon Blues Band",
+    "date": "2027-01-11",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/blue-monday-freddie-dixon-blues-space-tickets/15053163",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
     "title": "Antje Duvekot & David Berkeley",
     "date": "2027-01-13",
-    "doors": "19:30",
-    "start": null,
-    "url": "https://www.songkick.com/concerts/43487532-antje-duvekot-at-space",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/antje-duvekot-and-david-berkeley-space-tickets/15053233",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Rebirth Brass Band",
+    "date": "2027-01-15",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/rebirth-brass-band-space-tickets/14419994",
     "status": null
   },
   {
@@ -382,10 +362,20 @@
   {
     "venue": "SPACE",
     "room": null,
+    "title": "Fancy Hagood (with Harper O'Neill)",
+    "date": "2027-01-19",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/fancy-hagood-harper-oneill-space-tickets/14428334",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
     "title": "The Western Elstons",
     "date": "2027-01-22",
-    "doors": "20:00",
-    "start": null,
+    "doors": null,
+    "start": "20:00",
     "url": "https://www.songkick.com/concerts/43487531-western-elstons-at-space",
     "status": null
   },
@@ -404,8 +394,8 @@
     "room": null,
     "title": "Alela Diane (with Shannon Lay)",
     "date": "2027-01-25",
-    "doors": "19:00",
-    "start": null,
+    "doors": null,
+    "start": "19:00",
     "url": "https://www.songkick.com/concerts/43480114-alela-diane-at-space",
     "status": null
   },
@@ -442,11 +432,31 @@
   {
     "venue": "SPACE",
     "room": null,
+    "title": "Tray Wellington Band & Jared Rabin Band",
+    "date": "2027-01-31",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.ticketweb.com/event/tray-wellington-band-and-jared-space-tickets/14409144",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
     "title": "Lydia Loveless",
     "date": "2027-02-06",
     "doors": null,
-    "start": null,
+    "start": "20:00",
     "url": "https://www.jambase.com/show/lydia-loveless-evanston-space-20270206",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Buckwheat Zydeco Jr. & The Ils Sont Partis Band",
+    "date": "2027-02-07",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/buckwheat-zydeco-jr-and-the-space-tickets/14424744",
     "status": null
   },
   {
@@ -462,7 +472,7 @@
   {
     "venue": "SPACE",
     "room": null,
-    "title": "Charlie Hunter (early show)",
+    "title": "Charlie Hunter & Ella Feingold (early show)",
     "date": "2027-02-27",
     "doors": null,
     "start": "19:00",
@@ -472,7 +482,7 @@
   {
     "venue": "SPACE",
     "room": null,
-    "title": "Charlie Hunter (late show)",
+    "title": "Charlie Hunter & Ella Feingold (late show)",
     "date": "2027-02-27",
     "doors": null,
     "start": "21:30",
@@ -492,7 +502,27 @@
   {
     "venue": "SPACE",
     "room": null,
-    "title": "Brendan James",
+    "title": "Marc & Ted Broussard",
+    "date": "2027-03-05",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/marc-ted-broussard-space-tickets/14428244",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "James McMurtry",
+    "date": "2027-03-07",
+    "doors": null,
+    "start": "19:30",
+    "url": "https://www.ticketweb.com/event/james-mcmurtry-duo-space-tickets/14424534",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Brendan James (with Jordan Frye)",
     "date": "2027-03-08",
     "doors": null,
     "start": "19:30",
@@ -515,7 +545,7 @@
     "title": "Cory Branan",
     "date": "2027-03-19",
     "doors": null,
-    "start": null,
+    "start": "20:00",
     "url": "https://www.songkick.com/concerts/43475912-cory-branan-at-space",
     "status": null
   },
@@ -525,7 +555,7 @@
     "title": "Mason Jennings",
     "date": "2027-03-20",
     "doors": null,
-    "start": null,
+    "start": "20:00",
     "url": "https://www.jambase.com/show/mason-jennings-evanston-space-20270320",
     "status": null
   },
@@ -535,8 +565,38 @@
     "title": "D.K. Harrell",
     "date": "2027-03-21",
     "doors": null,
-    "start": null,
+    "start": "20:00",
     "url": "https://www.songkick.com/concerts/43475909-dk-harrell-at-space",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Matt Nathanson",
+    "date": "2027-04-07",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/matt-nathanson-to-space-tickets/14416654",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Matt Nathanson",
+    "date": "2027-04-08",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/matt-nathanson-to-space-tickets/14416824",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Matt Nathanson",
+    "date": "2027-04-09",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.ticketweb.com/event/matt-nathanson-to-space-tickets/14416844",
     "status": null
   },
   {
@@ -545,18 +605,28 @@
     "title": "We Three",
     "date": "2027-04-22",
     "doors": null,
-    "start": null,
+    "start": "19:30",
     "url": "https://www.songkick.com/concerts/43463309-we-three-at-space",
     "status": null
   },
   {
     "venue": "SPACE",
     "room": null,
-    "title": "The Last Revel",
+    "title": "The Last Revel (with The Last Wild Buffalo)",
     "date": "2027-04-23",
     "doors": null,
-    "start": null,
+    "start": "20:00",
     "url": "https://www.songkick.com/concerts/43475907-last-revel-at-space",
+    "status": null
+  },
+  {
+    "venue": "SPACE",
+    "room": null,
+    "title": "Hot 8 Brass Band",
+    "date": "2027-05-09",
+    "doors": null,
+    "start": "19:00",
+    "url": "https://www.ticketweb.com/event/hot-8-brass-band-space-tickets/14410334",
     "status": null
   }
 ]
