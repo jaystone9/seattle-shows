@@ -4,7 +4,7 @@ This is the pre-send check. The beehiiv test of the real issue arrives separatel
 Nothing goes to subscribers until you say OK.
 
 SEND TO
-  beehiiv segment "Chicago readers" only (refresh the segment first). Never All subscribers.
+  beehiiv segment "Chicago readers" only (recalculated today; recalculate again Sunday). Never All subscribers.
 
 LINKS
   [  ] Chicago playlist: https://open.spotify.com/playlist/6moaNK4s5vkeaQNF0Vb4wx
@@ -42,8 +42,16 @@ NUMBERS
   West Loop & Pilsen skipped (not on Spotify or ambiguous): Soaked in Torment, Curb Stomp the Opposition, On Dirt, Wall of Flesh, Constant Pain, Heat On, Original Time Demonstrations, 3000 B.C., Understudy, Instrument, Fallen Angels, Jail, Glorious Descent, Al Scorch's Big Fantastical Residency, Evrod Cassimy, Mary K, xSoakedintormentx, xCommandx, Contra Mi, CUT, Kitship, Torn Open, Katywentmissing, Squelching, Tash Solara
   North Suburbs skipped (not on Spotify or ambiguous): Music of the Baroque, Cornerstones of Rock, Abram Collier Nonet, Jimmy Farace Quartet, Anna Donnelly, Willy Porter & The Humans in a Room Quartet, Cantus, The Adrian Dunn Singers, Kevin King, Mannheim Steamroller Christmas by Chip Davis, Jonny Lyons & The Pride
 
-FLAGS
-  None from the build. Add anything found in the run (failed venues, reports).
+FLAGS (from the run)
+  !! NOTHING IS ON GITHUB. The scheduled task ran with no repository attached, so the venue refresh (main) and the prep branch prep/2026-11-22 are only committed locally. The Sunday go-live task will find no prep branch and change nothing. Everything is in a git bundle: attached to the Seattle check email and saved in the project as claude/pending-push-2026-11-19.md (with the commands). Apply it from a chat that has the repo attached, and recreate the Thursday task from a chat with the repo attached so this stops happening.
+  !! hello@ webmail is signed out (sign-in expired), so the inbox was NOT checked for reports this week and the beehiiv tests could not be forwarded from hello@. Sign back in at http://mail.2weeksoundcheck.com; the two beehiiv tests are waiting there (Promotions).
+  - Save-once playlists: the eight city/neighborhood standing playlists were CREATED today with the Nov 22–Dec 5 songs (links in LINKS). The 24 standing genre playlists still hold Nov 15–28 until Sunday's refresh from the saved plans (builder page storage scbPLANS/scbSTAND, backup in tools/plans/2026-11-22-plans.json on the branch); the genre numbers above are what they will be after that refresh.
+  - Seattle and Salt Lake Funk & Blues: no confirmed Funk & Blues headliner in the window, so those two standing playlists keep last week's songs on Sunday (no plan saved for them).
+  - Genre Review: 212 acts to decide at https://claude.ai/artifact/A8aMCZEEGqB6HPV7TvjNP9 (week 2026-11-22). 64 more were confirmed automatically from Last.fm; generic names (Ripe, Valhalla, Krush, Baby Jane, Che, Filth, Pretoria, Grover, Dxrkknght, Solo Kei, Late Night Thoughts) were sent to review instead of auto-confirmed.
+  - build_issue.py still writes "new playlists" wording; the drafts were hand-edited to say save-once. Update the script after your newsletter review.
+  - Reader-requested venues (REFRESH.md lists for Seattle and Chicago) were not added this run; still pending.
+  - Venue refresh (Chicago, 1,439 upcoming events, all 59 files re-collected): Kingston Mines December nights carried over (calendar widget only showed November); Symphony Center existing dates kept verbatim, only new May dates added; SPACE: five JamBase/Songkick-only dates left out pending Do312 (Nora O'Connor Dec 6, Dee Alexander Jan 10, Liquid Soul Jan 30, Kahil El'Zabar Feb 1, Shemekia Copeland Feb 5); Tally Hall Apr 18 moved Metro → Salt Shed; Turnover Nov 25 moved Salt Shed → House of Blues; Des Plaines "Deacon Blue" Nov 28 was a Steely Dan tribute, removed. For you to confirm: Boots NYE at Concord (Dylan Brady bill), Evrod Cassimy (Thalia Nov 28), Classicks Never Die Fest (Thalia Jan 17), Winters Wonderland (Hideout Dec 9), Dxrkknght goth night (Cobra Dec 12), Strapped: The Musical and Live Juice Live benefit (Empty Bottle Dec 4 / 17), Skokie Theatre's two December shows, Two Friends: Big Bootie Land (Pavilion May 15), Chicago Blues Allstars (Buddy Guy's Dec 19), Abram Collier Nonet (Jazz Showcase Dec 22), Heart By Heart (Des Plaines Jan 16), Railheart (28 Mile), Collision of Rhythm (Gorton Apr 18), Krampus Fest dropped (Martyrs' Dec 12).
+  - beehiiv: new draft "Nov 22–Dec 5: Chicago 2 Week Playlist" (post b6b52c5f-a4a8-4386-aed1-93cf75ce4c57), duplicate of the Nov 15–28 draft, inherited the Chicago readers segment (114 recipients, All subscribers unchecked). Test sent to hello@.
 
 SUBJECT AND PREVIEW
   Nov 22–Dec 5: Chicago 2 Week Playlist

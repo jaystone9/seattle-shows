@@ -4,7 +4,7 @@ This is the pre-send check. The beehiiv test of the real issue arrives separatel
 Nothing goes to subscribers until you say OK.
 
 SEND TO
-  beehiiv segment "Seattle readers" only (refresh the segment first). Never All subscribers.
+  beehiiv segment "Seattle readers" only (recalculated today; recalculate again Sunday). Never All subscribers.
 
 LINKS
   [  ] Seattle playlist: https://open.spotify.com/playlist/2IiCl3vn63vD5OmMYMpTP8
@@ -39,8 +39,16 @@ NUMBERS
   Frelard skipped (not on Spotify or ambiguous): Left Turn on Blue, The Underhills, Rainbow Jackson, Verboten, Ballard Food Bank Benefit, Hidden Honky Tonk, Owen Thayer, Dutch Hudson, Van Wheeler, Bad Tats, False Hemlock, Lawn Darts, Fruit Juice, The Wayside, Matney Cook, Ritual Scars, Sarah Not Sarah, Brass Cheeks (holiday matinee), Head Hurt, Side Hustle, Lost Footage, Clean Fight, Brake Down, Salt Horse, Empty Shell Casing, Mad King, Post Revolver, Great Jade Labyrinth, Freak Beam, Poysenberry, Lark Vs. Owl, Clam & Owie, Novachrome, The Vases, Steel Cartwheel, Kitty O'Hara, Jason Cressey, Geoff Harper, Tiny Monsters, Sara Camille, Paper Trails, Afterlife Afterparty, Samantha Henson's Holiday Matinee, Anthony Jaeger, McKenna Esteb, guests
   Downtown, Seattle Center & SoDo skipped (not on Spotify or ambiguous): Mac Sabbath, Nailed Shut, Save Us, Spaced, Super Sometimes, blessthefall, Buried in Spring, Doctor P, Kuru
 
-FLAGS
-  None from the build. Add anything found in the run (failed venues, reports).
+FLAGS (from the run)
+  !! NOTHING IS ON GITHUB. The scheduled task ran with no repository attached, so the venue refresh (main) and the prep branch prep/2026-11-22 are only committed locally. The Sunday go-live task will find no prep branch and change nothing. Everything is in a git bundle: attached to the Seattle check email and saved in the project as claude/pending-push-2026-11-19.md (with the commands). Apply it from a chat that has the repo attached, and recreate the Thursday task from a chat with the repo attached so this stops happening.
+  !! hello@ webmail is signed out (sign-in expired), so the inbox was NOT checked for reports this week and the beehiiv tests could not be forwarded from hello@. Sign back in at http://mail.2weeksoundcheck.com; the two beehiiv tests are waiting there (Promotions).
+  - Save-once playlists: the eight city/neighborhood standing playlists were CREATED today with the Nov 22–Dec 5 songs (links in LINKS). The 24 standing genre playlists still hold Nov 15–28 until Sunday's refresh from the saved plans (builder page storage scbPLANS/scbSTAND, backup in tools/plans/2026-11-22-plans.json on the branch); the genre numbers above are what they will be after that refresh.
+  - Seattle and Salt Lake Funk & Blues: no confirmed Funk & Blues headliner in the window, so those two standing playlists keep last week's songs on Sunday (no plan saved for them).
+  - Genre Review: 212 acts to decide at https://claude.ai/artifact/A8aMCZEEGqB6HPV7TvjNP9 (week 2026-11-22). 64 more were confirmed automatically from Last.fm; generic names (Ripe, Valhalla, Krush, Baby Jane, Che, Filth, Pretoria, Grover, Dxrkknght, Solo Kei, Late Night Thoughts) were sent to review instead of auto-confirmed.
+  - build_issue.py still writes "new playlists" wording; the drafts were hand-edited to say save-once. Update the script after your newsletter review.
+  - Reader-requested venues (REFRESH.md lists for Seattle and Chicago) were not added this run; still pending.
+  - Venue refresh (Seattle, 783 upcoming events, all 25 files re-collected): Victoria Monét Dec 14 moved from WaMu to the Paramount; Ray Lau (Neptune Jan 30) removed as a comedian. For you to confirm: Throwaway Style Showcase (Sunset Dec 8), Sheldon's Showcase (Conor Byrne Dec 2), Tractor's Nov 24 food-bank benefit, Dec 15 Ballard Solidarity benefit and Dec 31 Artist Home NYE bash, Hidden Honky Tonk (Hidden Hall Nov 25), Big Brass Extravaganza (Nectar Jan 14), Rock Out, Feed Seattle! (Neptune Jan 15), SMooCH 2026 (Showbox Dec 12), Hidden Track x Drongo bill (Vera Dec 15), Susquatch 6 (Black Lodge Jan 29–30), Trans-Siberian Orchestra (CPA Nov 29), Skerik & Mike Stone's Mingus night (Hidden Hall Dec 4).
+  - beehiiv: new draft "Nov 22–Dec 5: Seattle 2 Week Playlist" (post a3430da4-badc-4117-8ba7-e4a8dc34b10d) is a duplicate of the Nov 15–28 draft, so it inherited the Seattle readers segment (audience step shows 196 recipients, All subscribers unchecked). Both segments were recalculated (Seattle readers 197, Chicago readers 114 before the recalc). The old Nov 15–28 drafts were left alone. Test sent to hello@.
 
 SUBJECT AND PREVIEW
   Nov 22–Dec 5: Seattle 2 Week Playlist
