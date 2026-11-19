@@ -88,3 +88,4 @@ Add the way Hungry Brain was added on Nov 17 (an entry in `cities.py` with neigh
 
 - **Carol's Pub** (Uptown), a country and honky-tonk bar. r/ChicagoConcerts reader. Real artists only: keep named artists playing their own material; drop cover and tribute bands, karaoke, line-dancing and DJ nights, and the weekly house-band residency. If almost nothing is left after that, add what there is and tell Jay.
 - **The Burlington** (Logan Square). r/ChicagoConcerts reader, Nov 18, 2026. Small rock room with local bills; drop DJ nights and karaoke. It is in the Wicker Park & Logan Square area, so its artists (openers included) belong in that playlist once added.
+- **Livewire Lounge** (Avondale). r/chicagomusicscene reader, Nov 19, 2026 (who also asked for The Burlington, above, and Beat Kitchen, which is already listed). Small rock and metal room; drop DJ nights, karaoke and tribute bills.
