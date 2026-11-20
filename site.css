@@ -162,6 +162,15 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
   .tools .clear{order:3}
 }
 .filters .note{font-size:15px;margin:6px 0 0}
+/* Phone: the filter row folds behind one line (Jay, Nov 20, 2026) so the first show sits near the top.
+   Desktop keeps every control on show: .fbar is display:none outside the phone width. */
+.fbar{display:none}
+@media (max-width:640px){
+  .fbar{display:flex;align-items:baseline;gap:2px;flex-wrap:wrap;font-size:15px}
+  #fbar-txt{flex:1 1 auto;min-width:0;padding:10px 0}
+  .fbar .clear{flex:none;font-size:15px;padding:10px 6px}
+  .filters.folded .tools,.filters.folded .vpanel,.filters.folded .note:not(.keep){display:none}
+}
 .clear{font:inherit;font-size:16px;background:none;border:0;color:var(--ink);text-decoration:underline;cursor:pointer;padding:10px 4px}
 .area-note{margin:12px 0 0;font-size:16px}
 #lineup{counter-reset:show}

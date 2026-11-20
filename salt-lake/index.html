@@ -33,7 +33,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=8dc39c29">
+<link rel="stylesheet" href="../site.css?v=6121c52d">
 </head>
 <body data-city="salt-lake" data-tz="America/Denver" data-data="../data/salt-lake.json">
 <div class="wrap">
@@ -101,8 +101,13 @@
       <h2 id="lineup-h">The next two weeks</h2>
       <p id="lineup-count"></p>
     </div>
-    <div class="filters">
-      <div class="tools">
+    <div class="filters" id="filters">
+      <div class="fbar" id="fbar" hidden>
+        <span id="fbar-txt"></span>
+        <button type="button" class="clear" id="fbar-toggle" aria-expanded="false" aria-controls="tools">Filter</button>
+        <button type="button" class="clear" id="fbar-clear" hidden>Clear</button>
+      </div>
+      <div class="tools" id="tools">
         <input id="q" type="search" placeholder="Search an artist" aria-label="Search an artist">
         <select id="when" aria-label="Filter by date"><option value="">Any date</option></select>
         <input id="when-pick" type="date" aria-label="Pick a date" hidden>
@@ -344,6 +349,7 @@
       drawVenues(k=>soon.filter(e=>e.venue===k && match(e,q,null,dr,gf)).length);
       $("#v-n").textContent = picked.size ? picked.size+" picked" : "Showing every venue";
       const pl=$("#picked-line");
+      pl.classList.toggle("keep", !picked.size && saved.length>0);
       if(picked.size){
         pl.innerHTML = (af ? `${esc(af)}: ${af==="Frelard"?"the small rooms in Ballard and Fremont":esc(hoods(af))}.` : `Showing ${esc(names([...picked].sort((a,b)=>vs.indexOf(a)-vs.indexOf(b))))}.`) + ` <button type="button" class="clear" data-v="none">all venues</button>`;
         pl.hidden=false;
@@ -367,6 +373,15 @@
       $("#lineup").innerHTML = html ? html : (dr && dr[0] > end ? "" : `<p class="empty">${dr?"No shows match on those dates.":`Nothing matches through ${fmt(end,{month:"long",day:"numeric"})}. Check Further out below, or clear the filters.`}</p>`);
       $("#lineup-h").textContent = `Now through ${fmt(end,{month:"long",day:"numeric"})}`;
       $("#lineup-count").textContent = dr && dr[0] > end ? `${fmt(dr[0],{month:"long",day:"numeric"})} is further out, below` : filtered ? `${count} match${count===1?"":"es"}` : `${soon.length} shows at ${new Set(soon.map(e=>e.venue)).size} venues`;
+      // Phones: the four filter rows fold behind this one line, so shows start near the top of the
+      // screen (Jay, Nov 20, 2026). Arriving from a newsletter link, the line names the filter that came with it.
+      const bits=[];
+      if(gf) bits.push(gf);
+      if(af) bits.push(af); else if(picked.size) bits.push(picked.size===1?venues[[...picked][0]].short:picked.size+" venues");
+      if(dr) bits.push($("#when").value==="pick"?fmt(dr[0],{month:"short",day:"numeric"}):$("#when").selectedOptions[0].textContent);
+      if(q) bits.push('"'+$("#q").value.trim()+'"');
+      $("#fbar-txt").textContent = filtered ? `${bits.join(" · ")} · ${count} show${count===1?"":"s"}` : `${soon.length} shows at ${new Set(soon.map(e=>e.venue)).size} venues`;
+      $("#fbar-clear").hidden = !filtered;
       // further out
       // further out has no genres yet: with a genre picked, say so instead of listing other shows
       const rows = gf ? [] : later.filter(e=>match(e,q,picked,dr));
@@ -423,7 +438,11 @@
       $("#picks").innerHTML = html;
       SC.previews(document.getElementById("picks"));
     }
-    if(wantVenues){ setPanel(true); document.getElementById("venue-btn").scrollIntoView(); SC.track("venues-open",{from:"city-page"}); }
+    const foldBar = on => { $("#filters").classList.toggle("folded", on); const b=$("#fbar-toggle"); b.textContent = on ? "Filter" : "Hide"; b.setAttribute("aria-expanded", String(!on)); };
+    $("#fbar").hidden = false; foldBar(true);
+    $("#fbar-toggle").addEventListener("click",()=>{ const folded=$("#filters").classList.contains("folded"); foldBar(!folded); if(folded){ SC.track("filters-open"); $("#q").focus({preventScroll:true}); } });
+    $("#fbar-clear").addEventListener("click",()=>{ $("#q").value="";$("#genre").value="";setWhen("");picked.clear();setPanel(false);limit=60;render(); SC.track("filters-clear"); });
+    if(wantVenues){ foldBar(false); setPanel(true); document.getElementById("venue-btn").scrollIntoView(); SC.track("venues-open",{from:"city-page"}); }
     let qT; $("#q").addEventListener("input",()=>{limit=60;render(); clearTimeout(qT); qT=setTimeout(()=>{ if($("#q").value.trim()) SC.track("search"); },1500);});
     $("#genre").addEventListener("change",()=>{limit=60;render(); SC.track("genre-filter",{genre:$("#genre").value||"all"});});
     $("#venue-btn").addEventListener("click",()=>{ const open=$("#venue-panel").hidden; setPanel(open); if(open) SC.track("venues-open"); });
