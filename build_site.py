@@ -65,8 +65,9 @@ VENUES = {
 AREAS = {
     "Frelard": ["Ballard", "Fremont"],
     "Capitol Hill & Belltown": ["Capitol Hill", "Belltown", "Eastlake"],
-    "Downtown, Seattle Center & SoDo": ["Downtown", "Pike Place", "Seattle Center", "SoDo"],
-    "U District": ["U District"],
+    "Downtown, Seattle Center & SoDo": ["Downtown", "Pike Place", "Seattle Center", "SoDo", "Pioneer Square"],
+    "U District & Roosevelt": ["U District", "Roosevelt"],
+    "South Seattle": ["Georgetown", "Columbia City"],
     "Out of town": ["Woodinville", "Tacoma"],
 }
 # Genre playlists, in the order the chips appear. Slugs make shareable links: ?playlist=folk

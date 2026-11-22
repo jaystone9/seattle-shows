@@ -56,8 +56,30 @@ def mark(week, what, note):
     print("recorded", what, "for week", week)
 
 
-def check(week):
+def venue_area_gaps():
+    """Flag any venue whose hood isn't covered by any neighborhood group in AREAS, so a
+    newly added venue doesn't silently fall back to the city-wide feed with no neighborhood
+    playlist of its own (this is how Pioneer Square/Georgetown/Columbia City/Roosevelt were
+    found ungrouped on Nov 22, 2026 -- fixed then, but nothing would have caught the next one)."""
     gaps = []
+    import build_site as bs  # freshly imported: CITY is None, VENUES/AREAS are Seattle's own
+    all_hoods = {h for hoods in bs.AREAS.values() for h in hoods}
+    for name, v in bs.VENUES.items():
+        if v["hood"] not in all_hoods:
+            gaps.append(f"seattle: {name} (hood \"{v['hood']}\") isn't in any AREAS group in "
+                        f"build_site.py -- add its hood to a group or create a new one")
+    from cities import CITIES as CITY_DATA
+    for slug, c in CITY_DATA.items():
+        all_hoods = {h for hoods in c["areas"].values() for h in hoods}
+        for name, v in c["venues"].items():
+            if v["hood"] not in all_hoods:
+                gaps.append(f"{slug}: {name} (hood \"{v['hood']}\") isn't in any AREAS group "
+                            f"in cities.py -- add its hood to a group or create a new one")
+    return gaps
+
+
+def check(week):
+    gaps = venue_area_gaps()
     for city, folder in CITIES:
         pl = load(os.path.join(folder, "playlists.json"), [])
         areas = {p.get("area") for p in pl}
