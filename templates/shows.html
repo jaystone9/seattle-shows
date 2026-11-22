@@ -358,7 +358,7 @@
         pl.innerHTML = (af ? `${esc(af)}: ${af==="Frelard"?"the small rooms in Ballard and Fremont":esc(hoods(af))}.` : `Showing ${esc(names([...picked].sort((a,b)=>vs.indexOf(a)-vs.indexOf(b))))}.`) + ` <button type="button" class="clear" data-v="none">all venues</button>`;
         pl.hidden=false;
       } else if(saved.length){
-        pl.innerHTML = `Your venues: ${esc(names(saved))}. <button type="button" class="clear" data-v="saved">show them</button>`;
+        pl.innerHTML = `Your venues: ${esc(names(saved))}. <button type="button" class="clear" data-v="saved">show them</button> · <button type="button" class="clear" data-v="forget">not these</button>`;
         pl.hidden=false;
       } else pl.hidden=true;
       document.querySelectorAll("#meter .ch").forEach(b=>b.setAttribute("aria-pressed", String(!!dr && dr[0]===dr[1] && dr[0]===b.dataset.day)));
@@ -454,7 +454,7 @@
     $("#v-none").addEventListener("click",()=>{ picked.clear(); pickChanged("clear"); });
     $("#v-list").addEventListener("change",ev=>{ const c=ev.target.closest("input[type=checkbox]"); if(!c) return; c.checked ? picked.add(c.value) : picked.delete(c.value); pickChanged("tick"); const again=[...document.querySelectorAll("#v-list input")].find(i=>i.value===c.value); if(again) again.focus(); });
     $("#v-list").addEventListener("click",ev=>{ const b=ev.target.closest("[data-all]"); if(!b) return; const l=groups[+b.dataset.all][1], all=l.every(k=>picked.has(k)); l.forEach(k=>all?picked.delete(k):picked.add(k)); pickChanged("group"); const again=document.querySelector(`#v-list [data-all="${b.dataset.all}"]`); if(again) again.focus(); });
-    $("#picked-line").addEventListener("click",ev=>{ const b=ev.target.closest("[data-v]"); if(!b) return; if(b.dataset.v==="saved"){ saved.forEach(k=>picked.add(k)); pickChanged("saved"); } else { picked.clear(); pickChanged("clear"); } });
+    $("#picked-line").addEventListener("click",ev=>{ const b=ev.target.closest("[data-v]"); if(!b) return; if(b.dataset.v==="saved"){ saved.forEach(k=>picked.add(k)); pickChanged("saved"); } else if(b.dataset.v==="forget"){ saved=[]; try{ localStorage.removeItem(SAVE); }catch(e){} render(); SC.track("venues",{how:"forget"}); } else { picked.clear(); pickChanged("clear"); } });
     document.addEventListener("keydown",ev=>{ if(ev.key==="Escape" && !$("#venue-panel").hidden){ setPanel(false); $("#venue-btn").focus(); } });
     $("#when").addEventListener("change",()=>{limit=60; $("#when-pick").hidden=$("#when").value!=="pick"; if($("#when").value==="pick"){ $("#when-pick").focus(); try{$("#when-pick").showPicker()}catch(e){} } render(); SC.track("date-filter",{date:QUICK[$("#when").value]?$("#when").value:$("#when").value?"day":"any"});});
     $("#when-pick").addEventListener("change",()=>{limit=60;render();});
