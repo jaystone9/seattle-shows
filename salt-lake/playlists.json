@@ -1,5 +1,38 @@
 [
  {
+  "name": "2 Week Soundcheck · Salt Lake City",
+  "id": "4RWUBB0RLOD8qQ6bkCfMA3",
+  "url": "https://open.spotify.com/playlist/4RWUBB0RLOD8qQ6bkCfMA3",
+  "start": "2026-11-22",
+  "end": "2026-12-05",
+  "songs": 153,
+  "artists": 52,
+  "per_artist": 3,
+  "standing": true,
+  "skipped": [
+   "The Pranksters",
+   "Valhalla",
+   "A Mat and Savanna Christmas",
+   "The Fretliners",
+   "CAMO",
+   "Maximum Unlimited",
+   "Kurt Bestor",
+   "Over Under",
+   "Amelia McLelland Band"
+  ]
+ },
+ {
+  "name": "2 Week Soundcheck · Salt Lake City: Nov 22–Dec 5",
+  "id": "0hXvyD5CLSRkIcBpnjzC5U",
+  "url": "https://open.spotify.com/playlist/0hXvyD5CLSRkIcBpnjzC5U",
+  "start": "2026-11-22",
+  "end": "2026-12-05",
+  "songs": 153,
+  "artists": 52,
+  "per_artist": 3,
+  "archive": true
+ },
+ {
   "name": "2 Week Soundcheck · Salt Lake City: Nov 15–28",
   "id": "2jsyZcwnRPbLO8YsmARSq1",
   "url": "https://open.spotify.com/playlist/2jsyZcwnRPbLO8YsmARSq1",

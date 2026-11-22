@@ -1,0 +1,422 @@
+{
+ "date": "2026-11-19",
+ "window": "2026-11-22/2026-12-05",
+ "by": "claude (scheduled prep)",
+ "note": "Last.fm artist.gettoptags via genre_tags.py; only \"ok\" matches whose Last.fm name equals the query were confirmed. Generic names that could be a same-name act (Ripe, Valhalla, Krush, Baby Jane, Che, Filth, Pretoria, Grover, Dxrkknght, Solo Kei, Late Night Thoughts) were sent to the Genre Review page instead. 212 acts await Jay on the Genre Review page (week 2026-11-22).",
+ "decisions": {
+  "Alison's Halo": [
+   "Indie & Rock"
+  ],
+  "Anna Justen": [
+   "Indie & Rock"
+  ],
+  "B Jack$": [
+   "Hip-hop & R&B"
+  ],
+  "Babyfxce E": [
+   "Hip-hop & R&B"
+  ],
+  "Barely Alive": [
+   "Electronic"
+  ],
+  "Bird and Byron": [
+   "Indie & Rock",
+   "Folk & Country"
+  ],
+  "Brett Eldredge": [
+   "Folk & Country"
+  ],
+  "CAMO": [
+   "Electronic"
+  ],
+  "Chanticleer": [
+   "Jazz, World & Classical"
+  ],
+  "Chris Farren": [
+   "Pop",
+   "Indie & Rock"
+  ],
+  "Dale Watson": [
+   "Folk & Country"
+  ],
+  "David Archuleta": [
+   "Pop"
+  ],
+  "David Dondero": [
+   "Folk & Country"
+  ],
+  "Dead Pioneers": [
+   "Punk & Metal"
+  ],
+  "Dorian Electra (DJ Set)": [
+   "Pop"
+  ],
+  "Eliza McLamb": [
+   "Folk & Country"
+  ],
+  "Eyes Set to Kill": [
+   "Punk & Metal"
+  ],
+  "Ezcodylee": [
+   "Indie & Rock"
+  ],
+  "FACS": [
+   "Indie & Rock"
+  ],
+  "Face To Face": [
+   "Punk & Metal"
+  ],
+  "GODHANDUSA": [
+   "Hip-hop & R&B"
+  ],
+  "Gatsby's American Dream": [
+   "Indie & Rock"
+  ],
+  "Gavin DeGraw": [
+   "Indie & Rock",
+   "Folk & Country"
+  ],
+  "Haggus": [
+   "Punk & Metal"
+  ],
+  "Hedex": [
+   "Electronic"
+  ],
+  "How The Grouch Stole Christmas Tour 2026 - The Grouch & Eligh": [
+   "Hip-hop & R&B"
+  ],
+  "Imminence": [
+   "Punk & Metal"
+  ],
+  "JEFF The Brotherhood": [
+   "Indie & Rock"
+  ],
+  "JKYL & HYDE": [
+   "Electronic"
+  ],
+  "Jantsen": [
+   "Electronic"
+  ],
+  "Jason Ross": [
+   "Electronic"
+  ],
+  "John Craigie": [
+   "Folk & Country"
+  ],
+  "Jon McLaughlin": [
+   "Folk & Country",
+   "Indie & Rock"
+  ],
+  "June McDoom": [
+   "Folk & Country"
+  ],
+  "K?D": [
+   "Electronic"
+  ],
+  "Kip Moore": [
+   "Folk & Country"
+  ],
+  "Laura Jane Grace": [
+   "Punk & Metal"
+  ],
+  "Lord Huron": [
+   "Indie & Rock",
+   "Folk & Country"
+  ],
+  "Matisyahu": [
+   "Jazz, World & Classical"
+  ],
+  "Miniature Tigers": [
+   "Indie & Rock"
+  ],
+  "Montell Fish": [
+   "Hip-hop & R&B"
+  ],
+  "ONEUS": [
+   "Pop"
+  ],
+  "Olivia Rodrigo": [
+   "Pop"
+  ],
+  "Pedro the Lion": [
+   "Indie & Rock"
+  ],
+  "Ruby Haunt": [
+   "Indie & Rock"
+  ],
+  "Save Ferris": [
+   "Punk & Metal"
+  ],
+  "Sera Cahoone - Night Two": [
+   "Folk & Country"
+  ],
+  "Slightly Stoopid": [
+   "Jazz, World & Classical"
+  ],
+  "Slow Joy": [
+   "Indie & Rock"
+  ],
+  "Smith & Myers": [
+   "Indie & Rock"
+  ],
+  "SoDown": [
+   "Electronic"
+  ],
+  "Temples": [
+   "Indie & Rock"
+  ],
+  "The Detroit Cobras": [
+   "Indie & Rock"
+  ],
+  "The Steepwater Band": [
+   "Indie & Rock"
+  ],
+  "TheARTI$T": [
+   "Hip-hop & R&B"
+  ],
+  "Thee Sinseers": [
+   "Hip-hop & R&B"
+  ],
+  "UNKLE": [
+   "Electronic"
+  ],
+  "Wayfarer": [
+   "Punk & Metal"
+  ],
+  "Weekend Nachos": [
+   "Punk & Metal"
+  ],
+  "Weezer": [
+   "Indie & Rock"
+  ],
+  "Whitmer Thomas": [
+   "Indie & Rock",
+   "Pop"
+  ],
+  "Young Dro": [
+   "Hip-hop & R&B"
+  ],
+  "daine": [
+   "Pop",
+   "Electronic"
+  ],
+  "the olllam": [
+   "Folk & Country",
+   "Jazz, World & Classical"
+  ]
+ },
+ "review": [
+  "103.5 KISS FM's Jingle Ball",
+  "3000 B.C.",
+  "3BallMTY",
+  "Afterbirth Pulp",
+  "Alpert/Cunningham/Corsano",
+  "Amelia McLelland Band",
+  "Anaya",
+  "Andrew Sa's Lonesome Holiday",
+  "Animal Panic",
+  "Answering Machines",
+  "Anthony Bruno",
+  "Austin Wulliman",
+  "Autofill",
+  "Ballard Food Bank Benefit",
+  "Ben Lewis Trio",
+  "BendreTheGiant",
+  "Bitter Thoughts",
+  "Black Cat Heart Attack",
+  "Born Of Osiris X Miss May I",
+  "Boydream",
+  "Brian Krumm & His Barfly Friends",
+  "Bryce Alakai",
+  "Budget Cuts",
+  "CUPCAKE",
+  "Camila Fernández",
+  "Cascade Cody & The Warshington Apples",
+  "Casi x Love So Deep",
+  "Chris Simpson (of Mineral)",
+  "Christmas with CeCe Winans",
+  "Clean Fight",
+  "Club 1BD",
+  "Corey Wilkes Quartet",
+  "Cryofloves",
+  "DC & The Love",
+  "Dan Ponce (Chicago Christmas)",
+  "Dean Johnson & Cat Clyde",
+  "Diaspora Duos",
+  "Don Piano",
+  "Drop the Star",
+  "Dysregulation",
+  "Eep Oop",
+  "Elaine Dame",
+  "Emma Who?",
+  "Emo Orchestra",
+  "End of Dayz",
+  "Evrod Cassimy",
+  "F5VE",
+  "Faith in Strangers",
+  "Fantombs",
+  "Far Reaches",
+  "Fareed Haque Trio",
+  "Fashion Change",
+  "Flip Phone",
+  "Flwers",
+  "Frankie Beach",
+  "Funkadesi",
+  "Gaudete Brass",
+  "Genre Is Death",
+  "Good Job",
+  "Gorilla Glue & Lil Nakur",
+  "Grandma's Cottage",
+  "Great Jade Labyrinth",
+  "Haight St",
+  "Hazel Krumm",
+  "Head Hurt",
+  "Heathen Axe",
+  "Henhouse Prowlers",
+  "Henry Carpender",
+  "Hidanny!!",
+  "Hidden Honky Tonk",
+  "Hollyy",
+  "Home by 3",
+  "Honey Revenge & Dead Poet Society",
+  "I-90 Fiasco",
+  "Inoculous",
+  "Instant Crush",
+  "Interpol & Modest Mouse",
+  "Jady",
+  "Jaff Graffner",
+  "Jen Howard",
+  "Jimmy Burns & Soul Message Band",
+  "Jimmy Cicero",
+  "Jimmy Farace Quartet",
+  "Joe Glass",
+  "Joe Policastro & Friends",
+  "Joel Astley and Ben Rice & the PDX Hustle",
+  "Joey Acopiado",
+  "John Sutton DogTime",
+  "JohnHenry",
+  "Jonny Lyons & The Pride",
+  "Justice Hill",
+  "Karl Kirkpatrick",
+  "Kayo",
+  "Kent Avenue Carpool",
+  "Kent Burnside",
+  "Khaki Blazer",
+  "King Tuff & Sheer Mag",
+  "LAPêCHE & Endearments",
+  "LAZER DIM 700",
+  "La Croix Mystique",
+  "La Securite",
+  "Lace For Leisure",
+  "Lau Noah & Adam Neely",
+  "Lee Emi",
+  "Lee Ketch",
+  "Left Turn on Blue",
+  "Lesser Moose",
+  "Levi Bloom",
+  "Littlebirds",
+  "Liv Victorino",
+  "Lost Footage",
+  "Lukas Sternath",
+  "MadameStarlet",
+  "Map of the Woulds",
+  "Marital Bed",
+  "Mark Guiliana Beat Music",
+  "Marty Mercer",
+  "Matt Fuller",
+  "Maximum Unlimited",
+  "Mayn Groove",
+  "Megadad",
+  "Merryweather",
+  "Mexican Hockey",
+  "Middle Child",
+  "Midnight T",
+  "Miss May I / Born of Osiris",
+  "Modele",
+  "Monty",
+  "More The Merrier",
+  "Mousiki Parea",
+  "Mykele Deville",
+  "New Divine",
+  "New Heartaches",
+  "Nifty",
+  "Noah Aronson & The Or Collective",
+  "NÆ",
+  "Over Under",
+  "PANCHO",
+  "PB",
+  "Parlor Greens",
+  "Pat McCurdy",
+  "Pinksqueeze",
+  "Rachel Farr",
+  "Rad Payoff",
+  "Raviv",
+  "Rectal Hygienics",
+  "Richard Finger",
+  "Ronnie Acoustic",
+  "Russian Blue",
+  "SMooCH 2026",
+  "Sam n' Aimz",
+  "Sara Camille",
+  "Savannah Pope",
+  "Scurvy Jazzby",
+  "Seth Troxler & Hiroko Yamamura",
+  "Shoreline Frenzy",
+  "SistaStrings",
+  "Skerik & Mike Stone present the music of Charles Mingus",
+  "Sneezy",
+  "Socially Acceptable",
+  "Someone's Daughter",
+  "Songs You Remember",
+  "Spike & The Gimme Gimmes",
+  "Stems on Blondie",
+  "Sunday Cruise X Appleseed",
+  "Sunny Day Soap Opera",
+  "Supertaste",
+  "Terra Nobody",
+  "That 1 Guy",
+  "The Band Feel",
+  "The Dread Crew Of Oddwood",
+  "The Dread Crew of Oddwood",
+  "The Foxtrots",
+  "The Front Desk",
+  "The Generic Version",
+  "The Kings and Queens of King County",
+  "The Lichen Hearts",
+  "The Part Timers",
+  "The Pranksters",
+  "The Stigs",
+  "The Tripwires",
+  "Toadvine",
+  "Tony Piedra",
+  "Too Many Strikers",
+  "Trask",
+  "Two Runner",
+  "Uncle Daddy & the King Tide",
+  "Uniflora",
+  "Victor Wooten and The Wooten Brothers",
+  "Wayne Messmer",
+  "Whores",
+  "Wicked Bears",
+  "WillyPete",
+  "Winefred RT",
+  "Winters Wonderland",
+  "Xyta",
+  "[IVY], Blossom, Oliverse",
+  "bim+bo",
+  "damsel.",
+  "voidtheory",
+  "xSoakedintormentx",
+  "Ripe",
+  "Valhalla",
+  "Krush",
+  "Baby Jane",
+  "Che",
+  "Filth",
+  "Pretoria",
+  "Grover",
+  "Dxrkknght",
+  "Solo Kei",
+  "Late Night Thoughts"
+ ]
+}

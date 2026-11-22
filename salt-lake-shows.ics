@@ -28,7 +28,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:5d4f518a5ad6a69c6e57@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:The Dream Eaters (with Sleep Hostage\, Fuck the Informer) @ Urban L
@@ -41,7 +41,7 @@ URL:https://www.24tix.com/event/norlxte6abblvnplkgmnau5kci
 END:VEVENT
 BEGIN:VEVENT
 UID:c305682695aaef2e2afe@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261119T183000
 DTEND;TZID=America/Denver:20261119T213000
 SUMMARY:Underoath (with As Cities Burn\, Atreyu\, August Burns Red) @ The U
@@ -55,7 +55,7 @@ URL:https://www.songkick.com/concerts/43263113-underoath-at-union-event-cen
 END:VEVENT
 BEGIN:VEVENT
 UID:c80b40648121fae839d3@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261119T190000
 DTEND;TZID=America/Denver:20261119T220000
 SUMMARY:Switchfoot (with Anberlin) @ The Complex
@@ -67,7 +67,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1436210
 END:VEVENT
 BEGIN:VEVENT
 UID:f79b37893584bec1ca7b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261119T200000
 DTEND;TZID=America/Denver:20261119T230000
 SUMMARY:Postmodern Jukebox @ Eccles Theater
@@ -80,7 +80,7 @@ URL:https://thestateroompresents.com/state-room-presents/postmodern-jukebox
 END:VEVENT
 BEGIN:VEVENT
 UID:6452558eb44f5c542d09@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:[SOLD OUT] Jervis Campbell (with Lydi Lynn) @ Kilby Court
@@ -92,7 +92,7 @@ URL:https://www.24tix.com/event/xvjcvwx5rzgdtgsbhxjbyyao4a
 END:VEVENT
 BEGIN:VEVENT
 UID:c9e75ea06adcaea3a735@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Stephen Day (with Elysia Biro) @ Metro Music Hall
@@ -104,7 +104,7 @@ URL:https://www.24tix.com/event/pghuqreye5fwle2tdzc2t25ssq
 END:VEVENT
 BEGIN:VEVENT
 UID:74913e8dd1469b44cc8a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Persona749 (with Seeking the Sun) @ Urban Lounge
@@ -116,7 +116,7 @@ URL:https://www.24tix.com/event/6cagay7rxfd3nm3ktcuu6oqcwu
 END:VEVENT
 BEGIN:VEVENT
 UID:a26d172fab5b18f8a54c@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261120T180000
 DTEND;TZID=America/Denver:20261120T210000
 SUMMARY:State Champs (with Cartel\, Taylor Acorn\, Like Roses) @ The Comple
@@ -129,7 +129,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1485590
 END:VEVENT
 BEGIN:VEVENT
 UID:2a5859e5961494a601d0@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261120T190000
 DTEND;TZID=America/Denver:20261120T220000
 SUMMARY:Shwayze (with Asher Roth\, Chiddy Bang) @ Soundwell
@@ -141,7 +141,7 @@ URL:https://www.eventliveus.com/event/10482
 END:VEVENT
 BEGIN:VEVENT
 UID:114aa59076fc5574c52f@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261120T190000
 DTEND;TZID=America/Denver:20261120T220000
 SUMMARY:Tommy Castro and The Painkillers @ The State Room
@@ -154,7 +154,7 @@ URL:https://thestateroompresents.com/state-room-presents/tommy-castro-and-t
 END:VEVENT
 BEGIN:VEVENT
 UID:656bb5a5529c694490ad@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261120T200000
 DTEND;TZID=America/Denver:20261120T230000
 SUMMARY:TVBOO (with TwoPercent\, Ozztin) @ The Complex
@@ -166,7 +166,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1536704
 END:VEVENT
 BEGIN:VEVENT
 UID:85a269d6b747228f103b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Babe Haven (with Spaced and Scarlet Demore) @ Kilby Court
@@ -178,7 +178,7 @@ URL:https://www.24tix.com/event/lkfuc24pivcnbgx7vuaa3uv324
 END:VEVENT
 BEGIN:VEVENT
 UID:6fcb173ef4140e76e7f6@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Krooked Kings (with future.exboyfriend) @ Metro Music Hall
@@ -190,7 +190,7 @@ URL:https://www.24tix.com/event/uupvp5dkizc55ic4wnlokr7ebu
 END:VEVENT
 BEGIN:VEVENT
 UID:fe562ef58d331192f9fe@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261121T180000
 DTEND;TZID=America/Denver:20261121T210000
 SUMMARY:SAOSIN (with Silent Planet\, Like Moths to Flames\, Save Us) @ The 
@@ -203,7 +203,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1438505
 END:VEVENT
 BEGIN:VEVENT
 UID:d959467c574c85d1beb3@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261121T190000
 DTEND;TZID=America/Denver:20261121T220000
 SUMMARY:Peter Cain @ The Commonwealth Room
@@ -215,7 +215,7 @@ URL:https://thestateroompresents.com/state-room-presents/peter-cain
 END:VEVENT
 BEGIN:VEVENT
 UID:e4602d96c2b889cad1e9@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261121T190000
 DTEND;TZID=America/Denver:20261121T220000
 SUMMARY:almost monday (with feeltrip.) @ The Complex
@@ -227,7 +227,7 @@ URL:https://www.axs.com/events/1497621/almost-monday-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:268999f4f66a8b6359bb@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261121T190000
 DTEND;TZID=America/Denver:20261121T220000
 SUMMARY:Ollie @ Soundwell
@@ -239,7 +239,7 @@ URL:https://www.eventliveus.com/event/10464
 END:VEVENT
 BEGIN:VEVENT
 UID:b92907769b47463887ec@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261121T200000
 DTEND;TZID=America/Denver:20261121T230000
 SUMMARY:Goodnight\, Texas @ The State Room
@@ -251,7 +251,7 @@ URL:https://thestateroompresents.com/state-room-presents/goodnight-texas
 END:VEVENT
 BEGIN:VEVENT
 UID:9f6103ef34b6c9f42eb3@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:[SOLD OUT] Spanish Love Songs (with Kali Masi\, Box Elder) @ Kilby 
@@ -264,7 +264,7 @@ URL:https://www.24tix.com/event/zi674ntharfptc2rq46ednthky
 END:VEVENT
 BEGIN:VEVENT
 UID:79caf336ad3918920703@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Comeback Kid (with CHOSEN HELL\, The Warriors\, Dead Heat\, Time x 
@@ -277,7 +277,7 @@ URL:https://www.24tix.com/event/ombyd4cvtzgtxf36bw2xpn2wdq
 END:VEVENT
 BEGIN:VEVENT
 UID:96e6c77086990af578ce@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261122T180000
 DTEND;TZID=America/Denver:20261122T210000
 SUMMARY:Adelitas Way (with Kingdom Collapse\, Aranda) @ The Complex
@@ -289,7 +289,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1548200
 END:VEVENT
 BEGIN:VEVENT
 UID:a104d80f4b2f17e51a2e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:SAP (with Sludge Mother\, aWannabe) @ Kilby Court
@@ -301,7 +301,7 @@ URL:https://www.24tix.com/event/ky7vaenpfbbajnvqglbkghslja
 END:VEVENT
 BEGIN:VEVENT
 UID:0e798ba4e369d10a2d96@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Clarion (with Novulent) @ Metro Music Hall
@@ -313,7 +313,7 @@ URL:https://www.24tix.com/event/247t5b27z5cmvdskfuyswul5lm
 END:VEVENT
 BEGIN:VEVENT
 UID:71de7c86736b89e75f34@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261123T190000
 DTEND;TZID=America/Denver:20261123T220000
 SUMMARY:2DEAD BOYZ x The Underachievers (with Dizzy Wright) @ The Complex
@@ -325,7 +325,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1608432
 END:VEVENT
 BEGIN:VEVENT
 UID:b001a6e104d15a8a48cd@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Sunny Day Soap Opera (with YOUCH!\, WestMax) @ Kilby Court
@@ -337,7 +337,7 @@ URL:https://www.24tix.com/event/dz6nso46qzfe7ly4uy577cq2yq
 END:VEVENT
 BEGIN:VEVENT
 UID:8e138a5bcce99730d92d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261124T150000
 DTEND;TZID=America/Denver:20261124T180000
 SUMMARY:Trans-Siberian Orchestra @ Delta Center
@@ -349,7 +349,7 @@ URL:https://www.deltacenter.com/events/trans-siberian-orchestra/
 END:VEVENT
 BEGIN:VEVENT
 UID:62043c0a2ea5b32305dc@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261124T190000
 DTEND;TZID=America/Denver:20261124T220000
 SUMMARY:Clara La San (with Sausha) @ The Complex
@@ -361,7 +361,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1566312
 END:VEVENT
 BEGIN:VEVENT
 UID:c3759ff8da6846f77a6e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261124T190000
 DTEND;TZID=America/Denver:20261124T220000
 SUMMARY:The Pranksters @ The Depot
@@ -375,7 +375,7 @@ URL:https://www.ticketmaster.com/the-pranksters-salt-lake-city-utah-11-24-2
 END:VEVENT
 BEGIN:VEVENT
 UID:cb9122fc3850dc32bac9@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261124T193000
 DTEND;TZID=America/Denver:20261124T223000
 SUMMARY:Trans-Siberian Orchestra @ Delta Center
@@ -387,7 +387,7 @@ URL:https://www.deltacenter.com/events/trans-siberian-orchestra-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:e67ec4ba865bcb16dea5@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Valhalla (with SOON\, Pine District) @ Kilby Court
@@ -399,7 +399,7 @@ URL:https://www.24tix.com/event/jtni5vvzqvd5xobcbrmqiish3y
 END:VEVENT
 BEGIN:VEVENT
 UID:641c3a036e7d36f4af14@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Dysregulation (with The Apathetics\, The Mutiny) @ Urban Lounge
@@ -411,7 +411,7 @@ URL:https://www.24tix.com/event/4wluyb2aoveurnbvld6ra6i22a
 END:VEVENT
 BEGIN:VEVENT
 UID:c2e1ad87f42a7e09e3b1@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261125T210000
 DTEND;TZID=America/Denver:20261126T000000
 SUMMARY:Krush @ The Depot
@@ -424,7 +424,7 @@ URL:https://www.ticketmaster.com/krush-salt-lake-city-utah-11-25-2026/event
 END:VEVENT
 BEGIN:VEVENT
 UID:a6f75e092f808e46b15d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:[SOLD OUT] Daisy Grenade (with Boyish) @ Kilby Court
@@ -436,7 +436,7 @@ URL:https://www.24tix.com/event/mlnb4dqhkbbidhzacj66fwq2ey
 END:VEVENT
 BEGIN:VEVENT
 UID:df90c79af093d8a75644@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Distant (with Heavy//Hitter\, Katywentmissing\, Torn Open) @ Urban 
@@ -449,7 +449,7 @@ URL:https://www.24tix.com/event/5334pbidsjc6tczjpccss5nkae
 END:VEVENT
 BEGIN:VEVENT
 UID:2fb31cf4b29d941b7c48@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261127T140000
 DTEND;TZID=America/Denver:20261127T170000
 SUMMARY:Gentri @ Eccles Theater
@@ -461,7 +461,7 @@ URL:https://thestateroompresents.com/state-room-presents/gentri-2
 END:VEVENT
 BEGIN:VEVENT
 UID:e75916189897d3a993d7@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261127T180000
 DTEND;TZID=America/Denver:20261127T210000
 SUMMARY:Senses Fail Presents Still Searching @ The Depot
@@ -475,7 +475,7 @@ URL:https://www.ticketmaster.com/senses-fail-presents-still-searching-salt-
 END:VEVENT
 BEGIN:VEVENT
 UID:be4c019aa0958791922a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261127T183000
 DTEND;TZID=America/Denver:20261127T213000
 SUMMARY:Boston Manor (with Ben Quad\, Super Sometimes) @ The Complex
@@ -487,7 +487,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1463669
 END:VEVENT
 BEGIN:VEVENT
 UID:924d3365c18844df5340@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261127T190000
 DTEND;TZID=America/Denver:20261127T220000
 SUMMARY:Cat Clyde & Dean Johnson @ The State Room
@@ -500,7 +500,7 @@ URL:https://thestateroompresents.com/state-room-presents/cat-clyde-dean-joh
 END:VEVENT
 BEGIN:VEVENT
 UID:789d0e88ddb3e6f96182@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261127T210000
 DTEND;TZID=America/Denver:20261128T000000
 SUMMARY:Yheti b2b Toadface Sleight of Sound Tour (with Flintwick) @ Soundwe
@@ -513,7 +513,7 @@ URL:https://www.eventliveus.com/event/10552/yhetiandtoadface
 END:VEVENT
 BEGIN:VEVENT
 UID:03dbaee569e5e3a62d0d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Tommy Fleece (with Yes Reserv) @ Kilby Court
@@ -525,7 +525,7 @@ URL:https://www.24tix.com/event/iz6pe37f5rgn5kitxhtfsailtq
 END:VEVENT
 BEGIN:VEVENT
 UID:3d3d68db35e4cf5adefd@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Amorphis & Insomnium (with Hinayana) @ Metro Music Hall
@@ -537,7 +537,7 @@ URL:https://www.24tix.com/event/kjhfn6bgkjf3pavxvgdke3blxa
 END:VEVENT
 BEGIN:VEVENT
 UID:af92cea2b8664f1d04dc@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261128T190000
 DTEND;TZID=America/Denver:20261128T220000
 SUMMARY:Royal Bliss Annual Hometown Thanksgiving Bash @ The Depot
@@ -551,7 +551,7 @@ URL:https://www.ticketmaster.com/royal-bliss-annual-hometown-thanksgiving-b
 END:VEVENT
 BEGIN:VEVENT
 UID:e8ce8e2431802c6897ac@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261128T190000
 DTEND;TZID=America/Denver:20261128T220000
 SUMMARY:Cat Clyde & Dean Johnson @ The State Room
@@ -564,7 +564,7 @@ URL:https://thestateroompresents.com/state-room-presents/cat-clyde-dean-joh
 END:VEVENT
 BEGIN:VEVENT
 UID:eb4fc7004c74770ed38f@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261128T210000
 DTEND;TZID=America/Denver:20261129T000000
 SUMMARY:Rinzen (with Parker Andriese) @ Soundwell
@@ -576,7 +576,7 @@ URL:https://www.eventliveus.com/event/10497/rinzen
 END:VEVENT
 BEGIN:VEVENT
 UID:9ccb0f81aef0d3ec5457@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:LETDOWN. (with Luchiano\, Sikarus\, Poe The Passenger) @ Kilby Cour
@@ -589,7 +589,7 @@ URL:https://www.24tix.com/event/fyd5clfbrnc3ncyi32hyt7vvza
 END:VEVENT
 BEGIN:VEVENT
 UID:a1816415d85ed0e5834b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261129T180000
 DTEND;TZID=America/Denver:20261129T210000
 SUMMARY:Alter Bridge (with Big Wreck\, Tim Montana) @ The Complex
@@ -601,7 +601,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1457692
 END:VEVENT
 BEGIN:VEVENT
 UID:0bd1336a07ac592c90d3@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Merryweather (with TwinBorn\, FAKER) @ Kilby Court
@@ -613,7 +613,7 @@ URL:https://www.24tix.com/event/gk2oritprfdmfbhuyy4v4um2ee
 END:VEVENT
 BEGIN:VEVENT
 UID:26f596009e65d7f779a6@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Bodysnatcher (with Gideon\, Psycho-Frame\, Volatile Ways) @ Metro M
@@ -626,7 +626,7 @@ URL:https://www.24tix.com/event/4dvkme54nrbclfezazmbeeucaa
 END:VEVENT
 BEGIN:VEVENT
 UID:30b6f12e4f45fc362537@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261130T193000
 DTEND;TZID=America/Denver:20261130T223000
 SUMMARY:A Mat and Savanna Christmas @ Eccles Theater
@@ -639,7 +639,7 @@ URL:https://thestateroompresents.com/state-room-presents/a-mat-and-savanna-
 END:VEVENT
 BEGIN:VEVENT
 UID:50ac73ffa90af780bbb3@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Catie Turner (with Kiss Bang) @ Kilby Court
@@ -651,7 +651,7 @@ URL:https://www.24tix.com/event/coirxmdhsbachharjz5ugytlqa
 END:VEVENT
 BEGIN:VEVENT
 UID:8886b48af74b09e6f2b6@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Ladrones (with Empty Shell Casing) @ Urban Lounge
@@ -663,7 +663,7 @@ URL:https://www.24tix.com/event/2w34djiyxjd25aqtzzmaoam6zy
 END:VEVENT
 BEGIN:VEVENT
 UID:832b9a67ff8a9a980f6c@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261201T190000
 DTEND;TZID=America/Denver:20261201T220000
 SUMMARY:Ladrones (with Empty Shell Casing) @ The Depot
@@ -675,7 +675,7 @@ URL:https://www.songkick.com/concerts/43505813-ladrones-mx-at-depot
 END:VEVENT
 BEGIN:VEVENT
 UID:77f74cccf68637f5c893@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261201T190000
 DTEND;TZID=America/Denver:20261201T220000
 SUMMARY:Jenny Oaks Baker @ Eccles Theater
@@ -687,7 +687,7 @@ URL:https://thestateroompresents.com/state-room-presents/jenny-oats-baker
 END:VEVENT
 BEGIN:VEVENT
 UID:6c7bef93716c2985cd30@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261201T190000
 DTEND;TZID=America/Denver:20261201T220000
 SUMMARY:Imminence (with Dying Wish\, GAEREA) @ The Union Event Center
@@ -700,7 +700,7 @@ URL:https://www.songkick.com/concerts/43278940-imminence-at-union-event-cen
 END:VEVENT
 BEGIN:VEVENT
 UID:0f7bb0a1eb969f05b129@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Wishy (with The Umbrellas) @ Kilby Court
@@ -712,7 +712,7 @@ URL:https://www.24tix.com/event/3fro4oivzfdchgw3clbgycxtuq
 END:VEVENT
 BEGIN:VEVENT
 UID:8fd449376381115fc307@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Chase Petra (with Jer\, Leisure Hour) @ Metro Music Hall
@@ -724,7 +724,7 @@ URL:https://www.24tix.com/event/s2xehyge45gdzi4uw4gb3f2byq
 END:VEVENT
 BEGIN:VEVENT
 UID:6d61273f209cf54140fe@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:HARBOUR @ Urban Lounge
@@ -736,7 +736,7 @@ URL:https://www.24tix.com/event/qxsjlec6pzex3l4kxs2er2iw3a
 END:VEVENT
 BEGIN:VEVENT
 UID:e06efb3c6c5262e191d6@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261202T190000
 DTEND;TZID=America/Denver:20261202T220000
 SUMMARY:[SOLD OUT] Frost Children @ The Depot
@@ -750,7 +750,7 @@ URL:https://www.ticketmaster.com/frost-children-salt-lake-city-utah-12-02-2
 END:VEVENT
 BEGIN:VEVENT
 UID:926b10058fde601fd7be@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261202T190000
 DTEND;TZID=America/Denver:20261202T220000
 SUMMARY:The Fretliners @ The State Room
@@ -762,7 +762,7 @@ URL:https://thestateroompresents.com/state-room-presents/the-fretliners
 END:VEVENT
 BEGIN:VEVENT
 UID:80c894e87de55294d505@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:CAMO (with SEIZER\, The Masse Marine) @ Kilby Court
@@ -774,7 +774,7 @@ URL:https://www.24tix.com/event/ged3dj4kunf2pia5l34pmnomou
 END:VEVENT
 BEGIN:VEVENT
 UID:a3a5e93a901dd0f6fe42@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Father Of Peace (with Roe Kapara) @ Metro Music Hall
@@ -786,7 +786,7 @@ URL:https://www.24tix.com/event/2q2j2isw7jeeham7svzyz5ejm4
 END:VEVENT
 BEGIN:VEVENT
 UID:91951ef38026de8afc94@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Maximum Unlimited (with BC Bustamante\, The Hit) @ Urban Lounge
@@ -798,7 +798,7 @@ URL:https://www.24tix.com/event/5p5upgucx5a4bmrp3ex2z4xfhq
 END:VEVENT
 BEGIN:VEVENT
 UID:dd83d0d0af7a7f677297@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261203T180000
 DTEND;TZID=America/Denver:20261203T210000
 SUMMARY:Whitechapel (with Chelsea Grin\, The Acacia Strain) @ The Union Eve
@@ -812,7 +812,7 @@ URL:https://www.songkick.com/concerts/43271377-whitechapel-at-union-event-c
 END:VEVENT
 BEGIN:VEVENT
 UID:a1ff87833b44a0e79af2@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261203T193000
 DTEND;TZID=America/Denver:20261203T223000
 SUMMARY:Kurt Bestor @ Eccles Theater
@@ -824,7 +824,7 @@ URL:https://thestateroompresents.com/state-room-presents/kurt-bestor
 END:VEVENT
 BEGIN:VEVENT
 UID:880c33999b856753ade3@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Thoughts On Bowling (with Softly\, HummusVacuum\, MooseCreek Park) 
@@ -837,7 +837,7 @@ URL:https://www.24tix.com/event/kjwizz5utvfsrocskxmnvlbz54
 END:VEVENT
 BEGIN:VEVENT
 UID:453a274a8badfbff64f0@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Over Under (with BONNEVILLE\, Dogpaw) @ Metro Music Hall
@@ -849,7 +849,7 @@ URL:https://www.24tix.com/event/yifcxjttcrabfbbfk5oxmrncsa
 END:VEVENT
 BEGIN:VEVENT
 UID:5009d4d209fb42296620@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261204T170000
 DTEND;TZID=America/Denver:20261204T200000
 SUMMARY:[SOLD OUT] YAELOKRE (with Ben Caplan) @ Soundwell
@@ -861,7 +861,7 @@ URL:https://tixr.com/e/194974
 END:VEVENT
 BEGIN:VEVENT
 UID:a97e656b8076260c5a8a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261204T183000
 DTEND;TZID=America/Denver:20261204T213000
 SUMMARY:AJ McLean (with DJ Gab Wright\, Matt Bloyd) @ The Complex
@@ -873,7 +873,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1497619
 END:VEVENT
 BEGIN:VEVENT
 UID:25349f491f55e4947507@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261204T190000
 DTEND;TZID=America/Denver:20261204T220000
 SUMMARY:Bryan Andrews @ The Commonwealth Room
@@ -885,7 +885,7 @@ URL:https://thestateroompresents.com/state-room-presents/bryan-andrews
 END:VEVENT
 BEGIN:VEVENT
 UID:312675be74f5a6474764@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261204T210000
 DTEND;TZID=America/Denver:20261205T000000
 SUMMARY:Virtual Riot & Blanke @ The Complex
@@ -897,7 +897,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1497631
 END:VEVENT
 BEGIN:VEVENT
 UID:ec77d7be9cba5befeea0@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Amelia McLelland Band (with Grace Wawro\, Girl with Bread) @ Kilby 
@@ -910,7 +910,7 @@ URL:https://www.24tix.com/event/a4skf6itjrgdlhhryg7fusbz2a
 END:VEVENT
 BEGIN:VEVENT
 UID:353ca59ba53add246711@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Tiny Habits (with Marie Dresselhuis) @ Metro Music Hall
@@ -922,7 +922,7 @@ URL:https://www.24tix.com/event/yu2gebbv7nd43it4oqcagf2xau
 END:VEVENT
 BEGIN:VEVENT
 UID:d298fc1f16f0538182de@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Willi Carlisle (with Amelia Day) @ Urban Lounge
@@ -934,7 +934,7 @@ URL:https://www.24tix.com/event/eh72dyutyraerfinvp3ty4nkf4
 END:VEVENT
 BEGIN:VEVENT
 UID:84d17345f7a0f3d8d520@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261205T180000
 DTEND;TZID=America/Denver:20261205T210000
 SUMMARY:Suicide Silence (with Emmure\, AngelMaker\, Synestia) @ The Complex
@@ -946,7 +946,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1525658
 END:VEVENT
 BEGIN:VEVENT
 UID:27846536a1f0fc6c4d4c@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261205T190000
 DTEND;TZID=America/Denver:20261205T220000
 SUMMARY:Matt Hansen (with Ashley Singh) @ The Depot
@@ -960,7 +960,7 @@ URL:https://www.ticketmaster.com/matt-hansen-the-orchid-tour-salt-lake-city
 END:VEVENT
 BEGIN:VEVENT
 UID:75af7a515db6fe0ba774@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261205T200000
 DTEND;TZID=America/Denver:20261205T230000
 SUMMARY:Oliver Hazard @ The State Room
@@ -972,7 +972,7 @@ URL:https://thestateroompresents.com/state-room-presents/oliver-hazard
 END:VEVENT
 BEGIN:VEVENT
 UID:08d51ef0d9a33fe374f1@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261205T210000
 DTEND;TZID=America/Denver:20261206T000000
 SUMMARY:JSTJR (with Ionic\, 54die) @ The Complex
@@ -984,7 +984,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1602547
 END:VEVENT
 BEGIN:VEVENT
 UID:ec0e7a29d741bdd635d8@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261205T210000
 DTEND;TZID=America/Denver:20261206T000000
 SUMMARY:DENNETT @ Soundwell
@@ -996,7 +996,7 @@ URL:https://www.eventliveus.com/event/10508/dennett
 END:VEVENT
 BEGIN:VEVENT
 UID:0900220e2d10b2eb829b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Fat\, Evil Children (with World Record) @ Kilby Court
@@ -1008,7 +1008,7 @@ URL:https://www.24tix.com/event/hnmngxeeufekbbe2esq4xdmjd4
 END:VEVENT
 BEGIN:VEVENT
 UID:149df37b5477423f89aa@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:The Dread Crew Of Oddwood @ Metro Music Hall
@@ -1020,7 +1020,7 @@ URL:https://www.24tix.com/event/24jfqevov5cazbh45724ay6ewu
 END:VEVENT
 BEGIN:VEVENT
 UID:de89c4fa08e558f63d76@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261206T190000
 DTEND;TZID=America/Denver:20261206T220000
 SUMMARY:the olllam @ The State Room
@@ -1032,7 +1032,7 @@ URL:https://thestateroompresents.com/state-room-presents/the-olllam
 END:VEVENT
 BEGIN:VEVENT
 UID:4185447d610277b6ff0f@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Mexican Hockey @ Kilby Court
@@ -1044,7 +1044,7 @@ URL:https://www.24tix.com/event/mtnmjp6hgfedzdz5ywzsoogbya
 END:VEVENT
 BEGIN:VEVENT
 UID:ab1b68278985a19218ff@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261207T193000
 DTEND;TZID=America/Denver:20261207T223000
 SUMMARY:Jonas Brothers @ Delta Center
@@ -1056,7 +1056,7 @@ URL:https://www.deltacenter.com/events/jonas-brothers/
 END:VEVENT
 BEGIN:VEVENT
 UID:1756e6d42aed11a14d5d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261208T190000
 DTEND;TZID=America/Denver:20261208T220000
 SUMMARY:Night Lovell (with 1nonly) @ The Complex
@@ -1068,7 +1068,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1622826
 END:VEVENT
 BEGIN:VEVENT
 UID:6b7ce923f2f32ff360d8@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261208T200000
 DTEND;TZID=America/Denver:20261208T230000
 SUMMARY:Pokey LaFarge @ The Commonwealth Room
@@ -1080,7 +1080,7 @@ URL:https://thestateroompresents.com/state-room-presents/pokey-lafarge-2
 END:VEVENT
 BEGIN:VEVENT
 UID:ccdda5d60981cbe96224@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261208T200000
 DTEND;TZID=America/Denver:20261208T230000
 SUMMARY:Victor Wooten and The Wooten Brothers @ The State Room
@@ -1093,7 +1093,7 @@ URL:https://thestateroompresents.com/state-room-presents/the-wooten-brother
 END:VEVENT
 BEGIN:VEVENT
 UID:7974c7a4fc2f50a642ae@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Wicked Bears (with Victory Lungs\, Glue Coast) @ Kilby Court
@@ -1105,7 +1105,7 @@ URL:https://www.24tix.com/event/yqor7j7jsza6dhjh2hfu57oyy4
 END:VEVENT
 BEGIN:VEVENT
 UID:0177dc8db7b3f13967bd@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Guilt Trip (with Gates To Hell\, Mauled) @ Metro Music Hall
@@ -1117,7 +1117,7 @@ URL:https://www.24tix.com/event/6baye7hvjncvpmoxpkx4z3a6ru
 END:VEVENT
 BEGIN:VEVENT
 UID:fb25e0666d69711173c8@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Lesser Moose @ Urban Lounge
@@ -1129,7 +1129,7 @@ URL:https://www.24tix.com/event/wupzl6bgbbg7nidmsfvqqqxjym
 END:VEVENT
 BEGIN:VEVENT
 UID:3d3f10442d394beef052@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261209T183000
 DTEND;TZID=America/Denver:20261209T213000
 SUMMARY:DragonForce @ The Depot
@@ -1143,7 +1143,7 @@ URL:https://www.ticketmaster.com/dragonforce-inhuman-rampage-20th-anniversa
 END:VEVENT
 BEGIN:VEVENT
 UID:900281e8240b4f841d56@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261209T190000
 DTEND;TZID=America/Denver:20261209T220000
 SUMMARY:Trippie Redd (with TopOppGen\, K Suave\, BalloutDaDon\, Gigi Hollan
@@ -1156,7 +1156,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1619467
 END:VEVENT
 BEGIN:VEVENT
 UID:502419bf2f14ed8d800c@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:[SOLD OUT] Josie Edwards (with Hudson Ingram) @ Kilby Court
@@ -1166,7 +1166,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:adb8ac794ca3a75c9902@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:The Kilans (with Margot Sinclair) @ Metro Music Hall
@@ -1178,7 +1178,7 @@ URL:https://www.24tix.com/event/7xud3vpoinbm5mnvahy5dhxuaq
 END:VEVENT
 BEGIN:VEVENT
 UID:128e904a244385dbb46a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261210T190000
 DTEND;TZID=America/Denver:20261210T220000
 SUMMARY:3BallMTY @ The Complex
@@ -1190,7 +1190,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1603067
 END:VEVENT
 BEGIN:VEVENT
 UID:4ea4453c21b3b800737f@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Alison's Halo (with Cathedral Bells) @ Kilby Court
@@ -1202,7 +1202,7 @@ URL:https://www.24tix.com/event/n3r32lb3bnbnfgnehyhp5woxc4
 END:VEVENT
 BEGIN:VEVENT
 UID:ae8c85ebbfe4a2202a3a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261211T190000
 DTEND;TZID=America/Denver:20261211T220000
 SUMMARY:Ripe (with 19 Miles Per Hour) @ Soundwell
@@ -1214,7 +1214,7 @@ URL:https://www.eventliveus.com/event/10536/ripe
 END:VEVENT
 BEGIN:VEVENT
 UID:65e56d9ab2609122049f@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261211T200000
 DTEND;TZID=America/Denver:20261211T230000
 SUMMARY:Barely Alive (with Smoakland\, Edison Cole) @ The Complex
@@ -1226,7 +1226,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1566046
 END:VEVENT
 BEGIN:VEVENT
 UID:291285478afa65eb893a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Sunday Cruise X Appleseed (with Dino Gala\, Friend) @ Kilby Court
@@ -1238,7 +1238,7 @@ URL:https://www.24tix.com/event/fyj77vrsorb5bchqcl7rbmhx2u
 END:VEVENT
 BEGIN:VEVENT
 UID:ed51d69b4da99b576ff8@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Born Of Osiris X Miss May I (with Convictions\, Downswing) @ Metro 
@@ -1251,7 +1251,7 @@ URL:https://www.24tix.com/event/i77mjwcr7nbe7k2nxzr2qhas4i
 END:VEVENT
 BEGIN:VEVENT
 UID:1b3b1cbb9aeb168a380e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261212T200000
 DTEND;TZID=America/Denver:20261212T230000
 SUMMARY:SoDown (with Phyphr) @ The Complex
@@ -1263,7 +1263,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1551449
 END:VEVENT
 BEGIN:VEVENT
 UID:fe448efb1a8d1451e671@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261212T210000
 DTEND;TZID=America/Denver:20261213T000000
 SUMMARY:Midnight T @ Soundwell
@@ -1275,7 +1275,7 @@ URL:https://www.eventliveus.com/event/10600/midnightt
 END:VEVENT
 BEGIN:VEVENT
 UID:a6375f7ee4dcdd46fa98@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Mother Soki (with Girlfriend\, Wife) @ Kilby Court
@@ -1287,7 +1287,7 @@ URL:https://www.24tix.com/event/pyr4ua7nubdsnk3dhd7etcps3a
 END:VEVENT
 BEGIN:VEVENT
 UID:f7588cd9d47447669501@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261214T173000
 DTEND;TZID=America/Denver:20261214T203000
 SUMMARY:Honey Revenge X Dead Poet Society (with Hunny\, Broadside) @ The Co
@@ -1300,7 +1300,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1536061
 END:VEVENT
 BEGIN:VEVENT
 UID:b35bc5ca9b03e740c234@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Anna Beck @ Kilby Court
@@ -1312,7 +1312,7 @@ URL:https://www.24tix.com/event/uasdzklsqbdkvgxebapzyvivei
 END:VEVENT
 BEGIN:VEVENT
 UID:70e4dd490b46b009a652@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Milk & Bone (with Girl From The Interstate) @ Kilby Court
@@ -1324,7 +1324,7 @@ URL:https://www.24tix.com/event/5xkachbkt5ca7o3ks5xzetkusq
 END:VEVENT
 BEGIN:VEVENT
 UID:b8a7d2a51abe673c318a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Save Ferris @ Metro Music Hall
@@ -1336,7 +1336,7 @@ URL:https://www.24tix.com/event/wp3bmc7j2nd4jbaw4wze6yzgjy
 END:VEVENT
 BEGIN:VEVENT
 UID:2375771aeafbafdc6440@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Cal Cook (with Micah Willis\, Roo Nostalgia\, Dawn) @ Urban Lounge
@@ -1348,7 +1348,7 @@ URL:https://www.24tix.com/event/lguedvv3vvegxol6p4mpuhyou4
 END:VEVENT
 BEGIN:VEVENT
 UID:0f12fd7c8113f0b86c3c@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261216T190000
 DTEND;TZID=America/Denver:20261216T220000
 SUMMARY:Buffalo Traffic Jam (with Sons of Habit\, Lydia Maes) @ The Complex
@@ -1360,7 +1360,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1438472
 END:VEVENT
 BEGIN:VEVENT
 UID:90321f19c17772628dd4@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Balduvian Bears (with Brutalust\, The Midnite Judges\, Men In The K
@@ -1373,7 +1373,7 @@ URL:https://www.24tix.com/event/qifznz7p6nf4pcewghrfbln2k4
 END:VEVENT
 BEGIN:VEVENT
 UID:849926353a69f3a82198@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261217T190000
 DTEND;TZID=America/Denver:20261217T220000
 SUMMARY:The Last Wild Buffalo @ The State Room
@@ -1386,7 +1386,7 @@ URL:https://thestateroompresents.com/state-room-presents/the-last-wild-buff
 END:VEVENT
 BEGIN:VEVENT
 UID:ca22d4e62c47361042bc@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Girlfriends (with rosecoloredworld) @ Kilby Court
@@ -1398,7 +1398,7 @@ URL:https://www.24tix.com/event/afllocharfcjvjps2lv4hsm3ey
 END:VEVENT
 BEGIN:VEVENT
 UID:0b59f2759e37c4bb5a28@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:The Rodeo Boys (with The Rubes) @ Urban Lounge
@@ -1410,7 +1410,7 @@ URL:https://www.24tix.com/event/xpxff4bhpnevjkgsbwdeqccahy
 END:VEVENT
 BEGIN:VEVENT
 UID:b7504c2991b58e923f79@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261218T190000
 DTEND;TZID=America/Denver:20261218T220000
 SUMMARY:JD McPherson @ The Commonwealth Room
@@ -1422,7 +1422,7 @@ URL:https://thestateroompresents.com/state-room-presents/jd-mcpherson-3
 END:VEVENT
 BEGIN:VEVENT
 UID:350c029beea0786a6ae0@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261218T190000
 DTEND;TZID=America/Denver:20261218T220000
 SUMMARY:Patterson Hood @ The State Room
@@ -1434,7 +1434,7 @@ URL:https://thestateroompresents.com/state-room-presents/patterson-hood-3
 END:VEVENT
 BEGIN:VEVENT
 UID:38112433d483f8e0309a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Cutie (with Allo Monroe) @ Kilby Court
@@ -1446,7 +1446,7 @@ URL:https://www.24tix.com/event/m5dpl7whrffs7p6lzv34pmbfmq
 END:VEVENT
 BEGIN:VEVENT
 UID:06fa4421911605ad9791@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261219T190000
 DTEND;TZID=America/Denver:20261219T220000
 SUMMARY:The Grouch (with Brother Ali\, Lyrics Born) @ The Complex
@@ -1458,7 +1458,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1597351
 END:VEVENT
 BEGIN:VEVENT
 UID:56ee35183b6baabf384d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Misdemeanor @ Kilby Court
@@ -1470,7 +1470,7 @@ URL:https://www.24tix.com/event/gfwlwqyr5be27ckkkh5y2tbbdu
 END:VEVENT
 BEGIN:VEVENT
 UID:0f5806406f354ff2f4c1@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Graveyard Violet (with PinkTooth\, Psyche's Cypher) @ Kilby Court
@@ -1482,7 +1482,7 @@ URL:https://www.24tix.com/event/57t6rg2u35csfpahi4zgup73eq
 END:VEVENT
 BEGIN:VEVENT
 UID:2b8df4fd6b8bf7c2c0ef@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Ganymede (with Gene Freak\, Pine District\, What Goes) @ Kilby Cour
@@ -1495,7 +1495,7 @@ URL:https://www.24tix.com/event/4vpevsrhwrhxnlgmsiradwvmga
 END:VEVENT
 BEGIN:VEVENT
 UID:fe6c085f9d260990fc0d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:The Narcs (with Hejira\, Tame Dog) @ Kilby Court
@@ -1507,7 +1507,7 @@ URL:https://www.24tix.com/event/l3ayddhuiff2jee6h3u4xzzgvm
 END:VEVENT
 BEGIN:VEVENT
 UID:3457e3d728a68d2f0995@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261226T140000
 DTEND;TZID=America/Denver:20261226T170000
 SUMMARY:Mannheim Steamroller Christmas @ Eccles Theater
@@ -1520,7 +1520,7 @@ URL:https://thestateroompresents.com/state-room-presents/mannheim-steamroll
 END:VEVENT
 BEGIN:VEVENT
 UID:2e6f1b3d220f0004c02e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Mabel Elmore (with Bella Woods\, PANTS) @ Kilby Court
@@ -1532,7 +1532,7 @@ URL:https://www.24tix.com/event/zinyck4m2rd5lpvuod4qfmeipa
 END:VEVENT
 BEGIN:VEVENT
 UID:32ab8417f212ce2b900d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Snav! (with PLUMERIA\, BAGHEAD\, DO NOT RESUSCITATE) @ Kilby Court
@@ -1544,7 +1544,7 @@ URL:https://www.24tix.com/event/3ezdhohyxbhixbytjbupscakbi
 END:VEVENT
 BEGIN:VEVENT
 UID:ac64d5b369701ccf3600@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Mall Security (with Waterlogged\, Calling Card) @ Kilby Court
@@ -1556,7 +1556,7 @@ URL:https://www.24tix.com/event/r5ncoxqpizc5rhubklvsr3exvy
 END:VEVENT
 BEGIN:VEVENT
 UID:b081954f74478588d5fb@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261230T200000
 DTEND;TZID=America/Denver:20261230T230000
 SUMMARY:ISOxo @ The Complex
@@ -1568,7 +1568,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1629384
 END:VEVENT
 BEGIN:VEVENT
 UID:3855976820e1dd719399@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Hurtado (with Seeking The Sun\, Stage Fright) @ Kilby Court
@@ -1580,7 +1580,7 @@ URL:https://www.24tix.com/event/a27t3raijzfx5bdsrqwt4detce
 END:VEVENT
 BEGIN:VEVENT
 UID:4006f1f955a3fe76c323@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261231T190000
 DTEND;TZID=America/Denver:20261231T220000
 SUMMARY:Josh Baker @ The Complex
@@ -1592,7 +1592,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1631731
 END:VEVENT
 BEGIN:VEVENT
 UID:71a0947d199c3ffa74dd@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20261231T200000
 DTEND;TZID=America/Denver:20261231T230000
 SUMMARY:Karl Denson's AfroSonic New Year's Eve @ The Commonwealth Room
@@ -1606,7 +1606,7 @@ URL:https://thestateroompresents.com/state-room-presents/karl-densons-afros
 END:VEVENT
 BEGIN:VEVENT
 UID:f36b9c5b462d699a08f9@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:HATCHBACK @ Kilby Court
@@ -1618,7 +1618,7 @@ URL:https://www.24tix.com/event/egfp53o2qnfvnidntaoahwmr44
 END:VEVENT
 BEGIN:VEVENT
 UID:15183d19020fad639daa@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270101T200000
 DTEND;TZID=America/Denver:20270101T230000
 SUMMARY:Klangkuenstler @ The Complex
@@ -1630,7 +1630,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1631742
 END:VEVENT
 BEGIN:VEVENT
 UID:7a18bd1aa0b1706d435e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
 SUMMARY:Eagle Twin (with Oxcross\, LAST) @ Urban Lounge
@@ -1642,7 +1642,7 @@ URL:https://www.24tix.com/event/7ubnzki7nbgelot3cnjoj6wwqy
 END:VEVENT
 BEGIN:VEVENT
 UID:b3dac77f4730cdc2fafd@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270102T200000
 DTEND;TZID=America/Denver:20270102T230000
 SUMMARY:KETTAMA @ The Complex
@@ -1654,7 +1654,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1632095
 END:VEVENT
 BEGIN:VEVENT
 UID:7a8b03825bfd767eccaf@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:JD No AP @ Kilby Court
@@ -1666,7 +1666,7 @@ URL:https://www.24tix.com/event/mdsj34hnevfy7g32awvobwnmay
 END:VEVENT
 BEGIN:VEVENT
 UID:d1bc0c102fc820eaba57@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Church Of Julia (with Mad Chick Magnets\, We Met Fate) @ Kilby Cour
@@ -1679,7 +1679,7 @@ URL:https://www.24tix.com/event/7qhbhb763jc7fkdzdqmcno46ci
 END:VEVENT
 BEGIN:VEVENT
 UID:6c98599bf88c2ab81240@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:The Hit (with fossil\, bandinmyroom) @ Urban Lounge
@@ -1691,7 +1691,7 @@ URL:https://www.24tix.com/event/b5uquighvnc4te5y44i2o3frya
 END:VEVENT
 BEGIN:VEVENT
 UID:6d81de0475208662f46e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Robo Pumpkin (with Melancholy Club\, Women In Peril\, Camp Ghost) @
@@ -1704,7 +1704,7 @@ URL:https://www.24tix.com/event/of4vtwpcrfduhchopcvopmmdiu
 END:VEVENT
 BEGIN:VEVENT
 UID:86e4256ad6802893ba61@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270110T190000
 DTEND;TZID=America/Denver:20270110T220000
 SUMMARY:Patty Griffin @ The State Room
@@ -1716,7 +1716,7 @@ URL:https://thestateroompresents.com/state-room-presents/patty-griffin
 END:VEVENT
 BEGIN:VEVENT
 UID:260ff5cc978013bdf095@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 SUMMARY:Kamden Freeman (with Nicole Canaan\, Kal Mara) @ Kilby Court
@@ -1728,7 +1728,7 @@ URL:https://www.24tix.com/event/yylxrjeufjcmxdzzq5smjdzhp4
 END:VEVENT
 BEGIN:VEVENT
 UID:347d28fa20da615a7b6d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Drunk In June (with Herring\, Fairly Often) @ Kilby Court
@@ -1740,7 +1740,7 @@ URL:https://www.24tix.com/event/jpgqe5byrnaxbot63row34qnmy
 END:VEVENT
 BEGIN:VEVENT
 UID:fc61ef7e7bc7df872f55@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Watterson (with Shag\, Yarrow) @ Kilby Court
@@ -1752,7 +1752,7 @@ URL:https://www.24tix.com/event/i5myqk6defggtgngntewsqgep4
 END:VEVENT
 BEGIN:VEVENT
 UID:b3a04a8232da69dbb32e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:CAYSN (with Always Her\, miicah) @ Kilby Court
@@ -1764,7 +1764,7 @@ URL:https://www.24tix.com/event/ffbeqr6cejdebcpk35hm4x5cgy
 END:VEVENT
 BEGIN:VEVENT
 UID:b12a25535b63aeb17982@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Wolves in the Throne Room (with Stygian Bough\, Spirit Possession) 
@@ -1777,7 +1777,7 @@ URL:https://www.24tix.com/event/ftmsdwwbcfbz3gregpjsc2wrku
 END:VEVENT
 BEGIN:VEVENT
 UID:12ded5cddec9b338322d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Burial Site @ Urban Lounge
@@ -1789,7 +1789,7 @@ URL:https://www.24tix.com/event/w6t6vd325re65jcdejsekt6vw4
 END:VEVENT
 BEGIN:VEVENT
 UID:efe438bad6338e2bddf2@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Skiimo (with Nadezdha\, Tampa Chess Club\, Glue Coast) @ Kilby Cour
@@ -1802,7 +1802,7 @@ URL:https://www.24tix.com/event/ysadulimwvfwhkd5llathneeg4
 END:VEVENT
 BEGIN:VEVENT
 UID:b953188523e82b34e95e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270115T210000
 DTEND;TZID=America/Denver:20270116T000000
 SUMMARY:Ian Asher @ The Complex
@@ -1814,7 +1814,7 @@ URL:https://www.axs.com/events/1705093/ian-asher-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:98b1519d76d6452d0989@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Hurry Up & Wait (with Mom Dad and Me\, Lila Daines) @ Kilby Court
@@ -1826,7 +1826,7 @@ URL:https://www.24tix.com/event/25oroarn55chpkggatq5oi5pka
 END:VEVENT
 BEGIN:VEVENT
 UID:b88c9f40c643d4ca8a58@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 SUMMARY:[SOLD OUT] Seb Lowe @ Kilby Court
@@ -1838,7 +1838,7 @@ URL:https://www.24tix.com/event/thcur2mcpbcsfcx3psjq2zrzoe
 END:VEVENT
 BEGIN:VEVENT
 UID:beb496ae34d51e458dab@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Vs Self (with Stella) @ Kilby Court
@@ -1850,7 +1850,7 @@ URL:https://www.24tix.com/event/x6smqyfw3nb6jmfsn43vhe5cjm
 END:VEVENT
 BEGIN:VEVENT
 UID:8e077b785a37c34749e4@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Thee Rat Catchers (with The Midnite Judges\, The Jugs) @ Kilby Cour
@@ -1863,7 +1863,7 @@ URL:https://www.24tix.com/event/mnjjt6qphjg23lp3qpumolmjoq
 END:VEVENT
 BEGIN:VEVENT
 UID:c5c90d3e2a3da12a9e27@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270120T190000
 DTEND;TZID=America/Denver:20270120T220000
 SUMMARY:The Floozies (with Future Joy\, Bray Radbury) @ Soundwell
@@ -1875,7 +1875,7 @@ URL:https://www.eventliveus.com/event/10619/thefloozies
 END:VEVENT
 BEGIN:VEVENT
 UID:5245b72168190364d438@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Kudzu @ Kilby Court
@@ -1887,7 +1887,7 @@ URL:https://www.24tix.com/event/chjynaxagzd3fczxktnxwourru
 END:VEVENT
 BEGIN:VEVENT
 UID:ca3aadef80d3b7f3e081@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Silver Cup (with Dogpaw\, Bentlelou\, Ellis Ivory) @ Metro Music Ha
@@ -1900,7 +1900,7 @@ URL:https://www.24tix.com/event/x22qklbycbbvnawmwars3yhfyq
 END:VEVENT
 BEGIN:VEVENT
 UID:c49d40ec75e4df623af7@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Front Row Locomotive (with The Pranksters\, Michael J. Williams) @ 
@@ -1913,7 +1913,7 @@ URL:https://www.24tix.com/event/u5t2ddpdpffgxe3yb4dbe23ppu
 END:VEVENT
 BEGIN:VEVENT
 UID:9a34af47f7e74cc96d98@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Backyard Fever (with Fighter) @ Kilby Court
@@ -1925,7 +1925,7 @@ URL:https://www.24tix.com/event/xxn5grgurrap5d6wl4inbvu2sm
 END:VEVENT
 BEGIN:VEVENT
 UID:943ec7182f3227fde88c@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270122T180000
 DTEND;TZID=America/Denver:20270122T210000
 SUMMARY:Greensky Bluegrass (with Magoo) @ The Complex
@@ -1937,7 +1937,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1678564
 END:VEVENT
 BEGIN:VEVENT
 UID:3f598f8da9398e74c6da@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270122T190000
 DTEND;TZID=America/Denver:20270122T220000
 SUMMARY:Whitey Morgan & the 78's @ The Commonwealth Room
@@ -1950,7 +1950,7 @@ URL:https://thestateroompresents.com/state-room-presents/whitey-morgan-the-
 END:VEVENT
 BEGIN:VEVENT
 UID:b3cd7bc0e31d32c74e26@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270122T190000
 DTEND;TZID=America/Denver:20270122T220000
 SUMMARY:Steve Poltz @ The State Room
@@ -1962,7 +1962,7 @@ URL:https://thestateroompresents.com/state-room-presents/steve-poltz-3
 END:VEVENT
 BEGIN:VEVENT
 UID:d1e10ba568b3f33998aa@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:Twin Fin @ Kilby Court
@@ -1974,7 +1974,7 @@ URL:https://www.24tix.com/event/5an5yvrgbrbuvabzm3ui3twtxm
 END:VEVENT
 BEGIN:VEVENT
 UID:fe7628c63ab3f701cd42@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270123T190000
 DTEND;TZID=America/Denver:20270123T220000
 SUMMARY:Baby Jane @ The Complex
@@ -1986,7 +1986,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1694847
 END:VEVENT
 BEGIN:VEVENT
 UID:f13669b7156a2d4bf92a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270123T200000
 DTEND;TZID=America/Denver:20270123T230000
 SUMMARY:The Motet @ The Commonwealth Room
@@ -1998,7 +1998,7 @@ URL:https://thestateroompresents.com/state-room-presents/the-motet-5
 END:VEVENT
 BEGIN:VEVENT
 UID:c82abe5988c891246263@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270123T210000
 DTEND;TZID=America/Denver:20270124T000000
 SUMMARY:CYCLOPS (with Paper Skies) @ Soundwell
@@ -2010,7 +2010,7 @@ URL:https://www.eventliveus.com/event/10582/cyclops
 END:VEVENT
 BEGIN:VEVENT
 UID:3ab0f59377084da1d311@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Madds Buckley @ Kilby Court
@@ -2022,7 +2022,7 @@ URL:https://www.24tix.com/event/m4zsffuyx5b5pjhmd2br3o5kki
 END:VEVENT
 BEGIN:VEVENT
 UID:698afef421d860f0ef45@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270126
 SUMMARY:Zach Seabaugh @ Kilby Court
@@ -2034,7 +2034,7 @@ URL:https://www.24tix.com/event/sv5hrttadnczzg754r67mc7kiy
 END:VEVENT
 BEGIN:VEVENT
 UID:a6ea636f10e6bdf38dbb@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270126T180000
 DTEND;TZID=America/Denver:20270126T210000
 SUMMARY:Lotus @ The Commonwealth Room
@@ -2046,7 +2046,7 @@ URL:https://thestateroompresents.com/state-room-presents/lotus
 END:VEVENT
 BEGIN:VEVENT
 UID:0e91c13bd6d35abccec4@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Foxland: New Songs For A New Year @ Kilby Court
@@ -2058,7 +2058,7 @@ URL:https://www.24tix.com/event/537q7ojh6bbnliskkhusffb2p4
 END:VEVENT
 BEGIN:VEVENT
 UID:c018ce1174b179a9bc15@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Leetham @ Urban Lounge
@@ -2070,7 +2070,7 @@ URL:https://www.24tix.com/event/7lcvpqlcpnd65bsuumvttxxtgq
 END:VEVENT
 BEGIN:VEVENT
 UID:c3ca5a16aa64100947cb@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Maz (with Marshall Van Leuven\, Greesy Grace) @ Kilby Court
@@ -2082,7 +2082,7 @@ URL:https://www.24tix.com/event/zhabd7v2crbo5hui6xavx7m2om
 END:VEVENT
 BEGIN:VEVENT
 UID:8b6b93abab4b49ba59c1@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270128T190000
 DTEND;TZID=America/Denver:20270128T220000
 SUMMARY:Dogs in a Pile @ The Commonwealth Room
@@ -2095,7 +2095,7 @@ URL:https://thestateroompresents.com/state-room-presents/dogs-in-a-pile-nig
 END:VEVENT
 BEGIN:VEVENT
 UID:33329faa6fac178f9386@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270129T190000
 DTEND;TZID=America/Denver:20270129T220000
 SUMMARY:Dogs in a Pile @ The Commonwealth Room
@@ -2108,7 +2108,7 @@ URL:https://thestateroompresents.com/state-room-presents/dogs-in-a-pile-nig
 END:VEVENT
 BEGIN:VEVENT
 UID:9d8ca408270d568c082a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270129T190000
 DTEND;TZID=America/Denver:20270129T220000
 SUMMARY:TesseracT @ The Depot
@@ -2121,7 +2121,7 @@ URL:https://www.ticketmaster.com/tesseract-salt-lake-city-utah-01-29-2027/e
 END:VEVENT
 BEGIN:VEVENT
 UID:c81240b2ed8e6ac3b7e0@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270129T210000
 DTEND;TZID=America/Denver:20270130T000000
 SUMMARY:Boogie T (with Lumasi\, SHOSH) @ The Complex
@@ -2133,7 +2133,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1695086
 END:VEVENT
 BEGIN:VEVENT
 UID:f60cba0c91b3327c8744@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270130T180000
 DTEND;TZID=America/Denver:20270130T210000
 SUMMARY:Atmosphere (with Souls of Mischief\, Mac Lethal\, Blueprint) @ The 
@@ -2148,7 +2148,7 @@ URL:https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-sal
 END:VEVENT
 BEGIN:VEVENT
 UID:9fd4cf7cedc75142c0fa@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270130T190000
 DTEND;TZID=America/Denver:20270130T220000
 SUMMARY:Paul Wall @ The Complex
@@ -2160,7 +2160,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1425506
 END:VEVENT
 BEGIN:VEVENT
 UID:3cd91e7c2dcce0d78ea8@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270130T210000
 DTEND;TZID=America/Denver:20270131T000000
 SUMMARY:Grabbitz @ Soundwell
@@ -2172,7 +2172,7 @@ URL:https://www.eventliveus.com/event/10556/grabbitz
 END:VEVENT
 BEGIN:VEVENT
 UID:681b1f9d1b8100ebc863@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270201T190000
 DTEND;TZID=America/Denver:20270201T220000
 SUMMARY:Bad Suns @ The Complex
@@ -2184,7 +2184,7 @@ URL:https://www.axs.com/events/1600218/bad-suns-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:e7da53156dc550804e6f@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:Surf Hat @ Metro Music Hall
@@ -2196,7 +2196,7 @@ URL:https://www.24tix.com/event/vfxlzzwebfbsbjlmbh3i3a34ne
 END:VEVENT
 BEGIN:VEVENT
 UID:f5d0736e6c00d45d74ea@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270203T190000
 DTEND;TZID=America/Denver:20270203T220000
 SUMMARY:Satsang @ Soundwell
@@ -2208,7 +2208,7 @@ URL:https://www.eventliveus.com/event/10541/satsang
 END:VEVENT
 BEGIN:VEVENT
 UID:8490553af6c28196b99d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:KITT @ Kilby Court
@@ -2220,7 +2220,7 @@ URL:https://www.24tix.com/event/7oq32csglncx3mcpv557bgikyy
 END:VEVENT
 BEGIN:VEVENT
 UID:71fb185c7165a0607101@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270204T190000
 DTEND;TZID=America/Denver:20270204T220000
 SUMMARY:Big Richard @ The State Room
@@ -2232,7 +2232,7 @@ URL:https://thestateroompresents.com/state-room-presents/big-richard-5
 END:VEVENT
 BEGIN:VEVENT
 UID:1bede88295e75b6d07e0@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Brainstory @ Kilby Court
@@ -2244,7 +2244,7 @@ URL:https://www.24tix.com/event/6qwoqto6sjdkjhqfo6hvixr7v4
 END:VEVENT
 BEGIN:VEVENT
 UID:997720ec56f26d6f8f60@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270205T190000
 DTEND;TZID=America/Denver:20270205T220000
 SUMMARY:2hollis (with Lucy Bedroque\, Conceal) @ The Complex
@@ -2256,7 +2256,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1669428
 END:VEVENT
 BEGIN:VEVENT
 UID:0e007582436fdbb6f343@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Rare Americans (with Naethan Apollo) @ Metro Music Hall
@@ -2268,7 +2268,7 @@ URL:https://www.24tix.com/event/bctp74ovgrd77dd575mb7v2bbe
 END:VEVENT
 BEGIN:VEVENT
 UID:fff0e476d0c42d5893cb@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Jess Williamson @ Urban Lounge
@@ -2280,7 +2280,7 @@ URL:https://www.24tix.com/event/apftvfvocfd3xhua55iqvahyae
 END:VEVENT
 BEGIN:VEVENT
 UID:73087f1fa518375fecc8@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270206T200000
 DTEND;TZID=America/Denver:20270206T230000
 SUMMARY:Greylan James @ The State Room
@@ -2292,7 +2292,7 @@ URL:https://thestateroompresents.com/state-room-presents/greylan-james
 END:VEVENT
 BEGIN:VEVENT
 UID:f659a90f955213188c81@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270207T183000
 DTEND;TZID=America/Denver:20270207T213000
 SUMMARY:Ballyhoo! (with Chad Tepper\, Keep Flying) @ Soundwell
@@ -2304,7 +2304,7 @@ URL:https://www.eventliveus.com/event/10566/ballyhoo
 END:VEVENT
 BEGIN:VEVENT
 UID:d5c924a84691537a577b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270207T200000
 DTEND;TZID=America/Denver:20270207T230000
 SUMMARY:Vincen García @ The State Room
@@ -2316,7 +2316,7 @@ URL:https://thestateroompresents.com/state-room-presents/vincen-garcia
 END:VEVENT
 BEGIN:VEVENT
 UID:1277ca40d3175d7aded5@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 SUMMARY:Winona Fighter @ Kilby Court
@@ -2328,7 +2328,7 @@ URL:https://www.24tix.com/event/a4fuixydhffjdcsyxlrnrtdr3i
 END:VEVENT
 BEGIN:VEVENT
 UID:ec778349f02ed317e6bc@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270209T190000
 DTEND;TZID=America/Denver:20270209T220000
 SUMMARY:The Sways @ The State Room
@@ -2340,7 +2340,7 @@ URL:https://thestateroompresents.com/state-room-presents/the-sways
 END:VEVENT
 BEGIN:VEVENT
 UID:e2c4147c358d3a1c1bc5@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:Riley! (with Super Sometimes\, Shoreline) @ Kilby Court
@@ -2352,7 +2352,7 @@ URL:https://www.24tix.com/event/a2xpcsc74zbpnaowr4i7p2776a
 END:VEVENT
 BEGIN:VEVENT
 UID:2a770fa96b12d5138ce2@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:Mouse Powell (with Amp Melo) @ Urban Lounge
@@ -2364,7 +2364,7 @@ URL:https://www.24tix.com/event/wh2wewuqwjbcnltt3mt2grdkei
 END:VEVENT
 BEGIN:VEVENT
 UID:d1059a38faccc1afa09d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:CIARÁN @ Metro Music Hall
@@ -2376,7 +2376,7 @@ URL:https://www.24tix.com/event/4dgttf5sdrdohdbzh2p76cxvbe
 END:VEVENT
 BEGIN:VEVENT
 UID:cf083ca81f3af56a4a3d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270212T200000
 DTEND;TZID=America/Denver:20270212T230000
 SUMMARY:Stella Lefty @ The Union Event Center
@@ -2389,7 +2389,7 @@ URL:https://www.songkick.com/concerts/43381432-stella-lefty-at-union-event-
 END:VEVENT
 BEGIN:VEVENT
 UID:8658d57515fb4ab55328@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:No Horizon (with Cold Weather Venture\, Loss of Recovery\, Typenull
@@ -2402,7 +2402,7 @@ URL:https://www.24tix.com/event/7qhow6iu2vabflvp4epucx4rmu
 END:VEVENT
 BEGIN:VEVENT
 UID:7eb506c2dc27d598af04@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270213T190000
 DTEND;TZID=America/Denver:20270213T220000
 SUMMARY:La Roux @ The Depot
@@ -2416,7 +2416,7 @@ URL:https://www.ticketmaster.com/la-roux-the-old-flames-tour-salt-lake-city
 END:VEVENT
 BEGIN:VEVENT
 UID:a07f212434696e2633cb@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270213T210000
 DTEND;TZID=America/Denver:20270214T000000
 SUMMARY:Softest Hard B2B Capozzi @ Soundwell
@@ -2428,7 +2428,7 @@ URL:https://www.eventliveus.com/event/10598/softesthardb2bcapozzi
 END:VEVENT
 BEGIN:VEVENT
 UID:6bee9a35ab27ce3e751b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 SUMMARY:Where's West? @ Kilby Court
@@ -2440,7 +2440,7 @@ URL:https://www.24tix.com/event/sbkc2brntncalgsdp57d5hgk2y
 END:VEVENT
 BEGIN:VEVENT
 UID:9f2bf865793f297dcf4f@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Bella Poarch @ Kilby Court
@@ -2452,7 +2452,7 @@ URL:https://www.24tix.com/event/rf43ojfvdjepbn6synku6uqopq
 END:VEVENT
 BEGIN:VEVENT
 UID:95e135c999f75e00e70c@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270217T190000
 DTEND;TZID=America/Denver:20270217T220000
 SUMMARY:Public Image Ltd (with Plague Vendor) @ The Complex
@@ -2464,7 +2464,7 @@ URL:https://www.axs.com/events/1376493/public-image-ltd-pil-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:7afbdf7aa89b963d2b8b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:Camp Bloom Tour (with Alt Bloom & Doublecamp) @ Kilby Court
@@ -2476,7 +2476,7 @@ URL:https://www.24tix.com/event/qmvmz2tbqjarxf2fdzw5wohhxi
 END:VEVENT
 BEGIN:VEVENT
 UID:2dafbf4a09c865aa53c8@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270220
 SUMMARY:Aubory Bugg @ Kilby Court
@@ -2488,7 +2488,7 @@ URL:https://www.24tix.com/event/pbbjgtyecnen7pdpkrmio4jb3e
 END:VEVENT
 BEGIN:VEVENT
 UID:8f29cdb310d7d22d64cb@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270219T183000
 DTEND;TZID=America/Denver:20270219T213000
 SUMMARY:Polyphia @ The Depot
@@ -2502,7 +2502,7 @@ URL:https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-salt-lak
 END:VEVENT
 BEGIN:VEVENT
 UID:457c8a0a44b1046ad44c@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270219T190000
 DTEND;TZID=America/Denver:20270219T220000
 SUMMARY:Twin Temple (with Nuovo Testamento) @ The Complex
@@ -2514,7 +2514,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1633779
 END:VEVENT
 BEGIN:VEVENT
 UID:6a84013701c626fefce4@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:Wyatt Lowe @ Kilby Court
@@ -2526,7 +2526,7 @@ URL:https://www.24tix.com/event/4ycp3bdcs5bgpmtewdgn54wb3y
 END:VEVENT
 BEGIN:VEVENT
 UID:358441cd3a00b86f27fc@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:CODEFENDANTS + Jakob Nowell And THE CASTLE @ Urban Lounge
@@ -2538,7 +2538,7 @@ URL:https://www.24tix.com/event/us2wofztuzg3vjnwok7zrqifiq
 END:VEVENT
 BEGIN:VEVENT
 UID:889002bdf41c5374f5c4@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270220T200000
 DTEND;TZID=America/Denver:20270220T230000
 SUMMARY:L.A.B (with Seven Suns) @ Soundwell
@@ -2550,7 +2550,7 @@ URL:https://www.eventliveus.com/event/10568/lab
 END:VEVENT
 BEGIN:VEVENT
 UID:11c431e3a793900c443e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Cloud Nothings @ Kilby Court
@@ -2562,7 +2562,7 @@ URL:https://www.24tix.com/event/uguebp3i2fbalmybq5g6cvutka
 END:VEVENT
 BEGIN:VEVENT
 UID:f001165c0984fb70cb9b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:James Marriott @ Metro Music Hall
@@ -2574,7 +2574,7 @@ URL:https://www.24tix.com/event/2zjkxl4qtvb7lcxvom766jxdj4
 END:VEVENT
 BEGIN:VEVENT
 UID:01fc96b1071d90ed0b2e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Marian Hill ACT TWO (with Terror Jr) @ Urban Lounge
@@ -2586,7 +2586,7 @@ URL:https://www.24tix.com/event/qoqojw4x6rg3zfw7eh7bxy7nxa
 END:VEVENT
 BEGIN:VEVENT
 UID:16df101d90175229ebd5@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270223T190000
 DTEND;TZID=America/Denver:20270223T220000
 SUMMARY:Sungazer @ The State Room
@@ -2598,7 +2598,7 @@ URL:https://thestateroompresents.com/state-room-presents/sungazer-2
 END:VEVENT
 BEGIN:VEVENT
 UID:abc8828b19c892729c69@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:CASKETS (with Nerv\, True North) @ Metro Music Hall
@@ -2610,7 +2610,7 @@ URL:https://www.24tix.com/event/b64khlgv2fbilohtqblaomv3yu
 END:VEVENT
 BEGIN:VEVENT
 UID:39036eb7640692330d5a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:Big D & The Kids Table @ Kilby Court
@@ -2622,7 +2622,7 @@ URL:https://www.24tix.com/event/sfsemnwws5dmbjxhviesqsb6ze
 END:VEVENT
 BEGIN:VEVENT
 UID:6de3ab24795ae8b1189b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
 SUMMARY:Powerplant (with Faze) @ Kilby Court
@@ -2634,7 +2634,7 @@ URL:https://www.24tix.com/event/e6cq6gjpfbettdvsxyvolmtzae
 END:VEVENT
 BEGIN:VEVENT
 UID:a30ce61c48b282097ee1@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270226T203000
 DTEND;TZID=America/Denver:20270226T233000
 SUMMARY:Layton Giordani @ The Complex
@@ -2646,7 +2646,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1642508
 END:VEVENT
 BEGIN:VEVENT
 UID:d63d273b7dd6a52cbbcd@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:Dying Fetus (with Cryptopsy\, Gorgasm) @ Kilby Court
@@ -2658,7 +2658,7 @@ URL:https://www.24tix.com/event/skxu2wokg5e6jilv6j665hst4u
 END:VEVENT
 BEGIN:VEVENT
 UID:86e16ecf41fdcd51ad3e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:The Swinging Lights @ Urban Lounge
@@ -2670,7 +2670,7 @@ URL:https://www.24tix.com/event/4z66zyot2jbm5gzxshtsezzrve
 END:VEVENT
 BEGIN:VEVENT
 UID:00bb0a3c42ebe35f5259@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270227T200000
 DTEND;TZID=America/Denver:20270227T230000
 SUMMARY:Sam Burchfield @ The State Room
@@ -2682,7 +2682,7 @@ URL:https://thestateroompresents.com/state-room-presents/sam-burchfield
 END:VEVENT
 BEGIN:VEVENT
 UID:580fe44b09289b93b732@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Amira Elfeky (with My Upside Down\, Meghan Curtin) @ Metro Music Ha
@@ -2695,7 +2695,7 @@ URL:https://www.24tix.com/event/ifmhxrdddrc33kkqyccb4ksrgy
 END:VEVENT
 BEGIN:VEVENT
 UID:f9e235c6ff6c4cd1ea22@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Anna Shoemaker @ Kilby Court
@@ -2707,7 +2707,7 @@ URL:https://www.24tix.com/event/nzzcxinrkvfwnmj2fyzdpzhmay
 END:VEVENT
 BEGIN:VEVENT
 UID:fb778af3195f12efbbc7@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270302
 DTEND;VALUE=DATE:20270303
 SUMMARY:DeathByRomy (with bodyimage) @ Kilby Court
@@ -2719,7 +2719,7 @@ URL:https://www.24tix.com/event/dnejyjgddfawff4pp4g6krjdru
 END:VEVENT
 BEGIN:VEVENT
 UID:c9cd4dc78de76621a054@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270302T190000
 DTEND;TZID=America/Denver:20270302T220000
 SUMMARY:49 Winchester @ The Complex
@@ -2731,7 +2731,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1660160
 END:VEVENT
 BEGIN:VEVENT
 UID:68dff11e879420011ae0@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270302T190000
 DTEND;TZID=America/Denver:20270302T220000
 SUMMARY:G. Love & Special Sauce @ The State Room
@@ -2744,7 +2744,7 @@ URL:https://thestateroompresents.com/state-room-presents/g-love-special-sau
 END:VEVENT
 BEGIN:VEVENT
 UID:5bd736556029149e5be1@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270302T200000
 DTEND;TZID=America/Denver:20270302T230000
 SUMMARY:Ashe (with Claire Rosinkranz) @ The Union Event Center
@@ -2756,7 +2756,7 @@ URL:https://www.ticketmaster.com/event/1E00654FD104A17C
 END:VEVENT
 BEGIN:VEVENT
 UID:f05ec7bf01395fdfe1b9@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270303T190000
 DTEND;TZID=America/Denver:20270303T220000
 SUMMARY:G. Love & Special Sauce @ The State Room
@@ -2769,7 +2769,7 @@ URL:https://thestateroompresents.com/state-room-presents/g-love-special-sau
 END:VEVENT
 BEGIN:VEVENT
 UID:75c6750af86fe2bb1abc@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270304T180000
 DTEND;TZID=America/Denver:20270304T210000
 SUMMARY:Currents: Our Fates Lie In Tandem @ The Depot
@@ -2783,7 +2783,7 @@ URL:https://www.ticketmaster.com/currents-our-fates-lie-in-tandem-salt-lake
 END:VEVENT
 BEGIN:VEVENT
 UID:d33b50d518b70af63dc6@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270304T190000
 DTEND;TZID=America/Denver:20270304T220000
 SUMMARY:Sylvan Esso @ The Complex
@@ -2795,7 +2795,7 @@ URL:https://www.axs.com/events/1484006/sylvan-esso-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:09224b8859c8a0bcf36b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270304T190000
 DTEND;TZID=America/Denver:20270304T220000
 SUMMARY:Sqwerv @ The State Room
@@ -2807,7 +2807,7 @@ URL:https://thestateroompresents.com/state-room-presents/sqwerv
 END:VEVENT
 BEGIN:VEVENT
 UID:62f83da0022b1d5be53e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Youth Fountain (with Not My Weekend) @ Kilby Court
@@ -2819,7 +2819,7 @@ URL:https://www.24tix.com/event/lu7se7j44bd4pkhd72btt7egaq
 END:VEVENT
 BEGIN:VEVENT
 UID:6dd9063a17b58b157e8e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Jack Kays (with Jack Kays And His Band\, Willowake\, Dear Cincinnat
@@ -2832,7 +2832,7 @@ URL:https://www.24tix.com/event/djvcd4pcijayroopv4cbug7f6e
 END:VEVENT
 BEGIN:VEVENT
 UID:aaa1c51f309facf3824b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270305T190000
 DTEND;TZID=America/Denver:20270305T220000
 SUMMARY:Blue October @ The Complex
@@ -2844,7 +2844,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1438519
 END:VEVENT
 BEGIN:VEVENT
 UID:3156e8f33c9493ed8070@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270305T190000
 DTEND;TZID=America/Denver:20270305T220000
 SUMMARY:Valley @ The Depot
@@ -2858,7 +2858,7 @@ URL:https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-ut
 END:VEVENT
 BEGIN:VEVENT
 UID:509009afca564c0bf962@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270305T190000
 DTEND;TZID=America/Denver:20270305T220000
 SUMMARY:Surfer Girl (with South Summit\, Joby!) @ Soundwell
@@ -2870,7 +2870,7 @@ URL:https://www.eventliveus.com/event/10567/surfergirl
 END:VEVENT
 BEGIN:VEVENT
 UID:a001c2d6732651f02695@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270305T190000
 DTEND;TZID=America/Denver:20270305T220000
 SUMMARY:AJ Lee & Blue Summit @ The State Room
@@ -2883,7 +2883,7 @@ URL:https://thestateroompresents.com/state-room-presents/aj-lee-blue-summit
 END:VEVENT
 BEGIN:VEVENT
 UID:bfbbc218fb222458127d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:Brooke Alexx @ Kilby Court
@@ -2895,7 +2895,7 @@ URL:https://www.24tix.com/event/bulva4t3ojdd5dbjdvfw4iibpu
 END:VEVENT
 BEGIN:VEVENT
 UID:e433a006a684134477f3@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:Penelope Road (with The Takes) @ Metro Music Hall
@@ -2907,7 +2907,7 @@ URL:https://www.24tix.com/event/japkdfe2indg5koqs2lxtnmk3q
 END:VEVENT
 BEGIN:VEVENT
 UID:6ffbaf8fac1d7e391899@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:Cursive (with Smidley) @ Urban Lounge
@@ -2919,7 +2919,7 @@ URL:https://www.24tix.com/event/ov23klp44zcnjno7tuszmxip2m
 END:VEVENT
 BEGIN:VEVENT
 UID:2c2b99502e4ed7182328@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Noah Gundersen (with Nathan Evans Fox) @ Urban Lounge
@@ -2931,7 +2931,7 @@ URL:https://www.24tix.com/event/77rrmnyix5bbjhlpzd277lo3fu
 END:VEVENT
 BEGIN:VEVENT
 UID:3632f40337698b457ab7@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270307T190000
 DTEND;TZID=America/Denver:20270307T220000
 SUMMARY:Lissie @ The State Room
@@ -2943,7 +2943,7 @@ URL:https://thestateroompresents.com/state-room-presents/lissie
 END:VEVENT
 BEGIN:VEVENT
 UID:623aa7b6d0ea87994d03@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270308T190000
 DTEND;TZID=America/Denver:20270308T220000
 SUMMARY:Daniel Donato's Cosmic Country @ The State Room
@@ -2957,7 +2957,7 @@ URL:https://thestateroompresents.com/state-room-presents/daniel-donatos-cos
 END:VEVENT
 BEGIN:VEVENT
 UID:60cfa3dff9f60457cda5@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:NERVOSA (with Castrator\, Anger Within) @ Urban Lounge
@@ -2969,7 +2969,7 @@ URL:https://www.24tix.com/event/52egis6dfrgcllq25emjzlcbea
 END:VEVENT
 BEGIN:VEVENT
 UID:448b1c626beb4f925a11@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270309T190000
 DTEND;TZID=America/Denver:20270309T220000
 SUMMARY:Chelsea Cutler (with googly eyes) @ The Complex
@@ -2981,7 +2981,7 @@ URL:https://www.axs.com/events/1625668/chelsea-cutler-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:46bc5fab4cff2e2e7006@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270309T190000
 DTEND;TZID=America/Denver:20270309T220000
 SUMMARY:Daniel Donato's Cosmic Country @ The State Room
@@ -2995,7 +2995,7 @@ URL:https://thestateroompresents.com/state-room-presents/daniel-donatos-cos
 END:VEVENT
 BEGIN:VEVENT
 UID:c99ec08f5ba70680cb1a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:Mod Sun (with Public Works) @ Metro Music Hall
@@ -3007,7 +3007,7 @@ URL:https://www.24tix.com/event/7ofatolayzdobcrlws6wymksui
 END:VEVENT
 BEGIN:VEVENT
 UID:f1f40888c3a82402b06c@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270310T180000
 DTEND;TZID=America/Denver:20270310T210000
 SUMMARY:Northlane (with Allt\, Aviana\, Reliqa) @ The Complex
@@ -3019,7 +3019,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1622832
 END:VEVENT
 BEGIN:VEVENT
 UID:57f9d959ebb25e217352@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270310T180000
 DTEND;TZID=America/Denver:20270310T210000
 SUMMARY:Clutch (with Corrosion of Conformity\, Agnostic Front\, Chuck Ragan
@@ -3032,7 +3032,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1690830
 END:VEVENT
 BEGIN:VEVENT
 UID:9c2a86aacfeada186fba@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270310T183000
 DTEND;TZID=America/Denver:20270310T213000
 SUMMARY:Noah Rinker @ The Depot
@@ -3046,7 +3046,7 @@ URL:https://www.ticketmaster.com/noah-rinker-salt-lake-city-utah-03-10-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:28a74dc6041f54f2b70e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270310T190000
 DTEND;TZID=America/Denver:20270310T220000
 SUMMARY:Daniel Donato's Cosmic Country @ The State Room
@@ -3060,7 +3060,7 @@ URL:https://thestateroompresents.com/state-room-presents/daniel-donatos-cos
 END:VEVENT
 BEGIN:VEVENT
 UID:a7d3432e3f60f607a941@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:Too Many Zooz @ Metro Music Hall
@@ -3072,7 +3072,7 @@ URL:https://www.24tix.com/event/t5ylptjxfrfnlko2oglohjydmm
 END:VEVENT
 BEGIN:VEVENT
 UID:f1a2b2c977917fdaaa20@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270311T183000
 DTEND;TZID=America/Denver:20270311T213000
 SUMMARY:UMPHREY'S McGEE @ The Depot
@@ -3086,7 +3086,7 @@ URL:https://www.ticketmaster.com/umphreys-mcgee-fresh-cut-2027-salt-lake-ci
 END:VEVENT
 BEGIN:VEVENT
 UID:f19f69784e7c87b4bc46@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Bo Staloch @ Kilby Court
@@ -3098,7 +3098,7 @@ URL:https://www.24tix.com/event/kyzsz73x3bf6rdr5bdbdybvgbm
 END:VEVENT
 BEGIN:VEVENT
 UID:28abe9cc6a38b8012881@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270312T180000
 DTEND;TZID=America/Denver:20270312T210000
 SUMMARY:Boundaries @ The Depot
@@ -3112,7 +3112,7 @@ URL:https://www.ticketmaster.com/boundaries-salt-lake-city-utah-03-12-2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:f3ae7d9b6054b05553e6@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270312T183000
 DTEND;TZID=America/Denver:20270312T213000
 SUMMARY:Vincent Lima @ The Complex
@@ -3124,7 +3124,7 @@ URL:https://www.axs.com/events/1666810/vincent-lima-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:347e5385598c0831c8ac@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270312T190000
 DTEND;TZID=America/Denver:20270312T220000
 SUMMARY:Rayland Baxter @ The Commonwealth Room
@@ -3136,7 +3136,7 @@ URL:https://thestateroompresents.com/state-room-presents/rayland-baxter-3
 END:VEVENT
 BEGIN:VEVENT
 UID:6801451709451bf0d361@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:Danielle Ponder @ Urban Lounge
@@ -3148,7 +3148,7 @@ URL:https://www.24tix.com/event/4t3b6ui6nbbvhpnwxmuekxe2im
 END:VEVENT
 BEGIN:VEVENT
 UID:564fc6c0926259c47688@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270313T190000
 DTEND;TZID=America/Denver:20270313T220000
 SUMMARY:Graham Barham @ Soundwell
@@ -3160,7 +3160,7 @@ URL:https://www.eventliveus.com/event/10558/grahambarham
 END:VEVENT
 BEGIN:VEVENT
 UID:25f425743b308f884198@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Hans Williams @ Metro Music Hall
@@ -3172,7 +3172,7 @@ URL:https://www.24tix.com/event/h5yqw4w4sbgn3jz4wnzcz5nppq
 END:VEVENT
 BEGIN:VEVENT
 UID:876abf8bb8a1c3f39d84@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270314T183000
 DTEND;TZID=America/Denver:20270314T213000
 SUMMARY:Frank Turner & The Sleeping Souls @ The Depot
@@ -3186,7 +3186,7 @@ URL:https://www.ticketmaster.com/frank-turner-the-sleeping-souls-last-salt-
 END:VEVENT
 BEGIN:VEVENT
 UID:9cd43696a2d4537d7e2d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270314T190000
 DTEND;TZID=America/Denver:20270314T220000
 SUMMARY:Eluveitie (with NiNi\, Illumishade) @ The Complex
@@ -3198,7 +3198,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1608419
 END:VEVENT
 BEGIN:VEVENT
 UID:1c0261d74b754c69edbf@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:The Body & Cel Genesis @ Urban Lounge
@@ -3210,7 +3210,7 @@ URL:https://www.24tix.com/event/ih7vl2z72fah5jz7stu32tpoou
 END:VEVENT
 BEGIN:VEVENT
 UID:60f1c4c9abf4b2562b0e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270316T180000
 DTEND;TZID=America/Denver:20270316T210000
 SUMMARY:HAKEN @ The Commonwealth Room
@@ -3222,7 +3222,7 @@ URL:https://thestateroompresents.com/state-room-presents/haken-2
 END:VEVENT
 BEGIN:VEVENT
 UID:5f2a8227e2c47a00ec7a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Temper City @ Kilby Court
@@ -3234,7 +3234,7 @@ URL:https://www.24tix.com/event/oy4vquxqrzexfpewcp3v73qpv4
 END:VEVENT
 BEGIN:VEVENT
 UID:c440e14afd6102264481@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Rio Romeo @ Metro Music Hall
@@ -3246,7 +3246,7 @@ URL:https://www.24tix.com/event/fpg7ipsnnzgv7cpccgy26ivdgm
 END:VEVENT
 BEGIN:VEVENT
 UID:03b7e98d071a103ccdfb@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270317T180000
 DTEND;TZID=America/Denver:20270317T210000
 SUMMARY:The Plot In You @ The Complex
@@ -3258,7 +3258,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1674918
 END:VEVENT
 BEGIN:VEVENT
 UID:df57e58f72f0120b1fa1@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270317T190000
 DTEND;TZID=America/Denver:20270317T220000
 SUMMARY:Braxton Keith (with Tyla Rodrigues) @ The Complex
@@ -3270,7 +3270,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1616982
 END:VEVENT
 BEGIN:VEVENT
 UID:0e27df1de4e8cdf1d096@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:Ruby Waters @ Urban Lounge
@@ -3282,7 +3282,7 @@ URL:https://www.24tix.com/event/uqqy5n76hbezzmekmdthstqn4a
 END:VEVENT
 BEGIN:VEVENT
 UID:61e80a4e0423440a730a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270319T183000
 DTEND;TZID=America/Denver:20270319T213000
 SUMMARY:Grace Potter (with Langhorne Slim) @ The Complex
@@ -3294,7 +3294,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1695042
 END:VEVENT
 BEGIN:VEVENT
 UID:af535bf2337f96f2f977@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270320T190000
 DTEND;TZID=America/Denver:20270320T220000
 SUMMARY:Wheeler Walker Jr. @ The Complex
@@ -3306,7 +3306,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1477887
 END:VEVENT
 BEGIN:VEVENT
 UID:a4ad06937fea926224b8@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270320T190000
 DTEND;TZID=America/Denver:20270320T220000
 SUMMARY:Beach Bunny (with Daisy Grenade) @ The Depot
@@ -3320,7 +3320,7 @@ URL:https://www.ticketmaster.com/beach-bunny-out-of-office-tour-salt-lake-c
 END:VEVENT
 BEGIN:VEVENT
 UID:af464b0cae3e9e3a1b7b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270320T190000
 DTEND;TZID=America/Denver:20270320T220000
 SUMMARY:Kash'd Out (with Cydeways\, A-Mac) @ Soundwell
@@ -3332,7 +3332,7 @@ URL:https://www.eventliveus.com/event/10580/kashdout
 END:VEVENT
 BEGIN:VEVENT
 UID:634f4d1f4a54a6029988@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270320T190000
 DTEND;TZID=America/Denver:20270320T220000
 SUMMARY:Micky and the Motorcars x Parker Ryan @ The State Room
@@ -3346,7 +3346,7 @@ URL:https://thestateroompresents.com/state-room-presents/micky-and-the-moto
 END:VEVENT
 BEGIN:VEVENT
 UID:f9b2eb73919aa276d2c5@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Johnnie Guilbert @ Kilby Court
@@ -3358,7 +3358,7 @@ URL:https://www.24tix.com/event/z65mfnoevndddgd5jli2ozy6ze
 END:VEVENT
 BEGIN:VEVENT
 UID:e66c0ed4546949ed17ac@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270323
 DTEND;VALUE=DATE:20270324
 SUMMARY:Dogpark (with The Rose Hips) @ Metro Music Hall
@@ -3370,7 +3370,7 @@ URL:https://www.24tix.com/event/s65qrfqghzajxhmc6t3q773oju
 END:VEVENT
 BEGIN:VEVENT
 UID:f95050ce4da4f75989b1@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270323T190000
 DTEND;TZID=America/Denver:20270323T220000
 SUMMARY:Akira Yamaoka @ The Depot
@@ -3384,7 +3384,7 @@ URL:https://www.ticketmaster.com/akira-yamaoka-salt-lake-city-utah-03-23-20
 END:VEVENT
 BEGIN:VEVENT
 UID:539bde076f939f21d700@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270323T200000
 DTEND;TZID=America/Denver:20270323T230000
 SUMMARY:CHVRCHES @ The Complex
@@ -3396,7 +3396,7 @@ URL:https://www.axs.com/events/1704402/chvrches-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:6d05c46f20fd34e003b0@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Games We Play (with Bears in Trees) @ Metro Music Hall
@@ -3408,7 +3408,7 @@ URL:https://www.24tix.com/event/5ujc6c3grrep7lfosyiqrtqzsu
 END:VEVENT
 BEGIN:VEVENT
 UID:41360303a2ee4a60480d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270324T190000
 DTEND;TZID=America/Denver:20270324T220000
 SUMMARY:Southall @ Soundwell
@@ -3420,7 +3420,7 @@ URL:https://www.eventliveus.com/event/10602/southall
 END:VEVENT
 BEGIN:VEVENT
 UID:bd5887da84e40eb557f0@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Chinese American Bear @ Kilby Court
@@ -3432,7 +3432,7 @@ URL:https://www.24tix.com/event/h642f4u65vdkpgwytvobcvl44q
 END:VEVENT
 BEGIN:VEVENT
 UID:1e7dc10c333c3923c478@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:ASIRIS @ Metro Music Hall
@@ -3444,7 +3444,7 @@ URL:https://www.24tix.com/event/76b4zekwzzcfffr5j6f62zf6ye
 END:VEVENT
 BEGIN:VEVENT
 UID:82dbcb120534b340aede@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Grieves (with Horrorshow\, Street Sweepers) @ Urban Lounge
@@ -3456,7 +3456,7 @@ URL:https://www.24tix.com/event/m7aewylobjd7bmtbtq7rnlflgm
 END:VEVENT
 BEGIN:VEVENT
 UID:c9ed903f7f1076ead761@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270326T183000
 DTEND;TZID=America/Denver:20270326T213000
 SUMMARY:VNV Nation @ The Complex
@@ -3468,7 +3468,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1505213
 END:VEVENT
 BEGIN:VEVENT
 UID:f81078e54990e9056840@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270327T193000
 DTEND;TZID=America/Denver:20270327T223000
 SUMMARY:Hans Zimmer @ Delta Center
@@ -3480,7 +3480,7 @@ URL:https://www.deltacenter.com/events/hans-zimmer/
 END:VEVENT
 BEGIN:VEVENT
 UID:cc58490938a29d7bbbfe@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270329T190000
 DTEND;TZID=America/Denver:20270329T220000
 SUMMARY:Greta Van Fleet @ Delta Center
@@ -3492,7 +3492,7 @@ URL:https://www.deltacenter.com/events/greta-van-fleet/
 END:VEVENT
 BEGIN:VEVENT
 UID:f0d29a31b822c7abdacd@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270330
 DTEND;VALUE=DATE:20270331
 SUMMARY:Saxsquatch @ Urban Lounge
@@ -3504,7 +3504,7 @@ URL:https://www.24tix.com/event/jqfq7rz66vd4jgkfvvatqk7lxq
 END:VEVENT
 BEGIN:VEVENT
 UID:728d863850312bddd4c4@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Narrow Head & Midrift (with Horse Jumper of Love\, Modern Color\, K
@@ -3517,7 +3517,7 @@ URL:https://www.24tix.com/event/4tzjwd4gvrbc7eurc5qtlspu5q
 END:VEVENT
 BEGIN:VEVENT
 UID:6b9908757242386cb4fe@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270331T190000
 DTEND;TZID=America/Denver:20270331T220000
 SUMMARY:Gang of Youths @ The Complex
@@ -3531,7 +3531,7 @@ URL:https://www.songkick.com/concerts/43513745-gang-of-youths-at-grand-the-
 END:VEVENT
 BEGIN:VEVENT
 UID:9746a1e6feaaca6376e7@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270331T190000
 DTEND;TZID=America/Denver:20270331T220000
 SUMMARY:Def Leppard and Goo Goo Dolls @ Delta Center
@@ -3543,7 +3543,7 @@ URL:https://www.deltacenter.com/events/def-leppard-and-goo-goo-dolls/
 END:VEVENT
 BEGIN:VEVENT
 UID:30130608fe912ad88522@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270331T200000
 DTEND;TZID=America/Denver:20270331T230000
 SUMMARY:The Altons @ The Commonwealth Room
@@ -3555,7 +3555,7 @@ URL:https://thestateroompresents.com/state-room-presents/the-altons
 END:VEVENT
 BEGIN:VEVENT
 UID:f1ae08ec683025d3c17d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270401T180000
 DTEND;TZID=America/Denver:20270401T210000
 SUMMARY:Four Year Strong @ The Depot
@@ -3569,7 +3569,7 @@ URL:https://www.ticketmaster.com/four-year-strong-rise-or-die-salt-lake-cit
 END:VEVENT
 BEGIN:VEVENT
 UID:d9551e52c160e47bc0f7@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270402T173000
 DTEND;TZID=America/Denver:20270402T203000
 SUMMARY:From Ashes to New @ The Depot
@@ -3583,7 +3583,7 @@ URL:https://www.ticketmaster.com/from-ashes-to-new-reflections-tour-salt-la
 END:VEVENT
 BEGIN:VEVENT
 UID:3ef9c9abaf63c06930c9@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270402T200000
 DTEND;TZID=America/Denver:20270402T230000
 SUMMARY:FEID @ Delta Center
@@ -3595,7 +3595,7 @@ URL:https://www.deltacenter.com/events/feid/
 END:VEVENT
 BEGIN:VEVENT
 UID:298fee06209470ab1c9a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270402T200000
 DTEND;TZID=America/Denver:20270402T230000
 SUMMARY:Islandman @ The State Room
@@ -3607,7 +3607,7 @@ URL:https://thestateroompresents.com/state-room-presents/islandman
 END:VEVENT
 BEGIN:VEVENT
 UID:571cb77003842210c315@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:Hotel Fiction @ Kilby Court
@@ -3619,7 +3619,7 @@ URL:https://www.24tix.com/event/sxieulxaxvdd7d6vzjgluwvlxi
 END:VEVENT
 BEGIN:VEVENT
 UID:3783f20096d0751e2e2b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270403T190000
 DTEND;TZID=America/Denver:20270403T220000
 SUMMARY:moe. @ The Commonwealth Room
@@ -3631,7 +3631,7 @@ URL:https://thestateroompresents.com/state-room-presents/moe-3
 END:VEVENT
 BEGIN:VEVENT
 UID:e4ba6b88099b027ffc59@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Wild Pink (with Truth Club) @ Kilby Court
@@ -3643,7 +3643,7 @@ URL:https://www.24tix.com/event/zu3c6w3xsvaetjcsd6hkbzumta
 END:VEVENT
 BEGIN:VEVENT
 UID:79f8f03451875c47e4f9@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Jeffrey Martin @ Urban Lounge
@@ -3655,7 +3655,7 @@ URL:https://www.24tix.com/event/7a47k47zzjgf3gl76wekblco7q
 END:VEVENT
 BEGIN:VEVENT
 UID:3a4be16e44dcbb16f975@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270404T190000
 DTEND;TZID=America/Denver:20270404T220000
 SUMMARY:moe. @ The State Room
@@ -3667,7 +3667,7 @@ URL:https://thestateroompresents.com/state-room-presents/moe-night-2
 END:VEVENT
 BEGIN:VEVENT
 UID:7893f1f7753379528aae@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270406
 SUMMARY:Hudson Freeman (with Sean Solomon\, The Man The Myth The Meatslab) 
@@ -3680,7 +3680,7 @@ URL:https://www.24tix.com/event/s33uflacljhgzpy2s72tlwjcvm
 END:VEVENT
 BEGIN:VEVENT
 UID:5efd343eb0c2b4ac777d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270406
 SUMMARY:THAO @ Urban Lounge
@@ -3692,7 +3692,7 @@ URL:https://www.24tix.com/event/cyev4pmahzhrtbumo7ns42qjry
 END:VEVENT
 BEGIN:VEVENT
 UID:8043f27359b95e8d7dec@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270405T190000
 DTEND;TZID=America/Denver:20270405T220000
 SUMMARY:Shygirl @ The Complex
@@ -3704,7 +3704,7 @@ URL:https://www.axs.com/events/1655364/shygirl-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:04a9322833b87e96c9e6@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Oscar Lindsey @ Kilby Court
@@ -3716,7 +3716,7 @@ URL:https://www.24tix.com/event/rjd2g5nhdbbjjfrjskkr4jspde
 END:VEVENT
 BEGIN:VEVENT
 UID:b305ad517fc426e5547b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
 SUMMARY:Earth to Eve @ Kilby Court
@@ -3728,7 +3728,7 @@ URL:https://www.24tix.com/event/zrtnwnop7zgtbbhswwrathypeu
 END:VEVENT
 BEGIN:VEVENT
 UID:c9be86faba13e70c1b2a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270409
 SUMMARY:Jack & Jack @ Kilby Court
@@ -3740,7 +3740,7 @@ URL:https://www.24tix.com/event/rxxjayefhvcnfi7qm4ribcgrxa
 END:VEVENT
 BEGIN:VEVENT
 UID:39919b172751ac345b93@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270409T190000
 DTEND;TZID=America/Denver:20270409T220000
 SUMMARY:Boy Throb @ The Complex
@@ -3752,7 +3752,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1681864
 END:VEVENT
 BEGIN:VEVENT
 UID:554682755d3d080a7714@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:Destroy Boys (with FOIE GRAS\, Illuminati Hotties\, The Rat Utopia 
@@ -3765,7 +3765,7 @@ URL:https://www.24tix.com/event/zrs2aebxyrditp44jowd75py5y
 END:VEVENT
 BEGIN:VEVENT
 UID:01db18bdeea4de22cb7f@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270410T200000
 DTEND;TZID=America/Denver:20270410T230000
 SUMMARY:Jesse & Joy @ The Union Event Center
@@ -3778,7 +3778,7 @@ URL:https://www.songkick.com/concerts/43484997-jesse-and-joy-at-union-event
 END:VEVENT
 BEGIN:VEVENT
 UID:a2cdc4121319339af4d7@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270412
 DTEND;VALUE=DATE:20270413
 SUMMARY:Gus Dapperton @ Metro Music Hall
@@ -3790,7 +3790,7 @@ URL:https://www.24tix.com/event/u6odtoj6mvf73bwkvlyfaoninu
 END:VEVENT
 BEGIN:VEVENT
 UID:1f35e20144e774dfac5a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270413T190000
 DTEND;TZID=America/Denver:20270413T220000
 SUMMARY:Alex Sampson @ The Complex
@@ -3802,7 +3802,7 @@ URL:https://www.axs.com/events/1664462/alex-sampson-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:f03bce958746d0e52442@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270413T190000
 DTEND;TZID=America/Denver:20270413T220000
 SUMMARY:brakence @ The Complex
@@ -3814,7 +3814,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1674590
 END:VEVENT
 BEGIN:VEVENT
 UID:6d68596cfba2c3e95f9e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270414T190000
 DTEND;TZID=America/Denver:20270414T220000
 SUMMARY:The Chats @ The Depot
@@ -3828,7 +3828,7 @@ URL:https://www.ticketmaster.com/the-chats-us-tour-salt-lake-city-utah-04-1
 END:VEVENT
 BEGIN:VEVENT
 UID:3c2c046eaaecfb009fe1@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270417T200000
 DTEND;TZID=America/Denver:20270417T230000
 SUMMARY:LSDREAM (with Jaenga\, Ozztin) @ The Complex
@@ -3840,7 +3840,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1686631
 END:VEVENT
 BEGIN:VEVENT
 UID:0cba8bf7b92141a23889@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270417T200000
 DTEND;TZID=America/Denver:20270417T230000
 SUMMARY:Vincent Mason (with Phil Kane) @ The Union Event Center
@@ -3853,7 +3853,7 @@ URL:https://www.songkick.com/concerts/43498621-vincent-mason-at-union-event
 END:VEVENT
 BEGIN:VEVENT
 UID:01ed7dfac9c13a2a5983@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:Rec Hall @ Kilby Court
@@ -3865,7 +3865,7 @@ URL:https://www.24tix.com/event/y5ikyfoyhngwhembt2huzyned4
 END:VEVENT
 BEGIN:VEVENT
 UID:536f8b3ae61b6ab56162@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:Slow Crush (with Seahaven) @ Metro Music Hall
@@ -3877,7 +3877,7 @@ URL:https://www.24tix.com/event/4yysiigmknaulho7bxtrzwxzea
 END:VEVENT
 BEGIN:VEVENT
 UID:30e313b622d62f33f06a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:Elder (with Blackwater Holylight) @ Urban Lounge
@@ -3889,7 +3889,7 @@ URL:https://www.24tix.com/event/tkdh3ucvqbd77gpjsdfsr7squa
 END:VEVENT
 BEGIN:VEVENT
 UID:73374aff45ffbdaa261b@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270419T183000
 DTEND;TZID=America/Denver:20270419T213000
 SUMMARY:Meshuggah (with Testament\, Blood Incantation) @ The Union Event Ce
@@ -3903,7 +3903,7 @@ URL:https://www.songkick.com/concerts/43487697-meshuggah-at-union-event-cen
 END:VEVENT
 BEGIN:VEVENT
 UID:1bad54d8fe76b4f3b4ea@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270419T200000
 DTEND;TZID=America/Denver:20270419T230000
 SUMMARY:Charley Crockett @ The Commonwealth Room
@@ -3915,7 +3915,7 @@ URL:https://thestateroompresents.com/state-room-presents/charley-crockett
 END:VEVENT
 BEGIN:VEVENT
 UID:0c36eef641058e554f00@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270421
 SUMMARY:Peel Dream Magazine (with Dari Bay) @ Kilby Court
@@ -3927,7 +3927,7 @@ URL:https://www.24tix.com/event/eidthn473jgdxduvwk7dsxg7j4
 END:VEVENT
 BEGIN:VEVENT
 UID:0f4828c45aa83ffa5fca@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270421
 SUMMARY:Clap Your Hands Say Yeah @ Urban Lounge
@@ -3939,7 +3939,7 @@ URL:https://www.24tix.com/event/qhxiieuwwrhkhpp7wc5dhs535e
 END:VEVENT
 BEGIN:VEVENT
 UID:51667f91871620cec850@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270420T200000
 DTEND;TZID=America/Denver:20270420T230000
 SUMMARY:Charley Crockett @ The Commonwealth Room
@@ -3951,7 +3951,7 @@ URL:https://thestateroompresents.com/state-room-presents/charley-crockett-2
 END:VEVENT
 BEGIN:VEVENT
 UID:a103c676c68a83105cac@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:VEAUX @ Kilby Court
@@ -3963,7 +3963,7 @@ URL:https://www.24tix.com/event/sofmyrxycbewdetohlkfg4mtrm
 END:VEVENT
 BEGIN:VEVENT
 UID:56eb084d5748c4101ce8@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270422T183000
 DTEND;TZID=America/Denver:20270422T213000
 SUMMARY:Nickelback (with Don Broco) @ Delta Center
@@ -3975,7 +3975,7 @@ URL:https://www.deltacenter.com/events/nickelback/
 END:VEVENT
 BEGIN:VEVENT
 UID:cb92032b4b460a73a3f9@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270423T183000
 DTEND;TZID=America/Denver:20270423T213000
 SUMMARY:SiM (with Aurorawave\, Within Destruction) @ The Complex
@@ -3987,7 +3987,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1454533
 END:VEVENT
 BEGIN:VEVENT
 UID:10ed57fc09773894effc@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:Sydney Ross Mitchell @ Kilby Court
@@ -3999,7 +3999,7 @@ URL:https://www.24tix.com/event/26eyailql5aztlaphpq4mtw5p4
 END:VEVENT
 BEGIN:VEVENT
 UID:59287c57615aea92505f@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:FAUN @ Metro Music Hall
@@ -4011,7 +4011,7 @@ URL:https://www.24tix.com/event/jw7fgb2vl5cw3ftxud3l6v6x7u
 END:VEVENT
 BEGIN:VEVENT
 UID:f26bbf001e11a0ca9dd3@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:TWRP (with Jazz Emu) @ Urban Lounge
@@ -4023,7 +4023,7 @@ URL:https://www.24tix.com/event/srdjdeddtzcqpobr2ty5kmbgzm
 END:VEVENT
 BEGIN:VEVENT
 UID:4e9dfec003aefaa2f4ce@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270424T170000
 DTEND;TZID=America/Denver:20270424T200000
 SUMMARY:BUNT. @ The Complex
@@ -4035,7 +4035,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1672976
 END:VEVENT
 BEGIN:VEVENT
 UID:5844b955b0888fe8b2a0@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270424T183000
 DTEND;TZID=America/Denver:20270424T213000
 SUMMARY:The Interrupters (with Doom Regulator\, Rat Boy) @ The Union Event 
@@ -4049,7 +4049,7 @@ URL:https://www.songkick.com/concerts/43429107-interrupters-at-union-event-
 END:VEVENT
 BEGIN:VEVENT
 UID:b275c23e8124d512b3da@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270424T190000
 DTEND;TZID=America/Denver:20270424T220000
 SUMMARY:The Palms @ The State Room
@@ -4061,7 +4061,7 @@ URL:https://thestateroompresents.com/state-room-presents/the-palms
 END:VEVENT
 BEGIN:VEVENT
 UID:1e675bcc5d7c576709f1@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:HENGE @ Urban Lounge
@@ -4073,7 +4073,7 @@ URL:https://www.24tix.com/event/l65mdiagwrdpdexsdkqabbzvk4
 END:VEVENT
 BEGIN:VEVENT
 UID:7a50d14bb96a6b31f61a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270426T200000
 DTEND;TZID=America/Denver:20270426T230000
 SUMMARY:Lola Young @ The Union Event Center
@@ -4085,7 +4085,7 @@ URL:https://www.ticketmaster.com/event/1E00654190EC5F11
 END:VEVENT
 BEGIN:VEVENT
 UID:5007a1c0007e30d9448f@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270427T183000
 DTEND;TZID=America/Denver:20270427T213000
 SUMMARY:Carly Rae Jepsen (with Carol Ades) @ The Complex
@@ -4097,7 +4097,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1638954
 END:VEVENT
 BEGIN:VEVENT
 UID:3cc15c907ea3cc2e3bbb@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270428T190000
 DTEND;TZID=America/Denver:20270428T220000
 SUMMARY:FKJ @ The Complex
@@ -4109,7 +4109,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1465854
 END:VEVENT
 BEGIN:VEVENT
 UID:b47b5b26c58f5835d2a9@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:Getdown Services @ Kilby Court
@@ -4121,7 +4121,7 @@ URL:https://www.24tix.com/event/tkmzfap4pzcqtcu6fffpz6guri
 END:VEVENT
 BEGIN:VEVENT
 UID:2ecd5eb360b0c7fcb160@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 SUMMARY:GURRIERS @ Kilby Court
@@ -4133,7 +4133,7 @@ URL:https://www.24tix.com/event/w6vbdgiqtzfr3p3l75cmwm2nra
 END:VEVENT
 BEGIN:VEVENT
 UID:6bee297c2edd8197758e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270430T210000
 DTEND;TZID=America/Denver:20270501T000000
 SUMMARY:Sullivan King @ The Complex
@@ -4145,7 +4145,7 @@ URL:https://www.axs.com/events/1698285/sullivan-king-430-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:9d1a41bf8a34104d477d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:Mei Semones @ Kilby Court
@@ -4157,7 +4157,7 @@ URL:https://www.24tix.com/event/z2laq2j4yffhxa7cktrnp5tv6y
 END:VEVENT
 BEGIN:VEVENT
 UID:8ee15a6e579f53012783@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270501T190000
 DTEND;TZID=America/Denver:20270501T220000
 SUMMARY:Ricky Montgomery @ The Depot
@@ -4171,7 +4171,7 @@ URL:https://www.ticketmaster.com/ricky-montgomery-the-monty-tour-salt-lake-
 END:VEVENT
 BEGIN:VEVENT
 UID:aa979e793561c345a2fa@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270501T210000
 DTEND;TZID=America/Denver:20270502T000000
 SUMMARY:Sullivan King @ The Complex
@@ -4183,7 +4183,7 @@ URL:https://www.axs.com/events/1698287/sullivan-king-501-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:c21da9fb6836a25b809e@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270502T190000
 DTEND;TZID=America/Denver:20270502T220000
 SUMMARY:Hotel Mira (with Pretty Bitter\, Lisa Heller) @ Soundwell
@@ -4195,7 +4195,7 @@ URL:https://www.eventliveus.com/event/10599/hotelmira
 END:VEVENT
 BEGIN:VEVENT
 UID:6704df2e3f47192f089d@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270505T190000
 DTEND;TZID=America/Denver:20270505T220000
 SUMMARY:Calvin Harris @ Delta Center
@@ -4207,7 +4207,7 @@ URL:https://www.deltacenter.com/events/calvin-harris/
 END:VEVENT
 BEGIN:VEVENT
 UID:6ff933ac3592459160f3@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270506T190000
 DTEND;TZID=America/Denver:20270506T220000
 SUMMARY:Panchiko (with Korea Girl) @ The Complex
@@ -4219,7 +4219,7 @@ URL:https://www.axs.com/events/1680079/panchiko-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:b998763d5373350205a6@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270506T190000
 DTEND;TZID=America/Denver:20270506T220000
 SUMMARY:Haiden Henderson @ The Complex
@@ -4231,7 +4231,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1617659
 END:VEVENT
 BEGIN:VEVENT
 UID:86aa45eacc4e79533c5f@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270506T190000
 DTEND;TZID=America/Denver:20270506T220000
 SUMMARY:Palaye Royale @ The Depot
@@ -4245,7 +4245,7 @@ URL:https://www.ticketmaster.com/palaye-royale-salt-lake-city-utah-05-06-20
 END:VEVENT
 BEGIN:VEVENT
 UID:d30057c475b06fc29e81@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270506T193000
 DTEND;TZID=America/Denver:20270506T223000
 SUMMARY:Tinashe @ The Union Event Center
@@ -4258,7 +4258,7 @@ URL:https://www.songkick.com/concerts/43472466-tinashe-at-union-event-cente
 END:VEVENT
 BEGIN:VEVENT
 UID:db7e7194e0a4032e211a@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270508
 SUMMARY:Terrian @ Kilby Court
@@ -4270,7 +4270,7 @@ URL:https://www.24tix.com/event/tayx6hx7tvh6xddv52tnflauk4
 END:VEVENT
 BEGIN:VEVENT
 UID:af11975de438bbd24d08@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270507T190000
 DTEND;TZID=America/Denver:20270507T220000
 SUMMARY:CG5 @ The Complex
@@ -4282,7 +4282,7 @@ URL:https://www.axs.com/events/1662635/cg5-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:bc60feb7984c4c7a03e4@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270508T200000
 DTEND;TZID=America/Denver:20270508T230000
 SUMMARY:Kaitlin Butts @ The State Room
@@ -4294,7 +4294,7 @@ URL:https://thestateroompresents.com/state-room-presents/kaitlin-butts
 END:VEVENT
 BEGIN:VEVENT
 UID:323531cf946a3e46e5ae@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270511
 DTEND;VALUE=DATE:20270512
 SUMMARY:KEO @ Kilby Court
@@ -4306,7 +4306,7 @@ URL:https://www.24tix.com/event/lbr2srvso5dldk5kin3douomve
 END:VEVENT
 BEGIN:VEVENT
 UID:cc9f4674bfc9bc8b4434@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270511T183000
 DTEND;TZID=America/Denver:20270511T213000
 SUMMARY:Queens of the Stone Age @ Delta Center
@@ -4318,7 +4318,7 @@ URL:https://www.deltacenter.com/events/queens-of-the-stone-age/
 END:VEVENT
 BEGIN:VEVENT
 UID:70ef27f4f1581129879c@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270512T190000
 DTEND;TZID=America/Denver:20270512T220000
 SUMMARY:Midnight Generation @ The Complex
@@ -4330,7 +4330,7 @@ URL:https://www.thecomplexslc.com/events/detail?event_id=1690554
 END:VEVENT
 BEGIN:VEVENT
 UID:6486649d4135d992a3dc@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270513T190000
 DTEND;TZID=America/Denver:20270513T220000
 SUMMARY:Our Last Night @ The Complex
@@ -4342,7 +4342,7 @@ URL:https://www.axs.com/events/1660142/our-last-night-tickets
 END:VEVENT
 BEGIN:VEVENT
 UID:d0bd6272b4e07830e4b1@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:DIIV (with ZIRP! The World\, she's green) @ Metro Music Hall
@@ -4354,7 +4354,7 @@ URL:https://www.24tix.com/event/csrosi4lcfbxnaps4vvbkzjq6m
 END:VEVENT
 BEGIN:VEVENT
 UID:b548b87185dddb7e0e11@salt-lake-shows
-DTSTAMP:20261119T191004Z
+DTSTAMP:20261122T134754Z
 DTSTART;TZID=America/Denver:20270519T190000
 DTEND;TZID=America/Denver:20270519T220000
 SUMMARY:The Arcadian Wild @ The State Room

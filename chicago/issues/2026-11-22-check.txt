@@ -1,0 +1,60 @@
+Subject: CHECK before sending: Nov 22–Dec 5: Chicago 2 Week Playlist
+
+This is the pre-send check. The beehiiv test of the real issue arrives separately.
+Nothing goes to subscribers until you say OK.
+
+SEND TO
+  beehiiv segment "Chicago readers" only (recalculated today; recalculate again Sunday). Never All subscribers.
+
+LINKS
+  [  ] Chicago playlist: https://open.spotify.com/playlist/6moaNK4s5vkeaQNF0Vb4wx
+  [  ] Wicker Park & Logan Square playlist: https://open.spotify.com/playlist/03iBC8ZXxFFgKFv8MqaBYk
+  [  ] West Loop & Pilsen playlist: https://open.spotify.com/playlist/6hcjOaWAbYK45HhD9OVX9H
+  [  ] North Suburbs playlist: https://open.spotify.com/playlist/2bTBntJfvCN3PFPq7VrVIB
+  [  ] Pop playlist: https://open.spotify.com/playlist/5fhgaqGLzgLom3UWbO7Omv
+  [  ] Indie & Rock playlist: https://open.spotify.com/playlist/0S4sJW9bRNW17CflCxxwxz
+  [  ] Folk & Country playlist: https://open.spotify.com/playlist/35nQUQI0XJyLOLPRqYbMCl
+  [  ] Electronic playlist: https://open.spotify.com/playlist/6EoQk3Zh7ktbTBgYMtorU0
+  [  ] Hip-hop & R&B playlist: https://open.spotify.com/playlist/4JgkU2lu5ytPAP2apnZxgb
+  [  ] Punk & Metal playlist: https://open.spotify.com/playlist/6h4uvj2Wq83EuKD4zq3FLl
+  [  ] Funk & Blues playlist: https://open.spotify.com/playlist/5J8mAWi9QTtmxvAkXE4iy5
+  [  ] Jazz, World & Classical playlist: https://open.spotify.com/playlist/00ZyMFHVxZF0rDItopHJvp
+  [  ] Copy-to-other-apps tool: https://www.tunemymusic.com/transfer
+  [  ] Site: https://2weeksoundcheck.com/chicago/
+
+NUMBERS
+  Dates: Nov 22–Dec 5
+  Shows on the site in this window: 275
+  Chicago: 557 songs, 188 headliners, 3 per artist
+  Wicker Park & Logan Square: 190 songs, 64 artists, 3 per artist
+  West Loop & Pilsen: 274 songs, 92 artists, 3 per artist
+  North Suburbs: 57 songs, 19 artists, 3 per artist
+  Pop: 33 songs, 11 artists
+  Indie & Rock: 138 songs, 46 artists
+  Folk & Country: 66 songs, 22 artists
+  Electronic: 62 songs, 21 artists
+  Hip-hop & R&B: 48 songs, 16 artists
+  Punk & Metal: 90 songs, 30 artists
+  Funk & Blues: 48 songs, 16 artists
+  Jazz, World & Classical: 49 songs, 17 artists
+  Chicago skipped (not on Spotify or ambiguous): Chicago Jazz Composers Collective 25th Anniversary, Music of the Baroque, Heat On, Josh Berman Trio, Diaspora Duos, The Foxtrots, Dakarai Barclay Quintet, bim+bo, The Part Timers, 3000 B.C., Kyle Swan Quartet, Black and White Gipsy Orchestra, Sabertooth Organ Quartet, Justin Robinson Quintet, Jerry Weldon/Dave Schumacher Organ Quartet, Al Scorch's Big Fantastical Residency, Cryofloves, Mazzarella/Håker Flaten/Ra Trio & Heaven Orchestra, Gerald Dowd Band, Evrod Cassimy, PANCHO, John Sutton DogTime, Cornerstones of Rock, xSoakedintormentx, Autofill, Alpert/Cunningham/Corsano, The Generic Version, Ronnie Acoustic, Abram Collier Nonet, Jimmy Farace Quartet, Steve Schneck Quartet, Henry Carpender, Parranda Gaitera, Willy Porter & The Humans in a Room Quartet, Rachel Farr, Bob Lark Septet, Mayn Groove, Nicholas Alexander, Home by 3, Cantus, Jeremy Pelt Quintet, La Croix Mystique, Lee Ketch, Dave Rempis Residency, The Adrian Dunn Singers, Dan Ponce (Chicago Christmas), The Stigs, MOBKE, PB, Mannheim Steamroller Christmas by Chip Davis, New Heartaches, Jonny Lyons & The Pride, Megadad, Dos Santos, Daisychain
+  Wicker Park & Logan Square skipped (not on Spotify or ambiguous): Anna Johnson, Diaspora Duos, Hugo Flores García, Aliah Ajamoughli, Cruz, Liam Taylor, The Part Timers, Petsit, Earl Gary, AJ, Jacob Ciocci, Lynn Canfield & Henry Frayne, Zercher, Violet Waves, Dietpooch, PANCHO, nvrmore, Instrument, Laliberté, Ronnie Acoustic, The Maxwell Blast, Chris Coleslaw Band, Lost Legion, The Alices, Yetta, Flail, Iris Marlowe, Hangxiety, Ston Don, Daryn Alexus, Malci, PB, Shiksa, Co-Stanza, Dos Santos, Daisychain, Machīn, Así Así
+  West Loop & Pilsen skipped (not on Spotify or ambiguous): Soaked in Torment, Curb Stomp the Opposition, On Dirt, Wall of Flesh, Constant Pain, Heat On, Original Time Demonstrations, 3000 B.C., Understudy, Instrument, Fallen Angels, Jail, Glorious Descent, Al Scorch's Big Fantastical Residency, Evrod Cassimy, Mary K, xSoakedintormentx, xCommandx, Contra Mi, CUT, Kitship, Torn Open, Katywentmissing, Squelching, Tash Solara
+  North Suburbs skipped (not on Spotify or ambiguous): Music of the Baroque, Cornerstones of Rock, Abram Collier Nonet, Jimmy Farace Quartet, Anna Donnelly, Willy Porter & The Humans in a Room Quartet, Cantus, The Adrian Dunn Singers, Kevin King, Mannheim Steamroller Christmas by Chip Davis, Jonny Lyons & The Pride
+
+FLAGS (from the run)
+  !! NOTHING IS ON GITHUB. The scheduled task ran with no repository attached, so the venue refresh (main) and the prep branch prep/2026-11-22 are only committed locally. The Sunday go-live task will find no prep branch and change nothing. Everything is in a git bundle: attached to the Seattle check email and saved in the project as claude/pending-push-2026-11-19.md (with the commands). Apply it from a chat that has the repo attached, and recreate the Thursday task from a chat with the repo attached so this stops happening.
+  !! hello@ webmail is signed out (sign-in expired), so the inbox was NOT checked for reports this week and the beehiiv tests could not be forwarded from hello@. Sign back in at http://mail.2weeksoundcheck.com; the two beehiiv tests are waiting there (Promotions).
+  - Save-once playlists: the eight city/neighborhood standing playlists were CREATED today with the Nov 22–Dec 5 songs (links in LINKS). The 24 standing genre playlists still hold Nov 15–28 until Sunday's refresh from the saved plans (builder page storage scbPLANS/scbSTAND, backup in tools/plans/2026-11-22-plans.json on the branch); the genre numbers above are what they will be after that refresh.
+  - Seattle and Salt Lake Funk & Blues: no confirmed Funk & Blues headliner in the window, so those two standing playlists keep last week's songs on Sunday (no plan saved for them).
+  - Genre Review: 212 acts to decide at https://claude.ai/artifact/A8aMCZEEGqB6HPV7TvjNP9 (week 2026-11-22). 64 more were confirmed automatically from Last.fm; generic names (Ripe, Valhalla, Krush, Baby Jane, Che, Filth, Pretoria, Grover, Dxrkknght, Solo Kei, Late Night Thoughts) were sent to review instead of auto-confirmed.
+  - build_issue.py still writes "new playlists" wording; the drafts were hand-edited to say save-once. Update the script after your newsletter review.
+  - Reader-requested venues (REFRESH.md lists for Seattle and Chicago) were not added this run; still pending.
+  - Venue refresh (Chicago, 1,439 upcoming events, all 59 files re-collected): Kingston Mines December nights carried over (calendar widget only showed November); Symphony Center existing dates kept verbatim, only new May dates added; SPACE: five JamBase/Songkick-only dates left out pending Do312 (Nora O'Connor Dec 6, Dee Alexander Jan 10, Liquid Soul Jan 30, Kahil El'Zabar Feb 1, Shemekia Copeland Feb 5); Tally Hall Apr 18 moved Metro → Salt Shed; Turnover Nov 25 moved Salt Shed → House of Blues; Des Plaines "Deacon Blue" Nov 28 was a Steely Dan tribute, removed. For you to confirm: Boots NYE at Concord (Dylan Brady bill), Evrod Cassimy (Thalia Nov 28), Classicks Never Die Fest (Thalia Jan 17), Winters Wonderland (Hideout Dec 9), Dxrkknght goth night (Cobra Dec 12), Strapped: The Musical and Live Juice Live benefit (Empty Bottle Dec 4 / 17), Skokie Theatre's two December shows, Two Friends: Big Bootie Land (Pavilion May 15), Chicago Blues Allstars (Buddy Guy's Dec 19), Abram Collier Nonet (Jazz Showcase Dec 22), Heart By Heart (Des Plaines Jan 16), Railheart (28 Mile), Collision of Rhythm (Gorton Apr 18), Krampus Fest dropped (Martyrs' Dec 12).
+  - beehiiv: new draft "Nov 22–Dec 5: Chicago 2 Week Playlist" (post b6b52c5f-a4a8-4386-aed1-93cf75ce4c57), duplicate of the Nov 15–28 draft, inherited the Chicago readers segment (114 recipients, All subscribers unchecked). Test sent to hello@.
+
+SUBJECT AND PREVIEW
+  Nov 22–Dec 5: Chicago 2 Week Playlist
+  Four playlists to save once: all of Chicago, plus Wicker Park & Logan Square, West Loop & Pilsen and the North Suburbs. They refresh every Sunday.
+
+Reply OK (or tell Claude in the chat) and it goes to subscribers.
