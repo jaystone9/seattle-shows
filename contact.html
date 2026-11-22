@@ -23,7 +23,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css?v=6121c52d">
+<link rel="stylesheet" href="site.css?v=c2fe974d">
 </head>
 <body>
 <div class="wrap">
@@ -151,24 +151,39 @@ if(neutral){
     const kind=form.dataset.kind, status=form.querySelector(".status"), to = kind==="report" ? (cfg.report_to||cfg.contact_to) : cfg.contact_to;
     const live = cfg.form_endpoint || to;
     if(!live){ status.textContent = "This form opens soon. Until then, reach us through the Sunday email."; form.querySelector("button").disabled = true; }
+    const btn = form.querySelector("button"), btnLabel = btn.textContent;
     form.addEventListener("submit", async ev=>{
-      ev.preventDefault(); status.className="status";
+      ev.preventDefault();
+      if(form.dataset.sending==="1") return; // already in flight: ignore a second click/Enter
+      status.className="status";
       const missing=[...form.querySelectorAll("[required]")].find(f=>!f.value.trim());
       if(missing){ status.className="status err"; status.textContent=`Fill in ${form.querySelector(`label[for="${missing.id}"]`).childNodes[0].textContent.trim().replace(/\?$/,"").toLowerCase()} to send this.`; missing.focus(); return; }
       const email=form.querySelector('input[type="email"]');
       if(email && email.value && !email.checkValidity()){ status.className="status err"; status.textContent="That email address doesn't look complete. Check it and send again."; email.focus(); return; }
       const fields=Object.fromEntries(new FormData(form)); fields.kind=kind; fields.page=location.href;
       const subject = kind==="report" ? `Report: ${fields.problem}${fields.show?` (${fields.show})`:""}` : `Contact: ${fields.topic} from ${fields.name}`;
+      // Show it's working right away, on the button itself, and block a repeat send until this one settles.
+      form.dataset.sending="1"; btn.disabled=true; btn.textContent="Sending…";
+      status.className="status sending"; status.textContent="Sending…";
       if(cfg.form_endpoint){
         try{
           const r=await fetch(cfg.form_endpoint,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify({_subject:subject,_template:"table",_replyto:fields.email||"",...fields})});
           if(!r.ok) throw 0; const j=await r.json().catch(()=>({})); if(j.success===false||j.success==="false") throw 0;
-          form.reset(); status.textContent = kind==="report" ? "Report sent. Thanks, we'll fix it in the next update." : "Message sent. Thanks for reaching out.";
-        }catch(e){ status.className="status err"; status.textContent="Your message didn't send. Check your connection and try again."; }
+          form.reset();
+          status.className="status ok";
+          status.textContent = kind==="report" ? "✓ Report sent. Thanks, we'll fix it in the next update." : "✓ Message sent. Thanks for reaching out.";
+          btn.textContent="Sent";
+          setTimeout(()=>{ btn.disabled=false; btn.textContent=btnLabel; form.dataset.sending=""; }, 2500);
+        }catch(e){
+          status.className="status err"; status.textContent="Your message didn't send. Check your connection and try again.";
+          btn.disabled=false; btn.textContent=btnLabel; form.dataset.sending="";
+        }
       } else {
         const body=Object.entries(fields).filter(([k])=>!["kind"].includes(k)).map(([k,v])=>`${k}: ${v}`).join("\n");
         location.href=`mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        status.textContent="Your email app should open with the message filled in. Press send there.";
+        status.className="status ok";
+        status.textContent="✓ Your email app should open with the message filled in — press send there.";
+        setTimeout(()=>{ btn.disabled=false; btn.textContent=btnLabel; form.dataset.sending=""; }, 1200);
       }
     });
   });
