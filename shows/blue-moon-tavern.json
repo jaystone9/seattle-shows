@@ -1,0 +1,22 @@
+[
+  {
+    "venue": "Blue Moon Tavern",
+    "room": null,
+    "title": "Blü Egyptian (with Space Whales, Chonk)",
+    "date": "2026-12-11",
+    "doors": null,
+    "start": "20:00",
+    "url": "https://www.jambase.com/show/blu-egyptian-the-blue-moon-tavern-20261211",
+    "status": null
+  },
+  {
+    "venue": "Blue Moon Tavern",
+    "room": null,
+    "title": "Zephyr Love",
+    "date": "2027-07-16",
+    "doors": "19:00",
+    "start": "20:00",
+    "url": "https://www.jambase.com/show/zephyr-love-the-blue-moon-tavern-20270716",
+    "status": null
+  }
+]

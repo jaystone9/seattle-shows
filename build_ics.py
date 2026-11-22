@@ -36,6 +36,14 @@ ADDR = {
     "Belltown Yacht Club": "Belltown Yacht Club (downstairs from Screwdriver), 2320 1st Ave, Seattle, WA 98121",
     "Add-a-Ball": "Add-a-Ball, 315 N 36th St, Seattle, WA 98103",
     "Substation": "Substation, 645 NW 45th St, Seattle, WA 98107",
+    "Baba Yaga": "Baba Yaga, 124 S Washington St, Seattle, WA 98104",
+    "Blue Moon Tavern": "Blue Moon Tavern, 712 NE 45th St, Seattle, WA 98105",
+    "Slim's Last Chance": "Slim's Last Chance, 5606 1st Ave S, Seattle, WA 98108",
+    "The Royal Room": "The Royal Room, 5000 Rainier Ave S, Seattle, WA 98118",
+    "Fremont Abbey Arts Center": "Fremont Abbey Arts Center, 4272 Fremont Ave N, Seattle, WA 98103",
+    "Chop Suey": "Chop Suey, 1325 E Madison St, Seattle, WA 98122",
+    "The Kraken Bar & Lounge": "The Kraken Bar & Lounge, 5828 Roosevelt Way NE, Seattle, WA 98105",
+    "Central Saloon": "Central Saloon, 207 1st Ave S, Seattle, WA 98104",
 }
 
 VTZ = """BEGIN:VTIMEZONE

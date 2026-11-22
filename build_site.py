@@ -50,6 +50,14 @@ VENUES = {
     "Belltown Yacht Club": {"short": "Belltown Yacht Club", "hood": "Belltown", "site": "http://bycseattle.com/"},
     "Add-a-Ball": {"short": "Add-a-Ball", "hood": "Fremont", "site": "http://add-a-ball.com/"},
     "Substation": {"short": "Substation", "hood": "Fremont", "site": "https://substationseattle.com/"},
+    "Baba Yaga": {"short": "Baba Yaga", "hood": "Pioneer Square", "site": "https://babayagaseattle.com/"},
+    "Blue Moon Tavern": {"short": "Blue Moon Tavern", "hood": "U District", "site": "https://www.thebluemoonseattle.com/"},
+    "Slim's Last Chance": {"short": "Slim's Last Chance", "hood": "Georgetown", "site": "https://www.slimslastchance.com/"},
+    "The Royal Room": {"short": "Royal Room", "hood": "Columbia City", "site": "https://theroyalroomseattle.com/"},
+    "Fremont Abbey Arts Center": {"short": "Fremont Abbey", "hood": "Fremont", "site": "https://www.fremontabbey.org/"},
+    "Chop Suey": {"short": "Chop Suey", "hood": "Capitol Hill", "site": "https://chopsuey.com/"},
+    "The Kraken Bar & Lounge": {"short": "The Kraken", "hood": "Roosevelt", "site": "https://www.songkick.com/venues/1659243-kraken-bar-and-lounge"},
+    "Central Saloon": {"short": "Central Saloon", "hood": "Pioneer Square", "site": "https://centralsaloon.com/"},
 }
 
 # Neighborhood -> area, for the area filter and area playlists. Frelard is the
