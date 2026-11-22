@@ -72,10 +72,10 @@
   "url": "https://open.spotify.com/playlist/35GDqKEz34wFNoVK52R1Zv",
   "start": "2026-11-22",
   "end": "2026-12-05",
-  "songs": 12,
-  "artists": 4,
+  "songs": 3,
+  "artists": 1,
   "per_artist": 3,
-  "note": "No Funk & Blues headliners confirmed for Nov 22–Dec 5; the standing playlist keeps its Nov 15–28 songs (12 songs, 4 artists)."
+  "skipped": ["Mike Stone"]
  },
  {
   "genre": "Jazz, World & Classical",

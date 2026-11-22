@@ -10245,5 +10245,13 @@
     ],
     "confirmed": "2026-11-19",
     "source": "lastfm"
+  },
+  "Skerik & Mike Stone present the music of Charles Mingus (with Jason Cressey, Geoff Harper)": {
+    "genres": [
+      "Funk & Blues",
+      "Jazz, World & Classical"
+    ],
+    "confirmed": "2026-11-22",
+    "source": "claude"
   }
 }
