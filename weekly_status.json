@@ -9,7 +9,12 @@
    }
   },
   "2026-11-22": {
-   "genres_refreshed": "2026-11-22"
+   "genres_refreshed": "2026-11-22",
+   "sent": {
+    "seattle": "2026-11-22",
+    "chicago": "2026-11-22",
+    "salt-lake": "2026-11-22"
+   }
   }
  }
 }

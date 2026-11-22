@@ -58,12 +58,33 @@ window.SC = (function () {
     return `<p class="nl-soon">Email signups open soon.</p>`;
   }
 
-  // beehiiv hides its forms for visitors who already subscribed (it sets a
-  // bhv_<publication>_subscribed cookie on this site), so show a note instead of an empty box.
+  // beehiiv sets a bhv_<publication>_subscribed cookie after ANY successful signup on this
+  // site — and Seattle + Chicago share one publication, so that cookie can't tell the two
+  // apart. We track "subscribed to THIS city" ourselves instead (this browser only), so
+  // someone who's already on Seattle still sees a working Chicago form, and vice versa.
   function alreadySubscribed(nl) {
-    if (!nl.publication_id) return false;
-    try { return document.cookie.split(";").some(c => c.trim().startsWith("bhv_" + nl.publication_id + "_subscribed=")); }
+    if (!nl.form_id) return false;
+    try { return !!localStorage.getItem("sc_bhv_" + nl.form_id); }
     catch (e) { return false; }
+  }
+
+  // Beehiiv's embed is a cross-origin iframe, so we can't see inside it to know a signup
+  // succeeded. What we CAN see is its shared publication-wide cookie changing value. So:
+  // remember whatever that cookie was when this form loaded, then watch for it to change
+  // while this form is the one on screen, and attribute the change to this form_id.
+  function watchForSubscribe(formId) {
+    const read = () => (document.cookie.match(/bhv_[^=;]+_subscribed=([^;]*)/) || [])[1];
+    const baseline = read();
+    let tries = 0;
+    const iv = setInterval(() => {
+      tries++;
+      const now = read();
+      if (now && now !== baseline) {
+        clearInterval(iv);
+        try { localStorage.setItem("sc_bhv_" + formId, "1"); } catch (e) {}
+      } else if (tries > 240) clearInterval(iv); // ~10 min, then give up quietly
+    }, 2500);
+    document.addEventListener("visibilitychange", () => { if (document.hidden) clearInterval(iv); }, { once: true });
   }
 
   function fillSignup(slot, nl) {
@@ -92,6 +113,7 @@ window.SC = (function () {
       sc.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";
       sc.setAttribute("data-beehiiv-form", nl.form_id);
       slot.appendChild(sc);
+      watchForSubscribe(nl.form_id);
       // Some browsers block or break the embedded form (a Chicago reader on DuckDuckGo's phone browser
       // could not type in it, Nov 17, 2026). So: always offer the same form as its own page, and if the
       // form never appears, put a plain button in its place instead of an empty box.
