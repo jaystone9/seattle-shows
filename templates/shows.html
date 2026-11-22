@@ -169,13 +169,17 @@
   const {esc,todayISO,addDays,D,fmt,range,showRow,load,footer} = SC;
   const $ = s => document.querySelector(s);
 
+  // One template, two pages: the city page (playlist + signup) and shows.html (the show list).
+  // Moved here, ahead of the data fetch, so the signup box never paints in its "This week" spot
+  // (right under the hero) before snapping down to the footer — it was previously moved inside
+  // load().then(), which visibly flashed on first load while the data.json fetch was in flight.
+  const VIEW = document.body.dataset.view === "shows" ? "shows" : "listen";
+  if(VIEW==="shows") document.querySelector("footer").before(document.getElementById("newsletter"));
+
   load().then(data=>{
     // The shows on the page are always the next two weeks from today (today + 13 days), so the
     // page rolls forward every day. The playlists are rebuilt each Sunday for that Sunday's two
     // weeks and say so; on a Sunday the two ranges are the same dates. (Jay, Nov 13, 2026.)
-    // One template, two pages: the city page (playlist + signup) and shows.html (the show list).
-    const VIEW = document.body.dataset.view === "shows" ? "shows" : "listen";
-    if(VIEW==="shows") document.querySelector("footer").before(document.getElementById("newsletter"));
     const venues = data.venues, today = todayISO();
     const start = today, end = addDays(today,13);
     const days = Math.round((D(end)-D(start))/864e5)+1;
