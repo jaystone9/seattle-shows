@@ -124,12 +124,21 @@ window.SC = (function () {
         alt.innerHTML = `Can't type in the box? <a href="${esc(direct)}" target="_blank" rel="noopener" data-nl-direct>Open the signup form on its own page →</a>`;
         slot.after(alt);
       }
-      setTimeout(() => {
-        if (slot.querySelector("iframe")) return;
+      // Jay asked (Nov 23, 2026) why this fires as often as it does: 76 times over 3 days, 0 clicks
+      // on the fallback button it shows. The 6s timer alone can't say whether beehiiv's script was
+      // actually blocked (an ad/privacy blocker) or just slow to respond, so tell those apart here:
+      // a script that errors is a sure block, caught right away; everything else still gets the full
+      // 6s before giving up. Both get the same fallback, but now with a reason + city on the event.
+      let done = false;
+      const showFallback = reason => {
+        if (done || slot.querySelector("iframe")) return;
+        done = true;
         slot.innerHTML = `<a class="nl-direct" href="${esc(direct)}" target="_blank" rel="noopener" data-nl-direct>Sign up for the Sunday email →</a>`;
         const alt = slot.nextElementSibling; if (alt && alt.classList.contains("nl-alt")) alt.remove();
-        track("signup-form-blocked");
-      }, 6000);
+        track("signup-form-blocked", { city: B.city || "seattle", reason });
+      };
+      sc.addEventListener("error", () => showFallback("script-error"), { once: true });
+      setTimeout(() => showFallback("timeout"), 6000);
     } else slot.innerHTML = signupHTML(nl);
   }
 
