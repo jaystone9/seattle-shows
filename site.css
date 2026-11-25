@@ -240,11 +240,24 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 /* footer */
 footer{margin:96px 0 0;padding:28px 0 48px;border-top:1px solid var(--line)}
 .foot{display:grid;gap:28px}
-@media (min-width:720px){.foot{grid-template-columns:1.2fr 1fr 1fr}}
+@media (min-width:720px){.foot{grid-template-columns:1.3fr 1fr}}
 footer h4{margin:0 0 8px;font-size:16px;letter-spacing:.14em;text-transform:uppercase}
 footer p,footer li{font-size:16px;margin:0}
 footer ul{list-style:none;padding:0;margin:0;display:grid;gap:3px}
+.venues-link{display:inline-block;margin-top:10px;font-size:16px;text-decoration:underline}
 .fine{margin-top:28px;color:var(--muted);font-size:14px}
+
+/* venues page */
+.varea{margin:40px 0 0}
+.varea:first-of-type{margin-top:16px}
+.varea h2{margin:0 0 12px;padding-bottom:8px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+.vgrid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));column-gap:28px}
+.vgrid li{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid rgba(18,18,18,.08)}
+.vgrid a{display:inline-flex;align-items:center;gap:7px;font-size:16px;text-decoration:none}
+.vgrid a:hover{text-decoration:underline}
+.vgrid a svg{opacity:.45;flex:none}
+.vgrid a:hover svg{opacity:.75}
+.vgrid .hood{font-size:13px;color:var(--muted);white-space:nowrap}
 
 /* page heads (Playlists, Contact) */
 .page-head{padding:48px 0 8px}

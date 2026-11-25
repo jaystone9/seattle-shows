@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Venues · 2 Week Soundcheck</title>
+<meta name="description" content="Every venue 2 Week Soundcheck tracks in Salt Lake City, grouped by neighborhood, each linking straight to that room's own site.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="2 Week Soundcheck">
+<meta property="og:url" content="https://2weeksoundcheck.com/salt-lake/venues.html">
+<meta property="og:title" content="Venues · 2 Week Soundcheck">
+<meta property="og:description" content="Every venue 2 Week Soundcheck tracks in Salt Lake City, grouped by neighborhood, each linking straight to that room's own site.">
+<meta property="og:image" content="https://2weeksoundcheck.com/og-image-salt-lake.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The words 2 Week Soundcheck in typewriter and marker lettering beside a taped-up vintage photo of a bandleader singing into a microphone, Salt Lake City.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://2weeksoundcheck.com/og-image-salt-lake.jpg">
+<meta name="theme-color" content="#FBFAF5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#FBFAF5" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css?v=f53a5ea7">
+</head>
+<body data-city="salt-lake" data-tz="America/Denver" data-data="../data/salt-lake.json">
+<div class="wrap">
+  <header class="mast">
+    <div class="brandrow">
+    <a class="brand" href="/"><b>2</b> Week Soundcheck</a>
+    <label class="edition"><span class="visually-hidden">City</span>
+      <select id="city" aria-label="City">
+        <option value="seattle">Seattle</option>
+        <option value="chicago">Chicago</option>
+        <option value="salt-lake" selected>Salt Lake City</option>
+      </select>
+    </label>
+    </div>
+    <a class="nl-cta" href="#newsletter">Get the Sunday email</a>
+    <nav class="nav" aria-label="Main">
+      <a href="./">This week</a>
+      <a href="shows.html">All shows</a>
+      <a href="playlists.html">Playlists</a>
+      <a href="contact.html">Contact</a>
+      <a href="#" id="tip-nav" class="tip-nav" data-tip-jar hidden><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>chip in</a>
+    </nav>
+  </header>
+
+  <section class="page-head">
+    <h1>Venues we follow</h1>
+    <p id="v-intro">A short list of rooms worth knowing, every one linking straight to its own site for tickets, doors time and the current calendar.</p>
+  </section>
+
+  <div id="vpage"></div>
+
+  <footer>
+    <div class="foot">
+      <div>
+        <h4>About</h4>
+        <p>2 Week Soundcheck tracks every concert at a short list of rooms worth knowing, refreshed every week, so you can discover new music and go to more shows.</p>
+        <a class="venues-link" href="venues.html" aria-current="page">Venues we follow &rarr;</a>
+      </div>
+      <div>
+        <h4>Stay in the loop</h4>
+        <ul>
+          <li><a href="#newsletter">Sunday email</a></li>
+          <li><a data-cal href="#">Add to Apple or Outlook Calendar</a></li>
+          <li><a data-gcal href="#">Add to Google Calendar</a></li>
+          <li><a href="playlists.html">Playlists</a></li>
+          <li><a href="contact.html#report">Report a problem</a></li>
+          <li><a href="contact.html#contact">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine" id="fine"></p>
+  </footer>
+</div>
+<script src="../common.js?v=825489f5"></script>
+<script>
+SC.load().then(data=>{
+  SC.footer(data);
+  const {esc} = SC;
+  const venues = data.venues || {};
+  const keys = Object.keys(venues);
+  const areas = (data.areas||[]).filter(a=>keys.some(k=>(venues[k].area||"")===a));
+  const inArea = a => keys.filter(k=>(venues[k].area||"")===a).sort((x,y)=>venues[x].short.localeCompare(venues[y].short));
+  const groups = areas.map(a=>[a, inArea(a)]).filter(g=>g[1].length);
+  const loose = keys.filter(k=>!areas.includes(venues[k].area||"")).sort((x,y)=>venues[x].short.localeCompare(venues[y].short));
+  if (loose.length) groups.push(["Other", loose]);
+
+  const city = data.edition || "Salt Lake City";
+  document.getElementById("v-intro").textContent = `${keys.length} rooms in ${city}, across ${groups.length} neighborhood${groups.length===1?"":"s"}, every one linking straight to its own site for tickets, doors time and the current calendar.`;
+
+  const extIcon = `<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>`;
+  const row = k => {
+    const v = venues[k];
+    return `<li><a href="${esc(v.site)}" target="_blank" rel="noopener">${extIcon}<span class="vn">${esc(v.short)}</span></a><span class="hood">${esc(v.hood)}</span></li>`;
+  };
+  document.getElementById("vpage").innerHTML = groups.map(([a,l]) =>
+    `<section class="varea"><h2>${esc(a)}</h2><ul class="vgrid">${l.map(row).join("")}</ul></section>`
+  ).join("") || `<p class="empty">The venue list is on its way.</p>`;
+}).catch(()=>{document.getElementById("vpage").innerHTML=`<p class="empty">The venue list didn't load. Refresh the page to try again.</p>`;});
+</script>
+</body>
+</html>

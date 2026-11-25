@@ -186,8 +186,6 @@ window.SC = (function () {
   function footer(data) {
     newsletter(data);
     donate(data);
-    const el = document.getElementById("venues");
-    if (el) el.innerHTML = Object.entries(data.venues).map(([k, v]) => `<li><a href="${esc(v.site)}" target="_blank" rel="noopener">${esc(v.short)}</a>, ${esc(v.hood)}</li>`).join("");
     document.querySelectorAll("[data-cal]").forEach(a => a.href = data.calendar);
     // Google Calendar can't open webcal:// links directly; its "add by URL" screen takes the feed as cid.
     const gcal = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(data.calendar);

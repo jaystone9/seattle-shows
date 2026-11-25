@@ -308,7 +308,7 @@ def city_picker():
 
 # templates/shows.html makes two pages: the city page (playlist + signup) and shows.html (the show list).
 PAGES = (("index.html", "templates/shows.html"), ("shows.html", "templates/shows.html"), ("playlists.html", "templates/playlists.html"),
-         ("contact.html", "templates/contact.html"))
+         ("contact.html", "templates/contact.html"), ("venues.html", "templates/venues.html"))
 
 SEATTLE = {"name": "Seattle", "tz": "America/Los_Angeles", "data": "data/seattle.json", "area_playlists": ["Frelard", "Downtown, Seattle Center & SoDo"], "live": True}
 
@@ -343,6 +343,7 @@ def city_pages():
                 ('content="https://2weeksoundcheck.com/"', f'content="https://2weeksoundcheck.com/{slug}/"'),
                 ('content="https://2weeksoundcheck.com/playlists.html"', f'content="https://2weeksoundcheck.com/{slug}/playlists.html"'),
                 ('content="https://2weeksoundcheck.com/contact.html"', f'content="https://2weeksoundcheck.com/{slug}/contact.html"'),
+                ('content="https://2weeksoundcheck.com/venues.html"', f'content="https://2weeksoundcheck.com/{slug}/venues.html"'),
             ]
             if slug != "seattle":
                 subs += [
