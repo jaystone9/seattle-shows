@@ -168,6 +168,11 @@ window.SC = (function () {
   // {enabled, url, label}. No box at all until Jay flips enabled + fills in a real url.
   function donate(data) {
     const d = data.donate;
+    const navLink = document.getElementById("tip-nav");
+    if (navLink) {
+      if (d && d.enabled && d.url) { navLink.href = d.url; navLink.target = "_blank"; navLink.rel = "noopener"; navLink.hidden = false; }
+      else navLink.hidden = true;
+    }
     const foot = document.querySelector("footer");
     if (!foot || !d || !d.enabled || !d.url || document.querySelector(".tip-jar")) return;
     foot.insertAdjacentHTML("beforebegin", `<section class="tip-jar" aria-labelledby="tip-h">
