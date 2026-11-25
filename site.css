@@ -49,10 +49,9 @@ a:hover{color:var(--mark)}
   .edition{margin-left:auto}
   .nl-cta{order:3;justify-content:center;width:100%}
   .nav{order:4;width:100%;row-gap:10px}
-  /* margin-left:auto (desktop) strands "chip in" alone on its wrapped line with a big
-     gap once "this week/all shows/playlists/contact" fill the row on their own --
-     let it sit right after contact instead (Jay, Nov 24, 2026). */
-  .nav a.tip-nav{margin-left:0}
+  /* Drop "chip in" from the masthead nav on phones entirely -- it's still reachable
+     from the tip jar section lower on the page (Jay, Nov 24, 2026). */
+  .nav a.tip-nav{display:none}
 }
 .nav{flex:1 1 100%}
 .nl-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;background:var(--hi);color:var(--hi-ink);text-decoration:none;font-size:16px;white-space:nowrap;align-self:flex-start}
