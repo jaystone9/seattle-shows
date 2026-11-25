@@ -39,6 +39,18 @@ a:hover{color:var(--mark)}
 .nav a.tip-nav:hover{color:var(--mark)}
 .brandrow{flex:1 1 0;min-width:0}
 @media (max-width:480px){.brand{font-size:15px}.nl-cta{font-size:15px;padding:0 10px}.brand-mark{width:32px;height:32px}}
+/* Phone masthead: the row-based desktop layout (brand+edition+CTA+nav all wrapping
+   independently) fell apart on narrow screens -- CTA pill squeezed brandrow down to
+   near nothing, scattering logo/brand/edition/CTA/nav across five uneven lines with
+   "chip in" stranded far right. Force a clean stacked order instead (Jay, Nov 24, 2026). */
+@media (max-width:640px){
+  .mast{flex-direction:column;align-items:stretch;gap:10px}
+  .brandrow{width:100%;align-items:center}
+  .edition{margin-left:auto}
+  .nl-cta{order:3;justify-content:center;width:100%}
+  .nav{order:4;width:100%;row-gap:10px}
+  .nav a.tip-nav{margin-left:auto}
+}
 .nav{flex:1 1 100%}
 .nl-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;background:var(--hi);color:var(--hi-ink);text-decoration:none;font-size:16px;white-space:nowrap;align-self:flex-start}
 .nl-cta:hover{color:#1F4FD8}
