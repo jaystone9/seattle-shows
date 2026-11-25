@@ -112,6 +112,17 @@ a:hover{color:var(--mark)}
 .nl-note{margin:14px 0 0!important;font-size:15px;line-height:1.45}
 .signup .alt{margin-top:16px;padding-top:14px;border-top:1px dashed currentColor;font-size:16px}
 .nl-band + footer{margin-top:40px}
+
+/* tip jar: humble on purpose, sits on paper between the newsletter band and the footer */
+.tip-jar{max-width:36em;margin:40px auto 0;padding:28px 24px 0;text-align:center}
+.tip-jar h2{display:inline-block;margin:0 0 14px;font-family:var(--marker);font-size:26px;line-height:1;font-weight:400;color:var(--ink)}
+.tip-jar h2 .scribble{height:14px;margin-top:0}
+.tip-jar h2 .scribble path{stroke-width:5}
+.tip-jar p{margin:0 0 14px;font-size:15px;line-height:1.6;color:var(--muted)}
+.tip-btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:11px 20px;background:var(--hi);color:var(--hi-ink);border:1px solid var(--ink);text-decoration:none;font:inherit;font-size:15px;font-weight:600}
+.tip-btn:hover{background:var(--ink);color:var(--hi)}
+.tip-note{margin:10px 0 0;font-size:13px;color:var(--muted)}
+.tip-jar + footer{margin-top:40px}
 .formkit-form[data-uid] > div{padding:0 !important}
 .formkit-form[data-uid] .formkit-powered-by-convertkit-container{margin-top:4px !important}
 

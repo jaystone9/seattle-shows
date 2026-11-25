@@ -285,6 +285,7 @@ def main(src="shows", pl="playlists.json", out="data/seattle.json"):
         "genres": [{"genre": g, "slug": GENRE_SLUGS[g]} for g in city_genres] + [{"genre": OTHER_GENRE, "slug": "other"}],
         "genre_window": [g_from, g_to],
         "contact": json.load(open("contact.json")) if glob.glob("contact.json") else {},
+        "donate": json.load(open("donate.json")) if glob.glob("donate.json") else {},
         "venues": VENUES,
         "events": events,
     }

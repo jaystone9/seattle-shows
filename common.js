@@ -163,8 +163,24 @@ window.SC = (function () {
     document.querySelectorAll("[data-signup]").forEach(s => fillSignup(s, nl));
   }
 
+  // Tip jar (Jay, Nov 24, 2026): a small, humble donate ask, kept off the dark newsletter
+  // band on purpose — it lives on paper, between that band and the footer. donate.json:
+  // {enabled, url, label}. No box at all until Jay flips enabled + fills in a real url.
+  function donate(data) {
+    const d = data.donate;
+    const foot = document.querySelector("footer");
+    if (!foot || !d || !d.enabled || !d.url || document.querySelector(".tip-jar")) return;
+    foot.insertAdjacentHTML("beforebegin", `<section class="tip-jar" aria-labelledby="tip-h">
+      <h2 id="tip-h"><span>keep the lights on</span><svg class="scribble" viewBox="0 0 220 26" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16 C 30 4, 55 24, 85 12 S 150 6, 180 15 S 210 20, 216 8"/></svg></h2>
+      <p>2 Week Soundcheck is a one-person side hustle, built for the love of discovering new music and getting people out to support artists and local venues. If it's helped you find a show, a few bucks goes a long way &mdash; it keeps the lights on, and gets us closer to the next city.</p>
+      <a class="tip-btn" href="${esc(d.url)}" target="_blank" rel="noopener" data-tip-jar><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>${esc(d.label || "chip in a few bucks")}</a>
+      <p class="tip-note">no account, no subscription &mdash; just a one-time thanks.</p>
+    </section>`);
+  }
+
   function footer(data) {
     newsletter(data);
+    donate(data);
     const el = document.getElementById("venues");
     if (el) el.innerHTML = Object.entries(data.venues).map(([k, v]) => `<li><a href="${esc(v.site)}" target="_blank" rel="noopener">${esc(v.short)}</a>, ${esc(v.hood)}</li>`).join("");
     document.querySelectorAll("[data-cal]").forEach(a => a.href = data.calendar);
@@ -224,6 +240,7 @@ window.SC = (function () {
       else if (t.matches(".go a.details")) track("details-click", { city });
       else if (t.id === "pl-transfer") track("copy-playlist", { city });
       else if (t.hasAttribute("data-nl-direct")) track("signup-direct-link", { city });
+      else if (t.hasAttribute("data-tip-jar")) track("tip-jar-click", { city });
       else if (t.classList.contains("nl-cta")) track("sunday-email-button", { city });
       else if (t.closest("#pl-tabs")) track("playlist-pick", { city, kind: "area" });
       else if (t.closest("#genre-chips")) track("playlist-pick", { city, kind: "genre" });
