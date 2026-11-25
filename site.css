@@ -123,7 +123,7 @@ a:hover{color:var(--mark)}
 .tip-jar p{margin:0 0 14px;font-size:15px;line-height:1.6;color:var(--muted)}
 .tip-btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:11px 20px;background:var(--hi);color:var(--hi-ink);border:1px solid var(--ink);text-decoration:none;font:inherit;font-size:15px;font-weight:600}
 .tip-btn:hover{background:var(--ink);color:var(--hi)}
-.tip-note{margin:10px 0 0;font-size:13px;color:var(--muted)}
+.tip-note{margin:20px 0 0;font-size:13px;color:var(--muted)}
 .tip-jar + footer{margin-top:40px}
 .formkit-form[data-uid] > div{padding:0 !important}
 .formkit-form[data-uid] .formkit-powered-by-convertkit-container{margin-top:4px !important}
