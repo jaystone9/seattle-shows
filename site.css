@@ -26,7 +26,7 @@ a:hover{color:var(--mark)}
 /* masthead */
 .mast{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 24px;padding:20px 0 0}
 .brandrow{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap}
-.brand-mark{flex:0 0 auto;display:block}
+.brand-mark{flex:0 0 auto;display:block;object-fit:cover}
 .brand{font-size:16px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}
 .brand b{color:inherit}
 .edition{display:inline-flex;align-items:center}
