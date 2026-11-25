@@ -26,9 +26,9 @@ a:hover{color:var(--mark)}
 /* masthead */
 .mast{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 24px;padding:20px 0 0}
 .brandrow{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap}
-.brand-mark{flex:0 0 auto;display:block;object-fit:cover}
-.brand{font-size:16px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}
+.brand{position:relative;display:inline-block;font-size:16px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}
 .brand b{color:inherit}
+.brand-scribble{position:absolute;left:0;bottom:-8px;max-width:100%;pointer-events:none}
 .edition{display:inline-flex;align-items:center}
 .edition select{font:inherit;font-size:16px;color:var(--ink);background:transparent;border:0;border-bottom:2px solid var(--line);border-radius:0;padding:8px 4px;min-height:44px;cursor:pointer}
 .edition select option{color:#121212;background:#FBFAF5}
@@ -39,7 +39,7 @@ a:hover{color:var(--mark)}
 .nav a.tip-nav{margin-left:auto;gap:4px;color:var(--muted);text-decoration:underline}
 .nav a.tip-nav:hover{color:var(--mark)}
 .brandrow{flex:1 1 0;min-width:0}
-@media (max-width:480px){.brand{font-size:15px;letter-spacing:.1em}.nl-cta{font-size:15px;padding:0 10px}.brand-mark{width:22px;height:22px}}
+@media (max-width:480px){.brand{font-size:15px;letter-spacing:.1em}.nl-cta{font-size:15px;padding:0 10px}}
 .nav{flex:1 1 100%}
 .nl-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;background:var(--hi);color:var(--hi-ink);text-decoration:none;font-size:16px;white-space:nowrap;align-self:flex-start}
 .nl-cta:hover{color:#1F4FD8}
