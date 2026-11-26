@@ -70,7 +70,6 @@
 
   <section id="picks" aria-label="Tonight and this weekend"></section>
   <p class="all-shows"><a class="to-shows" id="to-shows" href="shows.html">See all the shows →</a></p>
-  <p class="venue-line" id="venue-line"></p>
   </div>
 
   <aside class="col-side" aria-label="Playlist">
@@ -416,7 +415,6 @@
       if(VIEW==="shows") history.replaceState(null,"",u);
     }
     $("#to-shows").textContent = `See all ${soon.length} shows, by date, venue or genre →`;
-    { const nv = new Set(soon.map(e=>e.venue)).size, vl = $("#venue-line"); if(vl) vl.innerHTML = `${nv} venues in the next two weeks. <a href="shows.html#venues">See the venue list →</a>`; }
 
     // City page: tonight (or the next night with shows) and the weekend ahead, a few shows each,
     // every row with a "hear them" button. Time order; only shows that have a song to play.
