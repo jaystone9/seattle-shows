@@ -391,3 +391,26 @@ body[data-view="shows"] .venue-line{display:none}
   body:not([data-view="shows"]) .wide #r1.long{font-size:clamp(54px,7vw,88px)}
   body:not([data-view="shows"]) .wide .tip-jar{margin-top:72px}
 }
+
+/* The first two-column version put eleven boxed playlist buttons beside the headline and read as
+   cluttered on a laptop (Jay, Nov 25, 2026). In the sidebar only: the player comes first, the
+   playlist choices are one quiet row of text links under it, and the extra helper lines
+   (Gmail tip, calendar links, "find their show") are left to the footer and the single-column view. */
+@media (min-width:1100px){
+  body:not([data-view="shows"]) .wide .col-side .listen > div{display:flex;flex-direction:column}
+  body:not([data-view="shows"]) .wide .col-side .listen h2{margin-bottom:14px}
+  body:not([data-view="shows"]) .wide .col-side .listen h2 span:not(.mk){display:none}
+  body:not([data-view="shows"]) .wide .col-side .player{order:1}
+  body:not([data-view="shows"]) .wide .col-side #pl-sub{order:2;margin:10px 0 0;font-size:15px;color:var(--muted)}
+  body:not([data-view="shows"]) .wide .col-side .pl-pick{order:3;margin:14px 0 0;padding:12px 0 0;border-bottom:0}
+  body:not([data-view="shows"]) .wide .col-side .pl-pick .genre-label{display:none}
+  body:not([data-view="shows"]) .wide .col-side .pl-pick .genre-pick{margin:2px 0 0}
+  body:not([data-view="shows"]) .wide .col-side .pl-pick .pl-tabs,body:not([data-view="shows"]) .wide .col-side .pl-pick .genre-chips{gap:0 14px}
+  body:not([data-view="shows"]) .wide .col-side .pl-pick .pl-tabs button,body:not([data-view="shows"]) .wide .col-side .pl-pick .genre-chips button{min-height:32px;padding:2px 0;font-size:15px;border:0;background:none;color:var(--ink);text-decoration:underline}
+  body:not([data-view="shows"]) .wide .col-side .pl-pick .pl-tabs button:hover,body:not([data-view="shows"]) .wide .col-side .pl-pick .genre-chips button:hover{background:none;color:var(--mark)}
+  body:not([data-view="shows"]) .wide .col-side .pl-pick .pl-tabs button[aria-pressed="true"],body:not([data-view="shows"]) .wide .col-side .pl-pick .genre-chips button[aria-pressed="true"]{background:none;color:var(--ink);text-decoration:none;box-shadow:inset 0 -3px 0 var(--ink)}
+  body:not([data-view="shows"]) .wide .col-side .player + .pl-find,body:not([data-view="shows"]) .wide .col-side .pl-note{display:none}
+  body:not([data-view="shows"]) .wide .col-side .pl-find{order:4;margin:8px 0 0;font-size:15px}
+  body:not([data-view="shows"]) .wide .col-side .signup .nl-note,body:not([data-view="shows"]) .wide .col-side .signup .alt{display:none}
+  body:not([data-view="shows"]) .wide .col-side .signup p{margin-bottom:12px;font-size:16px}
+}
