@@ -33,7 +33,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Permanent+Marker&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../site.css?v=e13ff3a7">
+<link rel="stylesheet" href="../site.css?v=2ee7b4f9">
 </head>
 <body data-view="shows" data-city="seattle" data-tz="America/Los_Angeles" data-data="../data/seattle.json">
 <div class="wrap">
@@ -60,7 +60,7 @@
   </header>
 
   <section class="hero" aria-labelledby="range">
-    <h1 id="range" class="pending"><span class="city"><span id="r1">The next</span><svg class="scribble" viewBox="0 0 560 26" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16 C 60 4, 110 24, 170 12 S 290 6, 350 15 S 480 20, 556 8"/></svg></span></h1>
+    <h1 id="range"><span class="city"><span id="r1">Seattle</span><svg class="scribble" viewBox="0 0 560 26" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16 C 60 4, 110 24, 170 12 S 290 6, 350 15 S 480 20, 556 8"/></svg></span></h1>
     <p id="lede">Every concert at Seattle's best venues for the next two weeks. Hear any artist before you buy a ticket.</p>
     <p id="r2" class="when"></p>
     <div class="meter" id="meter" role="group" aria-label="The two weeks. Pick a date to see just that night."></div>
@@ -86,8 +86,8 @@
       <div class="player" id="player"></div>
       <p class="pl-find">Hear one you like? <a href="shows.html">Find their show →</a></p>
       <p class="pl-find">Not on Spotify? <a id="pl-transfer" href="https://www.tunemymusic.com/transfer" target="_blank" rel="noopener">Copy this playlist to other&nbsp;streamers&nbsp;→</a></p>
-      <p class="pl-note" id="pl-note" hidden>Follow it once on Spotify. It refreshes every Sunday.</p>
-      <p style="margin:12px 0 0"><a href="playlists.html">Playlists</a></p>
+      <p class="pl-note" id="pl-note" hidden>Save it once on Spotify and it updates itself every Sunday.</p>
+      <p class="pl-find"><a href="playlists.html">See every playlist →</a></p>
     </div>
   </section>
 
@@ -162,8 +162,7 @@
   </footer>
 </div>
 
-<script>setTimeout(()=>document.getElementById("range")?.classList.remove("pending"),2500)</script>
-<script src="../common.js?v=825489f5"></script>
+<script src="../common.js?v=e7e055b3"></script>
 <script>
 (function(){
   const {esc,todayISO,addDays,D,fmt,range,showRow,load,footer} = SC;
@@ -194,7 +193,6 @@
     $("#r1").classList.toggle("long", cityName.length>9);  // long names (Salt Lake City) get a smaller size
     const nVen = new Set(soon.map(e=>e.venue)).size;
     $("#r2").textContent = `${range(start,end)} / ${soon.length} show${soon.length===1?"":"s"} / ${nVen} venue${nVen===1?"":"s"}`;
-    $("#range").classList.remove("pending");
 
     // meter
     const byDay = {}; windowShows.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
@@ -236,11 +234,17 @@
       $("#pl-note").hidden = !(gp || (pl && pl.standing));  // standing playlists: save once, refreshed every Sunday
       if(pl && pl.id){
         $("#player").innerHTML = `<iframe title="${esc(pl.name)} on Spotify" src="https://open.spotify.com/embed/playlist/${esc(pl.id)}?utm_source=generator&theme=0" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
+        // The page's own dates roll daily (today + 13) but the playlist is rebuilt on Sundays, so two
+        // date ranges on one page read as a stale playlist (Jay, Nov 25, 2026). Say when it was last
+        // refreshed instead. pl.start comes from the weekly data, so this moves on by itself each
+        // Sunday; if a Sunday refresh is ever missed, the date is dropped rather than shown old.
+        const fresh = pl.start && today < addDays(pl.start,7)
+          ? `Refreshed ${fmt(pl.start,{weekday:"long",month:"short",day:"numeric"})}.` : "Refreshed every Sunday.";
         $("#pl-sub").textContent = gp
-          ? `${pl.songs} songs from ${pl.artists} ${gp.genre} headliners playing ${range(pl.start,pl.end)}, in show order.`
+          ? `${pl.songs} songs from ${pl.artists} ${gp.genre} headliners, in show order. ${fresh}`
           : area
-          ? `${pl.songs} songs from ${pl.artists} artists playing ${where(area)} ${range(pl.start,pl.end)}, openers included, in show order.`
-          : `${pl.songs} songs from ${pl.artists} headliners playing ${range(pl.start,pl.end)}, in show order. ${pl.standing?"Save it once; it refreshes every Sunday.":"A new playlist every Sunday."}`;
+          ? `${pl.songs} songs from ${pl.artists} artists playing ${where(area)}, openers included, in show order. ${fresh}`
+          : `${pl.songs} songs from ${pl.artists} headliners, in show order. ${fresh}`;
       } else {
         $("#player").innerHTML = `<p class="empty" style="padding:24px">${area?`The first ${esc(area)} playlist lands this Sunday: every artist on the bill at ${where(area)}, openers included.`:"This week's playlist is being built. Check back Sunday evening."}</p>`;
         $("#pl-sub").textContent = area ? `Every act playing ${where(area)}.` : "The top songs from every headliner, in show order.";
@@ -383,7 +387,7 @@
       if(af) bits.push(af); else if(picked.size) bits.push(picked.size===1?venues[[...picked][0]].short:picked.size+" venues");
       if(dr) bits.push($("#when").value==="pick"?fmt(dr[0],{month:"short",day:"numeric"}):$("#when").selectedOptions[0].textContent);
       if(q) bits.push('"'+$("#q").value.trim()+'"');
-      $("#fbar-txt").textContent = filtered ? `${bits.join(" · ")} · ${count} show${count===1?"":"s"}` : `${soon.length} shows at ${new Set(soon.map(e=>e.venue)).size} venues`;
+      $("#fbar-txt").textContent = filtered ? `${bits.join(" · ")} · ${count} show${count===1?"":"s"}` : "All dates, venues and genres";
       $("#fbar-clear").hidden = !filtered;
       // further out
       // further out has no genres yet: with a genre picked, say so instead of listing other shows

@@ -362,6 +362,8 @@ def city_pages():
                              (f'content="https://2weeksoundcheck.com/{slug}/"', f'content="https://2weeksoundcheck.com/{slug}/shows.html"')]:
                     assert a in html, a
                     html = html.replace(a, b)
+            if len(name) > 9:   # long names (Salt Lake City) get the smaller title size from the first paint
+                html = html.replace('<span id="r1">', '<span id="r1" class="long">')
             html = picker(html, slug)   # after the name swap, so the Seattle option keeps its label
             os.makedirs(slug, exist_ok=True)
             out = f"{slug}/{page}"
@@ -369,6 +371,7 @@ def city_pages():
                 open(out, "w").write(html)
     home_page()
     contact_root()
+    not_found_page()
 
 
 def contact_root():
@@ -394,6 +397,15 @@ def contact_root():
         html = html.replace(a, b)
     if not glob.glob("contact.html") or open("contact.html").read() != html:
         open("contact.html", "w").write(html)
+
+
+def not_found_page():
+    """404.html at the site root: GitHub Pages serves it for any missing address, at any depth,
+    so every link in it is absolute. One row per live city."""
+    links = "\n".join(f'      <a href="/{k}/">{c["name"]}<span>see the shows →</span></a>' for k, c in editions() if c.get("live"))
+    out = open("templates/404.html").read().replace("<!--CITY_LINKS-->", links)
+    if not glob.glob("404.html") or open("404.html").read() != out:
+        open("404.html", "w").write(out)
 
 
 def home_page():
@@ -437,7 +449,7 @@ def stamp_assets(assets=("site.css", "common.js")):
     """Add ?v=<content hash> to the shared CSS/JS links so browsers fetch new copies after each change."""
     import hashlib
     import re
-    pages = ["index.html", "contact.html"] + [f"{k}/{p}" for k, _ in editions() for p, _ in PAGES]
+    pages = ["index.html", "contact.html", "404.html"] + [f"{k}/{p}" for k, _ in editions() for p, _ in PAGES]
     for page in pages:
         if not glob.glob(page):
             continue
@@ -447,7 +459,7 @@ def stamp_assets(assets=("site.css", "common.js")):
             if not glob.glob(asset):
                 continue
             v = hashlib.md5(open(asset, "rb").read()).hexdigest()[:8]
-            new = re.sub(r'(["\'])((?:\.\./)?)' + re.escape(asset) + r'(\?v=[0-9a-f]+)?(["\'])', r"\g<1>\g<2>" + asset + "?v=" + v + r"\g<4>", new)
+            new = re.sub(r'(["\'])((?:\.\./|/)?)' + re.escape(asset) + r'(\?v=[0-9a-f]+)?(["\'])', r"\g<1>\g<2>" + asset + "?v=" + v + r"\g<4>", new)
         if new != html:
             open(page, "w").write(new)
 

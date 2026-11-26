@@ -52,6 +52,11 @@ a:hover{color:var(--mark)}
   /* Drop "chip in" from the masthead nav on phones entirely -- it's still reachable
      from the tip jar section lower on the page (Jay, Nov 24, 2026). */
   .nav a.tip-nav{display:none}
+  /* "Contact" wrapped onto a line of its own on phones; it lives in the footer there
+     (Jay, Nov 25, 2026). The root contact page, where it is the only link, keeps it. */
+  .nav a[href$="contact.html"]:not(:only-child){display:none}
+  /* The hero and the filter bar already say how many shows; don't say it a third time. */
+  body[data-view="shows"] .section-head #lineup-count{display:none}
 }
 .nav{flex:1 1 100%}
 .nl-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;background:var(--hi);color:var(--hi-ink);text-decoration:none;font-size:16px;white-space:nowrap;align-self:flex-start}
@@ -59,7 +64,7 @@ a:hover{color:var(--mark)}
 
 /* hero: city and dates in marker */
 .hero{padding:56px 0 0}
-.hero h1{margin:0;display:flex;flex-direction:column;align-items:flex-start;transition:opacity .25s ease}
+.hero h1{margin:0;display:flex;flex-direction:column;align-items:flex-start}
 .hero h1 .city{display:inline-flex;flex-direction:column;max-width:100%}
 #r1{font-family:var(--marker);font-size:clamp(72px,18vw,128px);line-height:.95}
 #r1.long{font-size:clamp(54px,13vw,112px)}
@@ -67,7 +72,6 @@ a:hover{color:var(--mark)}
 .scribble path{fill:none;stroke:var(--mark);stroke-width:7;stroke-linecap:round;vector-effect:non-scaling-stroke}
 .hero .when{margin:10px 0 0;font-size:16px;letter-spacing:.12em;text-transform:uppercase;min-height:1.55em}
 #lede{max-width:23em;margin:18px 0 0;font-size:clamp(21px,4vw,30px);line-height:1.25;text-wrap:pretty}
-.hero h1.pending{opacity:0}
 .hero p{max-width:31em;margin:20px 0 0}
 
 /* the two weeks: a typed row of dates. Past days crossed out, today circled, tap to filter */
@@ -223,7 +227,7 @@ button.btn:disabled{opacity:.45;cursor:not-allowed}
 .show .go{grid-column:3;grid-row:1 / span 2;align-self:center;display:flex;gap:4px 14px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
 .go a,.pv{display:inline-flex;align-items:center;gap:6px;min-height:44px;font:inherit;font-size:16px;color:var(--ink);background:none;border:0;border-radius:0;padding:0 4px;text-decoration:underline;text-transform:lowercase;white-space:nowrap;cursor:pointer}
 .go a:hover,.pv:hover{color:var(--mark)}
-.day.today .go a.tickets,.pick.today .go a.tickets,.pv[aria-expanded="true"]{background:var(--hi);color:var(--hi-ink);text-decoration:none;padding:0 8px}
+.go a.tickets,.pv[aria-expanded="true"]{background:var(--hi);color:var(--hi-ink);text-decoration:none;padding:0 8px}
 .pv svg{width:11px;height:11px;fill:currentColor}
 .pv .i-stop{display:none}.pv[aria-expanded="true"] .i-stop{display:inline}.pv[aria-expanded="true"] .i-play{display:none}
 .pv-player{padding:0 0 14px}

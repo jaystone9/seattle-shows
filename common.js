@@ -19,12 +19,16 @@ window.SC = (function () {
     const v = venues[e.venue] || { short: e.venue };
     const cancelled = e.status === "cancelled";
     const flag = e.status ? `<span class="flag">${esc(e.status[0].toUpperCase() + e.status.slice(1))}</span>` : "";
-    const t = e.time ? `<span class="t">${time(e.time)}</span> at ` : "";
-    const btn = e.url && !cancelled ? `<a class="${e.link}" href="${esc(e.url)}" target="_blank" rel="noopener">${e.link === "tickets" ? "Tickets" : "Details"}<span class="visually-hidden"> for ${esc(e.title)}</span></a>` : "";
-    const pv = !compact && e.preview && !cancelled ? `<button class="pv" type="button" data-track="${esc(e.preview.track)}" aria-expanded="false" aria-label="Preview ${esc(e.title)}: ${esc(e.preview.song || "top song")}"><svg viewBox="0 0 16 16" aria-hidden="true"><path class="i-play" d="M4 2.5v11l9-5.5z"/><rect class="i-stop" x="3.5" y="3.5" width="9" height="9" rx="1.5"/></svg><span>Hear them</span></button>` : "";
+    // "(Matinee)", "(Early show)", "(Late show)" belong with the time, not in the artist's name.
+    let title = e.title, slot = "";
+    const sm = /\s*\((matinee|early show|late show|early|late)\)\s*$/i.exec(title);
+    if (sm) { title = title.slice(0, sm.index); slot = " " + sm[1].toLowerCase(); }
+    const t = e.time ? `<span class="t">${time(e.time)}${slot}</span> at ` : slot ? `<span class="t">${slot.trim()}</span> at ` : "";
+    const btn = e.url && !cancelled ? `<a class="${e.link}" href="${esc(e.url)}" target="_blank" rel="noopener">${e.link === "tickets" ? "Tickets" : "Details"}<span class="visually-hidden"> for ${esc(title)}</span></a>` : "";
+    const pv = !compact && e.preview && !cancelled ? `<button class="pv" type="button" data-track="${esc(e.preview.track)}" aria-expanded="false" aria-label="Preview ${esc(title)}: ${esc(e.preview.song || "top song")}"><svg viewBox="0 0 16 16" aria-hidden="true"><path class="i-play" d="M4 2.5v11l9-5.5z"/><rect class="i-stop" x="3.5" y="3.5" width="9" height="9" rx="1.5"/></svg><span>Hear them</span></button>` : "";
     const d = compact ? `<div class="d">${fmt(e.date, { month: "short", day: "numeric" })}<span>${fmt(e.date, { weekday: "short" })}</span></div>` : "";
     return `<div class="show${cancelled ? " cancelled" : ""}">${d}
-      <div><div class="who">${esc(e.title)}${flag}</div>${e.support.length ? `<div class="with">with ${esc(e.support.join(", "))}</div>` : ""}</div>
+      <div><div class="who">${esc(title)}${flag}</div>${e.support.length ? `<div class="with">with ${esc(e.support.join(", "))}</div>` : ""}</div>
       <div class="where">${t}${esc(v.short)}<span style="color:var(--muted)">, ${esc(v.hood || "")}</span></div>
       <div class="go">${pv}${btn}</div></div>`;
   }
