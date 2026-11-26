@@ -51,10 +51,7 @@
   <section class="page-head">
     <h1>The playlists</h1>
     <p>Save the ones you want. They update automatically every Sunday with the next two weeks of shows.</p>
-    <div class="pl-row">
-      <div class="pl-groups" id="pl-filter" role="group" aria-label="Show playlists for" hidden></div>
-      <p class="pl-transfer">Not on Spotify? <a id="pl-transfer" href="https://www.tunemymusic.com/transfer" target="_blank" rel="noopener">Copy any playlist to other streaming services here</a>.</p>
-    </div>
+    <p class="pl-transfer">Not on Spotify? <a id="pl-transfer" href="https://www.tunemymusic.com/transfer" target="_blank" rel="noopener">Copy any playlist to other streaming services here</a>.</p>
   </section>
 
   <div class="plist" id="plist"></div>
@@ -120,31 +117,11 @@ SC.load().then(data=>{
       ${genCards?`<section class="wk"><h2>By genre</h2><div class="pl-pair">${genCards}</div></section>`:""}` :
     `<p class="empty">The first playlist is on its way. Check back Sunday.</p>`;
 
-  // Filter: All / city / each neighborhood / each genre. ?show=frelard keeps a shareable link.
-  const areas = [...new Set(mains.map(p=>p.area).filter(Boolean))];
-  const genres = gens.map(p=>p.genre);
-  const f = document.getElementById("pl-filter");
-  // Two labelled rows instead of one long wrapped list (Jay, Nov 25, 2026): places, then genres.
-  // Nothing chosen = everything shown; once something is chosen a "Show all playlists" link
-  // appears (and clicking the chosen one again clears it too). The city button is named like
-  // its card ("All of Seattle"); a city with no neighborhood playlists gets the genre row only.
-  const btn = ([k,l]) => `<button type="button" data-kind="${esc(k)}" aria-pressed="false">${esc(l)}</button>`;
-  const grp = (label, items) => items.length ? `<div class="pl-grp"><span class="pl-grp-label">${esc(label)}</span><div class="pl-grp-items">${items.map(btn).join("")}</div></div>` : "";
-  const places = areas.length ? [[city, `All of ${city}`], ...areas.map(a=>[a,a])] : [];
-  const top = [...places, ...genres.map(g=>[g,g])];
-  f.innerHTML = grp("By area", places) + grp("By genre", genres.map(g=>[g,g])) + `<button type="button" class="pl-clear" data-kind="" hidden>&larr; Show all playlists</button>`;
-  const clear = f.querySelector(".pl-clear");
-  function pick(k){
-    f.querySelectorAll("button[aria-pressed]").forEach(b=>b.setAttribute("aria-pressed", String(!!k && b.dataset.kind===k)));
-    clear.hidden = !k;
-    box.querySelectorAll(".pl-card").forEach(el=>el.hidden = !(!k || el.dataset.kind===k));
-    box.querySelectorAll(".wk").forEach(w=>{ w.hidden = ![...w.querySelectorAll(".pl-card")].some(x=>!x.hidden); });
-    const u = new URL(location.href); k ? u.searchParams.set("show", k.toLowerCase()) : u.searchParams.delete("show"); history.replaceState(null,"",u);
-  }
-  f.addEventListener("click", ev=>{ const b=ev.target.closest("button"); if(b) pick(b.getAttribute("aria-pressed")==="true" ? "" : b.dataset.kind); });
-  if (top.length > 1) f.hidden = false;
+  // No filter row (Jay, Nov 25, 2026): the page is short enough to scroll. Old ?show=frelard
+  // links still land on that playlist.
   const want = (new URLSearchParams(location.search).get("show")||"").toLowerCase();
-  pick([city,...areas,...genres].find(k=>k.toLowerCase()===want) || "");
+  const hit = want && [...box.querySelectorAll(".pl-card")].find(el=>el.dataset.kind.toLowerCase()===want);
+  if (hit) hit.scrollIntoView();
 }).catch(()=>{document.getElementById("plist").innerHTML=`<p class="empty">Playlists didn't load. Refresh the page to try again.</p>`;});
 </script>
 </body>

@@ -281,24 +281,7 @@ footer ul{list-style:none;padding:0;margin:0;display:grid;gap:3px}
 .page-head{padding:48px 0 8px}
 .page-head h1{margin:0;font-family:var(--marker);font-size:clamp(48px,10vw,96px);line-height:.98}
 .page-head p{max-width:36em;font-size:17px;margin:16px 0 0}
-.page-head .pl-transfer{margin:0;font-size:16px;max-width:none}
-/* Playlists page filter: labelled rows of quiet text buttons; the chosen one gets the black underline. */
-.pl-groups{display:grid;gap:2px 0;margin:28px 0 0;padding:10px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.pl-grp{display:grid;grid-template-columns:110px 1fr;align-items:baseline}
-.pl-grp-label{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.pl-grp-items{display:flex;flex-wrap:wrap;gap:0 22px;min-width:0}
-.pl-groups button{font:inherit;font-size:16px;color:var(--ink);background:none;border:0;border-radius:0;padding:7px 0 5px;min-height:36px;cursor:pointer;text-align:left}
-.pl-groups button:hover{color:var(--mark);text-decoration:underline}
-.pl-groups button[aria-pressed="true"]{box-shadow:inset 0 -3px 0 var(--ink);text-decoration:none;color:var(--ink)}
-.pl-groups .pl-clear{justify-self:start;margin-left:110px;font-size:15px;color:var(--muted);text-decoration:underline}
-.pl-groups .pl-clear[hidden]{display:none}
-.page-head .pl-groups + .pl-transfer{margin:14px 0 0;font-size:15px;color:var(--muted)}
-@media (max-width:640px){
-  .pl-grp{grid-template-columns:1fr;margin-top:6px}
-  .pl-grp:first-child{margin-top:0}
-  .pl-groups .pl-clear{margin-left:0}
-  .pl-groups button{min-height:44px;padding:10px 0 8px}
-}
+.page-head .pl-transfer{margin:10px 0 0;font-size:15px;color:var(--muted);max-width:none}
 .pl-row + .g-chips{margin-top:16px}
 
 /* playlist archive: one section per two-week window */
