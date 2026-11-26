@@ -29,6 +29,7 @@ ADDR = {
     "The Moore Theatre": "The Moore Theatre, 1932 2nd Ave, Seattle, WA 98101",
     "The Neptune Theatre": "The Neptune Theatre, 1303 NE 45th St, Seattle, WA 98105",
     "The Vera Project": "The Vera Project, 305 Harrison St, Seattle, WA 98109",
+    "KEXP": "KEXP, 472 1st Ave N, Seattle, WA 98109",
     "The Triple Door": "The Triple Door, 216 Union St, Seattle, WA 98101",
     "Black Lodge": "Black Lodge, 429 Eastlake Ave E, Seattle, WA 98109",
     "El Corazón": "El Corazón, 109 Eastlake Ave E, Seattle, WA 98109",

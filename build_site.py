@@ -44,6 +44,7 @@ VENUES = {
     "The Moore Theatre": {"short": "The Moore", "hood": "Belltown", "site": "https://www.stgpresents.org/venues/moore-theatre/"},
     "The Neptune Theatre": {"short": "The Neptune", "hood": "U District", "site": "https://www.stgpresents.org/venues/neptune-theatre/"},
     "The Vera Project": {"short": "Vera Project", "hood": "Seattle Center", "site": "https://theveraproject.org/"},
+    "KEXP": {"short": "KEXP", "hood": "Seattle Center", "site": "https://www.kexp.org/events/kexp-events/"},
     "Black Lodge": {"short": "Black Lodge", "hood": "Eastlake", "site": "https://dice.fm/venue/the-black-lodge-qppa"},
     "El Corazón": {"short": "El Corazón", "hood": "Eastlake", "site": "https://www.elcorazonseattle.com/"},
     "The Funhouse": {"short": "The Funhouse", "hood": "Eastlake", "site": "https://www.elcorazonseattle.com/"},
