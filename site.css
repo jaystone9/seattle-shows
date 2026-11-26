@@ -376,3 +376,18 @@ body[data-view="shows"] .venue-line{display:none}
 .pl-pick .pl-tabs button,.pl-pick .genre-chips button{min-height:44px;padding:8px 14px;font-size:17px;border:2px solid var(--ink);text-decoration:none;background:transparent;color:var(--ink)}
 .pl-pick .pl-tabs button:hover,.pl-pick .genre-chips button:hover{background:var(--hi);color:var(--hi-ink)}
 .pl-pick .pl-tabs button[aria-pressed="true"],.pl-pick .genre-chips button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+
+/* Wide screens, city page only (Jay, Nov 25, 2026): shows on the left, the playlist and the
+   Sunday signup in a right-hand column, so "press play" is on screen without scrolling.
+   Under 1100px (phones, iPads, small laptop windows) and on every other page, nothing changes:
+   one column. The tip jar and footer stay full width under both columns. */
+@media (min-width:1100px){
+  body:not([data-view="shows"]) .wrap.wide{max-width:1240px}
+  body:not([data-view="shows"]) .wide .cols{display:grid;grid-template-columns:minmax(0,1fr) 400px;column-gap:64px;align-items:start}
+  body:not([data-view="shows"]) .wide .col-side .listen{margin-top:56px}
+  body:not([data-view="shows"]) .wide .col-side .signup{margin-top:40px;padding:28px 24px}
+  body:not([data-view="shows"]) .wide .col-side .signup h3{font-size:34px}
+  body:not([data-view="shows"]) .wide .col-side .pl-pick .pl-tabs button,body:not([data-view="shows"]) .wide .col-side .pl-pick .genre-chips button{padding:8px 11px;font-size:16px}
+  body:not([data-view="shows"]) .wide #r1.long{font-size:clamp(54px,7vw,88px)}
+  body:not([data-view="shows"]) .wide .tip-jar{margin-top:72px}
+}
