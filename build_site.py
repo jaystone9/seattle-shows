@@ -357,7 +357,7 @@ def city_pages():
                 html = html.replace(a, b)
             if page == "shows.html":
                 for a, b in [('<body data-city', '<body data-view="shows" data-city'),
-                             ('<a href="./" aria-current="page">This week</a>', '<a href="./">This week</a>'),
+                             ('<a href="./" aria-current="page">Home</a>', '<a href="./">Home</a>'),
                              ('<a href="shows.html">All shows</a>', '<a href="shows.html" aria-current="page">All shows</a>'),
                              (f'<title>2 Week Soundcheck · {name}</title>', f'<title>Shows · 2 Week Soundcheck · {name}</title>'),
                              (f'content="https://2weeksoundcheck.com/{slug}/"', f'content="https://2weeksoundcheck.com/{slug}/shows.html"')]:

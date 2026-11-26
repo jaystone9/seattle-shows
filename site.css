@@ -385,8 +385,6 @@ body[data-view="shows"] .venue-line{display:none}
   body:not([data-view="shows"]) .wrap.wide{max-width:1240px}
   body:not([data-view="shows"]) .wide .cols{display:grid;grid-template-columns:minmax(0,1fr) 400px;column-gap:64px;align-items:start}
   body:not([data-view="shows"]) .wide .col-side .listen{margin-top:56px}
-  body:not([data-view="shows"]) .wide .col-side .signup{margin-top:40px;padding:28px 24px}
-  body:not([data-view="shows"]) .wide .col-side .signup h3{font-size:34px}
   body:not([data-view="shows"]) .wide .col-side .pl-pick .pl-tabs button,body:not([data-view="shows"]) .wide .col-side .pl-pick .genre-chips button{padding:8px 11px;font-size:16px}
   body:not([data-view="shows"]) .wide #r1.long{font-size:clamp(54px,7vw,88px)}
   body:not([data-view="shows"]) .wide .tip-jar{margin-top:72px}
@@ -411,6 +409,10 @@ body[data-view="shows"] .venue-line{display:none}
   body:not([data-view="shows"]) .wide .col-side .pl-pick .pl-tabs button[aria-pressed="true"],body:not([data-view="shows"]) .wide .col-side .pl-pick .genre-chips button[aria-pressed="true"]{background:none;color:var(--ink);text-decoration:none;box-shadow:inset 0 -3px 0 var(--ink)}
   body:not([data-view="shows"]) .wide .col-side .player + .pl-find,body:not([data-view="shows"]) .wide .col-side .pl-note{display:none}
   body:not([data-view="shows"]) .wide .col-side .pl-find{order:4;margin:8px 0 0;font-size:15px}
-  body:not([data-view="shows"]) .wide .col-side .signup .nl-note,body:not([data-view="shows"]) .wide .col-side .signup .alt{display:none}
-  body:not([data-view="shows"]) .wide .col-side .signup p{margin-bottom:12px;font-size:16px}
+}
+
+/* The Sunday signup sits under both columns on wide screens, not in the sidebar (Jay, Nov 25, 2026):
+   the sidebar is the player only. Kept to the reading width and centered. */
+@media (min-width:1100px){
+  body:not([data-view="shows"]) .wide > .signup{max-width:760px;margin-left:auto;margin-right:auto}
 }
